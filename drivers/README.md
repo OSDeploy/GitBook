@@ -1,19 +1,36 @@
 # Drivers
 
-Whether you use OSD or MDT, you are going to need to download and import some Drivers.  In my Enterprise we use Dell as our Primary Manufacturer \(Make\), so I will be focused on detailing the methods used for Dell systems, but whether you use Lenovo, HP, or Microsoft, the lessons learned in this section should be similar.
+Whether you use OSD or MDT, you are going to need to download and import Drivers for your computers.  In my Enterprise we use Dell as our Primary Computer Manufacturer \(Make\), so I will be focused on detailing the methods used for Dell Computers, but whether you use Lenovo, HP, or Microsoft, the lessons learned in this section should be similar.
 
 Be prepared, managing Drivers will take some time and effort.
 
 ---
 
-## Create a Repository
+## Create a Driver Repository
 
-Let's start out by creating a Repository for our Drivers, preferably in the root of a Drive \(with plenty of space\)
+Before working with Drivers, you need to make a Driver Repository.  This will be where you Download, Extract, and Manage the Drivers you will import into OSD or MDT.
+
+On my system, I 
 
 ```
-OSDeploy
-    OSDrivers       (Production)
-    OSDriversDEV    (Development)
+D:\Drivers
+D:\Drivers\A-Archive
+D:\Drivers\B-Download
+D:\Drivers\C-Extract
+D:\Drivers\D-Develop
+D:\Drivers\E-Alpha
+D:\Drivers\F-Beta
+D:\Drivers\Z-Publish
+
+
+
+
+
+
+        
+        
+        
+        
         Apps        (Utilities and Scripts)
         Download    (Compressed Master Drivers)
         Extract     (Extracted Master Drivers)
@@ -21,8 +38,4 @@ OSDeploy
 ```
 
 ![](/assets/2017-10-30_13-44-19.png)
-
-
-
-
 
