@@ -8,6 +8,8 @@ We are not Consultants trying to sell you anything, just two guys that manage th
 
 **David Segura**
 
+[https://twitter.com/SeguraOSD](https://twitter.com/SeguraOSD "Twitter")
+
 [https://www.linkedin.com/in/davidsegura/](https://www.linkedin.com/in/davidsegura/)
 
 [https://www.facebook.com/segura](https://www.facebook.com/segura)
