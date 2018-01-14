@@ -43,13 +43,20 @@
 	* [Cleanup Summary](/drivers/dell-driver-cleanup/cleanup-summary.md)
 	
 ## OSDrivers
-* [Packs](osdrivers/README.md)
-* [Audio](osdrivers/audio.md)
-* [Network](osdrivers/network.md)
-* [Wireless](osdrivers/wireless.md)
+* [Reference](osdrivers/README.md)
+	* [Audio](osdrivers/audio.md)
+	* [Network](osdrivers/network.md)
+	* [Wireless](osdrivers/wireless.md)
 
 ## Windows Upgrades
-
+* [Servicing](/windows-upgrades/servicing/README.md)
+	* [SetupConfig.ini](/windows-upgrades/servicing/setupconfigini.md)
+	* [SetupComplete.cmd](upgrading/servicing/setupcompletecmd.md)
+	* [SetupComplete.ps1](upgrading/servicing/setupcompleteps1.md)
+	* [Install Drivers](upgrading/servicing/install-drivers.md)
+	* [Reflect Drivers](upgrading/servicing/reflect-drivers.md)
+	* [Netlogon](upgrading/servicing/netlogon.md)
+	* [Group Policy](upgrading/servicing/group-policy.md)
 
 ## Resources
 * [Links](resources/links/README.md)
