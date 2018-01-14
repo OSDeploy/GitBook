@@ -77,11 +77,9 @@
   * [Download MDT](getting-started/download-mdt.md)
   * [Download ADK](getting-started/download-adk.md)
 * [Group Policy](group-policy.md)
-  * [WMI Filters](group-policy/wmi-filters.md)
 * [OSDrivers Packs](osdrivers-packs/README.md)
   * [Audio](osdrivers-packs/audio.md)
   * [Network](osdrivers-packs/network.md)
   * [Wireless](osdrivers-packs/wireless.md)
-
-
+* [WMI Filters](group-policy/wmi-filters.md)
 
