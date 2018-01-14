@@ -70,9 +70,7 @@
     * [Reflect Drivers](upgrading/windows-10-servicing/reflect-drivers.md)
     * [Netlogon](upgrading/windows-10-servicing/netlogon.md)
     * [Group Policy](upgrading/windows-10-servicing/group-policy.md)
-* [Resources](resources/resources.md)
-  * [Links](resources/links.md)
-  * [People](resources/people.md)
+
 * [Getting Started](getting-started/getting-started.md)
   * [Download MDT](getting-started/download-mdt.md)
   * [Download ADK](getting-started/download-adk.md)

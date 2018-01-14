@@ -50,3 +50,9 @@
 
 ## Windows Upgrades
 
+
+## Resources
+* [Links](resources/links/README.md)
+	* [ADK](resources/links/ADK.md)
+	* [MDT](resources/links/MDT.md)
+* [People](resources/people/README.md)
