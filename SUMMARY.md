@@ -1,7 +1,15 @@
 # Summary
 
 * [Introduction](README.md)
-* [Drivers](drivers/README.md)
+
+* [OSDrivers Packs](osdrivers-packs/README.md)
+  * [Audio](osdrivers-packs/audio.md)
+  * [Network](osdrivers-packs/network.md)
+  * [Wireless](osdrivers-packs/wireless.md)
+
+## Drivers
+
+* [Info](drivers/README.md)
   * [Model Packs](drivers/model-packs/README.md)
     * [Microsoft Surface Driver Packs](drivers/model-packs/microsoft-surface-driver-packs.md)
     * [Lenovo Driver Packs](drivers/model-packs/lenovo-driver-packs.md)
@@ -36,12 +44,6 @@
     * [Wireless Dell](drivers/dell-driver-cleanup/wireless-dell.md)
     * [Wireless Intel](drivers/dell-driver-cleanup/wireless-intel.md)
     * [Cleanup Summary](/drivers/dell-driver-cleanup/cleanup-summary.md)
-* [OSDrivers Packs](osdrivers-packs/README.md)
-  * [Audio](osdrivers-packs/audio.md)
-  * [Network](osdrivers-packs/network.md)
-  * [Wireless](osdrivers-packs/wireless.md)
-
-## Drivers
 
 ## Windows Upgrades
 
