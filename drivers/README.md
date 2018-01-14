@@ -8,34 +8,20 @@ Be prepared, managing Drivers will take some time and effort.
 
 ## Create a Driver Repository
 
-Before working with Drivers, you need to make a Driver Repository.  This will be where you Download, Extract, and Manage the Drivers you will import into OSD or MDT.
+Before working with Drivers, you need to make a Driver Repository.  This will be where you Download, Extract, Study, and Test the Drivers before you import them into SCCM or MDT.
 
-On my system, I 
+When I work with Drivers, I adopt the following structure.  I'll detail what each of them along the way.
 
 ```
 D:\Drivers
-D:\Drivers\A-Archive
-D:\Drivers\B-Download
-D:\Drivers\C-Extract
-D:\Drivers\D-Develop
-D:\Drivers\E-Alpha
-D:\Drivers\F-Beta
-D:\Drivers\Z-Publish
-
-
-
-
-
-
-        
-        
-        
-        
-        Apps        (Utilities and Scripts)
-        Download    (Compressed Master Drivers)
-        Extract     (Extracted Master Drivers)
-        Working     (Working Copy of Production Drivers)
+D:\Drivers\Download
+D:\Drivers\Extract
+D:\Drivers\Study
+D:\Drivers\Test
+D:\Drivers\Test\Alpha
+D:\Drivers\Test\Beta
+D:\Drivers\Test\Release
 ```
 
-![](/assets/2017-10-30_13-44-19.png)
+
 
