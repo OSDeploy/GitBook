@@ -1,6 +1,6 @@
 # Windows 10 OS Deployment
 
-**This GitBook is currently Under Construction.  Many things are incomplete, with a target date of January 2018 for the completed guide.**
+**This site is currently being built, check back in February 2018!**
 
 ---
 
