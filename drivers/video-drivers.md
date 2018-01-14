@@ -1,4 +1,4 @@
-# Video Drivers
+# Core Video Drivers
 
 By far, Video Drivers will take the most space in your Driver Repository.  Rather than a shotgun approach of having all the Video Drivers that your Computer Manufacturer makes available, why not just deploy the Video Drivers that you need.
 
