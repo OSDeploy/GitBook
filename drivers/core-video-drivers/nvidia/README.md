@@ -1,8 +1,25 @@
 # Nvidia Video Drivers
 
-Before downloading the Nvidia Drivers, its best to get a grasp on which Drivers I need.
+Before downloading the Nvidia Drivers, its best to get a grasp on the differences between Nvidia Drivers
 
 ---
+
+## ODE Drivers
+
+ODE is what Nvidia defines as
+
+
+http://www.nvidia.com/Download/Help.aspx
+
+
+
+
+
+
+
+
+
+
 
 ## SCCM Report Count Video Cards by Type
 
