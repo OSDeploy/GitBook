@@ -10,7 +10,7 @@ Be prepared, managing Drivers will take some time and effort.
 
 Before working with Drivers, you need to make a Driver Repository.  This will be where you Download, Extract, Study, and Test the Drivers before you import them into SCCM or MDT.
 
-When I work with Drivers, I adopt the following structure.  I'll detail what each of them along the way.
+When I work with Drivers, I adopt the following structure on my secondary drive.  I'll detail what each of them along the way.
 
 ```
 D:\Drivers
