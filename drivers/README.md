@@ -16,7 +16,6 @@ When I work with Drivers, I adopt the following structure.  I'll detail what eac
 D:\Drivers
 D:\Drivers\Download
 D:\Drivers\Extract
-D:\Drivers\Study
 D:\Drivers\Test
 D:\Drivers\Test\Alpha
 D:\Drivers\Test\Beta
