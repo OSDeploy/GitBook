@@ -4,15 +4,17 @@ Before downloading the Nvidia Drivers, its best to get a grasp on the difference
 
 ---
 
-## ODE Drivers
+## ODE - Optimal Driver for Enterprise Drivers
 
-ODE is what Nvidia defines as
+This is the long lifecycle driver branch providing ISV Certification, optimal stability and performance for Quadro customers. This is the driver that is most commonly deployed at enterprises
 
+---
 
-http://www.nvidia.com/Download/Help.aspx
+## QNF - Quadro New Feature Driver
 
+The driver is a short lived branch where new Quadro features are deployed initially. Typically support for new Game Engines as well as new VR headsets are also introduced in this driver branch before rolling into the ODE driver
 
-
+---
 
 
 
