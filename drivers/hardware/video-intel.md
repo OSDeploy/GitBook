@@ -42,11 +42,7 @@ Intel changes their drivers frequently, so it is important to make sure that you
 
 ![](/assets/Video - Intel Old Version.png)
 
+
 ---
 
-
-
-
-
-
-
+Modified: {{ file.mtime }}

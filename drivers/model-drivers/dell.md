@@ -37,6 +37,3 @@ I do not recommend using this method if you have more than a few Dell Models to 
 ---
 
 Modified: {{ file.mtime }}
-
-
-
