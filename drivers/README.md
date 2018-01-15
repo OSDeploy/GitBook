@@ -24,6 +24,11 @@ D:\Drivers\Test\Beta
 D:\Drivers\Test\Release
 ```
 
-![](/assets/1-14-2018 2-07-42 PM.png)
+And so the Visual type people
+
+![](/assets/1-15-2018 2-04-44 AM.png)
 
 ---
+
+
+
