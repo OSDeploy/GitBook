@@ -14,8 +14,10 @@ When I work with Drivers, I adopt the following structure on my secondary drive.
 
 ```
 D:\Drivers
+D:\Drivers\Apps
 D:\Drivers\Download
 D:\Drivers\Extract
+D:\Drivers\Scripts
 D:\Drivers\Test
 D:\Drivers\Test\Alpha
 D:\Drivers\Test\Beta
@@ -25,5 +27,3 @@ D:\Drivers\Test\Release
 ![](/assets/1-14-2018 2-07-42 PM.png)
 
 ---
-
-Modified: {{ file.mtime }}
