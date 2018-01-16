@@ -1,6 +1,6 @@
 # Thunderbolt
 
-We'll start with a simple cleanup of Thunderbolt.  We need to use an Identifier to locate the Thunderbolt Drivers.  All Intel Thunderbolt Drivers contain a similarly named INF file.  This is what we search for to locate our duplicated Drivers.
+All Intel Thunderbolt Drivers contain a similarly named INF file.  This is what we search for to locate our duplicated Drivers.
 
 ```
 Identifier: tbt*.inf
@@ -167,5 +167,3 @@ And result in quite a bit of space recovery
 
 
 ---
-
-Modified: {{ file.mtime }}
