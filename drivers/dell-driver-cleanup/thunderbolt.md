@@ -37,11 +37,19 @@ PCI\VEN_8086&DEV_15D9 = "Thunderbolt(TM) Controller - 15D9"
 
 ---
 
-## Dell Driver Totals
+## Dell Family Packs
 
-| Win7 x86 FAM | Win7 x64 FAM | Win10 x86 FAM | Win10 x64 FAM | Win10 x86 MOD | Win10 x64 MOD |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-|  |  |  | 1.32 GB |  | 2.34 GB |
+| Windows 7 x86 | Windows 7 x64 | Windows 10 x86 | Windows 10 x64 |
+| :--- | :--- | :--- | :--- |
+|  |  |  | 1.32 GB |
+
+
+
+## Dell Model Packs
+
+| **Windows 10 x86** | **Windows 10 x64** |
+| :--- | :--- |
+|  | 2.34 GB |
 
 ---
 
