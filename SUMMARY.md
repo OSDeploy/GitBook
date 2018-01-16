@@ -15,7 +15,7 @@
 * [Family Drivers](drivers/family-drivers/README.md)
   * [Dell Family Packs](drivers/family-drivers/dell-family-drivers.md)
 * [Family Driver Automation](drivers/family-driver-automation/README.md)
-  * [Dell Family Pack Downloader](/drivers/family-driver-automation/dell-family-pack-downloader.md#dell-family-pack-downloader)
+  * [Dell Family Pack Downloader](//drivers/family-driver-automation/dell-family-pack-downloader.md#dell-family-pack-downloader)
 * [Core Drivers](drivers/core-drivers/README.md)
   * [Intel Bluetooth](drivers/core-drivers/intel-bluetooth.md)
   * [Intel Chipset](drivers/core-drivers/intel-chipset.md)
@@ -23,6 +23,7 @@
   * [Intel Storage](drivers/core-drivers/intel-storage.md)
   * [Intel Wireless](drivers/core-drivers/intel-wireless.md)
 * [Core Video Drivers](drivers/core-video-drivers/README.md)
+
   * [Intel](drivers/core-video-drivers/intel/README.md)
     * [Win10 x64](drivers/core-video-drivers/win10-x64.md)
     * [Win10 x86](drivers/core-video-drivers/win10-x86.md)
@@ -35,6 +36,7 @@
     * PS Edit-OSDriversNvidia
 
 * [Dell Driver Cleanup](drivers/dell-driver-cleanup/README.md)
+
   * [Audio](drivers/dell-driver-cleanup/audio.md)
   * [Bluetooth](drivers/dell-driver-cleanup/bluetooth.md)
   * [Network](drivers/dell-driver-cleanup/network.md)
