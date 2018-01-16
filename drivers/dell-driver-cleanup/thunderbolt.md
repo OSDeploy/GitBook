@@ -37,23 +37,11 @@ PCI\VEN_8086&DEV_15D9 = "Thunderbolt(TM) Controller - 15D9"
 
 ---
 
-## Dell Family Packs
+## Dell Windows 10 Family Packs
 
 | Windows 7 x86 | Windows 7 x64 | Windows 10 x86 | Windows 10 x64 |
 | :--- | :--- | :--- | :--- |
 |  |  |  | 1.32 GB |
-
-
-
-## Dell Model Packs
-
-| **Windows 10 x86** | **Windows 10 x64** |
-| :--- | :--- |
-|  | 2.34 GB |
-
----
-
-## Dell Windows 10 x64 Family Driver Packs
 
 ```
 PS C:\Windows\system32> Get-OSDriversEstimate -Path D:\Drivers\Test\Alpha\Win10x64 -Include tbt*.inf
@@ -79,7 +67,11 @@ PS C:\Windows\system32> Get-OSDriversEstimate -Path D:\Drivers\Test\Alpha\Win10x
 
 ---
 
-## Dell Windows 10 x64 Model Driver Packs
+## Dell Windows 10 Model Packs
+
+| **Windows 10 x86** | **Windows 10 x64** |
+| :--- | :--- |
+|  | 2.34 GB |
 
 ```
 PS C:\Windows\system32> Get-OSDriversEstimate -Path D:\Drivers\Extract\Dell\Win10x64-MODEL -Include tbt*.inf
@@ -183,45 +175,6 @@ tbt70i.inf    D:\Drivers\Dell\Win10x86\Model\Precision Tower 7910\Windows10-A05\
 ---
 
 ## 
-
-## PowerShell Driver Removal Script
-
-The following PowerShell Script can be used to remove existing Drivers.  Modify the **$Repository** as needed.
-
-```
-#Requires -RunAsAdministrator
-
-$Repository =    "D:\Drivers\Dell"
-
-$Drivers = "0F5XW*",    #Intel Thunderbolt Controller A01 0F5XW 3.0.17.250
-"C0K58*",    #Intel Thunderbolt Controller A00 C0K58 15.2.32.250
-"MYDH5*",    #Intel Thunderbolt Controller A02 MYDH5 15.2.32.250
-"91DT4*",    #Intel Thunderbolt Controller A00 91DT4 15.2.35.250
-"7P7G7*",    #Intel Thunderbolt Controller A01 7P7G7 15.3.39.250
-"D91CC*",    #Intel Thunderbolt Controller A02 D91CC 16.1.47.275
-"2VCC1*",    #Intel Thunderbolt Controller A00 2VCC1 16.2.52.250
-"99H03*",    #Intel Thunderbolt Controller A00 99H03 16.2.52.250
-"J95RR*",    #Intel Thunderbolt Controller A01 J95RR 16.2.55.275
-"M6YD4*",    #Intel Thunderbolt Controller A02 M6YD4 16.3.59.250
-"7GKGT*",    #Intel Thunderbolt Controller A02 7GKGT 16.3.59.250
-"7X8Y6*"    #Intel Thunderbolt Controller A03 7X8Y6 16.3.61.275
-
-Write-Host "***** Calculating Size of $Repository *****"
-$SizeStart = "{0:N2} GB" -f ((Get-ChildItem $Repository -Recurse | Measure-Object -Property Length -Sum -ErrorAction Stop).Sum / 1GB)
-Write-Host "***** Removing Thunderbolt Drivers from $Repository *****"
-ForEach ($Driver in $Drivers) {
-Write-Host "***** Removing Directories Named $Driver *****"
-Remove-Item -Path $Repository -Include $Driver -Recurse
-}
-
-Write-Host "***** Calculating Size of $Repository *****"
-$SizeFinish = "{0:N2} GB" -f ((Get-ChildItem $Repository -Recurse | Measure-Object -Property Length -Sum -ErrorAction Stop).Sum / 1GB)
-
-Write-Host "Start Repository Size:  " $SizeStart
-Write-Host "Finish Repository Size: " $SizeFinish
-```
-
----
 
 ## Recovered Drive Space
 
