@@ -8,108 +8,19 @@ Identifier: igfx*.cpl
 
 ---
 
-## Hardware ID's
-
-There are several generations of Intel Video Cards for Windows 10
-
-```
-[15.60] Intel UHD Graphics - 8th Generation (Coffee Lake)
-PCI\VEN_8086&DEV_3E90 = Intel UHD Graphics 610
-PCI\VEN_8086&DEV_3E91 = Intel UHD Graphics 630
-PCI\VEN_8086&DEV_3E92 = Intel UHD Graphics 630
-PCI\VEN_8086&DEV_3E93 = Intel UHD Graphics 610
-
-[15.60] Intel HD Graphics - 7th Generation (Kaby Lake)
-PCI\VEN_8086&DEV_5902 = Intel HD Graphics 610
-PCI\VEN_8086&DEV_5906 = Intel HD Graphics 610
-PCI\VEN_8086&DEV_590B = Intel HD Graphics 610
-PCI\VEN_8086&DEV_5912 = Intel HD Graphics 630
-PCI\VEN_8086&DEV_5916 = Intel HD Graphics 620
-PCI\VEN_8086&DEV_5917 = Intel UHD Graphics 620
-PCI\VEN_8086&DEV_591B = Intel HD Graphics 630
-PCI\VEN_8086&DEV_591D = Intel HD Graphics P630
-PCI\VEN_8086&DEV_591E = Intel HD Graphics 615
-PCI\VEN_8086&DEV_5921 = Intel HD Graphics 620
-PCI\VEN_8086&DEV_5926 = Intel Iris Plus Graphics 640
-PCI\VEN_8086&DEV_5927 = Intel Iris Plus Graphics 650
-PCI\VEN_8086&DEV_5A84 = Intel HD Graphics
-PCI\VEN_8086&DEV_5A85 = Intel HD Graphics
-
-[15.60] Intel HD Graphics - 6th Gen (Skylake)
-PCI\VEN_8086&DEV_1902 = Intel HD Graphics 510
-PCI\VEN_8086&DEV_1906 = Intel HD Graphics 510
-PCI\VEN_8086&DEV_190B = Intel HD Graphics 510
-PCI\VEN_8086&DEV_1912 = Intel HD Graphics 530
-PCI\VEN_8086&DEV_1916 = Intel HD Graphics 520
-PCI\VEN_8086&DEV_191B = Intel HD Graphics 530
-PCI\VEN_8086&DEV_191D = Intel HD Graphics P530
-PCI\VEN_8086&DEV_191E = Intel HD Graphics 515
-PCI\VEN_8086&DEV_1921 = Intel HD Graphics 520
-PCI\VEN_8086&DEV_1923 = Intel HD Graphics 535
-PCI\VEN_8086&DEV_1926 = Intel Iris Graphics 540
-PCI\VEN_8086&DEV_1927 = Intel Iris Graphics 550
-PCI\VEN_8086&DEV_192B = Intel Iris Graphics 555
-PCI\VEN_8086&DEV_192D = Intel Iris Graphics P555
-PCI\VEN_8086&DEV_193A = Intel Iris Pro Graphics P580
-PCI\VEN_8086&DEV_193B = Intel Iris Pro Graphics 580
-PCI\VEN_8086&DEV_193D = Intel Iris Pro Graphics P580
-
-[15.40] Intel HD Graphics - 5th Generation (Broadwell)
-PCI\VEN_8086&DEV_1606 = Intel HD Graphics
-PCI\VEN_8086&DEV_160E = Intel HD Graphics
-PCI\VEN_8086&DEV_1612 = Intel HD Graphics 5600
-PCI\VEN_8086&DEV_1616 = Intel HD Graphics 5500
-PCI\VEN_8086&DEV_161A = Intel HD Graphics P5700
-PCI\VEN_8086&DEV_161E = Intel HD Graphics 5300
-PCI\VEN_8086&DEV_1622 = Intel Iris Pro Graphics 6200
-PCI\VEN_8086&DEV_1626 = Intel HD Graphics 6000
-PCI\VEN_8086&DEV_162A = Intel Iris Pro Graphics P6300
-PCI\VEN_8086&DEV_162B = Intel Iris Graphics 6100
-PCI\VEN_8086&DEV_22B0 = Intel HD Graphics
-PCI\VEN_8086&DEV_22B1 = Intel HD Graphics
-
-[15.40] Intel HD Graphics - 4th Generation (Haswell)
-PCI\VEN_8086&DEV_0402 Intel HD Graphics
-PCI\VEN_8086&DEV_0406 Intel HD Graphics
-PCI\VEN_8086&DEV_040A Intel HD Graphics
-PCI\VEN_8086&DEV_0412 Intel HD Graphics 4600
-PCI\VEN_8086&DEV_0416 Intel HD Graphics 4600
-PCI\VEN_8086&DEV_041A Intel HD Graphics P4600/P4700
-PCI\VEN_8086&DEV_041E Intel HD Graphics 4400
-PCI\VEN_8086&DEV_0A06 Intel HD Graphics
-PCI\VEN_8086&DEV_0A0E Intel HD Graphics
-PCI\VEN_8086&DEV_0A16 Intel HD Graphics Family
-PCI\VEN_8086&DEV_0A1E Intel HD Graphics Family
-PCI\VEN_8086&DEV_0A26 Intel HD Graphics 5000
-PCI\VEN_8086&DEV_0A2E Intel Iris Graphics 5100
-PCI\VEN_8086&DEV_0D22 Intel Iris Pro Graphics 5200
-PCI\VEN_8086&DEV_0D26 Intel Iris Pro Graphics 5200
-
-[15.33] Intel HD Graphics - 3rd Generation (Valleyview)
-PCI\VEN_8086&DEV_0152 = Intel HD Graphics
-PCI\VEN_8086&DEV_0156 = Intel HD Graphics
-PCI\VEN_8086&DEV_015A = Intel HD Graphics
-PCI\VEN_8086&DEV_0162 = Intel HD Graphics 4000
-PCI\VEN_8086&DEV_0166 = Intel HD Graphics 4000
-PCI\VEN_8086&DEV_016A = Intel HD Graphics
-PCI\VEN_8086&DEV_0F31 = Intel HD Graphics
-```
-
----
-
-## Latest Drivers
-
-Fortunately we only need 3 Drivers to support Windows 10
-
----
-
 ## Dell Family Driver Packs
 
 | Windows 7 x86 | Windows 7 x64 | Windows 10 x86 | Windows 10 x64 | **Total** |
 | :--- | :--- | :--- | :--- | :--- |
-|  |  |  | 28.51 |  |
+|  |  | 0.16GB | 28.51 GB |  |
 
 ```
+PS C:\Windows\system32> Edit-OSDriversCleaner -Path D:\Drivers\Test\Alpha\Win10x86 -Include igfx*.cpl
+***** Calculating Size of D:\Drivers\Test\Alpha\Win10x86 *****
+160.61 MB D:\Drivers\Test\Alpha\Win10x86\Win10_VenuePro2_A03\VenuePro2\Win10\x86\chipset\36NNM\drivers\kit60887.inf
+Repository Size:  1.23 GB
+0.16 GB can be recovered
+
 PS C:\Windows\system32> Edit-OSDriversCleaner -Path D:\Drivers\Test\Alpha\Win10x64 -Include igfx*.cpl
 ***** Calculating Size of D:\Drivers\Test\Alpha\Win10x64 *****
 479.87 MB D:\Drivers\Test\Alpha\Win10x64\Win10_Latitude3x40_A01\Latitude3x40\win10\x64\chipset\7W9YT\Windows10-x64\4240-64.inf\10.18.15.4240
@@ -299,20 +210,5 @@ Repository Size:  155.97 GB
 66.55 GB can be recovered
 ```
 
-And result in quite a bit of space recovery
 
-| Repository | Driver Size |
-| :--- | :--- |
-| Dell Family Win10 x86 | 0.16 GB |
-| Dell Model Win10 x86 | 3.73 GB |
-|  |  |
-| Dell Family Win10 x64 | 28.08 GB |
-| Dell Model Win10 x64 | 67.21 GB |
-| **Removed Driver Footprint** | **99.18 GB** |
-
----
-
-## Quick Summary
-
-**Adding 3 Intel Video Drivers of 613 MB will recover almost 100GB of existing Drivers in the Repository**
 
