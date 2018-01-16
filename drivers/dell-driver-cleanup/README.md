@@ -297,10 +297,3 @@ Venue 11 Pro 7130                 0.83 GB
 Venue 11 Pro 7130 vPro            0.83 GB
 Venue 11 Pro 7140                 0.86 GB
 ```
-
-
-
-
----
-
-Modified: {{ file.mtime }}
