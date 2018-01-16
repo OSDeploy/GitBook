@@ -275,10 +275,3 @@ Precision Tower 7810          0.30 GB
 Precision Tower 7910          0.30 GB
 Tablet 5130                   0.08 GB
 ```
-
-
-
-
----
-
-Modified: {{ file.mtime }}
