@@ -200,7 +200,3 @@ And result in quite a bit of space recovery
 
 **Adding 3 Intel Video Drivers of 613 MB will recover almost 100GB of existing Drivers in the Repository**
 
-
----
-
-Modified: {{ file.mtime }}
