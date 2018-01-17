@@ -10,7 +10,8 @@ This page will show the totals from the removed Drivers
 | **Video - AMD** | 14.47 GB | 0.70 GB | 10.58 GB | 5.85 GB | **31.60 GB** |
 | **Video - Intel** | 28.91 GB | 0.16 GB | 19.60 GB | 7.13 GB | **55.80 GB** |
 | **Video - Nvidia** | 7.95 GB |  | 8.53 GB | 4.02 GB | **20.50 GB** |
-| **Final  Size** | 10.06 | 0.17 | 8.75 | 6.00 |  |
+| **Wireless - Intel** | 2.87 GB |  | 1.62 GB | 1.02 GB | **5.51 GB** |
+| **Final  Size** | 7.19 | 0.17 | 7.13 | 4.98 |  |
 
 ---
 
@@ -24,7 +25,8 @@ This page will show the totals from the removed Drivers
 | **Video - AMD** | 23.35 GB | 6.80 GB | **30.15 GB** |
 | **Video - Intel** | 67.20 GB | 3.73 GB | **70.93 GB** |
 | **Video - Nvidia** | 17.22 GB | 5.09 GB | **22.31 GB** |
-| **Final Size** | 19.72 | 8.19 |  |
+| **Wireless - Intel** | 5.82 GB | 2.04 GB | **7.86 GB** |
+| **Final Size** | 13.90 | 6.15 |  |
 
 ---
 
