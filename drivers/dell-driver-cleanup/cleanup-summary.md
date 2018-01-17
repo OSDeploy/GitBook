@@ -6,6 +6,7 @@ This page will show the totals from the removed Drivers
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Initial Size** | **75.64 GB** | **1.23 GB** | **56.13 GB** | **27.51 GB** | **282.28 GB** |
 | **Audio - Realtek** | 12.92 GB | 0.20 GB | 7.88 GB | 4.51 GB | **25.51 GB** |
+| **Bluetooth - Intel** | 0.27 GB |  | 0.13 GB | 0.23 GB | **0.63 GB** |
 | **Network - Intel** | 0.23 GB |  | 0.13 GB | 0.09 GB | **0.45 GB** |
 | **Thunderbolt - Dell** | 1.33 GB |  | 0.79 GB |  | **2.12 GB** |
 | **Video - AMD** | 14.47 GB | 0.70 GB | 10.58 GB | 5.85 GB | **31.60 GB** |
@@ -22,6 +23,7 @@ This page will show the totals from the removed Drivers
 | :--- | :--- | :--- | :--- |
 | **Initial Size** | **158.30 GB** | **33.44 GB** | **191.74 GB** |
 | **Audio - Realtek** | 28.47 GB | 9.44 GB | **37.91 GB** |
+| **Bluetooth - Intel** | 0.51 GB | 0.05 GB | **0.56 GB** |
 | **Network - Intel** | 0.28 GB | 0.13 GB | **0.41 GB** |
 | **Thunderbolt - Dell** | 2.34 GB | 0.19 GB | **2.53 GB** |
 | **Video - AMD** | 23.35 GB | 6.80 GB | **30.15 GB** |
