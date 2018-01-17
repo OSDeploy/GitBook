@@ -9,7 +9,7 @@ This page will show the totals from the removed Drivers
 | **Bluetooth - Intel** | 0.27 GB |  | 0.13 GB | 0.23 GB | **0.63 GB** |
 | **Network - Intel** | 0.23 GB |  | 0.13 GB | 0.09 GB | **0.45 GB** |
 | **Thunderbolt - Dell** | 1.33 GB |  | 0.79 GB |  | **2.12 GB** |
-| **Touchpad - Dell** | 1.78 GB |  | 0.39 GB | 0.27 GB | **2.44 GB** |
+| **Touchpad - Dell** | 1.78 GB |  | 0.93 GB | 0.60 GB | **3.31 GB** |
 | **Video - AMD** | 14.47 GB | 0.70 GB | 10.58 GB | 5.85 GB | **31.60 GB** |
 | **Video - Intel** | 28.91 GB | 0.16 GB | 19.60 GB | 7.13 GB | **55.80 GB** |
 | **Video - Nvidia** | 7.95 GB |  | 8.53 GB | 4.02 GB | **20.50 GB** |
@@ -27,7 +27,7 @@ This page will show the totals from the removed Drivers
 | **Bluetooth - Intel** | 0.51 GB | 0.05 GB | **0.56 GB** |
 | **Network - Intel** | 0.28 GB | 0.13 GB | **0.41 GB** |
 | **Thunderbolt - Dell** | 2.34 GB | 0.19 GB | **2.53 GB** |
-| **Touchpad - Dell** | 2.43 GB | 1.00 GB | **3.43 GB** |
+| **Touchpad - Dell** | 2.48 GB | 1.00 GB | **3.48 GB** |
 | **Video - AMD** | 23.35 GB | 6.80 GB | **30.15 GB** |
 | **Video - Intel** | 67.20 GB | 3.73 GB | **70.93 GB** |
 | **Video - Nvidia** | 17.22 GB | 5.09 GB | **22.31 GB** |
