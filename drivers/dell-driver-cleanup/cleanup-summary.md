@@ -20,7 +20,7 @@ This page will show the totals from the removed Drivers
 
 |  | **Windows 10 x64** | **Windows 10 x86** | **Total** |
 | :--- | :--- | :--- | :--- |
-| **Extracted Size** | **158.30 GB** | **33.44 GB** | **191.74 GB** |
+| **Initial Size** | **158.30 GB** | **33.44 GB** | **191.74 GB** |
 | **Audio - Realtek** | 28.47 GB | 9.44 GB | **37.91 GB** |
 | **Network - Intel** | 0.28 GB | 0.13 GB | **0.41 GB** |
 | **Thunderbolt - Dell** | 2.34 GB | 0.19 GB | **2.53 GB** |
