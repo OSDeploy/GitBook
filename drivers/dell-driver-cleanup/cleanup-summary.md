@@ -18,7 +18,7 @@ Removing the Core Drivers from the Driver Repository greatly reduces the total s
 | **Video - Intel** | 28.91 GB | 0.16 GB | 19.60 GB | 7.13 GB | **55.80 GB** |
 | **Video - Nvidia** | 7.95 GB |  | 8.53 GB | 4.02 GB | **20.50 GB** |
 | **Wireless - Intel** | 2.87 GB |  | 1.62 GB | 1.02 GB | **5.51 GB** |
-| **Final  Size** | **7.88 GB** | **0.17 GB** | **6.48 GB** | **4.20 GB** | **19.84 GB** |
+| **Final  Size** | **7.88 GB** | **0.17 GB** | **6.48 GB** | **4.20 GB** | **18.73 GB** |
 
 ---
 
