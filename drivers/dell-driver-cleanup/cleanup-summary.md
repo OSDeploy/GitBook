@@ -13,11 +13,12 @@ Removing the Core Drivers from the Driver Repository greatly reduces the total s
 | **Bluetooth - Intel** | 0.27 GB |  | 0.13 GB | 0.23 GB | **0.63 GB** |
 | **Chipset - Intel** | 0.10 GB |  | 0.14 GB | 0.12 GB | **0.36 GB** |
 | **Network - Intel** | 0.23 GB |  | 0.13 GB | 0.09 GB | **0.45 GB** |
+| **QFE** |  |  | 0.65 GB | 0.34 GB | **0.99 GB** |
 | **Video - AMD** | 14.47 GB | 0.70 GB | 10.58 GB | 5.85 GB | **31.60 GB** |
 | **Video - Intel** | 28.91 GB | 0.16 GB | 19.60 GB | 7.13 GB | **55.80 GB** |
 | **Video - Nvidia** | 7.95 GB |  | 8.53 GB | 4.02 GB | **20.50 GB** |
 | **Wireless - Intel** | 2.87 GB |  | 1.62 GB | 1.02 GB | **5.51 GB** |
-| **Final  Size** | **7.88 GB** | **0.17 GB** | **7.13 GB** | **4.66 GB** | **19.84 GB** |
+| **Final  Size** | **7.88 GB** | **0.17 GB** | **6.48 GB** | **4.20 GB** | **19.84 GB** |
 
 ---
 
