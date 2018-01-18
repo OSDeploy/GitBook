@@ -1,10 +1,6 @@
-# Core Cleanup
+# Dell Family Driver Packs
 
-Removing the Core Drivers from the Driver Repository greatly reduces the total size.
-
----
-
-# Dell Driver Family Packs
+This page will show the totals from the removed Drivers
 
 |  | **Windows 10 x64** | **Windows 10 x86** | **Windows 7 x64** | **Windows 7 x86** | **Group Totals** |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -13,6 +9,8 @@ Removing the Core Drivers from the Driver Repository greatly reduces the total s
 | **Bluetooth - Intel** | 0.27 GB |  | 0.13 GB | 0.23 GB | **0.63 GB** |
 | **Chipset - Intel** |  |  |  |  |  |
 | **Network - Intel** | 0.23 GB |  | 0.13 GB | 0.09 GB | **0.45 GB** |
+| **Thunderbolt - Dell** | 1.33 GB |  | 0.79 GB |  | **2.12 GB** |
+| **Touchpad - Dell** | 1.78 GB |  | 0.93 GB | 0.60 GB | **3.31 GB** |
 | **Video - AMD** | 14.47 GB | 0.70 GB | 10.58 GB | 5.85 GB | **31.60 GB** |
 | **Video - Intel** | 28.91 GB | 0.16 GB | 19.60 GB | 7.13 GB | **55.80 GB** |
 | **Video - Nvidia** | 7.95 GB |  | 8.53 GB | 4.02 GB | **20.50 GB** |
@@ -21,7 +19,7 @@ Removing the Core Drivers from the Driver Repository greatly reduces the total s
 
 ---
 
-## Dell Driver Model Packs
+## Dell Model Driver Packs
 
 |  | **Windows 10 x64** | **Windows 10 x86** | **Total** |
 | :--- | :--- | :--- | :--- |
@@ -38,6 +36,28 @@ Removing the Core Drivers from the Driver Repository greatly reduces the total s
 | **Final Size** | 10.63 GB | 4.97 GB |  |
 
 ---
+
+## Dell Model Packs Windows 10 x64
+
+```
+
+```
+
+---
+
+## Dell Family Packs Windows 10 x86
+
+```
+
+```
+
+---
+
+## Dell Model Packs Windows 10 x86
+
+```
+
+```
 
 
 

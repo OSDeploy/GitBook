@@ -44,7 +44,8 @@
   * [Video Nvidia](drivers/dell-driver-cleanup/video-nvidia.md)
   * [Wireless Dell](drivers/dell-driver-cleanup/wireless-dell.md)
   * [Wireless Intel](drivers/dell-driver-cleanup/wireless-intel.md)
-  * [Cleanup Summary](/drivers/dell-driver-cleanup/cleanup-summary.md)
+  * [Core Cleanup](/drivers/dell-driver-cleanup/cleanup-summary.md)
+  * [Core Dell Cleanup](drivers/dell-driver-cleanup/core-dell-cleanup.md)
 
 ## OSDrivers
 
