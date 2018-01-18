@@ -16,9 +16,10 @@ This page will show the totals from the removed Drivers
 |  | **Windows 10 x64** | **Windows 10 x86** | **Total** |
 | :--- | :--- | :--- | :--- |
 | **Core Cleanup Size** | **15.19 GB** | **6.00 GB** | **21.19 GB** |
+| Dell Encryption | 0.62 GB | 0.61 GB | **1.23 GB** |
 | **Thunderbolt - Dell** | 2.34 GB | 0.18 GB | **2.52 GB** |
 | **Touchpad - Dell** | 2.48 GB | 1.00 GB | **3.48 GB** |
-| **Final Size** | **10.37 GB** | **4.82 GB** | **15.19 GB** |
+| **Final Size** | **9.75 GB** | **4.21 GB** | **13.96 GB** |
 
 ---
 
