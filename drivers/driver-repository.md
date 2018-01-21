@@ -4,18 +4,19 @@ Before working with Drivers, you will need to make a Driver Repository. This wil
 
 When I work with Drivers, I ensure that everything Driver related has a place.  I work with a standardized structure.
 
-```
-D:\Drivers
-D:\Drivers\Apps
-D:\Drivers\Download
-D:\Drivers\Extract
-D:\Drivers\Scripts
-D:\Drivers\Test
-D:\Drivers\Test\Alpha
-D:\Drivers\Test\Beta
-D:\Drivers\Test\Gamma
-D:\Drivers\Test\Release
-```
+* Drivers
+  * Apps
+  * Download
+    * Packs-Family
+    * Packs-Model
+    * Video
+  * Extract
+  * Scripts
+  * Test
+    * Alpha
+    * Beta
+    * Gamma
+    * Release
 
 ---
 

@@ -102,7 +102,21 @@ I'll let this run overnight since this will take several hours to complete.  Onc
 
 ---
 
-## Download Issues
+## Final Thoughts
+
+The SCConfigMgr Driver Automation Tool is an excellent that every Admin should consider using.  The time saved in using this tool is incredible.  Kudos to Maurice for Developing this for everyone's use.
+
+
+
+There are two things that I would like to recommend in a future update.  The first is to allow the ability to Extract Drivers to a separate Driver Repository than the CAB files.
+
+
+
+
+
+
+
+
 
 I did notice that I the following directories did not Download and Extract properly
 
