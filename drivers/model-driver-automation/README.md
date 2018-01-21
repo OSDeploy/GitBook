@@ -1,4 +1,4 @@
-# Model Pack Automation
+# Download Automation
 
 There are several utilities to download
 
@@ -27,10 +27,6 @@ There are several utilities to download
 [https://support.lenovo.com/us/en/solutions/ht100638](https://support.lenovo.com/us/en/solutions/ht100638)
 
 ---
-
-
-
-
 
 
 
