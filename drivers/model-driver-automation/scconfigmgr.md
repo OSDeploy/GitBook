@@ -28,17 +28,15 @@ D:\Drivers\Apps
 
 ---
 
-## Extract
+## Extract and Run
 
-Extract the contents of the ZIP file
+Extract the contents of the ZIP file and Run the DriverAutomationTool.exe file
 
 ```
 D:\Drivers\Apps\SCCM Driver Automation Tool
 ```
 
 ---
-
-## 
 
 ## Model Selection
 
