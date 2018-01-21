@@ -44,5 +44,3 @@ Additionally downloading the Family Packs one at a time is a time consuming proc
 
 
 ---
-
-Modified: {{ file.mtime }}
