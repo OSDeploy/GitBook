@@ -38,7 +38,13 @@ D:\Drivers\Apps\SCCM Driver Automation Tool
 
 ---
 
-## Model Selection
+## Common Settings
+
+ff
+
+---
+
+## Make/Model Selection
 
 Open the Driver Automation Tool.  On the first tab, you have the ability to connect to Dell and provide some Operating System filtering.  From there, you can easily select the Models that I want to download.
 
