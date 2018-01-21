@@ -42,10 +42,12 @@ D:\Drivers\Apps\SCCM Driver Automation Tool
 
 ## Common Settings
 
-Even though the Driver Automation Tool starts on the Make/Model tab, I will select the Common Settings tab and modify the Repository Path
+Even though the Driver Automation Tool starts on the Make/Model tab, I will select the Common Settings tab and modify the Repository Path.
+
+This should be changed depending on which Make you download.  Dell combines x86 and x64 Drivers
 
 ```
-D:\Drivers\Download\Dell\Win10x64-MODEL
+D:\Drivers\Download\Packs-Model\Win10
 ```
 
 ![](/assets/1-21-2018 3-22-12 PM.png)
@@ -106,17 +108,19 @@ I'll let this run overnight since this will take several hours to complete.  Onc
 
 The SCConfigMgr Driver Automation Tool is an excellent that every Admin should consider using.  The time saved in using this tool is incredible.  Kudos to Maurice for Developing this for everyone's use.
 
+---
+
+## Suggestions
+
+The ability to Extract the Drivers to a separate Driver Repository is something I would like to see added in the future.  I can manually 
+
+```
+robocopy D:\Drivers\Download\Packs-Model\Win10\Dell
+```
+
 
 
 There are two things that I would like to recommend in a future update.  The first is to allow the ability to Extract Drivers to a separate Driver Repository than the CAB files.
-
-
-
-
-
-
-
-
 
 I did notice that I the following directories did not Download and Extract properly
 
