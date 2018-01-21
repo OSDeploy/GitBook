@@ -60,5 +60,3 @@ Further checking in the log shows what the URL for the download is, but they fai
 
 
 ---
-
-Modified: {{ file.mtime }}
