@@ -1,10 +1,12 @@
 # Download Automation
 
-There are several utilities to download
+There are several utilities that you can use to automatically Download the Computer Model drivers that you need.
 
 ---
 
 ## Universal - SCConfigMgr Driver Automation Tool
+
+If you are looking for a Swiss Army Knife type of tool, I can highly recommend the SCConfigMgr Driver Automation Tool.
 
 [http://www.scconfigmgr.com/driver-automation-tool/](http://www.scconfigmgr.com/driver-automation-tool/)
 

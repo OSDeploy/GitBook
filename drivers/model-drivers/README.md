@@ -1,8 +1,10 @@
-# Model Packs and Family Packs
+# Computer Drivers
 
-Model Drivers are complete CAB/ZIP/EXE/MSI files that contain all the drivers you need for a particular Computer Model.  These are also referred to as Model Driver Packs.  From there, you can import the Model Driver Packs directly into SCCM or MDT and use them for OS Deployment.
+A complete Driver Set for a specific Computer Model is referred to as a Driver Pack.  All major Computer Manufacturers \(Dell, HP, Lenovo, Microsoft\) create Driver Packs for OS Deployment.  The Driver Packs can be downloaded as a compressed CAB, ZIP, EXE, or MSI.  From there, they can easily be extracted, and then imported into SCCM or MDT.
 
-Family Packs are Driver Packs that support similar Computer Models.  This allows for fewer Driver Packages and usually result in a smaller Driver Repository.
+Model Driver Packs support a single Computer Model.  These are usually smaller than a Family Driver Pack.
+
+Family Driver Packs support multiple Computer Models that are typically in a similar Computer Class and Generation.  This allows for fewer Driver Packages and usually result in a smaller Driver Repository.
 
 ---
 
