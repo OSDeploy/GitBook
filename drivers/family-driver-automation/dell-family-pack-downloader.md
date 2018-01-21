@@ -36,6 +36,8 @@ D:\Drivers\Download\Dell\Family
 
 You have the ability to include and exclude Operating Systems, including Architecture.  Additionally, you have the option to include and exclude Model Branches.  We don't use XPS systems in my Enterprise, so this was the only one that I excluded.  Save the configuration.
 
+Make sure you have the Dell Family Pack downloader delete older versions of downloaded Family Packs.
+
 ![](/assets/1-21-2018 1-27-43 PM.png)
 
 ---
