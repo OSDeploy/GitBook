@@ -8,7 +8,7 @@
 * [Driver Repository](drivers/driver-repository.md)
 * [Model Drivers](drivers/model-drivers/README.md)
   * [Dell Driver Packs](drivers/model-drivers/dell.md)
-* [Model Driver Automation](drivers/model-driver-automation/README.md)
+* [Download Automation](drivers/model-driver-automation/README.md)
   * [SCConfigMgr Driver Automation Tool](drivers/model-driver-automation/scconfigmgr.md)
 * [Family Drivers](drivers/family-drivers/README.md)
   * [Dell Family Packs](drivers/family-drivers/dell-family-drivers.md)
