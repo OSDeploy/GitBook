@@ -33,10 +33,10 @@ Install the Dell Family Pack Downloader and Run the Application
 Configure the Family Pack Downloader to save the files in your Driver Download Repository
 
 ```
-D:\Drivers\Download\Dell\Family
+D:\Drivers\Download\Packs-Family\Dell
 ```
 
-![](/assets/1-21-2018 1-22-07 PM.png)
+![](/assets/1-21-2018 3-54-12 PM.png)
 
 ---
 
