@@ -52,9 +52,9 @@ Make sure you have the Dell Family Pack downloader delete older versions of down
 
 ## Execution
 
-Once everything is configured properly, Check for Updated Drivers and take a lunch.  This will take some time.  When complete, all your Family Packs should be downloaded.
+Once everything is configured properly, press the Check for Updated Drivers button and take a lunch.  You will have a progress window and bar displayed while you are executing.  The entire process will take quite a bit of time.  When complete, all your Family Packs should be downloaded.
 
-![](/assets/1-21-2018 1-30-50 PM.png)
+![](/assets/1-21-2018 3-56-08 PM.png)
 
 ---
 
