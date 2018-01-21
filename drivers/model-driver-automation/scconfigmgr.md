@@ -6,6 +6,8 @@ SCConfigMgr's Drive Automation Tool is by far the easiest and quickest method fo
 
 [http://www.scconfigmgr.com/](http://www.scconfigmgr.com/)
 
+While the Driver Automation Tool includes the ability to automatically Import the Drivers into MDT and SCCM, the goal in this post is to Download and Extract the Dell Model Driver Packs without Automatic Integration.
+
 ---
 
 ## Download
@@ -40,15 +42,47 @@ D:\Drivers\Apps\SCCM Driver Automation Tool
 
 ## Common Settings
 
-ff
+Even though the Driver Automation Tool starts on the Make/Model tab, I will select the Common Settings tab and modify the Repository Path
+
+```
+D:\Drivers\Download\Dell\Win10x64-MODEL
+```
+
+![](/assets/1-21-2018 3-22-12 PM.png)
 
 ---
 
 ## Make/Model Selection
 
-Open the Driver Automation Tool.  On the first tab, you have the ability to connect to Dell and provide some Operating System filtering.  From there, you can easily select the Models that I want to download.
+After launching the Driver Automation Tool, on the first tab is the Make / Model Selection.  I will select the following Configuration for my Enterprise.
 
-![](/assets/2017-10-27_12-02-16.png)
+* Deployment Platform: Download Only
+* Download Type: Drivers
+* Operating System: Windows 10
+* Architecture: 64 bit
+* Manufacturer: Dell
+
+Once I complete this configuration, I will press the Find Models button
+
+![](/assets/1-21-2018 3-23-43 PM.png)
+
+---
+
+## Selecting Computer Models
+
+The Driver Automation Tool will return a list of Dell Computer Models.  Simply select the Dell Computer Models that you need and press the Add To Import List button.  I did notice that some Dell Computer Models were duplicated, but I am unsure of what the result will be selecting one of the two.
+
+![](/assets/1-21-2018 3-27-00 PM.png)
+
+
+
+
+
+
+
+
+
+
 
 ---
 
