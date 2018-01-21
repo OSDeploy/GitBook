@@ -5,6 +5,7 @@
 ## Drivers
 
 * [Introduction](drivers/README.md)
+* [Driver Repository](drivers/driver-repository.md)
 * [Model Drivers](drivers/model-drivers/README.md)
   * [Dell](drivers/model-drivers/dell.md)
   * [HP](drivers/model-drivers/hp.md)
