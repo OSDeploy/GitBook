@@ -65,7 +65,7 @@ After all 60 Family Packs are downloaded I see that most of the files are ZIP, w
 
 ## Extracted Drivers
 
-Compressed Drivers are usually about 50% smaller than uncompressed.  When all the Family Packs are extracted, 160.51 GB of space is consumed.
+Compressed Drivers are usually about 50% smaller than uncompressed.  When all the Family Packs are extracted, 160.51 GB of space is consumed.  Comparing the Extracted Driver size to Model Packs, we are able to include Windows 7 x86 and x64 in the same footprint as just Windows 10 x64.
 
 | **Extracted Family Packs** | **160.51 GB** |
 | :--- | :--- |
@@ -73,8 +73,6 @@ Compressed Drivers are usually about 50% smaller than uncompressed.  When all th
 | Windows 7 x86 | 27.51 GB |
 | Windows 10 x64 | 75.64 GB |
 | Windows 10 x86 | 1.23 GB |
-
-
 
 ---
 
