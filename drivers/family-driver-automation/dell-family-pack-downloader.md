@@ -32,11 +32,11 @@ D:\Drivers\Download\Dell\Family
 
 ---
 
-Model Selection
+## Configuration - Driver Pack Download Filter
 
-You have the ability to select different Operating Systems \(Windows 7 included\), as well as Family Model.  This will download the proper Dell Family Packs for your environment.
+You have the ability to include and exclude Operating Systems, including Architecture.  Additionally, you have the option to include and exclude Model Branches.  We don't use XPS systems in my Enterprise, so this was the only one that I excluded.  Save the configuration.
 
-![](/assets/2017-10-27_15-06-01.png)
+![](/assets/1-21-2018 1-27-43 PM.png)
 
 ---
 
