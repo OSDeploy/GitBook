@@ -22,7 +22,7 @@ D:\Drivers\Apps\Dell Family Pack Downloader
 
 ---
 
-## Install and Execute
+## Install and Run
 
 Install the Dell Family Pack Downloader and Run the Application
 
