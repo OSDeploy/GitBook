@@ -4,17 +4,25 @@ The Dell Family Pack Downloader is a tool to automate the downloading of Dell Fa
 
 ---
 
-## Download and Install
+## Download
 
 Download the Dell Family Pack Downloader
 
 [http://en.community.dell.com/techcenter/enterprise-client/w/wiki/11438.dell-family-driver-packs](http://en.community.dell.com/techcenter/enterprise-client/w/wiki/11438.dell-family-driver-packs)
+
+---
+
+## Save
 
 Save the Download in your Driver Apps
 
 ```
 D:\Drivers\Apps\Dell Family Pack Downloader
 ```
+
+---
+
+## Install
 
 Install the Dell Family Pack Downloader
 

@@ -10,15 +10,35 @@ SCConfigMgr's Drive Automation Tool is by far the easiest and quickest method fo
 
 ## Download
 
-Download and Extract to Apps in your Repository:
-
-**D:\OSDeploy\OSDriversDEV\Apps\SCCM DriverAutomationTool**
+Download the SCConfigMgr Driver Automation Tool
 
 [http://www.scconfigmgr.com/modern-driver-management/](http://www.scconfigmgr.com/modern-driver-management/)
 
 [https://gallery.technet.microsoft.com/Driver-Tool-Automate-9ddcc010](https://gallery.technet.microsoft.com/Driver-Tool-Automate-9ddcc010)
 
 ---
+
+## Save
+
+Save the Download in your Driver Apps
+
+```
+D:\Drivers\Apps
+```
+
+---
+
+## Extract
+
+Extract the contents of the ZIP file
+
+```
+D:\Drivers\Apps\SCCM Driver Automation Tool
+```
+
+---
+
+## 
 
 ## Model Selection
 
