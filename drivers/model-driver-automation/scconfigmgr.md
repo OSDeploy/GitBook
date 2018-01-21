@@ -1,6 +1,10 @@
 # SCConfigMgr Driver Automation Tool
 
-SCConfigMgr's Drive Automation Tool is by far the easiest and quickest method for Downloading and Importing Drivers for Dell, Lenovo, HP, or Microsoft.
+SCConfigMgr's Drive Automation Tool is by far the easiest and quickest method for Downloading and Importing Drivers for Dell, Lenovo, HP, or Microsoft.  This tool is developed by Microsoft MVP Maurice Daily
+
+[https://twitter.com/modaly\_it](https://twitter.com/modaly_it)
+
+[http://www.scconfigmgr.com/](http://www.scconfigmgr.com/)
 
 ---
 

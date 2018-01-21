@@ -1,6 +1,6 @@
 # Dell Family Pack Downloader
 
-The Dell Family Pack Downloader is a tool to automate the downloading of Dell Family Packs.
+The Dell Family Pack Downloader is a tool to automate the downloading of Dell Family Packs.  The utility is provided by Dell.
 
 ---
 
