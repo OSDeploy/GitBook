@@ -84,19 +84,11 @@ Once you have the Computer Models that you need, press the Start Download and Im
 
 ---
 
+## Download Progress
 
+Be prepared for this process to take some time, grab a lunch!
 
-
-
----
-
-## Download Local Only
-
-While I have the ability to Download and Create Packages directly into SCCM, or Download and Import into MDT, I'll opt instead to just Download and Extract to my local computer.  If you are trying to Download and Import into SCCM or MDT, I strongly recommend testing with a single download first to ensure that everything is set properly.
-
-I make sure my Downloads are going into the Repository Path of **D:\OSDEPLOY\OSDRIVERSDEV\DOWNLOAD\WIN10\DELL**
-
-![](/assets/2017-10-30_13-59-57.png)
+![](/assets/1-21-2018 3-33-13 PM.png)
 
 ---
 
