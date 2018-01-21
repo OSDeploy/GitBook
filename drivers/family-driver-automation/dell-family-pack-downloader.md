@@ -48,5 +48,3 @@ Compressed Drivers are usually about 50% smaller than uncompressed.  Here we see
 
 
 ---
-
-Modified: {{ file.mtime }}
