@@ -42,19 +42,39 @@ Make sure you have the Dell Family Pack downloader delete older versions of down
 
 ---
 
-## Downloaded CAB / ZIP Files
+## Execution
 
-All of the Windows 10 Drivers \(except for the XPS Family\) require 36.2GB in the CAB / ZIP files
+Once everything is configured properly, Check for Updated Drivers and take a lunch.  This will take some time.  When complete, all your Family Packs should be downloaded.
 
-![](/assets/2017-10-30_14-38-09.png)
+![](/assets/1-21-2018 1-30-50 PM.png)
+
+---
+
+## Downloaded CAB / ZIP Drivers
+
+After all 60 Family Packs are downloaded I see that most of the files are ZIP, while the remainder are CAB files.
+
+| **Downloaded Family Packs** | 82.4 GB** \(60 Files\)** |
+| :--- | :--- |
+| Windows 7 \(No XPS\) | 44.5 GB \(32 Files\) |
+| Windows 10 \(No XPS\) | 37.8 GB \(28 Files\) |
+
+![](/assets/1-21-2018 1-50-33 PM.png)
 
 ---
 
 ## Extracted Drivers
 
-Compressed Drivers are usually about 50% smaller than uncompressed.  Here we see that once Extracted, we need 74GB of space.  This is much easier to manage if the size is a concern, although the Driver / Model Automation of %Model% no longer applies.
+Compressed Drivers are usually about 50% smaller than uncompressed.  When all the Family Packs are extracted, 160.51 GB of space is consumed.
 
-![](/assets/2017-10-30_14-39-24.png)
+| **Extracted Family Packs** | **160.51 GB** |
+| :--- | :--- |
+| Windows 7 x64 | 56.13 GB |
+| Windows 7 x86 | 27.51 GB |
+| Windows 10 x64 | 75.64 GB |
+| Windows 10 x86 | 1.23 GB |
+
+
 
 ---
 
