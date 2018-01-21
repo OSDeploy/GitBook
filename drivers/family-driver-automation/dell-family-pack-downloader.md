@@ -1,16 +1,35 @@
 # Dell Family Pack Downloader
 
-The Dell Family Pack Downloader is a tool to automate the downloading of Dell Family Packs, similar to SCConfigMgr's Driver Automation Tool.
+The Dell Family Pack Downloader is a tool to automate the downloading of Dell Family Packs.
 
 ---
 
 ## Download
 
-Download and Extract to Apps in your Repository:
+* Download the Dell Family Pack Downloader
+  * [http://en.community.dell.com/techcenter/enterprise-client/w/wiki/11438.dell-family-driver-packs](http://en.community.dell.com/techcenter/enterprise-client/w/wiki/11438.dell-family-driver-packs)
+* Save the Download in your Driver Apps
+  * ```
+    D:\Drivers\Apps\Dell Family Pack Downloader
+    ```
+
+ff
+
+
+
+```
+D:\Drivers\Apps\Dell Family Pack Downloader
+```
+
+
+
+
+
+
 
 **D:\OSDeploy\OSDriversDEV\Apps\Dell Family Pack Downloader**
 
-[http://en.community.dell.com/techcenter/enterprise-client/w/wiki/11438.dell-family-driver-packs](http://en.community.dell.com/techcenter/enterprise-client/w/wiki/11438.dell-family-driver-packs)
+
 
 ---
 
@@ -46,5 +65,7 @@ Compressed Drivers are usually about 50% smaller than uncompressed.  Here we see
 
 ![](/assets/2017-10-30_14-39-24.png)
 
-
 ---
+
+
+
