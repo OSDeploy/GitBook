@@ -4,46 +4,35 @@ The Dell Family Pack Downloader is a tool to automate the downloading of Dell Fa
 
 ---
 
-## Download
+## Download and Install
 
-* Download the Dell Family Pack Downloader
-  * [http://en.community.dell.com/techcenter/enterprise-client/w/wiki/11438.dell-family-driver-packs](http://en.community.dell.com/techcenter/enterprise-client/w/wiki/11438.dell-family-driver-packs)
-* Save the Download in your Driver Apps
-  * ```
-    D:\Drivers\Apps\Dell Family Pack Downloader
-    ```
+Download the Dell Family Pack Downloader
 
-ff
+[http://en.community.dell.com/techcenter/enterprise-client/w/wiki/11438.dell-family-driver-packs](http://en.community.dell.com/techcenter/enterprise-client/w/wiki/11438.dell-family-driver-packs)
 
-
+Save the Download in your Driver Apps
 
 ```
 D:\Drivers\Apps\Dell Family Pack Downloader
 ```
 
-
-
-
-
-
-
-**D:\OSDeploy\OSDriversDEV\Apps\Dell Family Pack Downloader**
-
-
+Install the Dell Family Pack Downloader
 
 ---
 
-## Configuration
+## Configuration - Download Directory
 
-For Windows 10, make sure you download the Family Packs into your Repository
+Configure the Family Pack Downloader to save the files in your Driver Download Repository
 
-**D:\OSDeploy\OSDriversDEV\Download\Win10\DellFamily**
+```
+D:\Drivers\Download\Dell\Family
+```
 
-![](/assets/2017-10-30_14-35-05.png)
+![](/assets/1-21-2018 1-22-07 PM.png)
 
 ---
 
-## Model Selection
+Model Selection
 
 You have the ability to select different Operating Systems \(Windows 7 included\), as well as Family Model.  This will download the proper Dell Family Packs for your environment.
 
