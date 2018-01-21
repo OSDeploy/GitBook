@@ -7,7 +7,7 @@
 * [Introduction](drivers/README.md)
 * [Driver Repository](drivers/driver-repository.md)
 * [Model Drivers](drivers/model-drivers/README.md)
-  * [Dell](drivers/model-drivers/dell.md)
+  * [Dell Driver Packs](drivers/model-drivers/dell.md)
   * [HP](drivers/model-drivers/hp.md)
   * [Lenovo](drivers/model-drivers/lenovo.md)
   * [Microsoft Surface](drivers/model-drivers/microsoft-surface.md)
