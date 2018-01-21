@@ -70,15 +70,19 @@ Once I complete this configuration, I will press the Find Models button
 
 ## Selecting Computer Models
 
-The Driver Automation Tool will return a list of Dell Computer Models.  Simply select the Dell Computer Models that you need and press the Add To Import List button.  I did notice that some Dell Computer Models were duplicated, but I am unsure of what the result will be selecting one of the two.
+The Driver Automation Tool will return a list of Dell Computer Models.  Simply select the Dell Computer Models that you need and press the Add To Import List button.  I did notice that some Dell Computer Models were duplicated in the Available Models, but after adding to the Import List, the duplicate will be removed.
 
 ![](/assets/1-21-2018 3-27-00 PM.png)
 
+---
 
+## Start Download and Import Process
 
+Once you have the Computer Models that you need, press the Start Download and Import Process button.
 
+![](/assets/1-21-2018 3-30-41 PM.png)
 
-
+---
 
 
 
