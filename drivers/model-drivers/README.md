@@ -5,7 +5,3 @@ Model Drivers are complete CAB/ZIP/EXE/MSI files that contain all the drivers yo
 You can download the Model Driver Packs directly from Dell, HP, Lenovo, or Microsoft.
 
 From there, you can import the Model Driver Packs directly into SCCM or MDT and use them for OS Deployment.
-
----
-
-Modified: {{ file.mtime }}
