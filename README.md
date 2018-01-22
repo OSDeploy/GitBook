@@ -1,8 +1,5 @@
-# Windows 10 OS Deployment
+# OS Deploy
 
-**This site is currently being built, check back in February 2018!**
-
----
 
 I started OSDeploy.com as a way for me to document several of the things that I do related to deploying Windows for a large Enterprise.  Hopefully it will help others.
 
@@ -19,4 +16,5 @@ I started OSDeploy.com as a way for me to document several of the things that I 
 
 ---
 
-Modified: {{ file.mtime }}
+
+![](/assets/Email_badge_speaking.jpg)
