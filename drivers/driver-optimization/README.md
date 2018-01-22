@@ -1,8 +1,8 @@
 # Driver Optimization
 
-You are free to import the Drivers that you have downloaded into SCCM or MDT, but you should consider some type of Driver Optimization.  Driver Optimization includes the following
+Once you Download and Extract your Computer Drivers, you can immediately start your OS Deployments, but you are missing out on Driver Optimization.  Driver Optimization includes the following
 
-* **Update** - Out with the old and outdated, and in with the new
+* **Update** - Updating your aging Drivers can provide a benefit to your Operating System.
 
 * **Organization** - Organizing your Drivers into a logical structure that is easy to Manage and Maintain
 
