@@ -13,7 +13,7 @@ When I work with Drivers, I ensure that everything Driver related has a place.  
       * Dell-Family \(Dell Family Pack Downloader Repository\)
       * Microsoft \(Created by SCConfigMgr Driver Automation Tool\)
     * Video
-  * Extract
+
   * Scripts
   * Test
     * Alpha
