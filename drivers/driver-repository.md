@@ -7,8 +7,11 @@ When I work with Drivers, I ensure that everything Driver related has a place.  
 * Drivers
   * Apps
   * Download
-    * Packs-Family
-    * Packs-Model
+    * Core
+    * Models \(Driver Automation Tool Repository\)
+      * Dell \(Created by SCConfigMgr Driver Automation Tool\)
+      * Dell-Family \(Dell Family Pack Downloader Repository\)
+      * Microsoft \(Created by SCConfigMgr Driver Automation Tool\)
     * Video
   * Extract
   * Scripts
