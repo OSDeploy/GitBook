@@ -50,7 +50,7 @@ This should be changed depending on which Make you download.  Dell combines x86 
 D:\Drivers\Download\Packs-Model\Win10
 ```
 
-![](/assets/1-21-2018 3-22-12 PM.png)
+![](/assets/1-21-2018 10-03-30 PM.png)
 
 ---
 
@@ -88,17 +88,15 @@ Once you have the Computer Models that you need, press the Start Download and Im
 
 ## Download Progress
 
-Be prepared for this process to take some time, grab a lunch!
+If you have several different Computer Models to download, be prepared for this process to take some time.  Go grab a lunch!
 
-![](/assets/1-21-2018 3-33-13 PM.png)
+![](/assets/1-21-2018 10-04-38 PM.png)
 
 ---
 
 ## Downloaded Files
 
-Since my Enterprise uses several different models over several different generations, I will choose to download ALL Latitude, OptiPlex, Precision, and Venue Tablet Drivers \(excluding Embedded PC and XPS systems\).
-
-I'll let this run overnight since this will take several hours to complete.  Once it is down, I have everything created nice and neat in my Repository.  I see that I download some files I know for sure I may not need, but in the end everything is complete.
+I decided to download everything for Windows 10 x64 and was quite happy when everything was complete and organized in my Driver Repository.  Looks like I selected a few models that I don't need, but your mileage may vary.
 
 ![](/assets/2017-10-27_12-11-04.png)
 
@@ -110,19 +108,25 @@ The SCConfigMgr Driver Automation Tool is an excellent that every Admin should c
 
 ---
 
-## Suggestions
+## Suggestion - Download Only \(Not Extract\)
 
-The ability to Extract the Drivers to a separate Driver Repository is something I would like to see added in the future.  I can manually 
+While my selection suggests "Download Only", my Driver Pack is Extracted.  Having the option to not Extract the Driver Pack could prove useful.
+
+---
+
+## Suggestion - Extract Directory
+
+The ability to Extract the Drivers to a separate Driver Repository is something I would like to see added in the future.  I like to keep the Downloaded Driver Packs separate from the Extracted Driver Packs.  I can easily overcome this by a simple Robocopy
 
 ```
-robocopy D:\Drivers\Download\Packs-Model\Win10\Dell
+robocopy D:\Drivers\Download\Packs-Model\Win10\Dell D:\Drivers\Extract\Packs-Model\Win10\Dell *.* /e /move /xd "Driver Cab"
 ```
 
+---
 
+## Suggestion - Validate Case Sensitive Downloads
 
-There are two things that I would like to recommend in a future update.  The first is to allow the ability to Extract Drivers to a separate Driver Repository than the CAB files.
-
-I did notice that I the following directories did not Download and Extract properly
+I did notice that I the following Dell Models did not download the Driver Pack.  This is because the URL showed the file in all CAPS
 
 ```
 Latitude 12 Rugged Extreme (7204)
