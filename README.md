@@ -12,11 +12,7 @@ I started OSDeploy.com as a way for me to document several of the things that I 
 
 ---
 
-I will be speaking at Experts Live in Houston on February 9, 2018
-
- 
-
- 
+I will be speaking at Experts Live in Houston on February 9, 2018 :\)
 
 [![](/assets/Email_badge_speaking.jpg)](http://www.expertslive.us/)
 
