@@ -4,7 +4,7 @@ There are several utilities that you can use to automatically Download the Compu
 
 ---
 
-## Universal - SCConfigMgr Driver Automation Tool
+## SCConfigMgr Driver Automation Tool
 
 If you are looking for a Swiss Army Knife type of tool, I can highly recommend the SCConfigMgr Driver Automation Tool.  This will work with Dell, HP, Lenovo, and Microsoft Surface Computers.
 
