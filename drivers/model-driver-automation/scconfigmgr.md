@@ -90,7 +90,7 @@ Once you have the Computer Models that you need, press the Start Download and Im
 
 If you have several different Computer Models to download, be prepared for this process to take some time.  Go grab a lunch!
 
-![](/assets/1-21-2018 10-04-38 PM.png)
+![](/assets/1-21-2018 11-27-51 PM.png)
 
 ---
 
@@ -116,10 +116,10 @@ While my selection suggests "Download Only", my Driver Pack is Extracted.  Havin
 
 ## Suggestion - Extract Directory
 
-The ability to Extract the Drivers to a separate Driver Repository is something I would like to see added in the future.  I like to keep the Downloaded Driver Packs separate from the Extracted Driver Packs.  I can easily overcome this by a simple Robocopy
+The ability to Extract the Drivers to a separate Driver Repository is something I would like to see added in the future.  I like to keep the Downloaded Driver Packs separate from the Extracted Driver Packs, but I can easily overcome this with a simple Robocopy
 
 ```
-robocopy D:\Drivers\Download\Packs-Model\Win10\Dell D:\Drivers\Extract\Packs-Model\Win10\Dell *.* /e /move /xd "Driver Cab"
+robocopy D:\Drivers\Download\Model\Dell D:\Drivers\Extract\Model\Dell *.* /e /move /xd "Driver Cab"
 ```
 
 ---
