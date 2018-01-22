@@ -5,8 +5,10 @@ Before working with Drivers, you will need to make a Driver Repository. This wil
 When I work with Drivers, I ensure that everything Driver related has a place.  I work with a standardized structure.
 
 * Drivers
+
   * Apps
   * Download
+
     * Core
     * Models \(Driver Automation Tool Repository\)
       * Dell \(Created by SCConfigMgr Driver Automation Tool\)
@@ -15,6 +17,7 @@ When I work with Drivers, I ensure that everything Driver related has a place.  
     * Video
 
   * Scripts
+
   * Test
     * Alpha
     * Beta
@@ -41,12 +44,6 @@ I will detail what each of these tools are in further reading
 ## Drivers\Download
 
 This is where I will download all of my Drivers.  When working with Model Packs, all the original CAB or ZIP files will remain here, unmodified.  This way if I need to extract a new copy, everything is in one place.
-
----
-
-## Drivers\Extract
-
-This will contain an Extracted copy of all my Drivers.  I consider this my Master Source before I do any modifications to the content.
 
 ---
 
