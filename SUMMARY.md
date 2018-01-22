@@ -70,11 +70,9 @@
   * [MDT](resources/links/MDT.md)
 * [People](resources/people/README.md)
 
-
-
-```
 Modified: {{ file.mtime }}
-```
+
+
 
 
 
