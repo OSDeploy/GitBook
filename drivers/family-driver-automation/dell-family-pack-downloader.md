@@ -67,7 +67,7 @@ After all 60 Family Packs are downloaded I see that most of the files are ZIP, w
 | Windows 7 \(No XPS\) | 44.5 GB \(32 Files\) |
 | Windows 10 \(No XPS\) | 37.8 GB \(28 Files\) |
 
-![](/assets/1-21-2018 3-58-38 PM.png)
+![](/assets/1-21-2018 11-41-00 PM.png)
 
 ---
 
