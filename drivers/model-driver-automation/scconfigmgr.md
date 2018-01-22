@@ -108,13 +108,13 @@ The SCConfigMgr Driver Automation Tool is an excellent that every Admin should c
 
 ---
 
-## Suggestion - Download Only \(Not Extract\)
+## Suggestions
 
-While my selection suggests "Download Only", my Driver Pack is Extracted.  Having the option to not Extract the Driver Pack could prove useful.
+### Download Only
 
----
+While my selection suggests "Download Only", my Driver Pack is Extracted.  Having the option to not Extract the Driver Pack could prove useful.  Additionally, the ability to download all CAB files in a single directory so I can extract them using 7-Zip as an option.
 
-## Suggestion - Extract Directory
+### Extract Directory
 
 The ability to Extract the Drivers to a separate Driver Repository is something I would like to see added in the future.  I like to keep the Downloaded Driver Packs separate from the Extracted Driver Packs, but I can easily overcome this with a simple Robocopy
 
