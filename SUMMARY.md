@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Home](README.md)
 
 ## Drivers
 
@@ -70,6 +70,4 @@
   * [ADK](resources/links/ADK.md)
   * [MDT](resources/links/MDT.md)
 * [People](resources/people/README.md)
-
-Modified: {{ file.mtime }}
 
