@@ -124,9 +124,9 @@ robocopy D:\Drivers\Download\Packs-Model\Win10\Dell D:\Drivers\Extract\Packs-Mod
 
 ---
 
-## Suggestion - Validate Case Sensitive Downloads
+## Issues
 
-I did notice that I the following Dell Models did not download the Driver Pack.  This is because the URL showed the file in all CAPS
+I did notice that I the following Dell Models did not download the Driver Packs from Dell.
 
 ```
 Latitude 12 Rugged Extreme (7204)
@@ -134,9 +134,15 @@ Latitude 14 Rugged (5404)
 Latitude 14 Rugged Extreme (7404)
 ```
 
-Further checking in the log shows what the URL for the download is, but they failed.  From what I can tell is that the CAB file that was downloaded manually has WIN10 in CAPS, so it make a Case Sensitive issue.  Once I manually downloaded the file and placed it in the proper Driver Cab directory, the Driver Automation Tool extracted it as planned.
+I am not sure what the issue was, but I ended up downloading the CAB file manually.  I noticed that the file name itself has **WIN10 **in CAPS, but the XML source shows **Win10**.  I am not sure if this is the cause for the failure, I will update when I get more information.
+
+Here are the files that failed
 
 ![](/assets/2017-10-27_12-16-11.png)
+
+And my Driver Automation Tool Event Log
+
+![](/assets/1-21-2018 10-25-02 PM.png)
 
 ---
 
