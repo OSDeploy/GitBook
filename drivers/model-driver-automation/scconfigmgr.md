@@ -44,13 +44,13 @@ D:\Drivers\Apps\SCCM Driver Automation Tool
 
 Even though the Driver Automation Tool starts on the Make/Model tab, I will select the Common Settings tab and modify the Repository Path.
 
-This should be changed depending on which Make you download.  Dell combines x86 and x64 Drivers
+I place everything in a Models directory.  The Driver Automation Tool will automatically create subdirectories based on the Make
 
 ```
-D:\Drivers\Download\Packs-Model\Win10
+D:\Drivers\Download\Models
 ```
 
-![](/assets/1-21-2018 10-03-30 PM.png)
+![](/assets/1-21-2018 11-25-55 PM.png)
 
 ---
 
