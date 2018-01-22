@@ -14,7 +14,7 @@
   * [Dell Family Pack Downloader](//drivers/family-driver-automation/dell-family-pack-downloader.md)
 * [Driver Optimization](drivers/driver-optimization/README.md)
   * [Benefits](drivers/driver-optimization/benefits.md)
-  * [Core Drivers](drivers/core-drivers/README.md)
+  * [Core Drivers](drivers/driver-optimization/core-drivers/README.md)
     * [Intel Bluetooth](drivers/core-drivers/intel-bluetooth.md)
     * [Intel Chipset](drivers/core-drivers/intel-chipset.md)
     * [Intel Network](drivers/core-drivers/intel-network.md)
@@ -69,6 +69,12 @@
   * [ADK](resources/links/ADK.md)
   * [MDT](resources/links/MDT.md)
 * [People](resources/people/README.md)
+
+
+
+```
+Modified: {{ file.mtime }}
+```
 
 
 
