@@ -20,9 +20,9 @@ After a successful split, we can see how things really shape up.
 | Repository | Packs | Extracted Size |
 | :--- | :--- | :--- |
 | Dell Family Packs Win10 x86 | 2 | 1.19 GB |
-| Dell Model Packs Win10 x86 | 64 | 33.42 GB |
+| Dell Model Packs Win10 x64 | 64 | 33.42 GB |
 |  |  |  |
-| **Dell Family Packs Win10 x64** | **27** | **72.73 GB** |
+| **Dell Family Packs Win10 x86** | **27** | **72.73 GB** |
 | **Dell Model Packs Win10 x64** | **138** | **158.30 GB** |
 
 A complete breakdown of these Repositories is listed below
@@ -297,3 +297,6 @@ Venue 11 Pro 7130                 0.83 GB
 Venue 11 Pro 7130 vPro            0.83 GB
 Venue 11 Pro 7140                 0.86 GB
 ```
+
+
+
