@@ -7,24 +7,28 @@ This should be downloaded and organized in a logical structure.
 ```
 OSD-Core
     Bluetooth
-        Intel Bluetooth
+        Intel
     Chipset
-        Intel Chipset 9.x
-        Intel Chipset 10.x
-        Intel Server Chipset 10.x
-        Intel eXtensible Host Controller 7 Series
-        Intel eXtensible Host Controller 8 9 10 Series
+        Intel
+            Chipset 9.x
+            Chipset 10.x
+            Server Chipset 10.x
+            eXtensible Host Controller 7 Series
+            eXtensible Host Controller 8 9 10 Series
     Network
-        Intel Ethernet
-        Realtek PCI Fast Ethernet
-        Realtek PCI Gigabit Ethernet
-        Realtek PCIE Gigabit Ethernet
+        Intel
+            Ethernet
+        Realtek
+            PCI Fast Ethernet
+            PCI Gigabit Ethernet
+            PCIE Gigabit Ethernet
     Storage
-        Intel RST 12.x
-        Intel RST 15.x
-        Intel RSTe 4.x
+        Intel
+            RST 12.x
+            RST 15.x
+            RSTe 4.x
     Wireless
-        Intel Wireless
+        Intel
 ```
 
 

@@ -28,10 +28,6 @@
       * [Win7 x64](drivers/driver-optimization/core-video-drivers/win7-x64.md)
       * [Win7 x86](drivers/driver-optimization/core-video-drivers/win7-x86.md)
     * [Nvidia](drivers/driver-optimization/core-video-drivers/nvidia/README.md)
-      * [Nvidia Driver Download](drivers/driver-optimization/core-video-drivers/nvidia/nvidia-download.md)
-      * [Nvidia Driver Extract](drivers/driver-optimization/core-video-drivers/nvidia/nvidia-extract.md)
-      * [Nvidia Driver Junk](drivers/driver-optimization/core-video-drivers/nvidia/nvidia-junk.md)
-      * PS Edit-OSDriversNvidia
 * [Dell Driver Cleanup](drivers/dell-driver-cleanup/README.md)
   * [Audio](drivers/dell-driver-cleanup/audio.md)
   * [Bluetooth](drivers/dell-driver-cleanup/bluetooth.md)
