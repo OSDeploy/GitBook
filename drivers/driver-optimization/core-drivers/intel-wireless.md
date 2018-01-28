@@ -173,10 +173,3 @@ PCI\VEN_8086&DEV_24FD
 PCI\VEN_8086&DEV_3165
 PCI\VEN_8086&DEV_3166
 ```
-
-
-
-
----
-
-Modified: {{ file.mtime }}
