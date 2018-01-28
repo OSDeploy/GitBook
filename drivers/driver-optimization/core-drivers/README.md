@@ -4,5 +4,3 @@
 
 
 ---
-
-Modified: {{ file.mtime }}
