@@ -24,13 +24,3 @@ Make sure you save the Drivers using a proper naming convention.  After unpackin
 
 **After removing these directories, Intel Network consumes 92 MB Extracted and 30 MB Compressed**
 
-
-
-
-
-
-
-
----
-
-Modified: {{ file.mtime }}
