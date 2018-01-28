@@ -34,8 +34,3 @@ To get INF files for the Bluetooth Drivers, you need to install the Drivers on a
 
 * C:\Program Files\Intel\Bluetooth\drivers
 * C:\Program Files \(x86\)\Intel\Bluetooth\drivers
-
-
----
-
-Modified: {{ file.mtime }}
