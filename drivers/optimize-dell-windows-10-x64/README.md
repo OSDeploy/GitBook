@@ -8,19 +8,11 @@ This section will detail how to reduce Dell
 
 The best change that you can make is to completely switch over from
 
-
-
 \# Dell Driver Cleanup
-
-
 
 Let's look at the two methods for Dell Drivers.  The Model Driver Packs \\(SCConfigMgr Driver Automation Tool\\) and the Dell Family Packs \\(Dell Family Pack Downloader\\)
 
-
-
 By switching to the Dell Family Packs, the total Drivers used will be reduced to 73.9 GB.  This is a significant reduction compared to the individual Dell Model Packs.
-
-
 
 \| Method \| Number of Packs \| Downloaded Size \| Extracted Size \|
 
@@ -30,23 +22,13 @@ By switching to the Dell Family Packs, the total Drivers used will be reduced to
 
 \| Dell Family Packs \| 27 \| 36.2 GB \| \*\*73.96 GB\*\* \|
 
-
-
 ---
-
-
 
 \#\# Dual Architecture
 
-
-
 One issue with the way Dell has their Family and Model Packs is that they contain drivers for both 32 and 64 Bit architectures.  The first step that has to be done is to split these into separate Driver Repositories.
 
-
-
 After a successful split, we can see how things really shape up.
-
-
 
 \| Repository \| Packs \| Extracted Size \|
 
@@ -62,19 +44,11 @@ After a successful split, we can see how things really shape up.
 
 \| \*\*Dell Model Packs Win10 x64\*\* \| \*\*138\*\* \| \*\*158.30 GB\*\* \|
 
-
-
 A complete breakdown of these Repositories is listed below
-
-
 
 ---
 
-
-
 \#\# Dell Family Packs x86
-
-
 
 \`\`\`
 
@@ -82,7 +56,7 @@ D:\Drivers\Dell\Win10x86\Family
 
 Directory Name                Total Size
 
------------------------------ ----------
+---
 
 Win10\_OptiPlexD4\_A02          0.95 GB
 
@@ -90,15 +64,9 @@ Win10\_VenuePro2\_A03           0.24 GB
 
 \`\`\`
 
-
-
 ---
 
-
-
 \#\# Dell Family Packs x64
-
-
 
 \`\`\`
 
@@ -106,7 +74,7 @@ D:\Drivers\Dell\Win10x64\Family
 
 Directory Name                Total Size
 
------------------------------ ----------
+---
 
 Win10\_Latitude3x40\_A01        1.13 GB
 
@@ -164,15 +132,9 @@ Win10\_VenuePro4\_A11           0.74 GB
 
 \`\`\`
 
-
-
 ---
 
-
-
 \#\# Dell Model Packs x86
-
-
 
 \`\`\`
 
@@ -180,7 +142,7 @@ D:\Drivers\Dell\Win10x86\Model
 
 Directory Name                Total Size
 
------------------------------ ----------
+---
 
 Latitude 3330                 0.39 GB
 
@@ -312,15 +274,9 @@ Tablet 5130                   0.24 GB
 
 \`\`\`
 
-
-
 ---
 
-
-
 \#\# Dell Model Packs x64
-
-
 
 \`\`\`
 
@@ -328,7 +284,7 @@ D:\Drivers\Dell\Win10x64\Model
 
 Directory Name                    Total Size
 
------------------------------     ----------
+---
 
 Latitude 12 Rugged Extreme \(7204\) 0.91 GB
 
@@ -606,17 +562,9 @@ Venue 11 Pro 7130 vPro            0.83 GB
 
 Venue 11 Pro 7140                 0.86 GB
 
-\`\`\`
+---
 
 
 
-
-
-
-
-
-
-
-
-
+Modified: {{ file.mtime }}
 
