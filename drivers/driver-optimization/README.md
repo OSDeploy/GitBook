@@ -1,12 +1,12 @@
 # Driver Optimization
 
-Once you Download and Extract your Computer Drivers, you can immediately start your OS Deployments, but you are missing out on Driver Optimization.  Driver Optimization includes the following
+If you use Manufacturer Driver Packs, you can immediately start your OS Deployments, but you are missing out on Driver Optimization.  Driver Optimization includes the following
 
-* **Validation** - Mistakes can and do happen.  Downloading and importing without Validation has problems
+* **Driver Pack Validation** - Mistakes happen.  Are you sure the Driver Packs you are using are properly built?
 
-* **Update** - Updating your aging Drivers can provide a benefit to your Operating System.
+* **Updates** - Driver Packs age, become stale and forgotten.  They need updates.
 
-* **Organization** - Organizing your Drivers into a logical structure that is easy to Manage and Maintain
+* **Repository Organization** - Organizing your Drivers into a logical structure that is easy to Manage and Maintain
 
 * **Consolidation** - Removing multiple or redundant Drivers
 
