@@ -1,8 +1,19 @@
-# Optimize Dell Windows 10 x64
+# Optimize Dell Windows 10
 
-This section will detail how to reduce Dell
+Let's try to see what we can do for Dell Driver Packs on Windows 10 x64.  If we are using the "Total Control" method for Driver Management, then 
+
+
+
+| Dell Model Packs | 138 | 84.1 GB \| 191.70 GB \|
+
+| Dell Family Packs | 27 \| 36.2 GB \| \*\*73.96 GB\*\* \|
+
+
+
 
 ---
+
+
 
 ## Switch from Dell Model Packs to Dell Family Packs
 
@@ -561,10 +572,4 @@ Venue 11 Pro 7130                 0.83 GB
 Venue 11 Pro 7130 vPro            0.83 GB
 
 Venue 11 Pro 7140                 0.86 GB
-
----
-
-
-
-Modified: {{ file.mtime }}
 
