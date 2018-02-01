@@ -1,23 +1,26 @@
 # Optimize Dell Windows 10
 
-Let's try to see what we can do for Dell Driver Packs on Windows 10 x64.  If we are using the "Total Control" method for Driver Management, then 
+Let's try to see what we can do for Dell Driver Packs on Windows 10 x64.  If we are using the "Total Control" method for Driver Management, then we have almost 140 Driver Packs at close to 192 GB of space.  This is our starting point.
 
+| Description | Number of Packs | Download Size | Extracted Size |
+| :--- | :--- | :--- | :--- |
+| Dell Model Packs | 138 | 84.10 | 191.70 |
 
+---
 
-| Dell Model Packs | 138 | 84.1 GB \| 191.70 GB \|
+## Switch from Dell Model Packs to Dell Family Packs
 
-| Dell Family Packs | 27 \| 36.2 GB \| \*\*73.96 GB\*\* \|
+The best change that you can make is to completely switch over from using individual Model Packs to 
 
-
-
+| Description |  |  |  |
+| :--- | :--- | :--- | :--- |
+| Dell Family Packs | 27 | 36.20 GB | 73.96 GB |
 
 ---
 
 
 
-## Switch from Dell Model Packs to Dell Family Packs
 
-The best change that you can make is to completely switch over from
 
 \# Dell Driver Cleanup
 
