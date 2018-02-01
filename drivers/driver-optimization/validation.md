@@ -6,7 +6,7 @@ In my Enterprise, roughly 95% of the Computers are Dell systems, so I apologize 
 
 ---
 
-## Nvidia Drivers
+## Dell Underscores Nvidia's Drivers
 
 In just about every Driver Pack are Nvidia Video Drivers.  Nvidia likes to compress their Drivers and this is easy to see when looking at the Drivers themselves.  In the image below, we can see several files with a **DL\_** extension.
 
@@ -64,9 +64,43 @@ And this issue has apparently been going on since 2011.
 
 ![](/assets/2-1-2018 12-26-58 AM.png)
 
+---
+
+## Fat Touchpad Drivers
+
+Dell has a Touchpad Driver \(WWVKD\) that is used in the Latitude E6 A10 and the Latitude E7 A12 Family Driver CABs, but why is the one in the E6 10 times larger than the one in the E7?
+
+![](/assets/2-1-2018 12-38-23 AM.png)
+
+The solution is easy, remove everything except Windows10-x64
+
+![](/assets/2-1-2018 12-41-51 AM.png)
+
+---
+
+## Driver Packs include x86 and x64 Drivers
+
+Is there really a logical reason these are combined?  Here is my 1.7GB OptiPlex D4 Driver Pack with almost 1 GB in x86 Drivers.  These should be separated as most everyone will either not use the x86 Drivers, or create Separate Driver Packages if they do need them.
+
+![](/assets/2-1-2018 12-53-08 AM.png)
 
 
 
+---
+
+## x86 Drivers in x64 Drivers
+
+Easy enough to fix, but this would only be caught with proper Validation.  This is not the same issue as above, these are clearly in the x64 part of the Driver Pack.
+
+![](/assets/2-1-2018 12-46-53 AM.png)
+
+---
+
+## Non-Validation Recommendations
+
+I assume Dell is going to look into these things, and since I have their ear, how about some recommendations
+
+* Separate the x86 and x64 Driver Packs.
 
 
 
