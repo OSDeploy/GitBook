@@ -64,6 +64,8 @@ And this issue has apparently been going on since 2011.
 
 ![](/assets/2-1-2018 12-26-58 AM.png)
 
+Since we know there are issues with Dell's Nvidia implementation, we have to remove them from our Driver Packs.
+
 ---
 
 ## Fat Touchpad Drivers

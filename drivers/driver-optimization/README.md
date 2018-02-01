@@ -4,9 +4,9 @@ If you use Manufacturer Driver Packs, you can immediately start your OS Deployme
 
 * **Driver Validation** - Mistakes happen.  Are you sure the Driver Packs you are using are properly built?
 
-* **Driver Updates** - Driver Packs age, become stale and forgotten.  They need updates.
-
 * **Repository Organization** - Organizing your Drivers into a logical structure that is easy to Manage and Maintain
+
+* **Driver Updates** - Driver Packs age, become stale and forgotten.  They need updates.
 
 * **Driver Consolidation** - Removing multiple or redundant Drivers
 
