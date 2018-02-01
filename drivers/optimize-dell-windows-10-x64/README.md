@@ -12,13 +12,23 @@ Let's try to see what we can do for Dell Driver Packs on Windows 10 x64.  If we 
 
 The best change that you can make is to completely switch over from using individual Model Packs to
 
-| Description | Number of Packs | Download Sze | Extracted Size |
-| :--- | :--- | :--- | :--- |
-| Dell Family Packs | 27 | 36.20 GB | 73.96 GB |
+| Description | Number of Packs | Download Sze | Extracted Size | Recovered |
+| :--- | :--- | :--- | :--- | :--- |
+| Dell Family Packs | 28 | 37.80 GB | 76.87 GB | 114.83 GB |
 
 ---
 
-\# Dell Driver Cleanup
+## Remove x86 Drivers
+
+One issue with the way Dell has their Family and Model Packs is that they contain drivers for both 32 and 64 Bit architectures.  The first step that has to be done is to split these into separate Driver Repositories.
+
+After a successful split, we can see how things really shape up.
+
+
+
+
+
+
 
 Let's look at the two methods for Dell Drivers.  The Model Driver Packs \\(SCConfigMgr Driver Automation Tool\\) and the Dell Family Packs \\(Dell Family Pack Downloader\\)
 
@@ -36,9 +46,7 @@ By switching to the Dell Family Packs, the total Drivers used will be reduced to
 
 \#\# Dual Architecture
 
-One issue with the way Dell has their Family and Model Packs is that they contain drivers for both 32 and 64 Bit architectures.  The first step that has to be done is to split these into separate Driver Repositories.
 
-After a successful split, we can see how things really shape up.
 
 \| Repository \| Packs \| Extracted Size \|
 
