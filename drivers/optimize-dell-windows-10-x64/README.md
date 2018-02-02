@@ -1,6 +1,6 @@
 # Optimize Dell Windows 10
 
-Let's try to see what we can do for Dell Driver Packs on Windows 10 x64.  If we are using the "Total Control" method for Driver Management, then we up to 140 Driver Packs at close to 192 GB of space.  This is our starting point.
+Let's try to see what we can do for Dell Driver Packs on Windows 10 x64.  If we are using the "Total Control" method for Driver Management, then we are up to 140 Driver Packs at close to 192 GB of space.  This is our starting point.
 
 | Total Control | Number of Packs | Download Size | Repository Size |
 | :--- | :--- | :--- | :--- |
@@ -454,7 +454,7 @@ Win10_VenuePro4_A11           0.20 GB*
 
 ## Remove Nvidia Video Drivers
 
-Since the Nvidia Video Drivers that are in Dell's Family Driver Packs are not formatted properly, then need to be removed.
+You can create packages for Nvidia Video Cards by downloading the latest version directly from Nvidia.
 
 | Action | Recovered Space | New Repository Size |
 | :--- | :--- | :--- |
@@ -529,7 +529,7 @@ Win10_VenuePro4_A11           0.20 GB*
 
 ## Remove AMD Video Drivers
 
-Removing these
+Removing these will clear up a large amount of space as well.
 
 | Action | Recovered Space | New Repository Size |
 | :--- | :--- | :--- |
@@ -781,6 +781,4 @@ Now that we have cleaned out our Drivers, let's compress them into CAB files so 
 Here is how they look visually, sorted by size, with the largest CAB topping out at 400 MB.
 
 ![](/assets/2-2-2018 2-38-35 AM.png)And yes, you can absolutely use these in your OS Deployment, which I will explain how to create CAB files and use them in a separate post.
-
-
 
