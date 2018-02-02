@@ -80,6 +80,16 @@ The solution is easy, remove everything except Windows10-x64
 
 ---
 
+## Incorrect Category
+
+Not sure why a Intel Video Driver \(Dell Download 7W9YT\) would be listed under Chipset in the Latitude 3x40 A01 Family Pack, when it should be in Video.
+
+![](/assets/2-1-2018 9-08-48 PM.png)
+
+
+
+---
+
 ## Driver Packs include x86 and x64 Drivers
 
 Is there really a logical reason these are combined?  Here is my 1.7GB OptiPlex D4 Driver Pack with almost 1 GB in x86 Drivers.  These should be separated as most everyone will either not use the x86 Drivers, or create Separate Driver Packages if they do need them.
