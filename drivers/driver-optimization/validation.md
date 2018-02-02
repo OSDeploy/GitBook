@@ -6,109 +6,6 @@ In my Enterprise, roughly 95% of the Computers are Dell systems, so I apologize 
 
 ---
 
-## Dell Underscores Nvidia's Video Drivers
-
-In just about every Driver Pack are Nvidia Video Drivers.  Nvidia likes to compress their Drivers and this is easy to see when looking at the Drivers themselves.  In the image below, we can see several files with a **DL\_** extension.
-
-![](/assets/2-1-2018 12-12-35 AM.png)
-
-According to Microsoft, these are Compressed
-
-[https://technet.microsoft.com/en-us/library/cc938939.aspx](https://technet.microsoft.com/en-us/library/cc938939.aspx)
-
-> Typically, files compressed with this tool are named with the last letter of the file name extension replaced with an underscore character \(\_\) to clearly identify the file as compressed.
-
-While the effort to save space seems nice, these Drivers will not install.  Reading the NVDM.INF which references all the dependent files, the full extension is shown.  So while you may be able to import them, and OSD will copy the files to the Computer, they simply will not install.
-
-![](/assets/2-1-2018 12-16-51 AM.png)
-
-Ok, so is this a big problem?  A quick check in the Dell Family CAB's for Windows 10 show 29 instances
-
-```
-D:\Drivers\Test\Alpha\Win10\Win10_LatitudeE5_A02\LatitudeE5\win10\x64\video\N4MHX\Windows10-x64\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_LatitudeE6_A10\LatitudeE6\win10\x64\video\N4MHX\Windows10-x64\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_LatitudeE6XFR_A04\LatitudeE6XFR\Win10\x64\video\08PKM\Windows10-x64\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_LatitudeE7_A12\LatitudeE7\WIN10\x64\Video\XCDV4\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_LatitudeE8_A18\LatitudeE8\WIN10\x64\Video\XCDV4\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_LatitudeE9_A11\LatitudeE9\WIN10\x64\Video\7MG3T\Windows10-x64\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_LatitudeE9_A11\LatitudeE9\WIN10\x64\Video\H58F8\Windows10-x64\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_LatitudeE9_A11\LatitudeE9\WIN10\x64\Video\K1TC4\Windows10-x64\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_LatitudeE9_A11\LatitudeE9\WIN10\x64\Video\K7C9J\Display.Driver\Win10_x64\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_LatitudeE9_A11\LatitudeE9\WIN10\x64\Video\K7C9J\Display.Driver\WinVista_7_8_8.1_x64\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_LatitudeE10_A01\LatitudeE10\WIN10\x64\Video\02KPV\Windows10-x64\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_OptiPlexD4_A02\OptiplexD4\Win10\x64\video\258DX\Display.Driver\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_OptiPlexD5_A08\OptiplexD5\win10\x64\video\258DX\Windows10-x64\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_OptiPlexD7_A16\OptiplexD7\WIN10\x64\Video\7MDNT\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_PrecisionM3800_A00\PrecisionM3800\win10\x64\video\9PY90\Windows10-x64\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_PrecisionM5_A02\PrecisionM5\Win10\x64\video\1F9M7\Display.Driver\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_PrecisionM6_A17\PrecisionM6\WIN10\x64\Video\242X0\Display.Driver\Win10_x64\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_PrecisionM6_A17\PrecisionM6\WIN10\x64\Video\242X0\Display.Driver\WinVista_7_8_8.1_x64\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_PrecisionM7_A06\PrecisionM7\WIN10\x64\Video\04W6J\Windows10-x64\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_PrecisionM7_A06\PrecisionM7\WIN10\x64\Video\27GW3\Windows10-x64\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_PrecisionM7_A06\PrecisionM7\WIN10\x64\Video\CYKKX\Display.Driver\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_PrecisionWS5_A03\PrecisionWS5\win10\x64\video\CY9PN\Windows10-x64\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_PrecisionWS6_A13\PrecisionWS6\WIN10\x64\Video\95C25\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_PrecisionWS6_A13\PrecisionWS6\WIN10\x64\Video\N1DWN\Display.Driver\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_PrecisionWS6_A13\PrecisionWS6\WIN10\x64\Video\NV3PY\Display.Driver\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_PrecisionWS7_A16\PrecisionWS7\WIN10\x64\Video\N1DWN\Display.Driver\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_PrecisionWS7_A16\PrecisionWS7\WIN10\x64\Video\NV3PY\Display.Driver\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_PrecisionWS8_A08\PrecisionWS8\WIN10\x64\Video\46C1H\nvapi.dl_
-D:\Drivers\Test\Alpha\Win10\Win10_PrecisionWS8_A08\PrecisionWS8\WIN10\x64\Video\4KXK6\Display.Driver\nvapi.dl_
-```
-
-I'm sure this faulty Driver is the cause of this problem.
-
-[https://www.reddit.com/r/SCCM/comments/7u1dir/laptops\_not\_installing\_additional\_gpu\_drivers/](https://www.reddit.com/r/SCCM/comments/7u1dir/laptops_not_installing_additional_gpu_drivers/)
-
-And this issue has apparently been going on since 2011.
-
-![](/assets/2-1-2018 12-26-58 AM.png)
-
-Since we know there are issues with Dell's Nvidia implementation, we have to remove them from our Driver Packs and rebuild them.
-
----
-
-## Dell Underscores AMD's Video Drivers
-
-Unfortunately AMD Drivers are messed up as well.  Any directory with a \*.dl\_ file will not work.
-
-![](/assets/2-2-2018 3-38-00 AM.png)
-
-There are 25 instances where this is an issue
-
-```
-Win10_LatitudeE8_A18\LatitudeE8\WIN10\x64\Video\5NN5H
-Win10_LatitudeE9_A11\LatitudeE9\WIN10\x64\Video\NRCRR
-Win10_OptiPlexD4_A02\OptiplexD4\Win10\x64\video\9WNFM
-Win10_OptiPlexD5_A08\OptiplexD5\win10\x64\video\J8K2W
-Win10_OptiPlexD5_A08\OptiplexD5\win10\x64\video\Y234T
-Win10_OptiPlexD6_A09\OptiplexD6\Win10\x64\video\5VR9K
-Win10_OptiPlexD6_A09\OptiplexD6\Win10\x64\video\9WNFM
-Win10_OptiPlexD6_A09\OptiplexD6\Win10\x64\video\C5FCH
-Win10_OptiPlexD6_A09\OptiplexD6\Win10\x64\video\RNXYX
-Win10_OptiPlexD6_A09\OptiplexD6\Win10\x64\video\WJPR8
-Win10_OptiPlexD7_A16\OptiplexD7\WIN10\x64\Video\F2GMG
-Win10_OptiPlexD7_A16\OptiplexD7\WIN10\x64\Video\J8K2W
-Win10_OptiPlexD7_A16\OptiplexD7\WIN10\x64\Video\KWRDJ
-Win10_OptiPlexD8_A11\OptiplexD8\WIN10\x64\Video\3MVGD
-Win10_OptiPlexD8_A11\OptiplexD8\WIN10\x64\Video\96KH4
-Win10_PrecisionM5_A02\PrecisionM5\Win10\x64\video\DC3V0
-Win10_PrecisionM5_A02\PrecisionM5\Win10\x64\video\FCXTJ
-Win10_PrecisionM5_A02\PrecisionM5\Win10\x64\video\JYXT7
-Win10_PrecisionM7_A06\PrecisionM7\WIN10\x64\Video\85C66
-Win10_PrecisionWS5_A03\PrecisionWS5\win10\x64\video\MHGY8
-Win10_PrecisionWS6_A13\PrecisionWS6\WIN10\x64\Video\XDVRC
-Win10_PrecisionWS7_A16\PrecisionWS7\WIN10\x64\Video\JVV0Y
-Win10_PrecisionWS7_A16\PrecisionWS7\WIN10\x64\Video\XDVRC
-Win10_PrecisionWS8_A08\PrecisionWS8\WIN10\x64\Video\8CWJG
-Win10_PrecisionWS8_A08\PrecisionWS8\WIN10\x64\Video\KW1W7
-
-```
-
-Can this be corrected?  Yes.  I'll share the PowerShell Module to correct this soon enough.
-
----
-
 ## Fat Touchpad Drivers
 
 Dell has a Touchpad Driver \(WWVKD\) that is used in the Latitude E6 A10 and the Latitude E7 A12 Family Driver CABs, but why is the one in the E6 10 times larger than the one in the E7?
@@ -210,5 +107,5 @@ If we are instructed to use WMI Queries in this document, why are the proper one
 
 ## Conclusion
 
-With proper Driver Optimization, these issues can be resolved \(except for the incomplete Readme.txt\).  The Nvidia issue alone requires immediate correction if you are using Dell Driver Packs.
+With proper Driver Optimization, these issues can be resolved \(except for the incomplete Readme.txt\).  You should be checking every Driver you import to ensure they are valid.
 
