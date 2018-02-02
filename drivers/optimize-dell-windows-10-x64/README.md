@@ -452,7 +452,7 @@ Win10_VenuePro4_A11           0.20 GB*
 
 ---
 
-## Remove Nvidia Video
+## Remove Nvidia Video Drivers
 
 Since the Nvidia Video Drivers that are in Dell's Family Driver Packs are not formatted properly, then need to be removed.
 
@@ -527,23 +527,252 @@ Win10_VenuePro4_A11           0.20 GB*
 
 ---
 
-Remove AMD Drivers
+## Remove AMD Video Drivers
 
 Removing these
 
 |  |  |  |
 | :--- | :--- | :--- |
+|  |  | 21.08 GB |
+
+38 Drivers can be removed
+
+```
+Win10_LatitudeE5_A02\LatitudeE5\win10\x64\video\4XDT8
+Win10_LatitudeE5_A02\LatitudeE5\win10\x64\video\CYT1R
+Win10_LatitudeE6XFR_A04\LatitudeE6XFR\Win10\x64\video\0N1C9
+Win10_LatitudeE6XFR_A04\LatitudeE6XFR\Win10\x64\video\KR4R3
+Win10_LatitudeE8Rugged_A09\LatitudeE8Rugged\WIN10\x64\Video\0N1C9
+Win10_LatitudeE8Rugged_A09\LatitudeE8Rugged\WIN10\x64\Video\KR4R3
+Win10_LatitudeE8_A18\LatitudeE8\WIN10\x64\Video\597GN
+Win10_LatitudeE8_A18\LatitudeE8\WIN10\x64\Video\5NN5H
+Win10_LatitudeE9_A11\LatitudeE9\WIN10\x64\Video\NRCRR
+Win10_OptiPlexD4_A02\OptiplexD4\Win10\x64\video\9WNFM
+Win10_OptiPlexD5_A08\OptiplexD5\win10\x64\video\J8K2W
+Win10_OptiPlexD5_A08\OptiplexD5\win10\x64\video\Y234T
+Win10_OptiPlexD6_A09\OptiplexD6\Win10\x64\video\3NFDY
+Win10_OptiPlexD6_A09\OptiplexD6\Win10\x64\video\5VR9K
+Win10_OptiPlexD6_A09\OptiplexD6\Win10\x64\video\9WNFM
+Win10_OptiPlexD6_A09\OptiplexD6\Win10\x64\video\C5FCH
+Win10_OptiPlexD6_A09\OptiplexD6\Win10\x64\video\RNXYX
+Win10_OptiPlexD6_A09\OptiplexD6\Win10\x64\video\TXWV6
+Win10_OptiPlexD6_A09\OptiplexD6\Win10\x64\video\WJPR8
+Win10_OptiPlexD7_A16\OptiplexD7\WIN10\x64\Video\F2GMG
+Win10_OptiPlexD7_A16\OptiplexD7\WIN10\x64\Video\J8K2W
+Win10_OptiPlexD7_A16\OptiplexD7\WIN10\x64\Video\KWRDJ
+Win10_OptiPlexD8_A11\OptiplexD8\WIN10\x64\Video\3MVGD
+Win10_OptiPlexD8_A11\OptiplexD8\WIN10\x64\Video\96KH4
+Win10_OptiPlexD8_A11\OptiplexD8\WIN10\x64\Video\GKF44
+Win10_OptiPlexD8_A11\OptiplexD8\WIN10\x64\Video\VH8GC
+Win10_PrecisionM5_A02\PrecisionM5\Win10\x64\video\DC3V0
+Win10_PrecisionM5_A02\PrecisionM5\Win10\x64\video\FCXTJ
+Win10_PrecisionM5_A02\PrecisionM5\Win10\x64\video\JYXT7
+Win10_PrecisionM6_A17\PrecisionM6\WIN10\x64\Video\0Y1NR
+Win10_PrecisionM6_A17\PrecisionM6\WIN10\x64\Video\2HDKP
+Win10_PrecisionM7_A06\PrecisionM7\WIN10\x64\Video\85C66
+Win10_PrecisionWS5_A03\PrecisionWS5\win10\x64\video\MHGY8
+Win10_PrecisionWS6_A13\PrecisionWS6\WIN10\x64\Video\XDVRC
+Win10_PrecisionWS7_A16\PrecisionWS7\WIN10\x64\Video\JVV0Y
+Win10_PrecisionWS7_A16\PrecisionWS7\WIN10\x64\Video\XDVRC
+Win10_PrecisionWS8_A08\PrecisionWS8\WIN10\x64\Video\8CWJG
+Win10_PrecisionWS8_A08\PrecisionWS8\WIN10\x64\Video\KW1W7
+```
+
+23 now less than 1 GB
+
+```
+Win10_Latitude3x40_A01        0.28 GB*
+Win10_LatitudeE5_A02          0.64 GB*
+Win10_LatitudeE6XFR_A04       0.70 GB*
+Win10_LatitudeE6_A10          2.13 GB
+Win10_LatitudeE7_A12          0.84 GB*
+Win10_LatitudeE8Rugged_A09    0.53 GB*
+Win10_LatitudeE8Tablet_A11    2.50 GB
+Win10_LatitudeE8_A18          0.83 GB*
+Win10_LatitudeE9Rugged_A01    0.45 GB*
+Win10_LatitudeE9Tablet_A08    0.82 GB*
+Win10_LatitudeE9_A11          1.71 GB
+Win10_LatitudeE10_A01         0.61 GB*
+Win10_OptiPlexD4_A02          0.28 GB*
+Win10_OptiPlexD5_A08          0.34 GB*
+Win10_OptiPlexD6_A09          0.35 GB*
+Win10_OptiPlexD7_A16          0.35 GB*
+Win10_OptiPlexD8_A11          0.55 GB*
+Win10_PrecisionM3800_A00      0.52 GB*
+Win10_PrecisionM5_A02         0.46 GB*
+Win10_PrecisionM6_A17         1.50 GB
+Win10_PrecisionM7_A06         1.70 GB
+Win10_PrecisionWS5_A03        0.26 GB*
+Win10_PrecisionWS6_A13        0.43 GB*
+Win10_PrecisionWS7_A16        0.72 GB*
+Win10_PrecisionWS8_A08        0.63 GB*
+Win10_VenuePro2_A03           0.31 GB*
+Win10_VenuePro3_A03           0.44 GB*
+Win10_VenuePro4_A11           0.20 GB*
+```
+
+---
+
+Remove Realtek Audio Drivers
+
+By far this is the easiest decision to make.  
+
 |  |  |  |
+| :--- | :--- | :--- |
+|  |  | 8.17 GB |
 
+Remove 52 instances of these Drivers
 
+```
+Win10_Latitude3x40_A01\Latitude3x40\win10\x64\audio\5P33P
+Win10_LatitudeE10_A01\LatitudeE10\WIN10\x64\Audio\M3Y66
+Win10_LatitudeE5_A02\LatitudeE5\win10\x64\audio\5P33P
+Win10_LatitudeE5_A02\LatitudeE5\win10\x64\audio\DFR6K
+Win10_LatitudeE6XFR_A04\LatitudeE6XFR\Win10\x64\audio\5P33P
+Win10_LatitudeE6XFR_A04\LatitudeE6XFR\Win10\x64\audio\DDG39
+Win10_LatitudeE6_A10\LatitudeE6\win10\x64\audio\55XDF
+Win10_LatitudeE6_A10\LatitudeE6\win10\x64\audio\822R6
+Win10_LatitudeE6_A10\LatitudeE6\win10\x64\audio\D00J4
+Win10_LatitudeE6_A10\LatitudeE6\win10\x64\audio\DDG39
+Win10_LatitudeE7_A12\LatitudeE7\WIN10\x64\Audio\DDG39
+Win10_LatitudeE7_A12\LatitudeE7\WIN10\x64\Audio\RT1XX
+Win10_LatitudeE8Rugged_A09\LatitudeE8Rugged\WIN10\x64\Audio\331N1
+Win10_LatitudeE8Tablet_A11\LatitudeE8Tablet\WIN10\x64\Audio\11NJJ
+Win10_LatitudeE8Tablet_A11\LatitudeE8Tablet\WIN10\x64\Audio\94YDD
+Win10_LatitudeE8Tablet_A11\LatitudeE8Tablet\WIN10\x64\Audio\CMW4W
+Win10_LatitudeE8Tablet_A11\LatitudeE8Tablet\WIN10\x64\Audio\FPWDX
+Win10_LatitudeE8Tablet_A11\LatitudeE8Tablet\WIN10\x64\Audio\TJJNF
+Win10_LatitudeE8Tablet_A11\LatitudeE8Tablet\WIN10\x64\Audio\VR8Y0
+Win10_LatitudeE8_A18\LatitudeE8\WIN10\x64\Audio\331N1
+Win10_LatitudeE9Rugged_A01\LatitudeE9Rugged\WIN10\x64\Audio\HN35D
+Win10_LatitudeE9Tablet_A08\LatitudeE9Tablet\Win10\x64\audio\33DRK
+Win10_LatitudeE9_A11\LatitudeE9\WIN10\x64\Audio\3PPR8
+Win10_LatitudeE9_A11\LatitudeE9\WIN10\x64\Audio\FH33R
+Win10_LatitudeE9_A11\LatitudeE9\WIN10\x64\Audio\KK01R
+Win10_LatitudeE9_A11\LatitudeE9\WIN10\x64\Audio\P71YY
+Win10_OptiPlexD4_A02\OptiplexD4\Win10\x64\audio\5P33P
+Win10_OptiPlexD5_A08\OptiplexD5\win10\x64\audio\DDG39
+Win10_OptiPlexD6_A09\OptiplexD6\Win10\x64\audio\RT1XX
+Win10_OptiPlexD7_A16\OptiplexD7\WIN10\x64\Audio\RT1XX
+Win10_OptiPlexD8_A11\OptiplexD8\WIN10\x64\Audio\P71YY
+Win10_OptiPlexD8_A11\OptiplexD8\WIN10\x64\Audio\VV374
+Win10_PrecisionM3800_A00\PrecisionM3800\win10\x64\audio\4PWN6
+Win10_PrecisionM5_A02\PrecisionM5\Win10\x64\audio\822R6
+Win10_PrecisionM6_A17\PrecisionM6\WIN10\x64\Audio\331N1
+Win10_PrecisionM6_A17\PrecisionM6\WIN10\x64\Audio\33HNF
+Win10_PrecisionM7_A06\PrecisionM7\WIN10\x64\Audio\44M2C
+Win10_PrecisionM7_A06\PrecisionM7\WIN10\x64\Audio\6N60W
+Win10_PrecisionM7_A06\PrecisionM7\WIN10\x64\Audio\7M5VV
+Win10_PrecisionM7_A06\PrecisionM7\WIN10\x64\Audio\CC2F0
+Win10_PrecisionM7_A06\PrecisionM7\WIN10\x64\Audio\DXFF2
+Win10_PrecisionM7_A06\PrecisionM7\WIN10\x64\Audio\NN7PN
+Win10_PrecisionM7_A06\PrecisionM7\WIN10\x64\Audio\P71YY
+Win10_PrecisionWS5_A03\PrecisionWS5\win10\x64\audio\5P33P
+Win10_PrecisionWS6_A13\PrecisionWS6\WIN10\x64\Audio\DDG39
+Win10_PrecisionWS7_A16\PrecisionWS7\WIN10\x64\Audio\331N1
+Win10_PrecisionWS8_A08\PrecisionWS8\WIN10\x64\Audio\3TFC6
+Win10_PrecisionWS8_A08\PrecisionWS8\WIN10\x64\Audio\68WY3
+Win10_VenuePro2_A03\VenuePro2\Win10\x64\audio\47P33
+Win10_VenuePro3_A03\VenuePro3\win10\x64\audio\7MY7Y
+Win10_VenuePro3_A03\VenuePro3\win10\x64\audio\8PPWX
+Win10_VenuePro4_A11\VenuePro4\win10\x64\audio\FVHVT
+```
 
+And now 27 of 28 Driver Packs are less than 1 GB
 
+```
+Win10_Latitude3x40_A01        0.05 GB*
+Win10_LatitudeE5_A02          0.15 GB*
+Win10_LatitudeE6XFR_A04       0.19 GB*
+Win10_LatitudeE6_A10          1.23 GB
+Win10_LatitudeE7_A12          0.28 GB*
+Win10_LatitudeE8Rugged_A09    0.25 GB*
+Win10_LatitudeE8Tablet_A11    0.65 GB*
+Win10_LatitudeE8_A18          0.54 GB*
+Win10_LatitudeE9Rugged_A01    0.24 GB*
+Win10_LatitudeE9Tablet_A08    0.58 GB*
+Win10_LatitudeE9_A11          0.86 GB*
+Win10_LatitudeE10_A01         0.35 GB*
+Win10_OptiPlexD4_A02          0.05 GB*
+Win10_OptiPlexD5_A08          0.06 GB*
+Win10_OptiPlexD6_A09          0.07 GB*
+Win10_OptiPlexD7_A16          0.07 GB*
+Win10_OptiPlexD8_A11          0.10 GB*
+Win10_PrecisionM3800_A00      0.15 GB*
+Win10_PrecisionM5_A02         0.20 GB*
+Win10_PrecisionM6_A17         0.72 GB*
+Win10_PrecisionM7_A06         0.31 GB*
+Win10_PrecisionWS5_A03        0.03 GB*
+Win10_PrecisionWS6_A13        0.16 GB*
+Win10_PrecisionWS7_A16        0.19 GB*
+Win10_PrecisionWS8_A08        0.22 GB*
+Win10_VenuePro2_A03           0.10 GB*
+Win10_VenuePro3_A03           0.18 GB*
+Win10_VenuePro4_A11           0.19 GB*
+```
 
+---
 
+## Extra Cleanup
 
+A closer look at the Latitude E6 CAB shows that things aren't quite efficient
 
+|  |  |  |
+| :--- | :--- | :--- |
+|  |  | 7.42 GB |
 
+Remove these directories
 
+```
+Win10_LatitudeE6_A10\LatitudeE6\win10\x64\Input\WWVKD\Windows10-x86
+Win10_LatitudeE6_A10\LatitudeE6\win10\x64\Input\WWVKD\Windows7-x64
+Win10_LatitudeE6_A10\LatitudeE6\win10\x64\Input\WWVKD\Windows7-x86
+Win10_LatitudeE6_A10\LatitudeE6\win10\x64\Input\WWVKD\Windows8-x64
+Win10_LatitudeE6_A10\LatitudeE6\win10\x64\Input\WWVKD\Windows8-x86
+Win10_LatitudeE6_A10\LatitudeE6\win10\x64\Input\WWVKD\Windows8_1-x64
+Win10_LatitudeE6_A10\LatitudeE6\win10\x64\Input\WWVKD\Windows8_1-x86
+Win10_LatitudeE6_A10\LatitudeE6\win10\x64\Input\WWVKD\Windows9-x64
+Win10_LatitudeE6_A10\LatitudeE6\win10\x64\Input\WWVKD\Windows9-x86
+```
+
+Now that's more like it
+
+```
+Win10_Latitude3x40_A01        0.05 GB*
+Win10_LatitudeE5_A02          0.15 GB*
+Win10_LatitudeE6XFR_A04       0.19 GB*
+Win10_LatitudeE6_A10          0.48 GB*
+Win10_LatitudeE7_A12          0.28 GB*
+Win10_LatitudeE8Rugged_A09    0.25 GB*
+Win10_LatitudeE8Tablet_A11    0.65 GB*
+Win10_LatitudeE8_A18          0.54 GB*
+Win10_LatitudeE9Rugged_A01    0.24 GB*
+Win10_LatitudeE9Tablet_A08    0.58 GB*
+Win10_LatitudeE9_A11          0.86 GB*
+Win10_LatitudeE10_A01         0.35 GB*
+Win10_OptiPlexD4_A02          0.05 GB*
+Win10_OptiPlexD5_A08          0.06 GB*
+Win10_OptiPlexD6_A09          0.07 GB*
+Win10_OptiPlexD7_A16          0.07 GB*
+Win10_OptiPlexD8_A11          0.10 GB*
+Win10_PrecisionM3800_A00      0.15 GB*
+Win10_PrecisionM5_A02         0.20 GB*
+Win10_PrecisionM6_A17         0.72 GB*
+Win10_PrecisionM7_A06         0.31 GB*
+Win10_PrecisionWS5_A03        0.03 GB*
+Win10_PrecisionWS6_A13        0.16 GB*
+Win10_PrecisionWS7_A16        0.19 GB*
+Win10_PrecisionWS8_A08        0.22 GB*
+Win10_VenuePro2_A03           0.10 GB*
+Win10_VenuePro3_A03           0.18 GB*
+Win10_VenuePro4_A11           0.19 GB*
+```
+
+---
+
+## CAB Compression
+
+Now that we have cleaned out our Drivers, let's compress them into CAB files so we can easily work with them.
 
 
 
