@@ -1,6 +1,6 @@
 # Optimize Dell Windows 10
 
-Let's try to see what we can do for Dell Driver Packs on Windows 10 x64.  If we are using the "Total Control" method for Driver Management, then we have almost 140 Driver Packs at close to 192 GB of space.  This is our starting point.
+Let's try to see what we can do for Dell Driver Packs on Windows 10 x64.  If we are using the "Total Control" method for Driver Management, then we up to 140 Driver Packs at close to 192 GB of space.  This is our starting point.
 
 | Total Control | Number of Packs | Download Size | Repository Size |
 | :--- | :--- | :--- | :--- |
@@ -193,13 +193,13 @@ Win10_VenuePro4_A11           0.26 GB*
 
 ---
 
-## Remove Intel Wireless
+## Remove Intel Wireless Drivers
 
 Intel again saves the day by providing ONE Driver that replaces everything that Dell includes
 
 | Action | Recovered Space | New Repository Size |
 | :--- | :--- | :--- |
-| Remove Intel Wireless | 2.88 GB | 43.97 GB |
+| Remove Intel Wireless Drivers | 2.88 GB | 43.97 GB |
 
 46 drivers can be removed
 
@@ -287,13 +287,13 @@ Win10_VenuePro4_A11           0.21 GB*
 
 ---
 
-## Remove Intel Bluetooth
+## Remove Intel Bluetooth Drivers
 
 Almost 300 MB will be saved by using Intel's download
 
 | Action | Recovered Space | New Repository Size |
 | :--- | :--- | :--- |
-| Remove Intel Bluetooth | 0.27 GB | 43.70 GB |
+| Remove Intel Bluetooth Drivers | 0.27 GB | 43.70 GB |
 
 41 Drivers can be removed
 
@@ -374,13 +374,13 @@ Win10_VenuePro4_A11           0.20 GB*
 
 ---
 
-## Remove Intel Ethernet
+## Remove Intel Ethernet Drivers
 
 Not much savings here, but at least every Intel Ethernet Driver is the latest version.  At this point its time to look at some non-Intel Drivers.
 
 | Action | Recovered Space | New Repository Size |
 | :--- | :--- | :--- |
-| Remove Intel Ethernet | 0.22 GB | 43.48 GB |
+| Remove Intel Ethernet Drivers | 0.22 GB | 43.48 GB |
 
 32 instances to remove
 
@@ -458,7 +458,7 @@ Since the Nvidia Video Drivers that are in Dell's Family Driver Packs are not fo
 
 | Action | Recovered Space | New Repository Size |
 | :--- | :--- | :--- |
-| Remove Nvidia Video Drivers |  | 35.53 GB |
+| Remove Nvidia Video Drivers | 7.95 GB | 35.53 GB |
 
 We can see in these 27 Drivers what has been weighing down on the large E9 Driver Pack
 
@@ -533,7 +533,7 @@ Removing these
 
 | Action | Recovered Space | New Repository Size |
 | :--- | :--- | :--- |
-| Remove AMD Video Drivers |  | 21.08 GB |
+| Remove AMD Video Drivers | 14.45 GB | 21.08 GB |
 
 38 Drivers can be removed
 
@@ -615,11 +615,11 @@ Win10_VenuePro4_A11           0.20 GB*
 
 ## Remove Realtek Audio Drivers
 
-By far this is the easiest decision to make.
+By far this is the easiest decision to make.  If you want basic functionality from, then just use the Inbox Drivers.  What this means is that Windows 10 \(and Windows 7\) include Drivers to handle all Realtek Audio Cards, without a bloated application.  You will probably lose Surround Sound on some models, but for Enterprise use, this is not a big hit.
 
 | Action | Recovered Space | New Repository Size |
 | :--- | :--- | :--- |
-| Remove Realtek Audio Drivers |  | 8.17 GB |
+| Remove Realtek Audio Drivers | 12.91 GB | 8.17 GB |
 
 Remove 52 instances of these Drivers
 
@@ -715,13 +715,13 @@ Win10_VenuePro4_A11           0.19 GB*
 
 ## Extra Cleanup
 
-A closer look at the Latitude E6 CAB shows that things aren't quite efficient
+A closer look at the Latitude E6 CAB shows that things aren't quite efficient.  There are apparently Touchpad Drivers in one Driver Set that apply to every OS.
 
 | Action | Recovered Space | New Repository Size |
 | :--- | :--- | :--- |
-| Extra Cleanup |  | 7.42 GB |
+| Extra Cleanup | 0.75 GB | 7.42 GB |
 
-Remove these directories
+These directories can be easily removed.
 
 ```
 Win10_LatitudeE6_A10\LatitudeE6\win10\x64\Input\WWVKD\Windows10-x86
@@ -774,9 +774,13 @@ Win10_VenuePro4_A11           0.19 GB*
 
 Now that we have cleaned out our Drivers, let's compress them into CAB files so we can easily work with them.
 
+| Action | Recovered Space | New Repository Size |
+| :--- | :--- | :--- |
+| CAB Compression | 4.05 GB | 3.37 GB |
 
+Here is how they look visually, sorted by size, with the largest CAB topping out at 400 MB.
 
-
+![](/assets/2-2-2018 2-38-35 AM.png)And yes, you can absolutely use these in your OS Deployment, which I will explain how to create CAB files and use them in a separate post.
 
 
 
