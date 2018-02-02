@@ -201,12 +201,6 @@ Intel again saves the day by providing ONE Driver that replaces everything that 
 | :--- | :--- | :--- |
 | Remove Intel Wireless | 2.88 GB | 43.97 GB |
 
- 
-
- 
-
-
-
 46 drivers can be removed
 
 ```
@@ -293,21 +287,102 @@ Win10_VenuePro4_A11           0.21 GB*
 
 ---
 
+## Remove Intel Bluetooth
+
+Almost 300 MB will be saved by using Intel's download
 
 
 
 
 
 
-Remove Intel Bluetooth
 
 |  |  |  |
 | :--- | :--- | :--- |
-|  | 43.70 |  |
+| Remove Intel Bluetooth | 0.27 GB | 43.70 GB |
+
+41 Drivers can be removed
+
+```
+Win10_Latitude3x40_A01\Latitude3x40\win10\x64\network\VHM3T
+Win10_LatitudeE5_A02\LatitudeE5\win10\x64\network\N7VN8
+Win10_LatitudeE5_A02\LatitudeE5\win10\x64\network\VHM3T
+Win10_LatitudeE6_A10\LatitudeE6\win10\x64\network\N7VN8
+Win10_LatitudeE6_A10\LatitudeE6\win10\x64\network\YC1X4
+Win10_LatitudeE6XFR_A04\LatitudeE6XFR\Win10\x64\network\N7VN8
+Win10_LatitudeE6XFR_A04\LatitudeE6XFR\Win10\x64\network\VHM3T
+Win10_LatitudeE7_A12\LatitudeE7\WIN10\x64\Network\N7VN8
+Win10_LatitudeE8_A18\LatitudeE8\WIN10\x64\Network\6CC6W
+Win10_LatitudeE8_A18\LatitudeE8\WIN10\x64\Network\N7VN8
+Win10_LatitudeE8Rugged_A09\LatitudeE8Rugged\WIN10\x64\Network\N7VN8
+Win10_LatitudeE8Tablet_A11\LatitudeE8Tablet\WIN10\x64\Network\7JR0Y
+Win10_LatitudeE8Tablet_A11\LatitudeE8Tablet\WIN10\x64\Network\85C7G
+Win10_LatitudeE8Tablet_A11\LatitudeE8Tablet\WIN10\x64\Network\GNMWW
+Win10_LatitudeE9_A11\LatitudeE9\WIN10\x64\Network\3CKVY
+Win10_LatitudeE9_A11\LatitudeE9\WIN10\x64\Network\D4WRW
+Win10_LatitudeE9Rugged_A01\LatitudeE9Rugged\WIN10\x64\Network\D4WRW
+Win10_LatitudeE9Tablet_A08\LatitudeE9Tablet\Win10\x64\network\3CKVY
+Win10_LatitudeE9Tablet_A08\LatitudeE9Tablet\Win10\x64\network\7JR0Y
+Win10_LatitudeE10_A01\LatitudeE10\WIN10\x64\Network\D4WRW
+Win10_OptiPlexD6_A09\OptiplexD6\Win10\x64\network\N7VN8
+Win10_OptiPlexD7_A16\OptiplexD7\WIN10\x64\Network\DXHC8
+Win10_OptiPlexD8_A11\OptiplexD8\WIN10\x64\Network\3CKVY
+Win10_OptiPlexD8_A11\OptiplexD8\WIN10\x64\Network\773NP
+Win10_OptiPlexD8_A11\OptiplexD8\WIN10\x64\Network\7JR0Y
+Win10_OptiPlexD8_A11\OptiplexD8\WIN10\x64\Network\D4WRW
+Win10_PrecisionM3800_A00\PrecisionM3800\win10\x64\network\HY3GF
+Win10_PrecisionM5_A02\PrecisionM5\Win10\x64\network\N7VN8
+Win10_PrecisionM5_A02\PrecisionM5\Win10\x64\network\VHM3T
+Win10_PrecisionM6_A17\PrecisionM6\WIN10\x64\Communications\85C7G
+Win10_PrecisionM6_A17\PrecisionM6\WIN10\x64\Communications\F983X
+Win10_PrecisionM6_A17\PrecisionM6\WIN10\x64\Network\85C7G
+Win10_PrecisionM6_A17\PrecisionM6\WIN10\x64\Network\N7VN8
+Win10_PrecisionM7_A06\PrecisionM7\WIN10\x64\Network\3CKVY
+Win10_PrecisionM7_A06\PrecisionM7\WIN10\x64\Network\JD2W0
+Win10_PrecisionWS7_A16\PrecisionWS7\WIN10\x64\Network\D4WRW
+Win10_PrecisionWS8_A08\PrecisionWS8\WIN10\x64\Network\D4WRW
+Win10_VenuePro2_A03\VenuePro2\Win10\x64\network\VHM3T
+Win10_VenuePro3_A03\VenuePro3\win10\x64\network\YC1X4
+Win10_VenuePro4_A11\VenuePro4\win10\x64\network\6CC6W
+Win10_VenuePro4_A11\VenuePro4\win10\x64\network\YYD6F
+```
+
+```
+Win10_Latitude3x40_A01        0.28 GB*
+Win10_LatitudeE5_A02          1.60 GB
+Win10_LatitudeE6XFR_A04       1.93 GB
+Win10_LatitudeE6_A10          2.38 GB
+Win10_LatitudeE7_A12          1.08 GB
+Win10_LatitudeE8Rugged_A09    1.52 GB
+Win10_LatitudeE8Tablet_A11    2.50 GB
+Win10_LatitudeE8_A18          1.89 GB
+Win10_LatitudeE9Rugged_A01    0.45 GB*
+Win10_LatitudeE9Tablet_A08    0.82 GB*
+Win10_LatitudeE9_A11          3.47 GB
+Win10_LatitudeE10_A01         0.94 GB*
+Win10_OptiPlexD4_A02          0.76 GB*
+Win10_OptiPlexD5_A08          1.26 GB
+Win10_OptiPlexD6_A09          2.79 GB
+Win10_OptiPlexD7_A16          1.79 GB
+Win10_OptiPlexD8_A11          2.56 GB
+Win10_PrecisionM3800_A00      0.77 GB*
+Win10_PrecisionM5_A02         1.41 GB
+Win10_PrecisionM6_A17         2.95 GB
+Win10_PrecisionM7_A06         2.79 GB
+Win10_PrecisionWS5_A03        0.94 GB*
+Win10_PrecisionWS6_A13        1.80 GB
+Win10_PrecisionWS7_A16        2.16 GB
+Win10_PrecisionWS8_A08        1.92 GB
+Win10_VenuePro2_A03           0.31 GB*
+Win10_VenuePro3_A03           0.44 GB*
+Win10_VenuePro4_A11           0.20 GB*
+```
 
 ---
 
-Remove Intel Ethernet
+## Remove Intel Ethernet
+
+Not much savings here, but we gain consistency
 
 |  |  |  |
 | :--- | :--- | :--- |
