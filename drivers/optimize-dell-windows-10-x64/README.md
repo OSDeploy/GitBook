@@ -291,13 +291,7 @@ Win10_VenuePro4_A11           0.21 GB*
 
 Almost 300 MB will be saved by using Intel's download
 
-
-
-
-
-
-
-|  |  |  |
+| Action | Recovered Space | New Repository Size |
 | :--- | :--- | :--- |
 | Remove Intel Bluetooth | 0.27 GB | 43.70 GB |
 
@@ -382,11 +376,97 @@ Win10_VenuePro4_A11           0.20 GB*
 
 ## Remove Intel Ethernet
 
-Not much savings here, but we gain consistency
+Not much savings here, but at least every Intel Ethernet Driver is the latest version.  At this point its time to look at some non-Intel Drivers.
 
-|  |  |  |
+| Action | Recovered Space | New Repository Size |
 | :--- | :--- | :--- |
-|  |  |  |
+| Remove Intel Ethernet | 0.22 GB | 43.48 GB |
+
+32 instances to remove
+
+```
+Win10x64\Win10_Latitude3x40_A01\Latitude3x40\win10\x64\network\0J8HP
+Win10x64\Win10_LatitudeE5_A02\LatitudeE5\win10\x64\network\0J8HP
+Win10x64\Win10_LatitudeE6_A10\LatitudeE6\win10\x64\network\0J8HP
+Win10x64\Win10_LatitudeE6XFR_A04\LatitudeE6XFR\Win10\x64\network\0J8HP
+Win10x64\Win10_LatitudeE6XFR_A04\LatitudeE6XFR\Win10\x64\network\MXH3C
+Win10x64\Win10_LatitudeE6XFR_A04\LatitudeE6XFR\Win10\x64\network\N6RY0
+Win10x64\Win10_LatitudeE8_A18\LatitudeE8\WIN10\x64\Network\CY5NJ
+Win10x64\Win10_LatitudeE8Rugged_A09\LatitudeE8Rugged\WIN10\x64\Network\4VV8G
+Win10x64\Win10_LatitudeE8Rugged_A09\LatitudeE8Rugged\WIN10\x64\Network\D8VDT
+Win10x64\Win10_LatitudeE9_A11\LatitudeE9\WIN10\x64\Network\4VV8G
+Win10x64\Win10_LatitudeE9_A11\LatitudeE9\WIN10\x64\Network\D8VDT
+Win10x64\Win10_LatitudeE10_A01\LatitudeE10\WIN10\x64\Network\D8VDT
+Win10x64\Win10_OptiPlexD4_A02\OptiplexD4\Win10\x64\network\N6RY0
+Win10x64\Win10_OptiPlexD5_A08\OptiplexD5\win10\x64\network\0J8HP
+Win10x64\Win10_OptiPlexD6_A09\OptiplexD6\Win10\x64\network\0J8HP
+Win10x64\Win10_OptiPlexD6_A09\OptiplexD6\Win10\x64\network\N6RY0
+Win10x64\Win10_OptiPlexD7_A16\OptiplexD7\WIN10\x64\Network\CY5NJ
+Win10x64\Win10_OptiPlexD8_A11\OptiplexD8\WIN10\x64\Network\D8VDT
+Win10x64\Win10_OptiPlexD8_A11\OptiplexD8\WIN10\x64\Network\WJ8PK
+Win10x64\Win10_PrecisionM5_A02\PrecisionM5\Win10\x64\network\0J8HP
+Win10x64\Win10_PrecisionM6_A17\PrecisionM6\WIN10\x64\Network\CY5NJ
+Win10x64\Win10_PrecisionM7_A06\PrecisionM7\WIN10\x64\Network\WJ8PK
+Win10x64\Win10_PrecisionWS5_A03\PrecisionWS5\win10\x64\network\0J8HP
+Win10x64\Win10_PrecisionWS5_A03\PrecisionWS5\win10\x64\network\N6RY0
+Win10x64\Win10_PrecisionWS6_A13\PrecisionWS6\WIN10\x64\Network\0J8HP
+Win10x64\Win10_PrecisionWS6_A13\PrecisionWS6\WIN10\x64\Network\3PT51
+Win10x64\Win10_PrecisionWS7_A16\PrecisionWS7\WIN10\x64\Network\0J8HP
+Win10x64\Win10_PrecisionWS7_A16\PrecisionWS7\WIN10\x64\Network\CY5NJ
+Win10x64\Win10_PrecisionWS7_A16\PrecisionWS7\WIN10\x64\Network\D8VDT
+Win10x64\Win10_PrecisionWS7_A16\PrecisionWS7\WIN10\x64\Network\WJ8PK
+Win10x64\Win10_PrecisionWS8_A08\PrecisionWS8\WIN10\x64\Network\3PT51
+Win10x64\Win10_PrecisionWS8_A08\PrecisionWS8\WIN10\x64\Network\D8VDT
+```
+
+```
+Win10_Latitude3x40_A01        0.28 GB*
+Win10_LatitudeE5_A02          1.60 GB
+Win10_LatitudeE6XFR_A04       1.93 GB
+Win10_LatitudeE6_A10          2.37 GB
+Win10_LatitudeE7_A12          1.08 GB
+Win10_LatitudeE8Rugged_A09    1.52 GB
+Win10_LatitudeE8Tablet_A11    2.50 GB
+Win10_LatitudeE8_A18          1.89 GB
+Win10_LatitudeE9Rugged_A01    0.45 GB*
+Win10_LatitudeE9Tablet_A08    0.82 GB*
+Win10_LatitudeE9_A11          3.46 GB
+Win10_LatitudeE10_A01         0.93 GB*
+Win10_OptiPlexD4_A02          0.75 GB*
+Win10_OptiPlexD5_A08          1.25 GB
+Win10_OptiPlexD6_A09          2.72 GB
+Win10_OptiPlexD7_A16          1.79 GB
+Win10_OptiPlexD8_A11          2.55 GB
+Win10_PrecisionM3800_A00      0.77 GB*
+Win10_PrecisionM5_A02         1.41 GB
+Win10_PrecisionM6_A17         2.95 GB
+Win10_PrecisionM7_A06         2.78 GB
+Win10_PrecisionWS5_A03        0.87 GB*
+Win10_PrecisionWS6_A13        1.80 GB
+Win10_PrecisionWS7_A16        2.15 GB
+Win10_PrecisionWS8_A08        1.92 GB
+Win10_VenuePro2_A03           0.31 GB*
+Win10_VenuePro3_A03           0.44 GB*
+Win10_VenuePro4_A11           0.20 GB*
+```
+
+---
+
+## Remove Nvidia Video
+
+Since the Nvidia Video Drivers that are in Dell's Family Driver Packs are not formatted properly, then need to be removed.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
