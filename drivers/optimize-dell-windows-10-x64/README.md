@@ -456,9 +456,9 @@ Win10_VenuePro4_A11           0.20 GB*
 
 Since the Nvidia Video Drivers that are in Dell's Family Driver Packs are not formatted properly, then need to be removed.
 
-|  |  |  |
+| Action | Recovered Space | New Repository Size |
 | :--- | :--- | :--- |
-|  |  | 35.53 GB |
+| Remove Nvidia Video Drivers |  | 35.53 GB |
 
 We can see in these 27 Drivers what has been weighing down on the large E9 Driver Pack
 
@@ -531,9 +531,9 @@ Win10_VenuePro4_A11           0.20 GB*
 
 Removing these
 
-|  |  |  |
+| Action | Recovered Space | New Repository Size |
 | :--- | :--- | :--- |
-|  |  | 21.08 GB |
+| Remove AMD Video Drivers |  | 21.08 GB |
 
 38 Drivers can be removed
 
@@ -613,13 +613,13 @@ Win10_VenuePro4_A11           0.20 GB*
 
 ---
 
-Remove Realtek Audio Drivers
+## Remove Realtek Audio Drivers
 
-By far this is the easiest decision to make.  
+By far this is the easiest decision to make.
 
-|  |  |  |
+| Action | Recovered Space | New Repository Size |
 | :--- | :--- | :--- |
-|  |  | 8.17 GB |
+| Remove Realtek Audio Drivers |  | 8.17 GB |
 
 Remove 52 instances of these Drivers
 
@@ -717,9 +717,9 @@ Win10_VenuePro4_A11           0.19 GB*
 
 A closer look at the Latitude E6 CAB shows that things aren't quite efficient
 
-|  |  |  |
+| Action | Recovered Space | New Repository Size |
 | :--- | :--- | :--- |
-|  |  | 7.42 GB |
+| Extra Cleanup |  | 7.42 GB |
 
 Remove these directories
 
@@ -773,10 +773,4 @@ Win10_VenuePro4_A11           0.19 GB*
 ## CAB Compression
 
 Now that we have cleaned out our Drivers, let's compress them into CAB files so we can easily work with them.
-
-
-
-
-
-
 
