@@ -1,4 +1,4 @@
-# Validation
+# Driver Validation
 
 The main issue with importing Driver Packs downloaded from Vendors without validating them will just lead to errors in your Deployment.  Failure to correct these errors impacts others that use the same Driver Packs.
 
@@ -6,7 +6,7 @@ In my Enterprise, roughly 95% of the Computers are Dell systems, so I apologize 
 
 ---
 
-## Dell Underscores Nvidia's Drivers
+## Dell Underscores Nvidia's Video Drivers
 
 In just about every Driver Pack are Nvidia Video Drivers.  Nvidia likes to compress their Drivers and this is easy to see when looking at the Drivers themselves.  In the image below, we can see several files with a **DL\_** extension.
 
@@ -64,7 +64,48 @@ And this issue has apparently been going on since 2011.
 
 ![](/assets/2-1-2018 12-26-58 AM.png)
 
-Since we know there are issues with Dell's Nvidia implementation, we have to remove them from our Driver Packs.
+Since we know there are issues with Dell's Nvidia implementation, we have to remove them from our Driver Packs and rebuild them.
+
+---
+
+## Dell Underscores AMD's Video Drivers
+
+Unfortunately AMD Drivers are messed up as well.  Any directory with a \*.dl\_ file will not work.
+
+![](/assets/2-2-2018 3-38-00 AM.png)
+
+There are 25 instances where this is an issue
+
+```
+Win10_LatitudeE8_A18\LatitudeE8\WIN10\x64\Video\5NN5H
+Win10_LatitudeE9_A11\LatitudeE9\WIN10\x64\Video\NRCRR
+Win10_OptiPlexD4_A02\OptiplexD4\Win10\x64\video\9WNFM
+Win10_OptiPlexD5_A08\OptiplexD5\win10\x64\video\J8K2W
+Win10_OptiPlexD5_A08\OptiplexD5\win10\x64\video\Y234T
+Win10_OptiPlexD6_A09\OptiplexD6\Win10\x64\video\5VR9K
+Win10_OptiPlexD6_A09\OptiplexD6\Win10\x64\video\9WNFM
+Win10_OptiPlexD6_A09\OptiplexD6\Win10\x64\video\C5FCH
+Win10_OptiPlexD6_A09\OptiplexD6\Win10\x64\video\RNXYX
+Win10_OptiPlexD6_A09\OptiplexD6\Win10\x64\video\WJPR8
+Win10_OptiPlexD7_A16\OptiplexD7\WIN10\x64\Video\F2GMG
+Win10_OptiPlexD7_A16\OptiplexD7\WIN10\x64\Video\J8K2W
+Win10_OptiPlexD7_A16\OptiplexD7\WIN10\x64\Video\KWRDJ
+Win10_OptiPlexD8_A11\OptiplexD8\WIN10\x64\Video\3MVGD
+Win10_OptiPlexD8_A11\OptiplexD8\WIN10\x64\Video\96KH4
+Win10_PrecisionM5_A02\PrecisionM5\Win10\x64\video\DC3V0
+Win10_PrecisionM5_A02\PrecisionM5\Win10\x64\video\FCXTJ
+Win10_PrecisionM5_A02\PrecisionM5\Win10\x64\video\JYXT7
+Win10_PrecisionM7_A06\PrecisionM7\WIN10\x64\Video\85C66
+Win10_PrecisionWS5_A03\PrecisionWS5\win10\x64\video\MHGY8
+Win10_PrecisionWS6_A13\PrecisionWS6\WIN10\x64\Video\XDVRC
+Win10_PrecisionWS7_A16\PrecisionWS7\WIN10\x64\Video\JVV0Y
+Win10_PrecisionWS7_A16\PrecisionWS7\WIN10\x64\Video\XDVRC
+Win10_PrecisionWS8_A08\PrecisionWS8\WIN10\x64\Video\8CWJG
+Win10_PrecisionWS8_A08\PrecisionWS8\WIN10\x64\Video\KW1W7
+
+```
+
+Can this be corrected?  Yes.  I'll share the PowerShell Module to correct this soon enough.
 
 ---
 
@@ -85,8 +126,6 @@ The solution is easy, remove everything except Windows10-x64
 Not sure why a Intel Video Driver \(Dell Download 7W9YT\) would be listed under Chipset in the Latitude 3x40 A01 Family Pack, when it should be in Video.
 
 ![](/assets/2-1-2018 9-08-48 PM.png)
-
-
 
 ---
 
