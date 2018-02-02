@@ -456,6 +456,87 @@ Win10_VenuePro4_A11           0.20 GB*
 
 Since the Nvidia Video Drivers that are in Dell's Family Driver Packs are not formatted properly, then need to be removed.
 
+|  |  |  |
+| :--- | :--- | :--- |
+|  |  | 35.53 GB |
+
+We can see in these 27 Drivers what has been weighing down on the large E9 Driver Pack
+
+```
+Win10_LatitudeE5_A02\LatitudeE5\win10\x64\video\N4MHX
+Win10_LatitudeE6_A10\LatitudeE6\win10\x64\video\N4MHX
+Win10_LatitudeE6XFR_A04\LatitudeE6XFR\Win10\x64\video\08PKM
+Win10_LatitudeE7_A12\LatitudeE7\WIN10\x64\Video\XCDV4
+Win10_LatitudeE8_A18\LatitudeE8\WIN10\x64\Video\XCDV4
+Win10_LatitudeE9_A11\LatitudeE9\WIN10\x64\Video\7MG3T
+Win10_LatitudeE9_A11\LatitudeE9\WIN10\x64\Video\H58F8
+Win10_LatitudeE9_A11\LatitudeE9\WIN10\x64\Video\K1TC4
+Win10_LatitudeE9_A11\LatitudeE9\WIN10\x64\Video\K7C9J
+Win10_LatitudeE10_A01\LatitudeE10\WIN10\x64\Video\02KPV
+Win10_OptiPlexD4_A02\OptiplexD4\Win10\x64\video\258DX
+Win10_OptiPlexD5_A08\OptiplexD5\win10\x64\video\258DX
+Win10_OptiPlexD7_A16\OptiplexD7\WIN10\x64\Video\7MDNT
+Win10_PrecisionM3800_A00\PrecisionM3800\win10\x64\video\9PY90
+Win10_PrecisionM5_A02\PrecisionM5\Win10\x64\video\1F9M7
+Win10_PrecisionM6_A17\PrecisionM6\WIN10\x64\Video\242X0
+Win10_PrecisionM7_A06\PrecisionM7\WIN10\x64\Video\04W6J
+Win10_PrecisionM7_A06\PrecisionM7\WIN10\x64\Video\27GW3
+Win10_PrecisionM7_A06\PrecisionM7\WIN10\x64\Video\CYKKX
+Win10_PrecisionWS5_A03\PrecisionWS5\win10\x64\video\CY9PN
+Win10_PrecisionWS6_A13\PrecisionWS6\WIN10\x64\Video\95C25
+Win10_PrecisionWS6_A13\PrecisionWS6\WIN10\x64\Video\N1DWN
+Win10_PrecisionWS6_A13\PrecisionWS6\WIN10\x64\Video\NV3PY
+Win10_PrecisionWS7_A16\PrecisionWS7\WIN10\x64\Video\N1DWN
+Win10_PrecisionWS7_A16\PrecisionWS7\WIN10\x64\Video\NV3PY
+Win10_PrecisionWS8_A08\PrecisionWS8\WIN10\x64\Video\46C1H
+Win10_PrecisionWS8_A08\PrecisionWS8\WIN10\x64\Video\4KXK6
+```
+
+12 Driver Packs are now smaller than 1 GB with all of them under 3 GB
+
+```
+Win10_Latitude3x40_A01        0.28 GB*
+Win10_LatitudeE5_A02          1.36 GB
+Win10_LatitudeE6XFR_A04       1.68 GB
+Win10_LatitudeE6_A10          2.13 GB
+Win10_LatitudeE7_A12          0.84 GB*
+Win10_LatitudeE8Rugged_A09    1.52 GB
+Win10_LatitudeE8Tablet_A11    2.50 GB
+Win10_LatitudeE8_A18          1.65 GB
+Win10_LatitudeE9Rugged_A01    0.45 GB*
+Win10_LatitudeE9Tablet_A08    0.82 GB*
+Win10_LatitudeE9_A11          2.05 GB
+Win10_LatitudeE10_A01         0.61 GB*
+Win10_OptiPlexD4_A02          0.51 GB*
+Win10_OptiPlexD5_A08          1.01 GB
+Win10_OptiPlexD6_A09          2.72 GB
+Win10_OptiPlexD7_A16          1.55 GB
+Win10_OptiPlexD8_A11          2.55 GB
+Win10_PrecisionM3800_A00      0.52 GB*
+Win10_PrecisionM5_A02         1.17 GB
+Win10_PrecisionM6_A17         2.43 GB
+Win10_PrecisionM7_A06         1.97 GB
+Win10_PrecisionWS5_A03        0.62 GB*
+Win10_PrecisionWS6_A13        0.86 GB*
+Win10_PrecisionWS7_A16        1.48 GB
+Win10_PrecisionWS8_A08        1.29 GB
+Win10_VenuePro2_A03           0.31 GB*
+Win10_VenuePro3_A03           0.44 GB*
+Win10_VenuePro4_A11           0.20 GB*
+```
+
+---
+
+Remove AMD Drivers
+
+Removing these
+
+|  |  |  |
+| :--- | :--- | :--- |
+|  |  |  |
+
+
+
 
 
 
