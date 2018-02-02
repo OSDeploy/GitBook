@@ -28,7 +28,27 @@ One issue with the way Dell has their Family and Model Packs is that they contai
 
 ---
 
-Remove Intel Video Drivers
+## Remove Intel Video Drivers
+
+It is important to note that
+
+| Description | Repository | Recovered |
+| :--- | :--- | :--- |
+| Remove Intel Video Drivers | 46.85 GB | 28.79 GB |
+
+---
+
+## Remove Intel Wireless
+
+Intel again saves the day
+
+|  |  |  |
+| :--- | :--- | :--- |
+|  | 43.97 GB |  |
+
+---
+
+
 
 
 
