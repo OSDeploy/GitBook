@@ -1,22 +1,18 @@
 # Driver Optimization
 
-Driver Optimization is the solution that I need with the following Goals.
+Driver Optimization is the solution that I need with the following Steps.
 
 * **Repository Organization** - I will organize my Driver Repository in a logical, structured format
 
 * **Driver Validation** - I will validate the Drivers that I have to ensure they are accurate and necessary
 
-* **Update Common Drivers** - Driver Packs age and grow stale.  These will be updated
+* **Update Common Drivers** - Driver Packs age and become stale.  These will be updated
 
 * **Driver Consolidation** - I may find that I have the same Driver in multiple Driver Packages, and they may all be different versions.  These Duplicates that are taking space in Multiple Packages should be consolidated into a Core Driver Pack.
 
 * **Driver Compression** - Deploying Compressed Drivers will reduce my Network overhead
 
-
-
 ---
-
-## Benefits
 
 ## Reducing the Driver Repository Size
 
@@ -30,7 +26,7 @@ Keep in mind you will have to replicate this content in your Enterprise.  How ma
 
 ---
 
-## Stale Driver Packs
+## Update Common Drivers
 
 Computer Manufacturers dedicate resources to newer Computer Models, which may result in older Computer Models not receiving Driver Pack updates.  The age of some of these Computer Models also suggests that Windows 8.1 Drivers were used in creating the Driver Pack.  The number of updates in the 0 - 50 Day range are not normal and were possibly updated to address the Security Issues of Spectre and Meltdown.
 
