@@ -1,8 +1,6 @@
 # Driver Validation
 
-The main issue with importing Driver Packs downloaded from Vendors without validating them will just lead to errors in your Deployment.  Failure to correct these errors impacts others that use the same Driver Packs.
-
-In my Enterprise, roughly 95% of the Computers are Dell systems, so I apologize in advance for picking on them in this article.
+Some examples of my observations from Driver Validation are listed below.  In my Enterprise, roughly 95% of the Computers are Dell systems, so I apologize in advance for picking on them in this article.
 
 ---
 
