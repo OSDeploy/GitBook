@@ -5,13 +5,15 @@
 ## Drivers
 
 * [Introduction](drivers/README.md)
-* [Driver Repository](drivers/driver-repository.md)
 * [Computer Drivers](drivers/computer-drivers/README.md)
   * [Dell Model Driver Packs](drivers/computer-drivers/dell-model.md)
   * [Dell Family Driver Packs](drivers/computer-drivers/dell-family.md)
 * [Download Automation](drivers/download-automation/README.md)
   * [SCConfigMgr Driver Automation Tool](drivers/download-automation/scconfigmgr.md)
   * [Dell Family Pack Downloader](drivers/download-automation/dell-family-pack-downloader.md)
+* [Driver Management](drivers/driver-management.md)
+  * [Deciding on a Method](drivers/driver-management/deciding-on-a-method.md)
+* [Driver Repository](drivers/driver-repository.md)
 * [Driver Optimization](drivers/driver-optimization/README.md)
   * [Benefits](drivers/driver-optimization/benefits.md)
   * [Driver Validation](drivers/driver-optimization/validation.md)
