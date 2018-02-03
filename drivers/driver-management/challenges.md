@@ -12,7 +12,7 @@ If I multiply the number of supported Computer Models, with the different Operat
 
 ---
 
-## Requirements
+## Solution Requirements
 
 Whatever Driver Management solution I implement, it has to be Simple, Small, and Stand Alone.
 
