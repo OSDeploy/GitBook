@@ -1,10 +1,16 @@
 # Driver Optimization
 
-Driver Optimization is 
+Driver Optimization is the solution that I need with the following Goals.
 
-* **Simple** - I don't want to make Driver Management a Full Time job
-* **Small **- Must be as small as possible due to my Global Distribution
-* **Stand Alone** - Talking to SCCM or a Web Service isn't an option
+* **Repository Organization** - I will organize my Driver Repository in a logical, structured format
+
+* **Driver Validation** - I will validate the Drivers that I have to ensure they are accurate and necessary
+
+* **Update Common Drivers** - Driver Packs age and grow stale.  These will be updated
+
+* **Driver Consolidation** - I may find that I have the same Driver in multiple Driver Packages, and they may all be different versions.  These Duplicates that are taking space in Multiple Packages should be consolidated into a Core Driver Pack.
+
+* **Driver Compression** - Deploying Compressed Drivers will reduce my Network overhead
 
 ---
 
