@@ -12,6 +12,7 @@
   * [SCConfigMgr Driver Automation Tool](drivers/download-automation/scconfigmgr.md)
   * [Dell Family Pack Downloader](drivers/download-automation/dell-family-pack-downloader.md)
 * [Driver Management](drivers/driver-management.md)
+  * [Challenges](drivers/driver-management/challenges.md)
 * [Driver Optimization](drivers/driver-optimization/README.md)
   * [The Solution](drivers/driver-optimization/benefits.md)
   * [Driver Validation](drivers/driver-optimization/validation.md)
