@@ -48,11 +48,7 @@ You should decide on a method that works best for your environment.
 
 **Are you using MDT only?**  The Holy Grail method won't work
 
+**Does size matter?**  Repositories can grow to 50 - 100 GB.  Will this be a problem for your Network?
+
 You need to take all of these questions into consideration to decide what works best for your Enterprise.
-
-
-
-
-
-
 
