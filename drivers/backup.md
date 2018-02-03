@@ -1,16 +1,27 @@
-# Driver Optimization
+## Reducing the Driver Repository Size
 
-Driver Optimization is the solution that I need with the following Steps.
+The more Computer Models you support, the larger your Driver Repository will become.  If I were to download all Dell Driver Packs, it would consume almost 192 GB of Drive Space.
 
-* **Repository Organization** - I will organize my Driver Repository in a logical, structured format
+| Driver Method | Number of Packs | Downloaded Size | Extracted Size |
+| ---: | ---: | ---: | ---: |
+| Dell Model Packs | 138 | 84.1 GB | 191.70 GB |
 
-* **Driver Validation** - I will validate the Drivers that I have to ensure they are accurate and necessary
+Keep in mind you will have to replicate this content in your Enterprise.  How many Deployment Shares or Distribution Points do you have?
 
-* **Update Common Drivers** - Driver Packs age and become stale.  These will be updated
+---
 
-* **Driver Consolidation** - I may find that I have the same Driver in multiple Driver Packages, and they may all be different versions.  These Duplicates that are taking space in Multiple Packages should be consolidated into a Core Driver Pack.
+## Stale Driver Packs
 
-* **Driver Compression** - Deploying Compressed Drivers will reduce my Network overhead
+Computer Manufacturers dedicate resources to newer Computer Models, which may result in older Computer Models not receiving Driver Pack updates.  The age of some of these Computer Models also suggests that Windows 8.1 Drivers were used in creating the Driver Pack.  The number of updates in the 0 - 50 Day range are not normal and were possibly updated to address the Security Issues of Spectre and Meltdown.
+
+| Dell Driver Pack Age | Number of Driver Packs |
+| :--- | :--- |
+| 0 - 50 Days | 36 |
+| 50 - 100 Days | 15 |
+| 100 - 300 Days | 3 |
+| 300 - 500 Days | 9 |
+| 500 - 700 Days | 10 |
+| 700 - 907 Days | 2 |
 
 ---
 

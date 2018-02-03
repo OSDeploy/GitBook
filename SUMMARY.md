@@ -30,6 +30,7 @@
       * [Win7 x64](drivers/driver-optimization/core-video-drivers/win7-x64.md)
       * [Win7 x86](drivers/driver-optimization/core-video-drivers/win7-x86.md)
     * [Nvidia](drivers/driver-optimization/core-video-drivers/nvidia/README.md)
+  * [Backup](drivers/backup.md)
 * [Optimize Dell Windows 10 x64](drivers/optimize-dell-windows-10-x64/README.md)
 * [Dell Driver Cleanup](drivers/dell-driver-cleanup/README.md)
   * [Audio](drivers/dell-driver-cleanup/audio.md)
