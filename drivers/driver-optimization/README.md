@@ -14,35 +14,5 @@ Driver Optimization is the solution that I need with the following Steps.
 
 ---
 
-## Driver Security Updates
 
-Updated Drivers may be required to Patch Security Issues.  As we can see from an Nvidia Driver Release Highlight, Drivers are being updated to address Spectre and Meltdown.  Since we see that Driver Packs can sometimes be forgotten, addressing updated Drivers related to Security will require Driver Optimization.
-
-![](/assets/1-22-2018 1-49-05 AM.png)
-
----
-
-## Data Deduplication
-
-Similar Hardware is found in multiple Computer Systems, which means that Drivers to address this Hardware is found in multiple Driver Packs.  A Video Card can be used on multiple Computer Models, which now means that the Driver may be found in multiple Driver Packs.
-
----
-
-## Consolidating Multiple Versions
-
-Just as there is Data Duplication due to identical Hardware, there will be multiple Versions of these Drivers.
-
----
-
-## Improving Server Performance
-
-What impact will your SCCM Server have when addressing thousands of files?  With a large number of files, even Binary Differential Replication will need to check these files.
-
-Additionally all of these files will probably be scanned by some type of Security Agent, which will require CPU cycles.
-
----
-
-## Improving OS Performance
-
-Keeping the Drivers in your OS may improve OS Performance as you upgrade to newer Windows Builds.  Newer Drivers are typically tested with these updated Builds to provide some enhancements and benefits.
 
