@@ -1,16 +1,18 @@
-# Driver Optimization Benefits
+# The Solution
 
-If you use Manufacturer Driver Packs, you can immediately start your OS Deployments, but you are missing out on Driver Optimization.  Driver Optimization includes the following
+Driver Optimization was the solution I needed.  It requires me to do the following:
 
-* **Driver Validation** - Mistakes happen.  Are you sure the Driver Packs you are using are properly built?
+* **Repository Organization** - I will organize my Driver Repository in a logical, structured format
 
-* **Repository Organization** - Organizing your Drivers into a logical structure that is easy to Manage and Maintain
+* **Efficiency** - When the number of Driver Packs I need, do individual Model Packs make sense?
 
-* **Driver Updates** - Driver Packs age, become stale and forgotten.  They need updates.
+* **Driver Validation** - I will validate the Drivers that I have to ensure they are accurate and necessary
 
-* **Driver Consolidation** - Removing multiple or redundant Drivers
+* **Update Common Drivers** - Driver Packs age and grow stale.  These will be updated
 
-* **Driver Compression** - Delivering Compressed Packs and Extracting at OS Deployment
+* **Driver Consolidation** - I may find that I have the same Driver in multiple Driver Packages, and they may all be different versions.  These Duplicates that are taking space in Multiple Packages should be consolidated into a Core Driver Pack.
+
+* **Driver Compression** - Deploying Compressed Drivers will reduce my Network overhead
 
 ---
 
@@ -26,7 +28,7 @@ Keep in mind you will have to replicate this content in your Enterprise.  How ma
 
 ---
 
-## Updating Stale Driver Packs
+## Stale Driver Packs
 
 Computer Manufacturers dedicate resources to newer Computer Models, which may result in older Computer Models not receiving Driver Pack updates.  The age of some of these Computer Models also suggests that Windows 8.1 Drivers were used in creating the Driver Pack.  The number of updates in the 0 - 50 Day range are not normal and were possibly updated to address the Security Issues of Spectre and Meltdown.
 
