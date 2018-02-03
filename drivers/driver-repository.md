@@ -19,6 +19,7 @@ When I work with Drivers, I ensure that everything Driver related has a place.  
   * Scripts
 
   * Test
+
     * Alpha
     * Beta
     * Gamma
@@ -30,8 +31,6 @@ When I work with Drivers, I ensure that everything Driver related has a place.  
 
 This will contain tools that I download related to Drivers.  In here I have the following:
 
-* **TechNet Utility Spotlight - Automate Device Driver Integration**
-  * [https://technet.microsoft.com/en-us/library/2006.05.utilityspotlight.aspx](https://technet.microsoft.com/en-us/library/2006.05.utilityspotlight.aspx)
 * **Dell Family Pack Downloader**
   * [https://www.dell.com/community/ImageAssist/Family-Pack-Downloader-for-Dell-Driver-Packs/m-p/5145080](https://www.dell.com/community/ImageAssist/Family-Pack-Downloader-for-Dell-Driver-Packs/m-p/5145080)
 * **SCConfigMgr Driver Automation Tool**
