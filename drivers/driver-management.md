@@ -4,7 +4,13 @@ Driver Management is the Organization and Method you choose to apply Drivers to 
 
 ---
 
-## Total Control \(and Total Chaos\)
+## Manual \(aka Total Chaos\)
+
+The method of downloading drivers and importing them into MDT or OSD is Manual Driver Management.  This will actually work quite well if you have a few different computer models and a single Operating System.
+
+---
+
+## Total Control
 
 According to Johan Arwidmark, you have to decide between "Total Chaos" and "Total Control".  Total Chaos is just importing Drivers into MDT or SCCM without a proper Make / Model structure.  Total Control accounts for this
 
@@ -40,9 +46,9 @@ Maurice Daly and Nickolaj Andersen's Modern Driver Management is another method 
 
 You should decide on a method that works best for your environment.
 
-**Do you support 5 Computer Models? ** Total Chaos may work just fine for you
+**Do you support 5 Computer Models? ** The Manual method may work just fine for you
 
-**Do you support 100+ Computer Models?**  Total Chaos won't work well
+**Do you support 100+ Computer Models?**  The Manual method will frustrate you to no end
 
 **Are you planning on building systems Offline using Stand Alone Media?**  You won't be able to connect to a Web Service
 
