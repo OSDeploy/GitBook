@@ -1,4 +1,0 @@
-Deciding on a Method
-
-
-
