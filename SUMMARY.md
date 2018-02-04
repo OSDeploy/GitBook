@@ -23,7 +23,7 @@
     * [Win10 x86](drivers/download-hardware-drivers/intel-video-drivers/win10-x86.md)
     * [Win7 x64](drivers/download-hardware-drivers/intel-video-drivers/win7-x64.md)
     * [Win7 x86](drivers/download-hardware-drivers/intel-video-drivers/win7-x86.md)
-  * [Nvidia Video Drivers](drivers/driver-optimization/core-video-drivers/nvidia/README.md)
+  * [Nvidia Video Drivers](drivers/download-hardware-drivers/nvidia-video-drivers/README.md)
 * [Driver Management](drivers/driver-management/README.md)
   * [My Driver Management Challenges](drivers/driver-management/my-driver-management-challenges.md)
 * [Driver Optimization](drivers/driver-optimization/README.md)
