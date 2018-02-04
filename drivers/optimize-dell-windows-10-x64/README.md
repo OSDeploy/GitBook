@@ -1,4 +1,4 @@
-# Optimize Dell Windows 10
+# Optimize Dell Windows 10 x64
 
 Let's try to see what we can do for Dell Driver Packs on Windows 10 x64.  If we are using the "Total Control" method for Driver Management, then we are up to 140 Driver Packs at close to 192 GB of space.  This is our starting point.
 
