@@ -11,6 +11,9 @@
 * [Download Automation](drivers/download-automation/README.md)
   * [SCConfigMgr Driver Automation Tool](drivers/download-automation/scconfigmgr.md)
   * [Dell Family Pack Downloader](drivers/download-automation/dell-family-pack-downloader.md)
+* [Download Hardware Drivers](drivers/download-hardware-drivers/README.md)
+  * [Intel](drivers/download-hardware-drivers/intel.md)
+    * [Intel Bluetooth](drivers/driver-optimization/core-drivers/intel-bluetooth.md)
 * [Driver Management](drivers/driver-management/README.md)
   * [My Driver Management Challenges](drivers/driver-management/my-driver-management-challenges.md)
 * [Driver Optimization](drivers/driver-optimization/README.md)
@@ -18,7 +21,6 @@
   * [Driver Validation](drivers/driver-optimization/validation.md)
   * [Family Packs](drivers/driver-optimization/family-packs.md)
   * [Core Drivers](drivers/driver-optimization/core-drivers/README.md)
-    * [Intel Bluetooth](drivers/driver-optimization/core-drivers/intel-bluetooth.md)
     * [Intel Chipset](drivers/driver-optimization/core-drivers/intel-chipset.md)
     * [Intel Network](drivers/driver-optimization/core-drivers/intel-network.md)
     * [Intel Storage](drivers/driver-optimization/core-drivers/intel-storage.md)
@@ -70,4 +72,6 @@
   * [ADK](resources/links/ADK.md)
   * [MDT](resources/links/MDT.md)
 * [People](resources/people/README.md)
+
+
 
