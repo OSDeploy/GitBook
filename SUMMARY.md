@@ -12,7 +12,7 @@
   * [SCConfigMgr Driver Automation Tool](drivers/download-automation/scconfigmgr.md)
   * [Dell Family Pack Downloader](drivers/download-automation/dell-family-pack-downloader.md)
 * [Download Hardware Drivers](drivers/download-hardware-drivers/README.md)
-  * [Intel](drivers/download-hardware-drivers/intel/README.md)
+  * [Intel Hardware Drivers](drivers/download-hardware-drivers/intel/README.md)
     * [Intel Bluetooth](drivers/driver-optimization/core-drivers/intel-bluetooth.md)
     * [Intel Wireless](drivers/driver-optimization/core-drivers/intel-wireless.md)
     * [Intel Storage](drivers/driver-optimization/core-drivers/intel-storage.md)
