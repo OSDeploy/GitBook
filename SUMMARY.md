@@ -28,7 +28,7 @@
   * [My Driver Management Challenges](drivers/driver-management/my-driver-management-challenges.md)
 * [Driver Optimization](drivers/driver-optimization/README.md)
   * [Driver Repository](drivers/driver-repository.md)
-  * [Driver Validation](drivers/driver-optimization/validation.md)
+  * [Driver Validation](drivers/driver-optimization/driver-validation.md)
   * [Family Packs](drivers/driver-optimization/family-packs.md)
   * [Core Drivers](drivers/driver-optimization/core-drivers/README.md)
   * [Backup](drivers/backup.md)
