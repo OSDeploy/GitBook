@@ -53,6 +53,8 @@
   * [Audio](osdrivers/audio.md)
   * [Network](osdrivers/network.md)
   * [Wireless](osdrivers/wireless.md)
+* [Download](osdrivers/download/README.md)
+  * [AWS Configuration](osdrivers/download/aws-configuration.md)
 
 ## Windows Upgrades
 
