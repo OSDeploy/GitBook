@@ -55,8 +55,9 @@
   * [Wireless](osdrivers/wireless.md)
 * [Download](osdrivers/download/README.md)
   * [AWS Configuration](osdrivers/download/aws-configuration.md)
-* [Installation](osdrivers/installation/README.md)
-  * [MDT Task Sequence](osdrivers/installation/mdt-task-sequence.md)
+* [Configuration](osdrivers/configuration/README.md)
+  * [MDT Task Sequence](osdrivers/configuration/mdt-task-sequence.md)
+  * [OSD Task Sequence with MDT](osdrivers/configuration/osd-task-sequence-with-mdt.md)
 
 ## Windows Upgrades
 
