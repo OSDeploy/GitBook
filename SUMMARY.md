@@ -57,7 +57,7 @@
   * [AWS Configuration](osdrivers/download/aws-configuration.md)
 * [Configuration](osdrivers/configuration/README.md)
   * [MDT Task Sequence](osdrivers/configuration/mdt-task-sequence.md)
-  * [OSD Task Sequence with MDT](osdrivers/configuration/osd-task-sequence-with-mdt.md)
+  * [SCCM OSD Task Sequence](osdrivers/configuration/sccm-osd-task-sequence.md)
 
 ## Windows Upgrades
 
