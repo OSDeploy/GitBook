@@ -33,6 +33,8 @@
   * [Core Drivers](drivers/driver-optimization/core-drivers/README.md)
   * [Backup](drivers/backup.md)
 * [Optimize Dell Windows 10 x64](drivers/optimize-dell-windows-10-x64/README.md)
+  * [AWS Setup](drivers/optimize-dell-windows-10-x64/aws-setup.md)
+  * [OSDrivers Download](drivers/optimize-dell-windows-10-x64/osdrivers-download.md)
 * [Dell Driver Cleanup](drivers/dell-driver-cleanup/README.md)
   * [Audio](drivers/dell-driver-cleanup/audio.md)
   * [Bluetooth](drivers/dell-driver-cleanup/bluetooth.md)
@@ -49,15 +51,9 @@
 
 ## OSDrivers
 
-* [Setup](/osdrivers/setup/README.md)
-  * [AWS Setup](/osdrivers/aws-setup.md)
-  * [PS&gt; OSDrivers](osdrivers/ps-osdrivers.md)
-* [Usage](osdrivers/configuration/README.md)
-  * [Stand Alone](osdrivers/configuration/stand-alone.md)
+* [Configuration](osdrivers/configuration/README.md)
   * [MDT Task Sequence](osdrivers/configuration/mdt-task-sequence.md)
-  * [ConfigMgr Package for OSD](osdrivers/configuration/sccm-osd-task-sequence.md)
-  * ConfigMgr Prestage Package
-  * [Servicing Reflect Drivers](osdrivers/configuration/servicing-reflect-drivers.md)
+  * [SCCM OSD Task Sequence](osdrivers/configuration/sccm-osd-task-sequence.md)
 
 ## Windows Upgrades
 

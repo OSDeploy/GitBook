@@ -36,7 +36,7 @@ Create New Access Key to generate an Access Key ID and a Secret Access Key.  Sav
 
 ## Install AWS Tools for PowerShell
 
-Open PowerShell as Administrator.  Make sure that your Script Execution Policy allows you to install the Module first
+Open PowerShell as Administrator.  Make sure that your Script Execution Policy allows you to install the Module before proceeding
 
 ```
 PS C:\> Install-Module -Name AWSPowerShell
@@ -56,5 +56,39 @@ PS C:\> Set-AWSCredential -AccessKey <Access Key ID> -SecretKey <Secret Access K
 
 ---
 
+## Install OSDriver PowerShell Module
 
+OSDriver is my PowerShell Module hosted on [PowerShell Gallery](https://www.powershellgallery.com/packages/OSDriver)
+
+```
+PS C:\> Install-Module -Name OSDriver
+```
+
+---
+
+## Find OSDriver in PowerShell ISE
+
+From PowerShell, simply enter ISE
+
+Make sure you have View &gt; Show Command Add-on enabled.  Then enter OSDriver in the Name.  This should return all the OSDriver Scripts you can use.
+
+---
+
+## Get-OSDriverDownloads
+
+Select Get-OSDriverDownloads
+
+LocalFolder should be a path to save the OSDriver Repository
+
+Check your Include, Exclude, and Pack options and then Run.  The command line that is automatically generated is
+
+```
+Get-OSDriverDownloads -LocalFolder D:\OSDrivers -ExcludeWin7 -Excludex86 -IncludeOSDCore -IncludeOSDVideo -PackUSBNetwork
+```
+
+After you execute Get-OSDriverDownloads, OSDrivers.vbs will be automatically copied to your LocalFolder.
+
+If you selected IncludeOSDCore, you will be presented with a listing of all Drivers that apply to you.  Simply select the Drivers you wish to include and press OK
+
+![](/assets/2018-02-05_14-38-22.png)
 
