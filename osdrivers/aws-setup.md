@@ -10,8 +10,6 @@ Create an AWS Account by completing the following.
 
 [https://portal.aws.amazon.com/billing/signup\#/start](https://www.gitbook.com/book/segura/osdeploy/edit)
 
-
-
 **Using OSDrivers is Free, and the Amazon AWS Account is free as well. I will be hosting Driver CAB files on AWS and depending on the costs that I incur for your downloads, I cannot guarantee it will always remain Free. I will be looking for Sponsors if the costs become excessive, or it may be necessary for you to add Billing to your Amazon AWS.**
 
 **Please limit your downloads to only what you need. Thanks!**
@@ -40,11 +38,11 @@ PS C:\&gt; Install-Module -Name AWSPowerShell
 
 ---
 
-[https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html](https://www.gitbook.com/book/segura/osdeploy/edit)
-
 Configure AWS Account and Access Key
 
 Once the AWSPowerShell module is installed, save your Amazon AWS Keys in PowerShell
 
 PS C:\&gt; Set-AWSCredential -AccessKey &lt;Access Key ID&gt; -SecretKey &lt;Secret Access Key&gt; -StoreAs default
+
+**AWS Reference:** [https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html](#)
 
