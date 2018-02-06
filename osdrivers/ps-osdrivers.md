@@ -12,5 +12,71 @@ OSDriver is my PowerShell Module hosted on [PowerShell Gallery](https://www.powe
 PS C:\> Install-Module -Name OSDriver
 ```
 
+---
 
+Select OSDriver in PowerShell ISE
+
+From PowerShell, to open ISE, enter the following command
+
+PS C:\&gt; ISE
+
+Make sure you have View &gt; Show Command Add-on enabled. Then enter OSDriver in the Name. This should return all the OSDriver Scripts you can use. Select Get-OSDriverDownloads and then press Show Details.
+
+
+
+---
+
+Get-OSDriverDownloads
+
+LocalFolder should be a path to save the OSDriver Repository
+
+Check your Include, Exclude, and Pack options and then click the Run button
+
+
+
+The command line that is automatically generated is
+
+Get-OSDriverDownloads -LocalFolder D:\OSDrivers -ExcludeWin7 -Excludex86 -IncludeOSDCore -IncludeOSDVideo -PackUSBNetwork
+
+After you execute Get-OSDriverDownloads, OSDrivers.vbs will be automatically copied to your LocalFolder.
+
+---
+
+OSD-Core
+
+If you selected IncludeOSDCore, you will be presented with a listing of all Drivers that apply to you. Simply select the Drivers you wish to include and press OK
+
+
+
+---
+
+OSD-Video
+
+Select the Video Drivers you need and press OK
+
+
+
+---
+
+CORE-Dell
+
+These are the Dell Family Driver Packs. Simply select the ones that you need and press OK.
+
+
+
+---
+
+Download Progress
+
+Your selected Drivers will download automatically.
+
+
+
+---
+
+Complete
+
+When the downloads are finished, you will have a complete OSDriver Repository :\)
+
+ 0
 
