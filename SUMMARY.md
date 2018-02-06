@@ -50,7 +50,7 @@
 ## OSDrivers
 
 * [AWS Setup](osdrivers/aws-setup.md)
-* [OSDrivers Module](osdrivers/osdrivers-configuration.md)
+* [PS OSDrivers Module](osdrivers/ps-osdrivers-module.md)
 * [Configuration](osdrivers/configuration/README.md)
   * [MDT Task Sequence](osdrivers/configuration/mdt-task-sequence.md)
   * [SCCM OSD Task Sequence](osdrivers/configuration/sccm-osd-task-sequence.md)
