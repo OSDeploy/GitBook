@@ -50,12 +50,7 @@
 ## OSDrivers
 
 * [AWS Setup](osdrivers/aws-setup.md)
-* [Reference](osdrivers/README.md)
-  * [Audio](osdrivers/audio.md)
-  * [Network](osdrivers/network.md)
-  * [Wireless](osdrivers/wireless.md)
-* [Download](osdrivers/download/README.md)
-  * [AWS Configuration](osdrivers/download/aws-configuration.md)
+* [OSDrivers Module](osdrivers/osdrivers-configuration.md)
 * [Configuration](osdrivers/configuration/README.md)
   * [MDT Task Sequence](osdrivers/configuration/mdt-task-sequence.md)
   * [SCCM OSD Task Sequence](osdrivers/configuration/sccm-osd-task-sequence.md)
