@@ -33,6 +33,8 @@
   * [Core Drivers](drivers/driver-optimization/core-drivers/README.md)
   * [Backup](drivers/backup.md)
 * [Optimize Dell Windows 10 x64](drivers/optimize-dell-windows-10-x64/README.md)
+  * [AWS Setup](drivers/optimize-dell-windows-10-x64/aws-setup.md)
+  * [OSDrivers Download](drivers/optimize-dell-windows-10-x64/osdrivers-download.md)
 * [Dell Driver Cleanup](drivers/dell-driver-cleanup/README.md)
   * [Audio](drivers/dell-driver-cleanup/audio.md)
   * [Bluetooth](drivers/dell-driver-cleanup/bluetooth.md)
@@ -49,12 +51,6 @@
 
 ## OSDrivers
 
-* [Reference](osdrivers/README.md)
-  * [Audio](osdrivers/audio.md)
-  * [Network](osdrivers/network.md)
-  * [Wireless](osdrivers/wireless.md)
-* [Download](osdrivers/download/README.md)
-  * [AWS Configuration](osdrivers/download/aws-configuration.md)
 * [Configuration](osdrivers/configuration/README.md)
   * [MDT Task Sequence](osdrivers/configuration/mdt-task-sequence.md)
   * [SCCM OSD Task Sequence](osdrivers/configuration/sccm-osd-task-sequence.md)
