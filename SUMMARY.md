@@ -58,7 +58,7 @@
   * [Amazon AWS](osdrivers/setup/amazon-aws.md)
   * [PS OSDriver Module](osdrivers/setup/ps-osdriver-module.md)
   * [Sample Repository](osdrivers/setup/sample-repository.md)
-  * MDT Task Sequence
+  * [MDT Task Sequence](osdrivers/setup/mdt-task-sequence.md)
   * ConfigMgr Package
 * [Examples](osdrivers/examples/README.md)
 * [Reference Guide](osdrivers/reference-guide/README.md)
