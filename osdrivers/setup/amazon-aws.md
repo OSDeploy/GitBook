@@ -1,8 +1,8 @@
 # Amazon AWS Setup
 
-I have Published an OSDrivers Dell Repository on Amazon AWS.  You are free to use this as an Example, but you will need to have an AWS Account created for Authentication.  If you have OSDrivers.vbs, and prefer to build your own, you can skip this page.
+I have Published an OSDrivers Dell Repository on Amazon AWS.  You are free to use this as an Sample, but you will need to have an AWS Account created for Authentication.  If you have OSDrivers.vbs, and prefer to build your own, you can skip this page.
 
-**Using OSDrivers is Free, but the Example OSDrivers Dell Repository has a Storage Cost that am covering for the time being.  I cannot guarantee it will always remain Free.  I will be looking for Sponsors if the costs become excessive, or it may be necessary for you to add Billing to your Amazon AWS.**
+**Using OSDrivers is Free, but the Sample OSDrivers Dell Repository has a Storage Cost that am covering for the time being.  I cannot guarantee it will always remain Free.  I will be looking for Sponsors if the costs become excessive, or it may be necessary for you to add Billing to your Amazon AWS.**
 
 **Please limit your downloads to only what you need.  Thanks!**
 
