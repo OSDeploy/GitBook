@@ -49,6 +49,7 @@
 
 ## OSDrivers
 
+* [AWS Setup](osdrivers/aws-setup.md)
 * [Reference](osdrivers/README.md)
   * [Audio](osdrivers/audio.md)
   * [Network](osdrivers/network.md)
