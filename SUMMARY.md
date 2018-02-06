@@ -55,6 +55,7 @@
   * [MDT Task Sequence](osdrivers/configuration/mdt-task-sequence.md)
   * [SCCM OSD Task Sequence](osdrivers/configuration/sccm-osd-task-sequence.md)
 * [Examples](osdrivers/examples/README.md)
+* [Reference Guide](osdrivers/reference-guide/README.md)
 
 ## Windows Upgrades
 
