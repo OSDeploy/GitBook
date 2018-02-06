@@ -1,6 +1,6 @@
 # PS&gt; OSDriver Module
 
-You will need to add the OSDriver Module to PowerShell before you can Download the Repository
+You will need to add the OSDriver Module to PowerShell before you can Download the Sample Repository
 
 ---
 
@@ -81,6 +81,4 @@ Your selected Drivers will download automatically.
 ## Complete
 
 When the downloads are finished, you will have a complete OSDriver Repository :\)
-
-
 
