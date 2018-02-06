@@ -52,9 +52,12 @@
 * [Setup](/osdrivers/setup/README.md)
   * [AWS Setup](/osdrivers/aws-setup.md)
   * [PS&gt; OSDrivers](osdrivers/ps-osdrivers.md)
-* [Configuration](osdrivers/configuration/README.md)
+* [Usage](osdrivers/configuration/README.md)
+  * [Stand Alone](osdrivers/configuration/stand-alone.md)
   * [MDT Task Sequence](osdrivers/configuration/mdt-task-sequence.md)
-  * [SCCM OSD Task Sequence](osdrivers/configuration/sccm-osd-task-sequence.md)
+  * [ConfigMgr Package for OSD](osdrivers/configuration/sccm-osd-task-sequence.md)
+  * ConfigMgr Prestage Package
+  * [Servicing Reflect Drivers](osdrivers/configuration/servicing-reflect-drivers.md)
 
 ## Windows Upgrades
 
