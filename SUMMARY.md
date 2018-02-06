@@ -28,7 +28,7 @@
   * [My Driver Management Challenges](drivers/driver-management/my-driver-management-challenges.md)
 * [Driver Optimization](drivers/driver-optimization/README.md)
   * [Driver Repository](drivers/driver-repository.md)
-  * [Driver Validation](drivers/driver-optimization/validation.md)
+  * [Driver Validation](drivers/driver-optimization/driver-validation.md)
   * [Family Packs](drivers/driver-optimization/family-packs.md)
   * [Core Drivers](drivers/driver-optimization/core-drivers/README.md)
   * [Backup](drivers/backup.md)
@@ -56,6 +56,9 @@
   * [Wireless](osdrivers/wireless.md)
 * [Download](osdrivers/download/README.md)
   * [AWS Configuration](osdrivers/download/aws-configuration.md)
+* [Configuration](osdrivers/configuration/README.md)
+  * [MDT Task Sequence](osdrivers/configuration/mdt-task-sequence.md)
+  * [SCCM OSD Task Sequence](osdrivers/configuration/sccm-osd-task-sequence.md)
 
 ## Windows Upgrades
 
