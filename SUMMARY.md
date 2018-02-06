@@ -50,8 +50,8 @@
 ## OSDrivers
 
 * [Setup](/osdrivers/setup/README.md)
-  * [AWS Setup](/osdrivers/setup/aws-setup.md)
-  * [PS&gt; OSDrivers](/osdrivers/setup/ps-osdrivers.md)
+  * [AWS Setup](/osdrivers/aws-setup.md)
+  * [PS&gt; OSDrivers](osdrivers/ps-osdrivers.md)
 * [Configuration](osdrivers/configuration/README.md)
   * [MDT Task Sequence](osdrivers/configuration/mdt-task-sequence.md)
   * [SCCM OSD Task Sequence](osdrivers/configuration/sccm-osd-task-sequence.md)
@@ -73,6 +73,4 @@
   * [ADK](resources/links/ADK.md)
   * [MDT](resources/links/MDT.md)
 * [People](resources/people/README.md)
-
-
 
