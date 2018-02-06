@@ -56,6 +56,8 @@
   * [SCCM OSD Task Sequence](osdrivers/configuration/sccm-osd-task-sequence.md)
 * [Setup](osdrivers/setup/README.md)
   * [Amazon AWS](osdrivers/setup/amazon-aws.md)
+  * [PS OSDriver Module](osdrivers/setup/ps-osdriver-module.md)
+  * [Sample Repository](osdrivers/setup/sample-repository.md)
 * [Examples](osdrivers/examples/README.md)
 * [Reference Guide](osdrivers/reference-guide/README.md)
 
