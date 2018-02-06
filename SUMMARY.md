@@ -49,7 +49,7 @@
 
 ## OSDrivers
 
-* Setup
+* [Setup](/osdrivers/setup/README.md)
   * [AWS Setup](/osdrivers/setup/aws-setup.md)
   * [PS&gt; OSDrivers](/osdrivers/setup/ps-osdrivers.md)
 * [Configuration](osdrivers/configuration/README.md)
