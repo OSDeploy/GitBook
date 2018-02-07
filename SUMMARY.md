@@ -33,27 +33,12 @@
   * [Core Drivers](drivers/driver-optimization/core-drivers/README.md)
   * [Backup](drivers/backup.md)
 * [Optimize Dell Windows 10 x64](drivers/optimize-dell-windows-10-x64/README.md)
-  * [AWS Setup](drivers/optimize-dell-windows-10-x64/aws-setup.md)
-  * [OSDrivers Download](drivers/optimize-dell-windows-10-x64/osdrivers-download.md)
-* [Dell Driver Cleanup](drivers/dell-driver-cleanup/README.md)
-  * [Audio](drivers/dell-driver-cleanup/audio.md)
-  * [Bluetooth](drivers/dell-driver-cleanup/bluetooth.md)
-  * [Network](drivers/dell-driver-cleanup/network.md)
-  * [Thunderbolt](drivers/dell-driver-cleanup/thunderbolt.md)
-  * [Touchpad](drivers/dell-driver-cleanup/touchpad.md)
-  * [Video AMD](drivers/dell-driver-cleanup/video-amd.md)
-  * [Video Intel](drivers/dell-driver-cleanup/video-intel.md)
-  * [Video Nvidia](drivers/dell-driver-cleanup/video-nvidia.md)
-  * [Wireless Dell](drivers/dell-driver-cleanup/wireless-dell.md)
-  * [Wireless Intel](drivers/dell-driver-cleanup/wireless-intel.md)
-  * [Core Cleanup](/drivers/dell-driver-cleanup/cleanup-summary.md)
-  * [Core Dell Cleanup](drivers/dell-driver-cleanup/core-dell-cleanup.md)
 
 ## OSDrivers
 
 * [Setup](osdrivers/setup/README.md)
   * [Amazon AWS](osdrivers/setup/amazon-aws.md)
-  * [PS OSDriver Module](osdrivers/setup/ps-osdriver-module.md)
+  * [PS OSDrivers Module](osdrivers/setup/ps-osdrivers-module.md)
   * [Sample Repository](osdrivers/setup/sample-repository.md)
   * [MDT Task Sequence](osdrivers/setup/mdt-task-sequence.md)
   * ConfigMgr Package
