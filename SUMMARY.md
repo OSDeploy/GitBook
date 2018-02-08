@@ -14,7 +14,7 @@
 * [Driver Management](drivers/driver-management/README.md)
   * [My Driver Management Challenges](drivers/driver-management/my-driver-management-challenges.md)
 * [Driver Optimization](drivers/driver-optimization/README.md)
-  * [Organize Drivers](drivers/driver-repository.md)
+  * [Organize Drivers](drivers/driver-optimization/organize-drivers.md)
   * [Validate Drivers](drivers/driver-optimization/validate-drivers.md)
   * [Core Drivers](drivers/driver-optimization/core-drivers/README.md)
   * [Backup](drivers/backup.md)
