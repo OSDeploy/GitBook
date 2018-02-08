@@ -1,6 +1,10 @@
 # Intel Chipset
 
-For Intel Chipset, you only need the following three drivers.
+For Intel Chipset, you only need three Drivers
+
+---
+
+## Download
 
 **Intel Chipset Device Software**
 
@@ -13,10 +17,4 @@ For Intel Chipset, you only need the following three drivers.
 **Intel Turbo Boost Max Technology 3.0**
 
 [https://downloadcenter.intel.com/download/26103/Intel-Turbo-Boost-Max-Technology-3-0?product=873](https://downloadcenter.intel.com/download/26103/Intel-Turbo-Boost-Max-Technology-3-0?product=873)
-
-
-
-
-
-
 

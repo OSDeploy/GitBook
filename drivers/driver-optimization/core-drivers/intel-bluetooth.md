@@ -16,6 +16,10 @@ You should download the ALL version
 
 [https://www.intel.com/content/www/us/en/support/articles/000005559/network-and-i-o/wireless-networking.html](https://www.intel.com/content/www/us/en/support/articles/000005559/network-and-i-o/wireless-networking.html)
 
+Additionally I have found you will need this specific version for Hardware ID VID\_8087&PID\_07DA
+
+[https://downloadcenter.intel.com/download/26419/Wireless-Intel-Wireless-Bluetooth-for-Windows-10](https://downloadcenter.intel.com/download/26419/Wireless-Intel-Wireless-Bluetooth-for-Windows-10)
+
 ---
 
 ## Zip Extraction
