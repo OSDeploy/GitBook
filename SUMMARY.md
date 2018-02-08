@@ -34,10 +34,10 @@
 * [Advanced Driver Optimization](drivers/advanced-driver-optimization/README.md)
 * [PS Module OSDriver](psmodule/osdriver/README.md)
   * [Edit-ExpandOSDriver](psmodule/osdriver/edit-expandosdriver.md)
-  * Find-OSDriverINFs
-  * Get-OSDriverINFo
-  * New-OSDriverCab
-  * Search-OSDriverContent
+  * [Find-OSDriverINFs](psmodule/osdriver/find-osdriverinfs.md)
+  * [Get-OSDriverINFo](psmodule/osdriver/get-osdriverinfo.md)
+  * [New-OSDriverCab](psmodule/osdriver/new-osdrivercab.md)
+  * [Search-OSDriverContent](psmodule/osdriver/search-osdrivercontent.md)
 
 ## OSDrivers
 

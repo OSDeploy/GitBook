@@ -1,51 +1,28 @@
 # Edit-ExpandOSDriver
 
-This function will expand compressed files found in some Drivers.  This is typically found in Nvidia Drivers.
-
-![](/assets/2018-02-08_12-44-22.png)
-
----
-
-## -ExpandCompressedFiles
-
-This will expand the Compressed files in a given directory.
+Detailed documentation and screenshots coming soon
 
 ```
-Expanding d:\drivers\download\video\nvidia\390.65-quadro-grid-desktop-notebook-win10-64bit-international-whql\display.d
-river\opencl32.dl_ to d:\drivers\download\video\nvidia\390.65-quadro-grid-desktop-notebook-win10-64bit-international-wh
-ql\display.driver\opencl32.dl.
-d:\drivers\download\video\nvidia\390.65-quadro-grid-desktop-notebook-win10-64bit-international-whql\display.driver\open
-cl32.dl_: 195328 bytes expanded to 438768 bytes, -667282555% increase.
-
-Microsoft (R) File Expansion Utility
-Copyright (c) Microsoft Corporation. All rights reserved.
-
-Expanding d:\drivers\download\video\nvidia\390.65-quadro-grid-desktop-notebook-win10-64bit-international-whql\display.d
-river\opencl64.dl_ to d:\drivers\download\video\nvidia\390.65-quadro-grid-desktop-notebook-win10-64bit-international-wh
-ql\display.driver\opencl64.dl.
-d:\drivers\download\video\nvidia\390.65-quadro-grid-desktop-notebook-win10-64bit-international-whql\display.driver\open
-cl64.dl_: 229772 bytes expanded to 532792 bytes, -1808985211% increase.
-
-***** Calculating Path Size *****
-Initial Size:	 0.48 GB
-Expanded Size:	 0.70 GB
-```
-
-![](/assets/2018-02-08_12-49-40.png)
-
----
-
-
-
-
-
-```
-***** Removing Directories Named PhysX *****
-***** Removing Directories Named ShadowPlay *****
-***** Removing Directories Named Update.Core *****
-***** Calculating Path Size *****
-Initial Size:	 0.70 GB
-De-Junked Size:	 0.56 GB
+<#
+.SYNOPSIS
+	Optionally expands compressed drivers.  Optionally removes Nvidia Driver junk
+.DESCRIPTION
+	Optionally expands compressed drivers.  Optionally removes Nvidia Driver junk
+.PARAMETER Path
+	Directory containing Drivers
+.PARAMETER ExpandCompressedFiles
+	Expands compressed files *.bi,*.cf,*.cp,*.dl,*.ex,*.hl,*.pd,*.sy,*.tv,*.xm
+.PARAMETER RemoveNvidiaJunk
+	Removes directories named Display.NView, Display.Optimus, Display.Update, DisplayDriverCrashAnalyzer, GFExperience, GFExperience.NvStreamSrv, MSVCRT, nodejs, NV3DVision, NvBackend, NvCamera, NvContainer, NVI2, NvTelemetry, NVWMI, PhysX, ShadowPlay, Update.Core
+.EXAMPLE
+	Edit-ExpandOSDriver -Path C:\OSDrivers\Nvidia -ExpandCompressedFiles -RemoveNvidiaJunk
+.NOTES
+        NAME:	Edit-ExpandOSDriver.ps1
+		AUTHOR:	David Segura, david@segura.org
+		BLOG:	http://www.osdeploy.com
+        CREATED:	02/07/2018
+        VERSION:	1.0.7.1
+#>
 ```
 
 
