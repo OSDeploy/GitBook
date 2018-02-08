@@ -1,4 +1,4 @@
-# Driver Validation
+# Validate Drivers
 
 Some examples of my observations from Driver Validation are listed below.  In my Enterprise, roughly 95% of the Computers are Dell systems, so I apologize in advance for picking on them in this article.
 
