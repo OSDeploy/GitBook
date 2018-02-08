@@ -33,7 +33,7 @@
   * [My Driver Management Challenges](drivers/driver-management/my-driver-management-challenges.md)
 * [Advanced Driver Optimization](drivers/advanced-driver-optimization/README.md)
 * [PS Module OSDriver](psmodule/osdriver/README.md)
-  * Edit-ExpandOSDriver
+  * [Edit-ExpandOSDriver](psmodule/osdriver/edit-expandosdriver.md)
   * Find-OSDriverINFs
   * Get-OSDriverINFo
   * New-OSDriverCab
