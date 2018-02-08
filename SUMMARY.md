@@ -51,6 +51,7 @@
 * [MDT Integration](osdrivers/setup/mdt-integration.md)
 * [ConfigMgr OSD Integration](osdrivers/setup/configmgr-osd-integration/README.md)
   * [Create Package Content](osdrivers/setup/core-driver-package.md)
+  * [Create Packages](osdrivers/setup/create-packages.md)
 * [Examples](osdrivers/examples/README.md)
 * [Reference Guide](osdrivers/reference-guide/README.md)
 
@@ -71,6 +72,4 @@
   * [ADK](resources/links/ADK.md)
   * [MDT](resources/links/MDT.md)
 * [People](resources/people/README.md)
-
-
 
