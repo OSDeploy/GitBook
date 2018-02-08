@@ -1,3 +1,46 @@
+# PowerShell Module OSDrivers
+
+OSDrivers is a PowerShell Module that I have written to help in managing your Drivers.  It is hosted on [PowerShell Gallery](https://www.powershellgallery.com/)
+
+[https://www.powershellgallery.com/packages/OSDrivers/](https://www.powershellgallery.com/packages/OSDrivers/)
+
+---
+
+## Install PowerShell Module OSDrivers
+
+Open PowerShell as Administrator and make sure that your Script Execution Policy allows you to install the Module first
+
+```
+PS C:\> Install-Module -Name OSDrivers
+```
+
+---
+
+## Updating PowerShell Module OSDrivers
+
+If you have an older version, to prevent having duplicates show up in PowerShell ISE, remove any old versions first, then simply run an install to get the latest version
+
+```
+PS C:\> Remove-Module -Name OSDrivers
+PS C:\> Install-Module -Name OSDrivers
+```
+
+---
+
+## Open PowerShell ISE
+
+From PowerShell, open ISE with a simple command
+
+```
+PS C:\> ISE
+```
+
+---
+
+## View the OSDriver Module
+
+# 
+
 # PS&gt; OSDriver Module
 
 You will need to add the OSDriver Module to PowerShell before you can Download the Sample Repository

@@ -1,6 +1,8 @@
 # PowerShell Module OSDriver
 
-OSDriver is a PowerShell Module that I have written to help in managing your Drivers.  It is hosted on [PowerShell Gallery](https://www.powershellgallery.com/packages/OSDriver/)
+OSDriver is a PowerShell Module that I have written to help in managing your Drivers.  It is hosted on [PowerShell Gallery](https://www.powershellgallery.com/)
+
+[https://www.powershellgallery.com/packages/OSDriver/1.0.7.1](https://www.powershellgallery.com/packages/OSDriver/1.0.7.1)
 
 ---
 
