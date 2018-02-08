@@ -16,8 +16,10 @@
 * [Driver Optimization](drivers/driver-optimization/README.md)
   * [Organize Drivers](drivers/driver-optimization/organize-drivers.md)
   * [Validate Drivers](drivers/driver-optimization/validate-drivers.md)
-  * [Core Drivers](drivers/driver-optimization/core-drivers/README.md)
+  * [Build a Core Driver Set](drivers/driver-optimization/core-drivers/README.md)
   * [Backup](drivers/backup.md)
+  * [DEMO Optimize Dell Windows 10 x64](drivers/optimize-dell-windows-10-x64/README.md)
+* [Advanced Driver Optimization](drivers/advanced-driver-optimization/README.md)
 * [Download Hardware Drivers](drivers/download-hardware-drivers/README.md)
   * [Intel Hardware Drivers](drivers/download-hardware-drivers/intel-hardware-drivers/README.md)
     * [Intel Chipset](drivers/download-hardware-drivers/intel-hardware-drivers/intel-chipset.md)
@@ -31,7 +33,6 @@
     * [Win7 x64](drivers/download-hardware-drivers/intel-video-drivers/win7-x64.md)
     * [Win7 x86](drivers/download-hardware-drivers/intel-video-drivers/win7-x86.md)
   * [Nvidia Video Drivers](drivers/download-hardware-drivers/nvidia-video-drivers/README.md)
-* [Optimize Dell Windows 10 x64](drivers/optimize-dell-windows-10-x64/README.md)
 
 ## OSDrivers
 
