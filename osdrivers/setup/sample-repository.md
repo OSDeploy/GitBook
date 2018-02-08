@@ -6,7 +6,7 @@ If you have connected an Amazon AWS Account and installed your Keys through Powe
 
 ## PowerShell Get-OSDrivers
 
-LocalFolder should be where the Repository will download to.  For a Full Repository, check the OSD Checkboxes, and then press Run.
+LocalFolder should be where the Repository will download to.  For a Full Repository, check the OSD Checkboxes, and then press Run.  Sorry about the Mouse Pointer in this screenshot :\(
 
 ![](/assets/2018-02-08_14-43-18.png)
 
@@ -18,7 +18,7 @@ Select the drivers you want to download for OSD Core and press OK
 
 ![](/assets/2018-02-08_14-44-26.png)
 
-##  
+## 
 
 ---
 
@@ -35,8 +35,6 @@ Select the Video Drivers that you want to download and press OK
 This list can get quite large.  To make things easier, you can use the Filter box to narrow the results.  Select the Drivers that you want and press OK.
 
 ![](/assets/2018-02-08_14-49-01.png)
-
-
 
 ---
 
