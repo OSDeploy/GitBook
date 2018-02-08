@@ -28,11 +28,3 @@ Repeat the same process for creating Package Content for Video and Dell.  In the
 
 ![](/assets/2018-02-08_15-13-45.png)
 
-
-
-
-
-
-
-
-
