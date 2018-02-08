@@ -1,4 +1,4 @@
-# Combined Driver Packs
+# Combine Driver Packs
 
 Using Family Packs instead of Model Packs can help in reducing the size of your Driver Repository
 

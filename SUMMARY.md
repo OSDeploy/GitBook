@@ -14,7 +14,7 @@
 * [Driver Management](drivers/driver-management/README.md)
   * [My Driver Management Challenges](drivers/driver-management/my-driver-management-challenges.md)
 * [Driver Optimization](drivers/driver-optimization/README.md)
-  * [Combined Driver Packs](drivers/driver-optimization/combined-driver-packs.md)
+  * [Combine Driver Packs](drivers/driver-optimization/combine-driver-packs.md)
   * [Organize Drivers](drivers/driver-optimization/organize-drivers.md)
   * [Validate Drivers](drivers/driver-optimization/validate-drivers.md)
   * [Build a Core Driver Set](drivers/driver-optimization/core-drivers/README.md)
