@@ -41,6 +41,7 @@
 
 ## OSDrivers
 
+* [How It Works](osdrivers/setup/how-it-works.md)
 * [Setup](osdrivers/setup/README.md)
   * [Amazon AWS](osdrivers/setup/amazon-aws.md)
   * [PS Module OSDrivers](psmodule/osdrivers/README.md)
