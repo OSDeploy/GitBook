@@ -2,7 +2,7 @@
 
 **Driver Optimization is a Driver Management Method with the following considerations**
 
-* **Combined Driver Packs** - Use Family Packs that apply to multiple Computer Models instead of individual Computer Models
+* **Combine Driver Packs** - Use Family Packs that apply to multiple Computer Models instead of individual Computer Models
 
 * **Organize Drivers** - I will organize my Driver Repository in a logical, structured format
 
