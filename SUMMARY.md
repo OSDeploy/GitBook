@@ -11,8 +11,6 @@
 * [Download Automation](drivers/download-automation/README.md)
   * [SCConfigMgr Driver Automation Tool](drivers/download-automation/scconfigmgr.md)
   * [Dell Family Pack Downloader](drivers/download-automation/dell-family-pack-downloader.md)
-* [Driver Management](drivers/driver-management/README.md)
-  * [My Driver Management Challenges](drivers/driver-management/my-driver-management-challenges.md)
 * [Driver Optimization](drivers/driver-optimization/README.md)
   * [Combine Driver Packs](drivers/driver-optimization/combine-driver-packs.md)
   * [Organize Drivers](drivers/driver-optimization/organize-drivers.md)
@@ -31,8 +29,10 @@
     * [Win7 x86](drivers/download-hardware-drivers/intel-video-drivers/win7-x86.md)
   * [Nvidia Video Drivers](drivers/download-hardware-drivers/nvidia-video-drivers/README.md)
   * [Optimization Example - Dell Win10 x64](drivers/driver-optimization/optimization-example.md)
+* [Driver Management](drivers/driver-management/README.md)
+  * [My Driver Management Challenges](drivers/driver-management/my-driver-management-challenges.md)
 * [Advanced Driver Optimization](drivers/advanced-driver-optimization/README.md)
-* [PS OSDriver](drivers/ps-osdriver/README.md)
+* [PS Module OSDriver](psmodule/osdriver/README.md)
 
 ## OSDrivers
 
