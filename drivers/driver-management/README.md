@@ -1,12 +1,12 @@
-# Driver Management
+# Driver Deployment Methods
 
-Driver Management is the Organization and Method you choose to apply Drivers to your Computer in a Task Sequence for both MDT and SCCM.  Before you can even Deploy Windows 10 to your systems, you must make a decision, but what method of Driver Management works best for your environment?
+The Method you choose to apply Drivers to your Computer in a Task Sequence for both MDT and SCCM is your Deployment Method.  Before you can even Deploy Windows 10 to your systems, you must make a decision, but what Driver Deployment Method works best for your environment?
 
 ---
 
 ## Manual \(aka Total Chaos\)
 
-The method of downloading drivers and importing them into MDT or OSD is Manual Driver Management.  This will actually work quite well if you have a few different computer models and a single Operating System.
+The method of downloading drivers and importing them into MDT or OSD without a proper structure and relying on PNP Detection in the Manual Deployment Method.  This can actually work quite well if you have a few different computer models and a single Operating System.
 
 ---
 
@@ -56,5 +56,5 @@ You should decide on a method that works best for your environment.
 
 **Does size matter?**  Repositories can grow to 50 - 100 GB.  Will this be a problem for your Network?
 
-You need to take all of these questions into consideration to decide what works best for your Enterprise.
+**You need to take all of these questions into consideration to decide what works best for your Enterprise.**
 
