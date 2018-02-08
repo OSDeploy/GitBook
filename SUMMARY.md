@@ -24,15 +24,15 @@
     * [Intel Storage](drivers/driver-optimization/core-drivers/intel-storage.md)
     * [Intel Wireless](drivers/driver-optimization/core-drivers/intel-wireless.md)
   * [Core Video Drivers](drivers/driver-optimization/core-video-drivers/README.md)
-  * [Optimization Example - Dell Win10 x64](drivers/driver-optimization/optimization-example.md)
-* [Advanced Driver Optimization](drivers/advanced-driver-optimization/README.md)
-* [Download Hardware Drivers](drivers/download-hardware-drivers/README.md)
   * [Intel Video Drivers](drivers/download-hardware-drivers/intel-video-drivers/README.md)
     * [Win10 x64](drivers/download-hardware-drivers/intel-video-drivers/win10-x64.md)
     * [Win10 x86](drivers/download-hardware-drivers/intel-video-drivers/win10-x86.md)
     * [Win7 x64](drivers/download-hardware-drivers/intel-video-drivers/win7-x64.md)
     * [Win7 x86](drivers/download-hardware-drivers/intel-video-drivers/win7-x86.md)
   * [Nvidia Video Drivers](drivers/download-hardware-drivers/nvidia-video-drivers/README.md)
+  * [Optimization Example - Dell Win10 x64](drivers/driver-optimization/optimization-example.md)
+* [Advanced Driver Optimization](drivers/advanced-driver-optimization/README.md)
+* [PS OSDriver](drivers/ps-osdriver/README.md)
 
 ## OSDrivers
 

@@ -14,5 +14,5 @@
 
 ## Benefits
 
-
+Reduced size allows for easier Driver Management and faster Deployments.  Additionally reduced strain on your Network, and reduced utilization of your Distribution Servers.
 

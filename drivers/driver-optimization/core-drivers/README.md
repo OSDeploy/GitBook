@@ -1,8 +1,6 @@
 # Core Drivers
 
-Core Drivers is a set of Drivers that apply to most computers in your Enterprise.
-
-
+Core Drivers is a set of Drivers that apply to most computers in your Enterprise.  The Core Driver Pack that you create can be used to apply to all the Computers in your Enterprise.
 
 ---
 
