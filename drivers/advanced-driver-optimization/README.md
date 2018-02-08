@@ -10,3 +10,21 @@ Advanced Driver Optimization takes things up a level from standard Driver Optimi
 
 I will work on detailing this process soon . . .
 
+---
+
+## Example - CAB Compression
+
+If you followed my Optimization Example, using CAB Compression will reduce the Driver Repository by 4.05 GB
+
+| Action | Recovered Space | New Repository Size |
+| :--- | :--- | :--- |
+| CAB Compression | 4.05 GB | 3.37 GB |
+
+Here is how they look visually, sorted by size, with the largest CAB topping out at 400 MB.
+
+![](/assets/2-2-2018 2-38-35 AM.png)**Adding a Manufacturer Core Driver Pack will reduce this from 3.37 GB to 1.60 GB**
+
+---
+
+
+
