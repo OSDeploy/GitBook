@@ -1,8 +1,14 @@
 # Core Drivers
 
-Core Drivers are a set of Drivers that are used frequently in most different Computer Models.
+Core Drivers is a set of Drivers that apply to most computers in your Enterprise.
 
-This should be downloaded and organized in a logical structure.
+
+
+---
+
+## Simple Organization
+
+Organize whatever drivers you need in a simple and logical structure.
 
 ```
 Core
