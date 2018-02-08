@@ -1,4 +1,4 @@
 # ConfigMgr OSD Integration
 
-OSDrivers can work with ConfigMgr OSD.  For this, we need to create OSDriver Packages.
+OSDrivers can work with ConfigMgr OSD.  There are a few steps, but everything is simple.
 
