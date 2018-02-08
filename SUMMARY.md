@@ -48,7 +48,7 @@
     * [Copy-OSDrivers](psmodule/osdrivers/copy-osdrivers.md)
   * [Sample Repository](osdrivers/setup/sample-repository.md)
   * [MDT Task Sequence](osdrivers/setup/mdt-task-sequence.md)
-  * [Core Driver Package](osdrivers/setup/core-driver-package.md)
+  * [Create Package Content](osdrivers/setup/core-driver-package.md)
 * [Examples](osdrivers/examples/README.md)
 * [Reference Guide](osdrivers/reference-guide/README.md)
 
