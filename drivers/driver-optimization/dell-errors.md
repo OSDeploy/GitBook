@@ -1,2 +1,0 @@
-Validation - Dell's Mistakes
-
