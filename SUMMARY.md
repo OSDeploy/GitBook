@@ -55,7 +55,8 @@
   * [Create Packages](osdrivers/setup/create-packages.md)
   * [OSD Task Sequence](osdrivers/setup/osd-task-sequence.md)
 * [Examples](osdrivers/examples/README.md)
-  * [Operating System Condition](osdrivers/examples/operating-system-conditions.md)
+  * [Operating System Conditions](osdrivers/examples/operating-system-conditions.md)
+  * [Manufacturer Conditions](osdrivers/examples/manufacturer-conditions.md)
 * [Reference Guide](osdrivers/reference-guide/README.md)
 
 ## Windows Upgrades
