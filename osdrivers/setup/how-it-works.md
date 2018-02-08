@@ -25,7 +25,7 @@ TXT files are what OSDrivers.vbs processes.  There are some simple conditions
   * Windows 7 x64 = Yes
   * Operating System = All
 
-Everything else is optional and are detailed in the Reference Guide
+Everything else is optional and are detailed in a later article.
 
 ```
 [OSDrivers]
