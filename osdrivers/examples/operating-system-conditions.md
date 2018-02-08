@@ -28,5 +28,5 @@ Windows 7 x86 = Yes
 Windows 10 x86 = Yes
 ```
 
-
+---
 
