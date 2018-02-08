@@ -1,44 +1,42 @@
-# Sample Repository
+# Sample Repository \(Dell Windows 10 x64\)
 
-## Get-OSDriverDownloads
-
-LocalFolder should be a path to save the OSDriver Repository
-
-Check your Include, Exclude, and Pack options and then click the Run button
-
-![](/assets/2018-02-05_14-49-42.png)
-
-The command line that is automatically generated is
-
-```
-Get-OSDriverDownloads -LocalFolder D:\OSDrivers -ExcludeWin7 -Excludex86 -IncludeOSDCore -IncludeOSDVideo -PackUSBNetwork
-```
-
-After you execute Get-OSDriverDownloads, OSDrivers.vbs will be automatically copied to your LocalFolder.
+If you have connected an Amazon AWS Account and installed your Keys through PowerShell, you can easily download a Sample Repository.
 
 ---
 
-## OSD-Core
+## PowerShell Get-OSDrivers
 
-If you selected IncludeOSDCore, you will be presented with a listing of all Drivers that apply to you.  Simply select the Drivers you wish to include and press OK
+LocalFolder should be where the Repository will download to.  For a Full Repository, check the OSD Checkboxes, and then press Run.
 
-![](/assets/2018-02-05_14-38-22.png)
-
----
-
-## OSD-Video
-
-Select the Video Drivers you need and press OK
-
-![](/assets/2018-02-05_14-52-08.png)
+![](/assets/2018-02-08_14-43-18.png)
 
 ---
 
-## CORE-Dell
+## OSDrivers Core: Select Drivers to Download
 
-These are the Dell Family Driver Packs.  Simply select the ones that you need and press OK.
+Select the drivers you want to download for OSD Core and press OK
 
-![](/assets/2018-02-05_14-55-32.png)
+![](/assets/2018-02-08_14-44-26.png)
+
+##  
+
+---
+
+## OSDrivers Video: Select Drivers to Download
+
+Select the Video Drivers that you want to download and press OK
+
+![](/assets/2018-02-08_14-46-58.png)
+
+---
+
+## OSDrivers Dell: Select Drivers to Download
+
+This list can get quite large.  To make things easier, you can use the Filter box to narrow the results.  Select the Drivers that you want and press OK.
+
+![](/assets/2018-02-08_14-49-01.png)
+
+
 
 ---
 
