@@ -17,7 +17,7 @@
   * [Combine Driver Packs](drivers/driver-optimization/combine-driver-packs.md)
   * [Organize Drivers](drivers/driver-optimization/organize-drivers.md)
   * [Validate Drivers](drivers/driver-optimization/validate-drivers.md)
-  * [Build a Core Driver Set](drivers/driver-optimization/core-drivers/README.md)
+  * [Core Drivers](drivers/driver-optimization/core-drivers/README.md)
   * [Backup](drivers/backup.md)
   * [DEMO Optimize Dell Windows 10 x64](drivers/optimize-dell-windows-10-x64/README.md)
 * [Advanced Driver Optimization](drivers/advanced-driver-optimization/README.md)
