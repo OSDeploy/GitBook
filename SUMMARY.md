@@ -45,9 +45,10 @@
   * [Amazon AWS](osdrivers/setup/amazon-aws.md)
   * [PS Module OSDrivers](psmodule/osdrivers/README.md)
     * [Get-OSDrivers](psmodule/osdrivers/get-osdrivers.md)
-    * Copy-OSDrivers
+    * [Copy-OSDrivers](psmodule/osdrivers/copy-osdrivers.md)
   * [Sample Repository](osdrivers/setup/sample-repository.md)
   * [MDT Task Sequence](osdrivers/setup/mdt-task-sequence.md)
+  * [Core Driver Package](osdrivers/setup/core-driver-package.md)
 * [Examples](osdrivers/examples/README.md)
 * [Reference Guide](osdrivers/reference-guide/README.md)
 
