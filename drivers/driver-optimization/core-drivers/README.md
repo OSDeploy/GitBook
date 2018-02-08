@@ -21,7 +21,6 @@ Core
         Realtek PCI Gigabit Ethernet
         Realtek PCIE Gigabit Ethernet
     Storage
-        Intel RST 12.x
         Intel RST 15.x
         Intel RSTe 4.x
     Wireless
