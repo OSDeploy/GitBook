@@ -43,7 +43,7 @@
 
 * [Setup](osdrivers/setup/README.md)
   * [Amazon AWS](osdrivers/setup/amazon-aws.md)
-  * [PS Module OSDrivers](osdrivers/setup/ps-osdrivers-module.md)
+  * [PS Module OSDrivers](psmodule/osdrivers/README.md)
   * [Sample Repository](osdrivers/setup/sample-repository.md)
   * [MDT Task Sequence](osdrivers/setup/mdt-task-sequence.md)
   * ConfigMgr Package
