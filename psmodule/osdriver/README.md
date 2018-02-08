@@ -37,5 +37,7 @@ PS C:\> ISE
 
 ## View the OSDriver Module
 
+Select the OSDriver Module to see the available functions.
 
+![](/assets/2-8-2018 12-28-58 PM.png)
 
