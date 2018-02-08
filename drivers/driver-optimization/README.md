@@ -1,18 +1,26 @@
 # Driver Optimization
 
-Driver Optimization is the solution that I need with the following Steps.
+**Driver Optimization is a Driver Management Method with the following considerations**
 
-* **Repository Organization** - I will organize my Driver Repository in a logical, structured format
+* **Organize Drivers** - I will organize my Driver Repository in a logical, structured format
 
-* **Driver Validation** - I will validate the Drivers that I have to ensure they are accurate and necessary
+* **Validate Drivers**  - I will validate the Drivers that I have to ensure they are accurate and necessary
 
-* **Update Common Drivers** - Driver Packs age and become stale.  These will be updated
+* **Build a Core Driver Set** - Core Drivers apply to multiple Driver Packs.  These include Bluetooth, Chipset, Network, Storage, Video, and Wireless Drivers.  What about Audio?  More on that later.
 
-* **Driver Consolidation** - I may find that I have the same Driver in multiple Driver Packages, and they may all be different versions.  These Duplicates that are taking space in Multiple Packages should be consolidated into a Core Driver Pack.
+* **\(Advanced\) Consolidate Manufacturer Drivers** - I may find that I have the same Driver in multiple Driver Packages, and they may all be different versions.  These Duplicates that are taking space in Multiple Packages should be consolidated into a Core Driver Pack.
 
-* **Driver Compression** - Deploying Compressed Drivers will reduce my Network overhead
+* **\(Advanced \) Driver Compression** - Deploying Compressed Drivers will reduce my Network overhead
 
 ---
+
+## Benefits
+
+
+
+
+
+
 
 
 
