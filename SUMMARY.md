@@ -18,16 +18,16 @@
   * [Organize Drivers](drivers/driver-optimization/organize-drivers.md)
   * [Validate Drivers](drivers/driver-optimization/validate-drivers.md)
   * [Core Drivers](drivers/driver-optimization/core-drivers/README.md)
-    * [Intel Bluetooth](drivers/download-hardware-drivers/intel-hardware-drivers/intel-bluetooth.md)
-    * [Intel Network](#)
+    * [Intel Bluetooth](drivers/driver-optimization/core-drivers/intel-bluetooth.md)
+    * [Intel Chipset](drivers/driver-optimization/core-drivers/intel-chipset.md)
+    * [Intel Network](drivers/driver-optimization/core-drivers/intel-network.md)
+    * [Intel Storage](drivers/driver-optimization/core-drivers/intel-storage.md)
+    * [Intel Wireless](drivers/driver-optimization/core-drivers/intel-wireless.md)
   * [Backup](drivers/backup.md)
   * [DEMO Optimize Dell Windows 10 x64](drivers/optimize-dell-windows-10-x64/README.md)
 * [Advanced Driver Optimization](drivers/advanced-driver-optimization/README.md)
 * [Download Hardware Drivers](drivers/download-hardware-drivers/README.md)
   * [Intel Hardware Drivers](drivers/download-hardware-drivers/intel-hardware-drivers/README.md)
-    * [Intel Chipset](drivers/download-hardware-drivers/intel-hardware-drivers/intel-chipset.md)
-    * * [Intel Wireless](drivers/download-hardware-drivers/intel-hardware-drivers/intel-wireless.md)
-    * [Intel Storage](drivers/download-hardware-drivers/intel-hardware-drivers/intel-storage.md)
   * [Intel Video Drivers](drivers/download-hardware-drivers/intel-video-drivers/README.md)
     * [Win10 x64](drivers/download-hardware-drivers/intel-video-drivers/win10-x64.md)
     * [Win10 x86](drivers/download-hardware-drivers/intel-video-drivers/win10-x86.md)
@@ -63,6 +63,4 @@
   * [ADK](resources/links/ADK.md)
   * [MDT](resources/links/MDT.md)
 * [People](resources/people/README.md)
-
-
 

@@ -30,7 +30,11 @@ These will have MSI Installers, but not Driver INF files.
 
 ## Bluetooth INF Files
 
-To get INF files for the Bluetooth Drivers, you need to install the Drivers on all the OS's that you need.  This can be installed on a VM.  Once installed the drivers will be located in either of the following directories
+To get INF files for the Bluetooth Drivers, you need to run the following command
 
-* C:\Program Files\Intel\Bluetooth\drivers
-* C:\Program Files \(x86\)\Intel\Bluetooth\drivers
+```
+msiexec /a "%~dp0Driver.msi" /qb TARGETDIR="%~dp0Extract"
+```
+
+
+
