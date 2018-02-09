@@ -1,6 +1,22 @@
 # Nvidia Video Drivers
 
-Before downloading the Nvidia Drivers, its best to get a grasp on the differences between Nvidia Drivers
+To cover all of Windows 10 x64, you would typically only need 3 Drivers.
+
+**Nvidia GeForce 390.65**
+
+[http://www.nvidia.com/download/driverResults.aspx/129085/en-us](http://www.nvidia.com/download/driverResults.aspx/129085/en-us)
+
+**Nvidia Quadro 377.83**
+
+[http://www.nvidia.com/download/driverResults.aspx/130177/en-us](http://www.nvidia.com/download/driverResults.aspx/130177/en-us)
+
+**Nvidia Quadro 390.65**
+
+[http://www.nvidia.com/download/driverResults.aspx/129090/en-us](http://www.nvidia.com/download/driverResults.aspx/129090/en-us)
+
+
+
+More information about Nvidia Video Drivers are below
 
 ---
 
