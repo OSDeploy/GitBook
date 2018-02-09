@@ -57,8 +57,9 @@
 * [Examples](osdrivers/examples/README.md)
   * [Operating System Conditions](osdrivers/examples/operating-system-conditions.md)
   * [Manufacturer Conditions](osdrivers/examples/manufacturer-conditions.md)
-  * [Model Conditions](osdrivers/examples/model-conditions.md)
 * [Reference Guide](osdrivers/reference-guide/README.md)
+  * [TXT File](osdrivers/reference-guide/txt-file/README.md)
+  * [Model Conditions](osdrivers/reference-guide/txt-file/model-conditions.md)
 
 ## Windows Upgrades
 
