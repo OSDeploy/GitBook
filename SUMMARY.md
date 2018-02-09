@@ -54,7 +54,6 @@
   * [Create Package Content](osdrivers/setup/core-driver-package.md)
   * [Create Packages](osdrivers/setup/create-packages.md)
   * [OSD Task Sequence](osdrivers/setup/osd-task-sequence.md)
-* [Examples](osdrivers/examples/README.md)
 * [Reference Guide](osdrivers/reference-guide/README.md)
   * [TXT File](osdrivers/reference-guide/txt-file/README.md)
     * [Operating System Conditions](osdrivers/examples/operating-system-conditions.md)

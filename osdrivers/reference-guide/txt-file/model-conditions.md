@@ -1,4 +1,4 @@
-## Operating System Conditions {#operating-system-conditions}
+## Model Conditions {#operating-system-conditions}
 
 ---
 
@@ -32,9 +32,6 @@ Windows 10 x64 = Yes
 Make = Dell
 Model = Precision 5720,Precision 5820,Precision 7820,Precision 7920
 ```
-
-  
-
 
 ---
 
