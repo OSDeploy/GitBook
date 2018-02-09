@@ -59,6 +59,7 @@
     * [Operating System Conditions](osdrivers/examples/operating-system-conditions.md)
     * [Manufacturer Conditions](osdrivers/examples/manufacturer-conditions.md)
     * [Model Conditions](osdrivers/reference-guide/txt-file/model-conditions.md)
+    * [PNPID Conditions](osdrivers/examples/pnpid-conditions.md)
 
 ## Windows Upgrades
 
