@@ -1,74 +1,94 @@
 # Organize Drivers
 
-Organizing your Drivers in a proper logical structure in your Driver Repository will promote 
+You need to develop a logical organization for your Drivers.  The following is my Directory Structure for my Driver Repository
 
-Before working with Drivers, you will need to make a Driver Repository. This will be where you Download, Extract, Study, and Test the Drivers before you import them into SCCM or MDT.
+* Drivers should be placed in a proper Category
+* Manufacturers should be identified
+* Logical Drivers should be segmented.  For example, I know my Video Drivers will take the most space.  I should have them in a standalone Category not nested under anything else.
+* For large Drivers, such as Video, segmenting them further with Architecture in the Directory Name is ideal
 
-When I work with Drivers, I ensure that everything Driver related has a place.  I work with a standardized structure.
 
-* Drivers
 
-  * Apps
-  * Download
-
-    * Core
-    * Models \(Driver Automation Tool Repository\)
-      * Dell \(Created by SCConfigMgr Driver Automation Tool\)
-      * Dell-Family \(Dell Family Pack Downloader Repository\)
-      * Microsoft \(Created by SCConfigMgr Driver Automation Tool\)
-    * Video
-
-  * Scripts
-
-  * Test
-
-    * Alpha
-    * Beta
-    * Gamma
-    * Release
-
----
-
-## Drivers\Apps
-
-This will contain tools that I download related to Drivers.  In here I have the following:
-
-* **Dell Family Pack Downloader**
-  * [https://www.dell.com/community/ImageAssist/Family-Pack-Downloader-for-Dell-Driver-Packs/m-p/5145080](https://www.dell.com/community/ImageAssist/Family-Pack-Downloader-for-Dell-Driver-Packs/m-p/5145080)
-* **SCConfigMgr Driver Automation Tool**
-  * [http://www.scconfigmgr.com/driver-automation-tool/](http://www.scconfigmgr.com/driver-automation-tool/)
-
-I will detail what each of these tools are in further reading
-
----
-
-## Drivers\Download
-
-This is where I will download all of my Drivers.  When working with Model Packs, all the original CAB or ZIP files will remain here, unmodified.  This way if I need to extract a new copy, everything is in one place.
+```
+Core
+    Bluetooth
+        Intel
+    Chipset
+        Intel
+    Dock
+        Intel
+    Network
+        Intel
+        Realtek
+    Storage
+        Intel
+    Wireless
+        Intel
+Core USB Network
+    Asix
+    Realtek
+    SMSC
+Dell Win7 x64
+Dell Win7 x86
+Dell Win10 x64
+Video
+    AMD x64
+    AMD x86
+    Intel x64
+    Intel x86
+    Nvidia x64
+    Nvidia x86
+```
 
 ---
 
-## Drivers\Scripts
+## Subsets
 
-When working with Drivers, I often write PowerShell scripts to perform a cleanup.  Keeping everything in this directory allows me to always be able to locate one of my working scripts as needed when working with Drivers.
+There is a large benefit to using this method.  If I wanted to copy my Repository to somewhere else, but only wanted Windows 10 x64, then a simple Robocopy command would be able to handle this
+
+```
+robocopy %source% %destination% *.* /mir /ndl /xd Win7 x86
+```
+
+The important thing about my robocopy switches is that it will exclude any directory with Win7 or x86 in the name.  The result wil be a **subset**.
+
+```
+Core
+    Bluetooth
+        Intel
+    Chipset
+        Intel
+    Dock
+        Intel
+    Network
+        Intel
+        Realtek
+    Storage
+        Intel
+    Wireless
+        Intel
+Core USB Network
+    Asix
+    Realtek
+    SMSC
+Dell Win10 x64
+Video
+    AMD x64
+    Intel x64
+    Nvidia x64
+```
+
+This is absolutely critical.  You should NOT have more than one Driver Repository as they become difficult to manage.  If you work with MDT and OSD, you should know that it becomes impossible to keep them at parity.  You should leverage a MASTER Driver Repository and work with Subsets.
 
 ---
 
-## Drivers\Test\Alpha
+## File Naming Convention
 
-When I first start to work with Drivers, 100% of what I am working with goes into Alpha.  To build this, I start with a fresh copy from my Drivers\Extract content.  I will typically remove Core Drivers \(I'll touch on that later\) from here.  This is also known as my Phase 1.
 
-## Drivers\Test\Beta
 
-I will replicate the Drivers from Alpha and perform a Phase 2 removal of Drivers.  Drivers removed in Bravo are typically Manufacturer Core Drivers.
 
-## Drivers\Test\Gamma
 
-Phase 3 is a more refined cleaning and updating of Driver content.  This may not be necessary for most environments.
 
----
 
-## Drivers\Test\Release
 
-When everything from my testing checks out and is ready to go, the content from here is then released to SCCM or OSD.
 
