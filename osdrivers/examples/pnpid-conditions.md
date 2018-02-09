@@ -55,25 +55,5 @@ PCI\VEN_8086&DEV_3E93 = Intel UHD Graphics 610
 
 ---
 
-**Apply CAB to Windows 10 x64 Operating Systems**
-
-```
-[OSDrivers]
-Windows 10 x64 = Yes
-
-```
-
----
-
-**Apply CAB to Windows 7 x86 and Windows 10 x86 Operating Systems**
-
-```
-[OSDrivers]
-Windows 7 x86 = Yes
-Windows 10 x86 = Yes
-
-```
-
-  
 
 
