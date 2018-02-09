@@ -21,7 +21,7 @@ PS C:\> Install-Module -Name OSDrivers
 If you have an older version, to prevent having duplicates show up in PowerShell ISE, remove any old versions first, then simply run an install to get the latest version
 
 ```
-PS C:\> Remove-Module -Name OSDrivers
+PS C:\> Uninstall-Module -Name OSDrivers
 PS C:\> Install-Module -Name OSDrivers
 ```
 
