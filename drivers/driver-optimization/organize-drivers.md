@@ -7,8 +7,6 @@ You need to develop a logical organization for your Drivers.  The following is m
 * Logical Drivers should be segmented.  For example, I know my Video Drivers will take the most space.  I should have them in a standalone Category not nested under anything else.
 * For large Drivers, such as Video, segmenting them further with Architecture in the Directory Name is ideal
 
-
-
 ```
 Core
     Bluetooth
@@ -83,12 +81,6 @@ This is absolutely critical.  You should NOT have more than one Driver Repositor
 ---
 
 ## File Naming Convention
-
-
-
-
-
-
 
 
 
