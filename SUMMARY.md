@@ -57,9 +57,9 @@
 * [Examples](osdrivers/examples/README.md)
 * [Reference Guide](osdrivers/reference-guide/README.md)
   * [TXT File](osdrivers/reference-guide/txt-file/README.md)
-    * [Model Conditions](osdrivers/reference-guide/txt-file/model-conditions.md)
-    * [Manufacturer Conditions](osdrivers/examples/manufacturer-conditions.md)
     * [Operating System Conditions](osdrivers/examples/operating-system-conditions.md)
+    * [Manufacturer Conditions](osdrivers/examples/manufacturer-conditions.md)
+    * [Model Conditions](osdrivers/reference-guide/txt-file/model-conditions.md)
 
 ## Windows Upgrades
 
@@ -78,6 +78,4 @@
   * [ADK](resources/links/ADK.md)
   * [MDT](resources/links/MDT.md)
 * [People](resources/people/README.md)
-
-
 
