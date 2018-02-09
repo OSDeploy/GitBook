@@ -56,5 +56,16 @@ PCI\VEN_10DE&DEV_0DC0 = NVIDIA GeForce GT 440
 PCI\VEN_10DE&DEV_0DC0&SUBSYS_082D10DE = NVIDIA GeForce GT 440
 ```
 
+---
 
+## OSDrivers In Action
+
+* OSDrivers.vbs finds a Text file \(line4\)
+  * Looks for \[OSDrivers\] entry
+* Finds a CAB that matches the same file name
+* Validates that we are Windows 10 x64
+* Checks for PNPID in Win32\_PnPEntity
+* Match is found, Drivers are extracted
+
+![](/assets/2018-02-09_9-12-40.png)
 

@@ -8,7 +8,7 @@ Advanced Driver Optimization takes things up a level from standard Driver Optimi
 
 **Using both of the methods above has achieved full Windows 10 x64 support on all Dell systems, using less than 3 GB of Total Drivers.**
 
-I will work on detailing this process soon . . .
+**I will work on detailing this process soon . . .**
 
 ---
 
