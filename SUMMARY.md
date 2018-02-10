@@ -60,6 +60,7 @@
     * [Manufacturer Conditions](osdrivers/examples/manufacturer-conditions.md)
     * [Model Conditions](osdrivers/reference-guide/txt-file/model-conditions.md)
     * [PNPID Conditions](osdrivers/examples/pnpid-conditions.md)
+  * [Create a Custom Driver Cab](osdrivers/reference-guide/txt-file/create-a-custom-driver-cab.md)
 
 ## Windows Upgrades
 
