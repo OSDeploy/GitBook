@@ -78,13 +78,12 @@ With this installation in particular, I had to complete the following
 ```
 <behavior name="extractdrivers">
   <vendoroption>
-	<container>
-	  <containervalue switch="/" requiresvalue="false" valuedelimiter=" " enclose="&quot;">v</containervalue>
-	  <optionvalue switch="" requiresvalue="true" valuedelimiter="=" enclose="\&quot;">ExtractDrivers</optionvalue>
-	</container>
+    <container>
+      <containervalue switch="/" requiresvalue="false" valuedelimiter=" " enclose="&quot;">v</containervalue>
+      <optionvalue switch="" requiresvalue="true" valuedelimiter="=" enclose="\&quot;">ExtractDrivers</optionvalue>
+    </container>
   </vendoroption>
 </behavior>
-
 ```
 
 * Attempt extraction using a standard Intel command
@@ -105,11 +104,77 @@ Using the OSDriver PowerShell Module, I can run Get-OSDriverINFo against the Ext
 
 ---
 
-Excel
+## Excel
 
 In Excel, select the first two columns and under the Data tab, press Remove Duplicates.  Now Copy the 19 entries in column A and B
 
 ![](/assets/2018-02-09_23-28-34.png)
+
+---
+
+## Notepad++
+
+In Notepad++, Paste these entries in a new \[PNPIDS\] section in **Dell Intel Management Engine Components 11.7.0.1054 A01 19Y3F.txt**
+
+Select the TAB between the first PNPID and the Hardware Description, Replace this with a &lt;space&gt;=&lt;space&gt; and Replace All.
+
+![](/assets/2018-02-09_23-31-47.png)
+
+The new TXT file contents should looks like this
+
+```
+[OSDrivers]
+URL = http://www.dell.com/support/home/us/en/19/drivers/driversdetails?c=us&l=en&s=gen&driverid=19Y3F
+Windows 7 x86 = Yes
+Windows 7 x64 = Yes
+Windows 8.1 x64 = Yes
+Windows 10 x64 = Yes
+Windows Server 2008 R2 = Yes
+Windows Server 2012 R2 = Yes
+Windows Server 2016 = Yes
+Make = Dell
+
+[PNPIDS]
+PCI\VEN_8086&DEV_8C3A = Intel(R) Management Engine Interface 
+PCI\VEN_8086&DEV_8CBA = Intel(R) Management Engine Interface 
+PCI\VEN_8086&DEV_8D3A = Intel(R) Management Engine Interface 
+PCI\VEN_8086&DEV_9C3A = Intel(R) Management Engine Interface 
+PCI\VEN_8086&DEV_9CBA = Intel(R) Management Engine Interface 
+PCI\VEN_8086&DEV_9D3A = Intel(R) Management Engine Interface 
+PCI\VEN_8086&DEV_A13A = Intel(R) Management Engine Interface 
+PCI\VEN_8086&DEV_A1BA = Intel(R) Management Engine Interface 
+PCI\VEN_8086&DEV_A23A = Intel(R) Management Engine Interface 
+PCI\VEN_8086&DEV_A2BA = Intel(R) Management Engine Interface 
+PCI\VEN_8086&DEV_8C3D&CC_0700 = Intel(R) Active Management Technology - SOL
+PCI\VEN_8086&DEV_8D3D&CC_0700 = Intel(R) Active Management Technology - SOL
+PCI\VEN_8086&DEV_9C3D&CC_0700 = Intel(R) Active Management Technology - SOL
+PCI\VEN_8086&DEV_9CBD&CC_0700 = Intel(R) Active Management Technology - SOL
+PCI\VEN_8086&DEV_9D3D&CC_0700 = Intel(R) Active Management Technology - SOL
+PCI\VEN_8086&DEV_A13D&CC_0700 = Intel(R) Active Management Technology - SOL
+PCI\VEN_8086&DEV_A1BD&CC_0700 = Intel(R) Active Management Technology - SOL
+PCI\VEN_8086&DEV_A23D&CC_0700 = Intel(R) Active Management Technology - SOL
+PCI\VEN_8086&DEV_A2BD&CC_0700 = Intel(R) Active Management Technology - SOL
+```
+
+---
+
+## Compress the Drivers to a Cab
+
+Use the OSDriver PowerShell Module and run New-OSDriverCab with LZXHighCompression.  Save the complete Cab to
+
+```
+Custom\OSD\X-Dell\Chipset\Dell Intel Management Engine Components 11.7.0.1054 A01 19Y3F.cab
+```
+
+Congrats, your work is done
+
+![](/assets/2018-02-09_23-37-24.png)
+
+
+
+
+
+
 
 
 
