@@ -73,8 +73,44 @@ With this installation in particular, I had to complete the following
 
 * Expand with 7zip: Dell Intel Management Engine Components 11.7.0.1054 A01 19Y3F.exe
 * Review mup.xml to locate the "extractdrivers" command
-* Open a Command Prompt to the same directory as the mup.xml
-* 
+* Find that the commands are worthless
+
+```
+<behavior name="extractdrivers">
+  <vendoroption>
+	<container>
+	  <containervalue switch="/" requiresvalue="false" valuedelimiter=" " enclose="&quot;">v</containervalue>
+	  <optionvalue switch="" requiresvalue="true" valuedelimiter="=" enclose="\&quot;">ExtractDrivers</optionvalue>
+	</container>
+  </vendoroption>
+</behavior>
+
+```
+
+* Attempt extraction using a standard Intel command
+
+```
+SetupME.exe -A -P "D:\Temp"
+```
+
+* Success
+
+---
+
+## Generate PNPIDS
+
+Using the OSDriver PowerShell Module, I can run Get-OSDriverINFo against the Extract directory and get a nice list of what is supported.  Simply Select All, Copy, and Paste into Excel
+
+![](/assets/2018-02-09_23-25-41.png)
+
+---
+
+Excel
+
+In Excel, select the first two columns and under the Data tab, press Remove Duplicates.  Now Copy the 19 entries in column A and B
+
+![](/assets/2018-02-09_23-28-34.png)
+
 
 
 
