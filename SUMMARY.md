@@ -10,6 +10,7 @@
   * [Dell Family Driver Packs](drivers/download-computer-drivers/dell-family.md)
 * [Download Automation](drivers/download-automation/README.md)
   * [SCConfigMgr Driver Automation Tool](drivers/download-automation/scconfigmgr.md)
+    * [HP ProBook Issues](drivers/download-automation/scconfigmgr/hp-probook-issues.md)
   * [Dell Family Pack Downloader](drivers/download-automation/dell-family-pack-downloader.md)
 * [Driver Management](drivers/driver-management/README.md)
   * [My Driver Management Challenges](drivers/driver-management/my-driver-management-challenges.md)
