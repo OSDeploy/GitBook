@@ -24,5 +24,15 @@ So here are the results.  When importing into MDT, the Duplicates should go away
 | Unique | 11 | 7.18 GB | 14.7 GB |
 | Duplicates | 17 | 13.36 GB | 28.8 GB |
 
+---
+
+## Update
+
+I have submitted the following Question to Maurice and will update this page when I get an answer.
+
+![](/assets/2018-02-10_23-13-14.png)
+
+[https://gallery.technet.microsoft.com/scriptcenter/Driver-Tool-Automate-9ddcc010/view/Discussions](https://gallery.technet.microsoft.com/scriptcenter/Driver-Tool-Automate-9ddcc010/view/Discussions)
+
 
 
