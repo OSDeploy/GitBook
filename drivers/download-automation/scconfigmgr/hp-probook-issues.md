@@ -10,7 +10,7 @@ I made an attempt to Download HP ProBook Drivers using the Driver Automation Too
 
 The main issue that I have is the duplicates.  A quick look shows that I have actually only downloaded only 11 different Driver Packs.
 
-![](/assets/2018-02-10_22-37-04.png)
+![](/assets/2018-02-10_22-37-04b.png)
 
 ---
 
