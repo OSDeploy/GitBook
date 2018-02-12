@@ -1,8 +1,8 @@
 # OSDrivers Setup
 
-Setup is simple.  All you need is the OSDrivers.vbs from me.  You can create your own CABs and Answer Files without much effort.
+Setup is simple.  All you need is the OSDrivers.vbs script and you can get started.
 
-You can download from my Repository [https://github.com/OSDeploy/OSDrivers](https://github.com/OSDeploy/OSDrivers)
+You can download from GitHub at [https://github.com/OSDeploy/OSDrivers](https://github.com/OSDeploy/OSDrivers)
 
 [![](/assets/GitHub.png)](https://github.com/OSDeploy/OSDrivers/blob/master/OSDrivers.vbs)
 
