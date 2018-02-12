@@ -52,7 +52,7 @@
   * [PS Module OSDrivers](psmodule/osdrivers/README.md)
     * [Get-OSDrivers](psmodule/osdrivers/get-osdrivers.md)
     * [Copy-OSDrivers](psmodule/osdrivers/copy-osdrivers.md)
-  * [Sample Repository](osdrivers/sample-repository/sample-repository.md)
+  * [Sample Content](osdrivers/sample-repository/sample-repository.md)
 * [Deployment Integration](osdrivers/deployment-integration/README.md)
   * [Microsoft Deployment Toolkit](osdrivers/deployment-integration/mdt.md)
   * [ConfigMgr](osdrivers/deployment-integration/configmgr/README.md)
