@@ -45,3 +45,24 @@ And that's it.  Simple?
 
 ![](/assets/2018-02-12_2-32-50.png)
 
+---
+
+## Extra Credit: Driver Optimization
+
+If you have a Core Driver Pack and already have some Drivers then simply Extract the CAB and delete the files that you already have.  In my case I deleted the following:
+
+* Realtek Audio \(M3Y66\_A00-00\)
+* Intel Bluetooth \(D4WRW\_A00-00\)
+* Intel Ethernet \(D8VDT\_A00-00\)
+* Intel Wireless \(Network\1W52Y\_A00-00\)
+* Intel Graphics \(Video\86N56\_A00-00\)
+
+Once that is complete, I run New-OSDriverCab with High Compression and here are the results.
+
+|  | Size | Expanded |
+| :--- | :--- | :--- |
+| Original CAB | 553 MB | 1.47 GB |
+| Optimized CAB | 140 MB | 300 MB |
+
+
+
