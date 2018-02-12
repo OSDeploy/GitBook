@@ -1,4 +1,4 @@
-# Sample Repository \(Dell Windows 10 x64\)
+# Sample Content
 
 If you have connected an Amazon AWS Account and installed your Keys through PowerShell, you can easily download a Sample Repository.
 
