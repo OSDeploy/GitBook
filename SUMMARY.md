@@ -51,13 +51,12 @@
     * [Copy-OSDrivers](psmodule/osdrivers/copy-osdrivers.md)
   * [Sample Repository](osdrivers/setup/sample-repository.md)
   * [MDT Task Sequence](osdrivers/setup/mdt-task-sequence.md)
-* [Sample Repository](osdrivers/sample-repository/README.md)
 * [Deployment Integration](osdrivers/deployment-integration/README.md)
-* [MDT Integration](osdrivers/setup/mdt-integration.md)
-* [ConfigMgr OSD Integration](osdrivers/setup/configmgr-osd-integration/README.md)
-  * [Create Package Content](osdrivers/setup/core-driver-package.md)
-  * [Create Packages](osdrivers/setup/create-packages.md)
-  * [OSD Task Sequence](osdrivers/setup/osd-task-sequence.md)
+  * [MDT Integration](osdrivers/setup/mdt-integration.md)
+  * [ConfigMgr OSD Integration](osdrivers/setup/configmgr-osd-integration/README.md)
+    * [Create Package Content](osdrivers/setup/core-driver-package.md)
+    * [Create Packages](osdrivers/setup/create-packages.md)
+    * [OSD Task Sequence](osdrivers/setup/osd-task-sequence.md)
 * [Reference Guide](osdrivers/reference-guide/README.md)
   * [TXT File](osdrivers/reference-guide/txt-file/README.md)
     * [Operating System Conditions](osdrivers/examples/operating-system-conditions.md)
@@ -83,4 +82,6 @@
   * [ADK](resources/links/ADK.md)
   * [MDT](resources/links/MDT.md)
 * [People](resources/people/README.md)
+
+
 
