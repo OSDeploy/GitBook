@@ -56,7 +56,7 @@
 * [Deployment Integration](osdrivers/deployment-integration/README.md)
   * [Microsoft Deployment Toolkit](osdrivers/deployment-integration/mdt.md)
   * [ConfigMgr](osdrivers/deployment-integration/configmgr/README.md)
-    * [Create Package Content](osdrivers/setup/core-driver-package.md)
+    * [Create Package Content](osdrivers/deployment-integration/configmgr/create-package-content.md)
     * [Create Packages](osdrivers/deployment-integration/configmgr/create-packages.md)
     * [OSD Task Sequence](osdrivers/deployment-integration/configmgr/task-sequence.md)
 * [Reference Guide](osdrivers/reference-guide/README.md)
