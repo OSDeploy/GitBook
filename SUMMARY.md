@@ -45,6 +45,7 @@
 * [How It Works](osdrivers/how-it-works.md)
 * [Download OSDrivers](osdrivers/download-osdrivers.md)
 * [How To](osdrivers/how-to/README.md)
+* [Create a Custom Driver Cab](osdrivers/reference-guide/txt-file/create-a-custom-driver-cab.md)
 * [Sample Repository](osdrivers/sample-repository/README.md)
   * [Amazon AWS](osdrivers/sample-repository/amazon-aws.md)
   * [PS Module OSDrivers](psmodule/osdrivers/README.md)
@@ -63,7 +64,6 @@
     * [Manufacturer Conditions](osdrivers/examples/manufacturer-conditions.md)
     * [Model Conditions](osdrivers/reference-guide/txt-file/model-conditions.md)
     * [PNPID Conditions](osdrivers/examples/pnpid-conditions.md)
-  * [Create a Custom Driver Cab](osdrivers/reference-guide/txt-file/create-a-custom-driver-cab.md)
 
 ## Windows Upgrades
 
