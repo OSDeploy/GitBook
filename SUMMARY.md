@@ -52,7 +52,7 @@
   * [Sample Repository](osdrivers/setup/sample-repository.md)
   * [MDT Task Sequence](osdrivers/setup/mdt-task-sequence.md)
 * [Deployment Integration](osdrivers/deployment-integration/README.md)
-  * [MDT Integration](osdrivers/setup/mdt-integration.md)
+  * [MDT Integration](osdrivers/deployment-integration/mdt.md)
   * [ConfigMgr OSD Integration](osdrivers/setup/configmgr-osd-integration/README.md)
     * [Create Package Content](osdrivers/setup/core-driver-package.md)
     * [Create Packages](osdrivers/setup/create-packages.md)
@@ -82,6 +82,4 @@
   * [ADK](resources/links/ADK.md)
   * [MDT](resources/links/MDT.md)
 * [People](resources/people/README.md)
-
-
 
