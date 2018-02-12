@@ -1,4 +1,4 @@
-# Create a Custom Driver Cab
+# Create a Custom Driver CAB
 
 So I see that Dell posted an update to Intel Management Engine Components Installer which is Urgent.  I have highlighted the important fields and will go ahead and download the driver.
 
@@ -169,18 +169,4 @@ Custom\OSD\X-Dell\Chipset\Dell Intel Management Engine Components 11.7.0.1054 A0
 Congrats, your work is done
 
 ![](/assets/2018-02-09_23-37-24.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
