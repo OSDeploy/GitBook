@@ -1,4 +1,10 @@
-# How It Works - OSDrivers.vbs
+# How It Works
+
+OSDrivers is a method of applying Drivers to a Computer during OS Deployment \(MDT or ConfigMgr\), or Stand Alone.  A TXT answer file provides all the information necessary to determine if a Driver should be applied to a system.  The main benefit of using this method is that it does not require a Web Service or any other external dependencies.  A secondary benefit is that compressed CAB files can be used to reduce the size of the Driver Repository.
+
+---
+
+## OSDrivers.vbs
 
 The first component of OSDrivers is the VBS Script.  It executes in both WinPE or a running OS and processes files in any child directories.  In the screenshot below, it will process files in the OSD directory, which contains Video CAB files.
 
