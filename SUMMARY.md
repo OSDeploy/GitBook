@@ -44,8 +44,8 @@
 
 * [How It Works](osdrivers/how-it-works.md)
 * [Download OSDrivers](osdrivers/download-osdrivers.md)
-* [Setup](osdrivers/setup/README.md)
-  * [Amazon AWS](osdrivers/setup/amazon-aws.md)
+* [Sample Repository](osdrivers/sample-repository/README.md)
+  * [Amazon AWS](osdrivers/sample-repository/amazon-aws.md)
   * [PS Module OSDrivers](psmodule/osdrivers/README.md)
     * [Get-OSDrivers](psmodule/osdrivers/get-osdrivers.md)
     * [Copy-OSDrivers](psmodule/osdrivers/copy-osdrivers.md)
