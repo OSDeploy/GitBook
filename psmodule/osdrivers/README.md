@@ -4,6 +4,8 @@ OSDrivers is a PowerShell Module that I have written to help in managing your Dr
 
 [https://www.powershellgallery.com/packages/OSDrivers/](https://www.powershellgallery.com/packages/OSDrivers/)
 
+**OSDrivers requires AWS PowerShell Tools to be installed to run Get-OSDrivers.  Copy-OSDrivers does not have any dependencies.**
+
 ---
 
 ## Install PowerShell Module OSDrivers

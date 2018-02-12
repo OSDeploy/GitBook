@@ -1,6 +1,6 @@
 # Sample Content
 
-If you have connected an Amazon AWS Account and installed your Keys through PowerShell, you can easily download a Sample Repository.
+Once you have connected your Amazon AWS Account and installed your Keys through PowerShell, you can easily download a Sample Repository.
 
 ---
 
