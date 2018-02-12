@@ -1,8 +1,0 @@
-Operating System Conditions
-
-```
-
-```
-
-
-

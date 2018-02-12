@@ -61,10 +61,10 @@
     * [OSD Task Sequence](osdrivers/deployment-integration/configmgr/task-sequence.md)
 * [Reference Guide](osdrivers/reference-guide/README.md)
   * [TXT File](osdrivers/reference-guide/txt-file/README.md)
-    * [Operating System Conditions](osdrivers/examples/operating-system-conditions.md)
-    * [Manufacturer Conditions](osdrivers/examples/manufacturer-conditions.md)
+    * [Operating System Conditions](osdrivers/reference-guide/txt-file/operating-system-conditions.md)
+    * [Manufacturer Conditions](osdrivers/reference-guide/txt-file/manufacturer-conditions.md)
     * [Model Conditions](osdrivers/reference-guide/txt-file/model-conditions.md)
-    * [PNPID Conditions](osdrivers/examples/pnpid-conditions.md)
+    * [PNPID Conditions](osdrivers/reference-guide/txt-file/pnpid-conditions.md)
 
 ## Windows Upgrades
 
