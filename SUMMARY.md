@@ -50,6 +50,7 @@
     * [Copy-OSDrivers](psmodule/osdrivers/copy-osdrivers.md)
   * [Sample Repository](osdrivers/setup/sample-repository.md)
   * [MDT Task Sequence](osdrivers/setup/mdt-task-sequence.md)
+* [Sample Repository](osdrivers/sample-repository/README.md)
 * [Deployment Integration](osdrivers/deployment-integration/README.md)
 * [MDT Integration](osdrivers/setup/mdt-integration.md)
 * [ConfigMgr OSD Integration](osdrivers/setup/configmgr-osd-integration/README.md)
