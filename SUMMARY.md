@@ -53,7 +53,7 @@
   * [MDT Task Sequence](osdrivers/setup/mdt-task-sequence.md)
 * [Deployment Integration](osdrivers/deployment-integration/README.md)
   * [Microsoft Deployment Toolkit](osdrivers/deployment-integration/mdt.md)
-  * [ConfigMgr OSD Integration](osdrivers/setup/configmgr-osd-integration/README.md)
+  * [ConfigMgr](osdrivers/setup/configmgr-osd-integration/README.md)
     * [Create Package Content](osdrivers/setup/core-driver-package.md)
     * [Create Packages](osdrivers/setup/create-packages.md)
     * [OSD Task Sequence](osdrivers/setup/osd-task-sequence.md)
