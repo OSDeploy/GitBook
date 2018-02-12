@@ -1,4 +1,4 @@
-# MDT Integration {#mdt-task-sequence}
+# Microsoft Deployment Toolkit {#mdt-task-sequence}
 
 OSDrivers can be easily integrated into MDT.  Simply copy your Repository to your Deployment Share.
 
