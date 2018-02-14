@@ -9,6 +9,8 @@
   * [OSDrivers - How To - Create a Dell Latitude 7490 CAB](https://www.osdeploy.com/osdrivers/how-to/create-a-dell-latitude-7490-cab.html)
 * **February 10, 2018**
   * [OSDrivers - How To - Create a Custom Driver CAB](#)
+* **February 9, 2018**
+  * Initial Release \(Experts Live\)
 
 ---
 
