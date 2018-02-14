@@ -1,6 +1,7 @@
 # Summary
 
 * [Home](README.md)
+* [Updates](updates.md)
 
 ## Drivers
 
@@ -83,6 +84,4 @@
   * [ADK](resources/links/ADK.md)
   * [MDT](resources/links/MDT.md)
 * [People](resources/people/README.md)
-
-
 

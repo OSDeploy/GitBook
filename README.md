@@ -4,8 +4,6 @@ I started OSDeploy.com as a way for me to document several of the things that I 
 
 Feel free to download a PDF of OSDeploy at [https://www.gitbook.com/download/pdf/book/segura/osdeploy](https://www.gitbook.com/download/pdf/book/segura/osdeploy)
 
-
-
 **David Segura**
 
 [https://twitter.com/SeguraOSD](https://twitter.com/SeguraOSD "Twitter")
@@ -29,22 +27,6 @@ Thanks [Experts Live US](http://www.expertslive.us/) for giving me the opportuni
 [![](/assets/Email_badge_speaking.jpg)](http://www.expertslive.us/)
 
 ---
-
-## Updates
-
-Feb 11 - [Driver Automation Tool - HP ProBook Issues](https://www.osdeploy.com/drivers/download-automation/scconfigmgr/hp-probook-issues.html)
-
-Feb 11 - [OSDrivers - How It Works](https://www.osdeploy.com/osdrivers/how-it-works.html)
-
-Feb 11 - [OSDrivers - How To - Create a Dell Latitude 7490 CAB](https://www.osdeploy.com/osdrivers/how-to/create-a-dell-latitude-7490-cab.html)
-
-Feb 10 - [OSDrivers - How To - Create a Custom Driver CAB](https://www.osdeploy.com/osdrivers/how-to/create-a-custom-driver-cab.html)
-
----
-
-
-
-
 
 
 
