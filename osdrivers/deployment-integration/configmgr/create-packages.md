@@ -1,3 +1,7 @@
+# Updated Information will be published on 2/15
+
+# 
+
 # Create Packages
 
 Create Packages from your Package Content.  Create a Program for the Package.  You must specify the Operating System and Architecture in the command line for the Program.  This ensures that you don't have any issues with x64 File System Redirection.
