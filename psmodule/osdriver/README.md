@@ -11,7 +11,7 @@ OSDriver is a PowerShell Module that I have written to help in managing your Dri
 Open PowerShell as Administrator and make sure that your Script Execution Policy allows you to install the Module first
 
 ```
-PS C:\> Install-Module -Name OSDriver
+PS C:\> Install-Module -Name OSDriver -Scope CurrentUser
 ```
 
 ---
@@ -22,7 +22,7 @@ If you have an older version, to prevent having duplicates show up in PowerShell
 
 ```
 PS C:\> Uninstall-Module -Name OSDriver
-PS C:\> Install-Module -Name OSDriver
+PS C:\> Install-Module -Name OSDriver -Scope CurrentUser
 ```
 
 ---
