@@ -27,11 +27,7 @@ After selecting the files and pressing OK, you will have a listing of the Direct
 
 ![](/assets/2018-02-14_2-24-38.png)
 
-If you are using Dell Family Drivers \(Windows 10 x64\), then your 73.37 GB Driver Repository should contain 27.99 GB of Intel Video Drivers \(38%\).  If you are using Dell Model Drivers \(Windows 10 x64\), then 65.58 GB of your 157.13 GB are Intel Video Drivers \(41.7%\)
-
-
-
-
+**If you are using Dell Family Drivers \(Windows 10 x64\), then your 73.37 GB Driver Repository should contain 27.99 GB of Intel Video Drivers \(38%\).  If you are using Dell Model Drivers \(Windows 10 x64\), then 65.58 GB of your 157.13 GB are Intel Video Drivers \(41.7%\)**
 
 ---
 
@@ -40,27 +36,27 @@ If you are using Dell Family Drivers \(Windows 10 x64\), then your 73.37 GB Driv
 ```
 <#
 .SYNOPSIS
-	Finds specified file types, estimates size, option to remove Parent directory
+    Finds specified file types, estimates size, option to remove Parent directory
 .DESCRIPTION
-	Finds specified file types, estimates size, option to remove Parent directory
+    Finds specified file types, estimates size, option to remove Parent directory
 .PARAMETER Path
-	Directory to search for INF files.  This should be your Driver Repository
+    Directory to search for INF files.  This should be your Driver Repository
 .PARAMETER DriverType
-	Select Drivers by Type
+    Select Drivers by Type
 .PARAMETER RemoveDirectories
-	Removes the directory containing the file
+    Removes the directory containing the file
 .EXAMPLE
-	Find-OSDriverTypes -DriverType "Intel Wireless" -Path C:\OSDrivers\Intel
-	Finds directories containing Intel Wireless Drivers
+    Find-OSDriverTypes -DriverType "Intel Wireless" -Path C:\OSDrivers\Intel
+    Finds directories containing Intel Wireless Drivers
 .EXAMPLE
-	Find-OSDriverTypes -DriverType "Intel Wireless" -Path C:\OSDrivers\Intel -RemoveDirectories
-	Finds directories containing Intel Wireless Drivers.  Removes Parent directory of selected files
+    Find-OSDriverTypes -DriverType "Intel Wireless" -Path C:\OSDrivers\Intel -RemoveDirectories
+    Finds directories containing Intel Wireless Drivers.  Removes Parent directory of selected files
 .NOTES
-        NAME:	Find-OSDriverTypes.ps1
-		AUTHOR:	David Segura, david@segura.org
-		BLOG:	http://www.osdeploy.com
-        CREATED:	02/14/2018
-        VERSION:	1.0.7.3
+        NAME:    Find-OSDriverTypes.ps1
+        AUTHOR:    David Segura, david@segura.org
+        BLOG:    http://www.osdeploy.com
+        CREATED:    02/14/2018
+        VERSION:    1.0.7.3
 #>
 ```
 
