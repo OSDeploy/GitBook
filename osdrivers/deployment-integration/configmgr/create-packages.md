@@ -1,30 +1,56 @@
-# Updated Information will be published on 2/15
-
-# 
-
 # Create Packages
 
-Create Packages from your Package Content.  Create a Program for the Package.  You must specify the Operating System and Architecture in the command line for the Program.  This ensures that you don't have any issues with x64 File System Redirection.
+Move your Package Content into your ConfigMgr Packages Share like the configuration below
 
-```
-cscript OSDrivers.vbs /OS:"Windows 10" /Archx64
-```
-
-When complete, your Package should show a Program with the Command Line.
-
-![](/assets/OSD Package Properties.png)
+![](/assets/2-14-2018 2-22-32 PM.png)
 
 ---
 
-## Windows 7 to Windows 10 Upgrades
+## Program Type
 
-Specifying the Operating System in the OSDrivers Command Line of the Package allows us to send this package to Windows 7 systems.  Why would we want to do this?  Because this allows the Drivers to function in an OS Upgrade from Windows 7 to Windows 10 and place the Windows 10 compatible Drivers on your system.
+Create a Standard Program
+
+![](/assets/2-14-2018 2-22-49 PM.png)
 
 ---
 
-## Create Remaining Packages
+## Standard Program
 
-Create the remaining OSDrivers Packages and you are in business.
+Standard Programs do no run in WinPE, so specify in the Name that this is \(Non-WinPE\)
 
-![](/assets/OSD Packages.png)
+For the Command Line, you need to ensure that the OS and Architecture are specified.  Since it is possible to run this in an Upgrade Task Sequence, if you are upgrading from Windows 7, it would not install Windows 10 Drivers without this specification.  Make sure it is set to run "Whether or not a user is logged on"
+
+```
+cscript OSDrivers.vbs /OS:"Windows 10" /Arch:x64
+```
+
+![](/assets/2-14-2018 2-25-58 PM.png)
+
+---
+
+## Summary
+
+Confirm the Settings
+
+![](/assets/2-14-2018 2-26-39 PMb.png)
+
+---
+
+## Completion
+
+Looking good!
+
+![](/assets/2-14-2018 2-27-08 PM.png)
+
+---
+
+## Additional Packages
+
+Repeat the same steps for your remaining Packages.
+
+![](/assets/2-14-2018 2-31-20 PMc.png)
+
+---
+
+
 

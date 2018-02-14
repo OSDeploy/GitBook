@@ -1,6 +1,4 @@
-# Updated Information will be published on 2/15
-
-# OSD Task Sequence
+# Refresh or Upgrade Task Sequence
 
 Add new Install Package steps to your Task Sequence and set the proper Program.  Repeat this for every OSDrivers Package you want to apply.
 
