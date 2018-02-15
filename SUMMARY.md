@@ -1,7 +1,7 @@
 # Summary
 
 * [Home](README.md)
-* [Updates](updates.md)
+* [Recent Updates](updates.md)
 
 ## Drivers
 
