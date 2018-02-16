@@ -14,8 +14,6 @@ To cover all of Windows 10 x64, you would typically only need 3 Drivers.
 
 [http://www.nvidia.com/download/driverResults.aspx/129090/en-us](http://www.nvidia.com/download/driverResults.aspx/129090/en-us)
 
-
-
 More information about Nvidia Video Drivers are below
 
 ---
@@ -88,19 +86,9 @@ Since GeForce Drivers are not part of the Quadro Driver Pack, I'll download thes
 
 ## Unpack Drivers - Don't
 
-The easiest method to expand the Drivers is to double click the EXE file, but there are a few issues with this.  The first issue is that NTFS Permissions will be changed for these files.  This is either because the files are extracted to the root of the OS Disk, but I am not certain.
+The easiest method to expand the Drivers is to double click the EXE file, but when extracting multiple drivers it is easier to Unzip them.  Also, extracting the drivers will not run any Setup Program.
 
 ![](/assets/1-8-2018 11-53-17 PM.png)
-
-The second reason is because this just Unpacks the EXE, but leaves several files compressed.  You can identify the compressed files as the extension ends in an underscore.  You can't just rename the files, you have to expand them first.
-
-![](/assets/1-8-2018 11-57-59 PM.png)
-
-If you require further reading on this method, see this link
-
-[https://technet.microsoft.com/en-us/library/cc938939.aspx](https://technet.microsoft.com/en-us/library/cc938939.aspx)
-
-> Typically, files compressed with this tool are named with the last letter of the file name extension replaced with an underscore character \(\_\) to clearly identify the file as compressed.
 
 ---
 
@@ -109,6 +97,20 @@ If you require further reading on this method, see this link
 7-Zip will unzip the EXE \(but not uncompress the underscored files\).  A simple Right Click will take care of all the downloaded Drivers
 
 ![](/assets/1-9-2018 12-05-50 AM.png)
+
+---
+
+## Compressed Files
+
+Nvidia likes to compress their Drivers.  You can identify the compressed files as the extension ends in an underscore.  You can't just rename the files, you have to expand them first.
+
+![](/assets/1-8-2018 11-57-59 PM.png)
+
+If you require further reading on this method, see this link
+
+[https://technet.microsoft.com/en-us/library/cc938939.aspx](https://technet.microsoft.com/en-us/library/cc938939.aspx)
+
+> Typically, files compressed with this tool are named with the last letter of the file name extension replaced with an underscore character \(\_\) to clearly identify the file as compressed.
 
 ---
 
@@ -143,9 +145,11 @@ The following Directories can be safely removed in my experience.
 
 ---
 
-## PS Edit-OSDriversNvidia
+## PS Module OSDrivers - Expand-OSDriver
 
 The OSDrivers PowerShell Module will easily handle the Expand of the Compressed Files, as well as removing the Nvidia Junk.
 
-![](/assets/1-9-2018 12-13-31 AM.png)
+[https://www.osdeploy.com/psmodule/osdrivers/expand-osdriver.html](https://www.osdeploy.com/psmodule/osdrivers/expand-osdriver.html)
+
+![](/assets/2018-02-16_2-16-02.png)
 
