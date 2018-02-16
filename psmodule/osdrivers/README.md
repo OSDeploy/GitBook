@@ -52,7 +52,7 @@ PS C:\> Install-Module -Name AWSPowerShell
 
 ## Open PowerShell ISE
 
-OSDrivers works best from PowerShell ISE
+OSDrivers works best from PowerShell ISE.  You can launch it from your PowerShell Prompt
 
 ```
 PS C:\> ISE
@@ -60,9 +60,11 @@ PS C:\> ISE
 
 ---
 
-## View the OSDriver Module
+## Viewing Functions
 
-Select the OSDrivers Module.  The two functions are Get-OSDrivers and Copy-OSDrivers.  We will use both of these later.
+Select OSDrivers in the Modules drop down
 
-![](/assets/2018-02-08_14-36-23.png)
+![](/assets/2018-02-16_0-21-30.png)
+
+---
 
