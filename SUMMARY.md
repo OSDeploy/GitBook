@@ -34,6 +34,11 @@
   * [Nvidia Video Drivers](drivers/download-hardware-drivers/nvidia-video-drivers/README.md)
   * [Example - Dell Win10 x64](drivers/driver-optimization/optimization-example.md)
 * [Advanced Driver Optimization](drivers/advanced-driver-optimization/README.md)
+
+## OSDrivers
+
+* [How It Works](osdrivers/how-it-works.md)
+* [Download OSDrivers](osdrivers/download-osdrivers.md)
 * [PS Module OSDriver](psmodule/osdriver/README.md)
   * [Edit-ExpandOSDriver](psmodule/osdriver/edit-expandosdriver.md)
   * [Find-OSDriverINFs](psmodule/osdriver/find-osdriverinfs.md)
@@ -41,15 +46,10 @@
   * [Get-OSDriverINFo](psmodule/osdriver/get-osdriverinfo.md)
   * [New-OSDriverCab](psmodule/osdriver/new-osdrivercab.md)
   * [Search-OSDriverContent](psmodule/osdriver/search-osdrivercontent.md)
-
-## OSDrivers
-
-* [How It Works](osdrivers/how-it-works.md)
-* [Download OSDrivers](osdrivers/download-osdrivers.md)
 * [PS Module OSDrivers](psmodule/osdrivers/README.md)
   * [Get-OSDrivers](psmodule/osdrivers/get-osdrivers.md)
   * [Copy-OSDrivers](psmodule/osdrivers/copy-osdrivers.md)
-  * Expand-OSDriver
+  * [Expand-OSDriver](psmodule/osdrivers/expand-osdriver.md)
   * Export-OSDrivers
   * [Get-OSDriverPNPIDS](psmodule/osdrivers/get-osdriverpnpids.md)
 * [How To](osdrivers/how-to/README.md)

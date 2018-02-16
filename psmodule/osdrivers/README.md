@@ -40,6 +40,16 @@ PS C:\> Install-Module -Name OSDrivers -Scope CurrentUser
 
 ---
 
+## Uninstall PS Module OSDriver
+
+Originally I had two separate PowerShell Modules, OSDriver \(Driver Functions\) and OSDrivers \(Repository Functions\).  They have been combined to OSDrivers.  If you still have OSDriver, uninstall it for proper functionality.
+
+```
+PS C:\> Uninstall-Module -Name OSDrivers
+```
+
+---
+
 ## Install AWS Tools for PowerShell
 
 If you are going to download the OSDrivers from the Public Repository, you will use **Get-PublicOSDrivers**.  This requires AWS Tools for PowerShell
@@ -67,4 +77,6 @@ Select OSDrivers in the Modules drop down
 ![](/assets/2018-02-16_0-21-30.png)
 
 ---
+
+
 
