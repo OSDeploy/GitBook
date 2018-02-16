@@ -20,9 +20,19 @@ cscript OSDrivers.vbs /OS:"Windows 10" /Arch:x64
 
 ## Rinse and Repeat
 
-Add any additional OSDrivers steps in your Task Sequence.  That's it!
-
-
+Add any additional OSDrivers steps in your Task Sequence.
 
 ![](/assets/2-14-2018 2-39-44 PM.png)
+
+---
+
+## Dism Apply Drivers
+
+You will need to add a Command Line to inject the Drivers into the OS
+
+```
+dism.exe /Image:%OSDisk%\ /Add-Driver /Driver:%OSDisk%\Drivers /Recurse
+```
+
+
 
