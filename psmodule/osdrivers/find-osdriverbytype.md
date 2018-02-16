@@ -2,7 +2,7 @@
 
 This module allows you to select a Driver Type and search in your Driver Repository for instances.  Optionally you can remove the Directory containing the Driver.
 
-![](/assets/2018-02-14_2-18-01.png)
+![](/assets/2018-02-16_2-33-50.png)
 
 The following values are used in the search
 
