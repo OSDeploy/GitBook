@@ -43,7 +43,7 @@
   * [Expand-OSDriver](psmodule/osdrivers/expand-osdriver.md)
   * [Export-OSDrivers](psmodule/osdrivers/export-osdrivers.md)
   * [Find-OSDriverByType](psmodule/osdrivers/find-osdriverbytype.md)
-  * [Get-OSDrivers](psmodule/osdrivers/get-osdrivers.md)
+  * [Find-OSDriverINFs](psmodule/osdrivers/find-osdriverinfs.md)
   * [New-OSDriverCab](psmodule/osdriver/new-osdrivercab.md)
   * [Copy-OSDrivers](psmodule/osdrivers/copy-osdrivers.md)
   * [Get-OSDriverPNPIDS](psmodule/osdrivers/get-osdriverpnpids.md)
