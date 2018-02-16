@@ -49,6 +49,9 @@
 * [PS Module OSDrivers](psmodule/osdrivers/README.md)
   * [Get-OSDrivers](psmodule/osdrivers/get-osdrivers.md)
   * [Copy-OSDrivers](psmodule/osdrivers/copy-osdrivers.md)
+  * Expand-OSDriver
+  * Export-OSDrivers
+  * [Get-OSDriverPNPIDS](psmodule/osdrivers/get-osdriverpnpids.md)
 * [How To](osdrivers/how-to/README.md)
   * [Create a Dell Latitude 7490 CAB](osdrivers/how-to/create-a-dell-latitude-7490-cab.md)
   * [Create a Custom Driver CAB](osdrivers/how-to/create-a-custom-driver-cab.md)
