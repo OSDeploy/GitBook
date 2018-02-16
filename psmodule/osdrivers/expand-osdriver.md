@@ -1,14 +1,12 @@
 # Expand-OSDriver
 
-In some cases, Drivers will be compressed.  Nvidia likes to do this with their Drivers.  You can identify the compressed files as the extension ends in an underscore.  You can't just rename the files, you have to expand them first.
+In some cases, Drivers will be compressed.  Nvidia likes to do this with their Drivers.  You can read about this on my Nvidia Video Drivers page.
 
-![](/assets/1-8-2018 11-57-59 PM.png)
+[https://www.osdeploy.com/drivers/download-hardware-drivers/nvidia-video-drivers/](https://www.osdeploy.com/drivers/download-hardware-drivers/nvidia-video-drivers/)
 
-If you require further reading on this method, see this link
+Expand-OSDriver will expand and rename the files as well as giving the option to remove Nvidia Junk.
 
-[https://technet.microsoft.com/en-us/library/cc938939.aspx](https://technet.microsoft.com/en-us/library/cc938939.aspx)
-
-> Typically, files compressed with this tool are named with the last letter of the file name extension replaced with an underscore character \(\_\) to clearly identify the file as compressed.
+![](/assets/2018-02-16_2-16-02.png)
 
 ---
 
@@ -42,12 +40,6 @@ The following Directories can be safely removed in my experience.
 ```
 
 ---
-
-
-
-
-
-
 
 
 
