@@ -4,7 +4,9 @@ OSDrivers is a PowerShell Module that I have written to help in managing your Dr
 
 [https://www.powershellgallery.com/packages/OSDrivers/](https://www.powershellgallery.com/packages/OSDrivers/)
 
-**Included Scripts**
+---
+
+## Included Scripts
 
 * Expand-OSDriver.ps1
 * Export-OSDrivers.ps1
