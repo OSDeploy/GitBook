@@ -4,7 +4,16 @@ OSDrivers is a PowerShell Module that I have written to help in managing your Dr
 
 [https://www.powershellgallery.com/packages/OSDrivers/](https://www.powershellgallery.com/packages/OSDrivers/)
 
-**OSDrivers requires AWS PowerShell Tools to be installed to run Get-OSDrivers.  Copy-OSDrivers does not have any dependencies.**
+**Included Scripts**
+
+* Expand-OSDriver.ps1
+* Export-OSDrivers.ps1
+* Find-OSDriverByType.ps1
+* Find-OSDriverINFs.ps1
+* Get-OSDriverPNPIDS.ps1 **\(Requires Elevation as this script uses Dism\)**
+* Get-PublicOSDrivers.ps1
+* New-OSDriverCab.ps1
+* Search-OSDriverContent.ps1
 
 ---
 
@@ -29,9 +38,19 @@ PS C:\> Install-Module -Name OSDrivers -Scope CurrentUser
 
 ---
 
+## Install AWS Tools for PowerShell
+
+If you are going to download the OSDrivers from the Public Repository, you will use **Get-PublicOSDrivers**.  This requires AWS Tools for PowerShell
+
+```
+PS C:\> Install-Module -Name AWSPowerShell
+```
+
+---
+
 ## Open PowerShell ISE
 
-From PowerShell, open ISE with a simple command
+OSDrivers works best from PowerShell ISE
 
 ```
 PS C:\> ISE
