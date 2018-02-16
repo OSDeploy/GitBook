@@ -61,6 +61,7 @@
     * [Create Packages](osdrivers/deployment-integration/configmgr/create-packages.md)
     * [Bare Metal Task Sequence](osdrivers/deployment-integration/configmgr/bare-metal-task-sequence.md)
     * [Refresh or Upgrade Task Sequence](osdrivers/deployment-integration/configmgr/task-sequence.md)
+    * [MDT Client Task Sequence](osdrivers/deployment-integration/configmgr/mdt-client-task-sequence.md)
 * [Reference Guide](osdrivers/reference-guide/README.md)
   * [TXT File](osdrivers/reference-guide/txt-file/README.md)
     * [Operating System Conditions](osdrivers/reference-guide/txt-file/operating-system-conditions.md)
