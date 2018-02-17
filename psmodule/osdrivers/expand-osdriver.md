@@ -6,7 +6,7 @@ In some cases, Drivers will be compressed.  Nvidia likes to do this with their D
 
 Expand-OSDriver will expand and rename the files as well as giving the option to remove some Nvidia Junk.
 
-![](/assets/2018-02-17_1-10-07.png)
+![](/assets/2018-02-17_1-09-22b.png)
 
 ---
 
