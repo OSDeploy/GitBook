@@ -50,7 +50,7 @@ Public and Private Directories can be used in the Organization of your Drivers a
 
 ## Example
 
-In the example image, I am taking my Primary OSDrivers Repository at D:\OSDrivers and exporting Nvidia Video Drivers that are compatible with Windows 10.  After execution, a Grid will be displayed with the results.  Select the files you want to Export and press OK.  Your -SecondaryOSDrivers will be created with OSDrivers.vbs and the files selected.
+In the example image, I am taking my Primary OSDrivers Repository at D:\OSDrivers and exporting Nvidia Video Drivers that are compatible with Windows 10.  After execution, a Grid will be displayed with the results.  Select the files you want to Export and press OK.  Your -SecondaryOSDrivers will be created with OSDrivers.vbs and the files you selected.
 
 ![](/assets/2018-02-17_1-40-38.png)
 
