@@ -55,9 +55,9 @@ When selecting the RemoveNvidiaJunk switch, the following directories will be re
 
 ---
 
-## Results
+## Example
 
-In the example Driver, the initial extracted size with compressed files was 1.09 GB.  After running -ExpandCompressedFiles the size increased to 1.30 GB.
+In the Example pictured at the top of this page, the initial extracted size with compressed files was 1.09 GB.  After running -ExpandCompressedFiles the size increased to 1.30 GB.
 
 The -RemoveNvidiaJunk cleared enough space to make this Driver .59 GB.
 
@@ -82,9 +82,9 @@ The -RemoveNvidiaJunk cleared enough space to make this Driver .59 GB.
 ***** Removing Directories Named ShadowPlay *****
 ***** Removing Directories Named Update.Core *****
 ***** Calculating Path Size *****
-Initial Size:	 1.09 GB
-Expanded Size:	 1.30 GB
-De-Junked Size:	 0.59 GB
+Initial Size:     1.09 GB
+Expanded Size:     1.30 GB
+De-Junked Size:     0.59 GB
 ```
 
 This is ready to be imported into MDT or ConfigMgr.  If you are using this with OSDrivers, converting this to a High Compression CAB will only use 250 MB of space.
