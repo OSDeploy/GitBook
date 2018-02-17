@@ -2,13 +2,7 @@
 
 This function can be used to copy an OSDrivers Repository, or to create Package Content
 
-
-
 ![](/assets/2018-02-17_1-32-24.png)
-
----
-
-## 
 
 ---
 
