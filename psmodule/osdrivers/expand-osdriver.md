@@ -1,22 +1,36 @@
 # Expand-OSDriver
 
-In some cases, Drivers will be compressed.  Nvidia likes to do this with their Drivers.  You can read about this on my Nvidia Video Drivers page.
+In some cases, Drivers will be compressed.  Nvidia likes to do this with their Drivers to save space.  You can read about this on my Nvidia Video Drivers page.
 
 [https://www.osdeploy.com/drivers/download-hardware-drivers/nvidia-video-drivers/](https://www.osdeploy.com/drivers/download-hardware-drivers/nvidia-video-drivers/)
 
-Expand-OSDriver will expand and rename the files as well as giving the option to remove Nvidia Junk.
+Expand-OSDriver will expand and rename the files as well as giving the option to remove some Nvidia Junk.
 
-![](/assets/2018-02-16_2-16-02.png)
+![](/assets/2018-02-17_1-10-07.png)
 
 ---
 
-## Nvidia Junk
+## -Path
 
-Nvidia adds several Junk files to the Drivers that are not needed and not used when installing during OSD.
+This is the directory of the Drivers you want to expand.  If you have multiple Directories, this can be used on the Parent Directory as well.
 
-![](/assets/1-9-2018 12-08-30 AM.png)
+---
 
-The following Directories can be safely removed in my experience.
+## -ExpandCompressedFiles
+
+Selecting this option will expand these files and rename them with their proper extension
+
+![](/assets/1-8-2018 11-57-59 PM.png)
+
+If you require further reading on this method, see this link
+
+[https://technet.microsoft.com/en-us/library/cc938939.aspx](https://technet.microsoft.com/en-us/library/cc938939.aspx)
+
+---
+
+## -RemoveNvidiaJunk
+
+When selecting the RemoveNvidiaJunk switch, the following directories will be removed to save space as they contain no Drivers
 
 ```
 "Display.NView",
@@ -41,5 +55,37 @@ The following Directories can be safely removed in my experience.
 
 ---
 
+## Results
 
+In the example Driver, the initial extracted size with compressed files was 1.09 GB.  After running -ExpandCompressedFiles the size increased to 1.30 GB.
+
+The -RemoveNvidiaJunk cleared enough space to make this Driver .59 GB.
+
+```
+***** Calculating Path Size *****
+***** Removing Directories Named Display.NView *****
+***** Removing Directories Named Display.Optimus *****
+***** Removing Directories Named Display.Update *****
+***** Removing Directories Named DisplayDriverCrashAnalyzer *****
+***** Removing Directories Named GFExperience *****
+***** Removing Directories Named GFExperience.NvStreamSrv *****
+***** Removing Directories Named MSVCRT *****
+***** Removing Directories Named nodejs *****
+***** Removing Directories Named NV3DVision *****
+***** Removing Directories Named NvBackend *****
+***** Removing Directories Named NvCamera *****
+***** Removing Directories Named NvContainer *****
+***** Removing Directories Named NVI2 *****
+***** Removing Directories Named NvTelemetry *****
+***** Removing Directories Named NVWMI *****
+***** Removing Directories Named PhysX *****
+***** Removing Directories Named ShadowPlay *****
+***** Removing Directories Named Update.Core *****
+***** Calculating Path Size *****
+Initial Size:	 1.09 GB
+Expanded Size:	 1.30 GB
+De-Junked Size:	 0.59 GB
+```
+
+This is ready to be imported into MDT or ConfigMgr.  If you are using this with OSDrivers, converting this to a High Compression CAB will only use 250 MB of space.
 
