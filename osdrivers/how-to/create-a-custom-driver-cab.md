@@ -158,9 +158,9 @@ PCI\VEN_8086&DEV_A2BD&CC_0700 = Intel(R) Active Management Technology - SOL
 
 ---
 
-## Compress the Drivers to a Cab
+## Compress the Drivers to a CAB
 
-Use the OSDriver PowerShell Module and run New-OSDriverCab with LZXHighCompression.  Save the complete Cab to
+Use the OSDrivers PowerShell Module and run New-OSDriverCab with HighCompression.  Save the complete CAB to
 
 ```
 Custom\OSD\X-Dell\Chipset\Dell Intel Management Engine Components 11.7.0.1054 A01 19Y3F.cab
