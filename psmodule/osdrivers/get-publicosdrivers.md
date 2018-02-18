@@ -38,7 +38,17 @@ Your Amazon AWS Secret Key
 
 These are filters for files to download.  At the time of this writing the PublicHP and PublicLenovo do not have any content in them
 
+---
 
+## Example
+
+You will be presented with a list of files on Amazon AWS to download for each Public Category you selected.  Simply select the files you want to download and press OK.
+
+![](/assets/2018-02-18_1-00-06.png)
+
+After you have selected all files, they will be downloaded to your OSDrivers Repository
+
+![](/assets/2018-02-18_1-00-44.png)
 
 
 
