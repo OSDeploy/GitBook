@@ -46,7 +46,7 @@
   * [Find-OSDriverINFs](psmodule/osdrivers/find-osdriverinfs.md)
   * [Get-OSDriverPNPIDS](psmodule/osdrivers/get-osdriverpnpids.md)
   * [Get-PublicOSDrivers](psmodule/osdrivers/get-publicosdrivers.md)
-  * [New-OSDriverCab](psmodule/osdriver/new-osdrivercab.md)
+  * [New-OSDriverCAB](psmodule/osdriver/new-osdrivercab.md)
   * [Search-OSDriverContent](psmodule/osdrivers/search-osdrivercontent.md)
 * [How To](osdrivers/how-to/README.md)
   * [Create a Dell Latitude 7490 CAB](osdrivers/how-to/create-a-dell-latitude-7490-cab.md)

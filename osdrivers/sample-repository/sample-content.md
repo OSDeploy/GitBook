@@ -1,14 +1,14 @@
 # Sample Content
 
-Once you have connected your Amazon AWS Account and installed your Keys through PowerShell, you can easily download a Sample Repository.
+Once you have connected your Amazon AWS Account and installed your Keys through PowerShell, you can easily download a Sample Repository.  Open PowerShell ISE to run Get-PublicOSDrivers.
 
 ---
 
-## PowerShell Get-OSDrivers
+## PowerShell Get-PublicOSDrivers
 
-LocalFolder should be where the Repository will download to.  For a Full Repository, check the OSD Checkboxes, and then press Run.  Sorry about the Mouse Pointer in this screenshot :\(
+DownloadPath should be where the Repository will download to.  For a Full Repository, check the PublicCore, and PublicVideo.  For Dell Drivers, check the PublicDell switch.  Sorry about the Mouse Pointer in this screenshot :\(
 
-![](/assets/2018-02-08_14-43-18.png)
+![](/assets/2018-02-18_0-53-38.png)
 
 ---
 
