@@ -8,7 +8,7 @@ This module allows you to select a Driver Type and search in your Driver Reposit
 
 ## -Path
 
-The Path to your Drivers that you want to
+The Path to your Drivers that you want to search through
 
 ---
 
