@@ -20,5 +20,7 @@ By default MSZIP is used for making the CAB file.  If you want to use LZX to cre
 
 ## -MakeCABsFromSubDirs
 
+Selecting this switch will make CAB files from the Subdirectories of the Path that was entered.  This comes in handy if you want to convert all your Model Drivers in to Model Driver CABs.
+
 
 
