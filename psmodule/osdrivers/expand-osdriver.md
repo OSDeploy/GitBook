@@ -4,9 +4,9 @@ In some cases, Drivers will be compressed.  Nvidia likes to do this with their D
 
 [https://www.osdeploy.com/drivers/download-hardware-drivers/nvidia-video-drivers/](https://www.osdeploy.com/drivers/download-hardware-drivers/nvidia-video-drivers/)
 
-Expand-OSDriver will expand and rename the files as well as giving the option to remove some Nvidia Junk.
+Expand-OSDriver will expand and rename the files as well as giving the option to remove some unnecessary Nvidia files.
 
-![](/assets/2018-02-17_1-09-22b.png)
+![](/assets/2018-02-17_23-23-02.png)
 
 ---
 
@@ -28,9 +28,9 @@ If you require further reading on this method, see this link
 
 ---
 
-## -RemoveNvidiaJunk
+## -NvidiaCleanup
 
-When selecting the RemoveNvidiaJunk switch, the following directories will be removed to save space as they contain no Drivers
+When selecting the NvidiaCleanup switch, the following directories will be removed to save space as they contain no Drivers
 
 ```
 "Display.NView",
@@ -59,7 +59,7 @@ When selecting the RemoveNvidiaJunk switch, the following directories will be re
 
 In the Example pictured at the top of this page, the initial extracted size with compressed files was 1.09 GB.  After running -ExpandCompressedFiles the size increased to 1.30 GB.
 
-The -RemoveNvidiaJunk cleared enough space to make this Driver .59 GB.
+The NvidiaCleanup switch cleared enough space to make this Driver .59 GB.
 
 ```
 ***** Calculating Path Size *****
