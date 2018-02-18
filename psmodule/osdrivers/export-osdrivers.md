@@ -2,7 +2,7 @@
 
 This function can be used to copy an OSDrivers Repository, or to create Package Content
 
-![](/assets/2018-02-17_1-32-24.png)
+![](/assets/2018-02-18_0-25-03.png)
 
 ---
 
@@ -18,7 +18,7 @@ This is the Path where the drivers will be exported to
 
 ---
 
-## -Windows Profile
+## -WindowsProfile
 
 This will filter down your Operating Systems to compatible ones.  This assumes that you applied proper naming of the files
 

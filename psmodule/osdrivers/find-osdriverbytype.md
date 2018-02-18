@@ -2,7 +2,7 @@
 
 This module allows you to select a Driver Type and search in your Driver Repository for instances.  Optionally you can remove the Directory containing the Driver.
 
-![](/assets/2018-02-17_1-46-10.png)
+![](/assets/2018-02-18_0-26-41.png)
 
 ---
 
@@ -31,9 +31,9 @@ The following values are used in the Driver Type
 
 ---
 
-## -RemoveDirectories
+## -RemoveSelected
 
-Selecting this option will delete the Directory that the files were found in
+Selecting this option will delete the Directory that the selected file was located in
 
 ---
 
@@ -70,6 +70,4 @@ Repository Size:  157.13 GB
 ```
 
 **If you are using Dell Model Drivers \(Windows 10 x64\) and have downloaded all of them, your 73.37 GB Driver Repository should contain 27.99 GB of Intel Video Drivers \(38%\).  If you are using Dell Model Drivers \(Windows 10 x64\), then 65.58 GB of your 157.13 GB are Intel Video Drivers \(41.7%\)**
-
-
 
