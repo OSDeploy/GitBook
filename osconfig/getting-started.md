@@ -10,9 +10,9 @@ Modify your Unattend.xml for your MDT Task Sequence by adding a RunSynchronousCo
 
 ```
 <RunSynchronousCommand wcm:action="add">
-	<Description>OS Config</Description>
-	<Order>5</Order>
-	<Path>PowerShell.exe -ExecutionPolicy Bypass -File %ProgramData%\OSConfig\OSConfig.ps1</Path>
+    <Description>OS Config</Description>
+    <Order>5</Order>
+    <Path>PowerShell.exe -ExecutionPolicy Bypass -File %ProgramData%\OSConfig\OSConfig.ps1</Path>
 </RunSynchronousCommand>
 ```
 
@@ -22,7 +22,7 @@ Modify your Unattend.xml for your MDT Task Sequence by adding a RunSynchronousCo
 
 ## Edit the Task Sequence
 
-Add the following command in your Task Sequence right before the Restart computer step
+Add the following command in your Task Sequence right before the Restart computer step.  This will copy the contents of the OSConfig directory in your Deployment Share to %ProgramData%
 
 ```
 cmd /c robocopy "%DeployRoot%\OSDeploy\OSConfig" %OSDisk%\ProgramData\OSConfig *.* /mir /ndl /nfl /r:1 /w:1 /xj /z
@@ -32,7 +32,7 @@ cmd /c robocopy "%DeployRoot%\OSDeploy\OSConfig" %OSDisk%\ProgramData\OSConfig *
 
 ---
 
-## Create the Content
+## Create the Sample OSConfig PowerShell Script
 
 In your Deployment Share, create the following location
 
@@ -66,13 +66,21 @@ Return
 
 Now the fun part.  Deploy the Task Sequence
 
-As you can see, this PowerShell Script is running under the System context, so you can pretty much do anything you want.
+As you can see, this PowerShell Script is running under the System context, so you can pretty much do anything you want.  Since we added a Read=Host command, press Enter to continue.
 
 ![](/assets/2018-05-24_23-42-47.png)
 
 ---
 
-## Full PowerShell Support
+## Reviewing the Transcript
+
+Since we added Start-Transcript step in our OSConfig.ps1, we can look at this file at C:\ProgramData\OSConfig\OSConfig\*.log.  This captured our Environment Variables which we can use when building scripts.
+
+
+
+---
+
+## PowerShell ISE Support
 
 If you want to have some real fun, add the following to your script
 
@@ -80,17 +88,15 @@ If you want to have some real fun, add the following to your script
 Start-Process PowerShell_ISE.exe -Wait
 ```
 
-Yup, even PowerShell ISE works so you can do some test scripting in a Pre-OS Environment.  Have fun!
+Yup, even PowerShell ISE works so you can do some test scripting in a Pre-OS Environment
 
 ![](/assets/2018-05-24_23-50-13.png)
 
+---
 
+## What's Missing?
 
-
-
-
-
-
+For starters, we do not have WMI running, so keep this in mind when customizing your scripts.  Also since we are under the SYSTEM context, we do not have any default Console settings, so you cannot scroll back on long PowerShell scripts that are executing as the Screen Buffer is at the minimum.
 
 
 
