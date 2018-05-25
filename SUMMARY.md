@@ -9,7 +9,7 @@
 * [Getting Started](osconfig/getting-started.md)
 * [Advanced Configuration](osconfig/advanced-configuration/README.md)
   * [OSConfig.ps1](osconfig/advanced-configuration/osconfigps1.md)
-  * [Appx.ps1](osconfig/advanced-configuration/remove-appx-packagesps1.md)
+  * [Appx.ps1](osconfig/advanced-configuration/appxps1.md)
   * [Start.ps1](osconfig/advanced-configuration/startps1.md)
 
 ## Drivers
