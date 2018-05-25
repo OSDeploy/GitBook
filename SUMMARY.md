@@ -3,6 +3,10 @@
 * [Home](README.md)
 * [Recent Updates](updates.md)
 
+## OSConfig
+
+* [How It Works](osconfig/how-it-works.md)
+
 ## Drivers
 
 * [Introduction](drivers/README.md)
