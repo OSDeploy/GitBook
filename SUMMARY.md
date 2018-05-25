@@ -6,6 +6,7 @@
 ## OSConfig
 
 * [How It Works](osconfig/how-it-works.md)
+* [First Steps](osconfig/first-steps.md)
 
 ## Drivers
 
