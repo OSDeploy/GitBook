@@ -7,10 +7,9 @@
 
 * [How It Works](osconfig/how-it-works.md)
 * [Getting Started](osconfig/getting-started.md)
-* [Advanced Configuration](osconfig/advanced-configuration.md)
+* [Advanced Configuration](osconfig/advanced-configuration/README.md)
   * [OSConfig.ps1](osconfig/advanced-configuration/osconfigps1.md)
-    * Appx
-* [Remove Appx Packages.ps1](osconfig/advanced-configuration/osconfigps1/remove-appx-packagesps1.md)
+* [Remove Appx Packages.ps1](osconfig/advanced-configuration/remove-appx-packagesps1.md)
 
 ## Drivers
 
