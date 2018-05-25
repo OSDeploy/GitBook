@@ -30,6 +30,7 @@ This is the current OSConfig.ps1 script that I use.  I'll explain some things.
     $ScriptName = $MyInvocation.MyCommand.Name
     $LogName = "$ScriptName-$((Get-Date).ToString('yyyy-MM-dd-HHmmss')).log"
     Start-Transcript -Path (Join-Path $env:ProgramData\OSConfigLogs $LogName)
+    Write-Host ""
     #======================================================================================
     #	Capture the Environment Variables in the Log
     #======================================================================================
