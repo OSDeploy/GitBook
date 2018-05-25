@@ -1,4 +1,4 @@
-# Remove Appx Packages.ps1
+# Appx.ps1
 
 By now you should have your own PowerShell script to remove Appx Packages.  We run into some complication when trying to remove them AFTER the User Profile is created, including in ALL USERS.  Why not remove them before the OS is even loaded?
 
@@ -37,8 +37,6 @@ This is exactly what we want.  Ignore the fact that the Start Menu looks ridicul
 Don't forget to review your Logs for any errors
 
 ![](/assets/2018-05-25_10-42-26.png)
-
-
 
 ---
 
