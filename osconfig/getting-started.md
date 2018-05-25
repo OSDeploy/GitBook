@@ -76,7 +76,7 @@ As you can see, this PowerShell Script is running under the System context, so y
 
 Since we added Start-Transcript step in our OSConfig.ps1, we can look at this file at C:\ProgramData\OSConfig\OSConfig\*.log.  This captured our Environment Variables which we can use when building scripts.
 
-
+![](/assets/2018-05-25_9-45-03.png)
 
 ---
 
@@ -97,6 +97,14 @@ Yup, even PowerShell ISE works so you can do some test scripting in a Pre-OS Env
 ## What's Missing?
 
 For starters, we do not have WMI running, so keep this in mind when customizing your scripts.  Also since we are under the SYSTEM context, we do not have any default Console settings, so you cannot scroll back on long PowerShell scripts that are executing as the Screen Buffer is at the minimum.
+
+And keep in mind this is running in a Local System context, so we do not have rights to access anything on the Network.  This is why everything should be copied locally before restarting from WinPE.
+
+---
+
+## Why ProgramData?
+
+For one thing, it is stable.  When performing Feature Updates, if our Local Content is in the Windows directory, this will be removed.  C:\ProgramData will not, so this is the best location for your Local Content.
 
 
 
