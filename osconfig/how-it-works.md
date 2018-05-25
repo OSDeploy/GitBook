@@ -1,6 +1,6 @@
 # How It Works
 
-OSConfig is a method for manipulating Windows Deployments in the Specialize phase of an MDT Deployment.  Things are a little different for ConfigMgr OSD, and I will cover that in a bit.  When customizing OSConfig, you should do everything in MDT and port to ConfigMgr.  This allows for faster testing cycles.
+OSConfig is a method for manipulating Windows Deployments in the Specialize phase of an MDT OS Deployment.  Things are a little different for ConfigMgr OSD, and I will cover that in a bit.  When customizing OSConfig, you should do everything in MDT and port to ConfigMgr.  This allows for faster testing cycles.
 
 I'll give you the details as we go along . . .
 
@@ -16,7 +16,7 @@ After your computer is imaged in WinPE, the system will restart.  When you see t
 
 ## Unattend.xml Specialize
 
-You are already executing commands in the Unattend.xml.  The RunSynchronous commands are executed during the "Getting ready" screen.
+You are already executing commands in the Specialize phase by using an Unattend.xml.  The RunSynchronous commands are executed during the "Getting ready" screen.
 
 ![](/assets/2018-05-24_23-13-22.png)
 
