@@ -1,4 +1,4 @@
-# How It Works
+# OSConfig: How It Works
 
 OSConfig is a method for manipulating Windows Deployments in the Specialize phase of an MDT OS Deployment.  Things are a little different for ConfigMgr OSD, and I will cover that in a bit.  When customizing OSConfig, you should do everything in MDT and port to ConfigMgr.  This allows for faster testing cycles.
 

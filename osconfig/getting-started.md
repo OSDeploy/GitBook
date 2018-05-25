@@ -1,4 +1,4 @@
-# Getting Started
+# OSConfig: Getting Started
 
 Adding OSConfig is easy to configure in a few steps
 
@@ -105,6 +105,4 @@ And keep in mind this is running in a Local System context, so we do not have ri
 ## Why ProgramData?
 
 For one thing, it is stable.  When performing Feature Updates, if our Local Content is in the Windows directory, this will be removed.  C:\ProgramData will not, so this is the best location for your Local Content.
-
-
 
