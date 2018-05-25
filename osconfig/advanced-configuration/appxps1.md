@@ -36,7 +36,7 @@ This is exactly what we want.  Ignore the fact that the Start Menu looks ridicul
 
 Don't forget to review your Logs for any errors
 
-![](/assets/2018-05-25_10-42-26.png)
+![](/assets/2018-05-25_13-22-33.png)
 
 ---
 
