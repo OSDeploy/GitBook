@@ -8,9 +8,9 @@
 * [How It Works](osconfig/how-it-works.md)
 * [Getting Started](osconfig/getting-started.md)
 * [Advanced Configuration](osconfig/advanced-configuration/README.md)
-  * [OSConfig.ps1](osconfig/advanced-configuration/osconfigps1.md)
-  * [Appx.ps1](osconfig/advanced-configuration/appxps1.md)
-  * [Start.ps1](osconfig/advanced-configuration/startps1.md)
+  * [OSConfig.ps1](osconfig/advanced-configuration/osconfig.md)
+  * [Appx.ps1](osconfig/advanced-configuration/appx.md)
+  * [Start.ps1](osconfig/advanced-configuration/start.md)
   * [Wallpaper.ps1](osconfig/advanced-configuration/wallpaper.md)
 
 ## Drivers
