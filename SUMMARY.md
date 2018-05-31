@@ -16,7 +16,7 @@
   * [Applications](osconfig/osconfig/applications.md)
 * [SCCM](osconfig/sccm.md)
   * [OSDeploy Package](osconfig/sccm/osdeploy-package.md)
-  * [New PC Task Sequence](osconfig/sccm/newpc-task-sequence.md)
+  * [New PC Task Sequence](osconfig/sccm/new-pc-task-sequence.md)
   * [Upgrade Task Sequence](osconfig/sccm/upgrade-task-sequence.md)
 
 ## Drivers
