@@ -38,19 +38,25 @@ Final Command Line to actually run the PowerShell script.
 PowerShell.exe -ExecutionPolicy Bypass -File %ProgramData%\OSConfig\OSConfig.ps1
 ```
 
-![](/assets/2018-05-31_12-51-41.png)
+## ![](/assets/2018-05-31_12-51-41.png)
+
+### Task Sequence Progress Pre-OSConfig
+
+The following screens should be visible during the Upgrade Task Sequence.  Not much to see here at this point
+
+![](/assets/2018-05-31_13-34-18.png)  
+![](/assets/2018-05-31_13-42-44.png)  
+![](/assets/2018-05-31_13-44-07.png)
 
 ---
 
-### Task Sequence Progress
+### Task Sequence Progress During OSConfig
 
-The following screens should be visible during the Task Sequence
+Once Post-Processing begins, the OSConfig steps will kick off.
 
-![](/assets/2018-05-31_11-21-23.png)
+---
 
-
-
-
+### Task Sequence Progress Post-OSConfig
 
 
 
