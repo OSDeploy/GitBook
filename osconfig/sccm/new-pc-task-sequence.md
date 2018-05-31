@@ -6,7 +6,7 @@ Adding OSConfig to a New PC Task Sequence is done in three Run Command Line step
 
 ### OSConfig Remove Existing
 
-While this step is not really required for a New PC Task Sequence, this will maintain consistency with Upgrade Task Sequences.  Under the Options tab, check the Continue on error.  Enter the following in the Command line
+While this step is not really required for a New PC Task Sequence, this will maintain consistency with Upgrade Task Sequences \(you can disable this step if you prefer\).  Under the Options tab, check the Continue on error.  Enter the following in the Command line
 
 ```
 cmd /c rd %ProgramData%\OSConfig /S /Q
