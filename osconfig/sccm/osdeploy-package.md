@@ -22,5 +22,5 @@ Copy the OSConfig content to the Source Folder
 
 ## Distribute Content
 
-Distribute the content to your Distribution Points
+Distribute the content to your Distribution Points.  Once this is complete, you can add OSConfig to your Task Sequences
 
