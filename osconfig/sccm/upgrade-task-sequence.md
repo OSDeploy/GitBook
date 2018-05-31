@@ -14,7 +14,7 @@ To make sure that OSConfig is cleared before running again, a simple Run Command
 cmd /c rd %ProgramData%\OSConfig /S /Q
 ```
 
-![](/assets/2018-05-31_10-03-31.png)
+![](/assets/2018-05-31_12-50-24.png)
 
 ---
 
@@ -26,7 +26,7 @@ Another Run Command Line step is all it takes to copy the Package Content to C:\
 cmd.exe /c md %ProgramData%\OSConfig & cmd.exe /c xcopy ".\*" %ProgramData%\OSConfig /y /e
 ```
 
-![](/assets/2018-05-31_10-04-01.png)
+![](/assets/2018-05-31_12-51-00.png)
 
 ---
 
@@ -38,7 +38,7 @@ Final Command Line to actually run the PowerShell script.
 PowerShell.exe -ExecutionPolicy Bypass -File %ProgramData%\OSConfig\OSConfig.ps1
 ```
 
-![](/assets/2018-05-31_10-04-29.png)
+![](/assets/2018-05-31_12-51-41.png)
 
 ---
 
