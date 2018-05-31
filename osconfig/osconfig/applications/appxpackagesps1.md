@@ -1,10 +1,8 @@
 # AppxPackages.ps1
 
-Working
+Hopefully you should have your own PowerShell script to remove any AppxPackages that you don't want in Windows 10, but if you don't, just edit the one I have at the bottom of this page to suit your needs.
 
 ---
-
-
 
 ## Before
 
