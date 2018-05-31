@@ -14,6 +14,7 @@
   * [Wallpaper.ps1](osconfig/advanced-configuration/wallpaper.md)
 * [OSConfig](osconfig/osconfig.md)
   * [Applications](osconfig/osconfig/applications.md)
+    * [AppxPackages.ps1](osconfig/osconfig/applications/appxpackagesps1.md)
 * [SCCM](osconfig/sccm.md)
   * [OSDeploy Package](osconfig/sccm/osdeploy-package.md)
   * [New PC Task Sequence](osconfig/sccm/new-pc-task-sequence.md)
