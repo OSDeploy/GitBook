@@ -40,5 +40,31 @@ PowerShell.exe -ExecutionPolicy Bypass -File %ProgramData%\OSConfig\OSConfig.ps1
 
 ---
 
-Task Sequence Progress
+### Task Sequence Progress
+
+Since this is a simple OSD Task Sequence without MDT Integration, we really don't have a way to tell that OSConfig has executed properly during Windows Setup.  You should see the following screens during Windows Setup
+
+![](/assets/2018-05-31_12-54-56.png)![](/assets/2018-05-31_12-57-33.png)
+
+---
+
+### Lock and Logon Screens
+
+The first time we see that everything executed properly is when the Lock and Logon Screens show up.  This is exactly how I configured it :\)
+
+![](/assets/2018-05-31_12-58-35.png)
+
+![](/assets/2018-05-31_12-58-44.png)
+
+---
+
+### Desktop
+
+Everything looks great on the Desktop.  I can then go into C:\ProgramData\OSConfigLogs to see the results of my scripts.
+
+![](/assets/2018-05-31_13-00-28.png)
+
+![](/assets/2018-05-31_13-01-22.png)
+
+
 
