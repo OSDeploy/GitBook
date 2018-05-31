@@ -46,3 +46,11 @@ PowerShell.exe -ExecutionPolicy Bypass -File %ProgramData%\OSConfig\OSConfig.ps1
 
 The following screens should be visible during the Task Sequence
 
+![](/assets/2018-05-31_11-21-23.png)
+
+
+
+
+
+
+
