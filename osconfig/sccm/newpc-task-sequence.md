@@ -1,4 +1,4 @@
-# NewPC Task Sequence
+# New PC Task Sequence
 
 Adding OSConfig to a New PC Task Sequence is done in three Run Command Line steps.  In the Setup Operating System phase, immediately after Setup Windows and Configuration Manager, create a New Group called OSConfig.
 
