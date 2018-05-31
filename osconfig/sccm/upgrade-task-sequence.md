@@ -52,11 +52,29 @@ The following screens should be visible during the Upgrade Task Sequence.  Not m
 
 ### Task Sequence Progress During OSConfig
 
-Once Post-Processing begins, the OSConfig steps will kick off.
+Once Post-Processing begins, the OSConfig steps will kick off ...
+
+![](/assets/2018-05-31_14-23-38.png)
+
+![](/assets/2018-05-31_14-23-49.png)
+
+![](/assets/2018-05-31_14-24-13.png)
+
+![](/assets/2018-05-31_14-25-56.png)
+
+![](/assets/2018-05-31_14-26-34.png)
 
 ---
 
 ### Task Sequence Progress Post-OSConfig
 
+Everything looks exactly as configured.  Don't forget to check your logs!
 
+![](/assets/2018-05-31_14-35-37.png)
+
+![](/assets/2018-05-31_14-35-49.png)
+
+![](/assets/2018-05-31_14-37-16.png)
+
+![](/assets/2018-05-31_14-37-41.png)![](/assets/2018-05-31_14-38-18.png)
 
