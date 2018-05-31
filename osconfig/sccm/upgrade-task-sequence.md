@@ -6,7 +6,7 @@ Create a New Group called OSConfig \(with Continue on error\)
 
 ---
 
-### Remove Existing Content
+### OSConfig Remove Existing
 
 To make sure that OSConfig is cleared before running again, a simple Run Command Line does the trick
 
@@ -18,7 +18,7 @@ cmd /c rd %ProgramData%\OSConfig /S /Q
 
 ---
 
-### Apply Package Content
+### OSConfig Apply Package
 
 Another Run Command Line step is all it takes to copy the Package Content to C:\ProgramData\OSConfig
 
@@ -30,7 +30,7 @@ cmd.exe /c md %ProgramData%\OSConfig & cmd.exe /c xcopy ".\*" %ProgramData%\OSCo
 
 ---
 
-### Execute OSConfig
+### OSConfig Execution
 
 Final Command Line to actually run the PowerShell script.
 
