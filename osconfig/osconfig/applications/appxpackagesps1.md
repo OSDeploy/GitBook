@@ -1,5 +1,6 @@
 # AppxPackages.ps1
 
+For starters, you should have your own PowerShell script to remove Appx Packages. We run into some complication when trying to remove them AFTER the User Profile is created, including in ALL USERS. Why not remove them before the OS is even loaded by using OSConfig?
 Hopefully you should have your own PowerShell script to remove any AppxPackages that you don't want in Windows 10, but if you don't, just edit the one I have at the bottom of this page to suit your needs.
 
 ---
