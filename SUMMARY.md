@@ -13,6 +13,7 @@
   * [Start.ps1](osconfig/advanced-configuration/start.md)
   * [Wallpaper.ps1](osconfig/advanced-configuration/wallpaper.md)
 * [OSConfig](osconfig/osconfig.md)
+  * [Applications](osconfig/osconfig/applications.md)
 
 ## Drivers
 
