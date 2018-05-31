@@ -14,6 +14,8 @@
   * [Wallpaper.ps1](osconfig/advanced-configuration/wallpaper.md)
 * [OSConfig](osconfig/osconfig.md)
   * [Applications](osconfig/osconfig/applications.md)
+* [SCCM](osconfig/sccm.md)
+  * [OSDeploy Package](osconfig/sccm/osdeploy-package.md)
 
 ## Drivers
 
