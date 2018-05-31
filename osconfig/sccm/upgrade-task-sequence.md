@@ -1,6 +1,6 @@
 # Upgrade Task Sequence
 
-Adding OSConfig to an Upgrade Task Sequence is done in three steps
+Adding OSConfig to an Upgrade Task Sequence is done in three steps.  In Post-Processing, immediately after the Upgrade the Operating System, create a New Group.
 
 ---
 
@@ -40,15 +40,7 @@ PowerShell.exe -ExecutionPolicy Bypass -File %ProgramData%\OSConfig\OSConfig.ps1
 
 ---
 
-
-
-
-
-
-
-
-
-
+Task Sequence Progress
 
 
 
