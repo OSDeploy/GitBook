@@ -16,6 +16,7 @@
   * [Applications](osconfig/osconfig/applications.md)
 * [SCCM](osconfig/sccm.md)
   * [OSDeploy Package](osconfig/sccm/osdeploy-package.md)
+  * [Upgrade Task Sequence](osconfig/sccm/upgrade-task-sequence.md)
 
 ## Drivers
 
