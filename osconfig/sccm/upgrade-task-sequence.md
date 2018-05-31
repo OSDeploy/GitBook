@@ -2,7 +2,7 @@
 
 For an Upgrade Task Sequence, the steps will be identical to the ones in the New PC Task Sequence.  In an Upgrade, OSConfig is executed in the Post-Processing phase, immediately after the Upgrade the Operating System.
 
-Create a New Group called OSConfig \(with Continue on error\)
+Start by creating a New Group called OSConfig \(with Continue on error\)
 
 ---
 
