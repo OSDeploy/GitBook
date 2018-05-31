@@ -16,7 +16,7 @@
     * [AppxPackages.ps1](osconfig/osconfig/applications/appxpackagesps1.md)
     * [Get-CurrentAppxPackages.ps1](osconfig/osconfig/applications/get-currentappxpackagesps1.md)
   * [Start](osconfig/osconfig/start.md)
-  * Background
+  * [Background](osconfig/osconfig/background.md)
 * [SCCM](osconfig/sccm.md)
   * [OSDeploy Package](osconfig/sccm/osdeploy-package.md)
   * [New PC Task Sequence](osconfig/sccm/new-pc-task-sequence.md)
