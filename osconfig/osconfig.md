@@ -18,6 +18,8 @@ Place this script in the root of OSConfig.  This script will perform the followi
 * Log all Environment Variables
 * Execute all PowerShell scripts in C:\OSConfig
 
+```
+
     #======================================================================================
     #    OSConfig.ps1
     #    Author: David Segura
@@ -67,6 +69,7 @@ Place this script in the root of OSConfig.  This script will perform the followi
     Stop-Transcript
     Return
     #======================================================================================
+```
 
 
 
