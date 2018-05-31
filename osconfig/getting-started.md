@@ -1,6 +1,6 @@
 # OSConfig: Getting Started
 
-Adding OSConfig is easy to configure in a few steps
+Running OSConfig is easy to configure in a few steps with MDT.  I recommend starting with MDT, then moving to Configuration Manager.
 
 ---
 
