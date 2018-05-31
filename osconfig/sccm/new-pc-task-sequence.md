@@ -42,7 +42,9 @@ PowerShell.exe -ExecutionPolicy Bypass -File %ProgramData%\OSConfig\OSConfig.ps1
 
 ### Task Sequence Progress
 
-Since this is a simple OSD Task Sequence without MDT Integration, we really don't have a way to tell that OSConfig has executed properly during Windows Setup.  You should see the following screens during Windows Setup
+Since this is a simple OSD Task Sequence without MDT Integration, we really don't have a way to tell that OSConfig has executed properly during Windows Setup.  You should see the following screens during Windows Setup.  This test was started from Bootable Media as a traditional Wipe and Load.
+
+![](/assets/2018-05-31_12-18-25.png)
 
 ![](/assets/2018-05-31_12-54-56.png)![](/assets/2018-05-31_12-57-33.png)
 
@@ -65,6 +67,4 @@ Everything looks great on the Desktop.  I can then go into C:\ProgramData\OSConf
 ![](/assets/2018-05-31_13-00-28.png)
 
 ![](/assets/2018-05-31_13-01-22.png)
-
-
 
