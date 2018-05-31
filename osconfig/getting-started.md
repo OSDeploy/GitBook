@@ -10,7 +10,7 @@ Modify your Unattend.xml for your MDT Task Sequence by adding a RunSynchronousCo
 
 ```
 <RunSynchronousCommand wcm:action="add">
-    <Description>OS Config</Description>
+    <Description>OSConfig</Description>
     <Order>5</Order>
     <Path>PowerShell.exe -ExecutionPolicy Bypass -File %ProgramData%\OSConfig\OSConfig.ps1</Path>
 </RunSynchronousCommand>
