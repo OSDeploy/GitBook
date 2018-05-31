@@ -42,5 +42,7 @@ PowerShell.exe -ExecutionPolicy Bypass -File %ProgramData%\OSConfig\OSConfig.ps1
 
 ---
 
-Task Sequence Progress
+### Task Sequence Progress
+
+The following screens should be visible during the Task Sequence
 
