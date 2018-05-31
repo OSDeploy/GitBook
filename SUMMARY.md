@@ -6,8 +6,8 @@
 ## OSConfig
 
 * [How It Works](osconfig/how-it-works.md)
-* [Getting Started](osconfig/getting-started.md)
 * [MDT Quick Example](osconfig/mdt-quick-example.md)
+* [PowerShell Script Breakdown](osconfig/powershell-script-breakdown.md)
 * [Advanced Configuration](osconfig/advanced-configuration/README.md)
   * [Start.ps1](osconfig/advanced-configuration/start.md)
   * [Wallpaper.ps1](osconfig/advanced-configuration/wallpaper.md)
