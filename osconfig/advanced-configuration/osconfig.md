@@ -1,25 +1,33 @@
-# OSConfig.ps1
+# OSConfig
 
-This is the current OSConfig.ps1 script that I use.  I'll explain some things.
+This section will be organized in a directory structure similar to how you should configure OSConfig.  This should be the root directory where OSConfig.ps1 resides.  This will replace the sample OSConfig.ps1 that you created in the Getting Started page.
 
-* **Screen Buffer Size** - Adding this entry to the registry gives us the ability to scroll in any scripts that are executed AFTER making this change
-* **Move the Logs** - This is important as OSConfig should be a static copy of our full Content.  In this respect, we may need to replace the scripts, keeping the LOGS in a separate location may help us in troubleshooting.
-* **Child Scripts** - It does not make sense to keep adding to a single PowerShell script to make OS changes, so any Child Item that is within one level deep of our OSConfig.ps1 will be executed.  This allows us to completely separate scripts for different functions.
+For MDT, this directory can reside at %DeployRoot%\OSDeploy\OSConfig
 
-
+For ConfigMgr, this would be the in root of a Package
 
 ---
 
-## Sample OSConfig.ps1
+### OSConfig.ps1
+
+Place this script in the root of OSConfig.  This script will perform the following:
+
+* Increase the Screen Buffer size of the Console Windows
+* Create C:\ProgramData\OSConfigLogs
+* Create a PowerShell Transcript at C:\ProgramData\OSConfigLogs
+* Log all Environment Variables
+* Execute all PowerShell scripts in C:\OSConfig
+
+```
 
     #======================================================================================
     #    OSConfig.ps1
     #    Author: David Segura
-    #    Version: 20180525
+    #    Version: 20180531
     #======================================================================================
-    #    SYSTEM Profile does not have any default values for Console
-    #    Adding this entry allows us to scroll in OOBE
+    #    Increase the Screen Buffer size
     #======================================================================================
+    #    This entry allows scrolling of the console windows
     if (!(Test-Path "HKCU:\Console")) {
         New-Item -Path "HKCU:\Console" -Force | Out-Null
         New-ItemProperty -Path HKCU:\Console ScreenBufferSize -Value 589889656 -PropertyType DWORD -Force | Out-Null
@@ -40,11 +48,12 @@ This is the current OSConfig.ps1 script that I use.  I'll explain some things.
     #======================================================================================
     Get-Childitem -Path Env:* | Sort-Object Name | Format-Table
     #======================================================================================
-    #    Execute all PowerShell files in the Script $PSScriptRoot
-    #    Only files up to one level deep are executed
+    #    Execute PowerShell files in OSConfig
     #======================================================================================
     Write-Host ""
-    $OSConfigFiles = Get-ChildItem $PSScriptRoot -Filter *.ps1 -File -Recurse -Depth 1 -Exclude $ScriptName
+    #    Strange bug, even though we specify a Depth of 1, PowerShell in OOBE will not
+    #    honor this and will execute all child scripts, no matter the depth
+    $OSConfigFiles = Get-ChildItem $PSScriptRoot -Filter *.ps1 -File -Depth 1 -Exclude $ScriptName
     foreach ($file in $OSConfigFiles) {
         Write-Host "Processing $($file.FullName)" -ForegroundColor Cyan
         Start-Process PowerShell.exe -ArgumentList "-file `"$($file.FullName)`"" -Wait
@@ -56,10 +65,11 @@ This is the current OSConfig.ps1 script that I use.  I'll explain some things.
     #Start-Process PowerShell_ISE.exe -Wait
     #Read-Host -Prompt "Press Enter to Continue"
     #======================================================================================
-    Write-Host $ScriptName
+    Write-Host ""
     Stop-Transcript
     Return
     #======================================================================================
+```
 
 
 
