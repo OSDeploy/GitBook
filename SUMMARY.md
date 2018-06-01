@@ -9,6 +9,7 @@
 * [MDT Quick Start](osconfig/mdt-quick-start.md)
 * [Advanced Configuration](osconfig/advanced-configuration/README.md)
   * [Removing Appx Packages](osconfig/advanced-configuration/removing-appx-packages.md)
+  * [Customization Script Breakdown](osconfig/advanced-configuration/customization-script-breakdown.md)
   * [Customizing the Start Menu](osconfig/advanced-configuration/customizing-the-start-menu.md)
   * [Customizing the Lock and Logon Background](osconfig/advanced-configuration/customizing-the-lock-and-logon-background.md)
 * [PowerShell Script Breakdown](osconfig/powershell-script-breakdown.md)
