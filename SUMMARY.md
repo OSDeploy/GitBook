@@ -9,7 +9,6 @@
 * [MDT Quick Start](osconfig/mdt-quick-start.md)
 * [Advanced Configuration](osconfig/advanced-configuration/README.md)
   * [Removing Appx Packages](osconfig/advanced-configuration/removing-appx-packages.md)
-  * [Start](osconfig/osconfig/start.md)
   * [Customizing the Start Menu](osconfig/advanced-configuration/customizing-the-start-menu.md)
 * [PowerShell Script Breakdown](osconfig/powershell-script-breakdown.md)
 * [OSConfig](osconfig/osconfig.md)
