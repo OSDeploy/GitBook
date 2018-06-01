@@ -15,6 +15,7 @@
   * [Local Group Policy](osconfig/advanced-configuration/local-group-policy.md)
 * [Utility Scripts](osconfig/utility-scripts/README.md)
   * [Get Current Appx Packages](osconfig/utility-scripts/get-currentappxpackagesps1.md)
+  * [Registry Backup](osconfig/utility-scripts/registry-backup.md)
 * [SCCM Configuration](osconfig/sccm-configuration/README.md)
   * [OSDeploy Package](osconfig/sccm-configuration/osdeploy-package.md)
   * [New PC Task Sequence](osconfig/sccm-configuration/new-pc-task-sequence.md)
