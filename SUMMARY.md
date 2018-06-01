@@ -12,7 +12,8 @@
   * [Customization Script Breakdown](osconfig/advanced-configuration/customization-script-breakdown.md)
   * [Customizing the Start Menu](osconfig/advanced-configuration/customizing-the-start-menu.md)
   * [Customizing the Lock and Logon Background](osconfig/advanced-configuration/customizing-the-lock-and-logon-background.md)
-* [PowerShell Script Breakdown](osconfig/powershell-script-breakdown.md)
+* Utility Scripts
+  * [Get Appx Packages](osconfig/get-appx-packages.md)
 * [OSConfig](osconfig/osconfig.md)
   * [Applications](osconfig/osconfig/applications.md)
     * [Get-CurrentAppxPackages.ps1](osconfig/osconfig/applications/get-currentappxpackagesps1.md)
