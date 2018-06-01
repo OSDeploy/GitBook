@@ -6,6 +6,7 @@
 ## OSConfig
 
 * [How It Works](osconfig/how-it-works.md)
+* [MDT Quick Start](osconfig/mdt-quick-start.md)
 * [MDT Quick Example](osconfig/mdt-quick-example.md)
 * [PowerShell Script Breakdown](osconfig/powershell-script-breakdown.md)
 * [OSConfig](osconfig/osconfig.md)
