@@ -14,7 +14,7 @@
   * [Customizing the Lock and Logon Background](osconfig/advanced-configuration/customizing-the-lock-and-logon-background.md)
   * [Local Group Policy](osconfig/advanced-configuration/local-group-policy.md)
 * [Utility Scripts](osconfig/utility-scripts/README.md)
-  * [Get Appx Packages](osconfig/utility-scripts/get-appx-packages.md)
+  * [Get Current Appx Packages](osconfig/utility-scripts/get-currentappxpackagesps1.md)
 * [SCCM Configuration](osconfig/sccm-configuration/README.md)
   * [OSDeploy Package](osconfig/sccm-configuration/osdeploy-package.md)
   * [New PC Task Sequence](osconfig/sccm-configuration/new-pc-task-sequence.md)
