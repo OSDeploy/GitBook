@@ -36,7 +36,7 @@ cmd /c robocopy "%DeployRoot%\OSDeploy\OSConfig" %OSDisk%\ProgramData\OSConfig *
 
 ## Create a Sample OSConfig PowerShell Script
 
-On your Deployment Share, create a new file at %DeployRoot%\OSDeploy\OSConfig\OSConfig.ps1 and paste the following contents in the file
+On your Deployment Share, create a new file at %DeploymentShare%\OSDeploy\OSConfig\OSConfig.ps1 and paste the following contents in the file
 
 ```
 #======================================================================================
