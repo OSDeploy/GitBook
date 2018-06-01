@@ -15,6 +15,7 @@ This script will perform the following actions:
 * Log all Environment Variables
 * Execute all PowerShell scripts in C:\OSConfig
 
+```
     #======================================================================================
     #	Author: David Segura
     #	Version: 20180601
@@ -63,6 +64,6 @@ This script will perform the following actions:
     Stop-Transcript
     Return
     #======================================================================================
-
+```
 
 
