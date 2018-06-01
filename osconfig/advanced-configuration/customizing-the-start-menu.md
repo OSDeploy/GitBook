@@ -15,13 +15,17 @@ If you are going to do this the right way, you need three types of StartLayout X
 
 ---
 
-Add your 
+### Start Directory
+
+Create a Directory at %DeploymentShare%\OSDeploy\OSConfig\Start
+
+This is where we will place our Start Menu content
 
 ---
 
 ## Date and Time Stamps
 
-One thing to note is that the Date and Time is DIFFERENT for each level.  This is because Windows will not refresh the StartLayout.xml from Policy if the Date / Time Stamp had not changed.  So since these are applied on a level based \(Layout Modification &lt; Start Layout &lt; Start Layout Domain\), you want to keep the one you want to OVERWRITE as the never version.
+One thing to note is that the Date and Time is DIFFERENT for each type of Start Layout XML.  This is because Windows will not refresh the StartLayout.xml from Policy if the Date / Time Stamp had not changed.  So since these are applied on a level based \(Layout Modification &lt; Start Layout &lt; Start Layout Domain\), you want to keep the one you want to OVERWRITE as the never Date Time Stamp.
 
 ![](/assets/2018-05-25_14-08-17.png)
 
