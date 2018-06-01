@@ -6,7 +6,7 @@ Before getting to deep into customizations, if you are going to use any of my Sa
 
 ## Requirements
 
-I add a Requirements section to my scripts to filter out compatibility.  While you can do this in your own scripts, this makes things easy if I want to apply a PS1 script to Windows 10 only as we still deploy Windows 7 in my environment.  If I have a PowerShell script that I want to target to Windows 10 1803, then I can specify this as well.
+I add a Requirements section to my scripts to filter out Operating System compatibility.  In the first example, this script will only execute on Windows 10 1803
 
 ```
 #======================================================================================
@@ -18,7 +18,17 @@ $RequiresBuild = ""
 #$VerbosePreference = 'Continue'
 #======================================================================================
 ```
-
+In the example below, this will run the script on Windows 7 computers only
+```
+#======================================================================================
+#	Requirements
+#======================================================================================
+$RequiresOS = "Windows 7"
+$RequiresReleaseId = ""
+$RequiresBuild = ""
+#$VerbosePreference = 'Continue'
+#======================================================================================
+```
 ---
 
 ## Transcript
@@ -62,18 +72,13 @@ Write-Host "BIOSReleaseDate: $BIOSReleaseDate" -ForegroundColor Cyan
 Write-Host ""
 #======================================================================================
 ```
-
 ![](/assets/2018-05-25_11-49-54.png)
-
-
 
 ---
 
 ## Windows Information
 
-Normally I would use WMI, but since WMI is not available in OOBE, I'll gather some common Windows information and save those as Variables.  Output is in the Console and in the Transcript.
-
-
+Normally I would use WMI, but since WMI is not available in OOBE, I'll gather some common Windows information and save those as Variables.  Output is in the Console and in the Transcript.  WMI will work in SCCM Task Sequences though, but I'll keep everything this way for MDT backward compatibility
 
 ```
 #======================================================================================
