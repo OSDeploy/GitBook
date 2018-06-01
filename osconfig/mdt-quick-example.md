@@ -6,23 +6,25 @@ Running OSConfig is easy to configure in a few steps with MDT.  I recommend star
 
 ## Edit the Unattend.xml
 
-Modify your Unattend.xml for your MDT Task Sequence by adding a RunSynchronousCommand.  In the example below, I am adding the following.  Make sure your Order value is unique.
+Locate your Unattend.xml at _%DeploymentShare%\Control\%TaskSequenceID%\Unattend.xml_
+
+In the Specialize pass, add a RunSynchronousCommand.  In the example below, I am adding the following.  Make sure your Order value is unique.
 
 ```
 <RunSynchronousCommand wcm:action="add">
     <Description>OSConfig</Description>
     <Order>5</Order>
-    <Path>PowerShell.exe -ExecutionPolicy Bypass -File %ProgramData%\OSConfig\OSConfig.ps1</Path>
+    <Path>PowerShell.exe -ExecutionPolicy Bypass -File C:\ProgramData\OSConfig\OSConfig.ps1</Path>
 </RunSynchronousCommand>
 ```
 
-![](/assets/2018-05-24_23-22-43.png)
+![](/assets/2018-06-01_1-48-41.png)
 
 ---
 
 ## Edit the Task Sequence
 
-Add the following command in your Task Sequence right before the Restart computer step.  This will copy the contents of the OSConfig directory in your Deployment Share to %ProgramData%
+Add the following command in your Task Sequence right before the Restart computer step.  This will copy the contents of the OSConfig directory in your Deployment Share to %ProgramData%.  Make sure your %OSDisk% is actually being used first 
 
 ```
 cmd /c robocopy "%DeployRoot%\OSDeploy\OSConfig" %OSDisk%\ProgramData\OSConfig *.* /mir /ndl /nfl /r:1 /w:1 /xj /z
@@ -32,15 +34,9 @@ cmd /c robocopy "%DeployRoot%\OSDeploy\OSConfig" %OSDisk%\ProgramData\OSConfig *
 
 ---
 
-## Create the Sample OSConfig PowerShell Script
+## Create a Sample OSConfig PowerShell Script
 
-In your Deployment Share, create the following location
-
-```
-%DeployRoot%\OSDeploy\OSConfig
-```
-
-Now create a file called OSConfig.ps1 and paste the following contents in the file
+On your Deployment Share, create a new file at %DeployRoot%\OSDeploy\OSConfig\OSConfig.ps1 and paste the following contents in the file
 
 ```
 #======================================================================================
@@ -62,11 +58,11 @@ Return
 
 ---
 
-## Deploy the Task Sequence
+## Runthe Task Sequence
 
-Now the fun part.  Deploy the Task Sequence
+Now the fun part ... run the Task Sequence
 
-As you can see, this PowerShell Script is running under the System context, so you can pretty much do anything you want.  Since we added a Read=Host command, press Enter to continue.
+As you can see, this PowerShell Script is running under the System context, so you can pretty much do anything you want.  Since we added a Read-Host command, it will stay at this point until you press Enter.
 
 ![](/assets/2018-05-24_23-42-47.png)
 
