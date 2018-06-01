@@ -18,7 +18,7 @@ This script will perform the following actions:
         #======================================================================================
         #    Author: David Segura
         #    Version: 20180601
-        #    Source: https://raw.githubusercontent.com/OSDeploy/OSConfig/master/OSConfig.ps1
+        #    https://raw.githubusercontent.com/OSDeploy/OSConfig/master/OSConfig.ps1
         #======================================================================================
         #    Increase the Screen Buffer size
         #======================================================================================
