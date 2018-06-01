@@ -1,14 +1,14 @@
 # MDT Quick Start
 
-Running OSConfig is easy to configure in a few steps with MDT.  I recommend starting with MDT, then moving to Configuration Manager.
+Running OSConfig is easy to configure in a few steps with MDT.  I recommend starting with MDT for testing, then moving to Configuration Manager.
 
 ---
 
 ## Edit the Unattend.xml
 
-Locate your Unattend.xml at _%DeploymentShare%\Control\%TaskSequenceID%\Unattend.xml_
+Start with a New Computer Task Sequence.  Locate your Unattend.xml at _%DeploymentShare%\Control\%TaskSequenceID%\Unattend.xml_
 
-In the Specialize pass, add a RunSynchronousCommand.  In the example below, I am adding the following.  Make sure your Order value is unique.
+In the Specialize pass, add a RunSynchronousCommand.  In the example below, I am adding the following.  Make sure your Order value is unique and sequential.  Since I have 4 previous entries, I will assign this as Order 5.
 
 ```
 <RunSynchronousCommand wcm:action="add">
@@ -24,7 +24,7 @@ In the Specialize pass, add a RunSynchronousCommand.  In the example below, I am
 
 ## Edit the Task Sequence
 
-Add the following command in your Task Sequence right before the Restart computer step.  This will copy the contents of the OSConfig directory in your Deployment Share to %ProgramData%.  Make sure your %OSDisk% is actually being used first 
+Add the following command in your Task Sequence right before the Restart computer step.  This will copy the contents of the OSConfig directory in your Deployment Share to %ProgramData%.  Make sure your Variable %OSDisk% is assigned properly in your Disk Partitioning
 
 ```
 cmd /c robocopy "%DeployRoot%\OSDeploy\OSConfig" %OSDisk%\ProgramData\OSConfig *.* /mir /ndl /nfl /r:1 /w:1 /xj /z
@@ -58,7 +58,7 @@ Return
 
 ---
 
-## Runthe Task Sequence
+## Run the Task Sequence
 
 Now the fun part ... run the Task Sequence
 
@@ -101,16 +101,4 @@ And keep in mind this is running in a Local System context, so we do not have ri
 ## Why ProgramData?
 
 For one thing, it is stable.  When performing Feature Updates, if our Local Content is in the Windows directory, this will be removed.  C:\ProgramData will not, so this is the best location for your Local Content.
-
-
-
-
-
-
-
-
-
-
-
-
 
