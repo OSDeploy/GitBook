@@ -8,6 +8,7 @@
 * [How It Works](osconfig/how-it-works.md)
 * [MDT Quick Start](osconfig/mdt-quick-start.md)
 * [Advanced Configuration](osconfig/advanced-configuration/README.md)
+  * [OSConfig](osconfig/advanced-configuration/osconfig.md)
   * [Removing Appx Packages](osconfig/advanced-configuration/removing-appx-packages.md)
   * [Customization Script Breakdown](osconfig/advanced-configuration/customization-script-breakdown.md)
   * [Customizing the Start Menu](osconfig/advanced-configuration/customizing-the-start-menu.md)
@@ -15,7 +16,6 @@
 * Utility Scripts
   * [Get Appx Packages](osconfig/get-appx-packages.md)
 * [OSConfig](osconfig/osconfig.md)
-  * [Applications](osconfig/osconfig/applications.md)
 * [SCCM Configuration](osconfig/sccm-configuration/README.md)
   * [OSDeploy Package](osconfig/sccm-configuration/osdeploy-package.md)
   * [New PC Task Sequence](osconfig/sccm-configuration/new-pc-task-sequence.md)

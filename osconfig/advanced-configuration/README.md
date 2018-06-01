@@ -1,6 +1,6 @@
-# OSConfig: Advanced Configuration
+# Advanced Configuration
 
-Before getting to deep into customizations, if you are going to use any of my Sample Scripts, you need to understand a few things.
+Before getting to deep into customizations, if you are going to use any of my Sample Scripts, you need to understand a few things and why they are done a certain way.
 
 ---
 
@@ -212,17 +212,7 @@ I make sure to include a PowerShell ISE and Read-Host prompt \(commented out\) t
 #Start-Process PowerShell_ISE.exe -Wait
 #Read-Host -Prompt "Press Enter to Continue"
 #======================================================================================
-Write-Host $ScriptName
 Stop-Transcript
 Return
 #======================================================================================
 ```
-
-
-
-
-
-
-
-
-
