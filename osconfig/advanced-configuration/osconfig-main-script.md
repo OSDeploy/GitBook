@@ -6,7 +6,10 @@ Now let's start with our simple OSConfig.ps1 located at %DeploymentShare%\OSDepl
 
 ### OSConfig.ps1
 
-Place this script in your OSConfig directory at %DeploymentShare%\OSDeploy\OSConfig\OSConfig.ps1 \(replacing the one we used in the MDT Quick Start  
+Place this script in your OSConfig directory at %DeploymentShare%\OSDeploy\OSConfig\OSConfig.ps1 \(replacing the one we used in the MDT Quick Start
+
+![](/assets/2018-06-01_13-56-17.png)
+
 This script will perform the following actions:
 
 * Increase the Screen Buffer size of the Console Windows
@@ -64,6 +67,14 @@ This script will perform the following actions:
         Stop-Transcript
         Return
         #======================================================================================
+
+---
+
+Execution
+
+After populating this file 
+
+
 
 
 
