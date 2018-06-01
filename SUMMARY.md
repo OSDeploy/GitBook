@@ -16,8 +16,6 @@
   * [Get Appx Packages](osconfig/get-appx-packages.md)
 * [OSConfig](osconfig/osconfig.md)
   * [Applications](osconfig/osconfig/applications.md)
-    * [Get-CurrentAppxPackages.ps1](osconfig/osconfig/applications/get-currentappxpackagesps1.md)
-  * [Background](osconfig/osconfig/background.md)
 * [SCCM Configuration](osconfig/sccm-configuration/README.md)
   * [OSDeploy Package](osconfig/sccm-configuration/osdeploy-package.md)
   * [New PC Task Sequence](osconfig/sccm-configuration/new-pc-task-sequence.md)

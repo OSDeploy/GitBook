@@ -1,3 +1,15 @@
+# Applications
+
+Any PowerShell script relating to modifying Applications should go in here, such as a script to remove unnecessary Windows 10 AppxPackages.
+
+Create a directory under OSConfig called Applications and start adding your own scripts.
+
+![](/assets/2018-05-31_0-43-53.png)
+
+---
+
+
+
 # AppxPackages.ps1
 
 For starters, you should have your own PowerShell script to remove Appx Packages. We run into some complication when trying to remove them AFTER the User Profile is created, including in ALL USERS. Why not remove them before the OS is even loaded by using OSConfig?
