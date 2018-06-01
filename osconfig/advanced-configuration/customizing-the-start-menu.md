@@ -15,45 +15,15 @@ If you are going to do this the right way, you need three types of StartLayout X
 
 ---
 
-### Start Directory
+### Start.ps1
 
-Create a Directory at %DeploymentShare%\OSDeploy\OSConfig\Start
-
-This is where we will place our Start Menu content
-
----
-
-## Date and Time Stamps
-
-One thing to note is that the Date and Time is DIFFERENT for each type of Start Layout XML.  This is because Windows will not refresh the StartLayout.xml from Policy if the Date / Time Stamp had not changed.  So since these are applied on a level based \(Layout Modification &lt; Start Layout &lt; Start Layout Domain\), you want to keep the one you want to OVERWRITE as the never Date Time Stamp.
-
-![](/assets/2018-05-25_14-08-17.png)
-
----
-
-## Before
-
-This is how my Start Layout looked before processing the script after removing Appx Packages.
-
-![](/assets/2018-05-25_10-33-07.png)
-
----
-
-## After
-
-This looks much nicer.  My Office 2016 Group will show up after it is installed, for any new profiles that have been created
-
-![](/assets/2018-05-25_13-24-03.png)
-
----
-
-## Sample Start.ps1
+Create a Directory at %DeploymentShare%\OSDeploy\OSConfig\Start.  This is where we will place our Start Layout XML files as well as the Start.ps1 file below.  Customize it to suit your purposes
 
 ```
 #======================================================================================
-#    Start.ps1
 #    Author: David Segura
-#    Version: 20180525
+#    Version: 20180601
+#    https://raw.githubusercontent.com/OSDeploy/OSConfig/master/Start/Start.ps1
 #======================================================================================
 #    Requirements
 #======================================================================================
@@ -218,6 +188,7 @@ if (Test-Path "$env:ProgramData\OSConfig\Start\StartLayout.xml") {
     Write-Host "Importing StartLayout.xml ..."
     Import-StartLayout -LayoutPath "$env:ProgramData\OSConfig\Start\StartLayout.xml" -MountPath "$env:SystemDrive\"
 }
+#======================================================================================
 Write-Host ""
 #======================================================================================
 #    Enable the following lines for testing
@@ -225,10 +196,242 @@ Write-Host ""
 #Start-Process PowerShell_ISE.exe -Wait
 #Read-Host -Prompt "Press Enter to Continue"
 #======================================================================================
-Write-Host $ScriptName
 Stop-Transcript
 Return
 #======================================================================================
+```
+
+---
+
+### Date and Time Stamps
+
+One thing to note is that the Date and Time is DIFFERENT for each type of Start Layout XML.  This is because Windows will not refresh the StartLayout.xml from Policy if the Date / Time Stamp had not changed.  So since these are applied on a level based \(Layout Modification &lt; Start Layout &lt; Start Layout Domain\), you want to keep the one you want to OVERWRITE as the never Date Time Stamp.
+
+![](/assets/2018-05-25_14-08-17.png)
+
+---
+
+### Before
+
+This is how my Start Layout looked before processing the script after removing Appx Packages.
+
+![](/assets/2018-05-25_10-33-07.png)
+
+---
+
+### After
+
+This looks much nicer.  My Office 2016 Group will show up after it is installed, for any new profiles that have been created
+
+![](/assets/2018-05-25_13-24-03.png)
+
+---
+
+### Sample LayoutModification1803.xml
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<LayoutModificationTemplate
+    xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification"
+    xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout"
+    xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout"
+    xmlns:taskbar="http://schemas.microsoft.com/Start/2014/TaskbarLayout"
+    Version="1">
+	<LayoutOptions StartTileGroupCellWidth="6" />
+	<DefaultLayoutOverride>
+		<StartLayoutCollection>
+			<defaultlayout:StartLayout GroupCellWidth="6" xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout">
+				<start:Group Name="Main" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout">
+					<start:DesktopApplicationTile Size="2x2" Column="0" Row="0" DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\System Tools\Computer.lnk" />
+					<start:DesktopApplicationTile Size="2x2" Column="2" Row="0" DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\System Tools\Control Panel.lnk" />
+					<start:Tile	Size="2x2" Column="4" Row="0" AppUserModelID="Microsoft.Getstarted_8wekyb3d8bbwe!App" />
+					<start:DesktopApplicationTile Size="1x1" Column="0" Row="2" DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\System Tools\Run.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="1" Row="2" DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\System Tools\Command Prompt.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="2" Row="2" DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="3" Row="2" DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell ISE.lnk" />
+				</start:Group>
+				<start:Group Name="Office" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout">
+					<start:DesktopApplicationTile Size="2x2" Column="0" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Outlook 2016.lnk" />
+					<start:DesktopApplicationTile Size="2x2" Column="2" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Word 2016.lnk" />
+					<start:DesktopApplicationTile Size="2x2" Column="4" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Excel 2016.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="0" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\PowerPoint 2016.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="1" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\OneNote 2016.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="2" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Publisher 2016.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="3" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Access 2016.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="4" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Skype for Business 2016.lnk" />
+					<start:DesktopApplicationTile Size="2x2" Column="0" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Outlook 2013.lnk" />
+					<start:DesktopApplicationTile Size="2x2" Column="2" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Word 2013.lnk" />
+					<start:DesktopApplicationTile Size="2x2" Column="4" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Excel 2013.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="0" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\PowerPoint 2013.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="1" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\OneNote 2013.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="2" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Publisher 2013.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="3" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Access 2013.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="4" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Skype for Business 2015.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="4" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Skype for Business 2013.lnk" />
+				</start:Group>
+			</defaultlayout:StartLayout>
+		</StartLayoutCollection>
+	</DefaultLayoutOverride>
+	<CustomTaskbarLayoutCollection PinListPlacement="Replace">
+		<defaultlayout:TaskbarLayout>
+			<taskbar:TaskbarPinList>
+				<taskbar:DesktopApp DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\System Tools\File Explorer.lnk" />
+				<taskbar:DesktopApp DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Accessories\Internet Explorer.lnk"/>
+				<taskbar:DesktopApp DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Outlook 2013.lnk"/>
+				<taskbar:DesktopApp DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Outlook 2016.lnk"/>
+			</taskbar:TaskbarPinList>
+		</defaultlayout:TaskbarLayout>
+	</CustomTaskbarLayoutCollection>
+</LayoutModificationTemplate>
+```
+
+---
+
+### Sample StartLayout1803.xml
+
+The change in this from the previous Sample is the following line
+
+```
+<DefaultLayoutOverride LayoutCustomizationRestrictionType="OnlySpecifiedGroups">
+```
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<LayoutModificationTemplate
+    xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification"
+    xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout"
+    xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout"
+    xmlns:taskbar="http://schemas.microsoft.com/Start/2014/TaskbarLayout"
+    Version="1">
+	<LayoutOptions StartTileGroupCellWidth="6" />
+	<DefaultLayoutOverride LayoutCustomizationRestrictionType="OnlySpecifiedGroups">
+		<StartLayoutCollection>
+			<defaultlayout:StartLayout GroupCellWidth="6" xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout">
+				<start:Group Name="Main" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout">
+					<start:DesktopApplicationTile Size="2x2" Column="0" Row="0" DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\System Tools\Computer.lnk" />
+					<start:DesktopApplicationTile Size="2x2" Column="2" Row="0" DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\System Tools\Control Panel.lnk" />
+					<start:Tile	Size="2x2" Column="4" Row="0" AppUserModelID="Microsoft.Getstarted_8wekyb3d8bbwe!App" />
+					<start:DesktopApplicationTile Size="1x1" Column="0" Row="2" DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\System Tools\Run.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="1" Row="2" DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\System Tools\Command Prompt.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="2" Row="2" DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="3" Row="2" DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell ISE.lnk" />
+				</start:Group>
+				<start:Group Name="Office" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout">
+					<start:DesktopApplicationTile Size="2x2" Column="0" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Outlook 2016.lnk" />
+					<start:DesktopApplicationTile Size="2x2" Column="2" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Word 2016.lnk" />
+					<start:DesktopApplicationTile Size="2x2" Column="4" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Excel 2016.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="0" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\PowerPoint 2016.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="1" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\OneNote 2016.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="2" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Publisher 2016.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="3" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Access 2016.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="4" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Skype for Business 2016.lnk" />
+					<start:DesktopApplicationTile Size="2x2" Column="0" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Outlook 2013.lnk" />
+					<start:DesktopApplicationTile Size="2x2" Column="2" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Word 2013.lnk" />
+					<start:DesktopApplicationTile Size="2x2" Column="4" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Excel 2013.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="0" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\PowerPoint 2013.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="1" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\OneNote 2013.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="2" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Publisher 2013.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="3" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Access 2013.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="4" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Skype for Business 2015.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="4" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Skype for Business 2013.lnk" />
+				</start:Group>
+			</defaultlayout:StartLayout>
+		</StartLayoutCollection>
+	</DefaultLayoutOverride>
+	<CustomTaskbarLayoutCollection PinListPlacement="Replace">
+		<defaultlayout:TaskbarLayout>
+			<taskbar:TaskbarPinList>
+				<taskbar:DesktopApp DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\System Tools\File Explorer.lnk" />
+				<taskbar:DesktopApp DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Accessories\Internet Explorer.lnk"/>
+				<taskbar:DesktopApp DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Outlook 2013.lnk"/>
+				<taskbar:DesktopApp DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Outlook 2016.lnk"/>
+			</taskbar:TaskbarPinList>
+		</defaultlayout:TaskbarLayout>
+	</CustomTaskbarLayoutCollection>
+</LayoutModificationTemplate>
+```
+
+---
+
+### Sample StartLayoutDomain1803.xml
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<LayoutModificationTemplate
+    xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification"
+    xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout"
+    xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout"
+    xmlns:taskbar="http://schemas.microsoft.com/Start/2014/TaskbarLayout"
+    Version="1">
+	<LayoutOptions StartTileGroupCellWidth="6" />
+	<DefaultLayoutOverride LayoutCustomizationRestrictionType="OnlySpecifiedGroups">
+		<StartLayoutCollection>
+			<defaultlayout:StartLayout GroupCellWidth="6" xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout">
+				<start:Group Name="Main" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout">
+					<start:DesktopApplicationTile Size="2x2" Column="0" Row="0" DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\System Tools\Computer.lnk" />
+					<start:DesktopApplicationTile Size="2x2" Column="2" Row="0" DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\System Tools\Control Panel.lnk" />
+					<start:Tile	Size="2x2" Column="4" Row="0" AppUserModelID="Microsoft.Getstarted_8wekyb3d8bbwe!App" />
+					<start:DesktopApplicationTile Size="1x1" Column="0" Row="2" DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\System Tools\Run.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="1" Row="2" DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\System Tools\Command Prompt.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="2" Row="2" DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="3" Row="2" DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell ISE.lnk" />
+				</start:Group>
+				<start:Group Name="Office" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout">
+					<start:DesktopApplicationTile Size="2x2" Column="0" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Outlook 2016.lnk" />
+					<start:DesktopApplicationTile Size="2x2" Column="2" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Word 2016.lnk" />
+					<start:DesktopApplicationTile Size="2x2" Column="4" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Excel 2016.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="0" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\PowerPoint 2016.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="1" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\OneNote 2016.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="2" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Publisher 2016.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="3" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Access 2016.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="4" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Skype for Business 2016.lnk" />
+					<start:DesktopApplicationTile Size="2x2" Column="0" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Outlook 2013.lnk" />
+					<start:DesktopApplicationTile Size="2x2" Column="2" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Word 2013.lnk" />
+					<start:DesktopApplicationTile Size="2x2" Column="4" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Excel 2013.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="0" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\PowerPoint 2013.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="1" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\OneNote 2013.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="2" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Publisher 2013.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="3" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Access 2013.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="4" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Skype for Business 2015.lnk" />
+					<start:DesktopApplicationTile Size="1x1" Column="4" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Skype for Business 2013.lnk" />
+				</start:Group>
+				<start:Group Name="Support" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout">
+					<start:SecondaryTile AppUserModelID="Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge"
+						TileID="CustomizeMe1"
+						Arguments="http://intranet/link/one"
+						DisplayName="My Hot Link"
+						Square150x150LogoUri="ms-appx:///Assets/MicrosoftEdgeSquare150x150.png" 
+						Wide310x150LogoUri="ms-appx:///Assets/MicrosoftEdgeWide310x150.png"
+						ShowNameOnSquare150x150Logo="true"
+						ShowNameOnWide310x150Logo="true"
+						Size="2x2" Column="0" Row="0"
+					/>
+					<start:SecondaryTile AppUserModelID="Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge"
+						TileID="CustomizeMe2"
+						Arguments="http://intanet/link/two"
+						DisplayName="My Cool Link"
+						Square150x150LogoUri="ms-appx:///Assets/MicrosoftEdgeSquare150x150.png" 
+						Wide310x150LogoUri="ms-appx:///Assets/MicrosoftEdgeWide310x150.png"
+						ShowNameOnSquare150x150Logo="true"
+						ShowNameOnWide310x150Logo="true"
+						Size="2x2" Column="2" Row="0"
+					/>
+					<start:DesktopApplicationTile Size="2x2" Column="4" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft System Center\Configuration Manager\Software Center.lnk" />
+				</start:Group>
+			</defaultlayout:StartLayout>
+		</StartLayoutCollection>
+	</DefaultLayoutOverride>
+	<CustomTaskbarLayoutCollection PinListPlacement="Replace">
+		<defaultlayout:TaskbarLayout>
+			<taskbar:TaskbarPinList>
+				<taskbar:DesktopApp DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\System Tools\File Explorer.lnk" />
+				<taskbar:DesktopApp DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Accessories\Internet Explorer.lnk"/>
+				<taskbar:DesktopApp DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Outlook 2013.lnk"/>
+				<taskbar:DesktopApp DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Outlook 2016.lnk"/>
+			</taskbar:TaskbarPinList>
+		</defaultlayout:TaskbarLayout>
+	</CustomTaskbarLayoutCollection>
+</LayoutModificationTemplate>
 ```
 
 
