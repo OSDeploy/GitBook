@@ -221,7 +221,9 @@ This is how my Start Layout looked before processing the script after removing A
 
 ### Using LayoutModification\*.xml
 
-This looks much nicer.  My Office 2016 Group will show up after it is installed, for any new profiles that have been created.  Using the LayoutModification\*.xml will only set the Start Menu for new User Profiles
+This looks much nicer.  My Office 2016 Group will show up after it is installed, for any new profiles that have been created.  Using the LayoutModification\*.xml will only set the Start Menu for new User Profiles.
+
+When using my script, it will apply the LayoutModification.xml using the PowerShell Import-StartLayout command.  This Start Menu is fully editable.
 
 ![](/assets/2018-05-25_13-24-03.png)
 
@@ -229,7 +231,33 @@ This looks much nicer.  My Office 2016 Group will show up after it is installed,
 
 ### Using StartLayout\*.xml
 
-Using a StartLayout\*.xml triggers the setting of the Start Layout in Local Policy as well as running the Import-StartLayout PowerShell command.  The benefit of this is so we can Lock certain groups, like Main, and still allow user customization of anything on the Start Menu that is not in the Locked Groups.
+Using a StartLayout\*.xml triggers the setting of the Start Layout in Local Policy.  As long as we include the proper change in the DefaultLayoutOverride XML node, we can Lock certain groups, like Main, and still allow user customization of anything on the Start Menu that is not in Main.
+
+LayoutModification\*.xml
+
+```
+<DefaultLayoutOverride>
+```
+
+StartLayout\*.xml
+
+```
+<DefaultLayoutOverride LayoutCustomizationRestrictionType="OnlySpecifiedGroups">
+```
+
+In this image, the Main group is Locked and cannot be edited.
+
+![](/assets/2018-06-02_0-48-39.png)
+
+But the user can add other Groups and modify those freely.
+
+![](/assets/2018-06-02_0-50-31.png)
+
+
+
+
+
+
 
 
 
