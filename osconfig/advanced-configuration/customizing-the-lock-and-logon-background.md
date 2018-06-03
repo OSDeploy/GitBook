@@ -1,6 +1,8 @@
-# Wallpaper
+# Customizing the Lock and Logon Background
 
 While this is called Wallpaper, you won't see Wallpaper changes unless you add a proper USER POLICY, so this will focus on getting the Lock and Logon Screens changed, but the User Wallpaper will be ready to go when you make the changes to the User Policy.
+
+![](/assets/2018-05-25_14-28-53.png)
 
 ---
 
@@ -14,7 +16,7 @@ Get the following images in a Wallpaper directory.  I prefer a solid color, with
 
 ## Before
 
-![](/assets/2018-05-25_14-28-53.png)
+
 
 ---
 
