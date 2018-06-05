@@ -12,7 +12,7 @@
   * [Decoding My PowerShell Scripts](osconfig/advanced-configuration/decoding-my-powershell-scripts.md)
   * [Removing Appx Packages](osconfig/advanced-configuration/removing-appx-packages.md)
   * [Customizing the Start Menu](osconfig/advanced-configuration/customizing-the-start-menu.md)
-  * Customizing the Lock and Logon Background
+  * [Customizing the Lock and Logon Background](osconfig/advanced-configuration/customizing-the-lock-and-logon-background.md)
 * [Utility Scripts](osconfig/utility-scripts/README.md)
 * [SCCM Configuration](osconfig/sccm-configuration/README.md)
   * [OSDeploy Package](osconfig/sccm-configuration/osdeploy-package.md)
