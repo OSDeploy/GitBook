@@ -10,7 +10,7 @@ If you don't want the random Windows Lock and Logon background, you are going to
 
 Create a Background directory and download a copy of Background.ps1 and place it in the Background directory
 
-[https://raw.githubusercontent.com/OSDeploy/OSConfig/master/Background/Background.ps1](https://raw.githubusercontent.com/OSDeploy/OSConfig/master/Background/Background.ps1)
+[https://github.com/OSDeploy/OSConfig/blob/master/Background/Background.ps1](https://github.com/OSDeploy/OSConfig/blob/master/Background/Background.ps1)
 
 Create a LockScreen.jpg.  I prefer a solid color, with a resolution of 1980 x 1200px for the JPG.  You can make a copy of LockScreen.jpg and name it BackgroundDefault.jpg if you also deploy Windows 7.  The Background.bmp should be 1024 x 768px and can be used for customizing WinPE.
 
