@@ -13,21 +13,26 @@ If you are going to do this the right way, you need three types of StartLayout X
 
 * **StartLayoutDomain.xml** - Similar to StartLayout.xml but this one is what will be pushed down from a GPO and will contain things like Software Center or Intranet URL's.  No need to add these links to non-Domain computers
 
+---
+
+### Start.ps1
+
+Download the following script to OSConfig\Start\Start.ps1
+https://raw.githubusercontent.com/OSDeploy/OSConfig/master/Start/Start.ps1
+
+Adjust the script as needed for your Start Layout XML files.
 
 ---
 
-### Date and Time Stamps
+### Layout XML Files
+
+Copy your Start Layout XML files in to the OSConfig\Start.  I have included samples below
 
 One thing to note is that the Date and Time is DIFFERENT for each type of Start Layout XML.  This is because Windows will not refresh the StartLayout.xml from Policy if the Date / Time Stamp had not changed.  So since these are applied on a level based \(Layout Modification &lt; Start Layout &lt; Start Layout Domain\), you want to keep the one you want to OVERWRITE as the never Date Time Stamp.
 
 ![](/assets/2018-05-25_14-08-17.png)
 
 ---
-
-
-
-
-
 
 ### Before
 
