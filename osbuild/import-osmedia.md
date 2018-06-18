@@ -2,8 +2,6 @@
 
 Let's start with something as simple as importing an Operating System into our OSMedia library.
 
-
-
 ---
 
 ### Version Information
@@ -80,9 +78,5 @@ In this directory you will find a PowerShell Transcript of your Import.  Additio
 
 Repeat this process for every OS Image that you support.
 
-
-
-
-
-
+![](/assets/2018-06-18_12-56-53.png)
 
