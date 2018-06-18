@@ -22,6 +22,7 @@
 ## OSBuild
 
 * [Quick Summary](osbuild/quick-summary.md)
+* [Import OSMedia](osbuild/import-osmedia.md)
 
 ## Drivers
 
