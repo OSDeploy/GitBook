@@ -19,6 +19,10 @@
   * [New PC Task Sequence](osconfig/sccm-configuration/new-pc-task-sequence.md)
   * [Upgrade Task Sequence](osconfig/sccm-configuration/upgrade-task-sequence.md)
 
+## OSBuild
+
+* [Quick Summary](osbuild/quick-summary.md)
+
 ## Drivers
 
 * [Introduction](drivers/README.md)
