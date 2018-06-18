@@ -23,6 +23,9 @@
 
 * [Quick Summary](osbuild/quick-summary.md)
 * [Import OSMedia](osbuild/import-osmedia.md)
+* [Update OSMedia](osbuild/update-osmedia.md)
+  * [Gather Microsoft Updates](osbuild/gather-microsoft-updates.md)
+  * [Copy OSMedia](osbuild/copy-osmedia.md)
 
 ## Drivers
 
