@@ -26,6 +26,7 @@
 * [Update OSMedia](osbuild/update-osmedia.md)
   * [Gather Microsoft Updates](osbuild/gather-microsoft-updates.md)
   * [Copy OSMedia](osbuild/copy-osmedia.md)
+  * [Apply Updates](osbuild/apply-updates.md)
 
 ## Drivers
 
