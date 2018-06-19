@@ -35,9 +35,28 @@ Once the updates have been selected the following steps will occur
 
 This process will take a while to run so take a break.  When you get back, you will now have an updated OSMedia that you can import into SCCM or MDT.
 
+![](/assets/2018-06-19_0-29-46.png)
 
+---
 
+### Logs
 
+In addition to the PowerShell Transcript that is created, some additional TXT files are created with information about the 
 
+* Get-AppxProvisionedPackage
+* Get-WindowsCapability
+* Get-WindowsOptionalFeature
+* Get-WindowsPackage
 
+![](/assets/2018-06-19_0-35-12.png)
+
+Reviewing the Get-WindowsPackage TXT file, the updates that were applied successfully show as installed.
+
+![](/assets/2018-06-19_0-36-29.png)
+
+---
+
+### Summary
+
+Using OSBuild to apply updates to a Windows Image makes things simple and painless.
 
