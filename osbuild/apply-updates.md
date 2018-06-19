@@ -4,7 +4,7 @@ I prefer to run this step on a network disconnected Virtual Machine so nothing o
 
 Using PowerShell ISE, select Update-OSMedia.  If the default path of OSBuild is C:\OSBuild, and all the updates are in C:\OSBuild\Updates, then the only step needed is to select the Action "Update and Cleanup Imported OSMedia"
 
-![](/assets/2018-06-18_22-56-28.png)
+![](/assets/2018-06-18_22-56-28b.png)
 
 ---
 
@@ -41,7 +41,7 @@ This process will take a while to run so take a break.  When you get back, you w
 
 ### Logs
 
-In addition to the PowerShell Transcript that is created, some additional TXT files are created with information about the 
+In addition to the PowerShell Transcript that is created, some additional TXT files are created with information about the
 
 * Get-AppxProvisionedPackage
 * Get-WindowsCapability
