@@ -1,4 +1,4 @@
-### Import an Operating System
+# Import an Operating System
 
 This page will detail how to import an Operating System using OSMedia.  In this example we will import Windows 10 Enterprise 1803 x64 into the OSMedia Library
 
@@ -35,22 +35,6 @@ After running the PowerShell command, the Operating System Image will be checked
 ![](/assets/2018-06-22_13-38-59.png)
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
