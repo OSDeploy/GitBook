@@ -3,6 +3,10 @@
 * [Home](README.md)
 * [Recent Updates](updates.md)
 
+## OSMedia
+
+* [Quick Start](osmedia/quick-start.md)
+
 ## OSConfig
 
 * [How It Works](osconfig/how-it-works.md)
