@@ -2,7 +2,9 @@
 
 If you have a copied Operating System in the OSMedia library, it is easy enough to apply some Windows Updates.
 
-# Gather Microsoft Updates
+---
+
+### Gather Microsoft Updates
 
 The next step is to gather the Microsoft Updates that we want to add to our OSMedia.  Head over to the Microsoft Update Catalog at [https://www.catalog.update.microsoft.com/home.aspx](https://www.catalog.update.microsoft.com/home.aspx)
 
@@ -18,36 +20,39 @@ Pay attention to the date of the newest Cumulative Update if you have multiple. 
 
 ### Updates Directory
 
-In C:\OSBuild, create a directory called Updates.  Download any Update you need and place into the C:\OSBuild\Updates directory in any logical structure you think is necessary.
+If you are using the Default paths for OSMedia, then you should download your updates to C:\OSMedia\Updates in any logical structure.  Update-OSMedia will recurse the Updates directory for all MSU and CAB files
 
-![](/assets/2018-06-18_13-22-30.png)
+![](/assets/2018-06-22_15-01-36.png)
 
 ---
 
-
-# Apply Updates
+### Update-OSMedia
 
 I prefer to run this step on a network disconnected Virtual Machine so nothing on my production computer interferes with the process \(like McAfee ...\)
 
-Using PowerShell ISE, select Update-OSMedia.  If the default path of OSBuild is C:\OSBuild, and all the updates are in C:\OSBuild\Updates, then the only step needed is to select the Action "Update and Cleanup Imported OSMedia"
+Using PowerShell ISE, select Update-OSMedia.  Select the appropriate Action.  Selecting an Action with Cleanup will use DISM to run a Component Cleanup.
 
-![](/assets/2018-06-18_22-56-28b.png)
+```
+/Cleanup-Image /StartComponentCleanup /ResetBase
+```
+
+![](/assets/2018-06-22_15-04-33b.png)
 
 ---
 
 ### Select OSMedia
 
-The first step is to select the OSMedia to update.  In the example below, this is the OSMedia that was Copied in the last page.  Press OK after selecting the proper OSMedia.
+Select the proper Operating System to update and press OK.  In this example, I am using the Copy that I made in the previous How To.
 
-![](/assets/2018-06-18_23-01-34.png)
+![](/assets/2018-06-22_15-08-04.png)
 
 ---
 
 ### Select Windows Updates
 
-Once the OSMedia is selected, a grid of the available updates in C:\OSBuild\Updates will be displayed.  Select the updates that need to be applied and press OK.  If there are many updates, a simple use of the Filter to enter something like 1803 will narrow things down
+Once the OSMedia is selected, a grid of the available Windows Updates will be displayed.  Select the updates that need to be applied and press OK.
 
-![](/assets/2018-06-18_23-03-55.png)
+![](/assets/2018-06-22_15-09-21.png)
 
 ---
 
@@ -62,7 +67,7 @@ Once the updates have been selected the following steps will occur
 
 This process will take a while to run so take a break.  When you get back, you will now have an updated OSMedia that you can import into SCCM or MDT.
 
-![](/assets/2018-06-19_0-29-46.png)
+
 
 ---
 
@@ -75,42 +80,13 @@ In addition to the PowerShell Transcript that is created, some additional TXT fi
 * Get-WindowsOptionalFeature
 * Get-WindowsPackage
 
-![](/assets/2018-06-19_0-35-12.png)
+
 
 Reviewing the Get-WindowsPackage TXT file, the updates that were applied successfully show as installed.
 
-![](/assets/2018-06-19_0-36-29.png)
+
 
 ---
-
-### Summary
-
-Using OSBuild to apply updates to a Windows Image makes things simple and painless.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
