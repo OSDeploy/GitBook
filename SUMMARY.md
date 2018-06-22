@@ -10,6 +10,7 @@
   * [Get-OSMedia](osmedia/functions/get-osmedia.md)
   * [Set-OSMedia](osmedia/functions/set-osmedia.md)
   * [Import-OSMedia](osmedia/functions/import-osmedia.md)
+  * [Copy-OSMedia](osmedia/functions/copy-osmedia.md)
 * [How To](osmedia/how-to.md)
   * [Import an Operating System](osmedia/how-to/import-an-operating-system.md)
 
