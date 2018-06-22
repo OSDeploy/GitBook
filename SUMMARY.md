@@ -8,6 +8,7 @@
 * [Quick Start](osmedia/quick-start.md)
 * [Functions](osmedia/functions.md)
   * [Get-OSMedia](osmedia/functions/get-osmedia.md)
+  * [Set-OSMedia](osmedia/functions/set-osmedia.md)
 
 ## OSConfig
 
