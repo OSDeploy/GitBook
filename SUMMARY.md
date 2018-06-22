@@ -7,7 +7,6 @@
 
 * [Quick Start](osmedia/quick-start.md)
 * [Functions](osmedia/functions.md)
-  * [Get-OSMediaPath](osmedia/functions/get-osmediapath.md)
   * [Get-OSMedia](osmedia/functions/get-osmedia.md)
 
 ## OSConfig

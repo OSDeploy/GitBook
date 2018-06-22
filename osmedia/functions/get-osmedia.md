@@ -2,7 +2,7 @@
 
 Returns the Directory Paths used by all OSMedia functions.
 
-![](/assets/2018-06-22_12-31-28.png)
+![](/assets/2018-06-22_12-48-29.png)
 
 ---
 
