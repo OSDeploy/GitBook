@@ -6,14 +6,16 @@ Once the OSMedia paths have been set, you can import an Operating System into th
 
 ### -NewOSMediaName
 
-This is the name of the Operating System and should be unique.  See the examples below.
+This is the name of the Operating System and should be unique.  The dates at the end of the Operating System names correspond with the last update.  See the examples below.
 
 ```
 Windows 10 Enterprise 1709 x64 2017-12
 Windows 10 Enterprise 1803 x64 2018-03
 ```
 
-The NewOSMediaName is also applied to the Windows Image as the ImageName
+NewOSMediaName is also applied to the Windows Image as the ImageName
 
 ---
+
+
 
