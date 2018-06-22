@@ -13,6 +13,7 @@
   * [Copy-OSMedia](osmedia/functions/copy-osmedia.md)
 * [How To](osmedia/how-to.md)
   * [Import an Operating System](osmedia/how-to/import-an-operating-system.md)
+  * [Copy an Operating System](osmedia/how-to/copy-an-operating-system.md)
 
 ## OSConfig
 
