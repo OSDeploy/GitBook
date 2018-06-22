@@ -9,6 +9,7 @@
 * [Functions](osmedia/functions.md)
   * [Get-OSMedia](osmedia/functions/get-osmedia.md)
   * [Set-OSMedia](osmedia/functions/set-osmedia.md)
+  * [Import-OSMedia](osmedia/functions/import-osmedia.md)
 
 ## OSConfig
 
