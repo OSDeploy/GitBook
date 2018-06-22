@@ -34,16 +34,6 @@
   * [New PC Task Sequence](osconfig/sccm-configuration/new-pc-task-sequence.md)
   * [Upgrade Task Sequence](osconfig/sccm-configuration/upgrade-task-sequence.md)
 
-## OSBuild
-
-* [Quick Summary](osbuild/quick-summary.md)
-* [Import OSMedia](osbuild/import-osmedia.md)
-* [Update OSMedia](osbuild/update-osmedia.md)
-  * [Gather Microsoft Updates](osbuild/gather-microsoft-updates.md)
-  * [Copy OSMedia](osbuild/copy-osmedia.md)
-  * [Apply Updates](osbuild/apply-updates.md)
-* [Coming Soon](osbuild/coming-soon.md)
-
 ## Drivers
 
 * [Introduction](drivers/README.md)
