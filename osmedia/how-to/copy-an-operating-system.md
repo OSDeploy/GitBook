@@ -26,9 +26,10 @@ Pay attention to the Console output for any issues, but this is a relatively sim
 
 Once PowerShell is complete, there will be a copied Operating System in the OSMedia Library
 
-![](/assets/2018-06-22_14-55-41.png)
+![](/assets/2018-06-22_14-55-41.png)  
 
 
+---
 
 
 
