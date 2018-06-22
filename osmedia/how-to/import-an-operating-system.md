@@ -36,5 +36,33 @@ After running the PowerShell command, the Operating System Image will be checked
 
 ---
 
+### PowerShell Output
+
+After Import-OSMedia is complete, the console will display all the information including the PowerShell functions with the Parameters that were used.
+
+![](/assets/2018-06-22_13-48-37.png)
+
+---
+
+### Logs
+
+In each imported Operating System there will be a Logs directory that will contain information about the Windows Image.  In the image below, the ImageName has been changed to match the NewOSMediaName parameter.
+
+![](/assets/2018-06-22_13-50-38.png)
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
