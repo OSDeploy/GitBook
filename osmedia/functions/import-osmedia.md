@@ -2,6 +2,8 @@
 
 Once the OSMedia paths have been set, you can import an Operating System into the OSMedia Library using this function
 
+![](/assets/2018-06-22_15-28-51.png)
+
 ---
 
 ### -NewOSMediaName
