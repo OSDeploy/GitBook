@@ -1,6 +1,8 @@
 # Update-OSMedia
 
-This function is used to apply Windows Updates and to Cleanup and compress a Windows Image.  There are some options
+This function is used to apply Windows Updates and to Cleanup and compress a Windows Image
+
+![](/assets/2018-06-22_15-27-15.png)
 
 ---
 
