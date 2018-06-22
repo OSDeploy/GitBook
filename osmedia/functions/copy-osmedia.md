@@ -1,6 +1,8 @@
 # Copy-OSMedia
 
-Before making any changes to any imported OSMedia, it is strongly recommended that you make a copy of the OSMedia.
+Before making any changes to any imported OSMedia, it is strongly recommended that you make a copy of the OSMedia
+
+![](/assets/2018-06-22_15-28-13.png)
 
 ---
 
