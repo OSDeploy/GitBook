@@ -17,6 +17,7 @@
   * [Import an Operating System](osmedia/how-to/import-an-operating-system.md)
   * [Copy an Operating System](osmedia/how-to/copy-an-operating-system.md)
   * [Update an Operating System](osmedia/how-to/update-an-operating-system.md)
+  * [Edit an Operating System](osmedia/how-to/edit-an-operating-system.md)
 
 ## OSConfig
 
