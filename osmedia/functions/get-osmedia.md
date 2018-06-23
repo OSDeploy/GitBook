@@ -1,30 +1,30 @@
 # Get-OSMedia
 
-Returns the Directory Paths used by all OSMedia functions.
+Returns the Directory Paths used by all OSMedia functions.  There are no parameters.
 
-![](/assets/2018-06-22_12-48-29.png)
+![](/assets/2018-06-22_23-40-10.png)
 
 ---
 
-### -PathOSMedia
+### PathOSMedia
 
 OSMedia main directory.  The default is C:\OSMedia \(System Drive\)
 
 ---
 
-### -PathOSLibrary
+### PathOSLibrary
 
 Directory where the Operating Systems are imported.  The default is C:\OSMedia\Library
 
 ---
 
-### -PathOSUpdates
+### PathOSUpdates
 
 Directory for downloaded CAB and MSU files from Windows Update Catalog.  The default is C:\OSMedia\Updates
 
 ---
 
-### -PathOSMount
+### PathOSMount
 
 Directory where the Windows Images will be mounted.  The default is C:\OSMedia\Mount
 
