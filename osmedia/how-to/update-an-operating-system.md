@@ -78,7 +78,11 @@ In addition to the PowerShell Transcript that is created in the Logs directory, 
 * Get-WindowsOptionalFeature
 * Get-WindowsPackage
 
-Reviewing the Get-WindowsPackage TXT file, the updates that were applied successfully show as installed.
+![](/assets/2018-06-24_2-39-27.png)
+
+Reviewing the **Get-WindowsPackage-\*.txt** file will show the updates that were applied successfully.
+
+![](/assets/2018-06-24_2-42-54.png)
 
 ---
 
