@@ -48,7 +48,7 @@ Select the Operating System to update and press OK
 
 Once the OSMedia is selected, a grid of the available Windows Updates will be displayed.  These are files that are in the Updates directory.  Select the updates to apply and press OK.
 
-![](/assets/2018-06-24_1-24-16.png)
+![](/assets/2018-06-24_1-40-36.png)
 
 ---
 
@@ -63,13 +63,15 @@ Once the updates have been selected the following steps will occur
 * Windows Image will be dismounted and saved
 * Windows Image will be exported back to install.wim
 
+![](/assets/2018-06-24_1-46-07.png)
+
 This process will take a while to run so take a break.  When you get back, you will now have an updated OSMedia that you can import into SCCM or MDT.
 
 ---
 
 ### Logs
 
-In addition to the PowerShell Transcript that is created, some additional TXT files are created with information about the
+In addition to the PowerShell Transcript that is created in the Logs directory, some additional TXT files are created with information about the Windows Image.
 
 * Get-AppxProvisionedPackage
 * Get-WindowsCapability
