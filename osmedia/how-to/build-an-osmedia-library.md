@@ -6,7 +6,7 @@ If we use the image below as our example
 
 ![](/assets/2018-06-18_11-29-13.png)
 
-Then you should use the following naming standards
+Then you should use the following naming standards as they include the date of the last update
 
 ```
 Windows 10 Enterprise 1607 x86 2016-11
@@ -23,9 +23,6 @@ Windows 10 Enterprise 1803 x86 2018-03
 
 ### Complete OSMedia Library
 
-
-
-
-
-
+When you have finished importing all the Operating Systems that you support, your OSMedia Library should look similar to the one below.
+![](/assets/2018-06-24_0-11-02.png)
 
