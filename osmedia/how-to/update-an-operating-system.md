@@ -30,29 +30,25 @@ If you are using the Default paths for OSMedia, then you should download your up
 
 I prefer to run this step on a network disconnected Virtual Machine so nothing on my production computer interferes with the process \(like McAfee ...\)
 
-Using PowerShell ISE, select Update-OSMedia.  Select the appropriate Action.  Selecting an Action with Cleanup will use DISM to run a Component Cleanup.
+Using PowerShell ISE, select Update-OSMedia.  Select the appropriate Action for the Update.  Keep in mind that running an Action with Cleanup will take a considerable amount of time.  Press Run
 
-```
-/Cleanup-Image /StartComponentCleanup /ResetBase
-```
-
-![](/assets/2018-06-22_15-04-33b.png)
+![](/assets/2018-06-24_1-20-02.png)
 
 ---
 
 ### Select OSMedia
 
-Select the proper Operating System to update and press OK.  In this example, I am using the Copy that I made in the previous How To.
+Select the Operating System to update and press OK
 
-![](/assets/2018-06-22_15-08-04.png)
+![](/assets/2018-06-24_1-22-53.png)
 
 ---
 
 ### Select Windows Updates
 
-Once the OSMedia is selected, a grid of the available Windows Updates will be displayed.  Select the updates that need to be applied and press OK.
+Once the OSMedia is selected, a grid of the available Windows Updates will be displayed.  These are files that are in the Updates directory.  Select the updates to apply and press OK.
 
-![](/assets/2018-06-22_15-09-21.png)
+![](/assets/2018-06-24_1-24-16.png)
 
 ---
 
@@ -67,8 +63,6 @@ Once the updates have been selected the following steps will occur
 
 This process will take a while to run so take a break.  When you get back, you will now have an updated OSMedia that you can import into SCCM or MDT.
 
-
-
 ---
 
 ### Logs
@@ -80,11 +74,7 @@ In addition to the PowerShell Transcript that is created, some additional TXT fi
 * Get-WindowsOptionalFeature
 * Get-WindowsPackage
 
-
-
 Reviewing the Get-WindowsPackage TXT file, the updates that were applied successfully show as installed.
-
-
 
 ---
 
