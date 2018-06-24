@@ -23,6 +23,10 @@ Windows 10 Enterprise 1803 x86 2018-03
 
 ### Complete OSMedia Library
 
-When you have finished importing all the Operating Systems that you support, your OSMedia Library should look similar to the one below.
+When you have finished importing all the Operating Systems that you support, your OSMedia Library should look similar to the one below.  
 ![](/assets/2018-06-24_0-11-02.png)
+
+---
+
+
 
