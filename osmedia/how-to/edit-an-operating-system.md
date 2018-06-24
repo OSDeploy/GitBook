@@ -70,6 +70,40 @@ As well as DISABLED Windows Features that can be ENABLED
 
 ---
 
+### -ManagePackages
+
+Windows Packages will be displayed and can be selected for Removal
+
+![](/assets/2018-06-24_10-05-45.png)
+
+---
+
+### -ApplyNetFX3
+
+Selecting this parameter will install .NET 3.5 in your Windows Image.  This Package will cause the Windows Image to have Pending Operations, so you will not be able to Start Component Cleanup after installing the package.
+
+![](/assets/2018-06-24_10-06-49.png)
+
+---
+
+### -Action "Stay Mounted"
+
+Since the Action Parameter was set to "Stay Mounted", the Windows Image is not dismounted.
+
+![](/assets/2018-06-24_10-09-19.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
