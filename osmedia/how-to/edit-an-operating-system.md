@@ -48,29 +48,27 @@ Every Appx Package that was selected will be removed
 
 ![](/assets/2018-06-24_9-52-57.png)
 
+---
 
+### -ManageCapabilities
 
+Selecting this parameter will display all the installed Windows Capabilities, allowing you to select and remove as needed.
 
+![](/assets/2018-06-24_9-57-17.png)
 
+---
 
+### -ManageFeatures
 
+This parameter will display a list of ENABLED Windows Features that can be selected and DISABLED.
 
+![](/assets/2018-06-24_10-00-00.png)
 
+As well as DISABLED Windows Features that can be ENABLED
 
+![](/assets/2018-06-24_10-01-57.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
