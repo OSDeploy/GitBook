@@ -42,19 +42,19 @@ The Windows Image will be exported to a temp.wim and then mounted.
 
 Selecting this option will display a grid of all currently installed Appx Packages.  Select the ones you want to remove and press OK.
 
-![](/assets/2018-06-24_9-47-41.png)
+![](/assets/2018-06-24_17-00-15.png)
 
 Every Appx Package that was selected will be removed
 
-![](/assets/2018-06-24_9-52-57.png)
+![](/assets/2018-06-24_17-02-46.png)
 
 ---
 
 ### -ManageCapabilities
 
-Selecting this parameter will display all the installed Windows Capabilities, allowing you to select and remove as needed.
+Selecting this parameter will display all the installed Windows Capabilities, allowing you to select and remove as needed.  I do not suggest removing any of these Capabilities.  Press Cancel if you decide to not remove anything.
 
-![](/assets/2018-06-24_9-57-17.png)
+![](/assets/2018-06-24_17-03-44.png)
 
 ---
 
@@ -62,11 +62,11 @@ Selecting this parameter will display all the installed Windows Capabilities, al
 
 This parameter will display a list of ENABLED Windows Features that can be selected and DISABLED.
 
-![](/assets/2018-06-24_10-00-00.png)
+![](/assets/2018-06-24_17-14-09.png)
 
 As well as DISABLED Windows Features that can be ENABLED
 
-![](/assets/2018-06-24_10-01-57.png)
+![](/assets/2018-06-24_17-14-59.png)
 
 ---
 
@@ -74,7 +74,7 @@ As well as DISABLED Windows Features that can be ENABLED
 
 Windows Packages will be displayed and can be selected for Removal
 
-![](/assets/2018-06-24_10-05-45.png)
+![](/assets/2018-06-24_17-16-55.png)
 
 ---
 
@@ -82,13 +82,27 @@ Windows Packages will be displayed and can be selected for Removal
 
 Selecting this parameter will install .NET 3.5 in your Windows Image.  This Package will cause the Windows Image to have Pending Operations, so you will not be able to Start Component Cleanup after installing the package.
 
-![](/assets/2018-06-24_10-06-49.png)
+![](/assets/2018-06-24_17-21-45.png)
 
 ---
 
 ### -Action "Stay Mounted"
 
-Since the Action Parameter was set to "Stay Mounted", the Windows Image is not dismounted.
+Since the Action Parameter was set to "Stay Mounted", the Windows Image is not dismounted.  This allows Edit-OSMedia to be run additional times without waiting for the Windows Image to Mount / Dismount Save.  When all edits are complete, make sure the Action is set to "**Dismount Save**"
 
-![](/assets/2018-06-24_10-09-19.png)
+![](/assets/2018-06-24_17-24-34.png)
+
+
+
+---
+
+Production Copy
+
+It is recommended to make a copy for Production, this way the ImageName is set properly.
+
+
+
+---
+
+
 
