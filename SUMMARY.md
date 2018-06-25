@@ -6,20 +6,20 @@
 ## OSMedia
 
 * [Quick Start](osmedia/quick-start.md)
-* [How To](osmedia/how-to.md)
+* [How To](osmedia/how-to/README.md)
   * [Import an Operating System](osmedia/how-to/import-an-operating-system.md)
   * [Build an OSMedia Library](osmedia/how-to/build-an-osmedia-library.md)
   * [Copy an Operating System](osmedia/how-to/copy-an-operating-system.md)
   * [Update an Operating System](osmedia/how-to/update-an-operating-system.md)
   * [Edit an Operating System](osmedia/how-to/edit-an-operating-system.md)
 * [Future Plans](osmedia/future-plans.md)
-* [Functions](osmedia/functions.md)
-  * [Get-OSMedia](osmedia/functions/get-osmedia.md)
-  * [Set-OSMedia](osmedia/functions/set-osmedia.md)
-  * [Import-OSMedia](osmedia/functions/import-osmedia.md)
-  * [Copy-OSMedia](osmedia/functions/copy-osmedia.md)
-  * [Update-OSMedia](osmedia/functions/update-osmedia.md)
-  * [Edit-OSMedia](osmedia/functions/edit-osmedia.md)
+* [Reference](osmedia/reference/README.md)
+  * [Get-OSMedia](osmedia/reference/get-osmedia.md)
+  * [Set-OSMedia](osmedia/reference/set-osmedia.md)
+  * [Import-OSMedia](osmedia/reference/import-osmedia.md)
+  * [Copy-OSMedia](osmedia/reference/copy-osmedia.md)
+  * [Update-OSMedia](osmedia/reference/update-osmedia.md)
+  * [Edit-OSMedia](osmedia/reference/edit-osmedia.md)
 
 
 ## OSConfig
