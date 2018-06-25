@@ -1,5 +1,12 @@
 # Edit an Operating System
 
+**Reference:**  
+[Copy-OSMedia](/osmedia/reference/copy-osmedia.md)
+[Edit-OSMedia](/osmedia/reference/edit-osmedia.md)
+
+
+
+
 ---
 
 ### Copy-OSMedia
