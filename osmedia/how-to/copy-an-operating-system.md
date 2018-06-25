@@ -1,5 +1,8 @@
 # Copy an Operating System
 
+**Reference:**
+[Copy-OSMedia](/osmedia/reference/copy-osmedia.md)
+
 Let's say the goal is to update my Windows 10 Enterprise 1803 x64 2018-03 to include Windows Updates to June, 2018.  In PowerShell ISE, select Copy-OSMedia and enter the NewOSMediaName as **Windows 10 Enterprise 1803 x64 2018-06** and press Run
 
 ![](/assets/2018-06-24_1-08-41.png)
