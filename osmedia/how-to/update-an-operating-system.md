@@ -1,5 +1,9 @@
 # Update an Operating System
 
+**Reference:**  
+[Update-OSMedia](/osmedia/reference/update-osmedia.md)
+
+
 If you have a copied Operating System in the OSMedia library, it is easy enough to apply some Windows Updates.
 
 ---
