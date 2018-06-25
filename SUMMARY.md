@@ -19,6 +19,7 @@
   * [Copy an Operating System](osmedia/how-to/copy-an-operating-system.md)
   * [Update an Operating System](osmedia/how-to/update-an-operating-system.md)
   * [Edit an Operating System](osmedia/how-to/edit-an-operating-system.md)
+* [Future Plans](osmedia/future-plans.md)
 
 ## OSConfig
 
