@@ -2,7 +2,7 @@
 
 This function will optionally allow you to remove Appx Packages or Windows Components.  It is recommended that this step be completed AFTER running an Update-OSMedia.  Some changes that are made using Edit-OSMedia may be Pending Changes.  When the Windows Image has Pending Changes, you cannot run DISM Component Cleanup to shrink down a Windows Image.
 
-![](/assets/2018-06-22_15-23-51.png)
+![](/assets/2018-06-24_22-35-01.png)
 
 ---
 
@@ -70,26 +70,7 @@ Uses Get-WindowsPackage and Remove-WindowsPackage
 
 ---
 
-### -PathAddWindowsDriver
 
----
-
-### -PathAddWindowsPackage
-
----
-
-### -ProductKey
-
----
-
-### -StartLayoutPath
-
----
-
-### -UnattendPath
-
-
----
 
 
 
