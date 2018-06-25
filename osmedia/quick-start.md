@@ -31,7 +31,7 @@ Install-Module -Name OSMedia -Scope CurrentUser
 
 ### OSMedia in PowerShell ISE
 
-OSMedia can now be run in PowerShell ISE
+After installing the PowerShell Module, OSMedia can now be run in PowerShell ISE
 
 ![](/assets/2018-06-25_9-46-08.png)
 
