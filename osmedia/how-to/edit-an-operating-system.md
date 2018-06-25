@@ -92,13 +92,21 @@ Since the Action Parameter was set to "Stay Mounted", the Windows Image is not d
 
 ![](/assets/2018-06-24_17-24-34.png)
 
-
-
 ---
 
-Production Copy
+### Production Copy
 
-It is recommended to make a copy for Production, this way the ImageName is set properly.
+It is recommended to make a copy for Production, this way the ImageName is set properly.  A simple Copy-OSMedia is all that is needed.
+
+```
+Copy-OSMedia -NewOSMediaName "Windows 10 Enterprise 1803 x64 2018-06 Release"
+```
+
+![](/assets/2018-06-24_22-30-18.png)
+
+Now take this Operating System and import it into MDT or SCCM and start deploying!
+
+![](/assets/2018-06-24_22-31-35.png)
 
 
 
