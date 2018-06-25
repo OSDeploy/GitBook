@@ -1,9 +1,10 @@
 # Import an Operating System
 
-This page will detail how to import an Operating System using OSMedia.  In this example we will import Windows 10 Enterprise 1803 x64 into the OSMedia Library
-
 **Reference:**  
 [Import-OSMedia](/osmedia/reference/import-osmedia.md)
+
+
+This page will detail how to import an Operating System using OSMedia.  In this example we will import Windows 10 Enterprise 1803 x64 into the OSMedia Library
 
 ---
 
