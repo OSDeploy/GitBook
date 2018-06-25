@@ -15,6 +15,15 @@ OSMedia is a PowerShell module to work with Offline Windows Images.  Using OSMed
 
 ---
 
+### References
+
+[EXEC|MGR: Windows 10 Image Maintenance and Cleanup](https://execmgr.net/2018/06/07/windows-10-image-maintenance/)
+
+[Mike Terrill: Optimizing Win10 OS Upgrade WIM Sizes](https://miketerrill.net/2018/06/23/optimizing-win10-os-upgrade-wim-sizes/)
+
+
+---
+
 ### OSMedia Installation
 
 OSMedia has been published in the [PowerShell Gallery](https://www.powershellgallery.com/)
