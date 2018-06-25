@@ -1,5 +1,7 @@
 # Updates
 
+* **June 25, 2018**
+  * [Released OSMedia](/osmedia/quick-start.md)
 * **February 14, 2018**
   * [PowerShell Module OSDriver 1.0.7.3 Released](https://www.powershellgallery.com/packages/OSDriver/1.0.7.3)
     * [\(New\) Find-OSDriverTypes](https://www.osdeploy.com/psmodule/osdriver/find-osdrivertypes.html)
