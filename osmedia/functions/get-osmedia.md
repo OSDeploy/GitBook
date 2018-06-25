@@ -1,8 +1,8 @@
 # Get-OSMedia
 
-Returns the Directory Paths used by all OSMedia functions.  There are no parameters.
+Returns the Directory Paths used by all OSMedia, displays the Operating Systems in the OSLibrary Path, and displays the Operating System Updates in OSUpdates Path.  There are no parameters.
 
-![](/assets/2018-06-22_23-40-10.png)
+![](/assets/2018-06-24_22-38-13.png)
 
 ---
 
