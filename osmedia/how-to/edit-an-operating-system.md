@@ -4,7 +4,7 @@
 [Copy-OSMedia](/osmedia/reference/copy-osmedia.md)
 [Edit-OSMedia](/osmedia/reference/edit-osmedia.md)
 
-
+This How To will detail the steps involved to Remove AppxPackages and add DotNet 3.5
 
 
 ---
