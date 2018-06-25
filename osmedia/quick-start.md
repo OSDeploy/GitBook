@@ -5,15 +5,13 @@ OSMedia is a PowerShell module to work with Offline Windows Images.  Using OSMed
 * Create an OSMedia \(Operating System\) Library
 * Import an Operating System
 * Update an Operating Systems with Windows Updates \(Cumulative Updates\)
+  * DISM /Cleanup-Image /StartComponentCleanup /ResetBase
 * Edit an Operating System Image Offline
+  * Install DotNet 3.5
   * Remove Appx Packages
   * Remove Windows Capabilities
   * Remove Windows Features
   * Remove Windows Packages
-  * Add Drivers
-  * Import a Start Layout
-  * Apply a Product Key
-  * Apply an Unattend.xml
 
 ---
 
@@ -26,10 +24,16 @@ OSMedia is a PowerShell Module in the [PowerShell Gallery](https://www.powershel
 You can install OSMedia by using the following command in PowerShell
 
 ```
-Install-Module -Name OSMedia
+Install-Module -Name OSMedia -Scope CurrentUser
 ```
 
 ---
+
+![](/assets/2018-06-25_0-23-43.png)
+
+---
+
+
 
 
 
