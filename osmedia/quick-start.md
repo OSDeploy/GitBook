@@ -17,7 +17,7 @@ OSMedia is a PowerShell module to work with Offline Windows Images.  Using OSMed
 
 ### Installation
 
-OSMedia is a PowerShell Module in the [PowerShell Gallery](https://www.powershellgallery.com/)
+OSMedia has been published in the [PowerShell Gallery](https://www.powershellgallery.com/)
 
 [https://www.powershellgallery.com/packages/OSMedia/](https://www.powershellgallery.com/packages/OSMedia/)
 
@@ -28,12 +28,6 @@ Install-Module -Name OSMedia -Scope CurrentUser
 ```
 
 ---
-
-![](/assets/2018-06-25_0-23-43.png)
-
----
-
-
 
 
 
