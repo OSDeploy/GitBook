@@ -21,7 +21,7 @@ OSMedia has been published in the [PowerShell Gallery](https://www.powershellgal
 
 [https://www.powershellgallery.com/packages/OSMedia/](https://www.powershellgallery.com/packages/OSMedia/)
 
-You can install OSMedia by using the following command in PowerShell
+You can install OSMedia by executing the following command in PowerShell
 
 ```
 Install-Module -Name OSMedia -Scope CurrentUser
@@ -29,5 +29,9 @@ Install-Module -Name OSMedia -Scope CurrentUser
 
 ---
 
+### OSMedia in PowerShell ISE
 
+OSMedia can now be run in PowerShell ISE
+
+![](/assets/2018-06-25_9-46-08.png)
 
