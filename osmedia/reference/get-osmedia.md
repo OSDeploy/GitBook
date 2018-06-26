@@ -1,5 +1,8 @@
 # Get-OSMedia
 
+* 18.06.26 Renamed variables.  Added BuildsPath
+* 18.06.25 Initial Release
+
 Returns the Directory Paths used by all OSMedia, displays the Operating Systems in the OSLibrary Path, and displays the Operating System Updates in OSUpdates Path.  There are no parameters.
 
 ![](/assets/2018-06-24_22-38-13.png)
