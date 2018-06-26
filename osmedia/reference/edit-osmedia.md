@@ -1,8 +1,7 @@
 **18.06.26 This function is removed and has been replaced by [Edit-OSBuild](/osmedia/reference/edit-osbuild.md)
 18.06.25 Initial Release**
 
-
-
+---
 
 # Edit-OSMedia
 
