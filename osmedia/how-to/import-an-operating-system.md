@@ -64,5 +64,13 @@ In each imported Operating System there will be a Logs directory that will conta
 
 ---
 
+### Get-OSMedia
+
+The Imported Operating System can be checked with Get-OSMedia
+
+![](/assets/2018-06-26_10-21-48.png)
+
+---
+
 
 
