@@ -1,6 +1,6 @@
 # How To
 
-The next few pages will detail how to do specific tasks with OSMedia.  If you are Mounting an Operating System \(Update-OSMedia and Edit-OSMedia\), it is recommended that you use a computer without a running Anti-Virus.
+The next few pages will detail how to do specific tasks with OSMedia.  If you are Mounting an Operating System \(Update-OSBuild and Edit-OSBuild\), it is recommended that you use a computer without a running Anti-Virus.
 
 * [How To: Import an Operating System](/osmedia/how-to/import-an-operating-system.md)
 * [How To: Build an Operating System Library](/osmedia/how-to/build-an-operating-system-library.md)
