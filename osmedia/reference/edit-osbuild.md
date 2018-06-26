@@ -1,4 +1,4 @@
-**18.06.26 Initial Release.  Replaces **[**Edit-OSMedia**](/osmedia/reference/edit-osmedia.md)
+* 18.06.26 Initial Release.  Replaces [**Edit-OSMedia**](/osmedia/reference/edit-osmedia.md)
 
 ---
 

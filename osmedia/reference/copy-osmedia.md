@@ -1,5 +1,5 @@
-**18.06.26 This function is removed and has been replaced by [New-OSBuild](/osmedia/reference/new-osbuild.md)
-18.06.25 Initial Release**
+* 18.06.26 This function is removed and has been replaced by [New-OSBuild](/osmedia/reference/new-osbuild.md)
+* 18.06.25 Initial Release
 
 ---
 

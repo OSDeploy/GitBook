@@ -1,11 +1,9 @@
-**18.06.26 Renamed parameters.  Added BuildsPath parameter**
-**18.06.25 Initial Release**
+* 18.06.26 Renamed parameters.  Added BuildsPath parameter
+* 18.06.25 Initial Release
 
 ---
 
-
 # Set-OSMedia
-
 
 The default OSMedia paths won't work for everyone, so you are able to make changes on your own.  All parameters should be directory paths
 

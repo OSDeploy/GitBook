@@ -1,4 +1,4 @@
-**18.06.26 Initial Release.  Replaces [Copy-OSMedia](/osmedia/reference/copy-osmedia.md)**
+* 18.06.26 Initial Release.  Replaces [Copy-OSMedia](/osmedia/reference/copy-osmedia.md)
 
 ---
 
