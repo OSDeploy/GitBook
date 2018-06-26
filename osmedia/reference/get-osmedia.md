@@ -3,31 +3,45 @@
 * 18.06.26 Renamed variables.  Added BuildsPath
 * 18.06.25 Initial Release
 
-Returns the Directory Paths used by all OSMedia, displays the Operating Systems in the OSLibrary Path, and displays the Operating System Updates in OSUpdates Path.  There are no parameters.
+Returns the Directory Paths used by all OSMedia.
 
-![](/assets/2018-06-24_22-38-13.png)
+![](/assets/2018-06-26_1-58-01.png)
+
+If content is in the Library, Builds, or Updates directories, they will be displayed
+
+![](/assets/2018-06-26_2-07-32.png)
 
 ---
 
-### PathOSMedia
+### OSMediaPath \| PathOSMedia
 
 OSMedia main directory.  The default is C:\OSMedia \(System Drive\)
 
 ---
 
-### PathOSLibrary
+### LibraryPath \| PathOSLibrary
 
 Directory where the Operating Systems are imported.  The default is C:\OSMedia\Library
 
+Imported Operating Systems should not be modified
+
 ---
 
-### PathOSUpdates
+### BuildsPath
+
+Directory where Operating Systems are Updated or Edited.  The default is C:\OSMedia\Builds
+
+
+
+---
+
+### UpdatesPath \| PathOSUpdates
 
 Directory for downloaded CAB and MSU files from Windows Update Catalog.  The default is C:\OSMedia\Updates
 
 ---
 
-### PathOSMount
+### MountPath \| PathOSMount
 
 Directory where the Windows Images will be mounted.  The default is C:\OSMedia\Mount
 
