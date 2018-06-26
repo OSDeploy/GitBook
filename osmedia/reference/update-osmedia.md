@@ -1,4 +1,4 @@
-* 18.06.26 This function is removed and has been replaced by [**Update-OSBuild**](/osmedia/reference/update-osbuild.md)
+* 18.06.26 This function is removed and has been replaced by [Update-OSBuild](/osmedia/reference/update-osbuild.md)
 * 18.06.25 Initial Release
 
 ---
