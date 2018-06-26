@@ -15,6 +15,7 @@
   * [Update an Operating System](osmedia/how-to/update-an-operating-system.md)
   * [Update an Operating System Build](osmedia/how-to/update-an-operating-system-build.md)
   * [Edit an Operating System](osmedia/how-to/edit-an-operating-system.md)
+  * [Edit an Operating System Build](osmedia/how-to/edit-an-operating-system-build.md)
 * [Future Plans](osmedia/future-plans.md)
 * [Reference](osmedia/reference/README.md)
   * [Get-OSMedia](osmedia/reference/get-osmedia.md)
