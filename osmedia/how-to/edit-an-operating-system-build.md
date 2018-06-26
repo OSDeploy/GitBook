@@ -94,15 +94,15 @@ Windows Packages will be displayed and can be selected for Removal
 
 Selecting this parameter will install .NET 3.5 in your Windows Image.  This Package will cause the Windows Image to have Pending Operations, so you will not be able to Start Component Cleanup after installing the package.
 
-![](/assets/2018-06-24_17-21-45.png)
+![](/assets/2018-06-26_15-01-10.png)
 
 ---
 
 ### -Action "Stay Mounted"
 
-Since the Action Parameter was set to "Stay Mounted", the Windows Image is not dismounted.  This allows Edit-OSMedia to be run additional times without waiting for the Windows Image to Mount / Dismount Save.  When all edits are complete, make sure the Action is set to "**Dismount Save**"
+Since the Action Parameter was set to "Stay Mounted", the Windows Image is not dismounted.  This allows Edit-OSBuild to be run additional times without waiting for the Windows Image to Mount / Dismount Save.  When all edits are complete, make sure the Action is set to "**Dismount Save**"
 
-![](/assets/2018-06-24_17-24-34.png)
+![](/assets/2018-06-26_15-03-53.png)
 
 ---
 
