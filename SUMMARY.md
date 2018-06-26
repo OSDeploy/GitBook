@@ -5,8 +5,8 @@
 
 ## OSMedia
 
-* [Quick Start](osmedia/quick-start.md)
 * [What's New](osmedia/whats-new.md)
+* [Quick Start](osmedia/quick-start.md)
 * [How To](osmedia/how-to/README.md)
   * [Import an Operating System](osmedia/how-to/import-an-operating-system.md)
   * [Build an OSMedia Library](osmedia/how-to/build-an-osmedia-library.md)

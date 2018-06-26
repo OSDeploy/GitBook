@@ -22,6 +22,12 @@ OSMedia is a PowerShell module to work with Offline Windows Images.  Using OSMed
 
 ---
 
+### Admin Rights
+
+OSMedia requires Admin Rights in PowerShell as you will be manipulating Windows Images.  Make sure you launch PowerShell ISE as Administrator when using OSMedia
+
+---
+
 ### OSMedia Installation
 
 OSMedia has been published in the [PowerShell Gallery](https://www.powershellgallery.com/)

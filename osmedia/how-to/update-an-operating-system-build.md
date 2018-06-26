@@ -35,8 +35,6 @@ Get-OSMedia will return the updates that are found in the OSMedia Updates direct
 
 ![](/assets/2018-06-26_12-31-59.png)
 
-
-
 ---
 
 ### Update-OSBuild
