@@ -74,11 +74,11 @@ Selecting this parameter will display all the installed Windows Capabilities, al
 
 This parameter will display a list of ENABLED Windows Features that can be selected and DISABLED.
 
-![](/assets/2018-06-24_17-14-09.png)
+![](/assets/2018-06-26_14-52-19.png)
 
 As well as DISABLED Windows Features that can be ENABLED
 
-![](/assets/2018-06-24_17-14-59.png)
+![](/assets/2018-06-26_14-53-05.png)
 
 ---
 
