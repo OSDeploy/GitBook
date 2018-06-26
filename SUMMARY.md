@@ -11,6 +11,7 @@
   * [Import an Operating System](osmedia/how-to/import-an-operating-system.md)
   * [Build an OSMedia Library](osmedia/how-to/build-an-osmedia-library.md)
   * [Copy an Operating System](osmedia/how-to/copy-an-operating-system.md)
+  * [Create an Operating System Build](osmedia/how-to/create-an-operating-system-build.md)
   * [Update an Operating System](osmedia/how-to/update-an-operating-system.md)
   * [Edit an Operating System](osmedia/how-to/edit-an-operating-system.md)
 * [Future Plans](osmedia/future-plans.md)
