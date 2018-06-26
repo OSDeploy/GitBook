@@ -1,4 +1,4 @@
-# OSWhat's New
+# OSMedia: What's New
 
 * 18.06.26 OSMedia Builds Update
   * Library contents should not be edited, so OSMedia to be Updated or Edited is now in the Builds directory

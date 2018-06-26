@@ -1,4 +1,4 @@
-# OSMedia Quick Start
+# OSMedia: Quick Start
 
 OSMedia is a PowerShell module to work with Offline Windows Images.  Using OSMedia, you will be able to:
 
