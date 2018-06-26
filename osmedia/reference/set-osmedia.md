@@ -1,5 +1,8 @@
 # Set-OSMedia
 
+* 18.06.26 Renamed parameters.  Added BuildsPath parameter
+* 18.06.25 Initial Release
+
 The default OSMedia paths won't work for everyone, so you are able to make changes on your own.  All parameters should be directory paths
 
 ![](/assets/2018-06-26_2-17-10.png)
@@ -45,8 +48,6 @@ You can certainly make a change to the Mount directory without any issues.
 ![](/assets/2018-06-22_23-44-42.png)
 
 ---
-
-
 
 
 
