@@ -1,5 +1,8 @@
 # Update-OSBuild
 
+**18.06.26 Initial Release**
+
+
 This function is used to apply Windows Updates and to Cleanup and compress a Windows Image
 
 ![](/assets/2018-06-22_15-27-15.png)
