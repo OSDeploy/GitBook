@@ -1,7 +1,7 @@
 # Get-OSMedia
 
-* 18.06.26 Renamed parameters.  Added BuildsPath parameter
-* 18.06.25 Initial Release
+* **18.06.26 Renamed parameters.  Added BuildsPath parameter**
+* **18.06.25 Initial Release**
 
 Returns the Directory Paths used by all OSMedia.
 
