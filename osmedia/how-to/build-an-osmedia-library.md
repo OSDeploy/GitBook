@@ -2,11 +2,9 @@
 
 The best way to build a proper OSMedia library is to repeat the steps in [Import an Operating System](/osmedia/how-to/import-an-operating-system.md) for every version that you support.  Download all the ISO's from MVLS or MSDN.  Make a note of the updated date and use those in your naming convention.
 
-If we use the image below as our example
-
 ![](/assets/2018-06-18_11-29-13.png)
 
-Then you should use the following naming standards as they include the date of the last update
+This will translate to the following naming standards
 
 ```
 Windows 10 Enterprise 1607 x86 2016-11
@@ -25,6 +23,14 @@ Windows 10 Enterprise 1803 x86 2018-03
 
 When you have finished importing all the Operating Systems that you support, your OSMedia Library should look similar to the one below.  
 ![](/assets/2018-06-24_0-11-02.png)
+
+---
+
+### Get-OSMedia
+
+Imported Operating Systems can be validated with Get-OSMedia
+
+![](/assets/2018-06-26_10-26-27.png)
 
 ---
 
