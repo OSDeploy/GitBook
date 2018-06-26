@@ -86,7 +86,7 @@ As well as DISABLED Windows Features that can be ENABLED
 
 Windows Packages will be displayed and can be selected for Removal
 
-![](/assets/2018-06-24_17-16-55.png)
+![](/assets/2018-06-26_14-54-09.png)
 
 ---
 
