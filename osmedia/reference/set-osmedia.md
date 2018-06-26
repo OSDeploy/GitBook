@@ -1,10 +1,12 @@
 # Set-OSMedia
 
-The default OSMedia paths won't work for everyone, so you are able to make changes on your own.  Changing a setting using Set-OSMedia will also write the changes to the Registry
+The default OSMedia paths won't work for everyone, so you are able to make changes on your own.  Changing a setting using Set-OSMedia will also write the changes to the Registry.
 
 ![](/assets/2018-06-26_2-17-10.png)
 
-![](/assets/2018-06-26_2-21-12.png)
+**Executing Set-OSMedia without parameters will display the current values**
+
+![](/assets/2018-06-26_2-22-56.png)
 
 ---
 
