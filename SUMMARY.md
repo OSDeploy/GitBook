@@ -10,6 +10,7 @@
 * [How To](osmedia/how-to/README.md)
   * [Import an Operating System](osmedia/how-to/import-an-operating-system.md)
   * [Build an OSMedia Library](osmedia/how-to/build-an-osmedia-library.md)
+  * [Build an Operating System Library](osmedia/how-to/build-an-operating-system-library.md)
   * [Copy an Operating System](osmedia/how-to/copy-an-operating-system.md)
   * [Create an Operating System Build](osmedia/how-to/create-an-operating-system-build.md)
   * [Update an Operating System](osmedia/how-to/update-an-operating-system.md)

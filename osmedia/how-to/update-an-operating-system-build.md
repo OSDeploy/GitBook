@@ -74,7 +74,7 @@ Once the updates have been selected the following steps will occur
 * Windows Image will be dismounted and saved
 * Windows Image will be exported back to install.wim
 
-![](/assets/2018-06-24_1-46-07.png)
+
 
 This process will take a while to run so take a break.  When you get back, you will now have an updated OSMedia that you can import into SCCM or MDT.
 
