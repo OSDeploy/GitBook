@@ -1,11 +1,9 @@
-* 18.06.26 This function is removed and has been replaced by [New-OSBuild](/osmedia/reference/new-osbuild.md)
+* 18.06.26 This function is removed and has been replaced by [**New-OSBuild**](/osmedia/reference/new-osbuild.md)
 * 18.06.25 Initial Release
 
 ---
 
-
 # Copy-OSMedia
-
 
 Before making any changes to any imported OSMedia, it is strongly recommended that you make a copy of the OSMedia
 

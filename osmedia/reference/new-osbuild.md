@@ -1,10 +1,8 @@
-* 18.06.26 Initial Release.  Replaces [Copy-OSMedia](/osmedia/reference/copy-osmedia.md)
+* 18.06.26 Initial Release.  Replaces [**Copy-OSMedia**](/osmedia/reference/copy-osmedia.md)
 
 ---
 
-
 # New-OSBuild
-
 
 An OSBuild is a copy of any previously imported Operating System \(Library\) or Operating System Build \(Builds\).  This function will create a new instance located in C:\OSMedia\Builds
 
