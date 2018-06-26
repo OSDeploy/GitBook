@@ -30,13 +30,18 @@ OSMedia requires Admin Rights in PowerShell as you will be manipulating Windows 
 
 ### OSMedia Installation
 
-OSMedia has been published in the [PowerShell Gallery](https://www.powershellgallery.com/)
+OSMedia has been published in the [PowerShell Gallery](https://www.powershellgallery.com/) at [https://www.powershellgallery.com/packages/OSMedia/](https://www.powershellgallery.com/packages/OSMedia/)
 
-[https://www.powershellgallery.com/packages/OSMedia/](https://www.powershellgallery.com/packages/OSMedia/)
-
-You can install OSMedia by executing the following command in PowerShell
+**PowerShell Uninstall Previous Versions:**
 
 ```
+Uninstall-Module -Name OSMedia -AllVersions -Force
+```
+
+**PowerShell Install Latest Version:**
+
+```
+
 Install-Module -Name OSMedia -Scope CurrentUser
 ```
 

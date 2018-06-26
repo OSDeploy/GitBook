@@ -6,8 +6,20 @@ Builds are being introduced to replace the traditional method of having all Impo
 
 ### Updating OSMedia
 
+Make sure you remove any previous version as some of the functions have been renamed
 
+**PowerShell Uninstall Previous Versions:**
 
+```
+Uninstall-Module -Name OSMedia -AllVersions -Force
+```
+
+**PowerShell Install Latest Version:**
+
+```
+
+Install-Module -Name OSMedia -Scope CurrentUser
+```
 
 
 ---
