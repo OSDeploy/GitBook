@@ -6,6 +6,7 @@
 ## OSMedia
 
 * [Quick Start](osmedia/quick-start.md)
+* [What's New](osmedia/whats-new.md)
 * [How To](osmedia/how-to/README.md)
   * [Import an Operating System](osmedia/how-to/import-an-operating-system.md)
   * [Build an OSMedia Library](osmedia/how-to/build-an-osmedia-library.md)
@@ -20,7 +21,6 @@
   * [Copy-OSMedia](osmedia/reference/copy-osmedia.md)
   * [Update-OSMedia](osmedia/reference/update-osmedia.md)
   * [Edit-OSMedia](osmedia/reference/edit-osmedia.md)
-
 
 ## OSConfig
 
