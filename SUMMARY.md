@@ -19,9 +19,9 @@
   * [Set-OSMedia](osmedia/reference/set-osmedia.md)
   * [Import-OSMedia](osmedia/reference/import-osmedia.md)
   * [Copy-OSMedia](osmedia/reference/copy-osmedia.md)
+  * [New-OSBuild](osmedia/reference/new-osbuild.md)
   * [Update-OSMedia](osmedia/reference/update-osmedia.md)
   * [Edit-OSMedia](osmedia/reference/edit-osmedia.md)
-  * [New-OSBuild](osmedia/reference/new-osbuild.md)
 
 ## OSConfig
 

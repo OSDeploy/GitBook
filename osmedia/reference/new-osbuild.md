@@ -1,20 +1,20 @@
-# Copy-OSMedia
+# New-OSBuild
 
-Before making any changes to any imported OSMedia, it is strongly recommended that you make a copy of the OSMedia
+An OSBuild is a copy of any previously imported Operating System \(Library\) or Operating System Build \(Builds\).  This function will create a new instance located in C:\OSMedia\Builds
 
-![](/assets/2018-06-22_15-28-13.png)
+![](/assets/2018-06-26_11-43-11.png)
 
 ---
 
-### -NewOSMediaName
+### -OSBuildName
 
 This is the name of the new Operating System and it will need to be unique.  Using the example below will create a copy of an existing Operating System with the name "Windows 10 Enterprise 1803 x64 2018-06"
 
 ```
-Copy-OSMedia -NewOSMediaName "Windows 10 Enterprise 1803 x64 2018-06"
+New-OSBuild -OSBuildName "Windows 10 Enterprise 1803 x64 2018-06"
 ```
 
-NewOSMediaName is also applied to the Windows Image as the ImageName
+OSBuildName is also applied to the Windows Image as the ImageName
 
 ---
 
