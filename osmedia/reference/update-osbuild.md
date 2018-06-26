@@ -1,6 +1,10 @@
+**18.06.26 Initial Release.  Replaces **[**Update-OSMedia**](/osmedia/reference/update-osmedia.md)
+
+---
+
+
 # Update-OSBuild
 
-**18.06.26 Initial Release.  Replaces **[**Update-OSMedia**](/osmedia/reference/update-osmedia.md)
 
 This function is used to apply Windows Updates and to Cleanup and compress a Windows Image
 
