@@ -3,7 +3,6 @@
 **Reference:**  
 [Update-OSBuild](/osmedia/reference/update-osbuild.md)
 
-
 If you have a copied Operating System in the OSMedia library, it is easy enough to apply some Windows Updates.
 
 ---
@@ -24,35 +23,45 @@ Pay attention to the date of the newest Cumulative Update if you have multiple. 
 
 ### Updates Directory
 
-If you are using the Default paths for OSMedia, then you should download your updates to C:\OSMedia\Updates in any logical structure.  Update-OSMedia will recurse the Updates directory for all MSU and CAB files
+If you are using the Default paths for OSMedia, then you should download your updates to C:\OSMedia\Updates in any logical structure.  Update-OSBuild will recurse the Updates directory for all MSU and CAB files
 
-![](/assets/2018-06-22_15-01-36.png)
+![](/assets/2018-06-26_12-30-36.png)
 
 ---
 
-### Update-OSMedia
+### Get-OSMedia
+
+Get-OSMedia will return the updates that are found in the OSMedia Updates directory
+
+![](/assets/2018-06-26_12-31-59.png)
+
+
+
+---
+
+### Update-OSBuild
 
 I prefer to run this step on a network disconnected Virtual Machine so nothing on my production computer interferes with the process \(like McAfee ...\)
 
-Using PowerShell ISE, select Update-OSMedia.  Select the appropriate Action for the Update.  Keep in mind that running an Action with Cleanup will take a considerable amount of time.  Press Run
+Using PowerShell ISE, select Update-OSBuild.  Select the appropriate Action for the Update.  Keep in mind that running an Action with Cleanup will take a considerable amount of time.  Press Run
 
-![](/assets/2018-06-24_1-20-02.png)
+![](/assets/2018-06-26_12-35-56.png)
 
 ---
 
-### Select OSMedia
+### Select OSMedia Build
 
-Select the Operating System to update and press OK
+Select the Operating System Build to update and press OK
 
-![](/assets/2018-06-24_1-22-53.png)
+![](/assets/2018-06-26_12-39-29.png)
 
 ---
 
 ### Select Windows Updates
 
-Once the OSMedia is selected, a grid of the available Windows Updates will be displayed.  These are files that are in the Updates directory.  Select the updates to apply and press OK.
+Once the OSMedia Build is selected, a grid of the available Windows Updates will be displayed.  These are files that are in the Updates directory.  Select the updates to apply and press OK.
 
-![](/assets/2018-06-24_1-40-36.png)
+![](/assets/2018-06-26_12-40-51.png)
 
 ---
 
