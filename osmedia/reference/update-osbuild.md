@@ -1,15 +1,14 @@
 # Update-OSBuild
 
-**18.06.26 Initial Release.  Replaces [Update-OSMedia](/osmedia/reference/update-osmedia.md)**
-
+**18.06.26 Initial Release.  Replaces **[**Update-OSMedia**](/osmedia/reference/update-osmedia.md)
 
 This function is used to apply Windows Updates and to Cleanup and compress a Windows Image
 
-![](/assets/2018-06-22_15-27-15.png)
+![](/assets/2018-06-26_12-27-05.png)
 
 ---
 
-### -Action "Update and Cleanup Imported OSMedia"
+### -Action "Apply Updates and Component Cleanup"
 
 This is a lengthy process that will complete the following
 
@@ -20,7 +19,7 @@ This is a lengthy process that will complete the following
 
 ---
 
-### -Action "Update Imported OSMedia"
+### -Action "Apply Updates Only"
 
 This is a lengthy process that will complete the following
 
@@ -30,11 +29,13 @@ This is a lengthy process that will complete the following
 
 ---
 
-### -Action "Cleanup Imported OSMedia"
+### -Action "Component Cleanup Only"
 
 This is a lengthy process that will complete the following
 
 * Mount the Windows Image
 * Cleanup the Windows Image \(Dism /Cleanup-Image /StartComponentCleanup /ResetBase\)
 * Dismount the Windows Image
+
+
 
