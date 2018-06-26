@@ -1,23 +1,28 @@
-# Edit an Operating System
+# Edit an Operating System Build
 
 **Reference:**  
-[Copy-OSMedia](/osmedia/reference/copy-osmedia.md)
-[Edit-OSMedia](/osmedia/reference/edit-osmedia.md)
+[New-OSBuild](/osmedia/reference/new-osbuild.md)  
+[Edit-OSBuild](/osmedia/reference/edit-osbuild.md)
 
-This How To will detail the steps involved to Remove AppxPackages and add DotNet 3.5
-
+This How To will detail the steps involved to Remove AppxPackages and add DotNet 3.5 to a Windows Image
 
 ---
 
-### Copy-OSMedia
+### New-OSBuild
 
-Start by copying an Operating System
+Start by creating a new Operating System Build.  In this example I am going to create a new OSMedia Build from the one I updated in [Update an Operating System Build](/osmedia/how-to/update-an-operating-system-build.md)
 
 ```
-Copy-OSMedia -NewOSMediaName "Windows 10 Enterprise 1803 x64 2018-06 Edit"
+New-OSBuild -OSBuildName "Windows 10 Enterprise 1803 x64 DEV Edit"
 ```
 
-![](/assets/2018-06-24_14-46-04.png)
+I will have to select the OSMedia to use as my reference
+
+![](/assets/2018-06-26_13-17-59.png)
+
+And wait for it to build out
+
+![](/assets/2018-06-26_13-22-17.png)
 
 ---
 
@@ -114,8 +119,6 @@ Copy-OSMedia -NewOSMediaName "Windows 10 Enterprise 1803 x64 2018-06 Release"
 Now take this Operating System and import it into MDT or SCCM and start deploying!
 
 ![](/assets/2018-06-24_22-31-35.png)
-
-
 
 ---
 
