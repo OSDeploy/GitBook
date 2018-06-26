@@ -1,4 +1,4 @@
-* 18.06.26 This function is removed and has been replaced by [Edit-OSBuild](/osmedia/reference/edit-osbuild.md)
+* 18.06.26 This function is removed and has been replaced by [**Edit-OSBuild**](/osmedia/reference/edit-osbuild.md)
 * 18.06.25 Initial Release
 
 ---
@@ -74,8 +74,6 @@ Displays a grid of installed Packages so you can optionally select for removal. 
 Uses Get-WindowsPackage and Remove-WindowsPackage
 
 ---
-
-
 
 
 
