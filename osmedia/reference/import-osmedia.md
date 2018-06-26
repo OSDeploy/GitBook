@@ -1,7 +1,7 @@
 # Import-OSMedia
 
-18.06.26 Edited Import-OSMedia select title
-18.06.25 Initial Release
+**18.06.26 Edited Import-OSMedia select title  
+18.06.25 Initial Release**
 
 Once the OSMedia paths have been set, you can import an Operating System into the OSMedia Library using this function.  Enter the name of the Operating System you are importing.
 
