@@ -26,19 +26,19 @@ And wait for it to build out
 
 ---
 
-### Edit-OSMedia
+### Edit-OSBuild
 
 In this example the Action will be "**Stay Mounted**'.  This will allow us to go through the Edit-OSMedia process repeatedly without saving to mount and dismount the Windows Image.
 
-![](/assets/2018-06-24_14-48-14.png)
+![](/assets/2018-06-26_13-57-38.png)
 
 ---
 
-### Select the OSMedia to Edit
+### Select the Operating System Build to Edit
 
-Select the Operating System to edit and press OK
+Select the Operating System Build to edit and press OK.  Library Operating Systems are not visible and should not be edited
 
-![](/assets/2018-06-24_14-50-11.png)
+![](/assets/2018-06-26_14-06-41.png)
 
 ---
 
