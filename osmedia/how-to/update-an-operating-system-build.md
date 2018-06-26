@@ -89,11 +89,11 @@ In addition to the PowerShell Transcript that is created in the Logs directory, 
 * Get-WindowsOptionalFeature
 * Get-WindowsPackage
 
-![](/assets/2018-06-24_2-39-27.png)
+![](/assets/2018-06-26_14-18-14.png)
 
-Reviewing the **Get-WindowsPackage-\*.txt** file will show the updates that were applied successfully.
+Reviewing the **Get-WindowsPackage-\*.txt** file will show the updates that were applied successfully.  Additionally there are LOGS for the Windows Updates that were installed.
 
-![](/assets/2018-06-24_2-42-54.png)
+![](/assets/2018-06-26_14-20-13.png)
 
 ---
 
