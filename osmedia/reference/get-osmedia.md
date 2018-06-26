@@ -31,8 +31,6 @@ Imported Operating Systems should not be modified
 
 Directory where Operating Systems are Updated or Edited.  The default is C:\OSMedia\Builds
 
-
-
 ---
 
 ### UpdatesPath \| PathOSUpdates
@@ -51,5 +49,5 @@ Directory where the Windows Images will be mounted.  The default is C:\OSMedia\M
 
 When executing Get-OSMedia, empty Strings will be created at HKEY\_CURRENT\_USER\Software\OSDeploy
 
-![](/assets/2018-06-22_12-38-17.png)
+![](/assets/2018-06-26_2-12-46.png)
 
