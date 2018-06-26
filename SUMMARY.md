@@ -13,6 +13,7 @@
   * [Copy an Operating System](osmedia/how-to/copy-an-operating-system.md)
   * [Create an Operating System Build](osmedia/how-to/create-an-operating-system-build.md)
   * [Update an Operating System](osmedia/how-to/update-an-operating-system.md)
+  * [Update an Operating System Build](osmedia/how-to/update-an-operating-system-build.md)
   * [Edit an Operating System](osmedia/how-to/edit-an-operating-system.md)
 * [Future Plans](osmedia/future-plans.md)
 * [Reference](osmedia/reference/README.md)
