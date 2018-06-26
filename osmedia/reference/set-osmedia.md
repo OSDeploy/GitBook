@@ -1,34 +1,44 @@
 # Set-OSMedia
 
-The default OSMedia paths won't work for everyone, so you are able to make changes on your own.  Changing a setting using Set-OSMedia will also write the changes to the Registry.
+The default OSMedia paths won't work for everyone, so you are able to make changes on your own.  All parameters should be directory paths
 
 ![](/assets/2018-06-26_2-17-10.png)
 
-**Executing Set-OSMedia without parameters will display the current values**
+* Executing Set-OSMedia without parameters will display the current values
 
 ![](/assets/2018-06-26_2-22-56.png)
 
+* Changes will be reflected in the User Registry
+
+![](/assets/2018-06-26_2-38-15.png)
+
 ---
 
-### -PathOSMedia
+### -OSMediaPath \| -PathOSMedia
 
 Making a change to the main directory will result in a change of all child directories.  In the example below a the OSMedia Path has been changed from C:\OSMedia to D:\OSMedia
 
-![](/assets/2018-06-22_23-42-47.png)
+---
 
-This change will also result in setting this Value in the Registry
+### -LibraryPath \| -PathOSLibrary
 
-![](/assets/2018-06-22_13-12-11.png)
+Default is a child directory of OSMedia named Library
 
 ---
 
-### -PathOSLibrary
+### -BuildsPath
 
-I recommend keeping this as the default under the OSMedia parent directory
+Default is a child directory of OSMedia named Builds
 
 ---
 
-### -PathOSMount
+### -UpdatesPath \| -PathOSUpdates
+
+Default is a child directory of OSMedia named Updates
+
+---
+
+### -MountPath \| -PathOSMount
 
 You can certainly make a change to the Mount directory without any issues.
 
@@ -36,11 +46,7 @@ You can certainly make a change to the Mount directory without any issues.
 
 ---
 
-### -PathOSUpdates
 
-I recommend keeping this as the default under the OSMedia parent directory
-
----
 
 
 
