@@ -1,5 +1,8 @@
 # New-OSBuild
 
+**18.06.26 Initial Release**
+
+
 An OSBuild is a copy of any previously imported Operating System \(Library\) or Operating System Build \(Builds\).  This function will create a new instance located in C:\OSMedia\Builds
 
 ![](/assets/2018-06-26_11-43-11.png)
