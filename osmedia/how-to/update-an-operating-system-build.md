@@ -49,7 +49,7 @@ Using PowerShell ISE, select Update-OSBuild.  Select the appropriate Action for 
 
 ### Select OSMedia Build
 
-Select the Operating System Build to update and press OK
+Select the Operating System Build to update and press OK.  Library Operating Systems are not visible and should not be updated
 
 ![](/assets/2018-06-26_12-39-29.png)
 
