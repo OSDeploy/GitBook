@@ -26,6 +26,7 @@
   * [Update-OSMedia](osmedia/reference/update-osmedia.md)
   * [Update-OSBuild](osmedia/reference/update-osbuild.md)
   * [Edit-OSMedia](osmedia/reference/edit-osmedia.md)
+  * [Edit-OSBuild](osmedia/reference/edit-osbuild.md)
 
 ## OSConfig
 

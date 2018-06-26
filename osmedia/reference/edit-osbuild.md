@@ -1,10 +1,7 @@
-**18.06.26 This function is removed and has been replaced by [Edit-OSBuild](/osmedia/reference/edit-osbuild.md)
-18.06.25 Initial Release**
+# Edit-OSBuild
 
+**18.06.26 Initial Release.  Replaces **[**Edit-OSMedia**](/osmedia/reference/edit-osmedia.md)
 
-
-
-# Edit-OSMedia
 
 This function will optionally allow you to remove Appx Packages or Windows Components.  It is recommended that this step be completed AFTER running an Update-OSMedia.  Some changes that are made using Edit-OSMedia may be Pending Changes.  When the Windows Image has Pending Changes, you cannot run DISM Component Cleanup to shrink down a Windows Image.
 
