@@ -1,22 +1,38 @@
 # Servicing Stacks
 
-Before you jump in and start updating your Operating Systems offline, a quick dive into Servicing Stacks is important.
+Before you jump in and start updating your Operating Systems offline, you need to understand why Servicing Stacks are important.
 
 ---
 
 ### What is a Servicing Stack?
 
-You can google or bing and find many different answers, but the simple answer is this and there are many different answers depending on who or why you ask.  But for the purpose of my audience, the question probably relates to applying a Windows Update Package \(Cumulative Update\) to a Windows Image \(offline\).  So now the simple answer.
+You can google or bing this question and find many different answers, but there are many different answers depending on who or why you ask.  But for the purpose of my audience, the question probably relates to applying a Windows Update Package \(Cumulative Update\) to a Windows Image \(Offline\).  So now the simple answer.
 
-**The Servicing Stack tells the Operating System \(online or offline\) how to process a Windows Update \(Package\)**
+**The Servicing Stack tells the Operating System \(Online or Offline\) how to process a Windows Update \(Package\)**
 
-Think of it as two people that only speak different languages.  Neither person will understand each other, unless they speak the same language.  In other words, an Operating System doesn't understand what to do with the Update Package, unless they are speaking the same language.
+Think of it as two people that speaking different languages.  Neither person will understand each other, unless they speak the same language.  In other words, an Operating System doesn't understand how to apply the Update Package properly because they are speaking different languages.
 
 ---
 
 ### How are Servicing Stacks updated?
 
 Servicing Stacks updates are released as a Critical Update, but can be included in Cumulative Updates
+
+---
+
+### Does Microsoft Tell Us?
+
+Yes, but you probably didn't notice.  You need to look at the Windows 10 Update History
+
+[https://support.microsoft.com/en-us/help/4099479](https://support.microsoft.com/en-us/help/4099479)
+
+Look at the How to get this update section of any Cumulative Update and you will probably see a mention of the SSU
+
+![](/assets/2018-06-27_9-39-14.png)In the case of Windows 10 1607 the June 12, 2018—KB4284880 \(OS Build 14393.2312\) release has some different verbiage
+
+[https://support.microsoft.com/en-us/help/4284880](https://support.microsoft.com/en-us/help/4284880)
+
+![](/assets/2018-06-27_9-41-39.png)
 
 ---
 
