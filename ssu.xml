@@ -38,22 +38,22 @@
     <TNRef RefId="0" />
     <ToString>System.Object</ToString>
     <MS>
-      <S N="Name">SSU Windows 10 1709 x64</S>
-      <S N="Date">2018-05-21</S>
-      <S N="Arch">x64</S>
-      <S N="KB">KB4132650</S>
-      <S N="URL">http://download.windowsupdate.com/c/msdownload/update/software/crup/2018/05/windows10.0-kb4132650-x64_80c6e23ef266c2848e69946133cc800a5ab9d6b3.msu</S>
+      <S N="Name">SSU Windows 10 1703 x86</S>
+      <S N="Date">2018-05-17</S>
+      <S N="Arch">x86</S>
+      <S N="KB">KB4132649</S>
+      <S N="URL">http://download.windowsupdate.com/c/msdownload/update/software/crup/2018/05/windows10.0-kb4132649-x86_ea616942f1348d22aeaf07ebee1759b3a8aa708a.msu</S>
     </MS>
   </Obj>
   <Obj RefId="4">
     <TNRef RefId="0" />
     <ToString>System.Object</ToString>
     <MS>
-      <S N="Name">SSU Windows 10 1703 x86</S>
-      <S N="Date">2018-05-17</S>
-      <S N="Arch">x86</S>
-      <S N="KB">KB4132649</S>
-      <S N="URL">http://download.windowsupdate.com/c/msdownload/update/software/crup/2018/05/windows10.0-kb4132649-x86_ea616942f1348d22aeaf07ebee1759b3a8aa708a.msu</S>
+      <S N="Name">SSU Windows 10 1709 x64</S>
+      <S N="Date">2018-05-21</S>
+      <S N="Arch">x64</S>
+      <S N="KB">KB4132650</S>
+      <S N="URL">http://download.windowsupdate.com/c/msdownload/update/software/crup/2018/05/windows10.0-kb4132650-x64_80c6e23ef266c2848e69946133cc800a5ab9d6b3.msu</S>
     </MS>
   </Obj>
   <Obj RefId="5">
