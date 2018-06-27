@@ -142,7 +142,7 @@ FLOW: Entering stage: Extracting
 
 ### Checking the Parent Package Servicing Stack
 
-It is possible to determine the Parent Package Servicing Stack.  Expanding the Cumulative Update MSU in 7zip will result in a directory of a few CAB files.  The largest file can then be extracted again in 7zip.  The update.mum will detail the Parent KB that is required for the update to be installed.  In my example, this KB was bundled in the 2018-05 Cumulative Updates.
+It is possible to determine the Parent Package Servicing Stack.  Expanding the Cumulative Update MSU in 7zip will result in a directory of a few CAB files.  The largest file can then be extracted again in 7zip.  The update.mum will detail the Parent KB that is required for the update to be installed.
 
 ![](/assets/2018-06-27_0-15-05.png)
 
