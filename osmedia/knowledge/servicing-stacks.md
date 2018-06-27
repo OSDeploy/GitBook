@@ -126,7 +126,7 @@ So instead of using PowerShell Add-WindowsPackage, I will try to use DISM instea
 
 ### Apply the Servicing Stack First
 
-After installing KB4132216 Servicing Stack Update for Windows 10 1607, the Add-Package log is a nice 62MB!  When reviewing the log, I see the same Parent Package KB4132216 checked, and because it was installed, the Cumulative Update was installed properly.
+After installing KB4132216 Servicing Stack Update for Windows 10 1607, the Add-Package log is a nice 62MB!  When reviewing the log, I see that the Parent Package is checked first.  Since the Parent Package \(SSU\) KB4132216 is installed first, the Cumulative Update is now installed properly.
 
 ```
 Appl: detect Parent, Package: Package_for_RollupFix~31bf3856ad364e35~amd64~~14393.2312.1.14, Parent: Package_for_KB4132216~31bf3856ad364e35~amd64~~10.0.1.0, Disposition = Detect, VersionComp: EQ, BuildComp: GE, RevisionComp: GE, Exist: present
@@ -136,7 +136,7 @@ Exec: Extracting package: Package_for_RollupFix~31bf3856ad364e35~amd64~~14393.23
 FLOW: Entering stage: Extracting
 ```
 
-![](/assets/2018-06-27_0-09-43.png)
+![](/assets/2018-06-27_0-09-43b.png)
 
 ---
 
