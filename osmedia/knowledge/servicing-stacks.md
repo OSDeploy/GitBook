@@ -1,6 +1,6 @@
 # Servicing Stacks
 
-Before you jump in and start updating your Operating Systems, a deep dive into Servicing Stacks is important.
+Before you jump in and start updating your Operating Systems offline, a quick dive into Servicing Stacks is important.
 
 ---
 
