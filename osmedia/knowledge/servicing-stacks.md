@@ -119,13 +119,35 @@ FLOW: Entering stage: Extracting
 
 ---
 
+### Checking the Parent Package Servicing Stack
 
+It is possible to determine the Parent Package Servicing Stack.  Expanding the Cumulative Update MSU in 7zip will result in a directory of a few CAB files.  The largest file can then be extracted again in 7zip.  The update.mum will detail the Parent KB that is required for the update to be installed.  In my example, this KB was bundled in the 2018-05 Cumulative Updates.
 
+![](/assets/2018-06-27_0-15-05.png)
 
+---
 
+### Chaining Cumulative Updates
 
+Since my Windows 10 1607 build was from 2016-11, I could have applied every Cumulative Update that has been released, in order.  This would have kept me from having issues with the Servicing Stack, as the necessary one would have always been installed in the previous Cumulative Update, but this would take a considerable amount of time just to test, and the resulting size of the WIM may be more than we would consider pushing out.
 
+---
 
+### Rule of Thumb
+
+* Apply the Servicing Stack first, otherwise your Cumulative Update may look like it installed, but it more than likely did not
+* Verify the Cumulative Update installed by using Get-WindowsPackage
+* Verify the Cumulative Update installed by reviewing the DISM Log
+
+---
+
+### OSMedia Solution
+
+I am working on adding Servicing Stacks to OSMedia in a future release . . . 
+
+![](/assets/2018-06-26_15-58-25.png)
+
+---
 
 
 
