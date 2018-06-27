@@ -40,5 +40,5 @@ Install-Module -Name OSMedia -Scope CurrentUser
 
 After installing the PowerShell Module, OSMedia can now be run in PowerShell ISE
 
-![](/assets/2018-06-25_9-46-08.png)
+![](/assets/2018-06-26_22-39-55.png)
 
