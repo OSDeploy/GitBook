@@ -91,6 +91,20 @@ The first thing that seems out of place is that the update happened quick.  If y
 
 So what happened?  According to the Log \(53 KB\) the Cumulative Update was looking for a Parent Package KB4132216, which if you check the Current Downloads above, you will see this KB is a Servicing Stack update.  Because the Parent Package was not installed on the system, this Update is not applicable and was not installed.  Since this Update is not applicable to this system, there is no error, no failure, which is what should happen if an Update is not applicable.
 
+```
+Exec: Processing started.  Client: DISM Package Manager Provider, Session: 4332_3354890, Package: Package_for_RollupFix~31bf3856ad364e35~amd64~~14393.2312.1.14
+Exec: Using execution sequence: 26
+Disabling LKG boot option
+Appl: detect Parent, Package: Package_for_RollupFix~31bf3856ad364e35~amd64~~14393.2312.1.14, Parent: Package_for_KB4132216~31bf3856ad364e35~amd64~~10.0.1.0, Disposition = Detect, VersionComp: EQ, BuildComp: GE, RevisionComp: GE, Exist: present
+Appl: detectParent: no parent found, go absent
+Appl: Evaluating package applicability for package Package_for_RollupFix~31bf3856ad364e35~amd64~~14393.2312.1.14, applicable state: Absent
+DISM Package Manager: PID=4332 TID=1504  Error in operation: the package is not applicable. (CBS HRESULT=0x800f081e) - CCbsConUIHandler::Error
+Plan: Skipping package since its start state and target state are both absent for package: Package_for_RollupFix~31bf3856ad364e35~amd64~~14393.2312.1.14, current: Absent, pending: Default, start: Absent, applicable: Absent, targeted: Absent, limit: Installed
+Perf: Entering stage: Planning
+FLOW: Entering stage: Planning 
+Exec: Single phase execution, there's no package planned, skip the rest of execution
+```
+
 ![](/assets/2018-06-26_23-55-29.png)
 
 ---
@@ -143,15 +157,11 @@ Since my Windows 10 1607 build was from 2016-11, I could have applied every Cumu
 
 ### OSMedia Solution
 
-I am working on adding Servicing Stacks to OSMedia in a future release . . . 
+I am working on adding Servicing Stacks to OSMedia in a future release . . .
 
 ![](/assets/2018-06-26_15-58-25.png)
 
 ---
-
-
-
-
 
 
 
