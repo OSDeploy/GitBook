@@ -112,6 +112,8 @@ Exec: Single phase execution, there's no package planned, skip the rest of execu
 
 ![](/assets/2018-06-26_23-55-29.png)
 
+![](/assets/2018-06-26_23-55-29b.png)
+
 ---
 
 ### DISM Applying 2018-06 Cumulative Update without a SSU
