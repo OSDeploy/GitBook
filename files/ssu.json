@@ -1,4 +1,5 @@
-[{
+[
+{
 "Title": "2018-05 Update for Windows 10 Version 1607 for x64-based Systems (KB4132216)",
 "LastUpdated": "2018-06-12",
 "KBNumber": "KB4132216",
@@ -27,7 +28,7 @@
 "OsName": "Windows 10",
 "OsVersion": "1703",
 "OsArch": "x64",
-"FileName": "windows10.0-kb4132649-x64.msu"
+"FileName": "windows10.0-kb4132649-x64.msu",
 "URLFile": "windows10.0-kb4132649-x64_7b1001d846a7a14b752a7ea4c7dd444d4c05b39b.msu",
 "URLPath": "http://download.windowsupdate.com/c/msdownload/update/software/crup/2018/05/"
 },
@@ -49,7 +50,7 @@
 "OsName": "Windows 10",
 "OsVersion": "1709",
 "OsArch": "x64",
-"FileName": "windows10.0-kb4132650-x64",
+"FileName": "windows10.0-kb4132650-x64.msu",
 "URLFile": "windows10.0-kb4132650-x64_80c6e23ef266c2848e69946133cc800a5ab9d6b3.msu",
 "URLPath": "http://download.windowsupdate.com/c/msdownload/update/software/crup/2018/05/"
 },
