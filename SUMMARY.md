@@ -9,7 +9,6 @@
 * [Quick Start](osmedia/quick-start.md)
 * [Knowledge](osmedia/knowledge/README.md)
   * [Servicing Stacks](osmedia/knowledge/servicing-stacks.md)
-  * [Servicing Stacks Online](osmedia/knowledge/servicing-stacks-online.md)
 * [How To](osmedia/how-to/README.md)
   * [Import an Operating System](osmedia/how-to/import-an-operating-system.md)
   * [Build an Operating System Library](osmedia/how-to/build-an-operating-system-library.md)
@@ -128,6 +127,4 @@
   * [ADK](resources/links/ADK.md)
   * [MDT](resources/links/MDT.md)
 * [People](resources/people/README.md)
-
-
 
