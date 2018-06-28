@@ -29,7 +29,7 @@ Install-Module -Name OSMedia -Scope CurrentUser
 
 ---
 
-### OSMedia 18.6.28 What's New? Builds
+### OSMedia 18.6.26 What's New? Builds
 
 [https://www.powershellgallery.com/packages/OSMedia/18.6.26](https://www.powershellgallery.com/packages/OSMedia/18.6.26)
 
@@ -45,7 +45,7 @@ Builds are being introduced to replace the traditional method of having all Impo
 
 ---
 
-### OSMedia 18.6.28 What's New? Everything \(Initial Release\)
+### OSMedia 18.6.25 What's New? Everything \(Initial Release\)
 
 [https://www.powershellgallery.com/packages/OSMedia/18.6.25](https://www.powershellgallery.com/packages/OSMedia/18.6.25)
 
