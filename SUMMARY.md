@@ -21,12 +21,13 @@
   * [Get-OSMedia](osmedia/reference/get-osmedia.md)
   * [Set-OSMedia](osmedia/reference/set-osmedia.md)
   * [Import-OSMedia](osmedia/reference/import-osmedia.md)
+  * [Get-Stacks](osmedia/reference/get-stacks.md)
   * [Copy-OSMedia](osmedia/reference/copy-osmedia.md)
   * [New-OSBuild](osmedia/reference/new-osbuild.md)
   * [Update-OSMedia](osmedia/reference/update-osmedia.md)
   * [Update-OSBuild](osmedia/reference/update-osbuild.md)
   * [Edit-OSMedia](osmedia/reference/edit-osmedia.md)
-  * [Edit-OSBuild](osmedia/reference/edit-osbuild.md)
+  * Get-Stacks
 
 ## OSConfig
 
