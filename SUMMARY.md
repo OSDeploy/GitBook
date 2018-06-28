@@ -13,6 +13,7 @@
   * [Import an Operating System](osmedia/how-to/import-an-operating-system.md)
   * [Build an Operating System Library](osmedia/how-to/build-an-operating-system-library.md)
   * [Create an Operating System Build](osmedia/how-to/create-an-operating-system-build.md)
+  * [Integrate Servicing Stack Updates](osmedia/how-to/integrate-servicing-stack-updates.md)
   * [Update an Operating System Build](osmedia/how-to/update-an-operating-system-build.md)
   * [Edit an Operating System Build](osmedia/how-to/edit-an-operating-system-build.md)
 * [Function Reference](osmedia/reference/README.md)

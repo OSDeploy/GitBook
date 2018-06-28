@@ -133,7 +133,7 @@ Included in the Stacks directory is a copy of the stacks.json.  You can easily u
 
 ### Get-OSMedia
 
-You can use Get-OSMedia to make sure that your Servicing Stacks are recognized by OSMedia.
+You can use Get-OSMedia to make sure that your Servicing Stacks are recognized by OSMedia.  Servicing Stacks are applied using Update-OSBuild
 
 ![](/assets/2018-06-27_22-43-06.png)
 
