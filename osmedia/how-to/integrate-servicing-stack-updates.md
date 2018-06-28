@@ -3,7 +3,6 @@
 **Reference:**  
 [Get-Stacks](/osmedia/reference/get-stacks.md)
 
-
 Integrating Servicing Stack Updates can either be done manually, or by using Get-Stacks.  This function is introduced in OSMedia Version 18.6.28 or newer.
 
 ![](/assets/2018-06-28_11-26-40.png)
@@ -47,4 +46,6 @@ You can use Get-OSMedia to make sure that your Servicing Stacks are recognized b
 ![](/assets/2018-06-27_22-43-06.png)
 
 ---
+
+
 
