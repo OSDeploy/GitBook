@@ -1,4 +1,3 @@
-
 * 18.06.28 Initial Release
 
 ---
@@ -138,6 +137,5 @@ You can use Get-OSMedia to make sure that your Servicing Stacks are recognized b
 
 ![](/assets/2018-06-27_22-43-06.png)
 
-
-
+---
 
