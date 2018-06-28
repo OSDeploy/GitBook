@@ -20,14 +20,14 @@
 * [Reference](osmedia/reference/README.md)
   * [Get-OSMedia](osmedia/reference/get-osmedia.md)
   * [Set-OSMedia](osmedia/reference/set-osmedia.md)
-  * [Import-OSMedia](osmedia/reference/import-osmedia.md)
   * [Get-Stacks](osmedia/reference/get-stacks.md)
-  * [Copy-OSMedia](osmedia/reference/copy-osmedia.md)
+  * [Import-OSMedia](osmedia/reference/import-osmedia.md)
   * [New-OSBuild](osmedia/reference/new-osbuild.md)
-  * [Update-OSMedia](osmedia/reference/update-osmedia.md)
   * [Update-OSBuild](osmedia/reference/update-osbuild.md)
-  * [Edit-OSMedia](osmedia/reference/edit-osmedia.md)
-  * Get-Stacks
+  * [Edit-OSBuild](osmedia/reference/edit-osbuild.md)
+  * [Depricated: Copy-OSMedia](osmedia/reference/copy-osmedia.md)
+  * [Depricated: Update-OSMedia](osmedia/reference/update-osmedia.md)
+  * [Depricated: Edit-OSMedia](osmedia/reference/edit-osmedia.md)
 
 ## OSConfig
 
@@ -128,4 +128,6 @@
   * [ADK](resources/links/ADK.md)
   * [MDT](resources/links/MDT.md)
 * [People](resources/people/README.md)
+
+
 
