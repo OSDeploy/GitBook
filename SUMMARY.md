@@ -16,8 +16,7 @@
   * [Create an Operating System Build](osmedia/how-to/create-an-operating-system-build.md)
   * [Update an Operating System Build](osmedia/how-to/update-an-operating-system-build.md)
   * [Edit an Operating System Build](osmedia/how-to/edit-an-operating-system-build.md)
-* [Future Plans](osmedia/future-plans.md)
-* [Reference](osmedia/reference/README.md)
+* [Function Reference](osmedia/reference/README.md)
   * [Get-OSMedia](osmedia/reference/get-osmedia.md)
   * [Set-OSMedia](osmedia/reference/set-osmedia.md)
   * [Get-Stacks](osmedia/reference/get-stacks.md)
@@ -28,6 +27,7 @@
   * [Depricated: Copy-OSMedia](osmedia/reference/copy-osmedia.md)
   * [Depricated: Update-OSMedia](osmedia/reference/update-osmedia.md)
   * [Depricated: Edit-OSMedia](osmedia/reference/edit-osmedia.md)
+* [Future Plans](osmedia/future-plans.md)
 
 ## OSConfig
 
