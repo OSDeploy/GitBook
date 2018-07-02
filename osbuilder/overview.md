@@ -2,6 +2,8 @@
 
 OSBuilder is a second attempt at automating applying Updates to a Windows Image offline.
 
+![](/assets/2018-07-02_15-54-11.png)
+
 ---
 
 ### Get-OSBuilder
@@ -10,7 +12,7 @@ This is the base function that all the other OSBuild functions call.
 
 ![](/assets/2018-07-02_15-18-44.png)
 
--HideDetails will show the basic directory structure, including support for Language Packs, injecting Drivers, adding Extra Files, applying a Start Layout, and more. 
+-HideDetails will show the basic directory structure, including support for Language Packs, injecting Drivers, adding Extra Files, applying a Start Layout, and more.
 
 ![](/assets/2018-07-02_15-19-54.png)
 
@@ -72,15 +74,11 @@ Since the full list of Packages was extracted during Import-OSMedia, there is no
 
 ![](/assets/2018-07-02_15-49-56.png)
 
-
-
-
-
 ---
 
 ### Invoke-OSBuildTask
 
-This is the function that actually does the build.  The PatchUpdate parameter is appended to the ImageName and the completed OSBuild.  Using the Demo will simulate the OSBuild process without actually mounting 
+This is the function that actually does the build.  The PatchUpdate parameter is appended to the ImageName and the completed OSBuild.  Using the Demo will simulate the OSBuild process without actually mounting
 
 ![](/assets/2018-07-02_15-43-31.png)
 
@@ -88,17 +86,5 @@ One executed, I can select a single Task, or multiple Tasks.
 
 ![](/assets/2018-07-02_15-44-43.png)
 
-
-
 ![](/assets/2018-07-02_15-48-05.png)
-
-
-
-
-
-
-
-
-
-
 
