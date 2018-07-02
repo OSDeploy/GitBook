@@ -3,6 +3,11 @@
 * [Home](README.md)
 * [Recent Updates](updates.md)
 
+## OSBuilder
+
+* [Overview](osbuilder/overview.md)
+
+
 ## OSMedia
 
 * [What's New](osmedia/whats-new.md)
@@ -30,9 +35,6 @@
   * [Depricated: Edit-OSMedia](osmedia/reference/edit-osmedia.md)
 * [Future Plans](osmedia/future-plans.md)
 
-## OSBuilder
-
-* [Overview](osbuilder/overview.md)
 
 ## OSConfig
 
