@@ -30,6 +30,10 @@
   * [Depricated: Edit-OSMedia](osmedia/reference/edit-osmedia.md)
 * [Future Plans](osmedia/future-plans.md)
 
+## OSBuilder
+
+* [Overview](osbuilder/overview.md)
+
 ## OSConfig
 
 * [How It Works](osconfig/how-it-works.md)
