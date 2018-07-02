@@ -78,7 +78,9 @@ Since the full list of Packages was extracted during Import-OSMedia, there is no
 
 ### Invoke-OSBuildTask
 
-This is the function that actually does the build.  The PatchUpdate parameter is appended to the ImageName and the completed OSBuild.  Using the Demo will simulate the OSBuild process without actually mounting
+This is the function that actually does the build.  The PatchUpdate parameter is appended to the ImageName and the completed OSBuild.  This allows me to not have the Patch Date hardcoded in the Task so I can run this monthly, without overwriting a previous build.
+
+Using the Demo will simulate the OSBuild process without actually mounting
 
 ![](/assets/2018-07-02_15-43-31.png)
 
