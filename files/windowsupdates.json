@@ -1,5 +1,27 @@
 [
     {
+        "Title":  "Security Update for Adobe Flash Player for Windows 10 Version 1803 x64",
+        "LastUpdated":  "2018-06-06",
+        "KBNumber":  "KB4287903",
+        "OsName":  "Windows 10",
+        "OsVersion":  "1803",
+        "OsArch":  "x64",
+        "FileName":  "windows10.0-kb4287903-x64.msu",
+        "URLFile":  "windows10.0-kb4287903-x64_18d33efe00668b8f9b0d89cd203b6d76a8f4c66e.msu",
+        "URLPath":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/06/windows10.0-kb4287903-x64_18d33efe00668b8f9b0d89cd203b6d76a8f4c66e.msu"
+    },
+    {
+        "Title":  "Security Update for Adobe Flash Player for Windows 10 Version 1803 x86",
+        "LastUpdated":  "2018-06-06",
+        "KBNumber":  "KB4287903",
+        "OsName":  "Windows 10",
+        "OsVersion":  "1803",
+        "OsArch":  "x86",
+        "FileName":  "windows10.0-kb4287903-x86.msu",
+        "URLFile":  "windows10.0-kb4287903-x86_8fb081939bfad5594a2b7e2c27658dfcca793532.msu",
+        "URLPath":  "http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/06/windows10.0-kb4287903-x86_8fb081939bfad5594a2b7e2c27658dfcca793532.msu"
+    },
+    {
         "Title":  "Security Update for Adobe Flash Player for Windows 10 Version 1709 x64",
         "LastUpdated":  "2018-06-06",
         "KBNumber":  "KB4287903",
