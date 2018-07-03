@@ -22,6 +22,72 @@
         "URLPath":  "http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/06/windows10.0-kb4284848-x86_9400b451c76dcd05a446ef3dd377f9a2cd216e47.msu"
     },
     {
+        "Title":  "Cumulative Update for Windows 10 Version 1709 x64",
+        "LastUpdated":  "2018-06-20",
+        "KBNumber":  "KB4284822",
+        "OsName":  "Windows 10",
+        "OsVersion":  "1709",
+        "OsArch":  "x64",
+        "FileName":  "windows10.0-kb4284822-x64.msu",
+        "URLFile":  "windows10.0-kb4284822-x64_0fcd8ba2f62befe1ab243819de299e16052571b2.msu",
+        "URLPath":  "http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/06/windows10.0-kb4284822-x64_0fcd8ba2f62befe1ab243819de299e16052571b2.msu"
+    },
+    {
+        "Title":  "Cumulative Update for Windows 10 Version 1709 x86",
+        "LastUpdated":  "2018-06-20",
+        "KBNumber":  "KB4284822",
+        "OsName":  "Windows 10",
+        "OsVersion":  "1709",
+        "OsArch":  "x86",
+        "FileName":  "windows10.0-kb4284822-x86.msu",
+        "URLFile":  "windows10.0-kb4284822-x86_123acee48302526979cc313e957280ad0750dd70.msu",
+        "URLPath":  "http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/06/windows10.0-kb4284822-x86_123acee48302526979cc313e957280ad0750dd70.msu"
+    },
+    {
+        "Title":  "Cumulative Update for Windows 10 Version 1703 x64",
+        "LastUpdated":  "2018-06-20",
+        "KBNumber":  "KB4284830",
+        "OsName":  "Windows 10",
+        "OsVersion":  "1703",
+        "OsArch":  "x64",
+        "FileName":  "windows10.0-kb4284830-x64.msu",
+        "URLFile":  "windows10.0-kb4284830-x64_84f2734c74923076dbdc0eedc5291368e5a3b9ad.msu",
+        "URLPath":  "http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/06/windows10.0-kb4284830-x64_84f2734c74923076dbdc0eedc5291368e5a3b9ad.msu"
+    },
+    {
+        "Title":  "Cumulative Update for Windows 10 Version 1703 x86",
+        "LastUpdated":  "2018-06-20",
+        "KBNumber":  "KB4284830",
+        "OsName":  "Windows 10",
+        "OsVersion":  "1703",
+        "OsArch":  "x86",
+        "FileName":  "windows10.0-kb4284830-x86.msu",
+        "URLFile":  "windows10.0-kb4284830-x86_7a1f2350afc21c98910d75ef815cf96a6e0411a0.msu",
+        "URLPath":  "http://download.windowsupdate.com/c/msdownload/update/software/updt/2018/06/windows10.0-kb4284830-x86_7a1f2350afc21c98910d75ef815cf96a6e0411a0.msu"
+    },
+    {
+        "Title":  "Cumulative Update for Windows 10 Version 1607 x64",
+        "LastUpdated":  "2018-06-20",
+        "KBNumber":  "KB4284833",
+        "OsName":  "Windows 10",
+        "OsVersion":  "1607",
+        "OsArch":  "x64",
+        "FileName":  "windows10.0-kb4284833-x64.msu",
+        "URLFile":  "windows10.0-kb4284833-x64_eb8d1b6306fe77caefec2109844be73ffc7587f6.msu",
+        "URLPath":  "http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/06/windows10.0-kb4284833-x64_eb8d1b6306fe77caefec2109844be73ffc7587f6.msu"
+    },
+    {
+        "Title":  "Cumulative Update for Windows 10 Version 1607 x86",
+        "LastUpdated":  "2018-06-20",
+        "KBNumber":  "KB4284833",
+        "OsName":  "Windows 10",
+        "OsVersion":  "1607",
+        "OsArch":  "x86",
+        "FileName":  "windows10.0-kb4284833-x86.msu",
+        "URLFile":  "windows10.0-kb4284833-x86_2ce62b209c3166e299ffb3395742c0f4b2d831c3.msu",
+        "URLPath":  "http://download.windowsupdate.com/c/msdownload/update/software/updt/2018/06/windows10.0-kb4284833-x86_2ce62b209c3166e299ffb3395742c0f4b2d831c3.msu"
+    },
+    {
         "Title":  "Security Update for Adobe Flash Player for Windows 10 Version 1803 x64",
         "LastUpdated":  "2018-06-06",
         "KBNumber":  "KB4287903",
