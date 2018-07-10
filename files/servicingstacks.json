@@ -43,7 +43,7 @@
 "URLPath": "http://download.windowsupdate.com/d/msdownload/update/software/crup/2018/07/windows10.0-kb4339420-x86_e55a3d3a16a4f22d03cef5032c67fede610fc0fb.msu"
 },
 {
-"Title": "Update for Windows 10 Version 1607 for x64-based Systems (KB4132216)",
+"Title": "Update for Windows 10 Version 1607 x64",
 "LastUpdated": "2018-06-12",
 "KBNumber": "KB4132216",
 "OsName": "Windows 10",
@@ -54,7 +54,7 @@
 "URLPath": "http://download.windowsupdate.com/c/msdownload/update/software/crup/2018/05/windows10.0-kb4132216-x64_9cbeb1024166bdeceff90cd564714e1dcd01296e.msu"
 },
 {
-"Title": "Update for Windows 10 Version 1607 for x86-based Systems (KB4132216)",
+"Title": "Update for Windows 10 Version 1607 x86",
 "LastUpdated": "2018-06-12",
 "KBNumber": "KB4132216",
 "OsName": "Windows 10",
@@ -65,7 +65,7 @@
 "URLPath": "http://download.windowsupdate.com/c/msdownload/update/software/crup/2018/05/windows10.0-kb4132216-x86_397ebbe49d273429a3e0ce8d6ced13fdb83e1718.msu"
 },
 {
-"Title": "Update for Windows 10 Version 1703 for x64-based Systems (KB4132649)",
+"Title": "Update for Windows 10 Version 1703 x64",
 "LastUpdated": "2018-05-17",
 "KBNumber": "KB4132649",
 "OsName": "Windows 10",
@@ -76,7 +76,7 @@
 "URLPath": "http://download.windowsupdate.com/c/msdownload/update/software/crup/2018/05/windows10.0-kb4132649-x64_7b1001d846a7a14b752a7ea4c7dd444d4c05b39b.msu"
 },
 {
-"Title": "Update for Windows 10 Version 1703 for x86-based Systems (KB4132649)",
+"Title": "Update for Windows 10 Version 1703 x86",
 "LastUpdated": "2018-05-17",
 "KBNumber": "KB4132649",
 "OsName": "Windows 10",
