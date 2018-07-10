@@ -4,6 +4,16 @@ I recommend running OSBuilder in PowerShell ISE \(as Administrator\) until you g
 
 ---
 
+### A Word of Caution
+
+Since OSBuilder will mount Windows Images, I strongly recommend that you do not have any running Anti-Virus scanning files ON ACCESS.  McAfee will prevent the dismounting of images properly.
+
+**Work with OSBuilder in a clean Virtual Machine or a stand alone Workgroup Computer**
+
+
+
+---
+
 ### OSMedia
 
 If you used my previous attempt at this called OSMedia, you will need to get rid of it first.
@@ -39,4 +49,6 @@ And the same structure in Windows Explorer
 ![](/assets/2018-07-10_12-00-51.png)
 
 ---
+
+
 
