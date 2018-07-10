@@ -44,133 +44,133 @@
 },
 {
 "Title": "Cumulative Update for Windows 10 Version 1703 x64",
-"LastUpdated": "2018-06-20",
-"KBNumber": "KB4284830",
+"LastUpdated": "2018-07-05",
+"KBNumber": "KB4338826",
 "OsName": "Windows 10",
 "OsVersion": "1703",
 "OsArch": "x64",
-"FileName": "windows10.0-kb4284830-x64.msu",
-"URLFile": "windows10.0-kb4284830-x64_84f2734c74923076dbdc0eedc5291368e5a3b9ad.msu",
-"URLPath": "http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/06/windows10.0-kb4284830-x64_84f2734c74923076dbdc0eedc5291368e5a3b9ad.msu"
+"FileName": "windows10.0-kb4338826-x64.msu",
+"URLFile": "windows10.0-kb4338826-x64_5c3a16dd48f14dd18e7bbf6bf5978159ef17eced.msu",
+"URLPath": "http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/07/windows10.0-kb4338826-x64_5c3a16dd48f14dd18e7bbf6bf5978159ef17eced.msu"
 },
 {
 "Title": "Cumulative Update for Windows 10 Version 1703 x86",
-"LastUpdated": "2018-06-20",
-"KBNumber": "KB4284830",
+"LastUpdated": "2018-07-05",
+"KBNumber": "KB4338826",
 "OsName": "Windows 10",
 "OsVersion": "1703",
 "OsArch": "x86",
-"FileName": "windows10.0-kb4284830-x86.msu",
-"URLFile": "windows10.0-kb4284830-x86_7a1f2350afc21c98910d75ef815cf96a6e0411a0.msu",
-"URLPath": "http://download.windowsupdate.com/c/msdownload/update/software/updt/2018/06/windows10.0-kb4284830-x86_7a1f2350afc21c98910d75ef815cf96a6e0411a0.msu"
+"FileName": "windows10.0-kb4338826-x86.msu",
+"URLFile": "windows10.0-kb4338826-x86_5d88dcbdaea9fdb25c15e565add861eb4759bdb4.msu",
+"URLPath": "http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/07/windows10.0-kb4338826-x86_5d88dcbdaea9fdb25c15e565add861eb4759bdb4.msu"
 },
 {
 "Title": "Cumulative Update for Windows 10 Version 1607 x64",
-"LastUpdated": "2018-06-20",
-"KBNumber": "KB4284833",
+"LastUpdated": "2018-07-05",
+"KBNumber": "KB4338814",
 "OsName": "Windows 10",
 "OsVersion": "1607",
 "OsArch": "x64",
-"FileName": "windows10.0-kb4284833-x64.msu",
-"URLFile": "windows10.0-kb4284833-x64_eb8d1b6306fe77caefec2109844be73ffc7587f6.msu",
-"URLPath": "http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/06/windows10.0-kb4284833-x64_eb8d1b6306fe77caefec2109844be73ffc7587f6.msu"
+"FileName": "windows10.0-kb4338814-x64.msu",
+"URLFile": "windows10.0-kb4338814-x64_f4a1df3470cc06192c5157c3f574ffdc4edadabd.msu",
+"URLPath": "http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/06/windows10.0-kb4338814-x64_f4a1df3470cc06192c5157c3f574ffdc4edadabd.msu"
 },
 {
 "Title": "Cumulative Update for Windows 10 Version 1607 x86",
-"LastUpdated": "2018-06-20",
-"KBNumber": "KB4284833",
+"LastUpdated": "2018-07-05",
+"KBNumber": "KB4338814",
 "OsName": "Windows 10",
 "OsVersion": "1607",
 "OsArch": "x86",
-"FileName": "windows10.0-kb4284833-x86.msu",
-"URLFile": "windows10.0-kb4284833-x86_2ce62b209c3166e299ffb3395742c0f4b2d831c3.msu",
-"URLPath": "http://download.windowsupdate.com/c/msdownload/update/software/updt/2018/06/windows10.0-kb4284833-x86_2ce62b209c3166e299ffb3395742c0f4b2d831c3.msu"
+"FileName": "windows10.0-kb4338814-x86.msu",
+"URLFile": "windows10.0-kb4338814-x86_63e958d1e4abc262524acc9076597c699345985d.msu",
+"URLPath": "http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/06/windows10.0-kb4338814-x86_63e958d1e4abc262524acc9076597c699345985d.msu"
 },
 {
 "Title": "Security Update for Adobe Flash Player for Windows 10 Version 1803 x64",
-"LastUpdated": "2018-06-06",
-"KBNumber": "KB4287903",
+"LastUpdated": "2018-07-09",
+"KBNumber": "KB4338832",
 "OsName": "Windows 10",
 "OsVersion": "1803",
 "OsArch": "x64",
-"FileName": "windows10.0-kb4287903-x64.msu",
-"URLFile": "windows10.0-kb4287903-x64_18d33efe00668b8f9b0d89cd203b6d76a8f4c66e.msu",
-"URLPath": "http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/06/windows10.0-kb4287903-x64_18d33efe00668b8f9b0d89cd203b6d76a8f4c66e.msu"
+"FileName": "windows10.0-kb4338832-x64.msu",
+"URLFile": "windows10.0-kb4338832-x64_961806f0d9d52c7df32346349c5101f1ab2032a0.msu",
+"URLPath": "http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/06/windows10.0-kb4338832-x64_961806f0d9d52c7df32346349c5101f1ab2032a0.msu"
 },
 {
 "Title": "Security Update for Adobe Flash Player for Windows 10 Version 1803 x86",
-"LastUpdated": "2018-06-06",
-"KBNumber": "KB4287903",
+"LastUpdated": "2018-07-09",
+"KBNumber": "KB4338832",
 "OsName": "Windows 10",
 "OsVersion": "1803",
 "OsArch": "x86",
-"FileName": "windows10.0-kb4287903-x86.msu",
-"URLFile": "windows10.0-kb4287903-x86_8fb081939bfad5594a2b7e2c27658dfcca793532.msu",
-"URLPath": "http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/06/windows10.0-kb4287903-x86_8fb081939bfad5594a2b7e2c27658dfcca793532.msu"
+"FileName": "windows10.0-kb4338832-x86.msu",
+"URLFile": "windows10.0-kb4338832-x86_cd2d7de85e8811748070b5701e560feb78384a0c.msu",
+"URLPath": "http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/06/windows10.0-kb4338832-x86_cd2d7de85e8811748070b5701e560feb78384a0c.msu"
 },
 {
 "Title": "Security Update for Adobe Flash Player for Windows 10 Version 1709 x64",
-"LastUpdated": "2018-06-06",
-"KBNumber": "KB4287903",
+"LastUpdated": "2018-07-05",
+"KBNumber": "KB4338832",
 "OsName": "Windows 10",
 "OsVersion": "1709",
 "OsArch": "x64",
-"FileName": "windows10.0-kb4287903-x64.msu",
-"URLFile": "windows10.0-kb4287903-x64_3ee0c75448196537d080e9a9b1100b0fe7657538.msu",
-"URLPath": "http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/06/windows10.0-kb4287903-x64_3ee0c75448196537d080e9a9b1100b0fe7657538.msu"
+"FileName": "windows10.0-kb4338832-x64.msu",
+"URLFile": "windows10.0-kb4338832-x64_a3ac455c260bbd84ca4b7f30bbb01b6cb5f01119.msu",
+"URLPath": "http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/06/windows10.0-kb4338832-x64_a3ac455c260bbd84ca4b7f30bbb01b6cb5f01119.msu"
 },
 {
 "Title": "Security Update for Adobe Flash Player for Windows 10 Version 1709 x86",
-"LastUpdated": "2018-06-06",
-"KBNumber": "KB4287903",
+"LastUpdated": "2018-07-05",
+"KBNumber": "KB4338832",
 "OsName": "Windows 10",
 "OsVersion": "1709",
 "OsArch": "x86",
-"FileName": "windows10.0-kb4287903-x86.msu",
-"URLFile": "windows10.0-kb4287903-x86_48bf2334836d49e22c077180caa302ce5667bdeb.msu",
-"URLPath": "http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/06/windows10.0-kb4287903-x86_48bf2334836d49e22c077180caa302ce5667bdeb.msu"
+"FileName": "windows10.0-kb4338832-x86.msu",
+"URLFile": "windows10.0-kb4338832-x86_cd9926c792b671cb1f2e35ebdee60b45f9d9990a.msu",
+"URLPath": "http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/06/windows10.0-kb4338832-x86_cd9926c792b671cb1f2e35ebdee60b45f9d9990a.msu"
 },
 {
 "Title": "Security Update for Adobe Flash Player for Windows 10 Version 1703 x64",
-"LastUpdated": "2018-06-06",
-"KBNumber": "KB4287903",
+"LastUpdated": "2018-07-05",
+"KBNumber": "KB4338832",
 "OsName": "Windows 10",
 "OsVersion": "1703",
 "OsArch": "x64",
-"FileName": "windows10.0-kb4287903-x64.msu",
-"URLFile": "windows10.0-kb4287903-x64_9389a22ed795243c22bc320f9838298f66490800.msu",
-"URLPath": "http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/06/windows10.0-kb4287903-x64_9389a22ed795243c22bc320f9838298f66490800.msu"
+"FileName": "windows10.0-kb4338832-x64.msu",
+"URLFile": "windows10.0-kb4338832-x64_1de2233119889fcdb5fa960c348f7fdabf7e1d66.msu",
+"URLPath": "http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/06/windows10.0-kb4338832-x64_1de2233119889fcdb5fa960c348f7fdabf7e1d66.msu"
 },
 {
 "Title": "Security Update for Adobe Flash Player for Windows 10 Version 1703 x86",
-"LastUpdated": "2018-06-06",
-"KBNumber": "KB4287903",
+"LastUpdated": "2018-07-05",
+"KBNumber": "KB4338832",
 "OsName": "Windows 10",
 "OsVersion": "1703",
 "OsArch": "x86",
-"FileName": "windows10.0-kb4287903-x86.msu",
-"URLFile": "windows10.0-kb4287903-x86_217c7b0f578a3d336518f6211ab29eee2f6fb860.msu",
-"URLPath": "http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/06/windows10.0-kb4287903-x86_217c7b0f578a3d336518f6211ab29eee2f6fb860.msu"
+"FileName": "windows10.0-kb4338832-x86.msu",
+"URLFile": "windows10.0-kb4338832-x86_a185aaf4cc10fc4c155691534e123f308bade794.msu",
+"URLPath": "http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/06/windows10.0-kb4338832-x86_a185aaf4cc10fc4c155691534e123f308bade794.msu"
 },
 {
 "Title": "Security Update for Adobe Flash Player for Windows 10 Version 1607 x64",
-"LastUpdated": "2018-06-06",
-"KBNumber": "KB4287903",
+"LastUpdated": "2018-07-05",
+"KBNumber": "KB4338832",
 "OsName": "Windows 10",
 "OsVersion": "1607",
 "OsArch": "x64",
-"FileName": "windows10.0-kb4287903-x64.msu",
-"URLFile": "windows10.0-kb4287903-x64_44bd9e330cdb58fe88fb5e7bc8513fa6ef16d00c.msu",
-"URLPath": "http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/06/windows10.0-kb4287903-x64_44bd9e330cdb58fe88fb5e7bc8513fa6ef16d00c.msu"
+"FileName": "windows10.0-kb4338832-x64.msu",
+"URLFile": "windows10.0-kb4338832-x64_46a1be0715d09cb4b7054b9652faa6ac915c50fb.msu",
+"URLPath": "http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/06/windows10.0-kb4338832-x64_46a1be0715d09cb4b7054b9652faa6ac915c50fb.msu"
 },
 {
 "Title": "Security Update for Adobe Flash Player for Windows 10 Version 1607 x86",
-"LastUpdated": "2018-06-06",
-"KBNumber": "KB4287903",
+"LastUpdated": "2018-07-05",
+"KBNumber": "KB4338832",
 "OsName": "Windows 10",
 "OsVersion": "1607",
 "OsArch": "x86",
-"FileName": "windows10.0-kb4287903-x86.msu",
-"URLFile": "windows10.0-kb4287903-x86_11d63408b35c211c432176fad6953aaba968f2ff.msu",
-"URLPath": "http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/06/windows10.0-kb4287903-x86_11d63408b35c211c432176fad6953aaba968f2ff.msu"
+"FileName": "windows10.0-kb4338832-x86.msu",
+"URLFile": "windows10.0-kb4338832-x86_ede9dd17a82d97ce41ac91ce9310c68ecd0ed2b7.msu",
+"URLPath": "http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/06/windows10.0-kb4338832-x86_ede9dd17a82d97ce41ac91ce9310c68ecd0ed2b7.msu"
 }]
