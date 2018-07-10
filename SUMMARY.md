@@ -7,7 +7,7 @@
 
 * [Overview](osbuilder/overview.md)
 * [Installation](osbuilder/installation.md)
-* How To
+* [How To](osbuilder/how-to/README.md)
 
 ## OSMedia
 
