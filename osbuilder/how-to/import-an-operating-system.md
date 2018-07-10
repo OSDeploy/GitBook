@@ -24,6 +24,8 @@ The Operating System is imported to OSBuilder\OSMedia and given a name in the fo
 
 **&lt;Image Name&gt; &lt;Architecture&gt; &lt;Modified Date&gt;**
 
+If you don't like this name, just rename the Directory in OSBuilder\OSMedia
+
 ![](/assets/2018-07-10_14-10-24.png)
 
 ---
@@ -43,6 +45,16 @@ This step is the key to OSBuilder.  The Operating System is mounted so it can ge
 All boot images are exported, as well as WinRE into a WinPE subdirectory.  Full information is also captured and saved in the WinPE\info directory
 
 ![](/assets/2018-07-10_14-20-22.png)![](/assets/2018-07-10_14-21-37.png)
+
+---
+
+### -Verbose
+
+When using the -Verbose paramater, you can see all the PowerShell commands used.  This can be helpful if you are troubleshooting anything in OSBuilder.
+
+![](/assets/2018-07-10_14-39-46.png)
+
+
 
 ---
 
@@ -316,12 +328,6 @@ LogLevel             : WarningsInfo
 ```
 
 ---
-
-
-
-
-
-
 
 
 
