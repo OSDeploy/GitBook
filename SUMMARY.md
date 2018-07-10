@@ -12,7 +12,8 @@
   * [Get Servicing Stacks](osbuilder/how-to/get-servicing-stacks.md)
   * [Get Windows Updates](osbuilder/how-to/get-windows-updates.md)
   * [Import an Operating System](osbuilder/how-to/import-an-operating-system.md)
-  * [Create a New OSBuild Task](osbuilder/how-to/create-a-new-osbuild-task.md)
+  * [Create a New Task](osbuilder/how-to/create-a-new-task.md)
+  * Execute a Task
 
 ## OSMedia
 
