@@ -9,6 +9,7 @@
 * [Installation](osbuilder/installation.md)
 * [How To](osbuilder/how-to/README.md)
   * [Getting Started](osbuilder/how-to/getting-started.md)
+  * [Download Servicing Stacks](osbuilder/how-to/download-servicing-stacks.md)
 
 ## OSMedia
 
