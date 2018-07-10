@@ -38,19 +38,5 @@ And the same structure in Windows Explorer
 
 ![](/assets/2018-07-10_12-00-51.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
