@@ -6,7 +6,7 @@
 ## OSBuilder
 
 * [Overview](osbuilder/overview.md)
-
+* [Quick Start](osbuilder/quick-start.md)
 
 ## OSMedia
 
@@ -34,7 +34,6 @@
   * [Depricated: Update-OSMedia](osmedia/reference/update-osmedia.md)
   * [Depricated: Edit-OSMedia](osmedia/reference/edit-osmedia.md)
 * [Future Plans](osmedia/future-plans.md)
-
 
 ## OSConfig
 
