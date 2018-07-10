@@ -6,9 +6,8 @@
 ## OSBuilder
 
 * [Overview](osbuilder/overview.md)
-* [Quick Start](osbuilder/quick-start.md)
-* How To
 * [Installation](osbuilder/installation.md)
+* How To
 
 ## OSMedia
 
