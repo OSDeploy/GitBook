@@ -10,7 +10,6 @@
 * [How To](osbuilder/how-to/README.md)
   * [Getting Started](osbuilder/how-to/getting-started.md)
   * [Get Servicing Stacks](osbuilder/how-to/get-servicing-stacks.md)
-  * [Download Servicing Stacks](osbuilder/how-to/download-servicing-stacks.md)
   * [Get Windows Updates](osbuilder/how-to/get-windows-updates.md)
 
 ## OSMedia
