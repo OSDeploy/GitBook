@@ -14,6 +14,7 @@
   * [Import an Operating System](osbuilder/how-to/import-an-operating-system.md)
   * [Create a New Task](osbuilder/how-to/create-a-new-task.md)
   * [Execute a Task in Test Mode](osbuilder/how-to/execute-a-task-in-test-mode.md)
+  * [Add DaRT to WinPE and WinRE](osbuilder/how-to/add-dart-to-winpe-and-winre.md)
 
 ## OSConfig - Incomplete
 
@@ -114,6 +115,4 @@
   * [ADK](resources/links/ADK.md)
   * [MDT](resources/links/MDT.md)
 * [People](resources/people/README.md)
-
-
 

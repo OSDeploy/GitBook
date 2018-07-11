@@ -18,7 +18,7 @@ Once the function has started, OSBuilder will check for Operating Systems in OSM
 
 An option to select a Servicing Stack will be displayed.  OSBuilder will check the Version of the OSMedia you are using and display the proper path, this is why you don't see all available Servicing Stack paths.
 
-![](/assets/2018-07-10_15-02-07.png) 
+![](/assets/2018-07-10_15-02-07.png)
 
 ---
 
@@ -64,22 +64,6 @@ More options to Enable or Disable Windows Optional Features in your Build
 
 ---
 
-### Extra Files
-
-If you have Extra Files to add, you can do this here.  There is no filter on the Build or Architecture in this list, so you can add as many directories as you need.  Think CMTrace!
-
-![](/assets/2018-07-10_15-12-33.png)
-
----
-
-### WinPE Drivers
-
-Select the \(Architecture filtered\) directory of WinPE Drivers you want to import
-
-![](/assets/2018-07-10_15-14-39.png)
-
----
-
 ### Task Creation
 
 Once these steps are complete, OSBuilder will create a Task.
@@ -97,5 +81,6 @@ The tasks are saved as a JSON file in the OSBuilder\Tasks directory.
 Repeat this process for all Operating Systems you want to Build
 
 ---
+
 
 
