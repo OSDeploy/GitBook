@@ -1,6 +1,6 @@
 # Add DaRT to WinPE and WinRE
 
-This is as easy as adding some files . . . 
+You can add Microsoft DaRT to the WinPE and WinRE images using OSBuilder in a few steps
 
 ---
 
@@ -61,8 +61,6 @@ Reboot the computer, and Windows RE should come up
 ![](/assets/2018-07-10_20-03-12.png)
 
 ![](/assets/2018-07-10_20-03-22.png)
-
-
 
 ---
 
