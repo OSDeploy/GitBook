@@ -20,6 +20,7 @@
 * [Knowledge](osmedia/knowledge/README.md)
   * [Servicing Stacks](osmedia/knowledge/servicing-stacks.md)
   * [DISM Cleanup Image Pending Operations](osmedia/knowledge/dism-cleanup-image-pending-operations.md)
+* [Known Issues](osbuilder/known-issues.md)
 
 ## OSConfig - Incomplete
 
