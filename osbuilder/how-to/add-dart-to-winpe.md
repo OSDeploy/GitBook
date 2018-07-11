@@ -1,6 +1,8 @@
-# Add DaRT to WinPE (and WinRE)
+# Add DaRT to WinPE \(and WinRE\)
 
-You can add Microsoft DaRT to the WinPE and WinRE images using OSBuilder in a few steps
+You can add Microsoft DaRT to the WinPE and WinRE images using OSBuilder in a few steps.  If you don't know what DaRT is, have a quick read
+
+[https://docs.microsoft.com/en-us/microsoft-desktop-optimization-pack/dart-v10/](https://docs.microsoft.com/en-us/microsoft-desktop-optimization-pack/dart-v10/)
 
 ---
 
