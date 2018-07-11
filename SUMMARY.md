@@ -17,6 +17,9 @@
   * [Add DaRT to WinPE](osbuilder/how-to/add-dart-to-winpe.md)
   * [Add Drivers to WinPE](osbuilder/how-to/add-drivers-to-winpe.md)
   * [Add Language Packs](osbuilder/how-to/add-language-packs.md)
+* [Knowledge](osmedia/knowledge/README.md)
+  * [Servicing Stacks](osmedia/knowledge/servicing-stacks.md)
+  * [DISM Cleanup Image Pending Operations](osmedia/knowledge/dism-cleanup-image-pending-operations.md)
 
 ## OSConfig - Incomplete
 
