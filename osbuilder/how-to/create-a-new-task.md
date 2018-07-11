@@ -6,11 +6,21 @@ As soon as you have imported OSMedia, and have your Servicing Stacks and Windows
 
 ### Parameters
 
-**-BuildName** is the name of your OSBuild.  Do not include specifics about what Patch Update you want to include \(this is added when you create the OSBuild\), so keep this generic.  **What you enter here will be set as your Image Name.**  I recommend the following format:
+**-BuildName** is the name of your OSBuild.  Do not include specifics about what Patch Update you want to include, so keep this generic.  **What you enter here will be set as your Image Name.**  I recommend the following format:
 
 ```
 <Operating System> <OSVersion> <Architecture> <Edition>
 ```
+
+When you create an OSBuild, the Patch Update is appended to the -BuildName you specify.  The end result is that the Image Name will consist of.
+
+```
+<BuildName> <PatchUpdate>
+```
+
+![](/assets/2018-07-11_11-35-36.png)
+
+
 
 **-TaskName** is the name for your saved Task
 
