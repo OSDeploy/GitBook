@@ -4,8 +4,6 @@ While WinPE 10 has a fair amount of Drivers, it may be necessary to add specific
 
 **I do NOT recommend adding more than a few MB of Drivers as this will increase the size of your WinRE.  If WinRE.wim is too large, it will not fit in your Recovery Partition \(I recommend a 984MB Recovery Partition to prevent this issue\).**
 
-
-
 ---
 
 ### OSBuilder WinPE Driver Location
@@ -65,8 +63,6 @@ Find the large Drivers and remove them, they are more than likely Thunderbolt re
 0XCPP_A00-00
 7X8Y6_A00-00
 ```
-
-
 
 ---
 

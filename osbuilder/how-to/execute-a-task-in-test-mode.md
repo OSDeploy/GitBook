@@ -34,5 +34,17 @@ An OSBuild will be created with the PatchUpdate and "Test" appended to the OSMed
 
 ---
 
+### Next Steps
+
+You are free to complete the OSBuild without running in TestMode, but I would recommend reading the remainder of this guide.
+
+If you are going to stop here, you are going to miss adding DaRT and Drivers to WinPE, as well as adding Language Packs, and configuring a Start Layout in Windows.
+
+
+
+---
+
+
+
 
 
