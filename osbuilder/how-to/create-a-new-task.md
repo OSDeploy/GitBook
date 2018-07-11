@@ -1,6 +1,28 @@
 # Create a New Task
 
-As soon as you have imported OSMedia, and have your Servicing Stacks and Windows Updates, you can create a New OSBuild Task.  There are a few parameters to specify, the UpdateWinPE and UpdateWinRE will apply the SSU and the CU to WinPE and WinRE respectively.
+As soon as you have imported OSMedia, and have your Servicing Stacks and Windows Updates, you can create a New OSBuild Task.
+
+---
+
+### Parameters
+
+**-BuildName** is the name of your OSBuild.  Do not include specifics about what Patch Update you want to include \(this is added when you create the OSBuild\), so keep this generic.  **What you enter here will be set as your Image Name.**  I recommend the following format:
+
+```
+<Operating System> <OSVersion> <Architecture> <Edition>
+```
+
+**-TaskName** is the name for your saved Task
+
+**-EnableNetFx3** will enable the Windows Optional Feature .Net 3.5
+
+**-ImageCleanup** will perform a Dism /Image-Cleanup.  This will add a significant amount of time to your build.  I recommend unchecking this if you are just performing a test, and enable it in a Production Task
+
+**-UpdateWinPE **- Applies the Servicing Stacks and Windows Updates to WinPE
+
+**-UpdateWinRE **- Applies the Servicing Stacks and Windows Updates to WinRE inside the Install.wim
+
+Here are my recommendations
 
 ![](/assets/2018-07-10_14-43-42.png)
 
