@@ -16,6 +16,7 @@
   * [Execute a Task in Test Mode](osbuilder/how-to/execute-a-task-in-test-mode.md)
   * [Add DaRT to WinPE](osbuilder/how-to/add-dart-to-winpe.md)
   * [Add Drivers to WinPE](osbuilder/how-to/add-drivers-to-winpe.md)
+  * [Add Language Packs](osbuilder/how-to/add-language-packs.md)
 
 ## OSConfig - Incomplete
 
