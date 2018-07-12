@@ -1,4 +1,4 @@
-# Create a New OSMedia Task
+# Create an OSMedia Task
 
 You can update existing OSMedia by performing the following tasks
 
