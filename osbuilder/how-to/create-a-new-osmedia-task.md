@@ -30,5 +30,31 @@ Select a single existing OSMedia to update and press OK
 
 ---
 
+### Select Servicing Stack and Windows Update Paths
+
+When prompted, select the proper paths for your Servicing Stack and Windows Updates.  Make sure the content of these directories are up to date!
+
+![](/assets/2018-07-12_12-21-08.png)
+
+![](/assets/2018-07-12_12-22-00.png)
+
+---
+
+### Complete
+
+When finished, the Task will be created.  Repeat this process for the other OSMedia you need to update.
+
+![](/assets/2018-07-12_12-23-36.png)
+
+---
+
+### Task Location
+
+Tasks are saved in OSBuilder\Tasks as a JSON file and contain all the information needed to perform the Update
+
+![](/assets/2018-07-12_12-25-46.png)
+
+---
+
 
 
