@@ -90,15 +90,15 @@ To see any of this information, just check the PowerShell Transcript
 
 ### -Verbose
 
-When using the -Verbose paramater, you can see all the PowerShell commands used.  This can be helpful if you are troubleshooting anything in OSBuilder.
+When using the -Verbose paramater, you can see all the PowerShell commands that are used.  This can be helpful if you are troubleshooting anything in OSBuilder, or just trying to learn PowerShell.
 
-![](/assets/2018-07-10_14-39-46.png)
+![](/assets/2018-07-12_11-21-37.png)
 
 ---
 
 ### Full Information
 
-Anything you need to know about the Image is displayed, logged, and saved in the PowerShell transcript.
+Here is the full information displayed at the end of Import-OSMedia
 
 ```
 ===========================================================================
@@ -336,10 +336,10 @@ Version              : 10.0.16299.15
 DirectoryCount       : 21480
 FileCount            : 107942
 CreatedTime          : 9/29/2017 9:55:22 AM
-ModifiedTime         : 7/10/2018 2:10:44 PM
+ModifiedTime         : 7/12/2018 10:57:18 AM
 WIMBoot              : False
 ImageType            : Wim
-ImagePath            : C:\OSBuilder\OSMedia\Windows 10 Enterprise 1709 x64 2017-12-13\OS\sources\install.wim
+ImagePath            : C:\OSBuilder\OSMedia\Windows 10 Enterprise x64 1709 16299.125\OS\sources\install.wim
 ImageName            : Windows 10 Enterprise
 ImageIndex           : 1
 ImageDescription     : Windows 10 Enterprise
@@ -363,6 +363,11 @@ DefaultLanguageIndex : 0
 LogPath              : C:\windows\Logs\DISM\dism.log
 ScratchDirectory     : 
 LogLevel             : WarningsInfo
+
+Transcript stopped, output file is C:\OSBuilder\OSMedia\Windows 10 Enterprise x64 1709 16299.125\info\logs\2018-07-12-105340-Import-OSMedia.log
+===========================================================================
+Complete!
+===========================================================================
 ```
 
 ---
