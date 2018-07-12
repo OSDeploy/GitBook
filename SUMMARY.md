@@ -14,6 +14,7 @@
   * [Import an Operating System](osbuilder/how-to/import-an-operating-system.md)
   * [Create an OSMedia Task](osbuilder/how-to/create-an-osmedia-task.md)
   * [Run a Task in Test Mode](osbuilder/how-to/run-a-task-in-test-mode.md)
+  * [Run a Task](osbuilder/how-to/run-a-task.md)
   * [Create an OSBuild Task](osbuilder/how-to/create-an-osbuild-task.md)
   * [Add DaRT to WinPE](osbuilder/how-to/add-dart-to-winpe.md)
 * [Knowledge](osmedia/knowledge/README.md)
