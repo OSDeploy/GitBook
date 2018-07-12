@@ -44,10 +44,6 @@ The OS will be mounted and the updated WinRE will be injected
 
 ![](/assets/2018-07-12_14-17-35.png)
 
-
-
-
-
 ---
 
 ### Stacks and Windows Updates
@@ -76,27 +72,15 @@ Skipped!
 
 ![](/assets/2018-07-12_14-20-09.png)
 
+---
 
+### Closing Process
 
+Image Configuration will be saved and Install.wim will be Dismounted and Saved
 
+![](/assets/2018-07-12_14-52-01.png)And the directory will be renamed using the Image Information and the UBR![](/assets/2018-07-12_14-53-28.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
