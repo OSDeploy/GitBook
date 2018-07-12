@@ -14,7 +14,7 @@
   * [Import an Operating System](osbuilder/how-to/import-an-operating-system.md)
   * [Create an OSMedia Task](osbuilder/how-to/create-an-osmedia-task.md)
   * [Run an OSMedia Task](osbuilder/how-to/run-an-osmedia-task.md)
-  * [Run a Task in Test Mode](osbuilder/how-to/run-a-task-in-test-mode.md)
+  * [Run a Task in TestMode](osbuilder/how-to/run-a-task-in-testmode.md)
   * [Create an OSBuild Task](osbuilder/how-to/create-an-osbuild-task.md)
 * [Knowledge](osmedia/knowledge/README.md)
   * [Servicing Stacks](osmedia/knowledge/servicing-stacks.md)
@@ -147,6 +147,4 @@
   * [Depricated: Update-OSMedia](osmedia/reference/update-osmedia.md)
   * [Depricated: Edit-OSMedia](osmedia/reference/edit-osmedia.md)
 * [Future Plans](osmedia/future-plans.md)
-
-
 
