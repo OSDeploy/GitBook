@@ -82,5 +82,15 @@ Image Configuration will be saved and Install.wim will be Dismounted and Saved
 
 ---
 
+### Complete OSMedia
+
+Once the Task has been run, the new OSMedia is available to use for and OSBuild.  The main benefit of a Task is that when a new Cumulative Update is released, just copy the updates in the Windows Updates directory and run the task again without any other modifications.
+
+
+
+![](/assets/2018-07-12_14-55-19.png)
+
+---
+
 
 
