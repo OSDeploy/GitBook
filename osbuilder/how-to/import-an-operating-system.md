@@ -10,7 +10,7 @@ The next step is to import an Operating System.  In this example I have two ISO'
 
 This function has no parameters, so just execute.  It will search all Drives for sources\install.wim and Get-WindowsImage information from each.  Since it looks for a specific path, multi-boot OS Media will not work for now.  Be patient and let the scan finish.
 
-![](/assets/2018-07-10_14-05-40.png)
+![](/assets/2018-07-12_10-48-09.png)
 
 Once the scanning is complete, a Grid will be displayed with all the available Operating Systems.  Multi-select the ones you want to import and press OK.  I have tested the import on 8 ISO's at the same time.
 
@@ -18,25 +18,51 @@ Once the scanning is complete, a Grid will be displayed with all the available O
 
 ---
 
-### Import Directory
+### Mounting the Install.wim
 
-The Operating System is imported to OSBuilder\OSMedia and given a name in the following format to ensure that updated ISO's are unique:
+The first step is to mount the install.wim -ReadOnly from the Media.  This will determine the Update Build Revision \(UBR\), also known as the OS Build.  Mounting is required to get this information from NTOSKRNL as Get-WindowsImage is not reliable.
 
-**&lt;Image Name&gt; &lt;Architecture&gt; &lt;Modified Date&gt;**
+[https://www.microsoft.com/en-us/itpro/windows-10/release-information](https://www.microsoft.com/en-us/itpro/windows-10/release-information)
 
-If you don't like this name, just rename the Directory in OSBuilder\OSMedia
+This issue is visible in the image below for Windows 10 1709.  The Version obtained by using Get-WindowsImage is not the same as the one obtained from NTOSKRNL.
 
-![](/assets/2018-07-10_14-10-24.png)
+16299.15 is not a valid UBR, but 16200.125 is [https://support.microsoft.com/en-us/help/4054517](https://support.microsoft.com/en-us/help/4054517)
+
+I am not sure why the WIM information is not accurate, but this link may provide some insight on why.  Time to open a Case!
+
+[https://blogs.technet.microsoft.com/askpfeplat/2014/12/07/how-to-correctly-check-file-versions-with-powershell/](https://blogs.technet.microsoft.com/askpfeplat/2014/12/07/how-to-correctly-check-file-versions-with-powershell/)
+
+![](/assets/2018-07-12_10-58-50.png)
 
 ---
 
-### Mounting the Install.wim
+### Naming the OSMedia Directory
+
+Once the UBR is obtained, the OSMedia directory name is generated.  This OSMedia directory is named in the following format:
+
+```
+<Image Name> <Architecture> <Build> <UBR>
+```
+
+Translating the UBR to a Build is done internally in OSBuilder, so it may not be recognized automatically.  In this case the directory is named in the following format:
+
+```
+<Image Name> <Architecture> <UBR>
+```
+
+OSMedia directories can be renamed as needed once Import-OSMedia is complete.
+
+![](/assets/2018-07-12_11-04-35.png)
+
+---
+
+### Windows Image Configuration
 
 This step is the key to OSBuilder.  The Operating System is mounted so it can generate full information about the image.  This includes a list of all installed AppxPackages as well as enabled Features, so no more guessing on what is installed in the WIM.  The configuration is also saved in JSON at OSBuilder\OSMedia\&lt;ImportedOS&gt;\info\json and XML at OSBuilder\OSMedia\&lt;ImportedOS&gt;\info\xml.  These files are used in creating the OSBuilder Tasks.
 
-![](/assets/2018-07-10_14-16-42.png)
+![](/assets/2018-07-12_11-05-29.png)
 
-![](/assets/2018-07-10_14-18-18.png)
+![](/assets/2018-07-12_11-06-46.png)
 
 ---
 
@@ -44,7 +70,21 @@ This step is the key to OSBuilder.  The Operating System is mounted so it can ge
 
 All boot images are exported, as well as WinRE into a WinPE subdirectory.  Full information is also captured and saved in the WinPE\info directory
 
-![](/assets/2018-07-10_14-20-22.png)![](/assets/2018-07-10_14-21-37.png)
+![](/assets/2018-07-12_11-07-41.png)![](/assets/2018-07-12_11-08-39.png)
+
+---
+
+### Closing Steps
+
+The install.wim is dismounted and configuration is saved from WinPE and the Install.wim
+
+![](/assets/2018-07-12_11-09-57.png)Full information about what is in the Install.wim is displayed in the Console
+
+![](/assets/2018-07-12_11-11-14.png)
+
+To see any of this information, just check the PowerShell Transcript
+
+![](/assets/2018-07-12_11-12-04.png)
 
 ---
 
@@ -53,8 +93,6 @@ All boot images are exported, as well as WinRE into a WinPE subdirectory.  Full 
 When using the -Verbose paramater, you can see all the PowerShell commands used.  This can be helpful if you are troubleshooting anything in OSBuilder.
 
 ![](/assets/2018-07-10_14-39-46.png)
-
-
 
 ---
 
