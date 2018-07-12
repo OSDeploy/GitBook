@@ -10,13 +10,13 @@ You can update existing OSMedia by performing the following tasks
   * Windows Setup \(Boot.wim Index 2\)
   * WinRE
 
+An OSMedia Task does NOT perform any additional customizations \(that would be an OSBuild\)
+
 ---
 
 ### New-OSBuilderTask
 
 To simplify this process, simply select the New-OSBuilderTask function.  Select the OSMedia tab and type in a TaskName similar to the one I have selected below
-
-
 
 ![](/assets/2018-07-12_11-32-16.png)
 
@@ -29,20 +29,6 @@ Select a single existing OSMedia to update and press OK
 ![](/assets/2018-07-12_11-33-54.png)
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
