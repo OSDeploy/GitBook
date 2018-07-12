@@ -1,4 +1,4 @@
-# Create a New Task
+# THIS CONTENT IS BEING UPDATED Create a New Task
 
 As soon as you have imported OSMedia, and have your Servicing Stacks and Windows Updates, you can create a New OSBuild Task.
 
@@ -19,8 +19,6 @@ When you create an OSBuild, the Patch Update is appended to the -BuildName you s
 ```
 
 ![](/assets/2018-07-11_11-35-36.png)
-
-
 
 **-TaskName** is the name for your saved Task
 
