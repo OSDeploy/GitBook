@@ -34,6 +34,12 @@ I am not sure why the WIM information is not accurate, but this link may provide
 
 ![](/assets/2018-07-12_10-58-50.png)
 
+OSBuilder appends the UBR to the saved Windows Image information files
+
+![](/assets/2018-07-12_12-11-07.png)
+
+
+
 ---
 
 ### Naming the OSMedia Directory
