@@ -4,13 +4,19 @@ I recommend running OSBuilder in PowerShell ISE \(as Administrator\) until you g
 
 ---
 
+### Supported Operating Systems
+
+OSBuilder currently supports Windows 10.  I am updating the logic to work with Windows Server 2016 in the next few weeks
+
+
+
+---
+
 ### A Word of Caution
 
 Since OSBuilder will mount Windows Images, I strongly recommend that you do not have any running Anti-Virus scanning files ON ACCESS.  McAfee will prevent the dismounting of images properly.
 
 **Work with OSBuilder in a clean Virtual Machine or a stand alone Workgroup Computer**
-
-
 
 ---
 
