@@ -23,7 +23,7 @@ Install-Module -Name OSBuilder -Scope CurrentUser
 
 After installing the PowerShell Module, OSBuilder can be run in PowerShell ISE
 
-![](/assets/2018-07-10_11-43-15.png)
+![](/assets/2018-07-12_10-43-23.png)
 
 ---
 
