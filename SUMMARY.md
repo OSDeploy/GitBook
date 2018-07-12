@@ -17,7 +17,6 @@
   * [Create a New Task](osbuilder/how-to/create-a-new-task.md)
   * [Execute a Task in Test Mode](osbuilder/how-to/execute-a-task-in-test-mode.md)
   * [Add DaRT to WinPE](osbuilder/how-to/add-dart-to-winpe.md)
-  * [Create a New OSBuild Task](osbuilder/how-to/create-a-new-osbuild-task.md)
 * [Knowledge](osmedia/knowledge/README.md)
   * [Servicing Stacks](osmedia/knowledge/servicing-stacks.md)
   * [DISM Cleanup Image Pending Operations](osmedia/knowledge/dism-cleanup-image-pending-operations.md)
@@ -149,4 +148,6 @@
   * [Depricated: Update-OSMedia](osmedia/reference/update-osmedia.md)
   * [Depricated: Edit-OSMedia](osmedia/reference/edit-osmedia.md)
 * [Future Plans](osmedia/future-plans.md)
+
+
 
