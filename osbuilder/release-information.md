@@ -1,6 +1,7 @@
 # Release Information
 
-July 13, 2018: 18.7.15 released
+* 18.7.15.1 released on July 13, 2018 to correct an issue with 18.7.15
+* 18.7.15 released on July 13, 2018
 
 Notable changes in include UBR and Update Checking
 
@@ -26,8 +27,6 @@ Other references to the Pilot format of <OS> <Version> <Arch> should be changed 
 for consistency
 ```
 
-
-
 #### GetWindowsUpdates
 
 Now displays the UBR of the download.  This can be validated against the OSMedia or OSBuild to ensure proper integration
@@ -45,16 +44,4 @@ When running Get-OSBuilder, it will automatically check for a newer version and 
 When running Get-OSBuilder, it will automatically check for newer Servicing Stacks and Windows Updates and display a message if an update is recommended.  Internet connection required for this function to work
 
 ![](/assets/2018-07-13_13-13-10.png)
-
-
-
-
-
-
-
-
-
-
-
-
 
