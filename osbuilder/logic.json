@@ -2,7 +2,11 @@
     "Module": "18.7.15",
     "ModuleInfo":   [
                         "PowerShell Module OSBuilder 18.7.15 is now available for download",
-                        "Remove any previous version"
+                        "Uninstall previous versions using the following PowerShell Command:",
+                        "Uninstall-Module -Name OSBuilder -AllVersions -Force",
+                        "",
+                        "Install the latest version with the following PowerShell Command:",
+                        "Install-Module -Name OSBuilder -Scope CurrentUser"
                     ],
     "Updates": "18.7.13"
 }]
