@@ -26,5 +26,17 @@ You can verify you have Servicing Stacks in OSBuilder by simply running Get-OSBu
 
 ---
 
+### stacks.json
+
+If you ever want to see the information about all the Servicing Stacks, review the stacks.json file in the Content\ServicingStacks directory.  The Master online version is at [https://www.osdeploy.com/osbuilder/stacks.json](https://www.osdeploy.com/osbuilder/stacks.json)
+
+![](/assets/2018-07-13_14-48-35.png)
+
+
+
+
+
+---
+
 
 
