@@ -1,10 +1,10 @@
 {
 	"osbuilder":[
 	{
-		"Module": "18.7.15",
+		"Module": "18.7.15.1",
 		"ModuleInfo":	[
-						"OSBuilder 18.7.15 is available for download in the PowerShell Gallery",
-						"https://www.powershellgallery.com/packages/OSBuilder/18.7.15",
+						"OSBuilder 18.7.15.1 is available for download in the PowerShell Gallery",
+						"https://www.powershellgallery.com/packages/OSBuilder/18.7.15.1",
 						"",
 						"Uninstall previous versions using the following PowerShell Command:",
 						"Uninstall-Module -Name OSBuilder -AllVersions -Force",
