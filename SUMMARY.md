@@ -6,6 +6,7 @@
 ## OSBuilder
 
 * [Overview](osbuilder/overview.md)
+* [Release Information](osbuilder/release-information.md)
 * [Installation](osbuilder/installation.md)
 * [How To](osbuilder/how-to/README.md)
   * [Getting Started](osbuilder/how-to/getting-started.md)
@@ -149,6 +150,4 @@
   * [Depricated: Update-OSMedia](osmedia/reference/update-osmedia.md)
   * [Depricated: Edit-OSMedia](osmedia/reference/edit-osmedia.md)
 * [Future Plans](osmedia/future-plans.md)
-
-
 
