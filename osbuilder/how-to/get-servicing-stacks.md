@@ -12,15 +12,9 @@ You can download the Servicing Stacks from Microsoft and place them in your OSBu
 
 OSBuilder can easily download the Servicing Stacks automatically using the -GetServicingStacks parameter.  Simply select the Servicing Stacks that you want to download and press OK.
 
-![](/assets/2018-07-13_14-30-02.png)
+![](/assets/2018-07-13_14-30-02.png)The selected files will be downloaded
 
-
-
-
-
-
-
-
+![](/assets/2018-07-13_14-41-09.png)
 
 ---
 
@@ -28,7 +22,7 @@ OSBuilder can easily download the Servicing Stacks automatically using the -GetS
 
 You can verify you have Servicing Stacks in OSBuilder by simply running Get-OSBuilder
 
-![](/assets/2018-07-10_13-19-50.png)
+![](/assets/2018-07-13_14-42-42.png)
 
 ---
 
