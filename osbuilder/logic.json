@@ -1,4 +1,5 @@
-[{
+{"osbuilder":[
+{
     "Module": "18.7.15",
     "ModuleInfo":   [
                         "OSBuilder 18.7.15 is available for download in the PowerShell Gallery",
@@ -11,4 +12,5 @@
                         "Install-Module -Name OSBuilder -Scope CurrentUser"
                     ],
     "Updates": "18.7.13"
-}]
+}
+]}
