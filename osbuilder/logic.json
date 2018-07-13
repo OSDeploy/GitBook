@@ -1,5 +1,8 @@
 [{
-	"Module": "18.7.15",
-	"ModuleInfo": "An update is available for PowerShell Module OSBuilder",
-	"Updates": "18.7.13"
+    "Module": "18.7.15",
+    "ModuleInfo":   [
+                        "PowerShell Module OSBuilder 18.7.15 is now available for download",
+                        "Remove any previous version"
+                    ],
+    "Updates": "18.7.13"
 }]
