@@ -3,6 +3,7 @@
     "ModuleInfo":   [
                         "OSBuilder 18.7.15 is available for download in the PowerShell Gallery",
                         "https://www.powershellgallery.com/packages/OSBuilder/18.7.15",
+                        "",
                         "Uninstall previous versions using the following PowerShell Command:",
                         "Uninstall-Module -Name OSBuilder -AllVersions -Force",
                         "",
