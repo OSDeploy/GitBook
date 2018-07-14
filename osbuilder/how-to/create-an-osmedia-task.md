@@ -1,5 +1,7 @@
 # Create an OSMedia Task
 
+**Time Required:  less than a minute**
+
 You can update existing OSMedia by performing the following tasks
 
 * Apply the latest Servicing Stack
