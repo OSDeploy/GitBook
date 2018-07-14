@@ -1,4 +1,4 @@
-# Run an OSMedia Task
+# un an OSMedia Task
 
 ---
 
@@ -15,21 +15,27 @@ To keep things simple, look at the size of the Cumulative Update as a good metri
 
 ---
 
-
-
 ### Select a Task
 
 You will be prompted to select an existing Task.  You can select more than one to run sequentially.
 
-![](/assets/2018-07-12_14-13-49.png)
+![](/assets/2018-07-14_1-54-41.png)
 
 ---
 
 ### Reading a Task
 
-After selecting a Task to run, OSBuilder will read the configuration.  This task in particular is identified as an OSMedia Task.  Also note that a PowerShell Transcript has been started
+After selecting a Task to run, OSBuilder will read the configuration
 
-![](/assets/2018-07-12_13-13-24.png)
+![](/assets/2018-07-14_3-02-49.png)
+
+---
+
+### Working Copy
+
+A copy of the OSMedia will be made to work with so no changes are ever made to the original import
+
+![](/assets/2018-07-14_3-04-17.png)
 
 ---
 
@@ -37,19 +43,21 @@ After selecting a Task to run, OSBuilder will read the configuration.  This task
 
 All WinPE's will be mounted first
 
-![](/assets/2018-07-12_13-23-18.png)
+![](/assets/2018-07-14_3-04-54.png)
 
-Windows Updates will be applied \(excluding Adobe Flash Security Updates\)
+Windows Updates will be applied \(excluding Adobe Flash Security Updates\)![](/assets/2018-07-14_3-05-42.png)
 
-![](/assets/2018-07-12_13-24-34.png)and Dism /Cleanup-Image will be run to remove the superseded files from the WIM
+and Dism /Cleanup-Image will be run to remove the superseded files from the WIM
 
-![](/assets/2018-07-12_13-25-45.png)
+![](/assets/2018-07-14_3-06-21.png)
 
-WinPE will be Dismounted, Saved, and Exported
+WinPE will be Dismounted and Saved, and then Exported to reduce the size of the WIMs
 
-![](/assets/2018-07-12_14-15-31.png)Boot.wim will be regenerated with the updated Indexes
+![](/assets/2018-07-14_3-07-11.png)
 
-![](/assets/2018-07-12_14-16-36.png)
+Boot.wim will be regenerated with the updated Indexes
+
+![](/assets/2018-07-14_3-08-07.png)
 
 ---
 
@@ -100,8 +108,6 @@ Image Configuration will be saved and Install.wim will be Dismounted and Saved
 ### Complete OSMedia
 
 Once the Task has been run, the new OSMedia is available to use for and OSBuild.  The main benefit of a Task is that when a new Cumulative Update is released, just copy the updates in the Windows Updates directory and run the task again without any other modifications.
-
-
 
 ![](/assets/2018-07-12_14-55-19.png)
 
