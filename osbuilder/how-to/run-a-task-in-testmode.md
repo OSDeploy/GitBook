@@ -16,33 +16,10 @@ Invoke-OSBuilder -TestMode -Verbose
 
 You will be prompted to select one or more Tasks to run.  You can select multiple Tasks, but I strongly suggest a single Task.
 
-
-
-
-
 ![](/assets/2018-07-14_1-05-06.png)
-
-
-
-
-
-
-
-
-
-
 
 ---
 
-### 
-
-### 
-
-### 
-
-### 
-
-### 
 
 ### Execution
 
