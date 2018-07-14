@@ -36,9 +36,16 @@ If you used my previous attempt at this called OSMedia, you will need to get rid
 
 ### Get-OSBuilder
 
-There are a few parameters to OSBuilder, but running Get-OSBuilder without a parameter will give you a listing of your OSBuilder components.  The Version will be displayed at the top
+Start by opening PowerShell ISE as Elevated \(Run as Administrator\).  Select the OSBuilder Module and then Get-OSBuilder
 
-![](/assets/2018-07-13_14-15-54.png)
+When executing Get-OSBuilder without any parameters, it will display a few things:
+
+* OSBuilder PowerShell Module Version Information
+* Directory Structure
+  * \(does not exist\) is self explanatory
+* Update Information \(OSBuilder PowerShell Module is OK\)
+
+![](/assets/2018-07-13_19-14-36.png)
 
 ---
 
@@ -46,15 +53,15 @@ There are a few parameters to OSBuilder, but running Get-OSBuilder without a par
 
 If you want to redirect OSBuilder to a different location, use this parameter
 
-![](/assets/2018-07-13_14-16-46.png)
+![](/assets/2018-07-13_19-25-42.png)
 
 ---
 
 ### Get-OSBuilder -CreatePaths
 
-If you are satisfied with the OSBuilder path, using this parameter will set the OSBuilder structure
+This will create the OSBuilder directory structure.  Notice that \(does not exist\) is no longer present
 
-![](/assets/2018-07-13_14-18-07.png)
+![](/assets/2018-07-13_19-23-04.png)
 
 And the same structure in Windows Explorer
 
