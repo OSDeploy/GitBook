@@ -80,11 +80,9 @@ Tasks are saved in the Tasks directory in OSBuilder as a JSON file with all the 
 
 Take the time now to repeat this step for every Operating System you imported
 
+![](/assets/2018-07-14_0-56-46.png)
 
-
-
-
-
+---
 
 
 
