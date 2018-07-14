@@ -53,15 +53,19 @@ When executing Get-OSBuilder without any parameters, it will display a few thing
 
 If you want to redirect OSBuilder to a different location, use this parameter
 
-![](/assets/2018-07-13_19-25-42.png)
+![](/assets/2018-07-13_19-37-37.png)
+
+![](/assets/2018-07-13_19-39-05.png)
 
 ---
 
 ### Get-OSBuilder -CreatePaths
 
-This will create the OSBuilder directory structure.  Notice that \(does not exist\) is no longer present
+This will create the OSBuilder directory structure
 
-![](/assets/2018-07-13_19-23-04.png)
+![](/assets/2018-07-13_19-37-20.png)
+
+![](/assets/2018-07-13_19-40-42.png)
 
 And the same structure in Windows Explorer
 
@@ -73,7 +77,7 @@ And the same structure in Windows Explorer
 
 If OSBuilder is up to date, this will be displayed as a message on the bottom
 
-![](/assets/2018-07-13_14-15-54b.png)
+![](/assets/2018-07-13_19-35-18.png)
 
 If a newer version is released, this will change to a Warning message
 
@@ -84,8 +88,6 @@ If Servicing Stacks or Windows Updates have changed, a Warning message will be d
 ![](/assets/2018-07-13_13-13-10.png)
 
 ---
-
-
 
 
 
