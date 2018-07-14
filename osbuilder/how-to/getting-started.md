@@ -57,6 +57,8 @@ If you want to redirect OSBuilder to a different location, use this parameter
 
 ![](/assets/2018-07-13_19-39-05.png)
 
+
+
 ---
 
 ### Get-OSBuilder -CreatePaths
@@ -66,6 +68,8 @@ This will create the OSBuilder directory structure
 ![](/assets/2018-07-13_19-37-20.png)
 
 ![](/assets/2018-07-13_19-40-42.png)
+
+
 
 And the same structure in Windows Explorer
 
