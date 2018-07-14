@@ -65,7 +65,7 @@ This will create the OSBuilder directory structure.  Notice that \(does not exis
 
 And the same structure in Windows Explorer
 
-![](/assets/2018-07-13_14-19-26.png)
+![](/assets/2018-07-10_12-00-51.png)
 
 ---
 
