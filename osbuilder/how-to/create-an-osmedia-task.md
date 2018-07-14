@@ -30,9 +30,9 @@ Get-OSMedia will show me what I have imported.  In the image below I have 8 diff
 
 ### New-OSBuilderTask
 
-For **New-OSBuilderTask**, select the OSMedia tab and type in a TaskName similar to the one I have selected below
+For **New-OSBuilderTask**, select the OSMedia tab and type in a TaskName.  Keep the TaskName simple for now
 
-![](/assets/2018-07-14_0-00-20.png)
+![](/assets/2018-07-14_0-48-33.png)
 
 ---
 
@@ -64,9 +64,7 @@ Just like the Servicing Stack selection, the Windows Update is the same.  Make s
 
 ### Complete
 
-When finished, the Task will be created
-
-![](/assets/2018-07-14_0-09-52.png)
+When finished, the Task will be created.  Since we created an OSMedia Task, OSMedia is added at the beginning of the TaskName automatically.  ![](/assets/2018-07-14_0-49-55.png)
 
 ---
 
@@ -74,9 +72,19 @@ When finished, the Task will be created
 
 Tasks are saved in the Tasks directory in OSBuilder as a JSON file with all the information needed for performing the update.
 
-![](/assets/2018-07-14_0-13-21.png)
+![](/assets/2018-07-14_0-53-24.png)
 
 ---
+
+### Wash, Rinse, and Repeat
+
+Take the time now to repeat this step for every Operating System you imported
+
+
+
+
+
+
 
 
 
