@@ -1,10 +1,12 @@
 # Updates
 
+* **July 13, 2018**
+  * [OSBuilder Released](/osbuilder/overview.md)
 * **June 25, 2018**
   * [OSMedia Released](/osmedia/quick-start.md)
 * **February 14, 2018**
   * [PowerShell Module OSDriver 1.0.7.3 Released](https://www.powershellgallery.com/packages/OSDriver/1.0.7.3)
-    * [\(New\) Find-OSDriverTypes](https://www.osdeploy.com/psmodule/osdriver/find-osdrivertypes.html)
+    * [Find-OSDriverTypes](https://www.osdeploy.com/psmodule/osdriver/find-osdrivertypes.html)
   * [Deployment Integration - ConfigMgr - Create Packages](https://www.osdeploy.com/osdrivers/deployment-integration/configmgr/create-packages.html)
   * [Deployment Integration - ConfigMgr - Bare Metal Task Sequence](https://www.osdeploy.com/osdrivers/deployment-integration/configmgr/bare-metal-task-sequence.html)
 * **February 11, 2018**
