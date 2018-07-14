@@ -4,6 +4,8 @@ To ensure you don't run into any problems when Servicing a Windows Image Offline
 
 You can download the Servicing Stacks from Microsoft and place them in your OSBuilder\Content\ServicingStacks directory.  Each update should be placed in a separate directory matching the supported Operating System
 
+![](/assets/2018-07-13_19-36-56.png)
+
 ---
 
 ### Get-OSBuilder -GetServicingStacks

@@ -4,8 +4,6 @@ Similar to the method used to get Servicing Stacks, you can download Windows Upd
 
 Updates are saved in OSBuilder\Content\WindowsUpdates
 
-![](/assets/2018-07-10_13-26-46.png)
-
 ---
 
 ### Get-OSBuilder -GetWindowsUpdates
@@ -18,10 +16,11 @@ This parameter allows you to select Cumulative Updates and Adobe Flash Player Se
 
 ### Get-OSBuilder
 
-Once downloaded, simply run Get-OSBuilder to make sure they are present  
-
+Once downloaded, simply run Get-OSBuilder to make sure they are present
 
 ![](/assets/2018-07-10_13-27-36.png)
 
 ---
+
+
 
