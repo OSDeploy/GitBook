@@ -10,7 +10,7 @@ The next step is to import an Operating System.  In this example I have two ISO'
 
 This function has no parameters, so just execute.  It will search all Drives for sources\install.wim and Get-WindowsImage information from each.  Since it looks for a specific path, multi-boot OS Media will not work for now.  Be patient and let the scan finish.
 
-![](/assets/2018-07-12_10-48-09.png)
+![](/assets/2018-07-13_22-39-44.png)
 
 Once the scanning is complete, a Grid will be displayed with all the available Operating Systems.  Multi-select the ones you want to import and press OK.  I have tested the import on 8 ISO's at the same time.
 
@@ -37,8 +37,6 @@ I am not sure why the WIM information is not accurate, but this link may provide
 OSBuilder appends the UBR to the saved Windows Image information files
 
 ![](/assets/2018-07-12_12-11-07.png)
-
-
 
 ---
 
