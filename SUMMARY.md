@@ -19,6 +19,7 @@
   * [Create an OSBuild Task](osbuilder/how-to/create-an-osbuild-task.md)
   * [Add DaRT to WinPE](osbuilder/how-to/add-dart-to-winpe.md)
   * [Add Drivers to WinPE](osbuilder/how-to/add-drivers-to-winpe.md)
+  * [Batch Import Operating Systems](osbuilder/how-to/batch-import-operating-systems.md)
 * [Knowledge](osmedia/knowledge/README.md)
   * [Servicing Stacks](osmedia/knowledge/servicing-stacks.md)
   * [DISM Cleanup Image Pending Operations](osmedia/knowledge/dism-cleanup-image-pending-operations.md)
