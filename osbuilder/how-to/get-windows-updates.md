@@ -4,6 +4,8 @@ Similar to the method used to get Servicing Stacks, you can download Windows Upd
 
 Updates are saved in OSBuilder\Content\WindowsUpdates
 
+![](/assets/2018-07-13_19-37-07.png)
+
 ---
 
 ### Get-OSBuilder -GetWindowsUpdates
