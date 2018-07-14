@@ -2,6 +2,21 @@
 
 ---
 
+### Things to Know
+
+When it comes to Servicing Windows offline, understand two things:
+
+* The more Monthly Updates an Operating System needs, the longer the Cumulative Update and the Image Cleanup will take. This means that Windows 1607 OSMedia that hasn't been updated since November 2016 has about 21 months worth of updates.
+* An x64 will take almost twice as long as x86 Operating System to update because it contains files for 32-bit and 64-bit execution
+
+To keep things simple, look at the size of the Cumulative Update as a good metric. Windows 10 x86 1803 is under 400MB, whereas Windows 10 x64 1607 is over 1.3GB. Test and Execute your smallest first to ensure that everything will function properly.
+
+![](/assets/2018-07-14_1-13-29.png)
+
+---
+
+
+
 ### Select a Task
 
 You will be prompted to select an existing Task.  You can select more than one to run sequentially.
