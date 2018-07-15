@@ -1,6 +1,10 @@
 {
 	"osbuilder":[
 	{
+		"InfoMessage":	[
+						"Hello this is a test of a Message",
+						"Updates have been made to OSDeploy.com"
+						],
 		"Module": "18.7.15.1",
 		"ModuleInfo":	[
 						"OSBuilder 18.7.15.1 is available for download in the PowerShell Gallery",
