@@ -1,4 +1,4 @@
-# Add DaRT to WinPE \(and WinRE\)
+# Add DaRT to Boot.wim and WinRE
 
 You can add Microsoft DaRT to the WinPE and WinRE images using OSBuilder in a few steps.  If you don't know what DaRT is, have a quick read
 
