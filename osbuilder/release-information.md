@@ -1,13 +1,43 @@
 # Release Information
 
-* 18.7.15.1 released on July 13, 2018 to correct an issue with 18.7.15
-* 18.7.15 released on July 13, 2018
+### 18.7.16.1 \(July 16, 2018\)
 
-Notable changes in include UBR and Update Checking
+* **Get-OSBuilder**
+  * DownloadUpdates joins GetServicingStacks and GetWindowsUpdates parameters
+  * DownloadUpdates has the option for Latest and Historic Updates.  Going forward, Historic will contain previous updates added to OSBuilder
+* **Invoke-OSBuilderTask**
+  * Replaces Invoke-OSBuilder
+  * DaRT now added to Windows Setup \(Boot.wim Index 2\)
+* **New-OSBuilderISO**
+  * Initial Release
+  * Allows the creation of an ISO of any OSMedia or OSBuild
+* **New-OSBuildTask**
+  * Replaces the New-OSBuilder OSBuild option
+  * CUs are no longer applied to Windows Setup \(Boot.wim Index 2\) to prevent a setup.exe compatibility issue
+    * [https://support.microsoft.com/en-us/help/4041170/windows-installation-cannot-find-driver-boot-wim](https://support.microsoft.com/en-us/help/4041170/windows-installation-cannot-find-driver-boot-wim)
+* **New-OSMediaTask**
+  * Replaces the New-OSBuilder OSMedia option
+  * CUs are no longer applied to Windows Setup \(Boot.wim Index 2\) to prevent a setup.exe compatibility issue
+    * [https://support.microsoft.com/en-us/help/4041170/windows-installation-cannot-find-driver-boot-wim](https://support.microsoft.com/en-us/help/4041170/windows-installation-cannot-find-driver-boot-wim)
+
+If you have previously created OSMedia or OSBuilds and integrated the CU with Windows Setup, it is recommended that you rebuild.  This issue is apparent on Windows 10 1803 x64/x86.
+
 
 ---
 
-### Changes from Previous Versions
+### 18.7.15.1 \(July 13, 2018\)
+
+* Corrected an issue in Invoke-OSBuilder.ps1 script error
+
+---
+
+### 18.7.15 \(July 13, 2018\)
+
+* Initial Public release
+
+---
+
+### Changes from Versions prior to 18.7.15
 
 * Only Windows 10 Operating Systems can be imported at this time.  Support for Windows Server will be in the next week or so
 * UBR \(Update Build Revision\) is appended to all Builds
