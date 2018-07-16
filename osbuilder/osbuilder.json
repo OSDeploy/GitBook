@@ -2,7 +2,7 @@
 	"osbuilder":[
 	{
 		"InfoMessage":	[
-						"New Articles",
+						"New Documentation",
 						"https://www.osdeploy.com/osbuilder/how-to/create-an-iso.html"
 						],
 		"Module": "18.7.15.1",
