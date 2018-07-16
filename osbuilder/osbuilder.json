@@ -7,8 +7,11 @@
 						],
 		"Module": "18.7.15.1",
 		"ModuleInfo":	[
-						"OSBuilder 18.7.15.1 is available for download in the PowerShell Gallery",
-						"https://www.powershellgallery.com/packages/OSBuilder/18.7.15.1",
+						"OSBuilder 18.7.16.1 is released",
+						"https://www.osdeploy.com/osbuilder/release-information.html",
+						"",
+						"Download from the PowerShell Gallery",
+						"https://www.powershellgallery.com/packages/OSBuilder/18.7.16.1",
 						"",
 						"Uninstall previous versions using the following PowerShell Command:",
 						"Uninstall-Module -Name OSBuilder -AllVersions -Force",
