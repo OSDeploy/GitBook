@@ -1,7 +1,7 @@
 {
 	"osbuilder":[
 	{
-		"InfoMessage":	null,
+		"InfoMessage":	"This is a test",
 		"Module": "18.7.15.1",
 		"ModuleInfo":	[
 						"OSBuilder 18.7.15.1 is available for download in the PowerShell Gallery",
