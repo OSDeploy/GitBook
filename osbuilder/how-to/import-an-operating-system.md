@@ -26,7 +26,7 @@ The first step is to mount the install.wim -ReadOnly from the Media.  This will 
 
 This issue is visible in the image below for Windows 10 1709.  The Version obtained by using Get-WindowsImage is not the same as the one obtained from NTOSKRNL.
 
-16299.15 is not a valid UBR, but 16200.125 is [https://support.microsoft.com/en-us/help/4054517](https://support.microsoft.com/en-us/help/4054517)
+16299.15 is not a valid UBR, but 16299.125 is [https://support.microsoft.com/en-us/help/4054517](https://support.microsoft.com/en-us/help/4054517)
 
 I am not sure why the WIM information is not accurate, but this link may provide some insight on why.  Time to open a Case!
 
