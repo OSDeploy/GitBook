@@ -1,7 +1,10 @@
 {
 	"osbuilder":[
 	{
-		"InfoMessage":	"(New) https://www.osdeploy.com/osbuilder/how-to/create-an-iso.html",
+		"InfoMessage":	[
+						"New Articles",
+						"https://www.osdeploy.com/osbuilder/how-to/create-an-iso.html"
+						],
 		"Module": "18.7.15.1",
 		"ModuleInfo":	[
 						"OSBuilder 18.7.15.1 is available for download in the PowerShell Gallery",
