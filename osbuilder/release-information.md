@@ -1,5 +1,14 @@
 # Release Information
 
+### 18.7.17.1 \(July 17, 2018\)
+
+* **New-OSBuildTask**
+  * Removed OSMedia ParameterSet
+* **New-OSMediaTask**
+  * Resolved issue where Task Name was not allowed
+
+---
+
 ### 18.7.16.1 \(July 16, 2018\)
 
 * **Get-OSBuilder**
