@@ -7,7 +7,7 @@
 "Arch":  "x64",
 "Version":  "1803",
 "Build":  "17134",
-"UBR":	"17134.166",
+"UBR":	"17134.167",
 "FileName":  "windows10.0-kb4345421-x64.msu",
 "URLFile":  "windows10.0-kb4345421-x64_c5a035dc1ec030a5be0626c8b019b9c4f6e8a1a6.msu",
 "URLPath":  "http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/07/windows10.0-kb4345421-x64_c5a035dc1ec030a5be0626c8b019b9c4f6e8a1a6.msu"
@@ -20,7 +20,7 @@
 "Arch":  "x86",
 "Version":  "1803",
 "Build":  "17134",
-"UBR":	"17134.166",
+"UBR":	"17134.167",
 "FileName":  "windows10.0-kb4345421-x86.msu",
 "URLFile":  "windows10.0-kb4345421-x86_74331e092aa326fc34f320ecc46e56d88017887b.msu",
 "URLPath":  "http://download.windowsupdate.com/c/msdownload/update/software/updt/2018/07/windows10.0-kb4345421-x86_74331e092aa326fc34f320ecc46e56d88017887b.msu"
@@ -33,7 +33,7 @@
 "Arch":  "x64",
 "Version":  "1709",
 "Build":  "16299",
-"UBR":	"16299.550",
+"UBR":	"16299.551",
 "FileName":  "windows10.0-kb4345420-x64.msu",
 "URLFile":  "windows10.0-kb4345420-x64_94968c844473fcbbb4329808d5d3c9b06dcd3dbc.msu",
 "URLPath":  "http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/07/windows10.0-kb4345420-x64_94968c844473fcbbb4329808d5d3c9b06dcd3dbc.msu"
@@ -46,7 +46,7 @@
 "Arch":  "x86",
 "Version":  "1709",
 "Build":  "16299",
-"UBR":	"16299.550",
+"UBR":	"16299.551",
 "FileName":  "windows10.0-kb4345420-x86.msu",
 "URLFile":  "windows10.0-kb4345420-x86_e87ef5296d9d6190a06f8a35bfde1ef17d5f249c.msu",
 "URLPath":  "http://download.windowsupdate.com/c/msdownload/update/software/updt/2018/07/windows10.0-kb4345420-x86_e87ef5296d9d6190a06f8a35bfde1ef17d5f249c.msu"
@@ -59,7 +59,7 @@
 "Arch":  "x64",
 "Version":  "1703",
 "Build":  "15063",
-"UBR":	"15063.1208",
+"UBR":	"15063.1209",
 "FileName":  "windows10.0-kb4345419-x64.msu",
 "URLFile":  "windows10.0-kb4345419-x64_e7b0d7fecb953ceb4109db83ad861525ef3b1bfd.msu",
 "URLPath":  "http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/07/windows10.0-kb4345419-x64_e7b0d7fecb953ceb4109db83ad861525ef3b1bfd.msu"
@@ -72,7 +72,7 @@
 "Arch":  "x86",
 "Version":  "1703",
 "Build":  "15063",
-"UBR":	"15063.1208",
+"UBR":	"15063.1209",
 "FileName":  "windows10.0-kb4345419-x86.msu",
 "URLFile":  "windows10.0-kb4345419-x86_653df3e66ac7e13e6b15481c3ed69ed685f8e11a.msu",
 "URLPath":  "http://download.windowsupdate.com/c/msdownload/update/software/updt/2018/07/windows10.0-kb4345419-x86_653df3e66ac7e13e6b15481c3ed69ed685f8e11a.msu"
@@ -85,7 +85,7 @@
 "Arch":  "x64",
 "Version":  "1607",
 "Build":  "14393",
-"UBR":	"14393.2367",
+"UBR":	"14393.2368",
 "FileName":  "windows10.0-kb4345418-x64.msu",
 "URLFile":  "windows10.0-kb4345418-x64_a636a1048a2601d9218463107bc5fde558a1055e.msu",
 "URLPath":  "http://download.windowsupdate.com/c/msdownload/update/software/updt/2018/07/windows10.0-kb4345418-x64_a636a1048a2601d9218463107bc5fde558a1055e.msu"
@@ -98,7 +98,7 @@
 "Arch":  "x86",
 "Version":  "1607",
 "Build":  "14393",
-"UBR":	"14393.2367",
+"UBR":	"14393.2368",
 "FileName":  "windows10.0-kb4345418-x86.msu",
 "URLFile":  "windows10.0-kb4345418-x86_9479c43c883bcf1b244811c7a15c1913ea3c9e25.msu",
 "URLPath":  "http://download.windowsupdate.com/c/msdownload/update/software/updt/2018/07/windows10.0-kb4345418-x86_9479c43c883bcf1b244811c7a15c1913ea3c9e25.msu"
