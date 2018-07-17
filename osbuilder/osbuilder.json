@@ -5,13 +5,14 @@
 						"New Documentation",
 						"https://www.osdeploy.com/osbuilder/how-to/create-an-iso.html"
 						],
-		"Module": "18.7.16.1",
+		"Module": "18.7.17.1",
 		"ModuleInfo":	[
-						"OSBuilder 18.7.16.1 is released",
+						"OSBuilder 18.7.17.1 is released",
+						"Corrects an issue with creating an OSBuild Task",
 						"https://www.osdeploy.com/osbuilder/release-information.html",
 						"",
 						"Download from the PowerShell Gallery",
-						"https://www.powershellgallery.com/packages/OSBuilder/18.7.16.1",
+						"https://www.powershellgallery.com/packages/OSBuilder/18.7.17.1",
 						"",
 						"Uninstall previous versions using the following PowerShell Command:",
 						"Uninstall-Module -Name OSBuilder -AllVersions -Force",
