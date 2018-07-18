@@ -5,9 +5,9 @@
 						"New Documentation",
 						"https://www.osdeploy.com/osbuilder/how-to/create-an-iso.html"
 						],
-		"Module": "18.7.17.3",
+		"Module": "18.7.17.4",
 		"ModuleInfo":	[
-						"OSBuilder 18.7.17.3 is released",
+						"OSBuilder 18.7.17.4 is released",
 						"Added Media Sources Update from Setup.wim CU",
 						"https://www.osdeploy.com/osbuilder/release-information.html",
 						"",
