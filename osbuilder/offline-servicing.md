@@ -97,12 +97,6 @@ This step is important to shrink the internal size if your WIMs.  If you do not,
 
 ---
 
-### Export the WIMs
-
-Exporting the WIMs will reduce the size of the WIMs.  If you do not, your Boot.wim may exceed the size of your Boot Partition
-
----
-
 ### NetFX3
 
 If you need to enable NetFX3 \(you probably do\), understand that you must run DISM Image Cleanup first as you will not be able to perform a Cleanup after NetFX3 is enabled due to pending operations.
@@ -112,6 +106,12 @@ If you do not reapply the CU to the Install.wim after enabling NetFX3, your comp
 The image below shows what the mounted Install.wim looks like after reapplying the CU, so yes, this is required
 
 ![](/assets/2018-07-17_12-08-03.png)
+
+---
+
+### Export the WIMs
+
+Exporting the WIMs will reduce the size of the WIMs.  If you do not, your Boot.wim may exceed the size of your Boot Partition
 
 ---
 
@@ -138,6 +138,14 @@ If you do not perform this step, OS Updates will probably fail.  Additionally, i
 [https://support.microsoft.com/en-us/help/4041170/windows-installation-cannot-find-driver-boot-wim](https://support.microsoft.com/en-us/help/4041170/windows-installation-cannot-find-driver-boot-wim)
 
 ![](/assets/2018-07-16_11-14-04.png)
+
+---
+
+### Monthly Updating
+
+If you plan on updating your WIMs every month, do not enable NetFX3 as you will not be able to DISM Image Cleanup.  This is why I recommend keeping a separate build updated monthly that does not have NetFX3 enabled.  Use this as your REFERENCE that you build a secondary Install.wim with NetFX3 enabled.
+
+
 
 ---
 
