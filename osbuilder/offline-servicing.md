@@ -20,17 +20,45 @@ Before getting started, you need to gather the following updates for Windows 10
 * Latest Cumulative Update \(Monthly\)
 * Latest Adobe Flash Security Update \(Monthly\)
 
-If you don't know what a Servicing Stack is, please read a little about that here
+If you don't know what a Servicing Stack is, please read a little about that here \(but to be clear, you need this or your Cumulative Update is probably not installing properly.
 
-[Servicing Stacks](/osmedia/knowledge/servicing-stacks.md)
+[https://www.osdeploy.com/osmedia/knowledge/servicing-stacks.html](https://www.osdeploy.com/osmedia/knowledge/servicing-stacks.html)
 
+---
 
+### Boot WIMs
 
+You absolutely need to understand the Boot WIMs that are used for installing Windows, so here they are.
 
+Boot.wim is located in the Sources directory of your Windows 10 Media.  This WIM contains two indexes.  Index 1 is WinPE, and Index 2 is the bootable Index, and this is Windows Setup.
 
+```
+ImageIndex       : 1
+ImageName        : Microsoft Windows PE (x64)
+ImageDescription : Microsoft Windows PE (x64)
+ImageSize        : 1,560,430,353 bytes
 
+ImageIndex       : 2
+ImageName        : Microsoft Windows Setup (x64)
+ImageDescription : Microsoft Windows Setup (x64)
+ImageSize        : 1,719,223,056 bytes
 
+```
 
+The third Boot WIM on Windows Media is located inside the Install.wim at Windows\System32\Recovery\winre.wim.  This is the Recovery Environment
+
+```
+ImageIndex       : 1
+ImageName        : Microsoft Windows Recovery Environment (x64)
+ImageDescription : Microsoft Windows Recovery Environment (x64)
+ImageSize        : 1,945,278,901 bytes
+```
+
+---
+
+### Setup WIM
+
+When you boot your Windows 10 Media on a computer, it will boot to Sources\Boot.wim Index 2 to start Windows Setup.  If you are updating your 
 
 
 
