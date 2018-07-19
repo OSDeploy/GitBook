@@ -99,6 +99,8 @@ Exporting the WIMs will reduce the size of the WIMs.  If you do not, your Boot.w
 
 If you need to enable NetFX3 \(you probably do\), understand that you must run DISM Image Cleanup first as you will not be able to perform a Cleanup after NetFX3 is enabled due to pending operations.
 
+If you do not reapply the CU to the Install.wim after enabling NetFX3, your computer will show that the Cumulative Update is needed, and it will be applied in Windows.  This defeats the whole point of updating the Install.wim.
+
 ---
 
 ### Update Sources
@@ -118,8 +120,6 @@ Repeat this step with your mounted Install.wim.  This will ensure that DEVINV is
 This is what the Sources looks like after performing the Robocopy
 
 ![](/assets/2018-07-19_1-50-50.jpg)
-
-
 
 
 
