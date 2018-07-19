@@ -3,16 +3,16 @@
 	{
 		"InfoMessage":	[
 						"New Documentation",
-						"https://www.osdeploy.com/osbuilder/how-to/create-an-iso.html"
+						"https://www.osdeploy.com/osbuilder/knowledge/offline-servicing.html"
 						],
-		"Module": "18.7.17.4",
+		"Module": "18.7.19.0",
 		"ModuleInfo":	[
-						"OSBuilder 18.7.17.4 is released",
-						"Added Media Sources Update from Setup.wim CU",
+						"OSBuilder 18.7.19.0 is released",
+						"Now able to update Sources!",
 						"https://www.osdeploy.com/osbuilder/release-information.html",
 						"",
 						"Download from the PowerShell Gallery",
-						"https://www.powershellgallery.com/packages/OSBuilder/18.7.17.4",
+						"https://www.powershellgallery.com/packages/OSBuilder/18.7.19.0",
 						"",
 						"Uninstall previous versions using the following PowerShell Command:",
 						"Uninstall-Module -Name OSBuilder -AllVersions -Force",
