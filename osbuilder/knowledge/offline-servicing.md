@@ -93,12 +93,6 @@ This uses the Sources directory of the OS Media
 
 Installing an Operating System in MDT will use WinPE \(Boot.wim Index 1\) as this will take preference over the ADK WinPE.wim.  This will require an updated Sources directory in this WIM
 
-This is confirmed by Michael Niehaus in this article
-
-[https://blogs.technet.microsoft.com/mniehaus/2009/06/27/mdt-2010-new-feature-7-boot-image-creation-optimized/](https://blogs.technet.microsoft.com/mniehaus/2009/06/27/mdt-2010-new-feature-7-boot-image-creation-optimized/)
-
-![](/assets/2018-07-19_9-32-56.png)
-
 #### Recovery Image or Push Button Reset
 
 This uses WinRE inside that is in the Windows Image
@@ -106,6 +100,33 @@ This uses WinRE inside that is in the Windows Image
 #### SCCM
 
 SCCM has its own Boot WIMs.  I will work on a solution in then near future for this
+
+---
+
+### Microsoft Deployment Toolkit and ADK
+
+Michael Niehaus in this article states that MDT will use the Operating System for WinPE
+
+[https://blogs.technet.microsoft.com/mniehaus/2009/06/27/mdt-2010-new-feature-7-boot-image-creation-optimized/](https://blogs.technet.microsoft.com/mniehaus/2009/06/27/mdt-2010-new-feature-7-boot-image-creation-optimized/)
+
+![](/assets/2018-07-19_9-32-56.png)
+
+MDT will look for a matching version of Boot.wim in your imported Operating Systems.  This is the version I have in ADK
+
+![](/assets/2018-07-19_10-55-11.jpg)After importing the matching Operating System in MDT, I can see that it has decided to use this instead of the original WinPE.wim
+
+![](/assets/2018-07-19_10-58-01.jpg)
+
+You can see the difference in sizes in this image BEFORE/AFTER
+
+![](/assets/2018-07-19_10-59-53.jpg)
+
+If you import an updated Operating System with an updated Boot.wim, it will not automatically detect this as valid because the version does not match.  To force ADK and MDT to use your updated WinPE, copy your updated WinPE \(Boot.wim Index 1\) in these locations.  For SCCM you should probably do the same with your updated WinPE
+
+```
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\en-us\winpe.wim
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\x86\en-us\winpe.wim
+```
 
 ---
 
