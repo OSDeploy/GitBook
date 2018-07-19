@@ -2,6 +2,7 @@
 
 ### 18.7.19.\* \(July 19, 2018\)
 
+* Online Documentation has not been updated yet to detail the changes.  I'll work on that over the weekend.  Thanks for understanding.
 * Modified Paths to WindowsUpdates and ServicingStacks
 * TestMode renamed to TestBuilds
 * Operating System names are abbreviated
@@ -9,6 +10,7 @@
   * Win10 x64 Ent 1803 \(new format\)
   * It is recommended that you rename these manually, or **run it through an OSMedia Task again and it will apply the new name format, and update the Sources directory at the same time**
 * Abbreviated OS Names consistent throughout OSBuilder
+* Abbreviated OS Names for Servicing Stack and Windows Update downloads will be applied during the next CU Release
 * Added ExecutionMode to Invoke-OSBuilder
   * Information - This will show the information about the selected Task without running it
   * Test Build - Performs a simulation and copies the output to OSBuilder\TestBuilds.  Recommend to run this with -Verbose
