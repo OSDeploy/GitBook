@@ -178,12 +178,3 @@ If you do not perform this step, OS Updates will probably fail.  Additionally, i
 17. Export Setup WIM to the same Boot.wim with Bootable switch
 18. Replace the Boot.wim in the OS Media Sources with the updated one
 19. Rebuild ISO using OSCDIMG \(ADK\)
-
-**Robocopy Command Example**
-
-```
-
-```
-
-
-
