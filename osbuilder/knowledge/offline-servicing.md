@@ -121,7 +121,7 @@ If you need to enable NetFX3 \(you probably do\), understand that you must run D
 
 ![](/assets/2018-06-28_15-28-02.png)
 
-You can run Get-WindowsCapability on a Mounted Windows Image to see what the problem is
+You can run Get-WindowsCapability on a Mounted Windows Image to validate
 
 ![](/assets/2018-06-28_15-31-10.png)
 
@@ -162,6 +162,14 @@ If you do not perform this step, Operating System Upgrades will probably fail.  
 [https://support.microsoft.com/en-us/help/4041170/windows-installation-cannot-find-driver-boot-wim](https://support.microsoft.com/en-us/help/4041170/windows-installation-cannot-find-driver-boot-wim)
 
 ![](/assets/2018-07-16_11-14-04.png)
+
+---
+
+### Windows 10 Upgrade Failures
+
+Windows 10 Upgrades may fail on issues with Application Compatibility.  This may happen if the Operating System you are upgrading had received a new Cumulative Update.  If the Sources directory in the Upgrade Media has an older version of these files, this will lead to the DEVINV issue I mentioned earlier.  The method to ensure that these files are the correct version is to apply the Cumulative Update to the Install.wim and then to Robocopy copy the MATCHING files in the OS Media Sources.  Use the image below as a reference for which switches to use.
+
+![](/assets/2018-07-19_9-37-08.png)
 
 ---
 
