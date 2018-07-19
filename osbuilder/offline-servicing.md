@@ -20,9 +20,17 @@ Before getting started, you need to gather the following updates for Windows 10
 * Latest Cumulative Update \(Monthly\)
 * Latest Adobe Flash Security Update \(Monthly\)
 
-If you don't know what a Servicing Stack is, please read a little about that here \(but to be clear, you need this or your Cumulative Update is probably not installing properly.
+---
+
+### Servicing Stack Update
+
+If you don't know what a Servicing Stack is, please read a little about that here
 
 [https://www.osdeploy.com/osmedia/knowledge/servicing-stacks.html](https://www.osdeploy.com/osmedia/knowledge/servicing-stacks.html)
+
+Be aware if you do not install the Servicing Stack Update before the Cumulative Update, the CU may not actually install at all since it does not meet its prerequisite.  You will not receive a warning or an error when this happens, you will see the CU completed successfully \(because it is not applicable since the SSU was not in place\)
+
+![](/assets/2018-06-26_23-55-29b.png)
 
 ---
 
@@ -178,3 +186,8 @@ If you do not perform this step, OS Updates will probably fail.  Additionally, i
 17. Export Setup WIM to the same Boot.wim with Bootable switch
 18. Replace the Boot.wim in the OS Media Sources with the updated one
 19. Rebuild ISO using OSCDIMG \(ADK\)
+
+---
+
+
+
