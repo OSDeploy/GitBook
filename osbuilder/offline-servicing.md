@@ -83,6 +83,48 @@ WinRE can be used for Windows installation when restoring a Recovery Image or Pu
 
 ---
 
+### DISM Image Cleanup
+
+This step is important to shrink the internal size if your WIMs.  If you do not, your Boot.wim may exceed the size of your Boot Partition.
+
+---
+
+### Export the WIMs
+
+Exporting the WIMs will reduce the size of the WIMs.  If you do not, your Boot.wim may exceed the size of your Boot Partition
+
+---
+
+### NetFX3
+
+If you need to enable NetFX3 \(you probably do\), understand that you must run DISM Image Cleanup first as you will not be able to perform a Cleanup after NetFX3 is enabled due to pending operations.
+
+---
+
+### Update Sources
+
+To update the Sources directory on your OS Media, you need to perform a Robocopy from your Mounted Setup WIM.  You should only update NEWER MATCHING files in your Sources directory.
+
+```
+robocopy "$MountDirectory\Windows\System32" "$OS\sources" *.* /e /ndl /xo /xx /xl /b /np /r:0 /w:0
+```
+
+Repeat this step with your mounted Install.wim.  This will ensure that DEVINV is the proper version and prevent issues.  For more information about this issue, see these articles
+
+[http://www.asquaredozen.com/2018/01/16/windows-7-windows-10-fall-creators-update-1709-place-upgrade-fails-error-0xc1900204-invalid-sku/](http://www.asquaredozen.com/2018/01/16/windows-7-windows-10-fall-creators-update-1709-place-upgrade-fails-error-0xc1900204-invalid-sku/)
+
+[http://blog.ctglobalservices.com/configuration-manager-sccm/mag/devicemap-and-device-inventory-failures-in-win7-to-win10-1709-in-place-upgrades/](http://blog.ctglobalservices.com/configuration-manager-sccm/mag/devicemap-and-device-inventory-failures-in-win7-to-win10-1709-in-place-upgrades/)
+
+This is what the Sources looks like after performing the Robocopy
+
+![](/assets/2018-07-19_1-50-50.jpg)
+
+
+
+
+
+---
+
 ### What To Update
 
 * Install.wim - Servicing Stack and then the Cumulative Update.  Enable NetFX3 and reapply CU
@@ -132,7 +174,7 @@ WinRE can be used for Windows installation when restoring a Recovery Image or Pu
 **Robocopy Command Example**
 
 ```
-robocopy "$MountDirectory\Windows\System32" "$OS\sources" *.* /e /ndl /xo /xx /xl /b /np /r:0 /w:0
+
 ```
 
 
