@@ -1,6 +1,27 @@
 # Release Information
 
-### 18.7.17.* \(July 17, 2018\)
+### 18.7.19.\* \(July 19, 2018\)
+
+* Modified Paths to WindowsUpdates and ServicingStacks
+* TestMode renamed to TestBuilds
+* Operating System names are abbreviated
+  * Windows 10 x64 Enterprise 1803 \(old format\)
+  * Win10 x64 Ent 1803 \(new format\)
+* Abbreviated OS Names consistent throughout OSBuilder
+* Added ExecutionMode to Invoke-OSBuilder
+  * Information - This will show the information about the selected Task without running it
+  * Test Build - Performs a simulation and copies the output to OSBuilder\TestBuilds.  Recommend to run this with -Verbose
+  * Execute Stepped - This option will enable a "Press Enter to continue" so you can manually manipulate the process
+  * Execute - This will execute the Task
+* Added UseLatestSource to Invoke-OSBuilder
+  * If you have a Task specifically points to an Operating System \(Win10 Ent x64 1803 17134.112\), enabling this option will search for a newer UBR and execute with that source.
+  * For this to work, make sure your UBR is at the end of your OSMedia source
+* OSMedia and OSBuild Tasks will update the Sources directory of the Media automatically
+* Enabling NetFX3 in a Task will force a selection for reapplying the Cumulative Update
+* OSBuild Tasks no longer include SSU or CU \(unless enabling NetFX3\)
+* OSMedia Tasks are specific to updating the SSU, CU, and Sources.  No other customizations are permissable
+
+### 18.7.17.\* \(July 17, 2018\)
 
 * **New-OSBuildTask**
   * Removed OSMedia ParameterSet
@@ -9,7 +30,7 @@
 
 ---
 
-### 18.7.16.* \(July 16, 2018\)
+### 18.7.16.\* \(July 16, 2018\)
 
 * **Get-OSBuilder**
   * DownloadUpdates joins GetServicingStacks and GetWindowsUpdates parameters
