@@ -81,13 +81,31 @@ In the Sources directory setup.exe also exists, and they match as well.  On the 
 
 ### Imaging Methods
 
-Booting to Media \(ISO\) to image a computer requires Setup.wim \(Boot.wim Index 2\).  This requires an updated Sources directory in this WIM.
+#### Boot from Media \(ISO\)
 
-Upgrading a computer requires the Sources directory on the OS Media
+This method uses Setup.wim \(Boot.wim Index 2\).  Like files in the Sources directory of this WIM need to be identical to what is on the OS Media Sources.
+
+#### Operating System Upgrades
+
+This uses the Sources directory of the OS Media
+
+#### Microsoft Deployment Toolkit \(MDT\)
 
 Installing an Operating System in MDT will use WinPE \(Boot.wim Index 1\) as this will take preference over the ADK WinPE.wim.  This will require an updated Sources directory in this WIM
 
-WinRE can be used for Windows installation when restoring a Recovery Image or Push Button Reset
+This is confirmed by Michael Niehaus in this article
+
+[https://blogs.technet.microsoft.com/mniehaus/2009/06/27/mdt-2010-new-feature-7-boot-image-creation-optimized/](https://blogs.technet.microsoft.com/mniehaus/2009/06/27/mdt-2010-new-feature-7-boot-image-creation-optimized/)
+
+![](/assets/2018-07-19_9-32-56.png)
+
+#### Recovery Image or Push Button Reset
+
+This uses WinRE inside that is in the Windows Image
+
+#### SCCM
+
+SCCM has its own Boot WIMs.  I will work on a solution in then near future for this
 
 ---
 
