@@ -2,9 +2,9 @@
 
 ### 18.7.19.\* \(July 19, 2018\)
 
-* Online Documentation has not been updated yet to detail the changes.  I'll work on that over the weekend.  Thanks for understanding.
+* **Online Documentation has not been updated yet to detail the changes.  I'll work on that over the weekend.  Thanks for understanding!**
 * Modified Paths to WindowsUpdates and ServicingStacks
-* TestMode renamed to TestBuilds
+* TestMode renamed to -ExecutionMode "Test Builds"
 * Operating System names are abbreviated
   * Windows 10 x64 Enterprise 1803 \(old format\)
   * Win10 x64 Ent 1803 \(new format\)
