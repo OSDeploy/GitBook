@@ -26,7 +26,7 @@ Before getting started, you need to gather the following updates for Windows 10
 
 If you don't know what a Servicing Stack is, please read a little about that here
 
-[https://www.osdeploy.com/osmedia/knowledge/servicing-stacks.html](https://www.osdeploy.com/osmedia/knowledge/servicing-stacks.html)
+[https://www.osdeploy.com/osbuilder/knowledge/servicing-stacks.html](https://www.osdeploy.com/osbuilder/knowledge/servicing-stacks.html)
 
 Be aware if you do not install the Servicing Stack Update before the Cumulative Update, the CU may not actually install at all since it does not meet its prerequisite.  You will not receive a warning or an error when this happens, you will see the CU completed successfully \(because it is not applicable since the SSU was not in place\)
 
