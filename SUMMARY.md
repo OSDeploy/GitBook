@@ -24,7 +24,6 @@
   * [Servicing Stacks](osmedia/knowledge/servicing-stacks.md)
   * [DISM Cleanup Image Pending Operations](osmedia/knowledge/dism-cleanup-image-pending-operations.md)
   * [Offline Servicing](osmedia/knowledge/offline-servicing.md)
-* [Offline Servicing](osbuilder/offline-servicing.md)
 * [Known Issues](osbuilder/known-issues.md)
 
 ## OSConfig - Incomplete

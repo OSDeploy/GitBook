@@ -101,7 +101,17 @@ This step is important to shrink the internal size if your WIMs.  If you do not,
 
 If you need to enable NetFX3 \(you probably do\), understand that you must run DISM Image Cleanup first as you will not be able to perform a Cleanup after NetFX3 is enabled due to pending operations.
 
+![](/assets/2018-06-28_15-28-02.png)
+
+You can run Get-WindowsCapability on a Mounted Windows Image to see what the problem is
+
+![](/assets/2018-06-28_15-31-10.png)
+
+
 If you do not reapply the CU to the Install.wim after enabling NetFX3, your computer will show that the Cumulative Update is needed, and it will be applied in Windows.  This defeats the whole point of updating the Install.wim.
+
+
+
 
 The image below shows what the mounted Install.wim looks like after reapplying the CU, so yes, this is required
 
@@ -144,8 +154,6 @@ If you do not perform this step, OS Updates will probably fail.  Additionally, i
 ### Monthly Updating
 
 If you plan on updating your WIMs every month, do not enable NetFX3 as you will not be able to DISM Image Cleanup.  This is why I recommend keeping a separate build updated monthly that does not have NetFX3 enabled.  Use this as your REFERENCE that you build a secondary Install.wim with NetFX3 enabled.
-
-
 
 ---
 
