@@ -5,6 +5,7 @@
 
 ## OSBuilder
 
+* [Offline Servicing](osbuilder/offline-servicing.md)
 * [Overview](osbuilder/overview.md)
 * [Release Information](osbuilder/release-information.md)
 * [Installation](osbuilder/installation.md)
