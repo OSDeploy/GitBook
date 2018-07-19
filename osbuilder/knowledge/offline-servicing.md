@@ -182,23 +182,23 @@ If you plan on updating your WIMs every month, do not enable NetFX3 as you will 
 8. Dism Image Cleanup
 9. Robocopy MATCHING NEWER files to OS Media Sources using /b \(to bypass Trusted Installer issues\)
 10. Dismount and Save the Install.wim
-10. Export Install.wim to a new Install.wim
-11. Replace the Install.wim in the OS Media Sources
-12. Mount Setup WIM
+11. Export Install.wim to a new Install.wim
+12. Replace the Install.wim in the OS Media Sources
+13. Mount Setup WIM
     1. Apply Servicing Stack
     2. Apply Cumulative Update
     3. Dism Image Cleanup
     4. Robocopy MATCHING NEWER files to OS Media Sources using /b \(to bypass Trusted Installer issues\)
     5. Dismount and Save
-13. Mount WinPE
+14. Mount WinPE
     1. Apply Servicing Stack
     2. Apply Cumulative Update
     3. Dism Image Cleanup
     4. Dismount and Save
-14. Export WinPE to a new Boot.wim
-15. Export Setup WIM to the same Boot.wim with Bootable switch
-16. Replace the Boot.wim in the OS Media Sources with the updated one
-17. Rebuild ISO using OSCDIMG \(ADK\)
+15. Export WinPE to a new Boot.wim
+16. Export Setup WIM to the same Boot.wim with Bootable switch
+17. Replace the Boot.wim in the OS Media Sources with the updated one
+18. Rebuild ISO using OSCDIMG \(ADK\)
 
 ##### Production Image
 
