@@ -73,19 +73,58 @@ In the Sources directory setup.exe also exists, and they match as well.  On the 
 
 ### Imaging Methods
 
+Booting to Media \(ISO\) to image a computer requires Setup.wim \(Boot.wim Index 2\).  This requires an updated Sources directory in this WIM.
+
+Upgrading a computer requires the Sources directory on the OS Media
+
+Installing an Operating System in MDT will use WinPE \(Boot.wim Index 1\) as this will take preference over the ADK WinPE.wim.  This will require an updated Sources directory in this WIM
+
+WinRE can be used for Windows installation when restoring a Recovery Image or Push Button Reset
+
+---
+
+### What To Update
+
+* Install.wim - Servicing Stack and then the Cumulative Update
+* WinPE WIM - Servicing Stack and then the Cumulative Update
+* Setup WIM - Servicing Stack and then the Cumulative Update.  Sources will be updated when applying the CU
+* WinRE WIM - Servicing Stack and then the Cumulative Update
+* Sources - on the OS Media
+
+---
+
+### Complete Steps
+
+1. Copy the contents of your ISO to a working directory
+2. Mount the Install.wim
+   1. Copy WinRE.wim out of the Mount directory
+3. Mount WinRE.wim
+   1. Apply Servicing Stack
+   2. Apply Cumulative Update
+   3. Dism Image Cleanup
+   4. Dismount and Save
+4. Export WinRE.wim to another WIM to reduce the size
+5. Copy WinRE.wim back into the Mounted Install.wim
+6. Apply Servicing Stack to the Mounted Install.wim
+7. Apply Cumulative Update to the Mounted Install.wim
+8. Dism Image Cleanup
+9. Robocopy MATCHING NEWER files to OS Media Sources using /b \(to bypass Trusted Installer issues\)
+10. Enable NetFX3 \(if needed\) and reapply Cumulative Update
+11. Dismount and Save
+12. Mount Setup WIM
+   1. Apply Servicing Stack
+   2. Apply Cumulative Update
+   3. Dism Image Cleanup
 
 
 
 
 
+**Robocopy Command Example**
 
-
-
-
-
-
-
-
+```
+robocopy "$MountDirectory\Windows\System32" "$OS\sources" *.* /e /ndl /xo /xx /xl /b /np /r:0 /w:0
+```
 
 
 
