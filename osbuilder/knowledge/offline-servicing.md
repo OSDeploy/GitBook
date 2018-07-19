@@ -107,11 +107,7 @@ You can run Get-WindowsCapability on a Mounted Windows Image to see what the pro
 
 ![](/assets/2018-06-28_15-31-10.png)
 
-
 If you do not reapply the CU to the Install.wim after enabling NetFX3, your computer will show that the Cumulative Update is needed, and it will be applied in Windows.  This defeats the whole point of updating the Install.wim.
-
-
-
 
 The image below shows what the mounted Install.wim looks like after reapplying the CU, so yes, this is required
 
@@ -143,7 +139,7 @@ This is what the Sources looks like after performing the Robocopy
 
 ![](/assets/2018-07-19_1-50-50.jpg)
 
-If you do not perform this step, OS Updates will probably fail.  Additionally, if you update the Install.wim and not the Sources directory on the OS Media, you will not be able to create an ISO and image with.  This causes a mismatch as detailed in this link from Microsoft
+If you do not perform this step, Operating System Upgrades will probably fail.  Additionally, if you update the Install.wim and not the Sources directory on the OS Media, you will not be able to create an ISO to image from \(or a bootable USB\).  This causes a mismatch as detailed in this link from Microsoft
 
 [https://support.microsoft.com/en-us/help/4041170/windows-installation-cannot-find-driver-boot-wim](https://support.microsoft.com/en-us/help/4041170/windows-installation-cannot-find-driver-boot-wim)
 
@@ -169,6 +165,8 @@ If you plan on updating your WIMs every month, do not enable NetFX3 as you will 
 
 ### The Complete Steps
 
+##### **Monthly Updated Image**
+
 1. Copy the contents of your ISO to a working directory
 2. Mount the Install.wim
    1. Copy WinRE.wim out of the Mount directory
@@ -183,25 +181,33 @@ If you plan on updating your WIMs every month, do not enable NetFX3 as you will 
 7. Apply Cumulative Update to the Mounted Install.wim
 8. Dism Image Cleanup
 9. Robocopy MATCHING NEWER files to OS Media Sources using /b \(to bypass Trusted Installer issues\)
-10. Enable NetFX3 \(if needed\) and reapply Cumulative Update
-11. Dismount and Save
-12. Export Install.wim to a new Install.wim
-13. Replace the Install.wim in the OS Media Sources
-14. Mount Setup WIM
+10. Dismount and Save the Install.wim
+10. Export Install.wim to a new Install.wim
+11. Replace the Install.wim in the OS Media Sources
+12. Mount Setup WIM
     1. Apply Servicing Stack
     2. Apply Cumulative Update
     3. Dism Image Cleanup
     4. Robocopy MATCHING NEWER files to OS Media Sources using /b \(to bypass Trusted Installer issues\)
     5. Dismount and Save
-15. Mount WinPE
+13. Mount WinPE
     1. Apply Servicing Stack
     2. Apply Cumulative Update
     3. Dism Image Cleanup
     4. Dismount and Save
-16. Export WinPE to a new Boot.wim
-17. Export Setup WIM to the same Boot.wim with Bootable switch
-18. Replace the Boot.wim in the OS Media Sources with the updated one
-19. Rebuild ISO using OSCDIMG \(ADK\)
+14. Export WinPE to a new Boot.wim
+15. Export Setup WIM to the same Boot.wim with Bootable switch
+16. Replace the Boot.wim in the OS Media Sources with the updated one
+17. Rebuild ISO using OSCDIMG \(ADK\)
+
+##### Production Image
+
+1. Copy the Monthly Updated Image to a working directory
+2. Mount the Install.wim
+3. Enable NetFX3 \(if needed\)
+4. Reapply the Cumulative Update
+5. Perform any additional customizations
+6. Dismount and Save the Install.wim
 
 ---
 
