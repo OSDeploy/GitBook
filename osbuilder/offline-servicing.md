@@ -101,6 +101,10 @@ If you need to enable NetFX3 \(you probably do\), understand that you must run D
 
 If you do not reapply the CU to the Install.wim after enabling NetFX3, your computer will show that the Cumulative Update is needed, and it will be applied in Windows.  This defeats the whole point of updating the Install.wim.
 
+The image below shows what the mounted Install.wim looks like after reapplying the CU, so yes, this is required
+
+![](/assets/2018-07-17_12-08-03.png)
+
 ---
 
 ### Update Sources
@@ -121,7 +125,11 @@ This is what the Sources looks like after performing the Robocopy
 
 ![](/assets/2018-07-19_1-50-50.jpg)
 
+If you do not perform this step, OS Updates will probably fail.  Additionally, if you update the Install.wim and not the Sources directory on the OS Media, you will not be able to create an ISO and image with.  This causes a mismatch as detailed in this link from Microsoft
 
+[https://support.microsoft.com/en-us/help/4041170/windows-installation-cannot-find-driver-boot-wim](https://support.microsoft.com/en-us/help/4041170/windows-installation-cannot-find-driver-boot-wim)
+
+![](/assets/2018-07-16_11-14-04.png)
 
 ---
 
