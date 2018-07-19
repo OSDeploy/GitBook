@@ -7,6 +7,7 @@
 * Operating System names are abbreviated
   * Windows 10 x64 Enterprise 1803 \(old format\)
   * Win10 x64 Ent 1803 \(new format\)
+  * It is recommended that you rename these manually, or run it through an OSMedia Task again and it will apply the new name format, and update the Sources directory at the same time
 * Abbreviated OS Names consistent throughout OSBuilder
 * Added ExecutionMode to Invoke-OSBuilder
   * Information - This will show the information about the selected Task without running it
@@ -16,10 +17,13 @@
 * Added UseLatestSource to Invoke-OSBuilder
   * If you have a Task specifically points to an Operating System \(Win10 Ent x64 1803 17134.112\), enabling this option will search for a newer UBR and execute with that source.
   * For this to work, make sure your UBR is at the end of your OSMedia source
-* OSMedia and OSBuild Tasks will update the Sources directory of the Media automatically
+* OSMedia and OSBuild Tasks will update the Sources directory of the Media automatically.  **If you have previously updated an OSMedia, run it through an OSMedia Task again and it will apply the corrections.**
 * Enabling NetFX3 in a Task will force a selection for reapplying the Cumulative Update
 * OSBuild Tasks no longer include SSU or CU \(unless enabling NetFX3\)
-* OSMedia Tasks are specific to updating the SSU, CU, and Sources.  No other customizations are permissable
+* OSMedia Tasks are specific to updating the SSU, CU, and Sources.  No other customizations are allowed.  This method allows you to continually update OSMedia without having to use the original source Media from Microsoft
+* Tasks have changed and all previous Tasks will need to be rebuilt.  Delete existing ones
+
+---
 
 ### 18.7.17.\* \(July 17, 2018\)
 
