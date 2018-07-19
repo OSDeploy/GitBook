@@ -1,4 +1,4 @@
-# Offline Servicing - The Complete Process
+# Offline Servicing - The Complete Steps
 
 I wanted to take the time to explain all the steps involved with Offline Servicing a Windows Image.  This will primarily focus on Windows 10, but the same methods should also be applied to Windows Server 2016.
 
@@ -151,7 +151,7 @@ If you do not perform this step, OS Updates will probably fail.  Additionally, i
 
 ---
 
-### Complete Steps
+### The Complete Steps
 
 1. Copy the contents of your ISO to a working directory
 2. Mount the Install.wim
