@@ -85,7 +85,7 @@ WinRE can be used for Windows installation when restoring a Recovery Image or Pu
 
 ### What To Update
 
-* Install.wim - Servicing Stack and then the Cumulative Update
+* Install.wim - Servicing Stack and then the Cumulative Update.  Enable NetFX3 and reapply CU
 * WinPE WIM - Servicing Stack and then the Cumulative Update
 * Setup WIM - Servicing Stack and then the Cumulative Update.  Sources will be updated when applying the CU
 * WinRE WIM - Servicing Stack and then the Cumulative Update
@@ -111,26 +111,29 @@ WinRE can be used for Windows installation when restoring a Recovery Image or Pu
 9. Robocopy MATCHING NEWER files to OS Media Sources using /b \(to bypass Trusted Installer issues\)
 10. Enable NetFX3 \(if needed\) and reapply Cumulative Update
 11. Dismount and Save
-12. Mount Setup WIM
-   1. Apply Servicing Stack
-   2. Apply Cumulative Update
-   3. Dism Image Cleanup
-
-
-
-
+12. Export Install.wim to a new Install.wim
+13. Replace the Install.wim in the OS Media Sources
+14. Mount Setup WIM
+    1. Apply Servicing Stack
+    2. Apply Cumulative Update
+    3. Dism Image Cleanup
+    4. Robocopy MATCHING NEWER files to OS Media Sources using /b \(to bypass Trusted Installer issues\)
+    5. Dismount and Save
+15. Mount WinPE
+    1. Apply Servicing Stack
+    2. Apply Cumulative Update
+    3. Dism Image Cleanup
+    4. Dismount and Save
+16. Export WinPE to a new Boot.wim
+17. Export Setup WIM to the same Boot.wim with Bootable switch
+18. Replace the Boot.wim in the OS Media Sources with the updated one
+19. Rebuild ISO using OSCDIMG \(ADK\)
 
 **Robocopy Command Example**
 
 ```
 robocopy "$MountDirectory\Windows\System32" "$OS\sources" *.* /e /ndl /xo /xx /xl /b /np /r:0 /w:0
 ```
-
-
-
-
-
-
 
 
 
