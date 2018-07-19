@@ -42,7 +42,6 @@ ImageIndex       : 2
 ImageName        : Microsoft Windows Setup (x64)
 ImageDescription : Microsoft Windows Setup (x64)
 ImageSize        : 1,719,223,056 bytes
-
 ```
 
 The third Boot WIM on Windows Media is located inside the Install.wim at Windows\System32\Recovery\winre.wim.  This is the Recovery Environment
@@ -58,7 +57,35 @@ ImageSize        : 1,945,278,901 bytes
 
 ### Setup WIM
 
-When you boot your Windows 10 Media on a computer, it will boot to Sources\Boot.wim Index 2 to start Windows Setup.  If you are updating your 
+When you boot your Windows 10 Media on a computer, it will boot to Sources\Boot.wim Index 2 to start Windows Setup.  The image below shows the OS Media and the mounted Setup WIM.  As you can see there is a Setup.exe, and they both match.  These files are not the complete setup, they just take your parameters and pass them to the setup.exe in the Sources directory.
+
+![](/assets/2018-07-19_0-31-12.jpg)
+
+---
+
+### Sources
+
+In the Sources directory setup.exe also exists, and they match as well.  On the left is the OS Media Sources, and on the right is the mounted Setup WIM.  I wanted to highlight the DISM components as these are required for servicing an image.
+
+![](/assets/2018-07-19_0-34-30.jpg)
+
+---
+
+### Imaging Methods
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
