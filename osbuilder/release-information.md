@@ -7,7 +7,7 @@
 * Operating System names are abbreviated
   * Windows 10 x64 Enterprise 1803 \(old format\)
   * Win10 x64 Ent 1803 \(new format\)
-  * It is recommended that you rename these manually, or run it through an OSMedia Task again and it will apply the new name format, and update the Sources directory at the same time
+  * It is recommended that you rename these manually, or **run it through an OSMedia Task again and it will apply the new name format, and update the Sources directory at the same time**
 * Abbreviated OS Names consistent throughout OSBuilder
 * Added ExecutionMode to Invoke-OSBuilder
   * Information - This will show the information about the selected Task without running it
