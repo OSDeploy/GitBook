@@ -22,7 +22,7 @@
   * [Create an ISO](osbuilder/how-to/create-an-iso.md)
 * [Knowledge](osmedia/knowledge/README.md)
   * [Servicing Stacks](osmedia/knowledge/servicing-stacks.md)
-  * [DISM Cleanup Image Pending Operations](osmedia/knowledge/dism-cleanup-image-pending-operations.md)
+  * [DISM Cleanup Image Pending Operations](osbuilder/knowledge/dism-cleanup-image-pending-operations.md)
   * [Offline Servicing](osbuilder/knowledge/offline-servicing.md)
 * [Known Issues](osbuilder/known-issues.md)
 
