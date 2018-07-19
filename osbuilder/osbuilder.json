@@ -24,13 +24,13 @@
 		"StacksInfo":	[
 						"Servicing Stacks have been modified or released",
 						"Check for new Servicing Stacks with the following PowerShell Command:",
-						"Get-OSBuilder -GetServicingStacks"
+						"Get-OSBuilder -DownloadUpdates Latest"
 						],
 		"Updates": "2018-07-16",
 		"UpdatesInfo":	[
 						"Windows Updates have been modified or released",
 						"Check for new Windows Updates with the following PowerShell Command:",
-						"Get-OSBuilder -GetWindowsUpdates"
+						"Get-OSBuilder -DownloadUpdates Latest"
 						]
 		}
 	]
