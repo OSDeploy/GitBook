@@ -50,7 +50,7 @@ In this phase, all the configuration about the imported Operating System will be
 
 The process of importing an Operating System into OSMedia took about 1 minute of actual work, with 6 minutes of processing.  In the end, the Operating System is fully copied into OSMedia and ready to update.
 
-![](/assets/2018-07-19_21-57-44.png)
+
 
 ---
 
