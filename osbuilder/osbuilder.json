@@ -2,8 +2,7 @@
 	"osbuilder":[
 	{
 		"InfoMessage":	[
-						"Updates",
-						"https://www.osdeploy.com/osbuilder/knowledge/offline-servicing.html"
+						"New: https://www.osdeploy.com/osbuilder/knowledge/offline-servicing.html"
 						],
 		"Module": "18.7.19.0",
 		"ModuleInfo":	[
