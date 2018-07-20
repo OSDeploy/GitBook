@@ -1,6 +1,6 @@
 # Import an Operating System
 
-The next step is to import an Operating System.  In this example I have two ISO's attached to my Virtual Machine, Windows 10 1709 x64 and Windows 10 1803 x64.
+The next step is to import an Operating System.  In this example I have two mounted ISO's, Windows 10 1709 x64 and Windows 10 1803 x64.
 
 ![](/assets/2018-07-10_14-04-39.png)
 
@@ -17,6 +17,16 @@ Once the scanning is complete, a Grid will be displayed with all the available O
 ![](/assets/2018-07-19_20-20-05.jpg)
 
 ---
+
+### Import Phase
+
+![](/assets/Import-OSMedia-Importing.png)
+
+---
+
+### Reporting Phase
+
+![](/assets/Import-OSMedia-Reporting.png)
 
 ### Mounting the Install.wim
 
@@ -102,9 +112,151 @@ When using the -Verbose paramater, you can see all the PowerShell commands that 
 
 ### Full Information
 
-Here is the full information displayed at the end of Import-OSMedia
+Here is the full console output when importing Windows 10 Enterprise x64 1803
 
 ```
+PS C:\windows\system32> Import-OSMedia
+Version 18.7.19.0
+Creating OSBuilder Paths
+
+OSBuilder:            C:\OSBuilder
+-OSBuilds:            C:\OSBuilder\OSBuilds
+-PEBuilds:            C:\OSBuilder\PEBuilds
+-OSMedia:            C:\OSBuilder\OSMedia
+-Tasks:                C:\OSBuilder\Tasks
+-TestBuilds:        C:\OSBuilder\TestBuilds
+
+Updates:
+-Servicing Stacks:    C:\OSBuilder\Content\UpdateStacks
+-Windows Updates:    C:\OSBuilder\Content\UpdateWindows
+
+Content:            C:\OSBuilder\Content
+-Drivers:            C:\OSBuilder\Content\Drivers
+-Extra Files:        C:\OSBuilder\Content\ExtraFiles
+-Language Packs:    C:\OSBuilder\Content\LanguagePacks
+-MountPath:            C:\OSBuilder\Content\Mount
+-Packages:            C:\OSBuilder\Content\Packages
+-Start Layouts:        C:\OSBuilder\Content\StartLayout
+-Unattend XML:        C:\OSBuilder\Content\Unattend
+-WinPE Content:        C:\OSBuilder\Content\WinPE
+
+===========================================================================
+Scanning Image Information ... Please Wait!
+===========================================================================
+
+===========================================================================
+Mounting Install.wim
+===========================================================================
+E:\sources\install.wim
+
+
+Path          : C:\OSBuilder\Content\Mount\os204604
+Online        : False
+RestartNeeded : False
+
+Transcript started, output file is C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\info\logs\2018-07-19-204832-Import-OSMedia.log
+
+===========================================================================
+OSMedia Information
+===========================================================================
+Source Path:        E:
+-Image File:        E:\sources\install.wim
+-Image Index:        3
+-Name:                Win10 Ent
+-Description:        Windows 10 Enterprise
+-Architecture:        x64
+-Edition:            Enterprise
+-Type:                Client
+-Languages:            en-US
+-Build:                17134
+-Version:            10.0.17134.1
+-SPBuild:            1
+-SPLevel:            112
+-Bootable:            No
+-WimBoot:            False
+-Created Time:        06/19/2018 15:42:32
+-Modified Time:        06/19/2018 16:05:33
+-UBR:                17134.112
+
+Working Path:        C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112
+-OSMedia Name:        Win10 Ent x64 1803 17134.112
+-Info:                C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\info
+-Logs:                C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\info\logs
+-OS:                C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\OS
+-WinPE:                C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\WinPE
+
+===========================================================================
+Importing Operating System to OSMedia
+===========================================================================
+Copying OS to C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\OS
+Removing the Read Only file flag in C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\OS
+Exporting Index 3 to C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\OS\sources\install.wim
+
+ImagePath        : C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\OS\sources\install.wim
+Name             : 
+LogPath          : C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\info\logs\2018-07-19-204843-Export-WindowsImage.log
+ScratchDirectory : C:\windows\temp\
+LogLevel         : WarningsInfo
+
+===========================================================================
+Saving Mounted Windows Image Configuration
+===========================================================================
+C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\AppxProvisionedPackage.txt
+C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\WindowsOptionalFeature.txt
+C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\WindowsCapability.txt
+C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\WindowsPackage.txt
+===========================================================================
+Exporting WinPE WIMs
+===========================================================================
+C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\WinPE\boot.wim
+C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\WinPE\winpe.wim
+
+ImagePath        : C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\WinPE\winpe.wim
+Name             : 
+LogPath          : C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\WinPE\info\logs\2018-07-19-204939-Export-WindowsImage-winpe.wim.log
+ScratchDirectory : C:\windows\temp\
+LogLevel         : WarningsInfo
+
+C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\WinPE\setup.wim
+
+ImagePath        : C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\WinPE\setup.wim
+Name             : 
+LogPath          : C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\WinPE\info\logs\2018-07-19-204941-Export-WindowsImage-setup.wim.log
+ScratchDirectory : C:\windows\temp\
+LogLevel         : WarningsInfo
+
+C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\WinPE\winre.wim
+
+ImagePath        : C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\WinPE\winre.wim
+Name             : 
+LogPath          : C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\WinPE\info\logs\2018-07-19-204943-Export-WindowsImage-winre.wim.log
+ScratchDirectory : C:\windows\temp\
+LogLevel         : WarningsInfo
+
+
+===========================================================================
+Dismounting Install.wim
+===========================================================================
+C:\OSBuilder\Content\Mount\os204604
+
+LogPath          : C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\info\logs\2018-07-19-204948-Dismount-WindowsImage.log
+ScratchDirectory : 
+LogLevel         : WarningsInfo
+
+===========================================================================
+Saving WinPE Image Configuration
+===========================================================================
+C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\WinPE\info\boot.txt
+C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\WinPE\info\winpe.txt
+C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\WinPE\info\setup.txt
+C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\WinPE\info\winre.txt
+
+===========================================================================
+Saving Windows Image Configuration
+===========================================================================
+C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\WindowsImage.txt
+C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\info\Get-WindowsImageContent.txt
+
 ===========================================================================
 Appx Packages
 ===========================================================================
@@ -125,6 +277,7 @@ Appx Packages
 -Microsoft.SkypeApp
 -Microsoft.StorePurchaseApp
 -Microsoft.Wallet
+-Microsoft.WebMediaExtensions
 -Microsoft.Windows.Photos
 -Microsoft.WindowsAlarms
 -Microsoft.WindowsCalculator
@@ -137,6 +290,7 @@ Appx Packages
 -Microsoft.Xbox.TCUI
 -Microsoft.XboxApp
 -Microsoft.XboxGameOverlay
+-Microsoft.XboxGamingOverlay
 -Microsoft.XboxIdentityProvider
 -Microsoft.XboxSpeechToTextOverlay
 -Microsoft.ZuneMusic
@@ -145,31 +299,36 @@ Appx Packages
 ===========================================================================
 Windows Packages
 ===========================================================================
--Microsoft-OneCore-ApplicationModel-Sync-Desktop-FOD-Package~31bf3856ad364e35~amd64~~10.0.16299.15
--Microsoft-Windows-Client-LanguagePack-Package~31bf3856ad364e35~amd64~en-US~10.0.16299.15
--Microsoft-Windows-EditionSpecific-Enterprise-WOW64-Package~31bf3856ad364e35~amd64~~10.0.16299.15
--Microsoft-Windows-Foundation-Package~31bf3856ad364e35~amd64~~10.0.16299.15
--Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~11.0.16299.15
--Microsoft-Windows-LanguageFeatures-Basic-en-us-Package~31bf3856ad364e35~amd64~~10.0.16299.15
--Microsoft-Windows-LanguageFeatures-Handwriting-en-us-Package~31bf3856ad364e35~amd64~~10.0.16299.15
--Microsoft-Windows-LanguageFeatures-OCR-en-us-Package~31bf3856ad364e35~amd64~~10.0.16299.15
--Microsoft-Windows-LanguageFeatures-Speech-en-us-Package~31bf3856ad364e35~amd64~~10.0.16299.15
--Microsoft-Windows-LanguageFeatures-TextToSpeech-en-us-Package~31bf3856ad364e35~amd64~~10.0.16299.15
--Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~amd64~~10.0.16299.15
--Microsoft-Windows-QuickAssist-Package~31bf3856ad364e35~amd64~~10.0.16299.15
--Microsoft-Windows-Security-SPP-Component-SKU-Enterprise-GVLK-Package~31bf3856ad364e35~amd64~~10.0.16299.15
+-Microsoft-OneCore-ApplicationModel-Sync-Desktop-FOD-Package~31bf3856ad364e35~amd64~~10.0.17134.1
+-Microsoft-Windows-Client-LanguagePack-Package~31bf3856ad364e35~amd64~en-US~10.0.17134.1
+-Microsoft-Windows-Foundation-Package~31bf3856ad364e35~amd64~~10.0.17134.1
+-Microsoft-Windows-Hello-Face-Resource-A-Package~31bf3856ad364e35~amd64~~10.0.17134.1
+-Microsoft-Windows-Hello-Face-Resource-B-Package~31bf3856ad364e35~amd64~~10.0.17134.1
+-Microsoft-Windows-Hello-Face-Resource-C-Package~31bf3856ad364e35~amd64~~10.0.17134.1
+-Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~11.0.17134.1
+-Microsoft-Windows-LanguageFeatures-Basic-en-us-Package~31bf3856ad364e35~amd64~~10.0.17134.1
+-Microsoft-Windows-LanguageFeatures-Handwriting-en-us-Package~31bf3856ad364e35~amd64~~10.0.17134.1
+-Microsoft-Windows-LanguageFeatures-OCR-en-us-Package~31bf3856ad364e35~amd64~~10.0.17134.1
+-Microsoft-Windows-LanguageFeatures-Speech-en-us-Package~31bf3856ad364e35~amd64~~10.0.17134.1
+-Microsoft-Windows-LanguageFeatures-TextToSpeech-en-us-Package~31bf3856ad364e35~amd64~~10.0.17134.1
+-Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~amd64~~10.0.17134.1
+-Microsoft-Windows-QuickAssist-Package~31bf3856ad364e35~amd64~~10.0.17134.1
+-OpenSSH-Client-Package~31bf3856ad364e35~amd64~~10.0.17134.1
 
 ===========================================================================
 Windows Update Packages
 ===========================================================================
--Package_for_KB4053577~31bf3856ad364e35~amd64~~10.0.1.0
--Package_for_RollupFix~31bf3856ad364e35~amd64~~16299.125.1.6
+-Package_for_KB4287903~31bf3856ad364e35~amd64~~10.0.1.0
+-Package_for_RollupFix~31bf3856ad364e35~amd64~~17134.112.1.7
 
 ===========================================================================
 Windows Capabilities
 ===========================================================================
 -App.Support.QuickAssist~~~~0.0.1.0
 -Browser.InternetExplorer~~~~0.0.11.0
+-Hello.Face.Resource.A~~~~0.0.1.0
+-Hello.Face.Resource.B~~~~0.0.1.0
+-Hello.Face.Resource.C~~~~0.0.1.0
 -Language.Basic~~~en-US~0.0.1.0
 -Language.Handwriting~~~en-US~0.0.1.0
 -Language.OCR~~~en-US~0.0.1.0
@@ -178,6 +337,7 @@ Windows Capabilities
 -Language.UI.Client~~~en-US~
 -Media.WindowsMediaPlayer~~~~0.0.12.0
 -OneCoreUAP.OneSync~~~~0.0.1.0
+-OpenSSH.Client~~~~0.0.1.0
 
 ===========================================================================
 Windows Optional Features: Enabled
@@ -194,7 +354,6 @@ Windows Optional Features: Enabled
 -Printing-XPSServices-Features
 -MSRDC-Infrastructure
 -SearchEngine-Client-Package
--Xps-Foundation-Xps-Viewer
 -Windows-Defender-Default-Definitions
 -Printing-Foundation-Features
 -FaxServicesClientPackage
@@ -220,6 +379,8 @@ Windows Optional Features: Disabled
 -WMISnmpProvider
 -Windows-Identity-Foundation
 -Microsoft-Windows-Subsystem-Linux
+-HypervisorPlatform
+-Client-ProjFS
 -IIS-WebServerRole
 -IIS-WebServer
 -IIS-CommonHttpFeatures
@@ -302,15 +463,15 @@ Windows Optional Features: Disabled
 -Printing-Foundation-LPRPortMonitor
 -ScanManagementConsole
 -TIFFIFilter
--DataCenterBridging
 -Microsoft-Hyper-V-All
 -Microsoft-Hyper-V
 -Microsoft-Hyper-V-Tools-All
 -Microsoft-Hyper-V-Management-PowerShell
--Microsoft-Hyper-V-Management-Clients
 -Microsoft-Hyper-V-Hypervisor
 -Microsoft-Hyper-V-Services
+-Microsoft-Hyper-V-Management-Clients
 -HostGuardian
+-DataCenterBridging
 -DirectoryServices-ADAM-Client
 -Windows-Defender-ApplicationGuard
 -ServicesForNFS-ClientOnly
@@ -327,6 +488,7 @@ Windows Optional Features: Disabled
 -MultiPoint-Connector
 -MultiPoint-Connector-Services
 -MultiPoint-Tools
+-AppServerClient
 
 ===========================================================================
 Windows Optional Features: Disabled with Payload Removed
@@ -336,18 +498,18 @@ Windows Optional Features: Disabled with Payload Removed
 ===========================================================================
 Windows Image Information
 ===========================================================================
-Version              : 10.0.16299.15
-DirectoryCount       : 21480
-FileCount            : 107942
-CreatedTime          : 9/29/2017 9:55:22 AM
-ModifiedTime         : 7/12/2018 10:57:18 AM
+Version              : 10.0.17134.1
+DirectoryCount       : 22015
+FileCount            : 109239
+CreatedTime          : 6/19/2018 3:42:32 PM
+ModifiedTime         : 7/19/2018 8:48:55 PM
 WIMBoot              : False
 ImageType            : Wim
-ImagePath            : C:\OSBuilder\OSMedia\Windows 10 Enterprise x64 1709 16299.125\OS\sources\install.wim
+ImagePath            : C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\OS\sources\install.wim
 ImageName            : Windows 10 Enterprise
 ImageIndex           : 1
 ImageDescription     : Windows 10 Enterprise
-ImageSize            : 16022009955
+ImageSize            : 15999798895
 Architecture         : 9
 ProductName          : Microsoft® Windows® Operating System
 EditionId            : Enterprise
@@ -357,9 +519,9 @@ ProductType          : WinNT
 ProductSuite         : Terminal Server
 MajorVersion         : 10
 MinorVersion         : 0
-Build                : 16299
-SPBuild              : 15
-SPLevel              : 0
+Build                : 17134
+SPBuild              : 1
+SPLevel              : 112
 ImageBootable        : No
 SystemRoot           : WINDOWS
 Languages            : {en-US}
@@ -367,8 +529,9 @@ DefaultLanguageIndex : 0
 LogPath              : C:\windows\Logs\DISM\dism.log
 ScratchDirectory     : 
 LogLevel             : WarningsInfo
+UBR                  : 17134.112
 
-Transcript stopped, output file is C:\OSBuilder\OSMedia\Windows 10 Enterprise x64 1709 16299.125\info\logs\2018-07-12-105340-Import-OSMedia.log
+Transcript stopped, output file is C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\info\logs\2018-07-19-204832-Import-OSMedia.log
 ===========================================================================
 Complete!
 ===========================================================================
