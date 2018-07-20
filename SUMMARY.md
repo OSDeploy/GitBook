@@ -9,6 +9,7 @@
 * [Installation](osbuilder/installation.md)
 * [How To](osbuilder/how-to/README.md)
   * [Getting Started](osbuilder/how-to/getting-started.md)
+  * [Download Servicing Stacks](osbuilder/how-to/download-servicing-stacks.md)
   * [Get Servicing Stacks](osbuilder/how-to/get-servicing-stacks.md)
   * [Get Windows Updates](osbuilder/how-to/get-windows-updates.md)
   * [Import an Operating System](osbuilder/how-to/import-an-operating-system.md)
@@ -18,7 +19,6 @@
   * [Run an OSMedia Task](osbuilder/how-to/run-an-osmedia-task.md)
   * [Create an OSBuild Task](osbuilder/how-to/create-an-osbuild-task.md)
   * [Add DaRT to WinPE](osbuilder/how-to/add-dart-to-winpe.md)
-  * [Create an ISO](osbuilder/how-to/create-an-iso.md)
 * [Knowledge](osbuilder/knowledge/README.md)
   * [Offline Servicing](osbuilder/knowledge/offline-servicing.md)
   * [Servicing Stacks](osmedia/knowledge/servicing-stacks.md)
@@ -151,4 +151,6 @@
   * [Depricated: Update-OSMedia](osmedia/reference/update-osmedia.md)
   * [Depricated: Edit-OSMedia](osmedia/reference/edit-osmedia.md)
 * [Future Plans](osmedia/future-plans.md)
+
+
 
