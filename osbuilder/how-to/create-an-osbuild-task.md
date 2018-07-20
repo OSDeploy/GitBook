@@ -1,30 +1,9 @@
 # Create an OSBuild Task
 
-An OSBuild is a customized Operating System.  After an OSBuild is created, it can no longer be modified.  You can create a new OSBuild Task and recreate the final OSBuild.
+OSMedia was all about applying updates . . . OSBuild is all about Customizations
 
-* Apply the latest Servicing Stack
-* Apply the latest Cumulative Updates
-* Dism /Image-Cleanup
-* All WinPE's applied with the latest SSU and CU's
-  * WinPE \(Boot.wim Index 1\)
-  * Windows Setup \(Boot.wim Index 2\)
-  * WinRE
-
-An OSMedia Task does NOT perform any additional customizations \(that would be an OSBuild\)
-
----
-
-### Prerequisites
-
-Before getting started you need to have these three things ready
-
-* Servicing Stacks
-* Windows Updates \(Cumulative\)
-* OSMedia \(Imported Operating Systems\)
-
-Get-OSMedia will show me what I have imported.  In the image below I have 8 different Windows 10 Operating Systems.  I have a matching number of Servicing Stacks, Cumulative Updates, and Adobe Flash Security Updates.
-
-![](/assets/2018-07-13_23-54-53.png)
+* Enable NetFX3
+  * Reapply the latest Cumulative Update
 
 ---
 
@@ -83,10 +62,4 @@ You will be able to select Appx Packages to remove from the OSBuild
 ![](/assets/2018-07-20_0-44-08b.png)
 
 ![](/assets/2018-07-20_0-44-08c.png)
-
----
-
-### Complete
-
-When finished, the Task will be created.  Since we created an OSMedia Task, OSMedia is added at the beginning of the TaskName automatically.  ![](/assets/2018-07-14_0-49-55.png)
 
