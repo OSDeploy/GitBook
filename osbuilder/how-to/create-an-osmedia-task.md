@@ -1,16 +1,15 @@
 # Create an OSMedia Task
 
-**Time Required:  less than a minute**
-
 You can update existing OSMedia by performing the following tasks
 
-* Apply the latest Servicing Stack
-* Apply the latest Cumulative Updates
+* Apply the latest Servicing Stack to Windows
+* Apply the latest Cumulative Updates and Adobe Flash Updates to Windows
 * Dism /Image-Cleanup
 * All WinPE's applied with the latest SSU and CU's
   * WinPE \(Boot.wim Index 1\)
   * Windows Setup \(Boot.wim Index 2\)
   * WinRE
+* Sources directory on the Media will be updated
 
 An OSMedia Task does NOT perform any additional customizations \(that would be an OSBuild\)
 
@@ -26,15 +25,17 @@ Before getting started you need to have these three things ready
 
 Get-OSMedia will show me what I have imported.  In the image below I have 8 different Windows 10 Operating Systems.  I have a matching number of Servicing Stacks, Cumulative Updates, and Adobe Flash Security Updates.
 
-![](/assets/2018-07-13_23-54-53.png)
+**Right click and open the following image in a new tab for a better look at the output**
+
+![](/assets/2018-07-19_23-46-49.png)
 
 ---
 
-### New-OSBuilderTask
+### New-OSMediaTask -TaskName "Win10 x64 Ent 1803
 
-For **New-OSBuilderTask**, select the OSMedia tab and type in a TaskName.  Keep the TaskName simple for now
+A simple TaskName is always best.  I select one that matches the name of my OSMedia
 
-![](/assets/2018-07-14_0-48-33.png)
+![](/assets/2018-07-19_23-50-10.png)
 
 ---
 
@@ -42,7 +43,7 @@ For **New-OSBuilderTask**, select the OSMedia tab and type in a TaskName.  Keep 
 
 Select a single existing OSMedia to use for this Task and press OK
 
-![](/assets/2018-07-14_0-02-06.png)
+![](/assets/2018-07-19_23-51-57.png)
 
 ---
 
@@ -52,7 +53,7 @@ Since OSBuilder recognizes the Build and Architecture of your Task, it does not 
 
 Future updates to OSBuilder may skip this prompt entirely
 
-![](/assets/2018-07-14_0-03-06.png)
+![](/assets/2018-07-19_23-52-35.png)
 
 ---
 
@@ -60,29 +61,31 @@ Future updates to OSBuilder may skip this prompt entirely
 
 Just like the Servicing Stack selection, the Windows Update is the same.  Make sure the contents of this directory are up to date.
 
-![](/assets/2018-07-14_0-07-29.png)
+![](/assets/2018-07-19_23-52-47.png)
 
 ---
 
 ### Complete
 
-When finished, the Task will be created.  Since we created an OSMedia Task, OSMedia is added at the beginning of the TaskName automatically.  ![](/assets/2018-07-14_0-49-55.png)
+When finished, the Task will be created.  OSMedia is added at the beginning of the TaskName automatically.
+
+![](/assets/2018-07-19_23-53-21.png)
 
 ---
 
 ### Task Location
 
-Tasks are saved in the Tasks directory in OSBuilder as a JSON file with all the information needed for performing the update.
+Tasks are saved in the Tasks directory in OSBuilder as a JSON file with all the information needed for performing the OSMedia update.
 
-![](/assets/2018-07-14_0-53-24.png)
+![](/assets/2018-07-19_23-54-43.png)
 
 ---
 
 ### Wash, Rinse, and Repeat
 
-Take the time now to repeat this step for every Operating System you imported
+Take the time now to repeat this step for every Operating System you imported  You will probably spend 2 minutes total on this process.
 
-![](/assets/2018-07-14_0-56-46.png)
+![](/assets/2018-07-19_23-57-20.png)
 
 ---
 
