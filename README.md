@@ -14,13 +14,5 @@ Feel free to download a PDF of OSDeploy at [https://www.gitbook.com/download/pdf
 
 ---
 
-## Thanks
-
-Thanks [Experts Live US](http://www.expertslive.us/) for giving me the opportunity to present with [1E's](https://www.1e.com/) own [MVP Shaun Cassells](https://shauncassells.wordpress.com/)!
-
-[![](/assets/Email_badge_speaking.jpg)](http://www.expertslive.us/)
-
----
-
 
 
