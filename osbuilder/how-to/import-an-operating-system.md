@@ -10,11 +10,13 @@ The next step is to import an Operating System.  In this example I have two ISO'
 
 This function has no parameters, so just execute.  It will search all Drives for sources\install.wim and Get-WindowsImage information from each.  Since it looks for a specific path, multi-boot OS Media will not work for now.  Be patient and let the scan finish.
 
-![](/assets/2018-07-13_22-39-44.png)
+![](/assets/2018-07-19_20-15-23.jpg)
+
+
 
 Once the scanning is complete, a Grid will be displayed with all the available Operating Systems.  Multi-select the ones you want to import and press OK.  I have tested the import on 8 ISO's at the same time.
 
-![](/assets/2018-07-10_14-07-53.png)
+![](/assets/2018-07-19_20-20-05.jpg)
 
 ---
 
