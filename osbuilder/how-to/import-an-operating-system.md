@@ -50,9 +50,9 @@ In this phase, all the configuration about the imported Operating System will be
 
 The process of importing an Operating System into OSMedia took about 1 minute of actual work, with 6 minutes of processing.  In the end, the Operating System is fully copied into OSMedia and ready to update.
 
-When running Get-OSBuilder, the new OSMedia will be displayed
+Repeat this process for all your Operating Systems and run Get-OSBuilder.  The imported Operating Systems will show up in OSMedia
 
-![](/assets/2018-07-19_22-03-08.png)
+![](/assets/2018-07-19_23-43-19.png)
 
 ---
 
