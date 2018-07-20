@@ -1,4 +1,4 @@
-# OSBuilder: Get Windows Updates
+# Download Windows Updates
 
 Always check the Microsoft Windows 10 Update History pages for the latest Cumulative Updates for Windows 10
 
