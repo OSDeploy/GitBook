@@ -40,6 +40,8 @@ I'm not the only one with this problem it seems
 
 [http://www.edugeek.net/forums/windows-10/165029-how-get-rid-candy-crush-soda-saga-other-windows-10-start-menu-junk-good-7.html](http://www.edugeek.net/forums/windows-10/165029-how-get-rid-candy-crush-soda-saga-other-windows-10-start-menu-junk-good-7.html)
 
+[https://social.technet.microsoft.com/Forums/windows/en-US/83e9be65-729b-4c4d-88e4-252a4ca38a34/cannot-remove-windows-10-apps-during-task-sequence?forum=mdt](https://social.technet.microsoft.com/Forums/windows/en-US/83e9be65-729b-4c4d-88e4-252a4ca38a34/cannot-remove-windows-10-apps-during-task-sequence?forum=mdt)
+
 Apparently it is quite possible that applying the Cumulative Update causes this issue, so I need to remove my Appx BEFORE applying the Cumulative Update.
 
 ---
