@@ -15,14 +15,10 @@
   * [Batch Import Operating Systems](osbuilder/how-to/batch-import-operating-systems.md)
   * [Create an OSMedia Task](osbuilder/how-to/create-an-osmedia-task.md)
   * [Create an OSBuild Task](osbuilder/how-to/create-an-osbuild-task.md)
-  * [Run a Task in TestMode](osbuilder/how-to/run-a-task-in-testmode.md)
-  * [Run an OSMedia Task](osbuilder/how-to/run-an-osmedia-task.md)
-  * [Add DaRT to WinPE](osbuilder/how-to/add-dart-to-winpe.md)
 * [Knowledge](osbuilder/knowledge/README.md)
   * [Offline Servicing](osbuilder/knowledge/offline-servicing.md)
   * [Servicing Stacks](osmedia/knowledge/servicing-stacks.md)
   * [DISM Cleanup Image Pending Operations](osbuilder/knowledge/dism-cleanup-image-pending-operations.md)
-* [Known Issues](osbuilder/known-issues.md)
 
 ## OSConfig - Incomplete
 
