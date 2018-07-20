@@ -1,6 +1,6 @@
 # Import an Operating System
 
-The next step is to import an Operating System.  In this example I have two ISO's attached to my Virtual Machine, Windows 10 1709 x64 and Windows 10 1803 x64.
+The next step is to import an Operating System.  In this example I have two mounted ISO's, Windows 10 1709 x64 and Windows 10 1803 x64.
 
 ![](/assets/2018-07-10_14-04-39.png)
 
@@ -17,6 +17,28 @@ Once the scanning is complete, a Grid will be displayed with all the available O
 ![](/assets/2018-07-19_20-20-05.jpg)
 
 ---
+
+### Import Phase
+
+
+
+![](/assets/Import-OSMedia-Importing.png)
+
+---
+
+### Reporting Phase
+
+
+
+![](/assets/Import-OSMedia-Reporting.png)
+
+
+
+
+
+
+
+
 
 ### Mounting the Install.wim
 
