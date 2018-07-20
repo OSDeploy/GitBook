@@ -10,7 +10,7 @@
 * [How To](osbuilder/how-to/README.md)
   * [Getting Started](osbuilder/how-to/getting-started.md)
   * [Download Servicing Stacks](osbuilder/how-to/download-servicing-stacks.md)
-  * [Get Windows Updates](osbuilder/how-to/get-windows-updates.md)
+  * [Download Windows Updates](osbuilder/how-to/download-windows-updates.md)
   * [Import an Operating System](osbuilder/how-to/import-an-operating-system.md)
   * [Batch Import Operating Systems](osbuilder/how-to/batch-import-operating-systems.md)
   * [Create an OSMedia Task](osbuilder/how-to/create-an-osmedia-task.md)
