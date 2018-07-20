@@ -10,8 +10,6 @@ The next step is to import an Operating System.  In this example I have two moun
 
 Import-OSMedia doesn't need any parameters.  The way it works is that It will search all attached Drives for install.wims.  A multi-boot OS will not work for now since Import-OSMedia is looking specifically for "sources\install.wim".  Be patient and let the scan finish.
 
-
-
 Once the scanning is complete, a Grid will be displayed with all the available Operating Systems.  Multi-select the ones you want to import and press OK.  I have tested the import on 8 ISO's at the same time.
 
 ![](/assets/2018-07-19_20-20-05.jpg)
@@ -32,6 +30,8 @@ The following steps will occur in this phase
 * Install.wim will be dismounted
 * Configuration information will be collected on the WIMs
 
+**Right click and open the following image in a new tab for a better look at the output**
+
 ![](/assets/Import-OSMedia-Importing.png)
 
 ---
@@ -39,6 +39,8 @@ The following steps will occur in this phase
 ### Reporting Phase
 
 In this phase, all the configuration about the imported Operating System will be displayed.  All of this is saved in the OSMedia logs as well as the PowerShell transcript.
+
+**Right click and open the following image in a new tab for a better look at the output**
 
 ![](/assets/Import-OSMedia-Reporting.png)
 
@@ -51,4 +53,6 @@ The process of importing an Operating System into OSMedia took about 1 minute of
 ![](/assets/2018-07-19_21-57-44.png)
 
 ---
+
+
 
