@@ -20,25 +20,13 @@ Once the scanning is complete, a Grid will be displayed with all the available O
 
 ### Import Phase
 
-
-
 ![](/assets/Import-OSMedia-Importing.png)
 
 ---
 
 ### Reporting Phase
 
-
-
 ![](/assets/Import-OSMedia-Reporting.png)
-
-
-
-
-
-
-
-
 
 ### Mounting the Install.wim
 
@@ -124,33 +112,33 @@ When using the -Verbose paramater, you can see all the PowerShell commands that 
 
 ### Full Information
 
-Here is the full information displayed at the end of Import-OSMedia
+Here is the full console output when importing Windows 10 Enterprise x64 1803
 
 ```
 PS C:\windows\system32> Import-OSMedia
 Version 18.7.19.0
 Creating OSBuilder Paths
 
-OSBuilder:			C:\OSBuilder
--OSBuilds:			C:\OSBuilder\OSBuilds
--PEBuilds:			C:\OSBuilder\PEBuilds
--OSMedia:			C:\OSBuilder\OSMedia
--Tasks:				C:\OSBuilder\Tasks
--TestBuilds:		C:\OSBuilder\TestBuilds
+OSBuilder:            C:\OSBuilder
+-OSBuilds:            C:\OSBuilder\OSBuilds
+-PEBuilds:            C:\OSBuilder\PEBuilds
+-OSMedia:            C:\OSBuilder\OSMedia
+-Tasks:                C:\OSBuilder\Tasks
+-TestBuilds:        C:\OSBuilder\TestBuilds
 
 Updates:
--Servicing Stacks:	C:\OSBuilder\Content\UpdateStacks
--Windows Updates:	C:\OSBuilder\Content\UpdateWindows
+-Servicing Stacks:    C:\OSBuilder\Content\UpdateStacks
+-Windows Updates:    C:\OSBuilder\Content\UpdateWindows
 
-Content:			C:\OSBuilder\Content
--Drivers:			C:\OSBuilder\Content\Drivers
--Extra Files:		C:\OSBuilder\Content\ExtraFiles
--Language Packs:	C:\OSBuilder\Content\LanguagePacks
--MountPath:			C:\OSBuilder\Content\Mount
--Packages:			C:\OSBuilder\Content\Packages
--Start Layouts:		C:\OSBuilder\Content\StartLayout
--Unattend XML:		C:\OSBuilder\Content\Unattend
--WinPE Content:		C:\OSBuilder\Content\WinPE
+Content:            C:\OSBuilder\Content
+-Drivers:            C:\OSBuilder\Content\Drivers
+-Extra Files:        C:\OSBuilder\Content\ExtraFiles
+-Language Packs:    C:\OSBuilder\Content\LanguagePacks
+-MountPath:            C:\OSBuilder\Content\Mount
+-Packages:            C:\OSBuilder\Content\Packages
+-Start Layouts:        C:\OSBuilder\Content\StartLayout
+-Unattend XML:        C:\OSBuilder\Content\Unattend
+-WinPE Content:        C:\OSBuilder\Content\WinPE
 
 ===========================================================================
 Scanning Image Information ... Please Wait!
@@ -171,31 +159,31 @@ Transcript started, output file is C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134
 ===========================================================================
 OSMedia Information
 ===========================================================================
-Source Path:		E:
--Image File:		E:\sources\install.wim
--Image Index:		3
--Name:				Win10 Ent
--Description:		Windows 10 Enterprise
--Architecture:		x64
--Edition:			Enterprise
--Type:				Client
--Languages:			en-US
--Build:				17134
--Version:			10.0.17134.1
--SPBuild:			1
--SPLevel:			112
--Bootable:			No
--WimBoot:			False
--Created Time:		06/19/2018 15:42:32
--Modified Time:		06/19/2018 16:05:33
--UBR:				17134.112
+Source Path:        E:
+-Image File:        E:\sources\install.wim
+-Image Index:        3
+-Name:                Win10 Ent
+-Description:        Windows 10 Enterprise
+-Architecture:        x64
+-Edition:            Enterprise
+-Type:                Client
+-Languages:            en-US
+-Build:                17134
+-Version:            10.0.17134.1
+-SPBuild:            1
+-SPLevel:            112
+-Bootable:            No
+-WimBoot:            False
+-Created Time:        06/19/2018 15:42:32
+-Modified Time:        06/19/2018 16:05:33
+-UBR:                17134.112
 
-Working Path:		C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112
--OSMedia Name:		Win10 Ent x64 1803 17134.112
--Info:				C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\info
--Logs:				C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\info\logs
--OS:				C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\OS
--WinPE:				C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\WinPE
+Working Path:        C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112
+-OSMedia Name:        Win10 Ent x64 1803 17134.112
+-Info:                C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\info
+-Logs:                C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\info\logs
+-OS:                C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\OS
+-WinPE:                C:\OSBuilder\OSMedia\Win10 Ent x64 1803 17134.112\WinPE
 
 ===========================================================================
 Importing Operating System to OSMedia
