@@ -92,7 +92,7 @@ Other references to the Pilot format of <OS> <Version> <Arch> should be changed 
 for consistency
 ```
 
-#### GetWindowsUpdates
+#### Servicing Stacks and Windows Update Downloads
 
 Now displays the UBR of the download.  This can be validated against the OSMedia or OSBuild to ensure proper integration
 
