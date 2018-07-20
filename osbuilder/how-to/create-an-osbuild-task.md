@@ -1,8 +1,6 @@
 # Create an OSBuild Task
 
-**Time Required:  less than a minute**
-
-You can update existing OSMedia by performing the following tasks
+An OSBuild is a customized Operating System.  After an OSBuild is created, it can no longer be modified.  You can create a new OSBuild Task and recreate the final OSBuild.
 
 * Apply the latest Servicing Stack
 * Apply the latest Cumulative Updates
@@ -21,7 +19,7 @@ An OSMedia Task does NOT perform any additional customizations \(that would be a
 Before getting started you need to have these three things ready
 
 * Servicing Stacks
-* Windows Updates \(Cumulative and Adobe\)
+* Windows Updates \(Cumulative\)
 * OSMedia \(Imported Operating Systems\)
 
 Get-OSMedia will show me what I have imported.  In the image below I have 8 different Windows 10 Operating Systems.  I have a matching number of Servicing Stacks, Cumulative Updates, and Adobe Flash Security Updates.
@@ -30,11 +28,11 @@ Get-OSMedia will show me what I have imported.  In the image below I have 8 diff
 
 ---
 
-### New-OSBuilderTask
+### New-OSBuildTask -TaskName "Win10 x64 Ent 1803" -EnableNetFX3
 
-For **New-OSBuilderTask**, select the OSMedia tab and type in a TaskName.  Keep the TaskName simple for now
+The only requirement is a TaskName.  I selected the same name as my OSMedia Task.  Additionally I selected to EnableNetFX3
 
-![](/assets/2018-07-14_0-48-33.png)
+![](/assets/2018-07-20_0-30-43.png)
 
 ---
 
@@ -42,25 +40,65 @@ For **New-OSBuilderTask**, select the OSMedia tab and type in a TaskName.  Keep 
 
 Select a single existing OSMedia to use for this Task and press OK
 
-![](/assets/2018-07-14_0-02-06.png)
-
----
-
-### Select Servicing Stack Directory
-
-Since OSBuilder recognizes the Build and Architecture of your Task, it does not show incompatible Servicing Stacks.  Select the Servicing Stack and press OK.  Make sure the contents of this directory are up to date
-
-Future updates to OSBuilder may skip this prompt entirely
-
-![](/assets/2018-07-14_0-03-06.png)
+![](/assets/2018-07-19_23-51-57.png)
 
 ---
 
 ### Select Windows Update Directory
 
-Just like the Servicing Stack selection, the Windows Update is the same.  Make sure the contents of this directory are up to date.
+If NetFX3 was enabled, you will be prompted to select a Windows Updates directory.  Make sure the contents of this directory are up to date.
 
-![](/assets/2018-07-14_0-07-29.png)
+![](/assets/2018-07-20_0-35-20.png)
+
+---
+
+### Select Inbox Apps to Remove
+
+You will be able to select Appx Packages to remove from the OSBuild
+
+![](/assets/2018-07-20_0-37-30.png)
+
+---
+
+### Select Inbox Packages to Remove
+
+![](/assets/2018-07-20_0-39-38.png)
+
+---
+
+### Select Inbox Capabilities to Remove
+
+![](/assets/2018-07-20_0-40-02.png)
+
+---
+
+
+
+![](/assets/2018-07-20_0-40-18.png)
+
+
+
+
+
+
+
+
+
+---
+
+![](/assets/2018-07-20_0-40-49.png)
+
+---
+
+
+
+![](/assets/2018-07-20_0-44-08b.png)
+
+![](/assets/2018-07-20_0-44-08c.png)
+
+
+
+
 
 ---
 
