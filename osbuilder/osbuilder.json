@@ -2,16 +2,19 @@
 	"osbuilder":[
 	{
 		"InfoMessage":	[
-						"New: https://www.osdeploy.com/osbuilder/knowledge/offline-servicing.html"
+						"New: https://www.osdeploy.com/osbuilder/knowledge/offline-servicing.html",
+						"Updated: https://www.osdeploy.com/osbuilder/how-to/download-servicing-stacks.html",
+						"Updated: https://www.osdeploy.com/osbuilder/how-to/import-an-operating-system.html"
 						],
-		"Module": "18.7.19.0",
+		"Module": "18.7.19.1",
 		"ModuleInfo":	[
-						"OSBuilder 18.7.19.0 is released",
-						"Now able to update Sources!",
+						"OSBuilder 18.7.19.1 is released",
+						"Resolved an issue where older tasks were allowed to run",
+						"Tasks created with older versions may not work properly",
 						"https://www.osdeploy.com/osbuilder/release-information.html",
 						"",
 						"Download from the PowerShell Gallery",
-						"https://www.powershellgallery.com/packages/OSBuilder/18.7.19.0",
+						"https://www.powershellgallery.com/packages/OSBuilder/18.7.19.1",
 						"",
 						"Uninstall previous versions using the following PowerShell Command:",
 						"Uninstall-Module -Name OSBuilder -AllVersions -Force",
