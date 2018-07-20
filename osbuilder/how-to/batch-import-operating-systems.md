@@ -31,17 +31,7 @@ Easy enough to import.  Since the OS's will be mounted and dismounted, the proce
 Get-ChildItem -Path C:\ISO *.iso -Recurse | ForEach-Object {Dismount-DiskImage -ImagePath $_.FullName}
 ```
 
-![](/assets/2018-07-13_22-34-23.png)
-
-
-
 ---
-
-
-
-
-
-
 
 
 
