@@ -1,7 +1,6 @@
 # Summary
 
 * [Home](README.md)
-* [Recent Updates](updates.md)
 
 ## OSBuilder
 
