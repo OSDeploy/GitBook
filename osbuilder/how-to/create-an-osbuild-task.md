@@ -72,17 +72,7 @@ You will be able to select Appx Packages to remove from the OSBuild
 
 ---
 
-
-
 ![](/assets/2018-07-20_0-40-18.png)
-
-
-
-
-
-
-
-
 
 ---
 
@@ -90,39 +80,13 @@ You will be able to select Appx Packages to remove from the OSBuild
 
 ---
 
-
-
 ![](/assets/2018-07-20_0-44-08b.png)
 
 ![](/assets/2018-07-20_0-44-08c.png)
-
-
-
-
 
 ---
 
 ### Complete
 
 When finished, the Task will be created.  Since we created an OSMedia Task, OSMedia is added at the beginning of the TaskName automatically.  ![](/assets/2018-07-14_0-49-55.png)
-
----
-
-### Task Location
-
-Tasks are saved in the Tasks directory in OSBuilder as a JSON file with all the information needed for performing the update.
-
-![](/assets/2018-07-14_0-53-24.png)
-
----
-
-### Wash, Rinse, and Repeat
-
-Take the time now to repeat this step for every Operating System you imported
-
-![](/assets/2018-07-14_0-56-46.png)
-
----
-
-
 

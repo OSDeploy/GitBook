@@ -31,11 +31,11 @@ Get-OSMedia will show me what I have imported.  In the image below I have 8 diff
 
 ---
 
-### New-OSMediaTask -TaskName "Win10 x64 Ent 1803
+### New-OSMediaTask -TaskName "Win10 Ent x64 1803"
 
 A simple TaskName is always best.  I select one that matches the name of my OSMedia
 
-![](/assets/2018-07-19_23-50-10.png)
+![](/assets/2018-07-20_1-16-35.png)
 
 ---
 
@@ -69,7 +69,7 @@ Just like the Servicing Stack selection, the Windows Update is the same.  Make s
 
 When finished, the Task will be created.  OSMedia is added at the beginning of the TaskName automatically.
 
-![](/assets/2018-07-19_23-53-21.png)
+![](/assets/2018-07-20_1-18-00.png)
 
 ---
 
@@ -77,7 +77,7 @@ When finished, the Task will be created.  OSMedia is added at the beginning of t
 
 Tasks are saved in the Tasks directory in OSBuilder as a JSON file with all the information needed for performing the OSMedia update.
 
-![](/assets/2018-07-19_23-54-43.png)
+![](/assets/2018-07-20_1-18-52.png)
 
 ---
 
@@ -85,7 +85,7 @@ Tasks are saved in the Tasks directory in OSBuilder as a JSON file with all the 
 
 Take the time now to repeat this step for every Operating System you imported  You will probably spend 2 minutes total on this process.
 
-![](/assets/2018-07-19_23-57-20.png)
+![](/assets/2018-07-20_1-20-50.png)
 
 ---
 
