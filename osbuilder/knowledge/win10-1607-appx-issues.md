@@ -1,4 +1,4 @@
-# Win10 1607 Offline Servicing Appx Issues
+# Win10 1607 Appx Issues \(Offline Servicing\)
 
 So I came across an issue with OSBuilder, I was not able to remove Appx Packages and received an error
 

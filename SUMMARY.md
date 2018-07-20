@@ -19,7 +19,7 @@
   * [Offline Servicing](osbuilder/knowledge/offline-servicing.md)
   * [Servicing Stacks](osmedia/knowledge/servicing-stacks.md)
   * [DISM Cleanup Image Pending Operations](osbuilder/knowledge/dism-cleanup-image-pending-operations.md)
-  * [Win10 1607 Offline Servicing Appx Issues](osbuilder/knowledge/win10-1607-offline-servicing-appx-issues.md)
+  * [Win10 1607 Appx Issues](osbuilder/knowledge/win10-1607-appx-issues.md)
 
 ## OSConfig - Incomplete
 
