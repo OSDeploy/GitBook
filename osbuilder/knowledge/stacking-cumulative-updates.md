@@ -99,5 +99,9 @@ Hopefully this test will bring some understanding into the design.  This is also
 
 ---
 
+### Looping Back
 
+Manel gets it, and no need to test by the way, I got you bro.  **Please take the time to share this article if you found it helpful, and let's clear up some confusion in the Offline Servicing process.**
+
+![](/assets/2018-07-20_23-19-51.jpg)
 
