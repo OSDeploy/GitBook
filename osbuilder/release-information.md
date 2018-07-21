@@ -1,5 +1,17 @@
 # Release Information
 
+### 18.7.xx.\* \(Unreleased\)
+
+* DISM Image Cleanup will now be evaluated to determine if there are Pending Operations.  Previously this step was only executed in an OSMedia Task, but it will now work in an OSBuild Task if there is nothing pending
+
+```
+Get-WindowsCapability -Path $mount | Where-Object {$_.state -eq 'InstallPending'}
+```
+
+![](/assets/2018-07-21_10-12-03.jpg)
+
+---
+
 ### 18.7.19.\* \(July 19, 2018\)
 
 * **Online Documentation has not been updated yet to detail the changes.  I'll work on that over the weekend.  Thanks for understanding!**
