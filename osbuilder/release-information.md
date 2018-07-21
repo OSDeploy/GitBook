@@ -14,8 +14,6 @@ Get-WindowsCapability -Path $mount | Where-Object {$_.state -eq 'InstallPending'
 
 ![](/assets/2018-07-21_12-28-17.jpg)
 
-
-
 ---
 
 ### 18.7.21.\* \(July 21, 2018\)
