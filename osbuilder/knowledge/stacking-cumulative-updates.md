@@ -1,4 +1,5 @@
-# Stacking Cumulative Updates
+# Stacking Cumulative Updates Monthly
+**WITH THE SAME WIM?**
 
 I designed OSBuilder to allow you to update OSMedia as part of a Task with an updated Cumulative Update and then use the updated OSMedia as a starting point.  In layman terms, you Import-OSMedia, which we will call OSMedia 0.  Then you apply July updates which is an update from OSMedia 0, so this is now OSMedia 0 + 1.  OK so now you have already stacked updates, did it grow?  We generally accept a 0 + 1 scenario, but August rolls around, now our release is OSMedia 0 + 1 + 2.
 
@@ -20,7 +21,7 @@ So logic kicks in . . . we shouldn't stack because the image will grow.  And you
 
 ### Confusion Two
 
-But there is still confusion, it still doesn't add up.  We have always been told to start from the RTM when we inject our Cumulative Updates.  Maybe it is because we need NetFX3 and can't run DISM Image Cleanup.  Who knows.  Be honest, most of us believe this is true.  Great article by Mike Terrill by the way.
+But there is still confusion, it ystill doesn't add up.  We have always been told to start from the RTM when we inject our Cumulative Updates.  Maybe it is because we need NetFX3 and can't run DISM Image Cleanup.  Who knows.  Be honest, most of us believe this is true.  Great article by Mike Terrill by the way.
 
 ![](/assets/2018-07-20_22-31-52.png)
 
