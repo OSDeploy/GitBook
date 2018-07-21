@@ -93,6 +93,8 @@ In other words . . .
 
 ### Conclusion
 
+Feel free to update your last updated WIM without any issues!
+
 OSBuilder was designed to stack Cumulative Updates to reduce the time needed to apply.  The reduction is because there are much fewer changes when going from month to month vs starting with RTM.
 
 Hopefully this test will bring some understanding into the design.  This is also the reason why NetFX3 should not be enabled unless you are generating an OSBuild, because you cannot shrink your WIM after this feature is enabled
