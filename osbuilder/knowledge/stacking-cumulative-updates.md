@@ -1,5 +1,4 @@
-# Stacking Cumulative Updates Monthly
-**WITH THE SAME WIM?**
+# Updating an Updated WIM
 
 I designed OSBuilder to allow you to update OSMedia as part of a Task with an updated Cumulative Update and then use the updated OSMedia as a starting point.  In layman terms, you Import-OSMedia, which we will call OSMedia 0.  Then you apply July updates which is an update from OSMedia 0, so this is now OSMedia 0 + 1.  OK so now you have already stacked updates, did it grow?  We generally accept a 0 + 1 scenario, but August rolls around, now our release is OSMedia 0 + 1 + 2.
 
