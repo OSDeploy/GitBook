@@ -2,10 +2,8 @@
 	"osbuilder":[
 	{
 		"InfoMessage":	[
+						"New: https://www.osdeploy.com/osbuilder/knowledge/updating-an-updated-wim.html",
 						"New: https://www.osdeploy.com/osbuilder/knowledge/win10-1607-appx-issues.html",
-						"Updated: https://www.osdeploy.com/osbuilder/how-to/download-servicing-stacks.html",
-						"Updated: https://www.osdeploy.com/osbuilder/how-to/download-windows-updates.html",
-						"Updated: https://www.osdeploy.com/osbuilder/how-to/import-an-operating-system.html",
 						"Updated: https://www.osdeploy.com/osbuilder/how-to/create-an-osmedia-task.html"
 						],
 		"Module": "18.7.19.1",
