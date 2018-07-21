@@ -10,7 +10,7 @@ Logic says that this image will get larger and larger, the more Cumulative Updat
 
 ### Confusion One
 
-So logic kicks in . . . we shouldn't stack because the image will grow.  And you read a great article from Dan Padgett describing a problem in ConfigMgr, similar scenario where the image grows.  Dan is correct, and RyanH apparently read find print that you have to do a DISM Image Cleanup.
+So logic kicks in . . . we shouldn't stack because the image will grow.  And you read a great article from Dan Padgett describing a problem in ConfigMgr, similar scenario where the image grows.  Dan is correct, and RyanH apparently read find print that you have to do a DISM Image Cleanup, which ConfigMgr doesn't do when applying updates from the console \(and your multi-indexes\)
 
 [https://execmgr.net/2018/06/07/windows-10-image-maintenance/](https://execmgr.net/2018/06/07/windows-10-image-maintenance/)
 
