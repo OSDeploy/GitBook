@@ -20,6 +20,7 @@
   * [Servicing Stacks](osmedia/knowledge/servicing-stacks.md)
   * [DISM Cleanup Image Pending Operations](osbuilder/knowledge/dism-cleanup-image-pending-operations.md)
   * [Win10 1607 Appx Issues](osbuilder/knowledge/win10-1607-appx-issues.md)
+  * [Stacking Cumulative Updates](osbuilder/knowledge/stacking-cumulative-updates.md)
 
 ## OSConfig - Incomplete
 
