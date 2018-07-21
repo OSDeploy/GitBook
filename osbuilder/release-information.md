@@ -12,6 +12,12 @@ Get-WindowsCapability -Path $mount | Where-Object {$_.state -eq 'InstallPending'
 
 ---
 
+### 18.7.21.\* \(July 21, 2018\)
+
+* Corrected an issue where multiple Update directories were being created.  [Thanks for pointing this out Bruce!](https://twitter.com/BruceSaaaa/status/1020709356642414594)
+
+---
+
 ### 18.7.19.\* \(July 19, 2018\)
 
 * **Online Documentation has not been updated yet to detail the changes.  I'll work on that over the weekend.  Thanks for understanding!**
