@@ -20,7 +20,7 @@ So logic kicks in . . . we shouldn't stack because the image will grow.  And you
 
 ### Confusion Two
 
-But there is still confusion, it still doesn't add up.  We have always been told to start from the RTM when we inject our Cumulative Updates.  Maybe it is because we need NetFX3 and can't run DISM Image Cleanup.  Who knows.  Be honest, most of us believe this is true.
+But there is still confusion, it still doesn't add up.  We have always been told to start from the RTM when we inject our Cumulative Updates.  Maybe it is because we need NetFX3 and can't run DISM Image Cleanup.  Who knows.  Be honest, most of us believe this is true.  Great article by Mike Terrill by the way.
 
 ![](/assets/2018-07-20_22-31-52.png)
 
@@ -85,7 +85,7 @@ As you can see, the new install.wim with the stacked Cumulative Updates is exact
 
 ![](/assets/2018-07-20_23-11-19.jpg)
 
-In other words . . . 
+In other words . . .
 
 ![](/assets/doesnt-look-like-anything-to-me.jpg)
 
