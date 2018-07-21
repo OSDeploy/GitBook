@@ -10,7 +10,7 @@ Logic says that this image will get larger and larger, the more Cumulative Updat
 
 ### Confusion One
 
-So logic kicks in . . . we shouldn't stack because the image will grow.  And you read a great article from Dan Padgett describing a problem in ConfigMgr, similar scenario where the image grows.  Dan is correct, and RyanH apparently read find print that you have to do a DISM Image Cleanup, which ConfigMgr doesn't do when applying updates from the console \(and your multi-indexes\)
+So logic kicks in . . . we shouldn't stack because the image will grow.  And you read a great article from [Dan Padgett](https://twitter.com/danjpadgett) describing a problem in ConfigMgr, similar scenario where the image grows.  Dan is correct, and RyanH apparently read find print that you have to do a DISM Image Cleanup, which ConfigMgr doesn't do when applying updates from the console \(and your multi-indexes\)
 
 [https://execmgr.net/2018/06/07/windows-10-image-maintenance/](https://execmgr.net/2018/06/07/windows-10-image-maintenance/)
 
@@ -20,7 +20,7 @@ So logic kicks in . . . we shouldn't stack because the image will grow.  And you
 
 ### Confusion Two
 
-But there is still confusion, it ystill doesn't add up.  We have always been told to start from the RTM when we inject our Cumulative Updates.  Maybe it is because we need NetFX3 and can't run DISM Image Cleanup.  Who knows.  Be honest, most of us believe this is true.  Great article by Mike Terrill by the way.
+But there is still confusion, it still doesn't add up.  We have always been told to start from the RTM when we inject our Cumulative Updates.  Maybe it is because we need NetFX3 and can't run DISM Image Cleanup.  Who knows.  Be honest, most of us believe this is true.  Great article by [Mike Terrill](https://twitter.com/miketerrill) by the way.
 
 ![](/assets/2018-07-20_22-31-52.png)
 
