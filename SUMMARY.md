@@ -5,6 +5,7 @@
 ## OSBuilder
 
 * [Overview](osbuilder/overview.md)
+* [Design](osbuilder/design.md)
 * [Release Information](osbuilder/release-information.md)
 * [Installation](osbuilder/installation.md)
 * [How To](osbuilder/how-to/README.md)
@@ -21,7 +22,6 @@
   * [DISM Cleanup Image Pending Operations](osbuilder/knowledge/dism-cleanup-image-pending-operations.md)
   * [Win10 1607 Appx Issues](osbuilder/knowledge/win10-1607-appx-issues.md)
   * [Updating an Updated WIM](osbuilder/knowledge/updating-an-updated-wim.md)
-* [Design](osbuilder/design.md)
 
 ## OSConfig - Incomplete
 
@@ -149,4 +149,6 @@
   * [Depricated: Update-OSMedia](osmedia/reference/update-osmedia.md)
   * [Depricated: Edit-OSMedia](osmedia/reference/edit-osmedia.md)
 * [Future Plans](osmedia/future-plans.md)
+
+
 
