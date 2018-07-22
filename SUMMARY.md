@@ -21,6 +21,7 @@
   * [DISM Cleanup Image Pending Operations](osbuilder/knowledge/dism-cleanup-image-pending-operations.md)
   * [Win10 1607 Appx Issues](osbuilder/knowledge/win10-1607-appx-issues.md)
   * [Updating an Updated WIM](osbuilder/knowledge/updating-an-updated-wim.md)
+* [Design](osbuilder/design.md)
 
 ## OSConfig - Incomplete
 
