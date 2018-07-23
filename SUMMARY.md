@@ -5,7 +5,6 @@
 ## OSBuilder
 
 * [Overview](osbuilder/overview.md)
-* [Design](osbuilder/design.md)
 * [Release Information](osbuilder/release-information.md)
 * [Installation](osbuilder/installation.md)
 * [How To](osbuilder/how-to/README.md)
