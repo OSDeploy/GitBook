@@ -2,9 +2,8 @@
 	"osbuilder":[
 	{
 		"InfoMessage":	[
-						"New: https://www.osdeploy.com/osbuilder/knowledge/updating-an-updated-wim.html",
-						"New: https://www.osdeploy.com/osbuilder/knowledge/win10-1607-appx-issues.html",
-						"Updated: https://www.osdeploy.com/osbuilder/how-to/create-an-osmedia-task.html"
+						"New: https://www.osdeploy.com/osbuilder/how-to/work-with-languages.html",
+						"New: https://www.osdeploy.com/osbuilder/knowledge/updating-an-updated-wim.html"
 						],
 		"Module": "18.7.23.0",
 		"ModuleInfo":	[
