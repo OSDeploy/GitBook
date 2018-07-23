@@ -1,6 +1,10 @@
 # Release Information
 
-### 18.7.xx.\* \(Unreleased\)
+### 18.7.23.\* \(July 23, 2018\)
+
+The notable change in this update is the inclusion of Language Support.  For more information, see [Work with Languages](https://www.osdeploy.com/osbuilder/how-to/work-with-languages.html)
+
+Due to these changes, Tasks will have to be recreated to support this change.
 
 * DISM Image Cleanup will now be evaluated to determine if there are Pending Operations.  Previously this step was only executed in an OSMedia Task, but it will now work in an OSBuild Task if there is nothing pending
 
