@@ -28,5 +28,13 @@ When creating an ISO, the ISO will have the name of the Languages, similar to In
 
 ---
 
+### Cumulative Updates
+
+When adding a Language Pack, OSBuilder will reapply the Cumulative Update and run a Windows Image Cleanup.  This is because the Cumulate Update will also update certain files that were added in a Language Pack.  The CU and Cleanup process should only take 2 minutes to complete.
+
+![](/assets/2018-07-23_0-23-50.png)
+
+---
+
 
 
