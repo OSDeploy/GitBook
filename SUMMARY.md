@@ -16,6 +16,7 @@
   * [Batch Import Operating Systems](osbuilder/how-to/batch-import-operating-systems.md)
   * [Create an OSMedia Task](osbuilder/how-to/create-an-osmedia-task.md)
   * [Create an OSBuild Task](osbuilder/how-to/create-an-osbuild-task.md)
+  * [Work with Languages](osbuilder/how-to/work-with-languages.md)
 * [Knowledge](osbuilder/knowledge/README.md)
   * [Offline Servicing](osbuilder/knowledge/offline-servicing.md)
   * [Servicing Stacks](osmedia/knowledge/servicing-stacks.md)
@@ -149,6 +150,4 @@
   * [Depricated: Update-OSMedia](osmedia/reference/update-osmedia.md)
   * [Depricated: Edit-OSMedia](osmedia/reference/edit-osmedia.md)
 * [Future Plans](osmedia/future-plans.md)
-
-
 
