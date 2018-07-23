@@ -14,10 +14,6 @@ Get-WindowsCapability -Path $mount | Where-Object {$_.state -eq 'InstallPending'
 
 ![](/assets/2018-07-21_10-12-03.jpg)
 
-* Imported OSMedia will now add the Language identifier if not en-US
-
-![](/assets/2018-07-21_12-28-17.jpg)
-
 ---
 
 ### 18.7.21.\* \(July 21, 2018\)
