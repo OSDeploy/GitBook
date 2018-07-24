@@ -3,17 +3,19 @@
 	{
 		"InfoMessage":	[
 						"New: https://www.osdeploy.com/osbuilder/how-to/work-with-languages.html",
-						"New: https://www.osdeploy.com/osbuilder/knowledge/updating-an-updated-wim.html"
+						"New: https://www.osdeploy.com/osbuilder/knowledge/updating-an-updated-wim.html",
+						"Updated: https://www.osdeploy.com/osbuilder/how-to/create-an-osmedia-task.html",
+						"Updated: https://www.osdeploy.com/osbuilder/how-to/create-an-osbuild-task.html",
+						
 						],
-		"Module": "18.7.23.1",
+		"Module": "18.7.23.2",
 		"ModuleInfo":	[
-						"OSBuilder 18.7.23.1 is released",
-						"18.7.23.0 has an issue where Import-OSMedia will clear the library for non en-US Media",
-						"Language Support has been added.  Thanks Manel Rodero!",
+						"OSBuilder 18.7.23.2 is released",
+						"Introducing Show-OSInfo",
 						"https://www.osdeploy.com/osbuilder/release-information.html",
 						"",
 						"Download from the PowerShell Gallery",
-						"https://www.powershellgallery.com/packages/OSBuilder/18.7.23.1",
+						"https://www.powershellgallery.com/packages/OSBuilder/18.7.23.2",
 						"",
 						"Uninstall previous versions using the following PowerShell Command:",
 						"Uninstall-Module -Name OSBuilder -AllVersions -Force",
