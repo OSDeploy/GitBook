@@ -26,6 +26,8 @@ You should know how to download updates from How To: Download Servicing Stacks a
 
 Sorry, you are on your own in how you do this, but running **Get-OSBuilder** will be nice enough to tell you if you have more than one \(because you shouldn't\).  Do some cleanup and crank out some new images.
 
+![](/assets/2018-07-24_14-04-25.png)![](/assets/2018-07-24_14-05-58.png)
+
 
 
 ---
