@@ -38,7 +38,13 @@ Yes, OSBuilder even checks if you have more than one Adobe Security Update
 
 ---
 
+### Update Servicing
 
+Now complete!
+
+![](/assets/2018-07-24_14-16-41.png)
+
+---
 
 
 
