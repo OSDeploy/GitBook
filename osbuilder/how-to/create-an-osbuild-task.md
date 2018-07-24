@@ -1,6 +1,6 @@
 # Create an OSBuild Task
 
-OSMedia was all about applying updates . . . OSBuild is all about Customizations
+An OSBuild Task will take an existing OSMedia and apply customizations.  You can leave the BuildName blank, unless you have two different configurations where they will be named the same.
 
 * Enable NetFX3
   * Reapply the latest Cumulative Update
@@ -33,13 +33,15 @@ If NetFX3 was enabled, you will be prompted to select a Windows Updates director
 
 ### Select Inbox Apps to Remove
 
-You will be able to select Appx Packages to remove from the OSBuild
+If you feel like removing any of the Appx Provisioned Packages from the Windows Image, select them from the list and press OK.  I have selected the ones that I commonly remove without issue.
 
-![](/assets/2018-07-20_0-37-30.png)
+![](/assets/2018-07-23_22-26-57.png)
 
 ---
 
 ### Select Inbox Packages to Remove
+
+I generally press Esc or Cancel as I leave these alone
 
 ![](/assets/2018-07-20_0-39-38.png)
 
@@ -47,19 +49,37 @@ You will be able to select Appx Packages to remove from the OSBuild
 
 ### Select Inbox Capabilities to Remove
 
-![](/assets/2018-07-20_0-40-02.png)
+I generally press Esc or Cancel as I leave these alone.  Give Quick Assist a try, it works quite well.
+
+![](/assets/2018-07-23_22-28-40.png)
 
 ---
 
-![](/assets/2018-07-20_0-40-18.png)
+### Select Windows Optional Features to Disable
+
+These are the Windows Optional Features that are ENABLED in the Offline Windows Image.  If you want to DISABLE any, select them and press OK.  I generally leave these alone.
+
+![](/assets/2018-07-23_22-29-26.png)
 
 ---
+
+### Select Windows Optional Features to Enable
+
+These are the Windows Optional Features that are DISABLED in the Offline Windows Image.  If you want to ENABLE any, select them and press OK.  I generally leave these alone.
 
 ![](/assets/2018-07-20_0-40-49.png)
 
 ---
 
+### Complete Task
+
+The following is what you should see when you create the Task.
+
 ![](/assets/2018-07-20_0-44-08b.png)
 
 ![](/assets/2018-07-20_0-44-08c.png)
+
+---
+
+
 
