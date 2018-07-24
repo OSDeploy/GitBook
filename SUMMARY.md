@@ -18,7 +18,7 @@
   * [Create an OSBuild Task](osbuilder/how-to/create-an-osbuild-task.md)
   * [Invoke a Task - Information](osbuilder/how-to/invoke-a-task-information.md)
   * [Invoke a Task - Test Build](osbuilder/how-to/invoke-a-task-test-build.md)
-  * [Invoke a Task - Execute Stepped](osbuilder/how-to/invoke-a-task-execute-stepped.md)
+  * [ExecutionMode - Execute Stepped](osbuilder/how-to/invoke-a-task-execute-stepped.md)
 * [Knowledge](osbuilder/knowledge/README.md)
   * [Offline Servicing](osbuilder/knowledge/offline-servicing.md)
   * [Servicing Stacks](osmedia/knowledge/servicing-stacks.md)
