@@ -67,9 +67,11 @@ Just like the Servicing Stack selection, the Windows Update is the same.  Make s
 
 ### Complete
 
-When finished, the Task will be created.  OSMedia is added at the beginning of the TaskName automatically.
+When finished, the Task will be created.  OSMedia is added at the beginning of the TaskName automatically
 
-![](/assets/2018-07-20_1-18-00.png)
+**Right click and open in a new window if the image is too small**
+
+![](/assets/2018-07-23_22-46-27.png)
 
 ---
 
