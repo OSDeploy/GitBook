@@ -17,7 +17,8 @@
   * [Create an OSMedia Task](osbuilder/how-to/create-an-osmedia-task.md)
   * [Create an OSBuild Task](osbuilder/how-to/create-an-osbuild-task.md)
   * [Invoke an OSMedia Task - Information](osbuilder/how-to/invoke-an-osmedia-task-information.md)
-  * [Invoke an OSMedia Task - Test Build](osbuilder/how-to/invoke-an-osmedia-task-test-build.md)
+  * [Invoke a Task - Test Build](osbuilder/how-to/invoke-an-osmedia-task-test-build.md)
+  * Invoke a Task - Execute Stepped
 * [Knowledge](osbuilder/knowledge/README.md)
   * [Offline Servicing](osbuilder/knowledge/offline-servicing.md)
   * [Servicing Stacks](osmedia/knowledge/servicing-stacks.md)
