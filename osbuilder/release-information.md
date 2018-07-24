@@ -2,10 +2,18 @@
 
 ### 18.7.24.\* \(July 24, 2018\)
 
-* Windows Server 2016 now supported
-* Added [Show-OSInfo](/osbuilder/how-to/show-os-information.md)
-
-
+* **Windows Server 2016 now supported**
+* **Added **[**Show-OSInfo**](/osbuilder/how-to/show-os-information.md)** function**
+* **New Documentation**
+  * [How To: Show OS Information](/osbuilder/how-to/show-os-information.md)
+  * [Knowledge: OSBuilder OS Information](/osbuilder/knowledge/osbuilder-os-information.md)
+  * [How To: ExecutionMode - Information](/osbuilder/how-to/executionmode-information.md)
+  * [How To: ExecutionMode - Test Build](/osbuilder/how-to/executionmode-test-build.md)
+  * [How To: ExecutionMode - Execute Stepped](/osbuilder/how-to/executionmode-execute-stepped.md)
+  * [How To: ExecutionMode - Execute](/osbuilder/how-to/executionmode-execute.md)
+* **Updated Documentation**
+  * [How To: Create an OSMedia Task](/osbuilder/how-to/create-an-osmedia-task.md)
+  * [How To: Create an OSBuild Task](/osbuilder/how-to/create-an-osbuild-task.md)
 
 ---
 
