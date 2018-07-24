@@ -28,9 +28,17 @@ Sorry, you are on your own in how you do this, but running **Get-OSBuilder** wil
 
 ![](/assets/2018-07-24_14-04-25.png)![](/assets/2018-07-24_14-05-58.png)
 
+---
 
+### Adobe?
+
+Yes, OSBuilder even checks if you have more than one Adobe Security Update
+
+![](/assets/2018-07-24_14-11-56.png)
 
 ---
+
+
 
 
 
