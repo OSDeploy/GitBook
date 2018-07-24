@@ -20,6 +20,7 @@
   * [ExecutionMode - Test Build](osbuilder/how-to/executionmode-test-build.md)
   * [ExecutionMode - Execute Stepped](osbuilder/how-to/executionmode-execute-stepped.md)
   * [ExecutionMode - Execute](osbuilder/how-to/executionmode-execute.md)
+  * [Show OS Information](osbuilder/how-to/show-os-information.md)
 * [Knowledge](osbuilder/knowledge/README.md)
   * [Offline Servicing](osbuilder/knowledge/offline-servicing.md)
   * [Servicing Stacks](osmedia/knowledge/servicing-stacks.md)
