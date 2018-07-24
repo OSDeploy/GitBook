@@ -10,7 +10,7 @@ When this happens, you may notice when running Get-OSBuilder you will receive th
 
 ![](/assets/2018-07-24_13-56-36b.png)
 
-This means its time to Update your Updates.
+This means its time to **Update your Updates**.
 
 ---
 
