@@ -16,7 +16,7 @@
   * [Batch Import Operating Systems](osbuilder/how-to/batch-import-operating-systems.md)
   * [Create an OSMedia Task](osbuilder/how-to/create-an-osmedia-task.md)
   * [Create an OSBuild Task](osbuilder/how-to/create-an-osbuild-task.md)
-  * [Invoke a Task - Information](osbuilder/how-to/invoke-a-task-information.md)
+  * [ExecutionMode - Information](osbuilder/how-to/invoke-a-task-information.md)
   * [ExecutionMode - Test Build](osbuilder/how-to/invoke-a-task-test-build.md)
   * [ExecutionMode - Execute Stepped](osbuilder/how-to/invoke-a-task-execute-stepped.md)
 * [Knowledge](osbuilder/knowledge/README.md)
