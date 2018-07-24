@@ -6,7 +6,10 @@
 						"New: https://www.osdeploy.com/osbuilder/knowledge/updating-an-updated-wim.html",
 						"Updated: https://www.osdeploy.com/osbuilder/how-to/create-an-osmedia-task.html",
 						"Updated: https://www.osdeploy.com/osbuilder/how-to/create-an-osbuild-task.html",
-						
+						"New: https://www.osdeploy.com/osbuilder/how-to/executionmode-information.html",
+						"New: https://www.osdeploy.com/osbuilder/how-to/executionmode-test-build.html",
+						"New: https://www.osdeploy.com/osbuilder/how-to/executionmode-execute-stepped.html",
+						"New: https://www.osdeploy.com/osbuilder/how-to/executionmode-execute.html"
 						],
 		"Module": "18.7.23.2",
 		"ModuleInfo":	[
