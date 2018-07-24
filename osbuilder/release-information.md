@@ -1,5 +1,14 @@
 # Release Information
 
+### 18.7.24.\* \(July 24, 2018\)
+
+* Windows Server 2016 now supported
+* Added [Show-OSInfo](/osbuilder/how-to/show-os-information.md)
+
+
+
+---
+
 ### 18.7.23.\* \(July 23, 2018\)
 
 The notable change in this update is the inclusion of Language Support.  For more information, see [Work with Languages](https://www.osdeploy.com/osbuilder/how-to/work-with-languages.html)
