@@ -11,6 +11,7 @@
   * [Getting Started](osbuilder/how-to/getting-started.md)
   * [Download Servicing Stacks](osbuilder/how-to/download-servicing-stacks.md)
   * [Download Windows Updates](osbuilder/how-to/download-windows-updates.md)
+  * [Update your Updates](osbuilder/how-to/update-your-updates.md)
   * [Work with Languages](osbuilder/how-to/work-with-languages.md)
   * [Import an Operating System](osbuilder/how-to/import-an-operating-system.md)
   * [Batch Import Operating Systems](osbuilder/how-to/batch-import-operating-systems.md)
