@@ -94,3 +94,13 @@ New-OSBuilderISO
 
 \(Profit is made in the time savings versus other methods of Offline Servicing\)
 
+---
+
+### Updating your OSBuild with new Cumulative Updates
+
+Repeat steps \#2 and \#7 -10
+
+---
+
+
+
