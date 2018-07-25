@@ -30,6 +30,7 @@
   * [Win10 1607 Appx Issues](osbuilder/knowledge/win10-1607-appx-issues.md)
   * [Updating an Updated WIM](osbuilder/knowledge/updating-an-updated-wim.md)
   * [OSBuilder OS Information](osbuilder/knowledge/osbuilder-os-information.md)
+* [Quick Instructions](osbuilder/quick-instructions.md)
 
 ## OSConfig - Incomplete
 
@@ -153,6 +154,4 @@
   * [Depricated: Update-OSMedia](osmedia/reference/update-osmedia.md)
   * [Depricated: Edit-OSMedia](osmedia/reference/edit-osmedia.md)
 * [Future Plans](osmedia/future-plans.md)
-
-
 
