@@ -1,5 +1,11 @@
 # Release Information
 
+### 18.7.25.\* \(July 25, 2018\)
+
+* Resolved an issue where Winpeshl.ini was not removed from WinPE.wim.  If you have created OSBuilds with MSDaRT, they will need to be rebuild or they may fail OS Upgrades
+
+---
+
 ### 18.7.24.\* \(July 24, 2018\)
 
 * **Windows Server 2016 now supported**
