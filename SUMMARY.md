@@ -32,6 +32,7 @@
   * [Win10 1607 Appx Issues](osbuilder/knowledge/win10-1607-appx-issues.md)
   * [Updating an Updated WIM](osbuilder/knowledge/updating-an-updated-wim.md)
   * [OSBuilder OS Information](osbuilder/knowledge/osbuilder-os-information.md)
+  * [What Should I Update?](osbuilder/knowledge/what-should-i-update.md)
 
 ## OSConfig - Incomplete
 
