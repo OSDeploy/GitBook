@@ -1,6 +1,6 @@
 # Quick Instructions
 
-If you don't feel like reading through all the documentation, here are the quick instructions
+If you don't feel like reading through all the documentation, here are the quick instructions in 10 steps
 
 ---
 
@@ -82,7 +82,7 @@ Invoke-OSBuilderTask -ExecutionMode Execute
 New-OSBuilderISO
 ```
 
-
+[https://www.osdeploy.com/osbuilder/how-to/create-an-iso.html](https://www.osdeploy.com/osbuilder/how-to/create-an-iso.html)
 
 ---
 
