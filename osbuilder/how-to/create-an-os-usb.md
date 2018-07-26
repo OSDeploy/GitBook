@@ -6,6 +6,16 @@ You can easily create a USB of your OSMedia or OSBuild using **New-OSBuilderUSB*
 
 ---
 
+### Admin Rights
+
+Yes you need it
+
+![](/assets/2018-07-25_23-52-10.png)
+
+
+
+---
+
 ### -USBLabel "Ent1803 x64"
 
 The USB Drive Label cannot exceed 11 characters \(FAT32 limitation\).  You have been warned.
@@ -28,11 +38,21 @@ Warning, this will replace everything on the USB Drive so be careful
 
 ![](/assets/2018-07-25_23-50-07.png)
 
+---
 
+### Execution
 
+Your USB Drive will be wiped
 
+![](/assets/2018-07-25_23-53-16.png)
 
+And files will be copied.  Be patient, especially when it starts copying the Install.wim
 
+![](/assets/2018-07-25_23-54-21.png)
+
+---
+
+### Complete
 
 
 
