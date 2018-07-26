@@ -2,7 +2,7 @@
 
 > OSBuilder 18.7.26+
 
-You can easily create a USB of your OSMedia or OSBuild using **New-OSBuilderUSB**. Since the USB will be formatted in FAT32, it must be 32GB or smaller, but large enough to fit your OS. So to play it save 8-32GB should do it.
+You can easily create a USB of your OSMedia or OSBuild using **New-OSBuilderUSB**. Since the USB will be formatted in FAT32, it must be 32GB or smaller, but large enough to fit your OS.  Make sure you use an 8-32GB USB Drive!
 
 ## Admin Rights
 
