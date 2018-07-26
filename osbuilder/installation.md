@@ -14,7 +14,7 @@ Uninstall-Module -Name OSBuilder -AllVersions -Force
 **PowerShell Install Latest Version:**
 
 ```text
-Install-Module -Name OSBuilder -Scope CurrentUser
+Install-Module -Name OSBuilder -Scope CurrentUser -Force
 ```
 
 ## OSBuilder in PowerShell ISE
