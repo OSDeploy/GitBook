@@ -1,12 +1,12 @@
 # Quick Instructions
 
-If you don't feel like reading through all the documentation, here are the quick instructions in 10 steps
+If you don't feel like reading through all the documentation, here are the quick instructions in 10 steps.  These steps can be completed in about 8 minutes of Touch Time, and 54 - 142 minutes of Processing Time. \*[^1]
 
 ---
 
 ### 1. Install OSBuilder
 
-> ###### Time Required: 1 Minute
+> ###### Touch Time Required: 1 Minute
 
 ```
 Install-Module -Name OSBuilder -Scope CurrentUser
@@ -17,6 +17,10 @@ Install-Module -Name OSBuilder -Scope CurrentUser
 ---
 
 ### 2. Download Updates \(SSU, CU, Adobe\)
+
+> ###### Touch Time Required: 1 Minute
+>
+> ###### Processing Time: 10 - 20 Minutes
 
 ```
 Get-OSBuilder -DownloadUpdates Latest
@@ -30,6 +34,10 @@ Get-OSBuilder -DownloadUpdates Latest
 
 ### 3. Import an Operating System
 
+> ###### Touch Time Required: 1 Minute
+>
+> ###### Processing Time: 8 - 15 Minutes
+
 ```
 Import-OSMedia
 ```
@@ -39,6 +47,8 @@ Import-OSMedia
 ---
 
 ### 4. Create an OSMedia Task
+
+> ###### Touch Time Required: 1 Minute
 
 ```
 New-OSMediaTask -TaskName "Win10 Ent x64 1803"
@@ -50,6 +60,10 @@ New-OSMediaTask -TaskName "Win10 Ent x64 1803"
 
 ### 5. Run the OSMedia Task
 
+> ###### Touch Time Required: 1 Minute
+>
+> ###### Processing Time: 25 - 75 Minutes
+
 ```
 Invoke-OSBuilderTask -ExecutionMode Execute
 ```
@@ -59,6 +73,8 @@ Invoke-OSBuilderTask -ExecutionMode Execute
 ---
 
 ### 6. Create an OSBuild Task
+
+> ###### Touch Time Required: 1 Minute
 
 ```
 New-OSBuildTask -TaskName "Win10 x64 Ent 1803" -EnableNetFX3
@@ -70,6 +86,10 @@ New-OSBuildTask -TaskName "Win10 x64 Ent 1803" -EnableNetFX3
 
 ### 7. Run the OSBuild Task
 
+> ###### Touch Time Required: 1 Minute
+>
+> ###### Processing Time: 10 - 30 Minutes
+
 ```
 Invoke-OSBuilderTask -ExecutionMode Execute
 ```
@@ -79,6 +99,10 @@ Invoke-OSBuilderTask -ExecutionMode Execute
 ---
 
 ### 8. Create an ISO
+
+> ###### Touch Time Required: 1 Minute
+>
+> ###### Processing Time: 1 - 2 Minutes
 
 ```
 New-OSBuilderISO
@@ -107,4 +131,6 @@ New-OSBuilderISO
 ---
 
 
+
+[^1]: Estimated time using a Dell Precision 7510 \(Intel Core i7 / 16GB RAM / SSD\) running Windows 10 x64 and NO RUNNING ANTIVIRUS
 
