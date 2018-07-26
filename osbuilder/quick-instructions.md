@@ -46,6 +46,8 @@ Import-OSMedia
 New-OSMediaTask -TaskName "Win10 Ent x64 1803"
 ```
 
+Select the OS that was imported in Step 3
+
 [https://www.osdeploy.com/osbuilder/how-to/create-an-osmedia-task.html](https://www.osdeploy.com/osbuilder/how-to/create-an-osmedia-task.html)
 
 ## 5. Run the OSMedia Task
@@ -58,6 +60,8 @@ New-OSMediaTask -TaskName "Win10 Ent x64 1803"
 Invoke-OSBuilderTask -ExecutionMode Execute
 ```
 
+Select the OSMedia Task that was created in Step 4
+
 [https://www.osdeploy.com/osbuilder/how-to/executionmode-execute.html](https://www.osdeploy.com/osbuilder/how-to/executionmode-execute.html)
 
 ## 6. Create an OSBuild Task
@@ -67,6 +71,8 @@ Invoke-OSBuilderTask -ExecutionMode Execute
 ```text
 New-OSBuildTask -TaskName "Win10 x64 Ent 1803" -EnableNetFX3
 ```
+
+Select the updated OSMedia that was created in Step 5
 
 [https://www.osdeploy.com/osbuilder/how-to/create-an-osbuild-task.html](https://www.osdeploy.com/osbuilder/how-to/create-an-osbuild-task.html)
 
@@ -80,6 +86,8 @@ New-OSBuildTask -TaskName "Win10 x64 Ent 1803" -EnableNetFX3
 Invoke-OSBuilderTask -ExecutionMode Execute
 ```
 
+Select the OSBuild Task that was created in Step 6
+
 [https://www.osdeploy.com/osbuilder/how-to/executionmode-execute.html](https://www.osdeploy.com/osbuilder/how-to/executionmode-execute.html)
 
 ## 8. Create an ISO
@@ -92,6 +100,8 @@ Invoke-OSBuilderTask -ExecutionMode Execute
 New-OSBuilderISO
 ```
 
+Select the OSBuild that was created in Step 7
+
 [https://www.osdeploy.com/osbuilder/how-to/create-an-iso.html](https://www.osdeploy.com/osbuilder/how-to/create-an-iso.html)
 
 ## 9. ???
@@ -103,6 +113,6 @@ New-OSBuilderISO
 ## Updating your OSBuild with new Cumulative Updates
 
 2\) Download Updates \(SSU, CU, Adobe\)  
-5\) Run the OSMedia Task  
-7\) Run the OSBuild Task
+5\) Run the OSMedia Task \(it will automatically select the newest OSMedia\)  
+7\) Run the OSBuild Task \(it will automatically select the newest OSMedia\)
 
