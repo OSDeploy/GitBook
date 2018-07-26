@@ -98,7 +98,10 @@ New-OSBuilderISO
 
 ### Updating your OSBuild with new Cumulative Updates
 
-Repeat steps \#2 and \#7 -10
+2) Download Updates \(SSU, CU, Adobe\)
+5) Run the OSMedia Task
+7) Run the OSBuild Task
+
 
 ---
 
