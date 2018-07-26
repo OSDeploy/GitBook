@@ -17,7 +17,8 @@ Full instructions on how to use OSBuilder is on the following pages.  I recommen
 * [ExecutionMode - Execute](/osbuilder/how-to/executionmode-execute.md)
 * [Show OS Information](/osbuilder/how-to/show-os-information.md)
 * [Update your Updates](/osbuilder/how-to/update-your-updates.md)
-* [Create an ISO](/osbuilder/how-to/create-an-iso.md)
+* [Create an OS ISO](/osbuilder/how-to/create-an-iso.md)
+* [Create an OS USB](/osbuilder/how-to/create-an-os-usb.md)
 
 
 
