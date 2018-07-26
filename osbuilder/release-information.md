@@ -1,51 +1,43 @@
 # Release Information
 
-### 18.7.25.\* \(July 25, 2018\)
+## 18.7.25.\* \(July 25, 2018\)
 
 * Resolved an issue where Winpeshl.ini was not removed from WinPE.wim.  If you have created OSBuilds with MSDaRT, they will need to be rebuild or they may fail OS Upgrades
 
----
-
-### 18.7.24.\* \(July 24, 2018\)
+## 18.7.24.\* \(July 24, 2018\)
 
 * **Windows Server 2016 now supported**
-* **Added **[**Show-OSInfo**](/osbuilder/how-to/show-os-information.md)** function**
+* **Added** [**Show-OSInfo**](how-to/show-os-information.md) **function**
 * **New Documentation**
-  * [How To: Show OS Information](/osbuilder/how-to/show-os-information.md)
-  * [Knowledge: OSBuilder OS Information](/osbuilder/knowledge/osbuilder-os-information.md)
-  * [How To: ExecutionMode - Information](/osbuilder/how-to/executionmode-information.md)
-  * [How To: ExecutionMode - Test Build](/osbuilder/how-to/executionmode-test-build.md)
-  * [How To: ExecutionMode - Execute Stepped](/osbuilder/how-to/executionmode-execute-stepped.md)
-  * [How To: ExecutionMode - Execute](/osbuilder/how-to/executionmode-execute.md)
+  * [How To: Show OS Information](how-to/show-os-information.md)
+  * [Knowledge: OSBuilder OS Information](knowledge/osbuilder-os-information.md)
+  * [How To: ExecutionMode - Information](how-to/executionmode-information.md)
+  * [How To: ExecutionMode - Test Build](how-to/executionmode-test-build.md)
+  * [How To: ExecutionMode - Execute Stepped](how-to/executionmode-execute-stepped.md)
+  * [How To: ExecutionMode - Execute](how-to/executionmode-execute.md)
 * **Updated Documentation**
-  * [How To: Create an OSMedia Task](/osbuilder/how-to/create-an-osmedia-task.md)
-  * [How To: Create an OSBuild Task](/osbuilder/how-to/create-an-osbuild-task.md)
+  * [How To: Create an OSMedia Task](how-to/create-an-osmedia-task.md)
+  * [How To: Create an OSBuild Task](how-to/create-an-osbuild-task.md)
 
----
+## 18.7.23.\* \(July 23, 2018\)
 
-### 18.7.23.\* \(July 23, 2018\)
-
-The notable change in this update is the inclusion of Language Support.  For more information, see [Work with Languages](https://www.osdeploy.com/osbuilder/how-to/work-with-languages.html)
+The notable change in this update is the inclusion of Language Support. For more information, see [Work with Languages](https://www.osdeploy.com/osbuilder/how-to/work-with-languages.html)
 
 Due to these changes, Tasks will have to be recreated to support this change.
 
 * DISM Image Cleanup will now be evaluated to determine if there are Pending Operations.  Previously this step was only executed in an OSMedia Task, but it will now work in an OSBuild Task if there is nothing pending
 
-```
+```text
 Get-WindowsCapability -Path $mount | Where-Object {$_.state -eq 'InstallPending'}
 ```
 
-![](/assets/2018-07-21_10-12-03.jpg)
+![](../.gitbook/assets/2018-07-21_10-12-03.jpg)
 
----
-
-### 18.7.21.\* \(July 21, 2018\)
+## 18.7.21.\* \(July 21, 2018\)
 
 * Corrected an issue where multiple Update directories were being created.  [Thanks for pointing this out Bruce!](https://twitter.com/BruceSaaaa/status/1020709356642414594)
 
----
-
-### 18.7.19.\* \(July 19, 2018\)
+## 18.7.19.\* \(July 19, 2018\)
 
 * **Online Documentation has not been updated yet to detail the changes.  I'll work on that over the weekend.  Thanks for understanding!**
 * Modified Paths to WindowsUpdates and ServicingStacks
@@ -70,18 +62,14 @@ Get-WindowsCapability -Path $mount | Where-Object {$_.state -eq 'InstallPending'
 * OSMedia Tasks are specific to updating the SSU, CU, and Sources.  No other customizations are allowed.  This method allows you to continually update OSMedia without having to use the original source Media from Microsoft
 * Tasks have changed and all previous Tasks will need to be rebuilt.  Delete existing ones
 
----
-
-### 18.7.17.\* \(July 17, 2018\)
+## 18.7.17.\* \(July 17, 2018\)
 
 * **New-OSBuildTask**
   * Removed OSMedia ParameterSet
 * **New-OSMediaTask**
   * Resolved issue where Task Name was not allowed
 
----
-
-### 18.7.16.\* \(July 16, 2018\)
+## 18.7.16.\* \(July 16, 2018\)
 
 * **Get-OSBuilder**
   * DownloadUpdates joins GetServicingStacks and GetWindowsUpdates parameters
@@ -101,29 +89,23 @@ Get-WindowsCapability -Path $mount | Where-Object {$_.state -eq 'InstallPending'
   * CUs are no longer applied to Windows Setup \(Boot.wim Index 2\) to prevent a setup.exe compatibility issue
     * [https://support.microsoft.com/en-us/help/4041170/windows-installation-cannot-find-driver-boot-wim](https://support.microsoft.com/en-us/help/4041170/windows-installation-cannot-find-driver-boot-wim)
 
-If you have previously created OSMedia or OSBuilds and integrated the CU with Windows Setup, it is recommended that you rebuild your media.  I will work on a solution for this issue.
+If you have previously created OSMedia or OSBuilds and integrated the CU with Windows Setup, it is recommended that you rebuild your media. I will work on a solution for this issue.
 
----
-
-### 18.7.15.1 \(July 13, 2018\)
+## 18.7.15.1 \(July 13, 2018\)
 
 * Corrected an issue in Invoke-OSBuilder.ps1 script error
 
----
-
-### 18.7.15 \(July 13, 2018\)
+## 18.7.15 \(July 13, 2018\)
 
 * Initial Public release
 
----
-
-### Changes from Versions prior to 18.7.15
+## Changes from Versions prior to 18.7.15
 
 * Only Windows 10 Operating Systems can be imported at this time.  Support for Windows Server will be in the next week or so
 * UBR \(Update Build Revision\) is appended to all Builds
 * Directory naming convention convention has changed to the following format
 
-```
+```text
 OSMedia: <OS with Edition> <Arch> <Version> <UBR>
 Example: Windows 10 Enterprise x64 1803 17134.165
 
@@ -137,21 +119,21 @@ Other references to the Pilot format of <OS> <Version> <Arch> should be changed 
 for consistency
 ```
 
-#### Servicing Stacks and Windows Update Downloads
+### Servicing Stacks and Windows Update Downloads
 
-Now displays the UBR of the download.  This can be validated against the OSMedia or OSBuild to ensure proper integration
+Now displays the UBR of the download. This can be validated against the OSMedia or OSBuild to ensure proper integration
 
-![](/assets/2018-07-13_13-01-27.png)
+![](../.gitbook/assets/2018-07-13_13-01-27.png)
 
-#### Module Update Checking
+### Module Update Checking
 
-When running Get-OSBuilder, it will automatically check for a newer version and display a message if an update is recommended.  Internet connection required for this function to work
+When running Get-OSBuilder, it will automatically check for a newer version and display a message if an update is recommended. Internet connection required for this function to work
 
-![](/assets/2018-07-13_13-10-21.png)
+![](../.gitbook/assets/2018-07-13_13-10-21.png)
 
-#### Servicing Stack and Windows Update Checking
+### Servicing Stack and Windows Update Checking
 
-When running Get-OSBuilder, it will automatically check for newer Servicing Stacks and Windows Updates and display a message if an update is recommended.  Internet connection required for this function to work
+When running Get-OSBuilder, it will automatically check for newer Servicing Stacks and Windows Updates and display a message if an update is recommended. Internet connection required for this function to work
 
-![](/assets/2018-07-13_13-13-10.png)
+![](../.gitbook/assets/2018-07-13_13-13-10.png)
 

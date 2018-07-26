@@ -1,50 +1,40 @@
 # Validate Drivers
 
-Some examples of my observations from Driver Validation are listed below.  In my Enterprise, roughly 95% of the Computers are Dell systems, so I apologize in advance for picking on them in this article.
-
----
+Some examples of my observations from Driver Validation are listed below. In my Enterprise, roughly 95% of the Computers are Dell systems, so I apologize in advance for picking on them in this article.
 
 ## Fat Touchpad Drivers
 
 Dell has a Touchpad Driver \(WWVKD\) that is used in the Latitude E6 A10 and the Latitude E7 A12 Family Driver CABs, but why is the one in the E6 10 times larger than the one in the E7?
 
-![](/assets/2-1-2018 12-38-23 AM.png)
+![](../../.gitbook/assets/2-1-2018-12-38-23-am.png)
 
 The solution is easy, remove everything except Windows10-x64
 
-![](/assets/2-1-2018 12-41-51 AM.png)
-
----
+![](../../.gitbook/assets/2-1-2018-12-41-51-am.png)
 
 ## Incorrect Category
 
 Not sure why a Intel Video Driver \(Dell Download 7W9YT\) would be listed under Chipset in the Latitude 3x40 A01 Family Pack, when it should be in Video.
 
-![](/assets/2-1-2018 9-08-48 PM.png)
-
----
+![](../../.gitbook/assets/2-1-2018-9-08-48-pm.png)
 
 ## Driver Packs include x86 and x64 Drivers
 
-Is there really a logical reason these are combined?  Here is my 1.7GB OptiPlex D4 Driver Pack with almost 1 GB in x86 Drivers.  These should be separated as most everyone will either not use the x86 Drivers, or create Separate Driver Packages if they do need them.
+Is there really a logical reason these are combined? Here is my 1.7GB OptiPlex D4 Driver Pack with almost 1 GB in x86 Drivers. These should be separated as most everyone will either not use the x86 Drivers, or create Separate Driver Packages if they do need them.
 
-![](/assets/2-1-2018 12-53-08 AM.png)
-
----
+![](../../.gitbook/assets/2-1-2018-12-53-08-am.png)
 
 ## x86 Drivers in x64 Drivers
 
-Easy enough to fix, but this would only be caught with proper Validation.  This is not the same issue as above, these are clearly in the x64 part of the Driver Pack.
+Easy enough to fix, but this would only be caught with proper Validation. This is not the same issue as above, these are clearly in the x64 part of the Driver Pack.
 
-![](/assets/2-1-2018 12-46-53 AM.png)
-
----
+![](../../.gitbook/assets/2-1-2018-12-46-53-am.png)
 
 ## Incomplete Readme.txt
 
-Located in the Driver Pack is a Readme.txt which contains some information.  This one in particular is from the Dell Precision WS8 A08 Family Pack.
+Located in the Driver Pack is a Readme.txt which contains some information. This one in particular is from the Dell Precision WS8 A08 Family Pack.
 
-```
+```text
 Dell TechCenter Community
 
 Family Driver ZIP for Dell
@@ -89,21 +79,19 @@ Supported Systems:
 Individual CABS Integrated into build:
 ```
 
-The WMI Queries in here are generic and incomplete.  In comparison the Lenovo Recipe Cards are very accurate and helpful.
+The WMI Queries in here are generic and incomplete. In comparison the Lenovo Recipe Cards are very accurate and helpful.
 
-![](/assets/2-1-2018 1-03-00 AM.png)
+![](../../.gitbook/assets/2-1-2018-1-03-00-am.png)
 
 [https://support.lenovo.com/us/en/solutions/ht104042](https://support.lenovo.com/us/en/solutions/ht104042)
 
-If we are instructed to use WMI Queries in this document, why are the proper ones not included?  Looking at the x64 supported models is easy enough to tell where they should apply, but hard for me to get the proper WMI Query correct, without having these systems present in the first place.
+If we are instructed to use WMI Queries in this document, why are the proper ones not included? Looking at the x64 supported models is easy enough to tell where they should apply, but hard for me to get the proper WMI Query correct, without having these systems present in the first place.
 
-```
+```text
 5720AIO,PRECISION7920RACK,PRECISION7920XLRACK,PRECISION5820TOWER,PRECISION5820XLTOWER,PRECISION7820TOWER,PRECISION7820XLTOWER,PRECISION7920TOWER,PRECISION7920XLTOWER
 ```
 
----
-
 ## Conclusion
 
-With proper Driver Optimization, these issues can be resolved \(except for the incomplete Readme.txt\).  You should be checking every Driver you import to ensure they are valid.
+With proper Driver Optimization, these issues can be resolved \(except for the incomplete Readme.txt\). You should be checking every Driver you import to ensure they are valid.
 

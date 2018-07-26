@@ -1,14 +1,12 @@
 # Core Drivers
 
-Core Drivers is a set of Drivers that apply to most computers in your Enterprise.  The Core Driver Pack that you create can be used to apply to all the Computers in your Enterprise.
-
----
+Core Drivers is a set of Drivers that apply to most computers in your Enterprise. The Core Driver Pack that you create can be used to apply to all the Computers in your Enterprise.
 
 ## Simple Organization
 
 Organize whatever drivers you need in a simple and logical structure.
 
-```
+```text
 Core
     Bluetooth
         Intel 19.x
@@ -37,6 +35,4 @@ Video
     Nvidia x64
     Nvidia x86
 ```
-
-
 

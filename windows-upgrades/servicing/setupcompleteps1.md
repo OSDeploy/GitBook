@@ -2,7 +2,7 @@
 
 C:\ProgramData\OSUpgrade\SetupComplete.cmd\SetupComplete.ps1
 
-```
+```text
 $AppsList = "Microsoft.3DBuilder",
             "Microsoft.BingWeather",
             "Microsoft.ConnectivityStore",
@@ -62,13 +62,9 @@ ForEach ($App in $AppsList)
     }
 ```
 
----
-
 ## Reference
 
 | Windows 10 Creators Update 1703 Cleanup Script |
 | :--- |
 | [http://joseespitia.com/2017/08/01/windows-10-creators-update-1703-cleanup-script/](http://joseespitia.com/2017/08/01/windows-10-creators-update-1703-cleanup-script/) |
-
-
 

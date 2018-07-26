@@ -1,22 +1,18 @@
 # Import an Operating System
 
-The next step is to import an Operating System.  In this example I have two mounted ISO's, Windows 10 1709 x64 and Windows 10 1803 x64.
+The next step is to import an Operating System. In this example I have two mounted ISO's, Windows 10 1709 x64 and Windows 10 1803 x64.
 
-![](/assets/2018-07-10_14-04-39.png)
+![](../../.gitbook/assets/2018-07-10_14-04-39.png)
 
----
+## Import-OSMedia
 
-### Import-OSMedia
+Import-OSMedia doesn't need any parameters. The way it works is that It will search all attached Drives for install.wims. A multi-boot OS will not work for now since Import-OSMedia is looking specifically for "sources\install.wim". Be patient and let the scan finish.
 
-Import-OSMedia doesn't need any parameters.  The way it works is that It will search all attached Drives for install.wims.  A multi-boot OS will not work for now since Import-OSMedia is looking specifically for "sources\install.wim".  Be patient and let the scan finish.
+Once the scanning is complete, a Grid will be displayed with all the available Operating Systems. Multi-select the ones you want to import and press OK. I have tested the import on 8 ISO's at the same time.
 
-Once the scanning is complete, a Grid will be displayed with all the available Operating Systems.  Multi-select the ones you want to import and press OK.  I have tested the import on 8 ISO's at the same time.
+![](../../.gitbook/assets/2018-07-19_20-20-05.jpg)
 
-![](/assets/2018-07-19_20-20-05.jpg)
-
----
-
-### Import Phase
+## Import Phase
 
 The following steps will occur in this phase
 
@@ -32,29 +28,21 @@ The following steps will occur in this phase
 
 **Right click and open the following image in a new tab for a better look at the output**
 
-![](/assets/Import-OSMedia-Importing.png)
+![](../../.gitbook/assets/import-osmedia-importing.png)
 
----
+## Reporting Phase
 
-### Reporting Phase
-
-In this phase, all the configuration about the imported Operating System will be displayed.  All of this is saved in the OSMedia logs as well as the PowerShell transcript.
+In this phase, all the configuration about the imported Operating System will be displayed. All of this is saved in the OSMedia logs as well as the PowerShell transcript.
 
 **Right click and open the following image in a new tab for a better look at the output**
 
-![](/assets/Import-OSMedia-Reporting.png)
+![](../../.gitbook/assets/import-osmedia-reporting.png)
 
----
+## Complete
 
-### Complete
+The process of importing an Operating System into OSMedia took about 1 minute of actual work, with 6 minutes of processing. In the end, the Operating System is fully copied into OSMedia and ready to update.
 
-The process of importing an Operating System into OSMedia took about 1 minute of actual work, with 6 minutes of processing.  In the end, the Operating System is fully copied into OSMedia and ready to update.
+Repeat this process for all your Operating Systems and run Get-OSBuilder. The imported Operating Systems will show up in OSMedia
 
-Repeat this process for all your Operating Systems and run Get-OSBuilder.  The imported Operating Systems will show up in OSMedia
-
-![](/assets/2018-07-19_23-43-19.png)
-
----
-
-
+![](../../.gitbook/assets/2018-07-19_23-43-19.png)
 

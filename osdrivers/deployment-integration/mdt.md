@@ -1,16 +1,16 @@
-# Microsoft Deployment Toolkit {#mdt-task-sequence}
+# Microsoft Deployment Toolkit
 
-OSDrivers can be easily integrated into MDT.  Simply copy your Repository to your Deployment Share.
+OSDrivers can be easily integrated into MDT. Simply copy your Repository to your Deployment Share.
 
 When adding to an MDT Task Sequence, place it in the Preinstall Phase. Assuming your OSDrivers Repository is at %DeployRoot%\OSDrivers then use the following Command line.
 
-```
+```text
 cscript.exe "%DeployRoot%\OSDrivers\OSDrivers.vbs"
 ```
 
 Start in path will have similar configuration
 
-```
+```text
 %DeployRoot%\OSDrivers
 ```
 

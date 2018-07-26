@@ -1,10 +1,8 @@
-## PNPID Conditions {#operating-system-conditions}
-
----
+# PNPID Conditions
 
 **Intel Video 15.60 on Windows 10 x64 and Excluding Microsoft \(Surface\) Computers**
 
-```
+```text
 [OSDrivers]
 URL = https://downloadcenter.intel.com/download/27412/Graphics-Intel-Graphics-Driver-for-Windows-15-60-?product=80939
 Windows 10 x64 = Yes
@@ -52,8 +50,4 @@ PCI\VEN_8086&DEV_3E91 = Intel UHD Graphics 630
 PCI\VEN_8086&DEV_3E92 = Intel UHD Graphics 630
 PCI\VEN_8086&DEV_3E93 = Intel UHD Graphics 610
 ```
-
----
-
-
 

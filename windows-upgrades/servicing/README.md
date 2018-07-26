@@ -1,12 +1,10 @@
-# ![](/assets/InProgress.png)
+# Servicing
 
-# 
+## ![](../../.gitbook/assets/inprogress.png)
 
-# Windows 10 Servicing
+## Windows 10 Servicing
 
----
-
-## Reference
+### Reference
 
 | Update Windows 10 in the Enterprise |
 | :--- |
@@ -23,6 +21,4 @@
 | Manage Windows as a Service using System Center Configuration Manager |
 | :--- |
 | [https://docs.microsoft.com/en-us/sccm/osd/deploy-use/manage-windows-as-a-service](https://docs.microsoft.com/en-us/sccm/osd/deploy-use/manage-windows-as-a-service) |
-
-
 

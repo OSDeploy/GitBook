@@ -1,18 +1,14 @@
-# Offline Servicing - The Complete Steps
+# Offline Servicing
 
-I wanted to take the time to explain all the steps involved with Offline Servicing a Windows Image.  This will primarily focus on Windows 10, but the same methods should also be applied to Windows Server 2016.
+I wanted to take the time to explain all the steps involved with Offline Servicing a Windows Image. This will primarily focus on Windows 10, but the same methods should also be applied to Windows Server 2016.
 
----
+## A Simple Definition
 
-### A Simple Definition
+Offline Servicing is a method that has been used for years to Mount a Windows Image, Apply Patches, and Save the Image. The reason we do this is to save time in our OS Deployments, so we do not have to spend hours applying patches. When Microsoft releases a new ISO, it is fully patched up to the point that they sealed it. In the image below are the Windows 10 Builds with the updated date. Windows 10 1803 is the only version that has been updated this year.
 
-Offline Servicing is a method that has been used for years to Mount a Windows Image, Apply Patches, and Save the Image.  The reason we do this is to save time in our OS Deployments, so we do not have to spend hours applying patches.  When Microsoft releases a new ISO, it is fully patched up to the point that they sealed it.  In the image below are the Windows 10 Builds with the updated date.  Windows 10 1803 is the only version that has been updated this year.
+![](../../.gitbook/assets/2018-07-19_0-02-31.jpg)
 
-![](/assets/2018-07-19_0-02-31.jpg)
-
----
-
-### Required Updates
+## Required Updates
 
 Before getting started, you need to gather the following updates for Windows 10
 
@@ -20,27 +16,23 @@ Before getting started, you need to gather the following updates for Windows 10
 * Latest Cumulative Update \(Monthly\)
 * Latest Adobe Flash Security Update \(Monthly\)
 
----
-
-### Servicing Stack Update
+## Servicing Stack Update
 
 If you don't know what a Servicing Stack is, please read a little about that here
 
 [https://www.osdeploy.com/osbuilder/knowledge/servicing-stacks.html](https://www.osdeploy.com/osbuilder/knowledge/servicing-stacks.html)
 
-Be aware if you do not install the Servicing Stack Update before the Cumulative Update, the CU may not actually install at all since it does not meet its prerequisite.  You will not receive a warning or an error when this happens, you will see the CU completed successfully \(because it is not applicable since the SSU was not in place\)
+Be aware if you do not install the Servicing Stack Update before the Cumulative Update, the CU may not actually install at all since it does not meet its prerequisite. You will not receive a warning or an error when this happens, you will see the CU completed successfully \(because it is not applicable since the SSU was not in place\)
 
-![](/assets/2018-06-26_23-55-29b.png)
+![](../../.gitbook/assets/2018-06-26_23-55-29b%20%281%29.png)
 
----
-
-### Boot WIMs
+## Boot WIMs
 
 You absolutely need to understand the Boot WIMs that are used for installing Windows, so here they are.
 
-Boot.wim is located in the Sources directory of your Windows 10 Media.  This WIM contains two indexes.  Index 1 is WinPE, and Index 2 is the bootable Index, and this is Windows Setup.
+Boot.wim is located in the Sources directory of your Windows 10 Media. This WIM contains two indexes. Index 1 is WinPE, and Index 2 is the bootable Index, and this is Windows Setup.
 
-```
+```text
 ImageIndex       : 1
 ImageName        : Microsoft Windows PE (x64)
 ImageDescription : Microsoft Windows PE (x64)
@@ -52,123 +44,107 @@ ImageDescription : Microsoft Windows Setup (x64)
 ImageSize        : 1,719,223,056 bytes
 ```
 
-The third Boot WIM on Windows Media is located inside the Install.wim at Windows\System32\Recovery\winre.wim.  This is the Recovery Environment
+The third Boot WIM on Windows Media is located inside the Install.wim at Windows\System32\Recovery\winre.wim. This is the Recovery Environment
 
-```
+```text
 ImageIndex       : 1
 ImageName        : Microsoft Windows Recovery Environment (x64)
 ImageDescription : Microsoft Windows Recovery Environment (x64)
 ImageSize        : 1,945,278,901 bytes
 ```
 
----
+## Setup WIM
 
-### Setup WIM
+When you boot your Windows 10 Media on a computer, it will boot to Sources\Boot.wim Index 2 to start Windows Setup. The image below shows the OS Media and the mounted Setup WIM. As you can see there is a Setup.exe, and they both match. These files are not the complete setup, they just take your parameters and pass them to the setup.exe in the Sources directory.
 
-When you boot your Windows 10 Media on a computer, it will boot to Sources\Boot.wim Index 2 to start Windows Setup.  The image below shows the OS Media and the mounted Setup WIM.  As you can see there is a Setup.exe, and they both match.  These files are not the complete setup, they just take your parameters and pass them to the setup.exe in the Sources directory.
+![](../../.gitbook/assets/2018-07-19_0-31-12.jpg)
 
-![](/assets/2018-07-19_0-31-12.jpg)
+## Sources
 
----
+In the Sources directory setup.exe also exists, and they match as well. On the left is the OS Media Sources, and on the right is the mounted Setup WIM. I wanted to highlight the DISM components as these are required for servicing an image.
 
-### Sources
+![](../../.gitbook/assets/2018-07-19_0-34-30.jpg)
 
-In the Sources directory setup.exe also exists, and they match as well.  On the left is the OS Media Sources, and on the right is the mounted Setup WIM.  I wanted to highlight the DISM components as these are required for servicing an image.
+## Imaging Methods
 
-![](/assets/2018-07-19_0-34-30.jpg)
+### Boot from Media \(ISO\)
 
----
+This method uses Setup.wim \(Boot.wim Index 2\). Like files in the Sources directory of this WIM need to be identical to what is on the OS Media Sources.
 
-### Imaging Methods
-
-#### Boot from Media \(ISO\)
-
-This method uses Setup.wim \(Boot.wim Index 2\).  Like files in the Sources directory of this WIM need to be identical to what is on the OS Media Sources.
-
-#### Operating System Upgrades
+### Operating System Upgrades
 
 This uses the Sources directory of the OS Media
 
-#### Microsoft Deployment Toolkit \(MDT\)
+### Microsoft Deployment Toolkit \(MDT\)
 
-Installing an Operating System in MDT will use WinPE \(Boot.wim Index 1\) as this will take preference over the ADK WinPE.wim.  This will require an updated Sources directory in this WIM
+Installing an Operating System in MDT will use WinPE \(Boot.wim Index 1\) as this will take preference over the ADK WinPE.wim. This will require an updated Sources directory in this WIM
 
-#### Recovery Image or Push Button Reset
+### Recovery Image or Push Button Reset
 
 This uses WinRE inside that is in the Windows Image
 
-#### SCCM
+### SCCM
 
-SCCM has its own Boot WIMs.  I will work on a solution in then near future for this
+SCCM has its own Boot WIMs. I will work on a solution in then near future for this
 
----
-
-### Microsoft Deployment Toolkit and ADK
+## Microsoft Deployment Toolkit and ADK
 
 Michael Niehaus in this article states that MDT will use the Operating System for WinPE
 
 [https://blogs.technet.microsoft.com/mniehaus/2009/06/27/mdt-2010-new-feature-7-boot-image-creation-optimized/](https://blogs.technet.microsoft.com/mniehaus/2009/06/27/mdt-2010-new-feature-7-boot-image-creation-optimized/)
 
-![](/assets/2018-07-19_9-32-56.png)
+![](../../.gitbook/assets/2018-07-19_9-32-56.png)
 
-MDT will look for a matching version of Boot.wim in your imported Operating Systems.  This is the version I have in ADK
+MDT will look for a matching version of Boot.wim in your imported Operating Systems. This is the version I have in ADK
 
-![](/assets/2018-07-19_10-55-11.jpg)After importing the matching Operating System in MDT, I can see that it has decided to use this instead of the original WinPE.wim
+![](../../.gitbook/assets/2018-07-19_10-55-11.jpg)After importing the matching Operating System in MDT, I can see that it has decided to use this instead of the original WinPE.wim
 
-![](/assets/2018-07-19_10-58-01.jpg)
+![](../../.gitbook/assets/2018-07-19_10-58-01.jpg)
 
 You can see the difference in sizes in this image BEFORE/AFTER
 
-![](/assets/2018-07-19_10-59-53.jpg)
+![](../../.gitbook/assets/2018-07-19_10-59-53.jpg)
 
-If you import an updated Operating System with an updated Boot.wim, it will not automatically detect this as valid because the version does not match.  To force ADK and MDT to use your updated WinPE, copy your updated WinPE \(Boot.wim Index 1\) in these locations.  For SCCM you should probably do the same with your updated WinPE
+If you import an updated Operating System with an updated Boot.wim, it will not automatically detect this as valid because the version does not match. To force ADK and MDT to use your updated WinPE, copy your updated WinPE \(Boot.wim Index 1\) in these locations. For SCCM you should probably do the same with your updated WinPE
 
-```
+```text
 C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\en-us\winpe.wim
 C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\x86\en-us\winpe.wim
 ```
 
----
+## DISM Image Cleanup
 
-### DISM Image Cleanup
+This step is important to shrink the internal size if your WIMs. If you do not, your Boot.wim may exceed the size of your Boot Partition.
 
-This step is important to shrink the internal size if your WIMs.  If you do not, your Boot.wim may exceed the size of your Boot Partition.
-
----
-
-### NetFX3
+## NetFX3
 
 If you need to enable NetFX3 \(you probably do\), understand that you must run DISM Image Cleanup first as you will not be able to perform a Cleanup after NetFX3 is enabled due to pending operations.
 
-![](/assets/2018-06-28_15-28-02.png)
+![](../../.gitbook/assets/2018-06-28_15-28-02%20%281%29.png)
 
 You can run Get-WindowsCapability on a Mounted Windows Image to validate
 
-![](/assets/2018-06-28_15-31-10.png)
+![](../../.gitbook/assets/2018-06-28_15-31-10.png)
 
-If you do not reapply the CU to the Install.wim after enabling NetFX3, your computer will show that the Cumulative Update is needed, and it will be applied in Windows.  This defeats the whole point of updating the Install.wim.
+If you do not reapply the CU to the Install.wim after enabling NetFX3, your computer will show that the Cumulative Update is needed, and it will be applied in Windows. This defeats the whole point of updating the Install.wim.
 
 The image below shows what the mounted Install.wim looks like after reapplying the CU, so yes, this is required
 
-![](/assets/2018-07-17_12-08-03.png)
+![](../../.gitbook/assets/2018-07-17_12-08-03.png)
 
----
+## Export the WIMs
 
-### Export the WIMs
+Exporting the WIMs will reduce the size of the WIMs. If you do not, your Boot.wim may exceed the size of your Boot Partition
 
-Exporting the WIMs will reduce the size of the WIMs.  If you do not, your Boot.wim may exceed the size of your Boot Partition
+## Update Sources
 
----
+To update the Sources directory on your OS Media, you need to perform a Robocopy from your Mounted Setup WIM. You should only update NEWER MATCHING files in your Sources directory.
 
-### Update Sources
-
-To update the Sources directory on your OS Media, you need to perform a Robocopy from your Mounted Setup WIM.  You should only update NEWER MATCHING files in your Sources directory.
-
-```
+```text
 robocopy "$MountDirectory\Windows\System32" "$OS\sources" *.* /e /ndl /xo /xx /xl /b /np /r:0 /w:0
 ```
 
-Repeat this step with your mounted Install.wim.  This will ensure that DEVINV is the proper version and prevent issues.  For more information about this issue, see these articles
+Repeat this step with your mounted Install.wim. This will ensure that DEVINV is the proper version and prevent issues. For more information about this issue, see these articles
 
 [http://www.asquaredozen.com/2018/01/16/windows-7-windows-10-fall-creators-update-1709-place-upgrade-fails-error-0xc1900204-invalid-sku/](http://www.asquaredozen.com/2018/01/16/windows-7-windows-10-fall-creators-update-1709-place-upgrade-fails-error-0xc1900204-invalid-sku/)
 
@@ -176,31 +152,25 @@ Repeat this step with your mounted Install.wim.  This will ensure that DEVINV is
 
 This is what the Sources looks like after performing the Robocopy
 
-![](/assets/2018-07-19_1-50-50.jpg)
+![](../../.gitbook/assets/2018-07-19_1-50-50.jpg)
 
-If you do not perform this step, Operating System Upgrades will probably fail.  Additionally, if you update the Install.wim and not the Sources directory on the OS Media, you will not be able to create an ISO to image from \(or a bootable USB\).  This causes a mismatch as detailed in this link from Microsoft
+If you do not perform this step, Operating System Upgrades will probably fail. Additionally, if you update the Install.wim and not the Sources directory on the OS Media, you will not be able to create an ISO to image from \(or a bootable USB\). This causes a mismatch as detailed in this link from Microsoft
 
 [https://support.microsoft.com/en-us/help/4041170/windows-installation-cannot-find-driver-boot-wim](https://support.microsoft.com/en-us/help/4041170/windows-installation-cannot-find-driver-boot-wim)
 
-![](/assets/2018-07-16_11-14-04.png)
+![](../../.gitbook/assets/2018-07-16_11-14-04.png)
 
----
+## Windows 10 Upgrade Failures
 
-### Windows 10 Upgrade Failures
+Windows 10 Upgrades may fail on issues with Application Compatibility. This may happen if the Operating System you are upgrading had received a new Cumulative Update. If the Sources directory in the Upgrade Media has an older version of these files, this will lead to the DEVINV issue I mentioned earlier. The method to ensure that these files are the correct version is to apply the Cumulative Update to the Install.wim and then to Robocopy copy the MATCHING files in the OS Media Sources. Use the image below as a reference for which switches to use.
 
-Windows 10 Upgrades may fail on issues with Application Compatibility.  This may happen if the Operating System you are upgrading had received a new Cumulative Update.  If the Sources directory in the Upgrade Media has an older version of these files, this will lead to the DEVINV issue I mentioned earlier.  The method to ensure that these files are the correct version is to apply the Cumulative Update to the Install.wim and then to Robocopy copy the MATCHING files in the OS Media Sources.  Use the image below as a reference for which switches to use.
+![](../../.gitbook/assets/2018-07-19_9-37-08.png)
 
-![](/assets/2018-07-19_9-37-08.png)
+## Monthly Updating
 
----
+If you plan on updating your WIMs every month, do not enable NetFX3 as you will not be able to DISM Image Cleanup. This is why I recommend keeping a separate build updated monthly that does not have NetFX3 enabled. Use this as your REFERENCE that you build a secondary Install.wim with NetFX3 enabled.
 
-### Monthly Updating
-
-If you plan on updating your WIMs every month, do not enable NetFX3 as you will not be able to DISM Image Cleanup.  This is why I recommend keeping a separate build updated monthly that does not have NetFX3 enabled.  Use this as your REFERENCE that you build a secondary Install.wim with NetFX3 enabled.
-
----
-
-### What To Update
+## What To Update
 
 * Install.wim - Servicing Stack and then the Cumulative Update.  Enable NetFX3 and reapply CU
 * WinPE WIM - Servicing Stack and then the Cumulative Update
@@ -208,11 +178,9 @@ If you plan on updating your WIMs every month, do not enable NetFX3 as you will 
 * WinRE WIM - Servicing Stack and then the Cumulative Update
 * Sources - on the OS Media
 
----
+## The Complete Steps
 
-### The Complete Steps
-
-##### **Monthly Updated Image**
+#### **Monthly Updated Image**
 
 1. Copy the contents of your ISO to a working directory
 2. Mount the Install.wim
@@ -247,7 +215,7 @@ If you plan on updating your WIMs every month, do not enable NetFX3 as you will 
 17. Replace the Boot.wim in the OS Media Sources with the updated one
 18. Rebuild ISO using OSCDIMG \(ADK\)
 
-##### Production Image
+#### Production Image
 
 1. Copy the Monthly Updated Image to a working directory
 2. Mount the Install.wim
@@ -255,8 +223,4 @@ If you plan on updating your WIMs every month, do not enable NetFX3 as you will 
 4. Reapply the Cumulative Update
 5. Perform any additional customizations
 6. Dismount and Save the Install.wim
-
----
-
-
 

@@ -10,29 +10,23 @@ Create a Group for OSDrivers and add a Run Command Line step to your Task Sequen
 
 The Command Line is identical to the one used to create the Program for the Package.
 
-```
+```text
 cscript OSDrivers.vbs /OS:"Windows 10" /Arch:x64
 ```
 
-![](/assets/2-14-2018 2-38-01 PM.png)
-
----
+![](../../../.gitbook/assets/2-14-2018-2-38-01-pm.png)
 
 ## Rinse and Repeat
 
 Add any additional OSDrivers steps in your Task Sequence.
 
-![](/assets/2-14-2018 2-39-44 PM.png)
-
----
+![](../../../.gitbook/assets/2-14-2018-2-39-44-pm.png)
 
 ## Dism Apply Drivers
 
 You will need to add a Command Line to inject the Drivers into the OS
 
-```
+```text
 dism.exe /Image:%OSDisk%\ /Add-Driver /Driver:%OSDisk%\Drivers /Recurse
 ```
-
-
 

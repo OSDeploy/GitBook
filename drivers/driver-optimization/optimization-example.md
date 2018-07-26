@@ -1,12 +1,10 @@
 # Example - Dell Win10 x64
 
-Let's try to see what we can do for Dell Driver Packs on Windows 10 x64.  If we are using the "Total Control" method for Driver Management, then we are up to 140 Driver Packs at close to 192 GB of space.  This is our starting point.
+Let's try to see what we can do for Dell Driver Packs on Windows 10 x64. If we are using the "Total Control" method for Driver Management, then we are up to 140 Driver Packs at close to 192 GB of space. This is our starting point.
 
 | Total Control | Number of Packs | Download Size | Repository Size |
 | :--- | :--- | :--- | :--- |
 | Dell Model Packs | 138 | 84.10 | 191.70 |
-
----
 
 ## Switch from Dell Model Packs to Dell Family Packs
 
@@ -16,9 +14,9 @@ The best change that you can make is to completely switch over from using indivi
 | :--- | :--- | :--- | :--- | :--- |
 | Family Pack Switch | 28 | 37.80 GB | 114.83 GB | 76.87 GB |
 
-And here is what our Dell Family Pack Drivers look like when they are expanded.  Two of them are less than 1 GB in size.
+And here is what our Dell Family Pack Drivers look like when they are expanded. Two of them are less than 1 GB in size.
 
-```
+```text
 Win10_Latitude3x40_A01        1.13 GB
 Win10_LatitudeE10_A01         1.86 GB
 Win10_LatitudeE5_A02          2.26 GB
@@ -50,11 +48,9 @@ Win10_VenuePro3_A03           0.99 GB*
 Win10_VenuePro4_A11           0.74 GB*
 ```
 
----
-
 ## Remove x86 Drivers
 
-One issue with the way Dell has their Family and Model Packs is that they contain drivers for both 32 and 64 Bit architectures.  If you need to x86 Drivers, then split them off in their own Repository.  If you don't intend on deploying Windows 10 x86, then you just saved 1.23 GB.  I've marked the notable changes in the Driver List.
+One issue with the way Dell has their Family and Model Packs is that they contain drivers for both 32 and 64 Bit architectures. If you need to x86 Drivers, then split them off in their own Repository. If you don't intend on deploying Windows 10 x86, then you just saved 1.23 GB. I've marked the notable changes in the Driver List.
 
 | Action | Recovered Space | New Repository Size |
 | :--- | :--- | :--- |
@@ -62,7 +58,7 @@ One issue with the way Dell has their Family and Model Packs is that they contai
 
 And then there were three
 
-```
+```text
 Win10_Latitude3x40_A01        1.13 GB
 Win10_LatitudeE5_A02          2.26 GB
 Win10_LatitudeE6XFR_A04       3.48 GB
@@ -93,11 +89,9 @@ Win10_VenuePro3_A03           0.99 GB*
 Win10_VenuePro4_A11           0.74 GB*
 ```
 
----
-
 ## Remove Intel Video Drivers
 
-There is no need to have 49 separate instances of Intel Video Drivers in 28 Driver Packs.  Almost 30GB can be recovered by removing them.
+There is no need to have 49 separate instances of Intel Video Drivers in 28 Driver Packs. Almost 30GB can be recovered by removing them.
 
 Its important to note that Intel only makes 3 Windows 10 x64 Drivers that you can download and place in your Driver Repository.
 
@@ -105,7 +99,7 @@ Its important to note that Intel only makes 3 Windows 10 x64 Drivers that you ca
 | :--- | :--- | :--- |
 | Remove Intel Video Drivers | 28.79 GB | 46.85 GB |
 
-```
+```text
 Win10_Latitude3x40_A01\Latitude3x40\win10\x64\chipset\7W9YT
 Win10_Latitude3x40_A01\Latitude3x40\win10\x64\video\FGGYJ
 Win10_LatitudeE10_A01\LatitudeE10\WIN10\x64\Video\86N56
@@ -160,7 +154,7 @@ Win10_VenuePro4_A11\VenuePro4\win10\x64\chipset\HTMRY\Drivers\Graphics
 
 9 Family Packs are now less than 1 GB in size
 
-```
+```text
 Win10_Latitude3x40_A01        0.33 GB*
 Win10_LatitudeE5_A02          1.74 GB
 Win10_LatitudeE6XFR_A04       2.00 GB
@@ -191,8 +185,6 @@ Win10_VenuePro3_A03           0.52 GB*
 Win10_VenuePro4_A11           0.26 GB*
 ```
 
----
-
 ## Remove Intel Wireless Drivers
 
 Intel again saves the day by providing ONE Driver that replaces everything that Dell includes
@@ -203,7 +195,7 @@ Intel again saves the day by providing ONE Driver that replaces everything that 
 
 46 drivers can be removed
 
-```
+```text
 Win10_Latitude3x40_A01\Latitude3x40\win10\x64\network\YH1F1
 Win10_LatitudeE5_A02\LatitudeE5\win10\x64\network\MHJ5D
 Win10_LatitudeE5_A02\LatitudeE5\win10\x64\network\YH1F1
@@ -254,7 +246,7 @@ Win10_VenuePro4_A11\VenuePro4\win10\x64\network\NN49G
 
 Making 10 Family Driver Packs less than 1 GB
 
-```
+```text
 Win10_Latitude3x40_A01        0.29 GB*
 Win10_LatitudeE5_A02          1.61 GB
 Win10_LatitudeE6XFR_A04       1.94 GB
@@ -285,8 +277,6 @@ Win10_VenuePro3_A03           0.44 GB*
 Win10_VenuePro4_A11           0.21 GB*
 ```
 
----
-
 ## Remove Intel Bluetooth Drivers
 
 Almost 300 MB will be saved by using Intel's download
@@ -297,7 +287,7 @@ Almost 300 MB will be saved by using Intel's download
 
 41 Drivers can be removed
 
-```
+```text
 Win10_Latitude3x40_A01\Latitude3x40\win10\x64\network\VHM3T
 Win10_LatitudeE5_A02\LatitudeE5\win10\x64\network\N7VN8
 Win10_LatitudeE5_A02\LatitudeE5\win10\x64\network\VHM3T
@@ -341,7 +331,7 @@ Win10_VenuePro4_A11\VenuePro4\win10\x64\network\6CC6W
 Win10_VenuePro4_A11\VenuePro4\win10\x64\network\YYD6F
 ```
 
-```
+```text
 Win10_Latitude3x40_A01        0.28 GB*
 Win10_LatitudeE5_A02          1.60 GB
 Win10_LatitudeE6XFR_A04       1.93 GB
@@ -372,11 +362,9 @@ Win10_VenuePro3_A03           0.44 GB*
 Win10_VenuePro4_A11           0.20 GB*
 ```
 
----
-
 ## Remove Intel Ethernet Drivers
 
-Not much savings here, but at least every Intel Ethernet Driver is the latest version.  At this point its time to look at some non-Intel Drivers.
+Not much savings here, but at least every Intel Ethernet Driver is the latest version. At this point its time to look at some non-Intel Drivers.
 
 | Action | Recovered Space | New Repository Size |
 | :--- | :--- | :--- |
@@ -384,7 +372,7 @@ Not much savings here, but at least every Intel Ethernet Driver is the latest ve
 
 32 instances to remove
 
-```
+```text
 Win10x64\Win10_Latitude3x40_A01\Latitude3x40\win10\x64\network\0J8HP
 Win10x64\Win10_LatitudeE5_A02\LatitudeE5\win10\x64\network\0J8HP
 Win10x64\Win10_LatitudeE6_A10\LatitudeE6\win10\x64\network\0J8HP
@@ -419,7 +407,7 @@ Win10x64\Win10_PrecisionWS8_A08\PrecisionWS8\WIN10\x64\Network\3PT51
 Win10x64\Win10_PrecisionWS8_A08\PrecisionWS8\WIN10\x64\Network\D8VDT
 ```
 
-```
+```text
 Win10_Latitude3x40_A01        0.28 GB*
 Win10_LatitudeE5_A02          1.60 GB
 Win10_LatitudeE6XFR_A04       1.93 GB
@@ -450,8 +438,6 @@ Win10_VenuePro3_A03           0.44 GB*
 Win10_VenuePro4_A11           0.20 GB*
 ```
 
----
-
 ## Remove Nvidia Video Drivers
 
 You can create packages for Nvidia Video Cards by downloading the latest version directly from Nvidia.
@@ -462,7 +448,7 @@ You can create packages for Nvidia Video Cards by downloading the latest version
 
 We can see in these 27 Drivers what has been weighing down on the large E9 Driver Pack
 
-```
+```text
 Win10_LatitudeE5_A02\LatitudeE5\win10\x64\video\N4MHX
 Win10_LatitudeE6_A10\LatitudeE6\win10\x64\video\N4MHX
 Win10_LatitudeE6XFR_A04\LatitudeE6XFR\Win10\x64\video\08PKM
@@ -494,7 +480,7 @@ Win10_PrecisionWS8_A08\PrecisionWS8\WIN10\x64\Video\4KXK6
 
 12 Driver Packs are now smaller than 1 GB with all of them under 3 GB
 
-```
+```text
 Win10_Latitude3x40_A01        0.28 GB*
 Win10_LatitudeE5_A02          1.36 GB
 Win10_LatitudeE6XFR_A04       1.68 GB
@@ -525,8 +511,6 @@ Win10_VenuePro3_A03           0.44 GB*
 Win10_VenuePro4_A11           0.20 GB*
 ```
 
----
-
 ## Remove AMD Video Drivers
 
 Removing these will clear up a large amount of space as well.
@@ -537,7 +521,7 @@ Removing these will clear up a large amount of space as well.
 
 38 Drivers can be removed
 
-```
+```text
 Win10_LatitudeE5_A02\LatitudeE5\win10\x64\video\4XDT8
 Win10_LatitudeE5_A02\LatitudeE5\win10\x64\video\CYT1R
 Win10_LatitudeE6XFR_A04\LatitudeE6XFR\Win10\x64\video\0N1C9
@@ -580,7 +564,7 @@ Win10_PrecisionWS8_A08\PrecisionWS8\WIN10\x64\Video\KW1W7
 
 23 now less than 1 GB
 
-```
+```text
 Win10_Latitude3x40_A01        0.28 GB*
 Win10_LatitudeE5_A02          0.64 GB*
 Win10_LatitudeE6XFR_A04       0.70 GB*
@@ -611,11 +595,9 @@ Win10_VenuePro3_A03           0.44 GB*
 Win10_VenuePro4_A11           0.20 GB*
 ```
 
----
-
 ## Remove Realtek Audio Drivers
 
-By far this is the easiest decision to make.  If you want basic functionality from, then just use the Inbox Drivers.  What this means is that Windows 10 \(and Windows 7\) include Drivers to handle all Realtek Audio Cards, without a bloated application.  You will probably lose Surround Sound on some models, but for Enterprise use, this is not a big hit.
+By far this is the easiest decision to make. If you want basic functionality from, then just use the Inbox Drivers. What this means is that Windows 10 \(and Windows 7\) include Drivers to handle all Realtek Audio Cards, without a bloated application. You will probably lose Surround Sound on some models, but for Enterprise use, this is not a big hit.
 
 | Action | Recovered Space | New Repository Size |
 | :--- | :--- | :--- |
@@ -623,7 +605,7 @@ By far this is the easiest decision to make.  If you want basic functionality fr
 
 Remove 52 instances of these Drivers
 
-```
+```text
 Win10_Latitude3x40_A01\Latitude3x40\win10\x64\audio\5P33P
 Win10_LatitudeE10_A01\LatitudeE10\WIN10\x64\Audio\M3Y66
 Win10_LatitudeE5_A02\LatitudeE5\win10\x64\audio\5P33P
@@ -680,7 +662,7 @@ Win10_VenuePro4_A11\VenuePro4\win10\x64\audio\FVHVT
 
 And now 27 of 28 Driver Packs are less than 1 GB
 
-```
+```text
 Win10_Latitude3x40_A01        0.05 GB*
 Win10_LatitudeE5_A02          0.15 GB*
 Win10_LatitudeE6XFR_A04       0.19 GB*
@@ -711,11 +693,9 @@ Win10_VenuePro3_A03           0.18 GB*
 Win10_VenuePro4_A11           0.19 GB*
 ```
 
----
-
 ## Extra Cleanup
 
-A closer look at the Latitude E6 CAB shows that things aren't quite efficient.  There are apparently Touchpad Drivers in one Driver Set that apply to every OS.
+A closer look at the Latitude E6 CAB shows that things aren't quite efficient. There are apparently Touchpad Drivers in one Driver Set that apply to every OS.
 
 | Action | Recovered Space | New Repository Size |
 | :--- | :--- | :--- |
@@ -723,7 +703,7 @@ A closer look at the Latitude E6 CAB shows that things aren't quite efficient.  
 
 These directories can be easily removed.
 
-```
+```text
 Win10_LatitudeE6_A10\LatitudeE6\win10\x64\Input\WWVKD\Windows10-x86
 Win10_LatitudeE6_A10\LatitudeE6\win10\x64\Input\WWVKD\Windows7-x64
 Win10_LatitudeE6_A10\LatitudeE6\win10\x64\Input\WWVKD\Windows7-x86
@@ -737,7 +717,7 @@ Win10_LatitudeE6_A10\LatitudeE6\win10\x64\Input\WWVKD\Windows9-x86
 
 Now that's more like it
 
-```
+```text
 Win10_Latitude3x40_A01        0.05 GB*
 Win10_LatitudeE5_A02          0.15 GB*
 Win10_LatitudeE6XFR_A04       0.19 GB*
@@ -768,8 +748,6 @@ Win10_VenuePro3_A03           0.18 GB*
 Win10_VenuePro4_A11           0.19 GB*
 ```
 
----
-
 ## Advanced Driver Optimization CAB Compression
 
 Now that we have cleaned out our Drivers, let's compress them into CAB files so we can easily work with them.
@@ -780,5 +758,5 @@ Now that we have cleaned out our Drivers, let's compress them into CAB files so 
 
 Here is how they look visually, sorted by size, with the largest CAB topping out at 400 MB.
 
-![](/assets/2-2-2018 2-38-35 AM.png)And yes, you can absolutely use these in your OS Deployment, which I will explain how to create CAB files and use them in a separate post.
+![](../../.gitbook/assets/2-2-2018-2-38-35-am.png)And yes, you can absolutely use these in your OS Deployment, which I will explain how to create CAB files and use them in a separate post.
 

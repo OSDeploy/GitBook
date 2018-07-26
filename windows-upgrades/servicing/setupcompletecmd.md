@@ -2,7 +2,7 @@
 
 C:\ProgramData\OSUpgrade\SetupComplete.cmd
 
-```
+```text
 @echo off
 
 ::====================================================================================
@@ -34,6 +34,4 @@ if exist %psfile% (
    Powershell.exe -ExecutionPolicy Bypass -File %psfile% -WindowStyle Hidden
 )
 ```
-
-
 

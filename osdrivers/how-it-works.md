@@ -1,28 +1,22 @@
 # How It Works
 
-OSDrivers is a method of applying Drivers to a Computer during OS Deployment \(MDT or ConfigMgr\), or Stand Alone.  A TXT answer file provides all the information necessary to determine if a Driver should be applied to a system.  The main benefit of using this method is that it does not require a Web Service or any other external dependencies.  A secondary benefit is that compressed CAB files can be used to reduce the size of the Driver Repository.
-
----
+OSDrivers is a method of applying Drivers to a Computer during OS Deployment \(MDT or ConfigMgr\), or Stand Alone. A TXT answer file provides all the information necessary to determine if a Driver should be applied to a system. The main benefit of using this method is that it does not require a Web Service or any other external dependencies. A secondary benefit is that compressed CAB files can be used to reduce the size of the Driver Repository.
 
 ## OSDrivers.vbs
 
-The first component of OSDrivers is the VBS Script.  It executes in both WinPE or a running OS and processes files in any child directories.  In the screenshot below, it will process files in the OSD directory, which contains Video CAB files.
+The first component of OSDrivers is the VBS Script. It executes in both WinPE or a running OS and processes files in any child directories. In the screenshot below, it will process files in the OSD directory, which contains Video CAB files.
 
-![](/assets/2018-02-08_16-10-38.png)
-
----
+![](../.gitbook/assets/2018-02-08_16-10-38.png)
 
 ## CAB Files
 
-CAB files are compressed Drivers.  In the screenshot below, there are three Nvidia CAB files, which different Driver versions.  The name of the CAB file is not important to OSDrivers, but it allows us to easily know what this Driver will apply to.  Additionally, there are TXT files in the same directory that have the same name as the CAB.
+CAB files are compressed Drivers. In the screenshot below, there are three Nvidia CAB files, which different Driver versions. The name of the CAB file is not important to OSDrivers, but it allows us to easily know what this Driver will apply to. Additionally, there are TXT files in the same directory that have the same name as the CAB.
 
-![](/assets/2018-02-08_16-14-36.png)
-
----
+![](../.gitbook/assets/2018-02-08_16-14-36.png)
 
 ## TXT Files
 
-TXT files are what OSDrivers.vbs processes.  There are some simple conditions
+TXT files are what OSDrivers.vbs processes. There are some simple conditions
 
 * TXT file must be encoded in ANSI \(CR LF\)
 * The first line must be \[OSDrivers\] for the OSDrivers.vbs to process it
@@ -33,7 +27,7 @@ TXT files are what OSDrivers.vbs processes.  There are some simple conditions
 
 Everything else is optional and are detailed in a later article.
 
-```
+```text
 [OSDrivers]
 Windows 10 x64 = Yes
 MasterPNPID = VEN_10DE
@@ -62,8 +56,6 @@ PCI\VEN_10DE&DEV_0DC0 = NVIDIA GeForce GT 440
 PCI\VEN_10DE&DEV_0DC0&SUBSYS_082D10DE = NVIDIA GeForce GT 440
 ```
 
----
-
 ## OSDrivers In Action
 
 * OSDrivers.vbs finds a Text file \(line4\)
@@ -73,5 +65,5 @@ PCI\VEN_10DE&DEV_0DC0&SUBSYS_082D10DE = NVIDIA GeForce GT 440
 * Checks for PNPID in Win32\_PnPEntity
 * Match is found, Drivers are extracted
 
-![](/assets/2018-02-09_9-12-40.png)
+![](../.gitbook/assets/2018-02-09_9-12-40.png)
 

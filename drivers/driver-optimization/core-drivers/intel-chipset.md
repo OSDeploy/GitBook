@@ -2,8 +2,6 @@
 
 For Intel Chipset, you only need three Drivers
 
----
-
 ## Download
 
 **Intel Chipset Device Software**

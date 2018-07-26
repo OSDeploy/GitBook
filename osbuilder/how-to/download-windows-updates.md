@@ -8,35 +8,25 @@ In addition you will also need to check for Critical Updates and Adobe Security 
 
 [https://www.catalog.update.microsoft.com/Home.aspx](https://www.catalog.update.microsoft.com/Home.aspx)
 
-Place the Windows Updates in your OSBuilder\Content\UpdateWindows directory.  Each update should be placed in a separate directory matching the supported Operating System
+Place the Windows Updates in your OSBuilder\Content\UpdateWindows directory. Each update should be placed in a separate directory matching the supported Operating System
 
----
-
-### Get-OSBuilder -DownloadUpdates Latest
+## Get-OSBuilder -DownloadUpdates Latest
 
 I publish a list of current Cumulative Updates and Adobe Flash Security Updates online at [https://www.osdeploy.com/osbuilder/updates.json](https://www.osdeploy.com/osbuilder/updates.json)
 
 This list is automatically used by OSBuilder so you can download using Get-OSBuilder
 
-![](/assets/2018-07-19_22-23-10.png)
+![](../../.gitbook/assets/2018-07-19_22-23-10.png)
 
----
-
-### Select Updates
+## Select Updates
 
 Select what you need, or all of them, and press OK.
 
-![](/assets/2018-07-19_23-28-32.png)
+![](../../.gitbook/assets/2018-07-19_23-28-32.png)
 
----
-
-### Get-OSBuilder
+## Get-OSBuilder
 
 You can verify you have Servicing Stacks in OSBuilder by simply running Get-OSBuilder
 
-![](/assets/2018-07-19_23-30-16.png)
-
----
-
-
+![](../../.gitbook/assets/2018-07-19_23-30-16.png)
 

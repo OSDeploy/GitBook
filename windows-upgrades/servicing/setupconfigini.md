@@ -2,7 +2,7 @@
 
 C:\Users\Default\AppData\Local\Microsoft\WSUS\SetupConfig.ini
 
-```
+```text
 [SetupConfig]
 ShowOobe=None
 DynamicUpdate=Disable
@@ -11,8 +11,6 @@ PostOOBE=C:\ProgramData\OSUpgrade\SetupComplete.cmd
 InstallDrivers=C:\ProgramData\OSUpgrade\Drivers
 ReflectDrivers=C:\ProgramData\OSUpgrade\Reflect
 ```
-
----
 
 ## Reference
 
@@ -27,6 +25,4 @@ ReflectDrivers=C:\ProgramData\OSUpgrade\Reflect
 | How to run a post script after a Windows 10 feature upgrade with SetupConfig.ini |
 | :--- |
 | [http://joseespitia.com/2017/06/01/how-to-run-a-post-script-after-a-windows-10-feature-upgrade/](http://joseespitia.com/2017/06/01/how-to-run-a-post-script-after-a-windows-10-feature-upgrade/) |
-
-
 
