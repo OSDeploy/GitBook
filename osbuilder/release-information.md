@@ -1,5 +1,11 @@
 # Release Information
 
+## 18.7.26.\* \(July 26, 2018\)
+
+* Migrated osdeploy.com to updated GitBook framework
+* JSON files used for OSBuilder Module version checking has moved to GitHub
+* JSON files used for DownloadUpdates has moved to GitHub
+
 ## 18.7.25.\* \(July 25, 2018\)
 
 * Resolved an issue where Winpeshl.ini was not removed from WinPE.wim.  If you have created OSBuilds with MSDaRT, they will need to be rebuild or they may fail OS Upgrades
