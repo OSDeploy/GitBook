@@ -6,6 +6,8 @@ If you don't feel like reading through all the documentation, here are the quick
 
 ### 1. Install OSBuilder
 
+> ###### Time Required: 1 Minute
+
 ```
 Install-Module -Name OSBuilder -Scope CurrentUser
 ```
@@ -98,10 +100,9 @@ New-OSBuilderISO
 
 ### Updating your OSBuild with new Cumulative Updates
 
-2) Download Updates \(SSU, CU, Adobe\)
-5) Run the OSMedia Task
-7) Run the OSBuild Task
-
+2\) Download Updates \(SSU, CU, Adobe\)  
+5\) Run the OSMedia Task  
+7\) Run the OSBuild Task
 
 ---
 
