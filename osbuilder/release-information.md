@@ -1,7 +1,8 @@
 # Release Information
 
-## 18.7.26.0 \(July 26, 2018\)
+## 18.7.26.1 \(July 26, 2018\)
 
+* Create a Bootable OS USB with [New-OSBuilderUSB](how-to/create-an-os-usb.md)
 * Migrated [osdeploy.com](https://www.osdeploy.com/) to updated [GitBook](https://www.gitbook.com/) framework
 * JSON files used for OSBuilder Module version checking has moved to [GitHub](https://github.com/OSDeploy/OSBuilderJSON)
   * Previous versions of OSBuilder cannot check for Updates
@@ -9,7 +10,6 @@
   * Previous versions of OSBuilder can no longer check for updated Servicing Stacks, Cumulative Updates, and Adobe Security Updates
 * **New Documentation**
   * [How To: Create an OS USB](how-to/create-an-os-usb.md)
-* Update to PowerShell Module to support "[Create an OS USB](how-to/create-an-os-usb.md)" will be released in OSBuilder 18.7.26.1
 
 ## 18.7.25.\* \(July 25, 2018\)
 
