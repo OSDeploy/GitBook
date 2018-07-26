@@ -2,10 +2,10 @@
 
 ## 18.7.26.0 \(July 26, 2018\)
 
-* Migrated osdeploy.com to updated GitBook framework
-* JSON files used for OSBuilder Module version checking has moved to GitHub
+* Migrated [osdeploy.com](https://www.osdeploy.com/) to updated [GitBook](https://www.gitbook.com/) framework
+* JSON files used for OSBuilder Module version checking has moved to [GitHub](https://github.com/OSDeploy/OSBuilderJSON)
   * Previous versions of OSBuilder cannot check for Updates
-* JSON files used for DownloadUpdates has moved to GitHub
+* JSON files used for DownloadUpdates has moved to [GitHub](https://github.com/OSDeploy/OSBuilderJSON)
   * Previous versions of OSBuilder can no longer check for updated Servicing Stacks, Cumulative Updates, and Adobe Security Updates
 * **New Documentation**
   * [How To: Create an OS USB](how-to/create-an-os-usb.md)
