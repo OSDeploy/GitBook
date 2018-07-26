@@ -1,6 +1,6 @@
 # Quick Instructions
 
-If you don't feel like reading through all the documentation, here are the quick instructions in 10 steps.  These steps can be completed in about **8 minutes of Touch Time, and 54 - 142 minutes of Processing Time**[^1]
+If you don't feel like reading through all the documentation, here are the quick instructions in 10 steps.  These steps can be completed in about **8 minutes of Touch Time, and 54 - 142 minutes of Processing Time**[^1][^2]
 
 ---
 
@@ -131,4 +131,6 @@ New-OSBuilderISO
 ---
 
 [^1]: Estimated time using a Dell Precision 7510 \(Intel Core i7 / 16GB RAM / SSD\) running Windows 10 x64 and NO RUNNING ANTIVIRUS
+
+[^2]: Low estimate calculated updating the previous month CU and only NetFX3 modifications in the OSBuild Task
 
