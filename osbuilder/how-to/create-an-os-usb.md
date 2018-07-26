@@ -12,8 +12,6 @@ Yes you need it
 
 ![](/assets/2018-07-25_23-52-10.png)
 
-
-
 ---
 
 ### -USBLabel "Ent1803 x64"
@@ -54,9 +52,11 @@ And files will be copied.  Be patient, especially when it starts copying the Ins
 
 ### Complete
 
+Enjoy!
 
+![](/assets/2018-07-25_23-57-34.png)
 
-
+---
 
 
 
