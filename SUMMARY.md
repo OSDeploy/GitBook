@@ -24,7 +24,7 @@
   * [ExecutionMode - Execute](osbuilder/how-to/executionmode-execute.md)
   * [Show OS Information](osbuilder/how-to/show-os-information.md)
   * [Update your Updates](osbuilder/how-to/update-your-updates.md)
-  * [Create an ISO](osbuilder/how-to/create-an-iso.md)
+  * [Create an OS ISO](osbuilder/how-to/create-an-iso.md)
 * [Knowledge](osbuilder/knowledge/README.md)
   * [Offline Servicing](osbuilder/knowledge/offline-servicing.md)
   * [Servicing Stacks](osmedia/knowledge/servicing-stacks.md)

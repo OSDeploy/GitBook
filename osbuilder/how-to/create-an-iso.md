@@ -1,4 +1,4 @@
-# Create an ISO
+# Create an OS ISO
 
 Starting in OSBuilder 18.7.16.1, you can now create an ISO from any OSMedia or OSBuild using **New-OSBuilderISO**
 
@@ -20,22 +20,13 @@ There are no parameters.  When running, simply multi-select the OSMedia or OSBui
 
 The ISO's will automatically be generated
 
-![](/assets/2018-07-16_11-03-30.png)  
-
+![](/assets/2018-07-16_11-03-30.png)
 
 And saved within an ISO directory of your OSMedia or OSBuild.  Enjoy!
 
 ![](/assets/2018-07-16_11-11-47.png)
 
-
-
 ---
-
-
-
-
-
-
 
 
 
