@@ -1,6 +1,6 @@
 # Import an Operating System
 
-{% youtube src="https://www.youtube.com/watch?v=m0Epj1RaDEc" %}{% endyoutube %}
+[https://youtu.be/m0Epj1RaDEc](https://youtu.be/m0Epj1RaDEc)
 
 The next step is to import an Operating System. In this example I have two mounted ISO's, Windows 10 1709 x64 and Windows 10 1803 x64.
 
