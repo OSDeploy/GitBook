@@ -1,5 +1,7 @@
 # Import an Operating System
 
+{% youtube src="https://www.youtube.com/watch?v=m0Epj1RaDEc" %}{% endyoutube %}
+
 The next step is to import an Operating System. In this example I have two mounted ISO's, Windows 10 1709 x64 and Windows 10 1803 x64.
 
 ![](../../.gitbook/assets/2018-07-10_14-04-39.png)
