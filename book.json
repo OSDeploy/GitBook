@@ -1,3 +1,6 @@
 {
-    "plugins": ["toggle-chapters"]
+    "plugins": [
+        "toggle-chapters",
+        "youtube"
+    ]
 }
