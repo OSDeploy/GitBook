@@ -8,6 +8,7 @@
 * [Release Information](osbuilder/release-information.md)
 * [Installation](osbuilder/installation.md)
 * [Quick Instructions](osbuilder/quick-instructions.md)
+* [Solutions](osbuilder/solutions.md)
 * [How To](osbuilder/how-to/README.md)
   * [Getting Started](osbuilder/how-to/getting-started.md)
   * [Download Servicing Stacks](osbuilder/how-to/download-servicing-stacks.md)
@@ -34,7 +35,6 @@
   * [Updating an Updated WIM](osbuilder/knowledge/updating-an-updated-wim.md)
   * [OSBuilder OS Information](osbuilder/knowledge/osbuilder-os-information.md)
   * [What Should I Update?](osbuilder/knowledge/what-should-i-update.md)
-* [Untitled](osbuilder/untitled.md)
 
 ## OSConfig - Incomplete
 

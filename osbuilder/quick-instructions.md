@@ -96,8 +96,6 @@ New-OSBuildTask -TaskName "Win10 x64 Ent 1803" -EnableNetFX3
 **Video \(No Audio\):** [https://www.youtube.com/watch?v=X5HYlCeENJg](https://www.youtube.com/watch?v=X5HYlCeENJg&t=2s)
 {% endhint %}
 
-
-
 ## 7. Run the OSBuild Task
 
 > ### Touch Time Required: 1 Minute
