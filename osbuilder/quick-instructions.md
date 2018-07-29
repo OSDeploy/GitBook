@@ -38,6 +38,8 @@ Import-OSMedia
 
 [https://www.osdeploy.com/osbuilder/how-to/import-an-operating-system.html](https://www.osdeploy.com/osbuilder/how-to/import-an-operating-system.html)
 
+[https://www.youtube.com/watch?v=m0Epj1RaDEc](https://www.youtube.com/watch?v=m0Epj1RaDEc)
+
 ## 4. Create an OSMedia Task
 
 > ### Touch Time Required: 1 Minute
