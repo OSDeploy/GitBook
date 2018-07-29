@@ -10,7 +10,9 @@ If you don't feel like reading through all the documentation, here are the quick
 Install-Module -Name OSBuilder -Scope CurrentUser
 ```
 
-[https://www.osdeploy.com/osbuilder/installation.html](https://www.osdeploy.com/osbuilder/installation.html)
+{% hint style="info" %}
+How To: [https://www.osdeploy.com/osbuilder/installation.html](https://www.osdeploy.com/osbuilder/installation.html)
+{% endhint %}
 
 ## 2. Download Updates \(SSU, CU, Adobe\)
 
@@ -22,9 +24,11 @@ Install-Module -Name OSBuilder -Scope CurrentUser
 Get-OSBuilder -DownloadUpdates Latest
 ```
 
-[https://www.osdeploy.com/osbuilder/how-to/download-servicing-stacks.html](https://www.osdeploy.com/osbuilder/how-to/download-servicing-stacks.html)
+{% hint style="info" %}
+How To: [https://www.osdeploy.com/osbuilder/how-to/download-servicing-stacks.html](https://www.osdeploy.com/osbuilder/how-to/download-servicing-stacks.html)
 
-[https://www.osdeploy.com/osbuilder/how-to/download-windows-updates.html](https://www.osdeploy.com/osbuilder/how-to/download-windows-updates.html)
+How To: [https://www.osdeploy.com/osbuilder/how-to/download-windows-updates.html](https://www.osdeploy.com/osbuilder/how-to/download-windows-updates.html)
+{% endhint %}
 
 ## 3. Import an Operating System
 
@@ -36,9 +40,11 @@ Get-OSBuilder -DownloadUpdates Latest
 Import-OSMedia
 ```
 
-[https://www.osdeploy.com/osbuilder/how-to/import-an-operating-system.html](https://www.osdeploy.com/osbuilder/how-to/import-an-operating-system.html)
+{% hint style="info" %}
+Details: [https://www.osdeploy.com/osbuilder/how-to/import-an-operating-system.html](https://www.osdeploy.com/osbuilder/how-to/import-an-operating-system.html)
 
-[https://www.youtube.com/watch?v=m0Epj1RaDEc](https://www.youtube.com/watch?v=m0Epj1RaDEc)
+Video \(no Audio\): [https://www.youtube.com/watch?v=m0Epj1RaDEc](https://www.youtube.com/watch?v=m0Epj1RaDEc)
+{% endhint %}
 
 ## 4. Create an OSMedia Task
 
