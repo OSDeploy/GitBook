@@ -79,7 +79,7 @@ Adam Gross encountered an issue when upgrading Windows 7 to Windows 10 in a CM T
 
 [http://www.asquaredozen.com/2018/01/16/windows-7-windows-10-fall-creators-update-1709-place-upgrade-fails-error-0xc1900204-invalid-sku/](http://www.asquaredozen.com/2018/01/16/windows-7-windows-10-fall-creators-update-1709-place-upgrade-fails-error-0xc1900204-invalid-sku/)
 
-According to Microsoft, the product key is not required, but apparently in the case of a Multi-Index Install.wim you do.
+According to Microsoft, the product key is not required, but apparently in the case of a Multi-Index Install.wim you have to.
 
 {% hint style="info" %}
 [Microsoft: Create a task sequence to upgrade an operating system in System Center Configuration Manager](https://docs.microsoft.com/en-us/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
