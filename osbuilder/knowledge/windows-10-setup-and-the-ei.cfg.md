@@ -73,3 +73,27 @@ When using the AutoUnattend.xml, include the WillShowUI entry with a value of Ne
 </unattend>
 ```
 
+### Upgrade Issues
+
+Adam Gross encountered an issue when upgrading Windows 7 to Windows 10 in a CM Task Sequence that started happening on version 1709 \(Multi Index\) 
+
+[http://www.asquaredozen.com/2018/01/16/windows-7-windows-10-fall-creators-update-1709-place-upgrade-fails-error-0xc1900204-invalid-sku/](http://www.asquaredozen.com/2018/01/16/windows-7-windows-10-fall-creators-update-1709-place-upgrade-fails-error-0xc1900204-invalid-sku/)
+
+According to Microsoft, the product key is not required, but apparently in the case of a Multi-Index Install.wim you do.
+
+{% hint style="info" %}
+[Microsoft: Create a task sequence to upgrade an operating system in System Center Configuration Manager](https://docs.microsoft.com/en-us/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
+{% endhint %}
+
+![](../../.gitbook/assets/2018-07-29_15-15-55.png)
+
+### OSDeploy Recommendation
+
+To reduce the risk of any issues, always include the proper KMS Client Setup Key in the Task Sequence.  **No changes to OSBuilder to modify the ei.cfg are planned unless I receive confirmation that it needs to be edited.  Since all OSMedia imported in OSBuilder is a Single Index, it appears that this issue will not occur.**
+
+[See this link for more information](https://answers.microsoft.com/en-us/windows/forum/windows_7-windows_install-winsubother/windows-10-1709-compatability-check-failure/8c41147b-d51a-47ef-a5f3-2d0bad204f3f)
+
+![](../../.gitbook/assets/2018-07-29_15-23-36.png)
+
+
+
