@@ -1,7 +1,3 @@
----
-description: Technical Stuff
----
-
 # Knowledge
 
 * [Offline Servicing](offline-servicing.md)
