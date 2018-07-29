@@ -11,7 +11,7 @@ Install-Module -Name OSBuilder -Scope CurrentUser
 ```
 
 {% hint style="info" %}
-How To: [https://www.osdeploy.com/osbuilder/installation.html](https://www.osdeploy.com/osbuilder/installation.html)
+**How To:** [https://www.osdeploy.com/osbuilder/installation.html](https://www.osdeploy.com/osbuilder/installation.html)
 {% endhint %}
 
 ## 2. Download Updates \(SSU, CU, Adobe\)
@@ -25,9 +25,9 @@ Get-OSBuilder -DownloadUpdates Latest
 ```
 
 {% hint style="info" %}
-How To: [https://www.osdeploy.com/osbuilder/how-to/download-servicing-stacks.html](https://www.osdeploy.com/osbuilder/how-to/download-servicing-stacks.html)
+**How To:** [https://www.osdeploy.com/osbuilder/how-to/download-servicing-stacks.html](https://www.osdeploy.com/osbuilder/how-to/download-servicing-stacks.html)
 
-How To: [https://www.osdeploy.com/osbuilder/how-to/download-windows-updates.html](https://www.osdeploy.com/osbuilder/how-to/download-windows-updates.html)
+**How To:** [https://www.osdeploy.com/osbuilder/how-to/download-windows-updates.html](https://www.osdeploy.com/osbuilder/how-to/download-windows-updates.html)
 {% endhint %}
 
 ## 3. Import an Operating System
@@ -41,9 +41,9 @@ Import-OSMedia
 ```
 
 {% hint style="info" %}
-Details: [https://www.osdeploy.com/osbuilder/how-to/import-an-operating-system.html](https://www.osdeploy.com/osbuilder/how-to/import-an-operating-system.html)
+**How To:** [https://www.osdeploy.com/osbuilder/how-to/import-an-operating-system.html](https://www.osdeploy.com/osbuilder/how-to/import-an-operating-system.html)
 
-Video \(no Audio\): [https://www.youtube.com/watch?v=m0Epj1RaDEc](https://www.youtube.com/watch?v=m0Epj1RaDEc)
+**Video \(no Audio\):** [https://www.youtube.com/watch?v=m0Epj1RaDEc](https://www.youtube.com/watch?v=m0Epj1RaDEc)
 {% endhint %}
 
 ## 4. Create an OSMedia Task
@@ -54,9 +54,13 @@ Video \(no Audio\): [https://www.youtube.com/watch?v=m0Epj1RaDEc](https://www.yo
 New-OSMediaTask -TaskName "Win10 Ent x64 1803"
 ```
 
-Select the OS that was imported in Step 3
+{% hint style="info" %}
+**Select the OS that was imported in Step 3**
 
-[https://www.osdeploy.com/osbuilder/how-to/create-an-osmedia-task.html](https://www.osdeploy.com/osbuilder/how-to/create-an-osmedia-task.html)
+**How To:** [https://www.osdeploy.com/osbuilder/how-to/create-an-osmedia-task.html](https://www.osdeploy.com/osbuilder/how-to/create-an-osmedia-task.html)
+
+**Video \(No Audio\):** [https://www.youtube.com/watch?v=7FgRFGA-s7Q](https://www.youtube.com/watch?v=7FgRFGA-s7Q&t=4s)
+{% endhint %}
 
 ## 5. Run the OSMedia Task
 
@@ -68,9 +72,13 @@ Select the OS that was imported in Step 3
 Invoke-OSBuilderTask -ExecutionMode Execute
 ```
 
-Select the OSMedia Task that was created in Step 4
+{% hint style="info" %}
+**Select the OSMedia Task that was created in Step 4**
 
-[https://www.osdeploy.com/osbuilder/how-to/executionmode-execute.html](https://www.osdeploy.com/osbuilder/how-to/executionmode-execute.html)
+**How To:** [https://www.osdeploy.com/osbuilder/how-to/executionmode-execute.html](https://www.osdeploy.com/osbuilder/how-to/executionmode-execute.html)
+
+**Video \(No Audio\):** [https://www.youtube.com/watch?v=wHntrwdPhXs](https://www.youtube.com/watch?v=wHntrwdPhXs)
+{% endhint %}
 
 ## 6. Create an OSBuild Task
 
@@ -80,9 +88,15 @@ Select the OSMedia Task that was created in Step 4
 New-OSBuildTask -TaskName "Win10 x64 Ent 1803" -EnableNetFX3
 ```
 
-Select the updated OSMedia that was created in Step 5
+{% hint style="info" %}
+**Select the updated OSMedia that was created in Step 5**
 
-[https://www.osdeploy.com/osbuilder/how-to/create-an-osbuild-task.html](https://www.osdeploy.com/osbuilder/how-to/create-an-osbuild-task.html)
+**How To:** [https://www.osdeploy.com/osbuilder/how-to/create-an-osbuild-task.html](https://www.osdeploy.com/osbuilder/how-to/create-an-osbuild-task.html)
+
+**Video \(No Audio\):** [https://www.youtube.com/watch?v=X5HYlCeENJg](https://www.youtube.com/watch?v=X5HYlCeENJg&t=2s)
+{% endhint %}
+
+
 
 ## 7. Run the OSBuild Task
 
@@ -94,9 +108,13 @@ Select the updated OSMedia that was created in Step 5
 Invoke-OSBuilderTask -ExecutionMode Execute
 ```
 
-Select the OSBuild Task that was created in Step 6
+{% hint style="info" %}
+**Select the OSBuild Task that was created in Step 6**
 
-[https://www.osdeploy.com/osbuilder/how-to/executionmode-execute.html](https://www.osdeploy.com/osbuilder/how-to/executionmode-execute.html)
+**How To:** [https://www.osdeploy.com/osbuilder/how-to/executionmode-execute.html](https://www.osdeploy.com/osbuilder/how-to/executionmode-execute.html)
+
+**Video \(No Audio\):** [https://www.youtube.com/watch?v=17lYVdD89J0](https://www.youtube.com/watch?v=17lYVdD89J0)
+{% endhint %}
 
 ## 8. Create an ISO
 
@@ -108,9 +126,11 @@ Select the OSBuild Task that was created in Step 6
 New-OSBuilderISO
 ```
 
-Select the OSBuild that was created in Step 7
+{% hint style="info" %}
+**Select the OSBuild that was created in Step 7**
 
-[https://www.osdeploy.com/osbuilder/how-to/create-an-iso.html](https://www.osdeploy.com/osbuilder/how-to/create-an-iso.html)
+**How To:** [https://www.osdeploy.com/osbuilder/how-to/create-an-iso.html](https://www.osdeploy.com/osbuilder/how-to/create-an-iso.html)
+{% endhint %}
 
 ## 9. ???
 
@@ -120,7 +140,11 @@ Select the OSBuild that was created in Step 7
 
 ## Updating your OSBuild with new Cumulative Updates
 
-2\) Download Updates \(SSU, CU, Adobe\)  
+{% hint style="info" %}
+**2\) Download Updates \(SSU, CU, Adobe\)  
 5\) Run the OSMedia Task \(it will automatically select the newest OSMedia\)  
-7\) Run the OSBuild Task \(it will automatically select the newest OSMedia\)
+7\) Run the OSBuild Task \(it will automatically select the newest OSMedia\)**
+{% endhint %}
+
+
 
