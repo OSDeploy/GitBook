@@ -10,7 +10,9 @@ I strongly recommend using a Workstation class system in performing these update
 
 Since OSBuilder will mount Windows Images, I strongly recommend that you do not have any running Anti-Virus scanning files ON ACCESS. McAfee will prevent the dismounting of images properly.
 
-**Work with OSBuilder in a clean Virtual Machine \(with 4 Cores and 16GB of RAM minimum\) or a stand alone Workgroup Computer**
+{% hint style="info" %}
+OSBuilder works best on a stand alone Workgroup computer without an AntiVirus performing On Access Scanning.  Use a Virtual Machine \(with some power\) as an alternate solution
+{% endhint %}
 
 ## Admin Rights
 
@@ -18,7 +20,7 @@ OSBuilder requires Admin Rights in PowerShell as you will be manipulating Window
 
 ## Supported Operating Systems
 
-OSBuilder currently supports Windows 10. I am updating the logic to work with Windows Server 2016 in the next few weeks
+OSBuilder run perfectly in Windows 10.  You can work with Images based on Windows 10 or Windows Server 2016.
 
 ## OSMedia
 
