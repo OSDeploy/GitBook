@@ -27,6 +27,7 @@
   * [Update your Updates](osbuilder/how-to/update-your-updates-1.md)
   * [Create an OS ISO](osbuilder/how-to/create-an-iso.md)
   * [Create an OS USB](osbuilder/how-to/create-an-os-usb.md)
+  * [OSBuild WinPE Scripts](osbuilder/how-to/osbuild-winpe-scripts.md)
 * [Knowledge](osbuilder/knowledge/README.md)
   * [Offline Servicing](osbuilder/knowledge/offline-servicing.md)
   * [Servicing Stacks](osbuilder/knowledge/servicing-stacks.md)
