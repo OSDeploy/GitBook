@@ -1,5 +1,31 @@
 # Release Information
 
+## 18.8.2.\* \(August 2, 2018\)
+
+**This update is all about customizing WinPE!**
+
+* New-OSMediaTask now validates Admin Rights are required
+* New-OSBuilderISO now displays the Parent directory \(OSMedia and OSBuilds\)
+* Get-OSBuilder will create the following new directories
+  * OSBuilder\Content\WinPE\ADK\Win10 x64 1709
+  * OSBuilder\Content\WinPE\ADK\Win10 x64 1803
+  * OSBuilder\Content\ExtraFiles
+  * OSBuilder\Content\Scripts
+* New-OSBuildTask
+  * Validates Admin Rights are required
+  * Corrected selecting MSDaRT CAB to -OutputMode Single
+  * Added prompted selection of WinPE Scripts
+  * Added prompted selection of WinPE Extra Files
+  * Added prompted selection of WinPE ADK Packages
+* Invoke-OSBuilderTask
+  * Added support for WinPE Scripts
+  * Added support for WinPE Extra Files
+  * Added support for WinPE ADK Packages
+* **New Documentation**
+  * [How To: OSBuild WinPE Scripts](how-to/osbuild-winpe-scripts.md)
+  * [How To: Add ADK Packages to WinPE](how-to/add-adk-packages-to-winpe.md)
+  * [How To: Add Extra Files to WinPE](how-to/add-extra-files-to-winpe.md)
+
 ## 18.7.26.1 \(July 26, 2018\)
 
 * Create a Bootable OS USB with [New-OSBuilderUSB](how-to/create-an-os-usb.md)
