@@ -28,6 +28,7 @@
   * [Create an OS ISO](osbuilder/how-to/create-an-iso.md)
   * [Create an OS USB](osbuilder/how-to/create-an-os-usb.md)
   * [OSBuild WinPE Scripts](osbuilder/how-to/osbuild-winpe-scripts.md)
+  * [Add ADK Packages to WinPE](osbuilder/how-to/add-adk-packages-to-winpe.md)
 * [Knowledge](osbuilder/knowledge/README.md)
   * [Offline Servicing](osbuilder/knowledge/offline-servicing.md)
   * [Servicing Stacks](osbuilder/knowledge/servicing-stacks.md)
