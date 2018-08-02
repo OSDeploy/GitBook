@@ -146,7 +146,7 @@ robocopy "$MountDirectory\Windows\System32" "$OS\sources" *.* /e /ndl /xo /xx /x
 
 Repeat this step with your mounted Install.wim. This will ensure that DEVINV is the proper version and prevent issues. For more information about this issue, see these articles
 
-[http://www.asquaredozen.com/2018/01/16/windows-7-windows-10-fall-creators-update-1709-place-upgrade-fails-error-0xc1900204-invalid-sku/](http://www.asquaredozen.com/2018/01/16/windows-7-windows-10-fall-creators-update-1709-place-upgrade-fails-error-0xc1900204-invalid-sku/)
+[http://www.asquaredozen.com/2018/05/21/windows-10-1709-in-place-upgrade-hangs-on-making-sure-youre-ready-to-install/](http://www.asquaredozen.com/2018/05/21/windows-10-1709-in-place-upgrade-hangs-on-making-sure-youre-ready-to-install/)
 
 [http://blog.ctglobalservices.com/configuration-manager-sccm/mag/devicemap-and-device-inventory-failures-in-win7-to-win10-1709-in-place-upgrades/](http://blog.ctglobalservices.com/configuration-manager-sccm/mag/devicemap-and-device-inventory-failures-in-win7-to-win10-1709-in-place-upgrades/)
 
