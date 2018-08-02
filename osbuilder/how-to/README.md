@@ -18,9 +18,9 @@ Full instructions on how to use OSBuilder is on the following pages. I recommend
 * [Show OS Information](show-os-information.md)
 * [Create an OS ISO](create-an-iso.md)
 * [Create an OS USB](create-an-os-usb.md)
-* Add Drivers to WinPE
+* [Add Drivers to WinPE](add-drivers-to-winpe.md)
+* [Add DaRT to WinPE](add-dart-to-winpe.md)
 * [OSBuild WinPE Scripts](osbuild-winpe-scripts.md)
 * [Add ADK Packages to WinPE](add-adk-packages-to-winpe.md)
 * [Add Extra Files to WinPE](add-extra-files-to-winpe.md)
-* [Add DaRT to WinPE](add-dart-to-winpe.md)
 
