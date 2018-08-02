@@ -22,6 +22,8 @@
   * Added support for WinPE Extra Files
   * Added support for WinPE ADK Packages
 * **New Documentation**
+  * [How To: Add Drivers to WinPE](how-to/add-drivers-to-winpe.md)
+  * [How To: Add DaRT to WinPE](how-to/add-dart-to-winpe.md)
   * [How To: OSBuild WinPE Scripts](how-to/osbuild-winpe-scripts.md)
   * [How To: Add ADK Packages to WinPE](how-to/add-adk-packages-to-winpe.md)
   * [How To: Add Extra Files to WinPE](how-to/add-extra-files-to-winpe.md)
