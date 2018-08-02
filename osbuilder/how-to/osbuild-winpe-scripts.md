@@ -16,3 +16,16 @@ During **Invoke-OSBuilder** when running the **OSBuild Task**, the selected scri
 
 ![](../../.gitbook/assets/2018-08-02_1-39-06.png)
 
+### Using OSBuilder Variables
+
+With a simple change to the above script, you can easily see all the Variables that you can use within OSBuilder
+
+```text
+Get-Variable | Select-Object -Property Name, Value | Format-Table
+[void](Read-Host 'Press Enter to continue')
+```
+
+![OSBuilder Variables highlighted in Yellow with Black Background](../../.gitbook/assets/2018-08-02_10-14-42.png)
+
+
+
