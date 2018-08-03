@@ -12,7 +12,9 @@ Since the configuration is also saved in a Task, it is possible to select multip
 
 Most people are visual, so to help you understand how OSBuilder will work, here is the OSBuilder Lifecycle. So let's talk about how this works.
 
-### ![](../.gitbook/assets/2018-07-21_23-10-22.png)Patch Tuesday
+![](../.gitbook/assets/2018-07-21_23-10-22.png)
+
+### Patch Tuesday
 
 On Patch Tuesday, download your required bits into OSBuilder using the following command
 
