@@ -23,4 +23,5 @@ Full instructions on how to use OSBuilder is on the following pages. I recommend
 * [OSBuild WinPE Scripts](osbuild-winpe-scripts.md)
 * [Add ADK Packages to WinPE](add-adk-packages-to-winpe.md)
 * [Add Extra Files to WinPE](add-extra-files-to-winpe.md)
+* [Windows Setup with DaRT Remote Connection](windows-setup-with-dart-remote-connection.md)
 
