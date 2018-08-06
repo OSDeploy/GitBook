@@ -58,6 +58,8 @@ How can this be?  The pubDate shows that this was updated August 2 . . . Take a 
 
 ![](../../.gitbook/assets/2018-08-06_12-30-06.png)
 
+### Microsoft Update Catalog
+
 Ok, let's try Microsoft Update Catalog to see if we can somehow determine the latest Cumulative Update
 
 [https://www.catalog.update.microsoft.com/Search.aspx?q=2018-07+Cumulative+1803+Windows+10+x64](https://www.catalog.update.microsoft.com/Search.aspx?q=2018-07+Cumulative+1803+Windows+10+x64)
