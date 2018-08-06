@@ -42,6 +42,7 @@
   * [OSBuilder OS Information](osbuilder/knowledge/osbuilder-os-information.md)
   * [What Should I Update?](osbuilder/knowledge/what-should-i-update.md)
   * [Windows 10 Setup and the ei.cfg](osbuilder/knowledge/windows-10-setup-and-the-ei.cfg.md)
+  * [Automating Windows Update Downloads](osbuilder/knowledge/automating-windows-update-downloads.md)
 
 ## OSConfig
 
