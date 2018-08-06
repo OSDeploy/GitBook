@@ -82,7 +82,7 @@ So I have pointed out issues with using RSS and Microsoft Update Catalog, so wha
 
 If you decide you want to Automate your downloads of Windows Updates, be cautious as you have no way of knowing if your Automatic download is actually pulling the right updates.  If YOU are integrating updates in your Windows Image, YOU are responsible, and YOU should be aware of what you are putting in your Image.
 
-If you are one of the many people that have ever applied a Cumulative Update without installing a Servicing Stack, and never took the time to look in the DISM log to see if it actually installed, then automating too much will get you burned.
+If you are one of the many people that have ever applied a Cumulative Update without installing a Servicing Stack, and never took the time to look in the DISM log to see if it actually installed, then automating too much has burned you already.
 
 I can absolutely integrate full automation of the SSU and CU's, but one thing I can say is that I TEST the integration of CU's and SSU's before I add them to the JSON files so you can download them.  We have three points of data to get the updates, Microsoft Update Catalog, Microsoft RSS, and Microsoft Update History.  I have pointed out issues with all three of them.  Until there is a 100% accurate sources for identifying which are the accurate updates to download, you do NOT want this automated.  I validate all three sources, YOU should validate my work as well.
 
