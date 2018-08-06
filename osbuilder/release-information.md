@@ -6,7 +6,7 @@
 
 ## 18.8.5.\* \(August 5, 2018\)
 
-* 18.8.5.0 Extra Files now uses Robocopy /b to resolve replacing WIM files protected by Trusted Installer
+* Extra Files now uses Robocopy /b to resolve replacing files protected by Trusted Installer in the Install.wim
 
 ## 18.8.2.\* \(August 2, 2018\)
 
