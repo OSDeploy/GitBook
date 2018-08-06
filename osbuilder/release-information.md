@@ -2,7 +2,9 @@
 
 ## 18.8.5.\* \(August 5, 2018\)
 
-* Extra Files now uses Robocopy /b to resolve replacing WIM files protected by Trusted Installer
+* 18.8.5.1 Support for executing PowerShell scripts during an OSBuild Task.  Simply place your scripts in OSBuilder\Content\Scripts and select then when creating an OSBuild Task.
+* Random cleanup of Module
+* 18.8.5.0 Extra Files now uses Robocopy /b to resolve replacing WIM files protected by Trusted Installer
 
 ## 18.8.2.\* \(August 2, 2018\)
 
