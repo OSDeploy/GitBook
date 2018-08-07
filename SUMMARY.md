@@ -49,6 +49,7 @@
 * [Overview](osconfig/overview.md)
 * [Development](osconfig/development/README.md)
   * [MDT Deployment Share](osconfig/development/mdt-deployment-share.md)
+  * [MDT Task Sequence](osconfig/development/mdt-task-sequence.md)
   * [Hyper-V VM Configuration](osconfig/development/hyper-v-vm-configuration.md)
-  * [Task Sequence Test](osconfig/development/task-sequence-test.md)
+  * [MDT Task Sequence Test](osconfig/development/task-sequence-test.md)
 

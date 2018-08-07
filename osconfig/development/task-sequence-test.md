@@ -1,4 +1,4 @@
-# Task Sequence Test
+# MDT Task Sequence Test
 
 Fire up your Hyper-V VM and let it boot to WinPE. Run the Deployment Wizard
 
