@@ -47,8 +47,8 @@
 ## OSConfig
 
 * [Overview](osconfig/overview.md)
-* [OSConfig.Labs](osconfig/osconfig.labs/README.md)
-  * [MDT Dev Share](osconfig/osconfig.labs/mdt-dev-share.md)
-  * [Hyper-V VM Configuration](osconfig/osconfig.labs/hyper-v-vm-configuration.md)
-  * [First Test](osconfig/osconfig.labs/first-test.md)
+* [Development](osconfig/development/README.md)
+  * [MDT Deployment Share](osconfig/development/mdt-deployment-share.md)
+  * [Hyper-V VM Configuration](osconfig/development/hyper-v-vm-configuration.md)
+  * [Task Sequence Test](osconfig/development/task-sequence-test.md)
 
