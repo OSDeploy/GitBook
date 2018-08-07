@@ -1,4 +1,4 @@
-# MDT Development Share
+# MDT Deployment Share
 
 The fastest way to setup and test OSConfig is by creating an MDT Dev Share on your computer and doing your development in Hyper-V.
 
