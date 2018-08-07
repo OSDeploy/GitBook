@@ -26,11 +26,11 @@ Create a Checkpoint when Notepad opens. Close Notepad and the VM should reboot
 
 ![](../../.gitbook/assets/2018-08-07_1-37-53.png)
 
-The VM will restart
+## OSConfig Execution
+
+Windows Setup will reboot the computer and show "Getting ready"
 
 ![](../../.gitbook/assets/2018-08-07_1-40-13.png)
-
-## OSConfig Sucess!
 
 If everything worked right, PowerShell ISE should open
 
