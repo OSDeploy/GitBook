@@ -1,6 +1,6 @@
 # MDT Task Sequence
 
-Take the defaults, don't set an Administrator Password
+Now create a new MDT Task Sequence (take the defaults).  Leave the Administrator password blank
 
 ![](../../.gitbook/assets/2018-08-07_0-11-44.png)
 
