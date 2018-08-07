@@ -94,6 +94,8 @@ Save the file to the following path
 <DeploymentShare>\OSDeploy\OSConfig\OSConfig.ps1
 ```
 
+![](../../.gitbook/assets/2018-08-07_1-43-23.png)
+
 ### Complete
 
 That's it.  Now its time to test . . . 
