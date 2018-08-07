@@ -2,33 +2,33 @@
 
 The fastest way to setup and test OSConfig is by creating an MDT Dev Share on your computer and doing your development in Hyper-V.
 
-### OSConfigLabs Deployment Share
+## OSConfigLabs Deployment Share
 
 Complete the MDT Wizard and create a new Deployment Share called OSConfigLabs
 
 ![](../../.gitbook/assets/2018-08-06_22-56-12.png)
 
-### Import an Operating System
+## Import an Operating System
 
 In my case, I imported Windows 10 Enterprise x64 1803
 
 ![](../../.gitbook/assets/2018-08-06_23-00-23.png)
 
-### Create x64 Boot Image
+## Create x64 Boot Image
 
-No need to create an x86 Boot Image.  Once you uncheck x86, Update the Deployment Share to create the Boot Image ISO.  There is no need to change any other configuration.
+No need to create an x86 Boot Image. Once you uncheck x86, Update the Deployment Share to create the Boot Image ISO. There is no need to change any other configuration.
 
 ![](../../.gitbook/assets/2018-08-06_23-01-42.png)
 
-### Create a New Client Task Sequence
+## Create a New Client Task Sequence
 
 Take the defaults, don't set an Administrator Password
 
 ![](../../.gitbook/assets/2018-08-07_0-11-44.png)
 
-### Edit the Task Sequence
+## Edit the Task Sequence
 
-In the Postinstall Phase, add a **Run Command Line** step right before Restart computer.  Name it Notepad and add the following in the **Command line**
+In the Postinstall Phase, add a **Run Command Line** step right before Restart computer. Name it Notepad and add the following in the **Command line**
 
 ```text
 cmd /c notepad.exe
@@ -54,17 +54,17 @@ Add another Run Command Line as the first step in the State Restore phase
 
 Apply and OK the Task Sequence to save the changes
 
-### Edit Share and NTFS Permissions
+## Edit Share and NTFS Permissions
 
 Make sure you have Full Control in your Share Permissions
 
 ![](../../.gitbook/assets/2018-08-07_0-22-54.png)
 
-And NTFS Full control as well.  You will be copying files back and forth, so this will save some time
+And NTFS Full control as well. You will be copying files back and forth, so this will save some time
 
 ![](../../.gitbook/assets/2018-08-07_0-24-49.png)
 
-### Edit the Task Sequence Unattend.xml
+## Edit the Task Sequence Unattend.xml
 
 Add a new RunSynchronousCommand entry to your Unattend.xml file at &lt;DeploymentShare&gt;\Control\&lt;TaskSequenceID&gt;\Unattend.xml
 
@@ -82,7 +82,7 @@ When complete, it should look like this:
 
 Save and close it.
 
-### Add OSConfig.ps1
+## Add OSConfig.ps1
 
 Download OSConfig.ps1 file at the following link
 
@@ -96,6 +96,7 @@ Save the file to the following path
 
 ![](../../.gitbook/assets/2018-08-07_1-43-23.png)
 
-### Complete
+## Complete
 
-That's it.  Now its time to test . . .
+That's it. Now its time to test . . .
+
