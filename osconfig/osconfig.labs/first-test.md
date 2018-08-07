@@ -30,9 +30,17 @@ The VM will restart
 
 ![](../../.gitbook/assets/2018-08-07_1-40-13.png)
 
+### OSConfig Sucess!
 
+If everything worked right, PowerShell ISE should open
 
+![](../../.gitbook/assets/2018-08-07_1-48-53.png)
 
+And here is full PowerShell ISE running in the Specialize phase . . . notice the path?
 
+![](../../.gitbook/assets/2018-08-07_1-49-16.png)
 
+### What's the Point?
+
+This is the point of OSConfig.  Apply ALL your OS Customizations using PowerShell, before Explorer Shell even loads.
 
