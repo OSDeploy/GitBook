@@ -50,4 +50,5 @@
 * [OSConfig.Labs](osconfig/osconfig.labs/README.md)
   * [MDT Dev Share](osconfig/osconfig.labs/mdt-dev-share.md)
   * [Hyper-V VM Configuration](osconfig/osconfig.labs/hyper-v-vm-configuration.md)
+  * [First Test](osconfig/osconfig.labs/first-test.md)
 
