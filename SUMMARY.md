@@ -46,7 +46,7 @@
 
 ## OSConfig
 
-* [Overview](osconfig/overview/README.md)
-  * [OSConfig.Labs](osconfig/overview/osconfig.labs/README.md)
-    * [MDT Dev Share](osconfig/overview/osconfig.labs/mdt-dev-share.md)
+* [Overview](osconfig/overview.md)
+* [OSConfig.Labs](osconfig/osconfig.labs/README.md)
+  * [MDT Dev Share](osconfig/osconfig.labs/mdt-dev-share.md)
 
