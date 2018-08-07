@@ -86,7 +86,7 @@ Save and close it.
 
 Download OSConfig.ps1 file at the following link
 
-[https://raw.githubusercontent.com/OSDeploy/OSConfig.Labs/master/MDT%20Dev%20Share/OSConfig.ps1](https://raw.githubusercontent.com/OSDeploy/OSConfig.Labs/master/MDT%20Dev%20Share/OSConfig.ps1)
+[https://raw.githubusercontent.com/OSDeploy/OSConfig.Development/master/MDT%20Dev%20Share/OSConfig.ps1](https://raw.githubusercontent.com/OSDeploy/OSConfig.Development/master/MDT%20Dev%20Share/OSConfig.ps1)
 
 Save the file to the following path
 
