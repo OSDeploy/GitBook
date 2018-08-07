@@ -1,8 +1,9 @@
 # Release Information
 
-## 18.8.6.\* \(August 6, 2018\)
+## 18.8.6.1 \(August 6, 2018\)
 
 * Support for executing PowerShell scripts during an OSBuild Task.  Simply place your scripts in OSBuilder\Content\Scripts and select then when creating an OSBuild Task.
+* Resolved issue in WinRE.wim where winpeshl.ini had a -prompt parameter.  Modified to -network.  This caused an issue where Operating System Upgrades would wait for interaction.
 
 ## 18.8.5.\* \(August 5, 2018\)
 
