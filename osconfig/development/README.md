@@ -2,5 +2,9 @@
 
 Since OSConfig is not something I can just hand you to implement right away, you need to go through some development first.
 
-All content in OSConfig.Labs can be downloaded from GitHub at [https://github.com/OSDeploy/OSConfig.Development](https://github.com/OSDeploy/OSConfig.Development)
+The next few articles will detail how to setup a Development Environment
+
+* [MDT Deployment Share](mdt-deployment-share.md)
+* [Hyper-V VM Configuration](hyper-v-vm-configuration.md)
+* [Task Sequence Test](task-sequence-test.md)
 
