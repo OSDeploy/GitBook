@@ -40,9 +40,19 @@ And here is full PowerShell ISE running in the Specialize phase . . . notice the
 
 ![](../../.gitbook/assets/2018-08-07_1-49-16.png)
 
+Close PowerShell ISE and then press Enter to continue the Deployment process.  If you do not see the PowerShell Window, press Alt+Tab
+
+![](../../.gitbook/assets/2018-08-07_2-06-12.png)
+
+And here is the second Notepad step that was added to the Task Sequence.  The point of adding this is to keep the Deployment Process running.  This allows you to save content from the VM to the Deployment Share \(which is why we allow Full Control\)
+
+![](../../.gitbook/assets/2018-08-07_2-12-26.png)
+
+
+
 ### What's the Point?
 
-This is the point of OSConfig.  You now have a hook in your Task Sequence to apply changes to your OS before first login.
+This is the point of OSConfig.  You now have a hook in your Task Sequence to apply changes to your OS before first login.  Youy also have VM Snapshot and method to test your customizations repeatedly with little effort . . . 
 
 Over the next few days, I'll detail how to make customizations to the Logon Screen, Start Layout, Theme, and Local Policies, without using any Reg Hacks.  If you are used to adding multiple steps in your Task Sequences to make these changes, those are no longer necessary.  If you can script the step in PowerShell, then you can add it to your OSConfig.ps1.
 
