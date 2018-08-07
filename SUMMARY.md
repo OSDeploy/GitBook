@@ -49,4 +49,5 @@
 * [Overview](osconfig/overview.md)
 * [OSConfig.Labs](osconfig/osconfig.labs/README.md)
   * [MDT Dev Share](osconfig/osconfig.labs/mdt-dev-share.md)
+  * [Hyper-V VM Configuration](osconfig/osconfig.labs/hyper-v-vm-configuration.md)
 
