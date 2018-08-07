@@ -42,5 +42,9 @@ And here is full PowerShell ISE running in the Specialize phase . . . notice the
 
 ### What's the Point?
 
-This is the point of OSConfig.  Apply ALL your OS Customizations using PowerShell, before Explorer Shell even loads.
+This is the point of OSConfig.  You now have a hook in your Task Sequence to apply changes to your OS before first login.
+
+Over the next few days, I'll detail how to make customizations to the Logon Screen, Start Layout, Theme, and Local Policies, without using any Reg Hacks.  If you are used to adding multiple steps in your Task Sequences to make these changes, those are no longer necessary.  If you can script the step in PowerShell, then you can add it to your OSConfig.ps1.
+
+![](../../.gitbook/assets/2018-08-07_2-03-08.png)
 
