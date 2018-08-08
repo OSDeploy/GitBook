@@ -1,6 +1,6 @@
 # MDT Task Sequence
 
-Now create a new MDT Task Sequence (take the defaults).  Leave the Administrator password blank
+Now create a new MDT Task Sequence \(take the defaults\). Leave the Administrator password blank
 
 ![](../../.gitbook/assets/2018-08-07_0-11-44.png)
 
@@ -28,7 +28,7 @@ In the Options tab, add a 1 to the **Success codes** and check **Continue on err
 
 Add another Run Command Line as the first step in the State Restore phase
 
-![](../../.gitbook/assets/2018-08-07_0-13-21.png)
+![](../../.gitbook/assets/2018-08-07_19-10-14.png)
 
 Apply and OK the Task Sequence to save the changes
 
@@ -76,4 +76,5 @@ Save the file to the following path
 
 ## Complete
 
-That's it. Now its time to test . . .
+That's it. Now its time to get this working in a Virtual Machine
+
