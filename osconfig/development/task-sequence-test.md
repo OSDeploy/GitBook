@@ -46,7 +46,7 @@ Close PowerShell ISE and then press Enter to continue the Deployment process. If
 
 And here is the second Notepad step that was added to the Task Sequence. The purpose of adding this is to keep the Deployment Process running. This allows you to save content from the VM to the Deployment Share \(which is why we allow Full Control\)
 
-![](../../.gitbook/assets/2018-08-07_2-12-26.png)
+![](../../.gitbook/assets/2018-08-07_21-14-46.png)
 
 ## What's the Point?
 
@@ -55,4 +55,6 @@ You now have a hook in your Task Sequence to apply changes to your OS before fir
 Over the next few days, I'll detail how to make customizations to the Logon Screen, Start Layout, Theme, and Local Policies, without using any Reg Hacks. If you are used to adding multiple steps in your Task Sequences to make these changes, those are no longer necessary. If you can script the step in PowerShell, then you can add it to your OSConfig.ps1.
 
 ![](../../.gitbook/assets/2018-08-07_2-03-08.png)
+
+
 
