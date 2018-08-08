@@ -14,7 +14,7 @@ Give it a unique name
 
 Begin
 
-![](../../.gitbook/assets/2018-08-07_1-34-40.png)
+![](../../.gitbook/assets/2018-08-07_20-14-21.png)
 
 And let the OS install
 
