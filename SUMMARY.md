@@ -57,4 +57,5 @@
   * [Theme](osconfig/development/theme.md)
   * [LGPO](osconfig/development/lgpo.md)
   * [Create Local Policies](osconfig/development/create-local-policies.md)
+  * [Apply Local Policies](osconfig/development/apply-local-policies.md)
 
