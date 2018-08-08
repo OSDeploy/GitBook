@@ -2,7 +2,7 @@
 
 Now create a new MDT Task Sequence \(take the defaults\). Leave the Administrator password blank
 
-![](../../.gitbook/assets/2018-08-07_0-11-44.png)
+![](../../.gitbook/assets/2018-08-07_19-48-26.png)
 
 ## Edit the Task Sequence
 
