@@ -32,16 +32,6 @@ Add another Run Command Line as the first step in the State Restore phase
 
 Apply and OK the Task Sequence to save the changes
 
-## Edit Share and NTFS Permissions
-
-Make sure you have Full Control in your Share Permissions
-
-![](../../.gitbook/assets/2018-08-07_0-22-54.png)
-
-And NTFS Full control as well. You will be copying files back and forth, so this will save some time
-
-![](../../.gitbook/assets/2018-08-07_0-24-49.png)
-
 ## Edit the Task Sequence Unattend.xml
 
 Add a new RunSynchronousCommand entry to your Unattend.xml file at &lt;DeploymentShare&gt;\Control\&lt;TaskSequenceID&gt;\Unattend.xml

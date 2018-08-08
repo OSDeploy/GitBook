@@ -30,3 +30,12 @@ You will need to update the Deployment Share to create the Boot Image
 
 ![](../../.gitbook/assets/2018-08-07_19-37-03.png)
 
+## Edit Share and NTFS Permissions
+
+Make sure you have Full Control in your Share Permissions
+
+![](../../.gitbook/assets/2018-08-07_0-22-54.png)
+
+And NTFS Full control as well. You will be copying files back and forth, so this will save some time
+
+![](../../.gitbook/assets/2018-08-07_0-24-49.png)
