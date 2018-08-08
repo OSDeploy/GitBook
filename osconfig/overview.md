@@ -1,4 +1,4 @@
-# Overview
+# OSConfig Overview
 
 OSConfig is a **method** of applying Operating System configuration during a Windows Deployment in One Step, without having multiple steps in your Task Sequence. This allows for **simple** configuration that is **independent** of a Task Sequence.
 

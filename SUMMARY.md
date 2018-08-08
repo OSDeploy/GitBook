@@ -4,7 +4,7 @@
 
 ## OSBuilder
 
-* [Overview](osbuilder/overview.md)
+* [OSBuilder Overview](osbuilder/overview.md)
 * [Release Information](osbuilder/release-information.md)
 * [Installation](osbuilder/installation.md)
 * [Quick Instructions](osbuilder/quick-instructions.md)
@@ -46,7 +46,7 @@
 
 ## OSConfig
 
-* [Overview](osconfig/overview.md)
+* [OSConfig Overview](osconfig/overview.md)
 * [Development](osconfig/development/README.md)
   * [MDT Deployment Share](osconfig/development/mdt-deployment-share.md)
   * [MDT Task Sequence](osconfig/development/mdt-task-sequence.md)
