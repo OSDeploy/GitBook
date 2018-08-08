@@ -56,4 +56,5 @@
   * [Start Layout](osconfig/development/start-layout.md)
   * [Theme](osconfig/development/theme.md)
   * [LGPO](osconfig/development/lgpo.md)
+  * [Create Local Policies](osconfig/development/create-local-policies.md)
 
