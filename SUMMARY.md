@@ -52,4 +52,8 @@
   * [MDT Task Sequence](osconfig/development/mdt-task-sequence.md)
   * [Hyper-V VM Configuration](osconfig/development/hyper-v-vm-configuration.md)
   * [MDT Task Sequence Test](osconfig/development/task-sequence-test.md)
+  * [LockScreen and Wallpaper](osconfig/development/lockscreen-and-wallpaper.md)
+  * [Theme](osconfig/development/theme.md)
+  * [Start Layout](osconfig/development/start-layout.md)
+  * [LGPO](osconfig/development/lgpo.md)
 

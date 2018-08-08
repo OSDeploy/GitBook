@@ -1,22 +1,32 @@
 # MDT Deployment Share
 
-The fastest way to setup and test OSConfig is by creating an MDT Dev Share on your computer and doing your development in Hyper-V.
+The fastest way to setup, customize, and test OSConfig is by creating an MDT Deployment Share on your computer and testing with Hyper-V.
 
-## OSConfigLabs Deployment Share
+{% hint style="warning" %}
+Remember this is "Development", not "Production".  Don't try to use an existing MDT Share
+{% endhint %}
 
-Complete the MDT Wizard and create a new Deployment Share called OSConfigLabs
+## OSConfigDev Deployment Share
 
-![](../../.gitbook/assets/2018-08-06_22-56-12.png)
+Complete the MDT Wizard and create a new Deployment Share called OSConfigDev
+
+![](../../.gitbook/assets/2018-08-07_19-28-32.png)
 
 ## Import an Operating System
 
 In my case, I imported Windows 10 Enterprise x64 1803
 
-![](../../.gitbook/assets/2018-08-06_23-00-23.png)
+![](../../.gitbook/assets/2018-08-07_19-32-57.png)
 
-## Create x64 Boot Image
+## Edit Deployment Share Properties
 
-No need to create an x86 Boot Image. Once you uncheck x86, Update the Deployment Share to create the Boot Image ISO. There is no need to change any other configuration.
+No need to create an x86 Boot Image.  Everything else should be ok
 
-![](../../.gitbook/assets/2018-08-06_23-01-42.png)
+![](../../.gitbook/assets/2018-08-07_19-35-06.png)
+
+### Update Deployment Share
+
+You will need to update the Deployment Share to create the Boot Image
+
+![](../../.gitbook/assets/2018-08-07_19-37-03.png)
 
