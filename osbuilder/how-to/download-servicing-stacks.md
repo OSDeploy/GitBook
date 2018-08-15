@@ -2,17 +2,21 @@
 
 To ensure you don't run into any problems when Servicing a Windows Image Offline, you need to ensure that you have the latest Servicing Stacks.
 
-I strongly recommend you check the Microsoft Update Catalog for additional Critical and Adobe Security Updates at
+{% hint style="info" %}
+Check [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Home.aspx) for the latest Servicing Stacks
+{% endhint %}
 
-[https://www.catalog.update.microsoft.com/Home.aspx](https://www.catalog.update.microsoft.com/Home.aspx)
-
-Place them in your OSBuilder\Content\UpdateStacks directory. Each update should be placed in a separate directory matching the supported Operating System
+You can download them manually and place them in your OSBuilder\Content\UpdateStacks directory. Each update should be placed in a separate directory matching the supported Operating System
 
 ## Get-OSBuilder -DownloadUpdates Latest
 
-I publish a list of current Servicing Stacks online at [https://www.osdeploy.com/osbuilder/stacks.json](https://www.osdeploy.com/osbuilder/stacks.json)
+I publish a list of current Servicing Stacks online that are used by OSBuilder online
 
-This list is automatically used by OSBuilder so you can download using Get-OSBuilder
+{% hint style="info" %}
+Servicing Stacks in OSBuilder are checked linked with [GitHub](https://raw.githubusercontent.com/OSDeploy/OSBuilderJSON/master/stacks.json)
+{% endhint %}
+
+The Servicing Stacks I update are available so you can download them using Get-OSBuilder -DownloadUpdates Latest
 
 ![](../../.gitbook/assets/2018-07-19_22-23-10.png)
 
