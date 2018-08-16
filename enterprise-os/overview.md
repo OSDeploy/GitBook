@@ -36,13 +36,13 @@ Since LGPO only applies Policies and not Preferences, simply add a PowerShell sc
 
 And as soon as Windows starts for the first time, everything is configured exactly how you want it.  Fully customized without multiple steps in the Task Sequence.
 
-![](../.gitbook/assets/2018-08-16_15-17-48.png)
+![Removed Logon Background Image](../.gitbook/assets/2018-08-16_15-17-48.png)
 
-![](../.gitbook/assets/2018-08-16_15-19-06.png)
+![Desktop Icons, Taskbar Customizations, Theme, and Wallpaper](../.gitbook/assets/2018-08-16_15-19-06.png)
 
-![](../.gitbook/assets/2018-08-16_15-19-15.png)
+![Windows Explorer Customizations](../.gitbook/assets/2018-08-16_15-19-15.png)
 
-![](../.gitbook/assets/2018-08-16_15-22-12.png)
+![Locked Groups in the Start Menu](../.gitbook/assets/2018-08-16_15-22-12.png)
 
 
 
