@@ -34,7 +34,7 @@ Since LGPO only applies Policies and not Preferences, simply add a PowerShell sc
 
 ### Enterprise OS
 
-And as soon as Windows starts for the first time, everything is configured exactly how you want it.  Fully customized without multiple steps in the Task Sequence.
+And as soon as Windows starts for the first time, everything is configured exactly how you want it.  Fully customized without multiple steps in the Task Sequence.  Screenshots below were taken on first boot from OOBE without joining a Domain.  All customizations are done locally, without separate Reg Hacks.
 
 ![Removed Logon Background Image](../.gitbook/assets/2018-08-16_15-17-48.png)
 
