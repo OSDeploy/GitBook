@@ -1,6 +1,6 @@
 # Enterprise OS Overview
 
-I am going to shift gears from OSBuilder to detailing how to customize Windows 10 from its default configuration to a fully customized Enterprise OS using Group Policy.  Be patient while I get the documentation up to speed.
+I am going to shift gears from OSBuilder to detail how to customize Windows 10 from its default configuration to a fully customized Enterprise OS using Group Policy.  Be patient while I get the documentation up to speed.
 
 ### Default Windows 10
 
@@ -16,7 +16,7 @@ It's actually much easier to take all your Policies and Preferences and put them
 
 ### Local Copy
 
-Once you have all your settings in Group Policy, simply the Policies from SysVol to your OS during deployment, or run in an SCCM Package.
+Once you have all your settings in Group Policy, simply copy the Policies from SysVol to your OS during deployment, or run in an SCCM Package.
 
 ![](../.gitbook/assets/2018-08-16_14-54-05.png)
 
