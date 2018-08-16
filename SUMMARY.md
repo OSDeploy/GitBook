@@ -4,7 +4,7 @@
 
 ## Enterprise OS
 
-* [Overview](enterprise-os/overview.md)
+* [Enterprise OS Overview](enterprise-os/overview.md)
 
 ## OSBuilder
 
@@ -63,3 +63,4 @@
   * [Create Local Policies](osconfig/development/create-local-policies.md)
   * [Apply Local Policies](osconfig/development/apply-local-policies.md)
 * [Future Plans](osconfig/future-plans.md)
+
