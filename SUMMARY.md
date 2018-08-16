@@ -2,6 +2,10 @@
 
 * [Home](README.md)
 
+## Enterprise OS
+
+* [Overview](enterprise-os/overview.md)
+
 ## OSBuilder
 
 * [OSBuilder Overview](osbuilder/overview.md)
@@ -59,8 +63,3 @@
   * [Create Local Policies](osconfig/development/create-local-policies.md)
   * [Apply Local Policies](osconfig/development/apply-local-policies.md)
 * [Future Plans](osconfig/future-plans.md)
-
-## Enterprise OS
-
-* [Overview](enterprise-os/overview.md)
-
