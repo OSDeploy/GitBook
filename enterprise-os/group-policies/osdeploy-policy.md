@@ -9,7 +9,7 @@
 | Allow Cortana above lock screen | Disabled | \Windows Components\Search |
 | Allow Microsoft accounts to be optional | Enabled | \Windows Components\App runtime |
 | Allow web content on New Tab page | Disabled | \Windows Components\Microsoft Edge |
-| Allow Windows to automatically connect to suggested open hotspots |  to networks shared by contacts |  and to hotspots offering paid services | Disabled | \Network\WLAN Service\WLAN Settings |
+| Allow Windows to automatically connect to suggested open hotspots, to networks shared by contacts, and to hotspots offering paid services | Disabled | \Network\WLAN Service\WLAN Settings |
 | Always use custom logon background | Enabled | \System\Logon |
 | Apply the default account picture to all users | Enabled | \Control Panel\User Accounts |
 | Configure Windows Defender SmartScreen | Enabled | \Windows Components\File Explorer |
