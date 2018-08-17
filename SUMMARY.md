@@ -4,10 +4,10 @@
 
 ## Enterprise OS
 
-* [Enterprise OS Overview](enterprise-os/overview/README.md)
-  * [Getting Started](enterprise-os/overview/getting-started/README.md)
-    * [OS Local Repository](enterprise-os/overview/getting-started/os-local-repository.md)
-    * [Active Directory Group Policy](enterprise-os/overview/getting-started/active-directory-group-policy.md)
+* [Enterprise OS Overview](enterprise-os/overview.md)
+* [Getting Started](enterprise-os/getting-started/README.md)
+  * [OS Local Repository](enterprise-os/getting-started/os-local-repository.md)
+  * [Active Directory Group Policy](enterprise-os/getting-started/active-directory-group-policy.md)
 
 ## OSBuilder
 
