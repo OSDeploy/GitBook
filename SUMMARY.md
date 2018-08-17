@@ -4,7 +4,9 @@
 
 ## Enterprise OS
 
-* [Enterprise OS Overview](enterprise-os/overview.md)
+* [Enterprise OS Overview](enterprise-os/overview/README.md)
+  * [Getting Started](enterprise-os/overview/getting-started/README.md)
+    * [OS Local Repository](enterprise-os/overview/getting-started/os-local-repository.md)
 
 ## OSBuilder
 
