@@ -2,7 +2,7 @@
 
 Before getting too far ahead of things, you need to have a Local Repository for files that will reside on your Operating System.  This is where you will place your customizations.
 
-### ProgramData
+### Use ProgramData
 
 You may think that placing your files in a customized directory in Windows is a safe bet, but in reality, this is the worst place you can put your files.  During an OS Upgrade, these files will now be relocated in C:\Windows.old
 
