@@ -1,4 +1,4 @@
-# Enterprise OS Overview
+# Overview
 
 I am going to shift gears from OSBuilder to detail how to customize Windows 10 from its default configuration to a fully customized Enterprise OS using Group Policy. Be patient while I get the documentation up to speed.
 
