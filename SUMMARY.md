@@ -4,7 +4,7 @@
 
 ## Enterprise OS
 
-* [Enterprise OS](enterprise-os/README.md)
+* [Introduction](enterprise-os/README.md)
 * [Overview](enterprise-os/overview.md)
 * [Getting Started](enterprise-os/getting-started/README.md)
   * [OS Local Repository](enterprise-os/getting-started/os-local-repository.md)
