@@ -7,7 +7,8 @@
 * [Enterprise OS Overview](enterprise-os/overview.md)
 * [Getting Started](enterprise-os/getting-started/README.md)
   * [OS Local Repository](enterprise-os/getting-started/os-local-repository.md)
-  * [Active Directory Group Policy](enterprise-os/getting-started/active-directory-group-policy.md)
+  * [Active Directory GPO](enterprise-os/getting-started/active-directory-group-policy.md)
+  * [Best Practices](enterprise-os/getting-started/best-practices.md)
 
 ## OSBuilder
 

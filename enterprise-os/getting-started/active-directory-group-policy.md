@@ -1,4 +1,4 @@
-# Active Directory Group Policy
+# Active Directory GPO
 
 The methods used to create an Enterprise OS requires Active Directory Group Policy.  If you have Full Control of Active Directory and you can create a GPO, then good for you.  My role in my Enterprise is to customize the Operating Systems, and to create our Deployment strategy for Operating Systems.  I am not a Security Expert . . . so I will not get deep into the Security side of things.
 
