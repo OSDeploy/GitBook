@@ -4,7 +4,8 @@
 
 ## Enterprise OS
 
-* [Enterprise OS Overview](enterprise-os/overview.md)
+* [Enterprise OS](enterprise-os/README.md)
+* [Overview](enterprise-os/overview.md)
 * [Getting Started](enterprise-os/getting-started/README.md)
   * [OS Local Repository](enterprise-os/getting-started/os-local-repository.md)
   * [Active Directory GPO](enterprise-os/getting-started/active-directory-gpo.md)
