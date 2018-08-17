@@ -1,6 +1,6 @@
 # OSDeploy Policy
 
-Here is my current OSDeploy Policy
+## Computer Configuration
 
 | Setting | State | Path |
 | :--- | :--- | :--- |
@@ -25,3 +25,36 @@ Here is my current OSDeploy Policy
 | Do not sync | Enabled | \Windows Components\Sync your settings |
 | Do not sync Apps | Enabled | \Windows Components\Sync your settings |
 | Don't search the web or display web results in Search | Enabled | \Windows Components\Search |
+| Enables or disables Windows Game Recording and Broadcasting | Disabled | \Windows Components\Windows Game Recording and Broadcasting |
+| Manage preview builds | Enabled | \Windows Components\Windows Update\Windows Update for Business |
+| Prevent changing lock screen and logon image | Enabled | \Control Panel\Personalization |
+| Prevent changing start menu background | Enabled | \Control Panel\Personalization |
+| Prevent device metadata retrieval from the Internet | Enabled | \System\Device Installation |
+| Prevent enabling lock screen slide show | Enabled | \Control Panel\Personalization |
+| Prevent indexing e-mail attachments | Disabled | \Windows Components\Search |
+| Prevent indexing files in offline files cache | Disabled | \Windows Components\Search |
+| Prevent the computer from joining a homegroup | Enabled | \Windows Components\HomeGroup |
+| Prevent the usage of OneDrive for file storage | Enabled | \Windows Components\OneDrive |
+| Send all intranet sites to Internet Explorer 11 | Disabled | \Windows Components\Microsoft Edge |
+| Set the default behavior for AutoRun | Enabled | \Windows Components\AutoPlay Policies |
+| Show first sign-in animation  | Disabled | \System\Logon |
+| Show hibernate in the power options menu | Disabled | \Windows Components\File Explorer |
+| Show lock in the user tile menu | Enabled | \Windows Components\File Explorer |
+| Specify search order for device driver source locations | Enabled | \System\Device Installation |
+| Specify the search server for device driver updates | Disabled | \System\Device Installation |
+| Toggle user control over Insider builds | Disabled | \Windows Components\Data Collection and Preview Builds |
+| Turn off access to all Windows Update features | Enabled | \System\Internet Communication Management\Internet Communication settings |
+| Turn off Autoplay | Enabled | \Windows Components\AutoPlay Policies |
+| Turn off desktop gadgets | Enabled | \Windows Components\Desktop Gadgets |
+| Turn off downloading of game information | Enabled | \Windows Components\Game Explorer |
+| Turn off game updates | Enabled | \Windows Components\Game Explorer |
+| Turn off Microsoft consumer experiences | Enabled | \Windows Components\Cloud Content |
+| Turn off picture password sign-in | Enabled | \System\Logon |
+| Turn off the communities features | Enabled | \Windows Components\Windows Mail |
+| Turn off the offer to update to the latest version of Windows | Enabled | \Windows Components\Store |
+| Turn off tracking of last play time of games in the Games folder | Enabled | \Windows Components\Game Explorer |
+| Turn off Windows Mail application | Enabled | \Windows Components\Windows Mail |
+
+## User Configuration
+
+Working on adding this
