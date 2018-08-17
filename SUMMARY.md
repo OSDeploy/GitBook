@@ -10,6 +10,8 @@
   * [Active Directory GPO](enterprise-os/getting-started/active-directory-gpo.md)
   * [Local vs Domain Policies](enterprise-os/getting-started/local-vs-domain-policies.md)
   * [Best Practices](enterprise-os/getting-started/best-practices.md)
+* [Group Policies](enterprise-os/group-policies/README.md)
+  * [OSDeploy Policy](enterprise-os/group-policies/osdeploy-policy.md)
 
 ## OSBuilder
 
