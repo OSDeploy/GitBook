@@ -37,7 +37,7 @@
 | Prevent the usage of OneDrive for file storage | Enabled | \Windows Components\OneDrive |
 | Send all intranet sites to Internet Explorer 11 | Disabled | \Windows Components\Microsoft Edge |
 | Set the default behavior for AutoRun | Enabled | \Windows Components\AutoPlay Policies |
-| Show first sign-in animation  | Disabled | \System\Logon |
+| Show first sign-in animation | Disabled | \System\Logon |
 | Show hibernate in the power options menu | Disabled | \Windows Components\File Explorer |
 | Show lock in the user tile menu | Enabled | \Windows Components\File Explorer |
 | Specify search order for device driver source locations | Enabled | \System\Device Installation |
@@ -58,3 +58,4 @@
 ## User Configuration
 
 Working on adding this
+
