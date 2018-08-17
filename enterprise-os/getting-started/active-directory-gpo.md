@@ -16,16 +16,11 @@ These are the GPO's that are required \(this may be updated as needed\). I recom
 
 | GPO Name | Purpose |
 | :--- | :--- |
-| OSDeploy Branding | Customizations specific to the Enterprise only, such as Internet Start Pages, Update Server Names, etc.  \(Computer and User Configurations\) |
-| OSDeploy Computer Policy | Policies that apply to both Windows 10 and Windows 7 \(User Configuration Disabled\) |
-| OSDeploy Computer Preference | Preferences \(Registry\) that apply to both Windows 10 and Windows 7 \(User Configuration Disabled\) |
-| OSDeploy Computer Win10 | Policies and Preferences that apply to Windows 10 only, and cannot be used on Windows 7 \(User Configuration Disabled\) |
-| OSDeploy Computer Win7 | Policies and Preferences that apply to Windows 7 only and cannot be used on Windows 10 \(User Configuration Disabled\) |
-| OSDeploy User Policy | Policies that apply to both Windows 10 and Windows 7 \(Computer Configuration Disabled\) |
-| OSDeploy User Preferences | Preferences that apply to both Windows 10 and Windows 7 \(Computer Configuration Disabled\) |
-| OSDeploy User Win10 | Policies and Preferences that apply to Windows 7 only \(Computer Configuration Disabled\) |
-| OSDeploy User Win7 | Policies and Preferences that apply to Windows 10 only \(Computer Configuration Disabled\) |
+| OSDeploy Branding | Policies and Preferences specific to YOUR Enterprise only, such as Internet Start Pages, Server Names, etc. |
+| OSDeploy Policy | Policies that apply to all Computers |
+| OSDeploy Preference | Preferences \(Registry\) that apply to all Computers |
+| OSDeploy Win10 | Policies and Preferences that apply to Windows 10 only, and cannot be used on Windows 7 |
+| OSDeploy Win7 | Policies and Preferences that apply to Windows 7 only and cannot be used on Windows 10 |
 
-* Computer GPO's should have the GPO Status set to "User configuration settings disabled"
-* User GPO's should have the GPO Status set to "Computer configuration settings disabled"
+
 
