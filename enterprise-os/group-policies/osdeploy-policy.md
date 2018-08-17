@@ -2,7 +2,7 @@
 
 Here is my current OSDeploy Policy
 
-| Title1 | Title 2 |
-| :--- | :--- |
-| Content 1 | Content 2 |
-
+| Setting | State | Path |
+| :--- | :--- | :--- |
+| Allow administrators to override Device Installation Restriction policies | Enabled | \System\Device Installation\Device Installation Restrictions |
+| Allow Cortana | Disabled | \Windows Components\Search |
