@@ -9,6 +9,7 @@
   * [OS Local Repository](enterprise-os/getting-started/os-local-repository.md)
   * [Active Directory GPO](enterprise-os/getting-started/active-directory-gpo.md)
   * [Best Practices](enterprise-os/getting-started/best-practices.md)
+  * [Local vs Domain Policies](enterprise-os/getting-started/local-vs-domain-policies.md)
 
 ## OSBuilder
 
