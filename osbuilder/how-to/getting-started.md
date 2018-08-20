@@ -20,7 +20,7 @@ OSBuilder requires Admin Rights in PowerShell as you will be manipulating Window
 
 ## Supported Operating Systems
 
-OSBuilder run perfectly in Windows 10.  You can work with Images based on Windows 10 or Windows Server 2016.
+OSBuilder runs perfectly in Windows 10.  You can work with Images based on Windows 10 or Windows Server 2016.
 
 ## OSMedia
 
