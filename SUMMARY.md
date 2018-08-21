@@ -11,7 +11,8 @@
   * [Local vs Domain Policies](enterprise-os/getting-started/local-vs-domain-policies.md)
   * [Editing Policy Reg Keys](enterprise-os/getting-started/editing-policy-reg-keys.md)
   * [Best Practices](enterprise-os/getting-started/best-practices.md)
-* [Group Policy Management](enterprise-os/group-policy-management.md)
+* [Group Policy Management](enterprise-os/group-policy-management/README.md)
+  * [Starter GPOs](enterprise-os/group-policy-management/starter-gpos.md)
 
 ## OSBuilder
 

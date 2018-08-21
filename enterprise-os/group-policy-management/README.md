@@ -6,5 +6,5 @@ Make sure that before you start, you have updated your ADMX Templates from this 
 
 [https://support.microsoft.com/en-us/help/3087759](https://support.microsoft.com/en-us/help/3087759)
 
-![](../.gitbook/assets/2018-08-21_1-18-04.png)
+![](../../.gitbook/assets/2018-08-21_1-18-04.png)
 
