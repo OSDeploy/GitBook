@@ -15,6 +15,7 @@
   * [Starter GPOs](enterprise-os/group-policy-management/starter-gpos.md)
   * [OSDeploy Branding](enterprise-os/group-policy-management/osdeploy-branding.md)
   * [OSDeploy Policy Win10](enterprise-os/group-policy-management/osdeploy-policy-win10.md)
+* [Group Policy Preferences](enterprise-os/group-policy-preferences.md)
 
 ## OSBuilder
 
