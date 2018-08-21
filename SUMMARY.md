@@ -13,6 +13,7 @@
   * [Best Practices](enterprise-os/getting-started/best-practices.md)
 * [Group Policy Management](enterprise-os/group-policy-management/README.md)
   * [Starter GPOs](enterprise-os/group-policy-management/starter-gpos.md)
+  * [OSDeploy Branding](enterprise-os/group-policy-management/osdeploy-branding.md)
 
 ## OSBuilder
 
