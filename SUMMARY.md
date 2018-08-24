@@ -76,3 +76,5 @@
   * [Apply Local Policies](osconfig/development/apply-local-policies.md)
 * [Future Plans](osconfig/future-plans.md)
 
+## GPP Registry XML
+
