@@ -2,21 +2,7 @@
 
 * [Home](README.md)
 
-## Enterprise OS
-
-* [Overview](enterprise-os/overview.md)
-* [Getting Started](enterprise-os/getting-started/README.md)
-  * [OS Local Repository](enterprise-os/getting-started/os-local-repository.md)
-  * [Active Directory GPO](enterprise-os/getting-started/active-directory-gpo.md)
-  * [Local vs Domain Policies](enterprise-os/getting-started/local-vs-domain-policies.md)
-  * [Editing Policy Reg Keys](enterprise-os/getting-started/editing-policy-reg-keys.md)
-  * [Best Practices](enterprise-os/getting-started/best-practices.md)
-* [Build a Domain Controller](enterprise-os/build-a-domain-controller.md)
-* [Group Policy Management](enterprise-os/group-policy-management/README.md)
-  * [Starter GPOs](enterprise-os/group-policy-management/starter-gpos.md)
-  * [OSDeploy Branding](enterprise-os/group-policy-management/osdeploy-branding.md)
-  * [OSDeploy Policy Win10](enterprise-os/group-policy-management/osdeploy-policy-win10.md)
-* [Group Policy Preferences](enterprise-os/group-policy-preferences.md)
+## GPP Registry XML
 
 ## OSBuilder
 
@@ -76,5 +62,18 @@
   * [Apply Local Policies](osconfig/development/apply-local-policies.md)
 * [Future Plans](osconfig/future-plans.md)
 
-## GPP Registry XML
+## Enterprise OS
 
+* [Overview](enterprise-os/overview.md)
+* [Getting Started](enterprise-os/getting-started/README.md)
+  * [OS Local Repository](enterprise-os/getting-started/os-local-repository.md)
+  * [Active Directory GPO](enterprise-os/getting-started/active-directory-gpo.md)
+  * [Local vs Domain Policies](enterprise-os/getting-started/local-vs-domain-policies.md)
+  * [Editing Policy Reg Keys](enterprise-os/getting-started/editing-policy-reg-keys.md)
+  * [Best Practices](enterprise-os/getting-started/best-practices.md)
+* [Build a Domain Controller](enterprise-os/build-a-domain-controller.md)
+* [Group Policy Management](enterprise-os/group-policy-management/README.md)
+  * [Starter GPOs](enterprise-os/group-policy-management/starter-gpos.md)
+  * [OSDeploy Branding](enterprise-os/group-policy-management/osdeploy-branding.md)
+  * [OSDeploy Policy Win10](enterprise-os/group-policy-management/osdeploy-policy-win10.md)
+* [Group Policy Preferences](enterprise-os/group-policy-preferences.md)
