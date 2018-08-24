@@ -2,8 +2,6 @@
 
 * [Home](README.md)
 
-## GPP Registry XML
-
 ## OSBuilder
 
 * [OSBuilder Overview](osbuilder/overview.md)
