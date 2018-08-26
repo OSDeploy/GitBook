@@ -58,7 +58,6 @@
   * [LGPO](osconfig/development/lgpo.md)
   * [Create Local Policies](osconfig/development/create-local-policies.md)
   * [Apply Local Policies](osconfig/development/apply-local-policies.md)
-* [Future Plans](osconfig/future-plans.md)
 
 ## Enterprise OS
 
@@ -75,3 +74,4 @@
   * [OSDeploy Branding](enterprise-os/group-policy-management/osdeploy-branding.md)
   * [OSDeploy Policy Win10](enterprise-os/group-policy-management/osdeploy-policy-win10.md)
 * [Group Policy Preferences](enterprise-os/group-policy-preferences.md)
+
