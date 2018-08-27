@@ -48,9 +48,9 @@
 
 * [OSConfig Overview](osconfig/overview.md)
 * [Release Information](osconfig/release-information.md)
-* [Installation](osconfig/installation/README.md)
-  * [ConfigMgr TS NewPC Package](osconfig/installation/configmgr-ts-package.md)
-  * [ConfigMgr TS NewPC Unattend.xml](osconfig/installation/configmgr-ts-newpc-unattend.xml.md)
+* [Deployment](osconfig/deployment/README.md)
+  * [ConfigMgr NewPC TS Package](osconfig/deployment/configmgr-newpc-ts-package.md)
+  * [ConfigMgr NewPC TS Unattend.xml](osconfig/deployment/configmgr-newpc-ts-unattend.xml.md)
 * [Customization](osconfig/customization.md)
 
 ## OSPolicy
