@@ -48,7 +48,8 @@
 
 * [OSConfig Overview](osconfig/overview.md)
 * [Release Information](osconfig/release-information.md)
-* [Installation](osconfig/installation.md)
+* [Installation](osconfig/installation/README.md)
+  * [ConfigMgr TS Unattend.xml](osconfig/installation/configmgr-ts-unattend.xml.md)
 * [Customization](osconfig/customization.md)
 
 ## OSPolicy
