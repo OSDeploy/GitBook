@@ -47,22 +47,22 @@
 ## OSConfig
 
 * [OSConfig Overview](osconfig/overview.md)
-* [Development](osconfig/development/README.md)
-  * [MDT Deployment Share](osconfig/development/mdt-deployment-share.md)
-  * [MDT Task Sequence](osconfig/development/mdt-task-sequence.md)
-  * [Hyper-V VM Configuration](osconfig/development/hyper-v-vm-configuration.md)
-  * [MDT Task Sequence Test](osconfig/development/task-sequence-test.md)
-  * [LockScreen and Wallpaper](osconfig/development/lockscreen-and-wallpaper.md)
-  * [Start Layout](osconfig/development/start-layout.md)
-  * [Theme](osconfig/development/theme.md)
-  * [LGPO](osconfig/development/lgpo.md)
-  * [Create Local Policies](osconfig/development/create-local-policies.md)
-  * [Apply Local Policies](osconfig/development/apply-local-policies.md)
 * [Release Information](osconfig/release-information.md)
 
 ## Enterprise OS
 
 * [Overview](enterprise-os/overview.md)
+* [Development](enterprise-os/development/README.md)
+  * [MDT Deployment Share](enterprise-os/development/mdt-deployment-share.md)
+  * [MDT Task Sequence](enterprise-os/development/mdt-task-sequence.md)
+  * [Hyper-V VM Configuration](enterprise-os/development/hyper-v-vm-configuration.md)
+  * [MDT Task Sequence Test](enterprise-os/development/task-sequence-test.md)
+  * [LockScreen and Wallpaper](enterprise-os/development/lockscreen-and-wallpaper.md)
+  * [Start Layout](enterprise-os/development/start-layout.md)
+  * [Theme](enterprise-os/development/theme.md)
+  * [LGPO](enterprise-os/development/lgpo.md)
+  * [Create Local Policies](enterprise-os/development/create-local-policies.md)
+  * [Apply Local Policies](enterprise-os/development/apply-local-policies.md)
 * [Getting Started](enterprise-os/getting-started/README.md)
   * [OS Local Repository](enterprise-os/getting-started/os-local-repository.md)
   * [Active Directory GPO](enterprise-os/getting-started/active-directory-gpo.md)
