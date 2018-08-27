@@ -51,6 +51,7 @@
 * [Deployment](osconfig/deployment/README.md)
   * [ConfigMgr NewPC TS Package](osconfig/deployment/configmgr-newpc-ts-package.md)
   * [ConfigMgr NewPC TS Unattend.xml](osconfig/deployment/configmgr-newpc-ts-unattend.xml.md)
+  * [ConfigMgr NewPC TS Provisioning Package](osconfig/deployment/configmgr-newpc-ts-provisioning-package.md)
 * [Customization](osconfig/customization.md)
 
 ## OSPolicy
