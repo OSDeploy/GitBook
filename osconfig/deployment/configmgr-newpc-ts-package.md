@@ -6,11 +6,11 @@ The following steps are required
 
 * OSConfig must be created as a Package \(no Program\)
 
-### Create an OSConfig Package
+## Create an ConfigMgr Package
 
 Create a new Package with Source Files to the root of your OSConfig content.  Do not create a Program.  Distribute Content to your Distribution Points
 
-### Task Sequence Run Command Line
+## Task Sequence Run Command Line
 
 Add a Run Command Line step after the "Setup Windows and Configuration Manager" step.  Use the following Command Line:
 
@@ -22,7 +22,7 @@ Make sure that you disable 64-bit file system redirection and that you run from 
 
 ![](../../.gitbook/assets/2018-08-27_14-39-12.png)
 
-### Complete
+## Complete
 
 If everything worked fine, your Operating System should show your customizations prior to first logon
 
