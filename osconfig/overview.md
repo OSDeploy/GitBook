@@ -1,6 +1,8 @@
 # OSConfig Overview
 
-**OSConfig will be complete on September 1**
+{% hint style="danger" %}
+OSConfig will be released later this week
+{% endhint %}
 
 OSConfig is a **method** of applying Operating System configuration during a Windows Deployment in One Step, without having multiple steps in your Task Sequence. This allows for **simple** configuration that is **independent** of a Task Sequence.
 
@@ -15,7 +17,7 @@ OSConfig has been testing in the following Operating System Deployment Scenarios
 * ConfigMgr Upgrade Task Sequence
 * Currently testing with Provisioning Packages \(AAD\)
 
-The flexibility of OSConfig makes this method of Operating System configuration **ideal**, as it is completely modular.  This gives you the ability to freely to design whatever configuration you can script without any limitations.
+The flexibility of OSConfig makes this method of Operating System configuration **ideal**, as it is completely modular. This gives you the ability to freely to design whatever configuration you can script without any limitations.
 
 ## Supported Operating Systems
 
@@ -62,3 +64,4 @@ And as soon as Windows starts for the first time, everything is configured exact
 ![Windows Explorer Customizations](../.gitbook/assets/2018-08-16_15-19-15.png)
 
 ![Locked Groups in the Start Menu](../.gitbook/assets/2018-08-16_15-22-12.png)
+
