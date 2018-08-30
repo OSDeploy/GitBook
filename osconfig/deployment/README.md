@@ -1,6 +1,6 @@
 # Deployment
 
-You can use the following methods for deploying OSConfig customizations
+You can use the following methods for deploying OSConfig customizations.  I will try to add detailed instructions for each of these methods in the near future . . . 
 
 * **Configuration Manager**
   * [New PC Task Sequence using a Package](configmgr-new-pc-ts-package.md)
@@ -9,7 +9,7 @@ You can use the following methods for deploying OSConfig customizations
   * Upgrade Task Sequence using a Package
   * Upgrade Task Sequence using a Provisioning Package
 * **Microsoft Deployment Toolkit**
-  * New PC Task Sequence using Run Command Line
+  * [New PC Task Sequence using Run Command Line](mdt-task-sequence.md)
   * New PC Task Sequence using a Provisioning Package
   * Upgrade Task Sequence using Run Command Line
   * Upgrade Task Sequence using a Provisioning Package
