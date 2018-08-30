@@ -1,4 +1,4 @@
-# ConfigMgr NewPC TS Provisioning Package
+# ConfigMgr New PC TS Provisioning Package
 
 To use OSConfig in a Provisioning Package, the following changes to the Task Sequence need to be made
 

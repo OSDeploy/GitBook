@@ -52,23 +52,18 @@
   * [LGPO](osconfig/downloads/lgpo.md)
   * [RegistryXML](osconfig/downloads/registryxml.md)
 * [Deployment](osconfig/deployment/README.md)
-  * [ConfigMgr NewPC TS Package](osconfig/deployment/configmgr-newpc-ts-package.md)
-  * [ConfigMgr NewPC TS Unattend.xml](osconfig/deployment/configmgr-newpc-ts-unattend.xml.md)
-  * [ConfigMgr NewPC TS Provisioning Package](osconfig/deployment/configmgr-newpc-ts-provisioning-package.md)
+  * [ConfigMgr New PC TS Package](osconfig/deployment/configmgr-new-pc-ts-package.md)
+  * [ConfigMgr New PC TS Unattend.xml](osconfig/deployment/configmgr-new-pc-ts-unattend.xml.md)
+  * [ConfigMgr New PC TS Provisioning Package](osconfig/deployment/configmgr-new-pc-ts-provisioning-package.md)
   * [MDT New PC Task Sequence](osconfig/deployment/mdt-task-sequence.md)
 * [Customization](osconfig/customization.md)
 
-## OSPolicy
+## IncompleteJunk
 
-* [Overview](ospolicy/overview.md)
 * [Development](ospolicy/development/README.md)
-  * [MDT Deployment Share](ospolicy/development/mdt-deployment-share.md)
-  * [Hyper-V VM Configuration](ospolicy/development/hyper-v-vm-configuration.md)
-  * [MDT Task Sequence Test](ospolicy/development/task-sequence-test.md)
   * [LockScreen and Wallpaper](ospolicy/development/lockscreen-and-wallpaper.md)
   * [Start Layout](ospolicy/development/start-layout.md)
   * [Theme](ospolicy/development/theme.md)
-  * [LGPO](ospolicy/development/lgpo.md)
   * [Create Local Policies](ospolicy/development/create-local-policies.md)
   * [Apply Local Policies](ospolicy/development/apply-local-policies.md)
 * [Getting Started](ospolicy/getting-started/README.md)
@@ -78,9 +73,5 @@
   * [Editing Policy Reg Keys](ospolicy/getting-started/editing-policy-reg-keys.md)
   * [Best Practices](ospolicy/getting-started/best-practices.md)
 * [Build a Domain Controller](ospolicy/build-a-domain-controller.md)
-* [Group Policy Management](ospolicy/group-policy-management/README.md)
-  * [Starter GPOs](ospolicy/group-policy-management/starter-gpos.md)
-  * [OSDeploy Branding](ospolicy/group-policy-management/osdeploy-branding.md)
-  * [OSDeploy Policy Win10](ospolicy/group-policy-management/osdeploy-policy-win10.md)
-* [Group Policy Preferences](ospolicy/group-policy-preferences.md)
+* [Group Policy Management](ospolicy/group-policy-management.md)
 

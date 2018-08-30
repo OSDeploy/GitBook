@@ -3,9 +3,9 @@
 You can use the following methods for deploying OSConfig customizations
 
 * **Configuration Manager**
-  * [New PC Task Sequence using a Package](configmgr-newpc-ts-package.md)
-  * [New PC Task Sequence using Unattend.xml \(Specialize Phase\)](configmgr-newpc-ts-unattend.xml.md)
-  * [New PC Task Sequence using a Provisioning Package](configmgr-newpc-ts-provisioning-package.md)
+  * [New PC Task Sequence using a Package](configmgr-new-pc-ts-package.md)
+  * [New PC Task Sequence using Unattend.xml \(Specialize Phase\)](configmgr-new-pc-ts-unattend.xml.md)
+  * [New PC Task Sequence using a Provisioning Package](configmgr-new-pc-ts-provisioning-package.md)
   * Upgrade Task Sequence using a Package
   * Upgrade Task Sequence using a Provisioning Package
 * **Microsoft Deployment Toolkit**

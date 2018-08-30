@@ -1,4 +1,4 @@
-# ConfigMgr NewPC TS Package
+# ConfigMgr New PC TS Package
 
 The easiest method of applying OSConfig to a New PC is directly from a Package and a Run Command Line.  This method is not recommended for testing as the OSConfig progress is not displayed.
 

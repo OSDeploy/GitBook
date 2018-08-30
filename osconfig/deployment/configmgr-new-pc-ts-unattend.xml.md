@@ -1,4 +1,4 @@
-# ConfigMgr NewPC TS Unattend.xml
+# ConfigMgr New PC TS Unattend.xml
 
 You can deploy OSConfig in a Configuration Manager Task Sequence in the Specialize Phase of an Unattend.xml.  The following requirements must be met
 
