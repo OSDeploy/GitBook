@@ -55,6 +55,7 @@
   * [ConfigMgr NewPC TS Package](osconfig/deployment/configmgr-newpc-ts-package.md)
   * [ConfigMgr NewPC TS Unattend.xml](osconfig/deployment/configmgr-newpc-ts-unattend.xml.md)
   * [ConfigMgr NewPC TS Provisioning Package](osconfig/deployment/configmgr-newpc-ts-provisioning-package.md)
+  * [MDT Task Sequence](osconfig/deployment/mdt-task-sequence.md)
 * [Customization](osconfig/customization.md)
 
 ## OSPolicy
@@ -62,7 +63,6 @@
 * [Overview](ospolicy/overview.md)
 * [Development](ospolicy/development/README.md)
   * [MDT Deployment Share](ospolicy/development/mdt-deployment-share.md)
-  * [MDT Task Sequence](ospolicy/development/mdt-task-sequence.md)
   * [Hyper-V VM Configuration](ospolicy/development/hyper-v-vm-configuration.md)
   * [MDT Task Sequence Test](ospolicy/development/task-sequence-test.md)
   * [LockScreen and Wallpaper](ospolicy/development/lockscreen-and-wallpaper.md)
