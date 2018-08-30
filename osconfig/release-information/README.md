@@ -1,9 +1,5 @@
 # Release Information
 
-{% hint style="danger" %}
-OSConfig will be released later this week
-{% endhint %}
-
 OSConfig can be downloaded from GitHub in a few days . . . 
 
 ## LGPO
