@@ -7,17 +7,17 @@ You can deploy OSConfig in a Configuration Manager Task Sequence in the Speciali
 * Unattend.xml must be edited
 * OSConfig must be copied locally to C:\ProgramData\OSConfig\\*
 
-### Create an OSConfig Package
+## Create a CM Package
 
 Create a new Package with Source Files to the root of your OSConfig content.  Do not create a Program.  Distribute Content to your Distribution Points
 
-### Task Sequence Partition Steps
+## Task Sequence Partition Steps
 
 Edit your Partition Disk steps to ensure that the Windows Partition Drive Letter is assigned a Variable.  This is typically OSDisk.  Repeat this process for both BIOS and UEFI Windows Partitions
 
 ![](../../.gitbook/assets/2018-08-27_14-01-01.png)
 
-### Package Run Command Line
+## Package Run Command Line
 
 Inset a Run Command Line step with your OSConfig Package to copy the contents locally.  Use the following Command Line
 
@@ -27,7 +27,7 @@ cmd.exe /c md %OSDisk%\ProgramData\OSConfig & cmd.exe /c xcopy ".\*" %OSDisk%\Pr
 
 ![](../../.gitbook/assets/2018-08-27_14-03-38.png)
 
-### Unattend.xml
+## Unattend.xml
 
 OSConfig is executed by adding the following command line to the Specialize Phase in the Unattend.xml
 
@@ -93,17 +93,19 @@ Here is a minimal Unattend.xml \(x64 and x86\) for reference that can be used.  
 </unattend>
 ```
 
-### Apply Operating System
+## Apply Operating System
 
 Make sure the Apply Operating System step contains the proper Unattend.xml and the OSDisk settings
 
 ![](../../.gitbook/assets/2018-08-27_14-15-30.png)
 
-### Deployment
+## Deployment
 
 During OS Deployment you will see progress during the Specialize phase before first logon
 
 ![](../../.gitbook/assets/2018-08-27_13-24-51.png)
+
+## Complete
 
 If everything worked fine, your Operating System should show your customizations immediately.
 
