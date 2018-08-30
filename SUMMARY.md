@@ -58,20 +58,13 @@
   * [MDT New PC Task Sequence](osconfig/deployment/mdt-task-sequence.md)
 * [Customization](osconfig/customization.md)
 
-## IncompleteJunk
+## Work in Progress
 
-* [Development](ospolicy/development/README.md)
-  * [LockScreen and Wallpaper](ospolicy/development/lockscreen-and-wallpaper.md)
-  * [Start Layout](ospolicy/development/start-layout.md)
-  * [Theme](ospolicy/development/theme.md)
-  * [Create Local Policies](ospolicy/development/create-local-policies.md)
-  * [Apply Local Policies](ospolicy/development/apply-local-policies.md)
-* [Getting Started](ospolicy/getting-started/README.md)
-  * [OS Local Repository](ospolicy/getting-started/os-local-repository.md)
-  * [Active Directory GPO](ospolicy/getting-started/active-directory-gpo.md)
-  * [Local vs Domain Policies](ospolicy/getting-started/local-vs-domain-policies.md)
-  * [Editing Policy Reg Keys](ospolicy/getting-started/editing-policy-reg-keys.md)
-  * [Best Practices](ospolicy/getting-started/best-practices.md)
+* [Theme](ospolicy/theme.md)
+* [Active Directory GPO](ospolicy/active-directory-gpo.md)
+* [Local vs Domain Policies](ospolicy/local-vs-domain-policies.md)
+* [Editing Policy Reg Keys](ospolicy/editing-policy-reg-keys.md)
+* [Best Practices](ospolicy/best-practices.md)
 * [Build a Domain Controller](ospolicy/build-a-domain-controller.md)
 * [Group Policy Management](ospolicy/group-policy-management.md)
 
