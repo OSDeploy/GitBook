@@ -39,3 +39,9 @@ When complete, everything should have applied properly.  You can check the PPKG 
 
 ![](../../.gitbook/assets/2018-08-27_16-11-18.png)
 
+![](../../.gitbook/assets/2018-08-30_15-16-30.png)
+
+![The Support Group is from the Domain GPO](../../.gitbook/assets/2018-08-30_15-17-46.png)
+
+
+

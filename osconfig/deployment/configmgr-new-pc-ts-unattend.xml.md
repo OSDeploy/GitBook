@@ -109,3 +109,9 @@ If everything worked fine, your Operating System should show your customizations
 
 ![](../../.gitbook/assets/2018-08-27_13-20-06.png)
 
+![](../../.gitbook/assets/2018-08-30_15-16-30.png)
+
+![The Support Group is from the Domain GPO](../../.gitbook/assets/2018-08-30_15-17-46.png)
+
+
+
