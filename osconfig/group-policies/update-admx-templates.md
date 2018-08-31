@@ -1,6 +1,6 @@
-# Group Policy Management
+# Update ADMX Templates
 
-The goal of this section is to setup a GPO with Policies and Preferences \(Registry\) for Windows Deployments.
+The goal of this section is to setup a GPO with Policies and Preferences \(Registry\) for Windows Deployments.  If you do not manage Active Directory, then don't worry about this step.  Get your AD Team to get the latest ADMX Templates published.
 
 ### Install ADMX Templates
 

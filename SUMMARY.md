@@ -74,8 +74,9 @@
 * [Group Policies](osconfig/group-policies/README.md)
   * [Active Directory GPO](osconfig/group-policies/active-directory-gpo.md)
   * [Build a Domain Controller](osconfig/group-policies/build-a-domain-controller.md)
+  * [Update ADMX Templates](osconfig/group-policies/update-admx-templates.md)
   * [Local vs Domain Policies](osconfig/group-policies/local-vs-domain-policies.md)
   * [Best Practices](osconfig/group-policies/best-practices/README.md)
     * [Edit Local Policy with Reg Keys](osconfig/group-policies/best-practices/edit-local-policy-with-reg-keys.md)
-  * [Group Policy Management](osconfig/group-policies/group-policy-management.md)
+  * [Import OSConfig Policies](osconfig/group-policies/import-osconfig-policies.md)
 
