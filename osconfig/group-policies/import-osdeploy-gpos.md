@@ -1,6 +1,6 @@
-# Import OSConfig Policies
+# Import OSDeploy GPOs
 
-The OSConfig repository you downloaded includes some sample Group Policy Objects.  These are Backups \(not copies from Sysvol\).
+The OSConfig repository you downloaded includes some sample Group Policy Objects.  These are GPO Backups \(not copies from Sysvol\).
 
 ![](../../.gitbook/assets/2018-08-31_11-18-46.png)
 
