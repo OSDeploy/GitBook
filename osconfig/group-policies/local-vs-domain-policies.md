@@ -20,5 +20,5 @@ What this means is that for Workgroup Computers, set your Internet Homepage to t
 
 ### Summary
 
-To sum it up, the Group Policies that will be used to configure the Enterprise OS should only be used for configuring the OS, and not for Policy Enforcement, just as your current customizations in your Task Sequence are only for customizations during OS Deployment, and not for any other purpose after the OS has been deployed . . . and keep in mind if you deploy computers in Workgroups or not when configuring your settings.
+To sum it up, the Group Policies that will be used in OSConfig should only be used for OSConfig, and not for Policy Enforcement, just as your current customizations in your Task Sequence are only for customizations during OS Deployment, and not for any other purpose after the OS has been deployed . . . and keep in mind if you deploy computers in Workgroups or not when configuring your settings.
 

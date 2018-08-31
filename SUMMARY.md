@@ -73,11 +73,9 @@
   * [Zeta](osconfig/customization/zeta.md)
 * [Group Policies](osconfig/group-policies/README.md)
   * [Active Directory GPO](osconfig/group-policies/active-directory-gpo.md)
+  * [Build a Domain Controller](osconfig/group-policies/build-a-domain-controller.md)
   * [Local vs Domain Policies](osconfig/group-policies/local-vs-domain-policies.md)
-  * [Editing Policy Reg Keys](osconfig/group-policies/editing-policy-reg-keys.md)
-  * [Best Practices](osconfig/group-policies/best-practices.md)
-  * [Build a Domain Controller](osconfig/group-policies/build-a-domain-controller/README.md)
-    * [Group Policy Management](osconfig/group-policies/build-a-domain-controller/group-policy-management.md)
-
-## Work in Progress
+  * [Best Practices](osconfig/group-policies/best-practices/README.md)
+    * [Edit Local Policy with Reg Keys](osconfig/group-policies/best-practices/edit-local-policy-with-reg-keys.md)
+  * [Group Policy Management](osconfig/group-policies/group-policy-management.md)
 
