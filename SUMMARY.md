@@ -68,16 +68,16 @@
     * [ImportXML](osconfig/customization/registryxml/importxml.md)
   * [Scripts](osconfig/customization/scripts.md)
   * [Start](osconfig/customization/start.md)
-  * [Theme](osconfig/customization/theme.md)
+  * [Theme](osconfig/customization/theme/README.md)
+    * [Theme](osconfig/customization/theme/theme.md)
   * [Zeta](osconfig/customization/zeta.md)
+* [Group Policies](osconfig/group-policies/README.md)
+  * [Active Directory GPO](osconfig/group-policies/active-directory-gpo.md)
+  * [Local vs Domain Policies](osconfig/group-policies/local-vs-domain-policies.md)
+  * [Editing Policy Reg Keys](osconfig/group-policies/editing-policy-reg-keys.md)
+  * [Best Practices](osconfig/group-policies/best-practices.md)
+  * [Build a Domain Controller](osconfig/group-policies/build-a-domain-controller/README.md)
+    * [Group Policy Management](osconfig/group-policies/build-a-domain-controller/group-policy-management.md)
 
 ## Work in Progress
-
-* [Theme](ospolicy/theme.md)
-* [Active Directory GPO](ospolicy/active-directory-gpo.md)
-* [Local vs Domain Policies](ospolicy/local-vs-domain-policies.md)
-* [Editing Policy Reg Keys](ospolicy/editing-policy-reg-keys.md)
-* [Best Practices](ospolicy/best-practices.md)
-* [Build a Domain Controller](ospolicy/build-a-domain-controller.md)
-* [Group Policy Management](ospolicy/group-policy-management.md)
 
