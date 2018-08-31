@@ -57,11 +57,10 @@
   * [ConfigMgr New PC TS Provisioning Package](osconfig/deployment/configmgr-new-pc-ts-provisioning-package.md)
   * [MDT New PC Task Sequence](osconfig/deployment/mdt-task-sequence.md)
 * [Customization](osconfig/customization/README.md)
-  * [LocalPolicy](osconfig/customization/localpolicy.md)
   * [Alpha](osconfig/customization/alpha.md)
   * [Apps](osconfig/customization/apps.md)
   * [Background](osconfig/customization/background.md)
-  * [RegistryXML](osconfig/customization/registryxml.md)
+  * [LocalPolicy](osconfig/customization/localpolicy.md)
 
 ## Work in Progress
 
