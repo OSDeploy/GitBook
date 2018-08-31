@@ -66,6 +66,7 @@
     * [LGPO](osconfig/customization/localpolicy/lgpo.md)
   * [RegistryXML](osconfig/customization/registryxml/README.md)
     * [ImportXML](osconfig/customization/registryxml/importxml.md)
+    * [Library](osconfig/customization/registryxml/library.md)
   * [Scripts](osconfig/customization/scripts.md)
   * [Start](osconfig/customization/start.md)
   * [Theme](osconfig/customization/theme/README.md)
