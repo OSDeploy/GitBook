@@ -16,7 +16,12 @@ OSConfig requires LGPO for Local Policy Configuration.  This is NOT included in 
 
 ## Release Information
 
-### 18.8.30 \(August 30, 2018
+### 18.8.31 \(August 31, 2018\)
+
+* Updated GPOs
+* Tweet Release
+
+### 18.8.30 \(August 30, 2018\)
 
 * Script cleanup
 
