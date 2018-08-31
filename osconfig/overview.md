@@ -2,6 +2,10 @@
 
 OSConfig is a **method** of applying Operating System configuration during a Windows Deployment as a Package, without having multiple steps in your Task Sequence. This allows for **simple** configuration that is **independent** of a Task Sequence.
 
+## Modular 
+
+Because the goal of OSConfig is to remove all Customizations from the Task Sequences, and to place all of them in OSConfig, this allows the customizations to be Modular.  The benefit of this is that you can use this in whatever Deployment method you can think of.  Additionally, this allows the customizations to be integrated in a Provisioning Package :\)
+
 ## OSConfig Deployment Scenarios
 
 OSConfig has been testing in the following Operating System Deployment Scenarios
@@ -19,9 +23,9 @@ The flexibility of OSConfig makes this method of Operating System configuration 
 
 The OSConfig method has been tested on Windows 7 and Windows 10, and should work without issue on Windows Server deployments.
 
-## Default Windows 10
+## Enterprise Customization
 
-We all know what it looks like if you do nothing. This is simply not an ideal presentation for your Enterprise
+We all know what it looks like if you do nothing. This is simply not an ideal presentation for your Enterprise.  OSConfig uses Group Policy as the primary method of customizing the Operating System.
 
 ![](../.gitbook/assets/2018-08-14_13-44-42.png)
 
@@ -49,7 +53,7 @@ Since LGPO only applies Policies and not Preferences, simply add a PowerShell sc
 
 ![](../.gitbook/assets/2018-08-16_15-15-18.png)
 
-## Enterprise OS
+## Customized OS
 
 And as soon as Windows starts for the first time, everything is configured exactly how you want it. Fully customized without multiple steps in the Task Sequence. Screenshots below were taken on first boot from OOBE without joining a Domain. All customizations are done locally, without separate Reg Hacks.
 

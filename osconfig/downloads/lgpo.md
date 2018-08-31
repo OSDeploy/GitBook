@@ -10,7 +10,7 @@ From the link above, when selecting Download, you have to option to select indiv
 
 ![](../../.gitbook/assets/2018-08-30_0-12-31.png)
 
-## OSConfig Configuration
+## OSConfig Integration
 
 Extract the zip and place LGPO.exe and LGPO.pdf into the OSConfig\LocalPolicy\LGPO directory
 
