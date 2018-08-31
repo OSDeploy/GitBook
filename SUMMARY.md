@@ -60,7 +60,16 @@
   * [Alpha](osconfig/customization/alpha.md)
   * [Apps](osconfig/customization/apps.md)
   * [Background](osconfig/customization/background.md)
-  * [LocalPolicy](osconfig/customization/localpolicy.md)
+  * [LocalPolicy](osconfig/customization/localpolicy/README.md)
+    * [ImportGPO](osconfig/customization/localpolicy/importgpo.md)
+    * [ImportTXT](osconfig/customization/localpolicy/importtxt.md)
+    * [LGPO](osconfig/customization/localpolicy/lgpo.md)
+  * [RegistryXML](osconfig/customization/registryxml/README.md)
+    * [ImportXML](osconfig/customization/registryxml/importxml.md)
+  * [Scripts](osconfig/customization/scripts.md)
+  * [Start](osconfig/customization/start.md)
+  * [Theme](osconfig/customization/theme.md)
+  * [Zeta](osconfig/customization/zeta.md)
 
 ## Work in Progress
 
