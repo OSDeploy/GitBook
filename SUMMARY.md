@@ -80,4 +80,5 @@
   * [Local vs Domain Policies](osconfig/group-policies/local-vs-domain-policies.md)
   * [Import OSDeploy GPOs](osconfig/group-policies/import-osdeploy-gpos.md)
   * [Edit OSDeploy Branding](osconfig/group-policies/edit-osdeploy-branding.md)
+* [Provisioning Package](osconfig/provisioning-package.md)
 
