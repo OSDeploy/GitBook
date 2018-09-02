@@ -50,7 +50,6 @@
 * [Downloads](osconfig/downloads/README.md)
   * [OSConfig](osconfig/downloads/osconfig.md)
   * [LGPO](osconfig/downloads/lgpo.md)
-  * [RegistryXML](osconfig/downloads/registryxml.md)
 * [Deployment](osconfig/deployment/README.md)
   * [ConfigMgr New PC TS Package](osconfig/deployment/configmgr-new-pc-ts-package.md)
   * [ConfigMgr New PC TS Unattend.xml](osconfig/deployment/configmgr-new-pc-ts-unattend.xml.md)
