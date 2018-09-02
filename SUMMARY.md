@@ -63,6 +63,7 @@
     * [ImportGPO](osconfig/customization/localpolicy/importgpo.md)
     * [ImportTXT](osconfig/customization/localpolicy/importtxt.md)
     * [LGPO](osconfig/customization/localpolicy/lgpo.md)
+    * [Import-GPO.ps1](osconfig/customization/localpolicy/import-gpo.ps1.md)
   * [RegistryXML](osconfig/customization/registryxml/README.md)
     * [ImportXML](osconfig/customization/registryxml/importxml.md)
     * [Library](osconfig/customization/registryxml/library.md)
