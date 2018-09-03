@@ -64,9 +64,7 @@
     * [ImportTXT](osconfig/customization/localpolicy/importtxt.md)
     * [LGPO](osconfig/customization/localpolicy/lgpo.md)
     * [Import-GPO.ps1](osconfig/customization/localpolicy/import-gpo.ps1.md)
-  * [RegistryXML](osconfig/customization/registryxml/README.md)
-    * [ImportXML](osconfig/customization/registryxml/importxml.md)
-    * [Library](osconfig/customization/registryxml/library.md)
+  * [RegistryXML](osconfig/customization/registryxml.md)
   * [Scripts](osconfig/customization/scripts.md)
   * [Start](osconfig/customization/start.md)
   * [Theme](osconfig/customization/theme/README.md)
@@ -82,4 +80,5 @@
   * [Import OSDeploy GPOs](osconfig/group-policies/import-osdeploy-gpos.md)
   * [Edit OSDeploy Branding](osconfig/group-policies/edit-osdeploy-branding.md)
 * [Provisioning Package](osconfig/provisioning-package.md)
+* [How To](osconfig/how-to.md)
 

@@ -1,6 +1,20 @@
 # RegistryXML
 
-RegistryXML is a method to add Reg Keys to your Windows Image.  Detailed instructions coming soon
+RegistryXML is a method to add Registry entries into your Windows Image.
+
+![](../../.gitbook/assets/2018-09-02_23-44-23.png)
+
+## ImportXML
+
+Registry XML files added to this directory will be imported by Import-RegistryXML.ps1
+
+## Library
+
+Sample Registry XML files
+
+## Import-RegistryXML.ps1
+
+Applies Registry XML files located in the ImportXML subdirectory
 
 ## Reg2GPP
 
