@@ -16,6 +16,11 @@ OSConfig requires LGPO for Local Policy Configuration.  This is NOT included in 
 
 ## Release Information
 
+### 18.9.3 \(September 3, 2018\)
+
+* Set-StartLayout.ps1 - resolved an issue where LayoutModification was not copied to existing User Profiles
+* Minor formatting updates to existing PowerShell scripts
+
 ### 18.8.31 \(August 31, 2018\)
 
 * Updated GPOs
