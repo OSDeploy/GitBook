@@ -1,6 +1,6 @@
-# Components
+# Customize
 
-This section will detail the Components of OSConfig and how they work . . . 
+This section will detail the Components of OSConfig and how they Customize the OS . . . 
 
 ## OSConfig.ps1
 
