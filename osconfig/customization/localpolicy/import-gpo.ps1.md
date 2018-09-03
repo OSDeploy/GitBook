@@ -18,11 +18,13 @@ And then to go through all the XML nodes
 
 ![](../../../.gitbook/assets/2018-09-02_1-05-51b.png)
 
-And import the Registry Values into the Registry
+And write the Registry Values into the Registry \(hives will be dismounted when complete\)
 
-![](../../../.gitbook/assets/2018-09-02_1-09-16.png)
+![](../../../.gitbook/assets/2018-09-02_23-40-15.png)
 
 During execution of the script, the console output will look like this
 
-![](../../../.gitbook/assets/2018-09-02_1-16-07.png)
+![](../../../.gitbook/assets/2018-09-02_23-37-17.png)
+
+
 
