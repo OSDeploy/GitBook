@@ -80,5 +80,5 @@
   * [Edit OSDeploy Branding](osconfig/group-policies/edit-osdeploy-branding.md)
 * [Provisioning Package](osconfig/provisioning-package.md)
 * [How To](osconfig/how-to/README.md)
-  * [Theme Customization](osconfig/how-to/theme.md)
+  * [Theme Customization](osconfig/how-to/theme-customization.md)
 
