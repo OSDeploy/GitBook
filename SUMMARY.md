@@ -67,8 +67,7 @@
   * [RegistryXML](osconfig/customization/registryxml.md)
   * [Scripts](osconfig/customization/scripts.md)
   * [Start](osconfig/customization/start.md)
-  * [Theme](osconfig/customization/theme/README.md)
-    * [Theme](osconfig/customization/theme/theme.md)
+  * [Theme](osconfig/customization/theme.md)
   * [Zeta](osconfig/customization/zeta.md)
 * [Group Policies](osconfig/group-policies/README.md)
   * [Best Practices](osconfig/group-policies/best-practices/README.md)
@@ -80,5 +79,6 @@
   * [Import OSDeploy GPOs](osconfig/group-policies/import-osdeploy-gpos.md)
   * [Edit OSDeploy Branding](osconfig/group-policies/edit-osdeploy-branding.md)
 * [Provisioning Package](osconfig/provisioning-package.md)
-* [How To](osconfig/how-to.md)
+* [How To](osconfig/how-to/README.md)
+  * [Theme Customization](osconfig/how-to/theme.md)
 
