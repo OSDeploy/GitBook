@@ -1,4 +1,4 @@
-# Edit OSDeploy Branding
+# Edit OSDeploy Branding GPO
 
 Now that you have imported your OSDeploy GPOs, you can edit them.  OSDeploy Branding should contain all your unique settings for your Enterprise.
 

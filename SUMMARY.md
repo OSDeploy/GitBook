@@ -77,7 +77,7 @@
   * [Update ADMX Templates](osconfig/group-policies/update-admx-templates.md)
   * [Local vs Domain Policies](osconfig/group-policies/local-vs-domain-policies.md)
   * [Import OSDeploy GPOs](osconfig/group-policies/import-osdeploy-gpos.md)
-  * [Edit OSDeploy Branding](osconfig/group-policies/edit-osdeploy-branding.md)
+  * [Edit OSDeploy Branding GPO](osconfig/group-policies/edit-osdeploy-branding-gpo.md)
 * [Provisioning Package](osconfig/provisioning-package.md)
 * [How To](osconfig/how-to/README.md)
   * [Theme Customization](osconfig/how-to/theme-customization.md)
