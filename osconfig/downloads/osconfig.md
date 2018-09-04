@@ -16,6 +16,11 @@ OSConfig requires LGPO for Local Policy Configuration.  This is NOT included in 
 
 ## Release Information
 
+### 18.9.4 \(September 4, 2018\)
+
+* **OSConfig.ps1** updated to support Provisioning Packages
+* **Import-GPO.ps1** updated to hide progress \(required for Provisioning Packages\)
+
 ### 18.9.3 \(September 3, 2018\)
 
 * Set-StartLayout.ps1 - resolved an issue where LayoutModification was not copied to existing User Profiles
