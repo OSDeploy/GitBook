@@ -1,6 +1,6 @@
 # OSDeploy PowerShell Module
 
-Install the OSDeploy PowerShell Module 
+The OSDeploy PowerShell Module is published on PowerShell Gallery
 
 {% embed data="{\"url\":\"https://www.powershellgallery.com/packages/OSDeploy\",\"type\":\"link\",\"title\":\"OSDeploy\",\"description\":\"Allows the servicing of a Windows Image offline\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.powershellgallery.com/Public/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://powershellgallery.com/Content/Images/PackageDefaultIcon.png\",\"width\":128,\"height\":128,\"aspectRatio\":1}}" %}
 
