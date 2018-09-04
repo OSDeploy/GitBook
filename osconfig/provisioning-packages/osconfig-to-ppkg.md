@@ -2,6 +2,10 @@
 
 This is the Cheddar.  If you have OSConfig customized to your liking . . . you can proceed to the Finish Line  and create a Provisioning Package.
 
+{% hint style="danger" %}
+You need to get OSConfig.ps1 version 18.9.4 or newer to support Provisioning Packages properly.  [OSConfig Release Information](https://www.osdeploy.com/osconfig/downloads/osconfig)
+{% endhint %}
+
 You can following this process or use the Microsoft Guide linked below
 
 {% hint style="info" %}
