@@ -94,3 +94,17 @@ You can download the Provisioning Package created in this page by selecting the 
 
 {% file src="../../.gitbook/assets/set-oemmodel.ppkg" %}
 
+## Further Information
+
+Provisioning Packages are expanded to the Current User %Temp% directory
+
+![](../../.gitbook/assets/2018-09-04_13-27-55.png)
+
+In the case of Provisioning Packages that are executed in OOBE, they are in the following location
+
+```text
+%SystemRoot%\System32\Config\SystemProfile\AppData\Local\Temp\ProvisioningPkgTmp\*
+```
+
+
+
