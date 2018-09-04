@@ -22,6 +22,7 @@ Install-Module -Name OSDeploy -Scope CurrentUser -Force
 
 * **New-CAB** - Input the path of a Directory
   * Creates a CAB file of the Directory
+  * Used for creating a CAB for Provisioning Packages
 * **Show-RegistryXML** - Input the path to a Directory containing RegistryXML files
   * Displays the Registry Modifications contained in the RegistryXML files
 
