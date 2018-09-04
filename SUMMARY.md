@@ -50,6 +50,7 @@
 * [Downloads](osconfig/downloads/README.md)
   * [OSConfig](osconfig/downloads/osconfig.md)
   * [LGPO](osconfig/downloads/lgpo.md)
+  * [OSDeploy PowerShell Module](osconfig/downloads/osdeploy-powershell-module.md)
 * [Deployment](osconfig/deployment/README.md)
   * [ConfigMgr New PC TS Package](osconfig/deployment/configmgr-new-pc-ts-package.md)
   * [ConfigMgr New PC TS Unattend.xml](osconfig/deployment/configmgr-new-pc-ts-unattend.xml.md)
