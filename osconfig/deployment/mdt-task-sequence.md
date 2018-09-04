@@ -74,9 +74,19 @@ In the image below, the Appx Packages are being removed
 
 ![](../../.gitbook/assets/2018-09-04_0-35-16.png)
 
-## 
+## Complete
 
+If everything is configured properly, your customizations should show up as soon as the Task Sequence gets to the Desktop
 
+![](../../.gitbook/assets/2018-09-04_0-47-58.png)
+
+![](../../.gitbook/assets/2018-09-04_0-47-15.png)
+
+![](../../.gitbook/assets/2018-09-04_0-47-39.png)
+
+You can even verify Local Policy to make sure that all the GPOs were applied
+
+![](../../.gitbook/assets/2018-09-04_0-50-00.png)
 
 
 
