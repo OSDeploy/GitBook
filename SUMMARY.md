@@ -54,7 +54,7 @@
   * [ConfigMgr New PC TS Package](osconfig/deployment/configmgr-new-pc-ts-package.md)
   * [ConfigMgr New PC TS Unattend.xml](osconfig/deployment/configmgr-new-pc-ts-unattend.xml.md)
   * [ConfigMgr New PC TS Provisioning Package](osconfig/deployment/configmgr-new-pc-ts-provisioning-package.md)
-  * [MDT New PC Task Sequence](osconfig/deployment/mdt-task-sequence.md)
+  * [MDT New PC TS](osconfig/deployment/mdt-task-sequence.md)
 * [Customize](osconfig/customization/README.md)
   * [Alpha](osconfig/customization/alpha.md)
   * [Apps](osconfig/customization/apps.md)
