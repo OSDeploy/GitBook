@@ -8,7 +8,8 @@ You will also need to create CAB files when creating Provisioning Packages.  You
 
 ## Articles
 
-* [PowerShell Script to PPKG](powershell-script-to-ppkg.md)
+* [PowerShell Script to PPKG](powershell-script-to-ppkg.md) - Convert a PowerShell Script to a Provisioning Package
+* [OSConfig to PPKG](osconfig-to-ppkg.md) - Convert OSConfig into a Provisioning Package
 
 
 

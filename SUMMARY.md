@@ -81,6 +81,7 @@
   * [Edit OSDeploy Branding GPO](osconfig/group-policies/edit-osdeploy-branding-gpo.md)
 * [Provisioning Packages](osconfig/provisioning-packages/README.md)
   * [PowerShell Script to PPKG](osconfig/provisioning-packages/powershell-script-to-ppkg.md)
+  * [OSConfig to PPKG](osconfig/provisioning-packages/osconfig-to-ppkg.md)
 * [How To](osconfig/how-to/README.md)
   * [Theme Customization](osconfig/how-to/theme-customization.md)
 

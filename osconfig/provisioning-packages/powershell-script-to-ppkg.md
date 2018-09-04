@@ -56,7 +56,7 @@ Change the Build Owner to IT Admin
 
 Leave this blank for general Provisioning
 
-![](../../.gitbook/assets/2018-09-04_13-17-55.png)
+![](../../.gitbook/assets/2018-09-04_13-17-55%20%281%29.png)
 
 ## Save Path
 
