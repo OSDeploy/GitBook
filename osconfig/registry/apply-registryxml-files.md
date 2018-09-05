@@ -4,5 +4,7 @@ While you can add your Registry settings in Group Policy Preferences, there is a
 
 ![](../../.gitbook/assets/2018-09-05_1-54-27.png)
 
+## Wrap-Up
 
+After switching to RegistryXML, there is absolutely no way I am going back to multiple steps in my Task Sequence for making Registry modifications . . . Keep this in mind . . . **until you separate your Customizations from your Task Sequence, you will never be able to create Provisioning Packages to apply the Customizations.**
 
