@@ -6,5 +6,9 @@ Most resources you will find typically add Registry entries from the command lin
 
 ## Articles
 
+* [Group Policy Preferences](group-policy-preferences.md)
+* [GPP Registry.xml](gpp-registry.xml.md)
+* [GPP RegistryXML Files](gpp-registryxml-files.md)
+
 
 
