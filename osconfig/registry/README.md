@@ -9,6 +9,12 @@ Most resources you will find typically add Registry entries from the command lin
 * [Group Policy Preferences](group-policy-preferences.md)
 * [GPP Registry.xml](gpp-registry.xml.md)
 * [GPP RegistryXML Files](gpp-registryxml-files.md)
+* [Convert REG to RegistryXML](convert-reg-to-registryxml.md)
+* [Apply RegistryXML Files](apply-registryxml-files.md)
 
+## Conclusion
 
+After reading the above articles, you should have a firm understanding of GPP Registry and how to create and apply RegistryXML Files.  You can easily create your own RegistryXML library of settings instead of adding multiple Run Command Line steps in your Task Sequence.
+
+**Please share your favorite RegistryXML additions to Windows so I can add them to the RegistryXML Library!**
 

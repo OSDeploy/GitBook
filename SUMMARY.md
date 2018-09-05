@@ -88,4 +88,6 @@
   * [Group Policy Preferences](osconfig/registry/group-policy-preferences.md)
   * [GPP Registry.xml](osconfig/registry/gpp-registry.xml.md)
   * [GPP RegistryXML Files](osconfig/registry/gpp-registryxml-files.md)
+  * [Convert REG to RegistryXML](osconfig/registry/convert-reg-to-registryxml.md)
+  * [Apply RegistryXML Files](osconfig/registry/apply-registryxml-files.md)
 
