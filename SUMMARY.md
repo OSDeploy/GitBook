@@ -84,4 +84,7 @@
   * [OSConfig to PPKG](osconfig/provisioning-packages/osconfig-to-ppkg.md)
 * [How To](osconfig/how-to/README.md)
   * [Theme Customization](osconfig/how-to/theme-customization.md)
+* [Registry](osconfig/registry/README.md)
+  * [Group Policy Preferences](osconfig/registry/group-policy-preferences.md)
+  * [GPP Registry.xml](osconfig/registry/gpp-registry.xml.md)
 
