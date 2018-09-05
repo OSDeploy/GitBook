@@ -22,7 +22,7 @@ If you have installed the OSDeploy PowerShell Module . . .
 
 You can easily read the GPP Registry.xml file in PowerShell
 
-![](../../.gitbook/assets/2018-09-05_1-05-25.png)
+![](../../.gitbook/assets/2018-09-05_1-33-26.png)
 
 ## Apply GPP Registry.xml
 

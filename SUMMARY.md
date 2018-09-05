@@ -87,4 +87,5 @@
 * [Registry](osconfig/registry/README.md)
   * [Group Policy Preferences](osconfig/registry/group-policy-preferences.md)
   * [GPP Registry.xml](osconfig/registry/gpp-registry.xml.md)
+  * [GPP RegistryXML Files](osconfig/registry/gpp-registryxml-files.md)
 
