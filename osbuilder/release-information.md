@@ -1,5 +1,31 @@
 # Release Information
 
+## 18.9.\* \(Unreleased\)
+
+* **Content**
+  * Removed Test-Build directory
+  * Removed Content\UpdateStacks directory
+  * Removed Content\UpdateWindows directory
+  * Content\Updates directory contains all updates \(Adobe, Component, Cumulative, Setup, Servicing\)
+  * Content\Provisioning directory has been added, but not used at this time \(future\)
+* **Functions**
+  * Get-OSBuilder - removed DownloadUpdates parameter
+  * Get-OSBuilderUpdates - new function to download all Updates
+  * Invoke-OSBuildTask
+    * Rename of Invoke-OSBuilderTask
+    * OSMedia tasks have been removed
+    * ExecutionMode has been removed and replaced with an Execute parameter
+    * TestMode has been removed
+    * Stepped has been removed
+    * Information of the Task is displayed when the Execute parameter is not present
+  * New-OSBuildTask
+    * Rename of New-OSBuilderTask
+    * Used for creating an OSBuild, from OSMedia
+  * Update-OSMedia
+    * Used to update OSMedia
+
+![](../.gitbook/assets/2018-09-11_15-11-53b.png)
+
 ## 18.8.6.1 \(August 6, 2018\)
 
 * Support for executing PowerShell scripts during an OSBuild Task.  Simply place your scripts in OSBuilder\Content\Scripts and select then when creating an OSBuild Task.

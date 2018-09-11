@@ -21,7 +21,7 @@ Install-Module -Name OSBuilder -Scope CurrentUser -Force
 
 After installing the PowerShell Module, OSBuilder can be run in PowerShell ISE
 
-![](../.gitbook/assets/2018-07-12_10-43-23.png)
+![OSBuilder 18.9.11.0](../.gitbook/assets/2018-09-11_15-11-53.png)
 
 ## Admin Rights
 
