@@ -85,12 +85,12 @@
 * **New Documentation**
   * [How To: Show OS Information](how-to/show-os-information.md)
   * [Knowledge: OSBuilder OS Information](knowledge/osbuilder-os-information.md)
-  * [How To: ExecutionMode - Information](how-to/executionmode-information.md)
-  * [How To: ExecutionMode - Test Build](how-to/executionmode-test-build.md)
-  * [How To: ExecutionMode - Execute Stepped](how-to/executionmode-execute-stepped.md)
-  * [How To: ExecutionMode - Execute](how-to/executionmode-execute.md)
+  * [How To: ExecutionMode - Information]()
+  * [How To: ExecutionMode - Test Build]()
+  * [How To: ExecutionMode - Execute Stepped]()
+  * [How To: ExecutionMode - Execute]()
 * **Updated Documentation**
-  * [How To: Create an OSMedia Task](how-to/create-an-osmedia-task.md)
+  * [How To: Create an OSMedia Task]()
   * [How To: Create an OSBuild Task](how-to/create-an-osbuild-task.md)
 
 ## 18.7.23.\* \(July 23, 2018\)
