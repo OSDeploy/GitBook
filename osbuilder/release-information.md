@@ -1,6 +1,6 @@
 # Release Information
 
-## 18.9.\* \(Unreleased\)
+## 18.9.12.\* \(September 12, 2018\)
 
 * **Content**
   * Removed Test-Build directory
