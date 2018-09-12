@@ -15,6 +15,7 @@
   * [Work with Languages](osbuilder/how-to/work-with-languages.md)
   * [Import an Operating System](osbuilder/how-to/import-an-operating-system.md)
   * [Batch Import Operating Systems](osbuilder/how-to/batch-import-operating-systems.md)
+  * [Update-OSMedia](osbuilder/how-to/update-osmedia.md)
   * [Create an OSBuild Task](osbuilder/how-to/create-an-osbuild-task.md)
   * [Show OS Information](osbuilder/how-to/show-os-information.md)
   * [Create an OS ISO](osbuilder/how-to/create-an-iso.md)
