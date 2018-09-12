@@ -11,6 +11,7 @@
 * [Solutions](osbuilder/solutions.md)
 * [How To](osbuilder/how-to/README.md)
   * [Getting Started](osbuilder/how-to/getting-started.md)
+  * [Get-OSBuilderUpdates](osbuilder/how-to/get-osbuilderupdates.md)
   * [Download Servicing Stacks](osbuilder/how-to/download-servicing-stacks.md)
   * [Download Windows Updates](osbuilder/how-to/download-windows-updates.md)
   * [Update your Updates](osbuilder/how-to/update-your-updates.md)
