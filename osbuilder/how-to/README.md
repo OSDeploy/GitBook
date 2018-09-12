@@ -3,9 +3,9 @@
 Full instructions on how to use OSBuilder is on the following pages. I recommend reading as much as possible before using OSBuilder
 
 * [Getting Started](getting-started.md)
-* [Download Servicing Stacks](download-servicing-stacks.md)
-* [Download Windows Updates](download-windows-updates.md)
-* [Update your Updates](update-your-updates.md)
+* [Download Servicing Stacks]()
+* [Download Windows Updates]()
+* [Update your Updates]()
 * [Work with Languages](work-with-languages.md)
 * [Import an Operating System](import-an-operating-system.md)
 * [Batch Import Operating Systems](batch-import-operating-systems.md)
