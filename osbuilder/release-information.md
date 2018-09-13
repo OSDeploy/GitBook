@@ -1,5 +1,12 @@
 # Release Information
 
+## 18.9.13.\* \(September 13, 2018\)
+
+* Resolved an issue where the UBR is not updated properly in ntdll.dll / ntoskrnl.exe
+* Added detection method \(Sessions.xml\) to determine if a Cumulative Update was installed.  This allows for the skipping of a reinstall
+
+![](../.gitbook/assets/2018-09-13_2-24-11.png)
+
 ## 18.9.12.\* \(September 12, 2018\)
 
 * **Content**
