@@ -12,13 +12,11 @@ Import-OSMedia can be run without any parameters.  Once executed it will will se
 
 Once the scanning is complete, a Grid will be displayed with all the available Operating Systems. Multi-select the ones you want to import and press OK. I have tested the import on 8 ISO's at the same time.
 
-![](../../.gitbook/assets/2018-07-19_20-20-05.jpg)
+![](../../.gitbook/assets/2018-09-14_0-00-12.png)
 
 ## Import-OSMedia -UpdateOSMedia
 
 Optionally, you can add the **UpdateOSMedia** parameter to automatically patch the Imported Operating System using [Import-OSMedia](import-osmedia.md).  This option will automatically download any required Updates.  You will need an Internet connection and keep in mind the Cumulative Updates are quite large, so don't do this with a Metered Connection.
-
-![](../../.gitbook/assets/2018-09-13_22-56-02.png)
 
 ## Import Phase
 
