@@ -1,6 +1,8 @@
-# Get-OSBuilderUpdates
+# Download Microsoft Updates
 
-**Released 18.9.12**
+You may want to download the Microsoft Updates you need before Updating any Operating Systems.  This is not required as you can let OSBuilder what you need, but if you want to get them all downloaded first, follow these instructions
+
+## Get-OSBuilderUpdates
 
 Get-OSBuilderUpdates is used to download Microsoft Updates into the OSBuilder\Content\Updates directory.  When running Get-OSBuilder for the first time you will receive a message that Microsoft Updates are missing.
 

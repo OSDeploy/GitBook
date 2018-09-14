@@ -4,8 +4,8 @@ Full instructions on how to use OSBuilder is on the following pages. I recommend
 
 * [Getting Started](getting-started.md)
 * [Get-OSBuilderUpdates](get-osbuilderupdates.md)
-* [Work with Languages](work-with-languages.md)
-* [Import an Operating System](import-an-operating-system.md)
+* [Work with Languages](../knowledge/work-with-languages.md)
+* [Import an Operating System](import-osmedia.md)
 * [Batch Import Operating Systems](batch-import-operating-systems.md)
 * [Update-OSMedia](update-osmedia.md)
 * [Create an OSBuild Task](create-an-osbuild-task.md)
