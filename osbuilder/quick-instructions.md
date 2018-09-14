@@ -53,7 +53,7 @@ New-OSBuildTask -TaskName "Win10 x64 Ent 1803" -EnableNetFX3
 ```
 
 {% hint style="info" %}
-**Select the updated OSMedia that was created in Step 5**
+**Select the updated OSMedia that was created in Step 3**
 
 **How To:** [https://www.osdeploy.com/osbuilder/how-to/create-an-osbuild-task.html](https://www.osdeploy.com/osbuilder/how-to/create-an-osbuild-task.html)
 
@@ -71,7 +71,7 @@ Invoke-OSBuilderTask -ExecutionMode Execute
 ```
 
 {% hint style="info" %}
-**Select the OSBuild Task that was created in Step 6**
+**Select the OSBuild Task that was created in Step 4**
 
 **How To:** [https://www.osdeploy.com/osbuilder/how-to/executionmode-execute.html](https://www.osdeploy.com/osbuilder/how-to/executionmode-execute.html)
 
@@ -89,7 +89,7 @@ New-OSBuilderISO
 ```
 
 {% hint style="info" %}
-**Select the OSBuild that was created in Step 7**
+**Select the OSBuild that was created in Step 5**
 
 **How To:** [https://www.osdeploy.com/osbuilder/how-to/create-an-iso.html](https://www.osdeploy.com/osbuilder/how-to/create-an-iso.html)
 {% endhint %}
