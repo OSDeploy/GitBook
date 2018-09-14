@@ -16,7 +16,7 @@ Once the scanning is complete, a Grid will be displayed with all the available O
 
 ## Import-OSMedia -UpdateOSMedia
 
-Optionally, you can add the **UpdateOSMedia** parameter to Import and Update.  This option will automatically download any required Updates.  You will need an Internet connection and keep in mind the Cumulative Updates are quite large, so don't do this with a Metered Connection.
+Optionally, you can add the **UpdateOSMedia** parameter to automatically patch the Imported Operating System using [Import-OSMedia](import-osmedia.md).  This option will automatically download any required Updates.  You will need an Internet connection and keep in mind the Cumulative Updates are quite large, so don't do this with a Metered Connection.
 
 ![](../../.gitbook/assets/2018-09-13_22-56-02.png)
 
