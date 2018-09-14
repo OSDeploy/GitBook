@@ -1,5 +1,15 @@
 # Release Information
 
+## 18.9.14.\* \(September 14, 2018
+
+* **Import-OSMedia**
+  * UpdateOSMedia parameter added to automatically download Microsoft Updates and to execute Update-OSMedia
+* **Update-OSMedia**
+  * ByName parameter added to prevent GridView selection
+  * DownloadUpdates parameter added to automatically download Microsoft Updates that are needed for execution
+* **Invoke-OSBuildTask**
+  * DownloadUpdates parameter added to automatically download Microsoft Updates that are needed for execution
+
 ## 18.9.13.\* \(September 13, 2018\)
 
 * Resolved an issue where the UBR is not updated properly in ntdll.dll / ntoskrnl.exe
