@@ -2,17 +2,23 @@
 
 [https://youtu.be/m0Epj1RaDEc](https://youtu.be/m0Epj1RaDEc)
 
-The next step is to import an Operating System. In this example I have two mounted ISO's, Windows 10 1709 x64 and Windows 10 1803 x64.
+After installing OSBuilder, the next step is to import an Operating System. In this example I have two mounted ISO's, Windows 10 1709 x64 and Windows 10 1803 x64.
 
 ![](../../.gitbook/assets/2018-07-10_14-04-39.png)
 
 ## Import-OSMedia
 
-Import-OSMedia doesn't need any parameters. The way it works is that It will search all attached Drives for install.wims. A multi-boot OS will not work for now since Import-OSMedia is looking specifically for "sources\install.wim". Be patient and let the scan finish.
+Import-OSMedia can be run without any parameters.  Once executed it will will search all attached Drives for install.wims. A multi-boot OS will not work for now since Import-OSMedia is looking specifically for "sources\install.wim". Be patient and let the scan finish.
 
 Once the scanning is complete, a Grid will be displayed with all the available Operating Systems. Multi-select the ones you want to import and press OK. I have tested the import on 8 ISO's at the same time.
 
 ![](../../.gitbook/assets/2018-07-19_20-20-05.jpg)
+
+## Import-OSMedia -UpdateOSMedia
+
+Optionally, you can add the **UpdateOSMedia** parameter to Import and Update.  This option will automatically download any required Updates.  You will need an Internet connection and keep in mind the Cumulative Updates are quite large, so don't do this with a Metered Connection.
+
+![](../../.gitbook/assets/2018-09-13_22-56-02.png)
 
 ## Import Phase
 
