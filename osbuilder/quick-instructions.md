@@ -25,6 +25,14 @@ Import-OSMedia
 ```
 
 {% hint style="info" %}
+Steps 2 and 3 can be combined by adding the **-UpdateOSMedia** parameter
+{% endhint %}
+
+```text
+Import-OSMedia -UpdateOSMedia
+```
+
+{% hint style="info" %}
 **How To:** [https://www.osdeploy.com/osbuilder/how-to/import-osmedia](https://www.osdeploy.com/osbuilder/how-to/import-osmedia)
 {% endhint %}
 
