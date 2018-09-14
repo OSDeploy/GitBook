@@ -1,4 +1,8 @@
-# Update-OSMedia
+# Updated an Operating System
+
+You should repeat this process after new Cumulative Updates are released every Monthly Patch Tuesday
+
+## Update-OSMedia
 
 Update-OSMedia is used to apply Patches to an imported OSMedia.  Previous versions of OSBuilder required the creation of a Task to specify the Update sources, but this is no longer required.
 
