@@ -8,33 +8,39 @@ Update-OSMedia is used to apply Patches to an imported OSMedia.  Previous versio
 
 Simply execute Update-OSMedia without any Parameters.  You will be prompted to select an imported OSMedia \(PowerShell ISE is required to select the Operating System for now\).  Make a selection and press OK.
 
-![](../../.gitbook/assets/2018-09-12_11-11-44.png)
+![](../../.gitbook/assets/2018-09-14_0-13-20.png)
 
-## Missing Updates
+When running Update-OSMedia without any parameters and selecting an Operating System, information will be displayed.  This will also include a list of Microsoft Updates that will be applied.
 
-In the example below, I have not downloaded any updates and have received a Warning.  If the required Updates are not downloaded, you will not be able to Execute an Update
+![](../../.gitbook/assets/2018-09-14_0-22-06.png)
 
-![](../../.gitbook/assets/2018-09-12_11-17-47.png)
+## Update-OSMedia -DownloadUpdates
 
-## Valid Updates
+Using this parameter will automatically download the required Microsoft Updates.  When using the **DownloadUpdates** parameter, the Update Catalog will be updated with the latest version.
 
-If all the required Updates are in place, then everything will check out
+![](../../.gitbook/assets/2018-09-14_0-29-33.png)
 
-![](../../.gitbook/assets/2018-09-12_11-18-36.png)
+## Update-OSMedia -Execute \(Without Updates\)
+
+When you are ready to perform the Update, use the **Execute** parameter.  You won't get far if you don't have the Microsoft Updates downloaded first
+
+![](../../.gitbook/assets/2018-09-14_0-30-50.png)
+
+## Update-OSMedia -DownloadUpdates -Execute
+
+Using this combination will download the Microsoft Updates and start the Update.
+
+
+
+## 
+
+
 
 ## Multiple Selection
 
-You can update multiple OSMedia consecutively by multi-selecting the OSMedia
+You can update multiple OSMedia to update by multi-selecting the OSMedia
 
 ![](../../.gitbook/assets/2018-09-12_11-19-45.png)
-
-![](../../.gitbook/assets/2018-09-12_11-21-09.png)
-
-## Execution
-
-If everything looks good, add the **Execute** Parameter to kick things off
-
-![](../../.gitbook/assets/2018-09-12_11-22-38.png)
 
 
 
