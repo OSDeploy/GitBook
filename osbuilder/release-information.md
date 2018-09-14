@@ -1,6 +1,6 @@
 # Release Information
 
-## 18.9.14.\* \(September 14, 2018
+## 18.9.14.\* \(September 14, 2018\)
 
 * **Import-OSMedia**
   * UpdateOSMedia parameter added to automatically download Microsoft Updates and to execute Update-OSMedia
