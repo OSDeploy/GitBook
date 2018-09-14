@@ -38,5 +38,37 @@ Using this combination will download the Microsoft Updates and start the Update 
 
 ![](../../.gitbook/assets/2018-09-14_0-40-13.png)
 
+## Execute WinPE Phase
+
+When the execution starts, information about the OS will be displayed and Microsoft Updates will be downloaded if needed
+
+![](../../.gitbook/assets/2018-09-14_2-06-48.png)
+
+Once the Microsoft Updates are ready, the Transcript will start and the OS will be copied into a Working Directory.  If Setup Updates are necessary, they will be extracted into the Sources directory
+
+![](../../.gitbook/assets/2018-09-14_2-08-22.png)
+
+The WinPE wims will be mounted and the Sources directory will be compared with the mounted Setup wim
+
+![](../../.gitbook/assets/2018-09-14_2-12-33%20%281%29.png)
+
+The latest Servicing Stack Update will be installed
+
+![](../../.gitbook/assets/2018-09-14_2-12-33ssu.png)
+
+Followed by the latest Cumulative Update and Dism to perform an Image Cleanup
+
+![](../../.gitbook/assets/2018-09-14_2-12-33cu.png)
+
+Sources will be updated with the Cumulative Updates files
+
+![](../../.gitbook/assets/2018-09-14_2-12-33sources.png)
+
+An inventory will be performed and the wims will be Dismounted and Saved
+
+![](../../.gitbook/assets/2018-09-14_2-12-33dismount.png)
+
+## Execute Install.wim Phase
+
 
 
