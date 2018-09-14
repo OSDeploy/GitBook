@@ -14,6 +14,12 @@ When running Update-OSMedia without any parameters and selecting an Operating Sy
 
 ![](../../.gitbook/assets/2018-09-14_0-22-06.png)
 
+## Multiple OS Selection
+
+You can update multiple OSMedia to update by multi-selecting the OSMedia
+
+![](../../.gitbook/assets/2018-09-12_11-19-45.png)
+
 ## Update-OSMedia -DownloadUpdates
 
 Using this parameter will automatically download the required Microsoft Updates.  When using the **DownloadUpdates** parameter, the Update Catalog will be updated with the latest version.
@@ -28,19 +34,9 @@ When you are ready to perform the Update, use the **Execute** parameter.  You wo
 
 ## Update-OSMedia -DownloadUpdates -Execute
 
-Using this combination will download the Microsoft Updates and start the Update.
+Using this combination will download the Microsoft Updates and start the Update process.  This will take between 10-80 minutes depending on how many Updates need to be applied.
 
-
-
-## 
-
-
-
-## Multiple Selection
-
-You can update multiple OSMedia to update by multi-selecting the OSMedia
-
-![](../../.gitbook/assets/2018-09-12_11-19-45.png)
+![](../../.gitbook/assets/2018-09-14_0-40-13.png)
 
 
 
