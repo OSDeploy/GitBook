@@ -1,6 +1,11 @@
 # Release Information
 
-## 18.9.20.\* \(September 20, 2018\)
+## 18.9.20.1 \(September 20, 2018\)
+
+* Update Catalog contains 4 Setup Updates \(1709 and 1803\)
+* UBR is now calcuated with DISM
+
+## 18.9.20.0 \(September 20, 2018\)
 
 {% hint style="danger" %}
 Updating Sources with Robocopy and extracting Setup Component to Sources are causing issues with Upgrade Task Sequences
