@@ -1,5 +1,24 @@
 # Release Information
 
+## 18.9.20.\* \(September 20, 2018\)
+
+{% hint style="danger" %}
+Updating Sources with Robocopy and extracting Setup Component to Sources are causing issues with Upgrade Task Sequences
+
+After applying this OSBuilder Update, you should Update-OSMedia from the original Import-OSMedia.  OSBuilds will have to be recreated after OSMedia has been updated
+{% endhint %}
+
+* **Import-OSMedia**
+  * Modified method for calculating UBR, now gathered through Rollup Package information
+* **Update-OSMedia**
+  * Modified method for calculating UBR, now gathered through Rollup Package information
+  * Removed Robocopy of Sources directory
+* **Invoke-OSBuildTask**
+  * Modified method for calculating UBR, now gathered through Rollup Package information
+  * Removed Robocopy of Sources directory
+
+![Upgrade Error due to Robocopy and Setup Component Extract](../.gitbook/assets/2018-09-19_22-57-17.png)
+
 ## 18.9.14.\* \(September 14, 2018\)
 
 * **Import-OSMedia**
