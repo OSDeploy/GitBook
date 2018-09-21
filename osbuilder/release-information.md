@@ -1,5 +1,10 @@
 # Release Information
 
+## 18.9.21.0 \(September 21, 2018\)
+
+* UBR now gathered from the mounted Image Registry
+* Registry Export of OS Properties saved as CurrentVersion.txt
+
 ## 18.9.20.1 \(September 20, 2018\)
 
 * Update Catalog contains 4 Setup Updates \(1709 and 1803\)
