@@ -4,7 +4,7 @@ This is an easy How To.  You must first use OSBuilder with this [How To](add-dar
 
 ![Press Shift + F10 to open a Command Prompt](../../.gitbook/assets/2018-08-03_1-10-21.png)
 
-Hold down Shift and F10 and a Command Prompt will open.  Start Network \(hopefully you added WinPE Drivers\) and then Remove Control using the following commands
+Hold down Shift and F10 and a Command Prompt will open.  Start Network \(hopefully you added WinPE Drivers\) and then Remote Control using the following commands
 
 ```text
 wpeinit InitializeNetwork
