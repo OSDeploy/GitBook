@@ -1,30 +1,4 @@
-# Getting Started
-
-## Hardware Requirements
-
-Offline Servicing of Windows 10 can take a considerable amount of time, especially on older releases. The process of Mounting a WIM, Applying a Cumulative Update, and performing DISM Image Cleanup will take as little as 30 minutes \(1803 x86\) on a healthy Intel Core i7 computer with a SSD, to almost 2 hours \(1607 x64\) on the same system.
-
-I strongly recommend using a Workstation class system in performing these updates.
-
-Since OSBuilder will mount Windows Images, I strongly recommend that you do not have any running Anti-Virus scanning files ON ACCESS. McAfee will prevent the dismounting of images properly.
-
-{% hint style="info" %}
-OSBuilder works best on a stand alone Workgroup computer without an AntiVirus performing On Access Scanning.  Use a Virtual Machine \(with some power\) as an alternate solution
-{% endhint %}
-
-## 
-
-## Supported Operating Systems
-
-OSBuilder runs perfectly in Windows 10.  You can work with Images based on Windows 10 or Windows Server 2016.
-
-## OSMedia
-
-If you used my previous attempt at this called OSMedia, you will need to get rid of it first.
-
-![](../../.gitbook/assets/2018-07-10_11-49-36.png)
-
-## Get-OSBuilder
+# Get OSBuilder
 
 Start by opening PowerShell ISE as Elevated \(Run as Administrator\). Select the OSBuilder Module and then Get-OSBuilder
 

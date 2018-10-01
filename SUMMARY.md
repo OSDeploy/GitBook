@@ -10,7 +10,7 @@
 * [Quick Instructions](osbuilder/quick-instructions.md)
 * [Solutions](osbuilder/solutions.md)
 * [How To](osbuilder/how-to/README.md)
-  * [Getting Started](osbuilder/how-to/getting-started.md)
+  * [Get OSBuilder](osbuilder/how-to/getting-started.md)
   * [Import an Operating System](osbuilder/how-to/import-osmedia.md)
   * [Batch Import Operating Systems](osbuilder/how-to/batch-import-operating-systems.md)
   * [Download Microsoft Updates](osbuilder/how-to/get-osbuilderupdates.md)
