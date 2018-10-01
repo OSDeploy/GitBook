@@ -8,7 +8,7 @@ Full instructions on how to use OSBuilder is on the following pages. I recommend
 * [Import an Operating System](import-osmedia.md)
 * [Batch Import Operating Systems](batch-import-operating-systems.md)
 * [Update-OSMedia](update-osmedia.md)
-* [Create an OSBuild Task](create-an-osbuild-task.md)
+* [Create an OSBuild Task](new-osbuildtask.md)
 * [Show OS Information](show-os-information.md)
 * [Create an OS ISO](create-an-iso.md)
 * [Create an OS USB](create-an-os-usb.md)

@@ -137,7 +137,7 @@ After applying this OSBuilder Update, you should Update-OSMedia from the origina
   * [How To: ExecutionMode - Execute]()
 * **Updated Documentation**
   * [How To: Create an OSMedia Task]()
-  * [How To: Create an OSBuild Task](how-to/create-an-osbuild-task.md)
+  * [How To: Create an OSBuild Task](how-to/new-osbuildtask.md)
 
 ## 18.7.23.\* \(July 23, 2018\)
 
