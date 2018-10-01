@@ -1,7 +1,5 @@
 # Import an Operating System
 
-[https://youtu.be/m0Epj1RaDEc](https://youtu.be/m0Epj1RaDEc)
-
 After installing OSBuilder, the next step is to import an Operating System. In this example I have two mounted ISO's, Windows 10 1709 x64 and Windows 10 1803 x64.
 
 ![](../../.gitbook/assets/2018-07-10_14-04-39.png)

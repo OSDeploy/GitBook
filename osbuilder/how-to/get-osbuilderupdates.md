@@ -1,42 +1,36 @@
-# Download Microsoft Updates
+# Get-OSBuilderUpdates
 
-You may want to download the Microsoft Updates you need before Updating any Operating Systems.  This is not required as you can let OSBuilder what you need, but if you want to get them all downloaded first, follow these instructions
+You may want to download the Microsoft Updates you need before Updating any Operating Systems.  **This is not required as you can let OSBuilder download what you need**, but if you want to get them downloaded first, follow these instructions.  Use Get-OSBuilderUpdates
 
-## Get-OSBuilderUpdates
+![](../../.gitbook/assets/2018-10-01_0-44-36.png)
 
-Get-OSBuilderUpdates is used to download Microsoft Updates into the OSBuilder\Content\Updates directory.  When running Get-OSBuilder for the first time you will receive a message that Microsoft Updates are missing.
+When running Get-OSBuilderUpdates without any parameters, a complete list of downloads will be listed.  Files that have already been downloaded will not be shown in the list
 
-![](../../.gitbook/assets/2018-09-12_0-50-04.png)
+![](../../.gitbook/assets/2018-10-01_0-53-44.png)
 
-## Update Catalog
+## Get-OSBuilderUpdates -UpdateCatalogs
 
-OSBuilder downloads a list of current Microsoft Updates into an XML and a JSON file.  This is known as the OSBuilder Update Catalog \(think Microsoft Update Catalog\).  Once these files are downloaded, a list of available downloads will be displayed.
+It is necessary to check for updated Catalogs from time to time . . . use this Parameter
 
-![](../../.gitbook/assets/2018-09-12_1-11-28.png)
+![](../../.gitbook/assets/2018-10-01_0-55-55.png)
 
-## Catalog Update
+## Get-OSBuilderUpdates -Catalog
 
-You can update the Catalog by using the **CatalogUpdate** parameter
+You can filter Updates by Catalog.  Catalogs are saved in OSBuilder\Updates as JSON files
 
-![](../../.gitbook/assets/2018-09-12_1-13-49.png)
+![](../../.gitbook/assets/2018-10-01_0-50-18.png)
 
-## Filter Updates
+## Get-OSBuilderUpdates -FilterOS -FilterOSArch -FilterOSBuild
 
-Its much easier to see the Filters that can be used in PowerShell ISE.  You can filter by Category, OS, Architecture, and OS Build
+Use these parameters to narrow down the OS Compatibility that you need updates for
 
-![](../../.gitbook/assets/2018-09-12_1-17-49.png)
+![](../../.gitbook/assets/2018-10-01_0-58-42.png)
 
-## Filter By Keywords
+## Get-OSBuilderUpdates -Download -ShowDownloaded
 
-If you are feeling brave, you can also Filter by using Keywords
+The Download parameter will download the files that are available, and ShowDownloaded will include a listing of the Downloaded Updates
 
-![](../../.gitbook/assets/2018-09-12_1-23-10.png)
-
-## Download Updates
-
-Once you have your proper Filters, the -Download parameter will get the updates for you
-
-![](../../.gitbook/assets/2018-09-12_1-20-32.png)
+![](../../.gitbook/assets/2018-10-01_1-01-35.png)
 
 ## PowerShell ISE GridView
 

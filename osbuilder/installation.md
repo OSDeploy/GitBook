@@ -1,4 +1,4 @@
-# Installation
+# Installation and Requirements
 
 OSBuilder is published in the PowerShell Gallery at [https://www.powershellgallery.com/packages/OSBuilder/](https://www.powershellgallery.com/packages/OSBuilder/)  
 Make sure you check for updates as needed to support new features and to fix bugs!

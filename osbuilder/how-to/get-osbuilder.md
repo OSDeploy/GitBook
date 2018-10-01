@@ -9,21 +9,17 @@ When executing Get-OSBuilder without any parameters, it will display a few thing
   * \(does not exist\) is self explanatory
 * Update Information \(OSBuilder PowerShell Module is OK\)
 
-![](../../.gitbook/assets/2018-07-13_19-14-36.png)
+![](../../.gitbook/assets/2018-10-01_0-37-28.png)
 
 ## Get-OSBuilder -OSBuilderPath
 
 If you want to redirect OSBuilder to a different location, use this parameter
-
-![](../../.gitbook/assets/2018-07-13_19-37-37.png)
 
 ![](../../.gitbook/assets/2018-07-13_19-39-05.png)
 
 ## Get-OSBuilder -CreatePaths
 
 This will create the OSBuilder directory structure
-
-![](../../.gitbook/assets/2018-07-13_19-37-20.png)
 
 ![](../../.gitbook/assets/2018-07-13_19-40-42.png)
 
