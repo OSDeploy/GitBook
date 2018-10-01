@@ -1,7 +1,5 @@
 # Getting Started
 
-I recommend running OSBuilder in PowerShell ISE \(as Administrator\) until you get familiar with the steps. The first step of using OSBuilder is to run Get-OSBuilder.
-
 ## Hardware Requirements
 
 Offline Servicing of Windows 10 can take a considerable amount of time, especially on older releases. The process of Mounting a WIM, Applying a Cumulative Update, and performing DISM Image Cleanup will take as little as 30 minutes \(1803 x86\) on a healthy Intel Core i7 computer with a SSD, to almost 2 hours \(1607 x64\) on the same system.
@@ -14,9 +12,7 @@ Since OSBuilder will mount Windows Images, I strongly recommend that you do not 
 OSBuilder works best on a stand alone Workgroup computer without an AntiVirus performing On Access Scanning.  Use a Virtual Machine \(with some power\) as an alternate solution
 {% endhint %}
 
-## Admin Rights
-
-OSBuilder requires Admin Rights in PowerShell as you will be manipulating Windows Images. Make sure you launch PowerShell ISE as Administrator when using OSBuilder
+## 
 
 ## Supported Operating Systems
 
