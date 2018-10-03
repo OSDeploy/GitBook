@@ -4,6 +4,8 @@
 
 Lots of changes, and yes your Tasks will have to be rebuilt
 
+* **Setup.exe and SetupHost.exe are now in sync**
+  * This lets you image from an ISO without errors now
 * **Get-OSBuilder**
   * Changed Parameter OSBuilderPath to SetPath
 * **Get-OSBuilderUpdates**
