@@ -1,5 +1,30 @@
 # Release Information
 
+## 18.10.3.\* \(October 3, 2018\)
+
+Lots of changes, and yes your Tasks will have to be rebuilt
+
+* **Get-OSBuilder**
+  * Changed Parameter OSBuilderPath to SetPath
+* **Get-OSBuilderUpdates**
+  * Added FeatureOnDemand Catalog
+  * Added LanguagePack Catalog
+  * Added LanguageInterfacePacks Catalog
+  * Added LanguageFeature Catalog
+* **Invoke-OSBuildTask**
+  * Added option to select a custom SSU and CU
+* **New-OSBuildTask**
+  * Modifying Build In Appx, Components, and Features require a Parameter
+  * Added Language Options for the Install.wim \(not working in WinPE yet\)
+* **Update-OSMedia**
+  * Added option to select a custom SSU and CU
+* **MVLS Language Pack ISO Support**
+  * Expand your MVLS Language Pack ISO in the Content\MVLS directory to add Language Pack Selection to a Task
+* **MVLS Features On Demand ISO Support**
+  * Expand your MVLS Features On Demand ISO in the Content\MVLS directory to add Features to a Task
+
+![](../.gitbook/assets/2018-10-03_15-28-33.png)
+
 ## 18.9.21.0 \(September 21, 2018\)
 
 * UBR now gathered from the mounted Image Registry
