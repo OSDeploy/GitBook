@@ -1,5 +1,11 @@
 # Release Information
 
+## 18.10.4.0 \(October 4, 2018\)
+
+* Operating System Media using Install.ESD \(including dual Architecture\) can now be imported
+
+![](../.gitbook/assets/2018-10-04_2-05-42.png)
+
 ## 18.10.3.\* \(October 3, 2018\)
 
 Lots of changes, and yes your Tasks will have to be rebuilt
