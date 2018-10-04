@@ -1,7 +1,8 @@
 # Release Information
 
-## 18.10.4.0 \(October 4, 2018\)
+## 18.10.4.1 \(October 4, 2018\)
 
+* Added logic for Windows Server 2019
 * Operating System Media using Install.ESD \(including dual Architecture\) can now be imported
 
 ![](../.gitbook/assets/2018-10-04_2-05-42.png)
