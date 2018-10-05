@@ -119,7 +119,7 @@ Because OSBuilder looks on all Drives for this path . . . and I can easily impor
 
 ## Known Issue
 
-I do have problems removing Provisioned Appx Packages, but I assume it is because I am trying to servicing 1809 from a Windows 10 1803 system
+I do have problems removing Provisioned Appx Packages when using the ESD as the source, even running from an 1809 system, so you have been warned!
 
 ![](../.gitbook/assets/2018-10-04_22-50-31.png)
 
