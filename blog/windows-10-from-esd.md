@@ -123,6 +123,10 @@ I do have problems removing Provisioned Appx Packages when using the ESD as the 
 
 ![](../.gitbook/assets/2018-10-04_22-50-31.png)
 
+Came across this link, so maybe because I used an ESD . . . anyone else?
+
+{% embed data="{\"url\":\"https://serverfault.com/questions/814362/removing-windows-10-built-in-apps-from-a-windows-10-image\",\"type\":\"link\",\"title\":\"Removing Windows 10 Built In Apps from a Windows 10 Image\",\"description\":\"I\'ve Googled all over the place on how to remove the built in Windows 10 Apps like 3D Builder, Zune, Xbox, etc from a Windows 10 image file.   All of the tutorials always point to the same thing - ...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn.sstatic.net/Sites/serverfault/img/apple-touch-icon.png?v=6c3100d858bb\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn.sstatic.net/Sites/serverfault/img/apple-touch-icon@2.png?v=9b1f48ae296b\",\"width\":316,\"height\":316,\"aspectRatio\":1}}" %}
+
 ## Final Steps
 
 So I guess I'll just create an ISO and build a Virtual Machine and see if OSBuilder works from there.  Enjoy!
