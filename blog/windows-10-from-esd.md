@@ -123,6 +123,32 @@ I do have problems removing Provisioned Appx Packages when using the ESD as the 
 
 ![](../.gitbook/assets/2018-10-04_22-50-31.png)
 
+No mistakes on my part
+
+![](../.gitbook/assets/2018-10-04_23-44-23.png)
+
+And even DISM is a NO GO
+
+![](../.gitbook/assets/2018-10-04_23-46-41.png)
+
+Here's what the chatty DISM log says
+
+```text
+Info DISM   DISM Appx Provider: PID=5440 TID=6632 Processing 'packagename' option at index 2 - CAppxManager::ProcessCommandRemoveAllUserAppx
+Info DISM   DISM Appx Provider: PID=5440 TID=6632 packagename='Microsoft.ZuneVideo_2019.18052.20211.0_neutral_~_8wekyb3d8bbwe' - CAppxManager::ProcessCommandRemoveAllUserAppx
+Error DISM  DISM Appx Provider: PID=5440 TID=6632 Failed to get staged packages for package 'Microsoft.ZuneVideo_2019.18052.20211.0_neutral_~_8wekyb3d8bbwe'. - CPackageAdapter::CreateForRemove(hr:0x80070002)
+Error DISM  DISM Appx Provider: PID=5440 TID=6632 Failed while initializing package adapter for package 'Microsoft.ZuneVideo_2019.18052.20211.0_neutral_~_8wekyb3d8bbwe' - CAppxManager::RemoveAllUserAppx(hr:0x80070002)
+Error DISM  DISM Appx Provider: PID=5440 TID=6632 Failed to remove package 'Microsoft.ZuneVideo_2019.18052.20211.0_neutral_~_8wekyb3d8bbwe' - CAppxManager::ProcessCommandRemoveAllUserAppx(hr:0x80070002)
+Error DISM  DISM Appx Provider: PID=5440 TID=6632 Failed processing command to remove Appx package - CAppxManager::ExecuteCmdLine(hr:0x80070002)
+Info DISM   DISM Provider Store: PID=5440 TID=2496 Found the OSServices.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+Info DISM   DISM Provider Store: PID=5440 TID=2496 Found the OSServices.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+Info DISM   DISM Provider Store: PID=5440 TID=2496 Found the PE Provider.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+Info DISM   DISM Provider Store: PID=5440 TID=2496 Finalizing the servicing provider(DISM Package Manager) - CDISMProviderStore::Internal_DisconnectProvider
+Info DISM   DISM Package Manager: PID=5440 TID=2496 Finalizing CBS core. - CDISMPackageManager::Finalize
+```
+
+
+
 Came across this link, so maybe because I used an ESD . . . anyone else?
 
 {% embed data="{\"url\":\"https://serverfault.com/questions/814362/removing-windows-10-built-in-apps-from-a-windows-10-image\",\"type\":\"link\",\"title\":\"Removing Windows 10 Built In Apps from a Windows 10 Image\",\"description\":\"I\'ve Googled all over the place on how to remove the built in Windows 10 Apps like 3D Builder, Zune, Xbox, etc from a Windows 10 image file.   All of the tutorials always point to the same thing - ...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn.sstatic.net/Sites/serverfault/img/apple-touch-icon.png?v=6c3100d858bb\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn.sstatic.net/Sites/serverfault/img/apple-touch-icon@2.png?v=9b1f48ae296b\",\"width\":316,\"height\":316,\"aspectRatio\":1}}" %}
