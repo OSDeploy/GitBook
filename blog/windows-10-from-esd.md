@@ -17,7 +17,11 @@ So a search in WSUS gets me the link to download the ESD
 
 ![](../.gitbook/assets/2018-10-04_22-39-50.png)
 
-Here's the script
+Here's the link
+
+[http://b1.download.windowsupdate.com/d/upgr/2018/09/17763.1.180914-1434.rs5\_release\_clientbusiness\_vol\_x64fre\_en-us\_d29ef094928a77496cdf53d072b5023eddea7281.esd](http://b1.download.windowsupdate.com/d/upgr/2018/09/17763.1.180914-1434.rs5_release_clientbusiness_vol_x64fre_en-us_d29ef094928a77496cdf53d072b5023eddea7281.esd)
+
+And here's the script that gets me the link
 
 ```text
 (Get-WsusServer -Name DC -PortNumber 8530).SearchUpdates('Feature update to Windows 10 (business editions), version 1809, en-us') | ForEach-Object { 
