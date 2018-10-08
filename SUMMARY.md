@@ -13,6 +13,7 @@
 * [Solutions](osbuilder/solutions.md)
 * [How To](osbuilder/how-to/README.md)
   * [Get Started](osbuilder/how-to/get-osbuilder.md)
+  * [Change the OSBuilder Path](osbuilder/how-to/get-osbuilder-setpath.md)
   * [Import an Operating System](osbuilder/how-to/import-osmedia.md)
   * [Batch Import Operating Systems](osbuilder/how-to/batch-import-operating-systems.md)
   * [Download Windows Updates](osbuilder/how-to/get-osbuilderupdates.md)
