@@ -5,10 +5,12 @@
 * **Get-OSBuilder**
   * Content\StartLayout is no longer Recursed
   * Content\Unattend is no longer Recursed
+* **Get-OSBuilderUpdates**
+  * HideOptionalUpdates Parameter added
 * **Invoke-OSBuildTask**
-  * Use-WindowsUnattend does not seem to work as expected due to missing Windows\Panther directory.  Create Windows\Panther and add selected Unattend XML file to Windows\Panther\Unattend.xml
+  * Selecting an Unattend.xml will Use-WindowsUnattend for OfflineServicing and copy the Unattend.xml to Windows\Panther
   * Variables.xml and Variables.json exported
-* Update-OSMedia
+* **Update-OSMedia**
   * Variables.xml and Variables.json exported
 
 ## 18.10.4.\* \(October 4, 2018\)
