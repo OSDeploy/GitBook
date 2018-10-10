@@ -1,4 +1,4 @@
-# Change the OSBuilder Path
+# SetPath - Change the OSBuilder Path
 
 OSBuilder defaults to C:\OSBuilder.  While this works for most people, it may be necessary to change this from the default.  Here are some examples of why you would want to change the path
 
@@ -10,5 +10,5 @@ OSBuilder defaults to C:\OSBuilder.  While this works for most people, it may be
 
 To change the OSBuilder path simply use **Get-OSBuilder** with the **SetPath** Parameter
 
-![](../../.gitbook/assets/2018-10-08_1-27-14.png)
+![](../../../.gitbook/assets/2018-10-08_1-27-14.png)
 

@@ -2,7 +2,7 @@
 
 Full instructions on how to use OSBuilder is on the following pages. I recommend reading as much as possible before using OSBuilder
 
-* [Getting Started](get-osbuilder.md)
+* [Getting Started](get-osbuilder/)
 * [Get-OSBuilderUpdates](get-osbuilderupdates.md)
 * [Work with Languages](../knowledge/work-with-languages.md)
 * [Import an Operating System](import-osmedia.md)
