@@ -16,7 +16,7 @@ You can following this process or use the Microsoft Guide linked below
 
 Before going any further, make sure you have the OSDeploy PowerShell Module installed, unless you want to create a CAB DDF file manually.
 
-{% embed data="{\"url\":\"https://www.osdeploy.com/osconfig/downloads/osdeploy-powershell-module\",\"type\":\"link\",\"title\":\"OSDeploy PowerShell Module - OSDeploy\",\"icon\":{\"type\":\"icon\",\"url\":\"https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LDKRxGiKLYjW1gana2O%2Favatar.png?generation=1532585359921615&alt=media\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://www.gitbook.com/share/space/thumbnail/-LDKRxGiKLYjW1gana2O.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
+{% embed url="https://www.osdeploy.com/osconfig/downloads/osdeploy-powershell-module" %}
 
 ## Convert OSConfig to CAB
 
@@ -106,7 +106,7 @@ Now you have a complete OSConfig as a Provisioning Package.  You can now use thi
 
 See this link for guides on adding the Provisioning Package in the Task Sequence
 
-{% embed data="{\"url\":\"https://www.osdeploy.com/osconfig/deployment\",\"type\":\"link\",\"title\":\"Deployment - OSDeploy\",\"icon\":{\"type\":\"icon\",\"url\":\"https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LDKRxGiKLYjW1gana2O%2Favatar.png?generation=1532585359921615&alt=media\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://www.gitbook.com/share/space/thumbnail/-LDKRxGiKLYjW1gana2O.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
+{% embed url="https://www.osdeploy.com/osconfig/deployment" %}
 
 
 

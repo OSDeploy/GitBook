@@ -16,6 +16,7 @@
   * [Change the OSBuilder Path](osbuilder/how-to/get-osbuilder-setpath.md)
   * [Import an Operating System](osbuilder/how-to/import-osmedia.md)
   * [Batch Import Operating Systems](osbuilder/how-to/batch-import-operating-systems.md)
+  * [Download Required Microsoft Updates](osbuilder/how-to/download-required-microsoft-updates.md)
   * [Download Windows Updates](osbuilder/how-to/get-osbuilderupdates.md)
   * [Update an Imported Operating System](osbuilder/how-to/update-osmedia.md)
   * [Create an OSBuild Task](osbuilder/how-to/new-osbuildtask.md)

@@ -2,7 +2,7 @@
 
 OSConfig is configured as a **Complete Demo** that can be downloaded from GitHub
 
-{% embed data="{\"url\":\"https://github.com/OSDeploy/OSConfig\",\"type\":\"link\",\"title\":\"OSDeploy/OSConfig\",\"description\":\"OSConfig. Contribute to OSDeploy/OSConfig development by creating an account on GitHub.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars3.githubusercontent.com/u/12970006?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+{% embed url="https://github.com/OSDeploy/OSConfig" %}
 
 ## Download Instructions
 

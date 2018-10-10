@@ -151,7 +151,7 @@ Info DISM   DISM Package Manager: PID=5440 TID=2496 Finalizing CBS core. - CDISM
 
 Came across this link, so maybe because I used an ESD . . . anyone else?
 
-{% embed data="{\"url\":\"https://serverfault.com/questions/814362/removing-windows-10-built-in-apps-from-a-windows-10-image\",\"type\":\"link\",\"title\":\"Removing Windows 10 Built In Apps from a Windows 10 Image\",\"description\":\"I\'ve Googled all over the place on how to remove the built in Windows 10 Apps like 3D Builder, Zune, Xbox, etc from a Windows 10 image file.   All of the tutorials always point to the same thing - ...\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn.sstatic.net/Sites/serverfault/img/apple-touch-icon.png?v=6c3100d858bb\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn.sstatic.net/Sites/serverfault/img/apple-touch-icon@2.png?v=9b1f48ae296b\",\"width\":316,\"height\":316,\"aspectRatio\":1}}" %}
+{% embed url="https://serverfault.com/questions/814362/removing-windows-10-built-in-apps-from-a-windows-10-image" %}
 
 ## Final Steps
 
