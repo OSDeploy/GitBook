@@ -150,22 +150,22 @@ After applying this OSBuilder Update, you should Update-OSMedia from the origina
   * Added support for WinPE Extra Files
   * Added support for WinPE ADK Packages
 * **New Documentation**
-  * [How To: Add Drivers to WinPE](how-to/add-drivers-to-winpe.md)
-  * [How To: Add DaRT to WinPE](how-to/add-dart-to-winpe.md)
-  * [How To: OSBuild WinPE Scripts](how-to/osbuild-winpe-scripts.md)
-  * [How To: Add ADK Packages to WinPE](how-to/add-adk-packages-to-winpe.md)
-  * [How To: Add Extra Files to WinPE](how-to/add-extra-files-to-winpe.md)
+  * [How To: Add Drivers to WinPE](how-to/new-osbuildtask/add-drivers-to-winpe.md)
+  * [How To: Add DaRT to WinPE](how-to/new-osbuildtask/add-dart-to-winpe.md)
+  * [How To: OSBuild WinPE Scripts](how-to/new-osbuildtask/osbuild-winpe-scripts.md)
+  * [How To: Add ADK Packages to WinPE](how-to/new-osbuildtask/add-adk-packages-to-winpe.md)
+  * [How To: Add Extra Files to WinPE](how-to/new-osbuildtask/add-extra-files-to-winpe.md)
 
 ## 18.7.26.1 \(July 26, 2018\)
 
-* Create a Bootable OS USB with [New-OSBuilderUSB](how-to/create-an-os-usb.md)
+* Create a Bootable OS USB with [New-OSBuilderUSB](how-to/new-osbuilderusb.md)
 * Migrated [osdeploy.com](https://www.osdeploy.com/) to updated [GitBook](https://www.gitbook.com/) framework
 * JSON files used for OSBuilder Module version checking has moved to [GitHub](https://github.com/OSDeploy/OSBuilderJSON)
   * Previous versions of OSBuilder cannot check for Updates
 * JSON files used for DownloadUpdates has moved to [GitHub](https://github.com/OSDeploy/OSBuilderJSON)
   * Previous versions of OSBuilder can no longer check for updated Servicing Stacks, Cumulative Updates, and Adobe Security Updates
 * **New Documentation**
-  * [How To: Create an OS USB](how-to/create-an-os-usb.md)
+  * [How To: Create an OS USB](how-to/new-osbuilderusb.md)
 
 ## 18.7.25.\* \(July 25, 2018\)
 
@@ -174,9 +174,9 @@ After applying this OSBuilder Update, you should Update-OSMedia from the origina
 ## 18.7.24.\* \(July 24, 2018\)
 
 * **Windows Server 2016 now supported**
-* **Added** [**Show-OSInfo**](how-to/show-os-information.md) **function**
+* **Added** [**Show-OSInfo**](how-to/show-osinfo.md) **function**
 * **New Documentation**
-  * [How To: Show OS Information](how-to/show-os-information.md)
+  * [How To: Show OS Information](how-to/show-osinfo.md)
   * [Knowledge: OSBuilder OS Information](knowledge/osbuilder-os-information.md)
   * [How To: ExecutionMode - Information]()
   * [How To: ExecutionMode - Test Build]()
@@ -184,7 +184,7 @@ After applying this OSBuilder Update, you should Update-OSMedia from the origina
   * [How To: ExecutionMode - Execute]()
 * **Updated Documentation**
   * [How To: Create an OSMedia Task]()
-  * [How To: Create an OSBuild Task](how-to/new-osbuildtask.md)
+  * [How To: Create an OSBuild Task](how-to/new-osbuildtask/)
 
 ## 18.7.23.\* \(July 23, 2018\)
 

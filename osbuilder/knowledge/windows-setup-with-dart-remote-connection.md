@@ -1,6 +1,6 @@
 # Windows Setup with DaRT Remote Connection
 
-This is an easy How To.  You must first use OSBuilder with this [How To](add-dart-to-winpe.md).  OSBuilder will add DaRT to WinPE \(Boot.wim Index 1\), WinRE, and Windows Setup \(Boot.wim Index 2\).  Now create an ISO or USB and boot up the OS.
+This is an easy How To.  You must first use OSBuilder with this [How To](../how-to/new-osbuildtask/add-dart-to-winpe.md).  OSBuilder will add DaRT to WinPE \(Boot.wim Index 1\), WinRE, and Windows Setup \(Boot.wim Index 2\).  Now create an ISO or USB and boot up the OS.
 
 ![Press Shift + F10 to open a Command Prompt](../../.gitbook/assets/2018-08-03_1-10-21.png)
 

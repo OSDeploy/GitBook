@@ -1,4 +1,4 @@
-# Show OS Information
+# Show-OSInfo
 
 You can display the information about any OSMedia or OSBuild Operating System using Show-OSInfo. If you want to know how this works, read [Knowledge: OSBuilder OS Information](../knowledge/osbuilder-os-information.md)
 

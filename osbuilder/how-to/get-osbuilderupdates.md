@@ -1,4 +1,4 @@
-# Download Windows Updates
+# Get-OSBuilderUpdates
 
 You may want to download the Microsoft Updates you need before Updating any Operating Systems.  **This is not required as you can let OSBuilder download what you need**, but if you want to get them downloaded first, follow these instructions.  Use **Get-OSBuilderUpdates**
 

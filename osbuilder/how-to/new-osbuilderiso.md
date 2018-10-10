@@ -1,4 +1,4 @@
-# Create an OS ISO
+# New-OSBuilderISO
 
 Starting in OSBuilder 18.7.16.1, you can now create an ISO from any OSMedia or OSBuild using **New-OSBuilderISO**
 

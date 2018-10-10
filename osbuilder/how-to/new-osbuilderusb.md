@@ -1,4 +1,4 @@
-# Create an OS USB
+# New-OSBuilderUSB
 
 > OSBuilder 18.7.26+
 

@@ -1,4 +1,4 @@
-# Batch Import Operating Systems
+# Batch Import-OSMedia
 
 Let's say I want to import all my Windows 10 Operating Systems into OSBuilder from ISO's. This can be easily done with two lines of PowerShell. Replace C:\ISO with the path to your Windows 10 ISO's. It will take a minute or so for OSBuilder to check all the install.wim's
 
@@ -7,17 +7,17 @@ Get-ChildItem -Path C:\ISO *.iso -Recurse | ForEach-Object {Mount-DiskImage -Ima
 Import-OSMedia
 ```
 
-![](../../.gitbook/assets/2018-07-13_22-26-03.png)
+![](../../../.gitbook/assets/2018-07-13_22-26-03.png)
 
 ## Select Operating Systems
 
 OSBuilder will return a list of all Install.wim indexes.
 
-![](../../.gitbook/assets/2018-07-13_22-31-01.png)
+![](../../../.gitbook/assets/2018-07-13_22-31-01.png)
 
 Easy enough to sort them by ImageName and select the ones I want before pressing OK.
 
-![](../../.gitbook/assets/2018-07-13_22-32-06.png)
+![](../../../.gitbook/assets/2018-07-13_22-32-06.png)
 
 ## Results
 

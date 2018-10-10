@@ -1,6 +1,6 @@
 # OSBuilder OS Information
 
-OSBuilder is able to display a complete list of information about any OSMedia or OSBuild. To see an example of the information, see the [How To: Show OS Information](../how-to/show-os-information.md).
+OSBuilder is able to display a complete list of information about any OSMedia or OSBuild. To see an example of the information, see the [How To: Show OS Information](../how-to/show-osinfo.md).
 
 So here is how it works. All OSMedia and OSBuilds have the following directory structure \(ISO is optionally created using **New-OSBuilderISO**\). All the configuration about the Operating System is saved in the TXT files in the root where it is easily readable. OSBuilder uses information in the info subdirectory \(removing this directory will kill your ability to use this Operating System with OSBuilder\)
 
