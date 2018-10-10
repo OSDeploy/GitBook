@@ -1,6 +1,6 @@
 # Release Information
 
-## 18.10.x.x \(Pending Release\)
+## 18.10.10.0 \(October 10, 2018\)
 
 * **Get-OSBuilder**
   * Content\StartLayout is no longer Recursed
@@ -9,9 +9,9 @@
   * HideOptionalUpdates Parameter added
 * **Invoke-OSBuildTask**
   * Selecting an Unattend.xml will Use-WindowsUnattend for OfflineServicing and copy the Unattend.xml to Windows\Panther
-  * Variables.xml and Variables.json exported
+  * Variables.xml and Variables.json exported \(for creating custom Scripts\)
 * **Update-OSMedia**
-  * Variables.xml and Variables.json exported
+  * Variables.xml and Variables.json exported \(for creating custom Scripts\)
 
 ## 18.10.4.\* \(October 4, 2018\)
 
