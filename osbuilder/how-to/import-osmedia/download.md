@@ -6,7 +6,7 @@ Updates can change frequently.  If new Updates are available, running **Get-OSBu
 
 ## Update-OSMedia
 
-Let's say I have Windows 10 1803 x64 and Windows 10 1809 x64 and I want to just download the necessary updates.  I can select all my OSMedia Operating Systems at the same time and it will show me my required updates for bother Operating Systems using my existing Update Catalogs.
+Let's say I have Windows 10 1803 x64 and Windows 10 1809 x64 and I want to just download the necessary updates.  I can select all my OSMedia Operating Systems at the same time and it will show me my required updates for both Operating Systems using my existing Update Catalogs.
 
 ![](../../../.gitbook/assets/2018-10-09_22-47-12.png)
 
