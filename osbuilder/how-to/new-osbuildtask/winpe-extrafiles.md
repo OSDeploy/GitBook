@@ -1,4 +1,4 @@
-# Add Extra Files to WinPE
+# WinPE Extra Files
 
 You can now add Extra Files to WinPE.  Simply create a new directory in your OSBuilder\Content\WinPE\ExtraFiles and add whatever you want in a relative path to the WinPE Root.  This means that if I want CMTrace.exe to go in WinPE under X:\Windows\System32, then my path would be \(change your Drive Letter as needed\):
 

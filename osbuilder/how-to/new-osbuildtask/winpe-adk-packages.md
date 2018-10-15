@@ -1,4 +1,4 @@
-# Add ADK Packages to WinPE
+# WinPE ADK Packages
 
 {% hint style="danger" %}
 I do not recommend adding any ADK Packages to WinRE unless you account for the increased size in your BIOS System Partition or UEFI Recovery Partition.  Your default Task Sequence should create a 500MB Partition, but this is not enough as it needs a fair amount of free space.

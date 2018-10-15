@@ -150,11 +150,11 @@ After applying this OSBuilder Update, you should Update-OSMedia from the origina
   * Added support for WinPE Extra Files
   * Added support for WinPE ADK Packages
 * **New Documentation**
-  * [How To: Add Drivers to WinPE](how-to/new-osbuildtask/add-drivers-to-winpe.md)
-  * [How To: Add DaRT to WinPE](how-to/new-osbuildtask/add-dart-to-winpe.md)
-  * [How To: OSBuild WinPE Scripts](how-to/new-osbuildtask/osbuild-winpe-scripts.md)
-  * [How To: Add ADK Packages to WinPE](how-to/new-osbuildtask/add-adk-packages-to-winpe.md)
-  * [How To: Add Extra Files to WinPE](how-to/new-osbuildtask/add-extra-files-to-winpe.md)
+  * [How To: Add Drivers to WinPE](how-to/new-osbuildtask/winpe-drivers.md)
+  * [How To: Add DaRT to WinPE](how-to/new-osbuildtask/winpe-dart.md)
+  * [How To: OSBuild WinPE Scripts](how-to/new-osbuildtask/winpe-powershell-scripts.md)
+  * [How To: Add ADK Packages to WinPE](how-to/new-osbuildtask/winpe-adk-packages.md)
+  * [How To: Add Extra Files to WinPE](how-to/new-osbuildtask/winpe-extrafiles.md)
 
 ## 18.7.26.1 \(July 26, 2018\)
 

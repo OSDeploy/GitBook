@@ -1,4 +1,4 @@
-# OSBuild WinPE Scripts
+# WinPE PowerShell Scripts
 
 OSBuilder 18.8.2 allows you the ability to execute scripts during the an OSBuild Task before WinPE is dismounted.
 
