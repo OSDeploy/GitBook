@@ -10,11 +10,7 @@ Full instructions on how to use OSBuilder is on the following pages. I recommend
 * [Get-OSBuilderUpdates](get-osbuilderupdates.md)
 * [Update-OSMedia](update-osmedia.md)
 * [New-OSBuildTask](new-osbuildtask/)
-  * WinPE Drivers
-  * [W](new-osbuildtask/winpe-dart.md)inPE DaRT
-  * WinPE Scripts
-  * WinPE ADK Packages
-  * WinPE ExtraFiles
+* [Invoke-OSBuildTask](invoke-osbuildtask.md)
 * [Show-OSInfo](show-osinfo.md)
 * [New-OSBuilderISO](new-osbuilderiso.md)
 * [New-OSBuilderUSB](new-osbuilderusb.md)
