@@ -1,4 +1,4 @@
-# Recovery DaRT \(WinRE\)
+# Recovery DaRT \(WinRE.wim\)
 
 The following New-PEBuildTask JSON was used to create this build
 

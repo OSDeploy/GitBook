@@ -1,4 +1,4 @@
-# Recovery \(WinRE\)
+# Recovery \(WinRE.wim\)
 
 The following New-PEBuildTask JSON was used to create this build
 
