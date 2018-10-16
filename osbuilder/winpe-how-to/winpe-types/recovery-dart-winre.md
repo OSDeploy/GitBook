@@ -1,6 +1,16 @@
 # Recovery DaRT \(WinRE.wim\)
 
-The following New-PEBuildTask JSON was used to create this build
+You can use the Microsoft DaRT Recovery Image Wizard to add DaRT to WinRE
+
+![](../../../.gitbook/assets/2018-10-16_15-17-07.png)
+
+## PEBuild Recovery with DaRT
+
+You can also use PEBuild to complete the same process
+
+## New-PEBuildTask
+
+The following New-PEBuildTask JSON was used to create a Recovery Image with DaRT
 
 ```text
 {
@@ -20,6 +30,8 @@ The following New-PEBuildTask JSON was used to create this build
     "WinPERobocopyExtraFiles":  null
 }
 ```
+
+## Demo
 
 ![](../../../.gitbook/assets/2018-10-16_2-19-49.png)
 

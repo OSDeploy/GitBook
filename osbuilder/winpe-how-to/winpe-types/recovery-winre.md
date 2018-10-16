@@ -1,6 +1,16 @@
 # Recovery \(WinRE.wim\)
 
-The following New-PEBuildTask JSON was used to create this build
+Windows 10 allows you to create a simple Recovery Drive to USB without much effort.  This uses WinRE, but you can't easily add Drivers and other content using this method
+
+![](../../../.gitbook/assets/2018-10-16_15-11-58.png)
+
+## PEBuild Recovery
+
+You can create a PEBuild Recovery Image that allows you to add ADK Components, Windows Drivers, Extra Files, and run custom PowerShell Scripts during the PEBuild process.
+
+## New-PEBuildTask
+
+The following New-PEBuildTask JSON was used to create a Recovery Image
 
 ```text
 {
@@ -20,6 +30,8 @@ The following New-PEBuildTask JSON was used to create this build
     "WinPERobocopyExtraFiles":  null
 }
 ```
+
+## Demo
 
 ![](../../../.gitbook/assets/2018-10-16_2-20-02.png)
 

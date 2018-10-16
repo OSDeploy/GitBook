@@ -4,7 +4,7 @@ Auto ExtraFiles are files that are copied from a Windows Install.wim during an O
 
 The following files are collected \(contact me if I need to add things\)
 
-* AeroLite Styles
+* AeroLite Theme
 * Cacls
 * Choice
 * Comp
@@ -14,6 +14,7 @@ The following files are collected \(contact me if I need to add things\)
 * GetMac
 * MakeCab
 * MSInfo32
+* MSTSC \(Remote Desktop Connection\)
 * OSK \(On Screen Keyboard\)
 * Shutdown
 * SystemInfo
@@ -33,9 +34,13 @@ When creating a PEBuild, you have the option to copy the Auto ExtraFiles to WinP
 When adding Auto ExtraFiles to a PEBuild, you will be able to execute the commands in a completed PEBuild.  
 
 
+![AeroLite Theme \(Flat Windows\) ](../../../.gitbook/assets/2018-10-16_15-23-09.png)
+
 ![GetMAC](../../../.gitbook/assets/2018-10-16_1-31-51.png)
 
 ![MSInfo32](../../../.gitbook/assets/2018-10-15_0-31-08.png)
+
+![MSTSC \(Remote Desktop Connection\)](../../../.gitbook/assets/2018-10-16_15-21-16.png)
 
 ![OSK \(On Screen Keyboard\)](../../../.gitbook/assets/2018-10-15_0-31-38.png)
 
