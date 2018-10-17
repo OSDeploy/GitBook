@@ -33,7 +33,7 @@ The following New-PEBuildTask JSON was used to create a Recovery Image with DaRT
 
 ## Demo
 
-![](../../../.gitbook/assets/2018-10-16_2-19-49.png)
+![OSBuilder automatically removes this prompt](../../../.gitbook/assets/2018-10-16_2-19-49.png)
 
 ![](../../../.gitbook/assets/2018-10-16_2-20-02.png)
 
