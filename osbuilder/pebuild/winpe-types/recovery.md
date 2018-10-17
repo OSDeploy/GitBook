@@ -9,7 +9,7 @@ Windows 10 allows you to create a simple Recovery Drive to USB without much effo
 You need to start by creating a PEBuild Task.  WinRE.wim will be automatically used for this Task.  To create Recovery Media, use the following PowerShell command:
 
 ```text
-New-PEBuildTask -TaskName "Win10 x86 1809" -AutoExtraFiles -ScratchSpace 256
+New-PEBuildTask -TaskName "Win10 x64 1809" -AutoExtraFiles -ScratchSpace 256
 ```
 
 When complete, a Task JSON file will be created which can be used with Invoke-PEBuild

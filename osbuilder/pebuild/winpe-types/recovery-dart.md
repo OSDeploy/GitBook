@@ -9,10 +9,12 @@ Microsoft DaRT is also used to create Recovery Image with DaRT integration
 You need to start by creating a PEBuild Task.  WinRE.wim will be automatically used for this Task.  To create Recovery Media, use the following PowerShell command:
 
 ```text
-New-PEBuildTask -TaskName "Win10 x86 1809" -AutoExtraFiles -ScratchSpace 256
+New-PEBuildTask -TaskName "Win10 x64 1809" -AutoExtraFiles -ScratchSpace 256
 ```
 
 If you have added MS DaRT to OSBuilder, you will be prompted to add it.  When complete, a Task JSON file will be created which can be used with Invoke-PEBuild
+
+The Recovery Prefix will be added automatically to the Task Name, so unless you want '**Recovery Recovery Win10 x64 1809**' as your Task Name, just leave it out.
 
 ## Task JSON
 

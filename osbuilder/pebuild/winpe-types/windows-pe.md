@@ -4,13 +4,16 @@ WinPE Boot Images can be used within MDT or as a Configuration Manager Boot Imag
 
 ## New-PEBuildTask
 
-You need to start by creating a PEBuild Task.  WinRE.wim will be automatically used for this Task.  To create WinPE Media, use the following PowerShell command:
+You need to start by creating a PEBuild Task.  WinRE.wim will be automatically used for this Task.  To create WinPE Media, use either of the following PowerShell command:
 
 ```text
-New-PEBuildTask -TaskName "Win10 x86 1809" -AutoExtraFiles -ScratchSpace 256 -SourceWim WinRE
+New-PEBuildTask -SourceWim WinPE -TaskName "Win10 x64 1809" -AutoExtraFiles -ScratchSpace 256
+New-PEBuildTask -SourceWim WinRE -TaskName "Win10 x64 1809" -AutoExtraFiles -ScratchSpace 256
 ```
 
 If you have added MS DaRT to OSBuilder, you will be prompted to add it.  When complete, a Task JSON file will be created which can be used with Invoke-PEBuild
+
+The WinPE Prefix will be added automatically to the Task Name, so unless you want '**WinPE WinPE Win10 x64 1809**' as your Task Name, just leave it out.
 
 ## SourceWim
 
