@@ -1,2 +1,2 @@
-# Invoke-PEBuildTask
+# Invoke-PEBuild
 
