@@ -1,6 +1,6 @@
 # Auto ExtraFiles
 
-Auto ExtraFiles are files that are copied from a Windows Install.wim during an Import-OSMedia, Update-OSMedia or an Invoke-OSBuildTask and to WinPE\AutoExtraFiles.  The purpose is to inject these files into WinPE when executing a PEBuild Task.
+Auto ExtraFiles are files that are copied from a Windows Install.wim during an Import-OSMedia, Update-OSMedia or an Invoke-OSBuildTask.  They are then copied to WinPE\AutoExtraFiles.  The purpose is to inject these files into WinPE when executing a PEBuild Task.
 
 ##  New-PEBuildTask
 
@@ -29,7 +29,7 @@ The following files are collected \(contact me if I need to add things\) to be u
 * TSKill
 * WinVer
 
-![](../../.gitbook/assets/2018-10-15_0-29-42.png)
+![Auto ExtraFiles Content](../../.gitbook/assets/2018-10-16_21-55-32.png)
 
 ## WinPE Examples
 
