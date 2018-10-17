@@ -2,6 +2,38 @@
 
 Start by selecting New-PEBuildTask and the Recovery tab.  This task will use WinRE.wim to create Recovery Media.  You have the option to include [AutoExtraFiles](../auto-extrafiles.md) and set the Scratch Space.  The default Scratch Space is 32MB, but if you do not select an option \(since this is not a Mandatory parameter\), this will automatically be set to 128MB.
 
+{% api-method method="head" host="New-PEBuild" path="" %}
+{% api-method-summary %}
+New-PEBuild
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="TaskName" type="string" required=true %}
+Name of the Task
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
 ![](../../../.gitbook/assets/2018-10-15_23-52-31.png)
 
 ## Select OSMedia
