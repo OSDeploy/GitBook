@@ -1,6 +1,12 @@
 # Wallpaper
 
-Looking to add some color to WinPE?  Simply add your Wallpaper as ExtraFiles.
+Looking to add some color to WinPE?  Simply add your Wallpaper as ExtraFiles making sure that your wallpaper will overwrite the ones in WinPE \(Windows\System32\)
+
+![](../../../.gitbook/assets/2018-10-17_15-53-31.png)
+
+When creating your New-PEBuildTask, select the Wallpaper Files when prompted to add WinPE Extra Files
+
+![](../../../.gitbook/assets/2018-10-17_15-51-56.png)
 
 ## Sample Content
 
