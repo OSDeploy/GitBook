@@ -60,7 +60,7 @@
     * [MDT](osbuilder/pebuild/new-pebuildtask/mdt.md)
   * [Invoke-PEBuildTask](osbuilder/pebuild/invoke-pebuildtask.md)
   * [Auto ExtraFiles](osbuilder/pebuild/auto-extrafiles.md)
-  * [Custom PowerShell Scripts](osbuilder/pebuild/custom-powershell-scripts.md)
+  * [Scripts](osbuilder/pebuild/scripts.md)
 * [Knowledge](osbuilder/knowledge/README.md)
   * [Windows Setup with DaRT Remote Connection](osbuilder/knowledge/windows-setup-with-dart-remote-connection.md)
   * [Offline Servicing](osbuilder/knowledge/offline-servicing.md)
