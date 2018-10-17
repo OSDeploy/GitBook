@@ -48,7 +48,7 @@
 * [PEBuild](osbuilder/pebuild/README.md)
   * [WinPE Types](osbuilder/pebuild/winpe-types/README.md)
     * [Recovery](osbuilder/pebuild/winpe-types/recovery.md)
-    * [Recovery DaRT \(WinRE.wim\)](osbuilder/pebuild/winpe-types/recovery-dart-winre.md)
+    * [Recovery DaRT](osbuilder/pebuild/winpe-types/recovery-dart.md)
     * [Windows PE \(WinPE.wim or WinRE.wim\)](osbuilder/pebuild/winpe-types/windows-pe-winpe.md)
     * [Windows PE \(WinRE\)](osbuilder/pebuild/winpe-types/windows-pe-winre.md)
     * [MDT \(WinPE\)](osbuilder/pebuild/winpe-types/mdt-winpe.md)

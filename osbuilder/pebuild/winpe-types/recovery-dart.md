@@ -1,8 +1,26 @@
-# Recovery DaRT \(WinRE.wim\)
+# Recovery DaRT
 
-You can use the Microsoft DaRT Recovery Image Wizard to add DaRT to WinRE
+Microsoft DaRT is also used to create Recovery Image with DaRT integration
 
 ![](../../../.gitbook/assets/2018-10-16_15-17-07.png)
+
+## PEBuild Recovery DaRT
+
+PEBuild Recovery DaRT uses WinRE.wim
+
+## New-PEBuildTask
+
+You need to start by creating a PEBuild Task.  I recommend the following:
+
+```text
+New-PEBuildTask -TaskName "Win10 x86 1809" -AutoExtraFiles -ScratchSpace 256
+```
+
+This will create a Task saved as a JSON file that can later be executed.  Here is the contents of the Task:
+
+## 
+
+## 
 
 ## PEBuild Recovery with DaRT
 
