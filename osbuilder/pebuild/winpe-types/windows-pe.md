@@ -1,4 +1,4 @@
-# Windows PE \(WinPE.wim or WinRE.wim\)
+# Windows PE
 
 The following New-PEBuildTask JSON was used to create this build
 
