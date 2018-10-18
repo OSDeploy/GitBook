@@ -1,6 +1,6 @@
 # WinPE
 
-Start by selecting New-PEBuild and select the WinPE tab.  Keep the Task Name simple, and remember WinPE will be automatically added as a Task Name prefix.
+Start by selecting New-PEBuildTask and select the WinPE tab.  Keep the Task Name simple, and remember WinPE will be automatically added as a Task Name prefix.
 
 You have the option to use WinPE.wim or WinRE.wim as the base image to create WinPE Media.  I always recommend selecting WinRE
 

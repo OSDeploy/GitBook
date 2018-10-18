@@ -1,6 +1,6 @@
 # MDT
 
-Start by selecting New-PEBuild and select the MDT tab.  Keep the Task Name simple, and remember MDT will be automatically added as a Task Name prefix.
+Start by selecting New-PEBuildTask and select the MDT tab.  Keep the Task Name simple, and remember MDT will be automatically added as a Task Name prefix.
 
 You have the option to use WinPE.wim or WinRE.wim as the base image to create MDT Media.  I always recommend selecting WinRE as it already contains the default ADK Packages you need to run MDT.  You can always add MDAC or PowerShell if necessary.
 

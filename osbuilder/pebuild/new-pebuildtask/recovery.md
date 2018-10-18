@@ -1,6 +1,6 @@
 # Recovery
 
-Start by selecting New-PEBuild and select the Recovery tab.  Keep the Task Name simple, and remember Recovery will be automatically added as a Task Name prefix.
+Start by selecting New-PEBuildTask and select the Recovery tab.  Keep the Task Name simple, and remember Recovery will be automatically added as a Task Name prefix.
 
 This task will use WinRE.wim to create Recovery Media.
 
