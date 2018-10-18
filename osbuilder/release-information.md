@@ -1,5 +1,34 @@
 # Release Information
 
+## 18.10.17.0 \(October 18, 2018\) @ [HASMUG](http://www.hasmug.com/)
+
+This release introduces PEBuilds.  Documentation is being added to the following section
+
+{% page-ref page="pebuild/" %}
+
+* **Get-OSBuilder**
+  * Added PEBuilds
+* **Import-OSMedia**
+  * Collect WinPE Auto ExtraFiles
+* **Invoke-OSBuildTask**
+  * Renamed to Invoke-OSBuild
+* **Invoke-OSBuild**
+  * Collect WinPE Auto ExtraFiles
+  * Add Advanced ParameterSet
+  * Add Parameter PromptBeforeDismount
+  * Add Parameter PromptBeforeDismountWinPE
+* **New-OSBuilderISO**
+  * Corrected OSImageName
+  * Add PEBuild support
+* **New-OSBuilderUSB**
+  * Add PEBuild support
+* **New-OSBuildTask**
+  * Modified FOD Placement
+* **Update-OSMedia**
+  * Collect WinPE Auto ExtraFiles
+  * Add Parameter PromptBeforeDismount
+  * Add Parameter PromptBeforeDismountWinPE
+
 ## 18.10.10.0 \(October 10, 2018\)
 
 * **Get-OSBuilder**
