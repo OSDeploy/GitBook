@@ -1,10 +1,6 @@
 # Release Information
 
-## 18.10.17.0 \(October 18, 2018\) @ [HASMUG](http://www.hasmug.com/)
-
-This release introduces PEBuilds.  Documentation is being added to the following section
-
-{% page-ref page="pebuild/" %}
+## 18.10.18.0 \(October 18, 2018\) @ [HASMUG](http://www.hasmug.com/)
 
 * **Get-OSBuilder**
   * Added PEBuilds
@@ -28,6 +24,10 @@ This release introduces PEBuilds.  Documentation is being added to the following
   * Collect WinPE Auto ExtraFiles
   * Add Parameter PromptBeforeDismount
   * Add Parameter PromptBeforeDismountWinPE
+
+This release introduces PEBuilds.  Documentation is being added to the following section
+
+{% page-ref page="pebuild/" %}
 
 ## 18.10.10.0 \(October 10, 2018\)
 
