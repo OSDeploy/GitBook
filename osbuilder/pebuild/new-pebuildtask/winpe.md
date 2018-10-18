@@ -22,7 +22,7 @@ If you have added WinPE Content to OSBuilder \(DaRT, Drivers, Extra Files, ADK P
 
 ## Complete Task
 
-Once the Task is complete, you can use Invoke-PEBuildTask to build the Recovery Media
+Once the Task is complete, you can use Invoke-PEBuild to build the Recovery Media
 
 ![](../../../.gitbook/assets/2018-10-18_11-04-14.png)
 
