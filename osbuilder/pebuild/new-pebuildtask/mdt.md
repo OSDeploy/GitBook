@@ -28,5 +28,9 @@ Once the Task is complete, you can use Invoke-PEBuildTask to build the Recovery 
 
 ![](../../../.gitbook/assets/2018-10-18_11-07-01.png)
 
+## Demo
 
+Everything looks good, and no need to use the Deployment Workbench to create updated Boot Images
+
+![MDT using WinRE without DaRT](../../../.gitbook/assets/2018-10-18_11-20-46.png)
 

@@ -26,5 +26,9 @@ Once the Task is complete, you can use Invoke-PEBuildTask to build the Recovery 
 
 ![](../../../.gitbook/assets/2018-10-18_11-04-14.png)
 
+## Demo
 
+And this is what you expect to see from WinPE.  You can customize this further by adding your own Frontend, use it with MDT, or even use it as a ConfigMgr Boot Image
+
+![](../../../.gitbook/assets/2018-10-18_11-18-28.png)
 
