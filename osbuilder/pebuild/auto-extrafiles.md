@@ -2,6 +2,10 @@
 
 Auto ExtraFiles are files that are copied from a Windows Install.wim during an Import-OSMedia, Update-OSMedia or an Invoke-OSBuildTask.  They are then copied to WinPE\AutoExtraFiles.  The purpose is to inject these files into WinPE when executing a PEBuild Task.
 
+{% hint style="info" %}
+To add Auto ExtraFiles to your already up to date OSMedia, simply run Update-OSMedia again.  You will have to manually rename the new OSMedia to remove the random 4 digits at the end of the OSMedia name
+{% endhint %}
+
 ##  New-PEBuildTask
 
 When creating a New-PEBuildTask, you will have the option to copy the Auto ExtraFiles to WinPE using the -AutoExtraFiles parameter
