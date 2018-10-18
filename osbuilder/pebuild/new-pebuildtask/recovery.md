@@ -1,8 +1,12 @@
 # Recovery
 
-Start by selecting New-PEBuildTask and the Recovery tab.  This task will use WinRE.wim to create Recovery Media.  You have the option to include [AutoExtraFiles](../auto-extrafiles.md) and set the Scratch Space.  The default Scratch Space is 32MB, but if you do not select an option \(since this is not a Mandatory parameter\), this will automatically be set to 128MB.
+Start by selecting New-PEBuild and select the Recovery tab.  Keep the Task Name simple, and remember Recovery will be automatically added as a Task Name prefix.
 
-![](../../../.gitbook/assets/2018-10-15_23-52-31.png)
+This task will use WinRE.wim to create Recovery Media.
+
+You have the option to include [AutoExtraFiles](../auto-extrafiles.md) and to set the Scratch Space.  The default Scratch Space for WinPE is 32MB, but if you do not select an option \(since this is not a Mandatory parameter\), this will automatically be set to 128MB.
+
+![](../../../.gitbook/assets/2018-10-18_10-32-18.png)
 
 ## Select OSMedia
 
@@ -21,6 +25,16 @@ If you have added WinPE Content to OSBuilder \(DaRT, Drivers, Extra Files, ADK P
 Once the Task is complete, you can use Invoke-PEBuildTask to build the Recovery Media
 
 ![](../../../.gitbook/assets/2018-10-15_23-58-03.png)
+
+## Demo
+
+![](../../../.gitbook/assets/2018-10-16_2-20-02.png)
+
+![](../../../.gitbook/assets/2018-10-16_2-20-30.png)
+
+![](../../../.gitbook/assets/2018-10-16_2-21-10.png)
+
+
 
 
 

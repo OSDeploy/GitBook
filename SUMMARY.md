@@ -55,7 +55,6 @@
     * [Recovery](osbuilder/pebuild/new-pebuildtask/recovery.md)
     * [WinPE](osbuilder/pebuild/new-pebuildtask/winpe.md)
     * [MDT](osbuilder/pebuild/new-pebuildtask/mdt.md)
-    * [MDT DaRT](osbuilder/pebuild/new-pebuildtask/mdt-dart.md)
   * [Invoke-PEBuild](osbuilder/pebuild/invoke-pebuildtask.md)
   * [Auto ExtraFiles](osbuilder/pebuild/auto-extrafiles.md)
   * [ExtraFiles](osbuilder/pebuild/extrafiles/README.md)
