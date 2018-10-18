@@ -1,38 +1,10 @@
 # New-PEBuildTask
 
-## Function
+Use New-PEBuildTask to configure all your settings for custom WinPE.
 
-{% tabs %}
-{% tab title="Recovery" %}
--TaskName: "Win10 x64 1809"
 
--AutoExtraFiles
 
--ScratchSpace: 256
-{% endtab %}
 
-{% tab title="WinPE" %}
--TaskName: "Win10 x64 1809"
-
--AutoExtraFiles
-
--ScratchSpace: 256
-
--SourceWim: WinRE
-{% endtab %}
-
-{% tab title="MDT" %}
--TaskName: "Win10 x64 1809"
-
--AutoExtraFiles
-
--ScratchSpace: 256
-
--SourceWim: WinRE
-
--DeploymentShare:  \\Server\Share
-{% endtab %}
-{% endtabs %}
 
 
 
