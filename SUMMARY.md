@@ -57,6 +57,8 @@
     * [MDT](osbuilder/pebuild/new-pebuildtask/mdt.md)
   * [Invoke-PEBuild](osbuilder/pebuild/invoke-pebuildtask.md)
   * [Auto ExtraFiles](osbuilder/pebuild/auto-extrafiles.md)
+  * [Drivers](osbuilder/pebuild/drivers/README.md)
+    * [RegAdd ActivePowerScheme](osbuilder/pebuild/drivers/regadd-activepowerscheme.md)
   * [ExtraFiles](osbuilder/pebuild/extrafiles/README.md)
     * [Wallpaper](osbuilder/pebuild/extrafiles/wallpaper.md)
   * [Scripts](osbuilder/pebuild/scripts/README.md)
