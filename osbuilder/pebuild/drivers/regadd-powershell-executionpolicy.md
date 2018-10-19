@@ -2,11 +2,11 @@
 
 {% file src="../../../.gitbook/assets/regadd-powershell-executionpolicy.inf" %}
 
-By default, WinPE has the PowerShell ExecutionPolicy set to Restricted
+By default, WinPE has the PowerShell ExecutionPolicy set to **Restricted**
 
 ![WinPE Default PowerShell ExecutionPolicy](../../../.gitbook/assets/2018-10-18_23-55-22.png)
 
-If you want to set this automatically in WinPE, just add the RegAdd PowerShell ExecutionPolicy Driver to WinPE to make the change automatically.
+If you want to set this to **Bypass**, just add the RegAdd PowerShell ExecutionPolicy Driver to WinPE to make the change automatically.
 
 ![RegAdd PowerShell ExecutionPolicy Driver](../../../.gitbook/assets/2018-10-18_23-55-32.png)
 
