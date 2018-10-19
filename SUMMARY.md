@@ -59,6 +59,8 @@
   * [Auto ExtraFiles](osbuilder/pebuild/auto-extrafiles.md)
   * [Drivers](osbuilder/pebuild/drivers/README.md)
     * [RegAdd ActivePowerScheme](osbuilder/pebuild/drivers/regadd-activepowerscheme.md)
+    * [RegAdd AeroLite Theme](osbuilder/pebuild/drivers/regadd-aerolite-theme.md)
+    * [RegAdd PowerShell ExecutionPolicy](osbuilder/pebuild/drivers/regadd-powershell-executionpolicy.md)
   * [ExtraFiles](osbuilder/pebuild/extrafiles/README.md)
     * [Wallpaper](osbuilder/pebuild/extrafiles/wallpaper.md)
   * [Scripts](osbuilder/pebuild/scripts/README.md)
