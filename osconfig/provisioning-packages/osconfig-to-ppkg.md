@@ -42,13 +42,13 @@ All Windows desktop editions should work fine
 
 ![](../../.gitbook/assets/2018-09-04_14-39-53.png)
 
-## Create a Provisioning Command {#create-a-provisioningcommand}
+## Create a Provisioning Command <a id="create-a-provisioningcommand"></a>
 
 In the left Navigation Pane, expand ProvisioningCommands and PrimaryContext.  In the Name field, enter OSConfig and press the Add button
 
 ![](../../.gitbook/assets/2018-09-04_14-44-50.png)
 
-## Set the Command File {#set-the-command}
+## Set the Command File <a id="set-the-command"></a>
 
 Select the Command on the Left Navigation Pane. In the Main window, Browse to OSConfig.ps1.  Enter the following CommandLine
 
@@ -66,31 +66,31 @@ Now its time to add a Dependency Package.  In the Left Navigation Pane, select D
 
 ![](../../.gitbook/assets/2018-09-04_14-52-12.png)
 
-## Export the Provisioning Package {#export-the-provisioning-package}
+## Export the Provisioning Package <a id="export-the-provisioning-package"></a>
 
 Select Export from the top Menu and then select Provisioning package
 
 ![](../../.gitbook/assets/2018-09-04_14-53-48.png)
 
-## Build Owner {#build-owner}
+## Build Owner <a id="build-owner"></a>
 
 Change the Build Owner to IT Admin
 
 ![](../../.gitbook/assets/2018-09-04_14-54-37.png)
 
-## Build Security {#build-security}
+## Build Security <a id="build-security"></a>
 
 Leave this blank for general Provisioning
 
 ![](../../.gitbook/assets/2018-09-04_13-17-55.png)
 
-## Save Path {#save-path}
+## Save Path <a id="save-path"></a>
 
 Set the proper location to save the Provisioning Package
 
 ![](../../.gitbook/assets/2018-09-04_14-56-28.png)
 
-## Build {#build}
+## Build <a id="build"></a>
 
 Build the Provisioning Package
 

@@ -27,7 +27,7 @@ OSBuilder needs to be executed in PowerShell ISE \(as Elevated Administrator\) d
 
 OSBuilder requires Admin Rights in PowerShell as you will be manipulating Windows Images. Make sure you launch PowerShell ISE as Administrator when using OSBuilder
 
-## Supported Operating Systems {#supported-operating-systems}
+## Supported Operating Systems <a id="supported-operating-systems"></a>
 
 OSBuilder runs perfectly in Windows 10 as your OSBuilder Computer. You can work with Images based on Windows 10 or Windows Server 2016.
 

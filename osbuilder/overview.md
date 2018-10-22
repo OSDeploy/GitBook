@@ -12,62 +12,88 @@ Most people are visual, so to help you understand how OSBuilder will work, here 
 
 ![](../.gitbook/assets/2018-07-21_23-10-22.png)
 
-### Patch Tuesday
+## Import-OSMedia
 
-On Patch Tuesday, download your required bits into OSBuilder using the following command
+Before working with an Operating System, you must first Import it into OSBuilder.  This will generate a full inventory of the Operating System so you can later make custom OSBuilds.
 
-```text
-Get-OSBuilder -DownloadUpdates Latest
-```
+## Update-OSMedia
 
-Make sure you remove any superseded Servicing Stacks and Cumulative Updates.
+The second step is to Update the Imported Operating System.  You should perform this step after you Import the Operating System and after every Patch Tuesday.  This will perform the following actions
 
-### OSMedia Task
+* **Media**
+  * Expand Setup Update
+* **WinPE** \(WinPE.wim, WinRE.wim, Setup.wim\)
+  * Apply Servicing Stack
+  * Apply Cumulative Update
+  * Apply Dynamic Component Updates
+* **OS**
+  * Apply Servicing Stack
+  * Apply Cumulative Update
+  * Apply Dynamic Component Updates
+  * Apply Adobe Security Updates
 
-Create an OSMedia Task and execute it. This will automatically take the latest OSMedia version and update the new Servicing Stack and Cumulative Update to the Install.wim as well as the Boot.wim \(both indexes\) and WinRE.wim. When this is complete, you will have a new OSMedia Image \(since the version should change\).
+## New-OSBuildTask
 
-### OSBuild Task
+If you want to customize the Operating System by removing Appx Packages or enable NetFX3, then you need to first create an OSBuild Task.  The following options can be customized:
 
-The OSBuild Task will contain customizations, like enabling NetFX3, removing some Appx Packages, adding Drivers, or even adding a custom Start Layout. The OSBuild Task will automatically use the latest OSMedia \(the one you just created\) and customize that. Once the execution of this task is complete, you will have a custom OSBuild which can then deploy to your environment. You can choose to make multiple OSBuilds from the same OSMedia that have different configurations \(eg. one Enterprise and one Manufacturing OSBuild\)
-
-### The Cycle
-
-This is where your process repeats. When Microsoft releases a new round of updates, download the updates you need, and remove the ones you don't from OSBuilder. Then Invoke-OSBuilderTask and select both your OSMedia Task and your OSBuild Task. The OSMedia will process first, creating an updated OSMedia and the OSBuild Task will automatically pick the new OSMedia version and customize it. As long as there are no changes, you will spend 10 minutes or so downloading updates, and about a minute kicking off the Tasks. While the build process will take a little while to run, you will probably spend 5 minutes or so in the Patch and Task kickoff parts.
-
-### OSBuilder Features
-
-With OSBuilder, you will be able to perform the following:
-
-* **Create an OSMedia Library**
-* **Create a custom OS Build and perform the following Offline**
-  * Apply Servicing Stack Updates
-  * Apply Cumulative Updates
-  * Perform Image Cleanup
-  * Enable DotNet 3.5
-  * Remove Appx Packages
+* **WinPE** \(WinPE.wim, WinRE.wim, Setup.wim\)
+  * Add ADK Packages
+  * Add MS DaRT
+  * Add Drivers
+  * Add ExtraFiles
+  * Execute custom PowerShell scripts
+* **OS**
+  * Enable NetFX3
+  * Remove Appx Provisioned Packages
+  * Remove Windows Packages
   * Remove Windows Capabilities
-  * Enable Windows Features
-  * Disable Windows Features
-  * Install Language Packs
-  * Install Packages
-  * Inject Drivers
-  * Add Extra Files
-  * Apply a Start Layout Modification
-  * Apply a Windows Unattend.xml
-* **Customize WinPE and WinRE**
-  * Apply Servicing Stack Updates
-  * Apply Cumulative Updates
-  * Perform Image Cleanup
-  * Apply DaRT
-  * Inject Drivers
-* **Create Update Tasks**
-* **Execute Multiple Update Tasks without interaction**
+  * Enable Windows Optional Features
+  * Disable Windows Optional Features
+  * Apply Features on Demand
+  * Apply Language Packs
+  * Apply Language Interface Packs
+  * Apply Language Features on Demand
+  * Apply Start Layout
+  * Apply Unattend.xml
+  * Add Drivers
+  * Add ExtraFiles
+  * Add Packages
+  * Execute custom PowerShell scripts
+  * Set International Settings
 
-### OSBuilder PowerShell Module
+## New-OSBuild
+
+After the OSBuild Task is created, you can then create your OSBuild
+
+## New-PEBuildTask
+
+Just like a you can customize your Operating System, you can also customize WinPE
+
+## New-PEBuild
+
+After the PEBuild Task is created, you can create your PEBuild
+
+## New-MediaISO
+
+You can create an ISO of any OSMedia, OSBuild, or PEBuild
+
+## New-MediaUSB
+
+You can create bootable USB of any OSMedia, OSBuild, or PEBuild
+
+## The Cycle
+
+This is where your process repeats. When Microsoft releases a new round of updates, use Get-OSBuilderUpdates to download the updates you need, and remove the ones you don't from.  This step is completely optional as OSBuilder can automatically download the updates as needed.
+
+Use Update-OSMedia to get all your imported Operating Systems up to date.  You can update all of them at the same time as this will take a while to process, typically 30 minutes per Operating System.
+
+Once all the OSMedia is up to date, use New-OSBuild to regenerate all your customizations.
+
+## OSBuilder PowerShell Module
 
 To keep things easy, OSBuilder is a PowerShell module and integrates well into PowerShell ISE
 
-### References
+## References
 
 * [Johan Arwidmark: Windows 10 Servicing Script - Creating the better In-Place upgrade image](https://deploymentresearch.com/Research/Post/672/Windows-10-Servicing-Script-Creating-the-better-In-Place-upgrade-image)
 * [EXEC\|MGR: Windows 10 Image Maintenance and Cleanup](https://execmgr.net/2018/06/07/windows-10-image-maintenance/)
