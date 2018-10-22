@@ -1,15 +1,26 @@
 # Release Information
 
-## 18.10.xx.x \(Pending Release\)
+## 18.10.22.x \(October 22, 2018\)
 
+* **Get-OSBuilderUpdates**
+  * Optional Updates are hidden by default
 * **Invoke-OSBuild**
   * Renamed to New-OSBuild
 * **Invoke-PEBuild**
   * Renamed to New-PEBuild
 * **New-OSBuilderISO**
   * Renamed to New-MediaISO
+  * OSCDIMG can now be executed from OSBuilder\Content\Tools\&lt;arch&gt;\Oscdimg
+    * Copy amd64 and x86 directories from C:\Program Files \(x86\)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools
+  * GridView will now display and sort by LastWriteTime
 * **New-OSBuilderUSB**
   * Renamed to New-MediaUSB
+  * GridView will now display and sort by LastWriteTime
+  * GridView will now display Parent and CreationTime
+
+The changes related to the renaming of functions allow related functions to be grouped together to make things easier to identify.  Documentation reflecting the changes will follow shortly.
+
+![](../.gitbook/assets/2018-10-22_13-48-03.png)
 
 ## 18.10.18.0 \(October 18, 2018\) @ [HASMUG](http://www.hasmug.com/)
 
