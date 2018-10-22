@@ -10,11 +10,13 @@
   * Renamed to New-PEBuild
 * **New-OSBuilderISO**
   * Renamed to New-MediaISO
+* **New-MediaISO**
   * OSCDIMG can now be executed from OSBuilder\Content\Tools\&lt;arch&gt;\Oscdimg
     * Copy amd64 and x86 directories from C:\Program Files \(x86\)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools
   * GridView will now display and sort by LastWriteTime
 * **New-OSBuilderUSB**
   * Renamed to New-MediaUSB
+* **New-MediaUSB**
   * GridView will now display and sort by LastWriteTime
   * GridView will now display Parent and CreationTime
 
