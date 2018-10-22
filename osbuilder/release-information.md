@@ -1,5 +1,16 @@
 # Release Information
 
+## 18.10.xx.x \(Pending Release\)
+
+* **Invoke-OSBuild**
+  * Renamed to New-OSBuild
+* **Invoke-PEBuild**
+  * Renamed to New-PEBuild
+* **New-OSBuilderISO**
+  * Renamed to New-MediaISO
+* **New-OSBuilderUSB**
+  * Renamed to New-MediaUSB
+
 ## 18.10.18.0 \(October 18, 2018\) @ [HASMUG](http://www.hasmug.com/)
 
 * **Get-OSBuilder**
@@ -20,6 +31,10 @@
   * Add PEBuild support
 * **New-OSBuildTask**
   * Modified FOD Placement
+* **New-PEBuildTask**
+  * New function to create a WinPE Task
+* **Invoke-PEBuild**
+  * New function to execute a PEBuild Task
 * **Update-OSMedia**
   * Collect WinPE Auto ExtraFiles
   * Add Parameter PromptBeforeDismount
