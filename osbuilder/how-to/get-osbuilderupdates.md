@@ -1,10 +1,14 @@
+---
+description: Updated 2018.10.23
+---
+
 # Get-OSBuilderUpdates
 
 You may want to download the Microsoft Updates you need before Updating any Operating Systems.  **This is not required as you can let OSBuilder download what you need**, but if you want to get them downloaded first, use **Get-OSBuilderUpdates**
 
-![](../../.gitbook/assets/2018-10-09_23-12-17.png)
+![](../../.gitbook/assets/2018-10-23_0-06-51.png)
 
-When running Get-OSBuilderUpdates without any parameters, a complete list of downloads will be listed.  Files that have already been downloaded will not be shown in the list
+When running Get-OSBuilderUpdates without any parameters, a complete list of downloads will be listed.  ****Optional Downloads like Language Packs, Language Interface Packs, and Features on Demand are not displayed by default.  Files that have already been downloaded will not be shown in the list
 
 ![](../../.gitbook/assets/2018-10-01_0-53-44.png)
 

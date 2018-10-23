@@ -14,7 +14,7 @@
   * [Get-OSBuilder](osbuilder/how-to/get-osbuilder/README.md)
     * [SetPath - Change the OSBuilder Path](osbuilder/how-to/get-osbuilder/setpath.md)
   * [Import-OSMedia](osbuilder/how-to/import-osmedia/README.md)
-    * [Batch Import-OSMedia](osbuilder/how-to/import-osmedia/batch-import-osmedia.md)
+    * [Batch Import-OSMedia](osbuilder/how-to/import-osmedia/batch.md)
   * [Get-OSBuilderUpdates](osbuilder/how-to/get-osbuilderupdates.md)
   * [Update-OSMedia](osbuilder/how-to/update-osmedia/README.md)
     * [Download Updates](osbuilder/how-to/update-osmedia/downloadupdates.md)

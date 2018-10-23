@@ -1,8 +1,6 @@
 # Update-OSMedia
 
-You should repeat this process after new Cumulative Updates are released every Monthly Patch Tuesday
-
-## Update-OSMedia
+![](../../../.gitbook/assets/2018-10-23_0-09-11.png)
 
 Update-OSMedia is used to apply Patches to an imported OSMedia.  Previous versions of OSBuilder required the creation of a Task to specify the Update sources, but this is no longer required.
 
@@ -38,7 +36,7 @@ Using this combination will download the Microsoft Updates and start the Update 
 
 ![](../../../.gitbook/assets/2018-09-14_0-40-13.png)
 
-## Execute WinPE Phase
+## Execution WinPE Phase
 
 When the execution starts, information about the OS will be displayed and Microsoft Updates will be downloaded if needed
 
@@ -68,7 +66,7 @@ An inventory will be performed and the wims will be Dismounted and Saved
 
 ![](../../../.gitbook/assets/2018-09-14_2-12-33dismount.png)
 
-## Execute Install.wim Phase
+
 
 
 
