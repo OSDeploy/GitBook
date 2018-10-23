@@ -1,8 +1,12 @@
-# Download - Necessary Updates
+---
+description: Updated 2018.10.23
+---
+
+# Download Updates
 
 Updates can change frequently.  If new Updates are available, running **Get-OSBuilder** \(connected to the internet\) is an easy way to check if you need an update.
 
-![](../../../.gitbook/assets/2018-10-09_22-49-10.png)
+![](../../../.gitbook/assets/2018-10-22_23-07-57b.png)
 
 ## Update-OSMedia
 

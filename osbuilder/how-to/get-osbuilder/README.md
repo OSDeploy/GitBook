@@ -1,3 +1,7 @@
+---
+description: Updated 2018.10.23
+---
+
 # Get-OSBuilder
 
 Start by opening PowerShell ISE Elevated \(Run as Administrator\). Select the OSBuilder Module and then Get-OSBuilder.  Run
@@ -10,12 +14,6 @@ When executing Get-OSBuilder without any parameters, it will display a few thing
 
 ![](../../../.gitbook/assets/2018-10-22_23-03-38.png)
 
-## Get-OSBuilder -SetPath
-
-If you want to redirect OSBuilder to a different location, use this parameter
-
-![](../../../.gitbook/assets/2018-10-22_23-05-09.png)
-
 ## Get-OSBuilder -CreatePaths
 
 This will create the OSBuilder directory structure
@@ -25,6 +23,10 @@ This will create the OSBuilder directory structure
 And the same structure in Windows Explorer
 
 ![](../../../.gitbook/assets/2018-10-22_23-07-13.png)
+
+## Get-OSBuilder -HideDetails
+
+This parameter does not output any information and is used by other functions to populate OSBuilder variables
 
 ## Additional Information
 

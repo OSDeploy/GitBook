@@ -1,3 +1,7 @@
+---
+description: Updated 2018.10.23
+---
+
 # SetPath - Change the OSBuilder Path
 
 OSBuilder defaults to C:\OSBuilder.  While this works for most people, it may be necessary to change this from the default.  Here are some examples of why you would want to change the path

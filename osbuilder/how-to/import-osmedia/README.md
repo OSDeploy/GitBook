@@ -1,3 +1,7 @@
+---
+description: Updated 2018.10.23
+---
+
 # Import-OSMedia
 
 After installing OSBuilder, the next step is to import an Operating System. In this example I have two mounted ISO's, Windows 10 1709 x64 and Windows 10 1803 x64.
