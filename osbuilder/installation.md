@@ -21,17 +21,19 @@ Install-Module -Name OSBuilder -Scope CurrentUser -Force
 
 OSBuilder needs to be executed in PowerShell ISE \(as Elevated Administrator\) due to GridView constraints.
 
-![OSBuilder 18.9.11.0](../.gitbook/assets/2018-09-11_15-11-53.png)
+![Version 18.10.22.0](../.gitbook/assets/2018-10-22_22-58-12.png)
 
 ## Admin Rights
 
-OSBuilder requires Admin Rights in PowerShell as you will be manipulating Windows Images. Make sure you launch PowerShell ISE as Administrator when using OSBuilder
+OSBuilder requires Admin Rights in PowerShell as you will be manipulating Windows Images. Make sure you launch PowerShell ISE as Administrator when using OSBuilder.  This is a requirement of DISM
 
 ## Supported Operating Systems <a id="supported-operating-systems"></a>
 
 OSBuilder runs perfectly in Windows 10 as your OSBuilder Computer. You can work with Images based on Windows 10 or Windows Server 2016.
 
 I have not tested using OSBuilder running on Windows Server 2016
+
+There are no plans on including support for Windows 7, Windows 8.x, and Windows Server 2012
 
 ## Hardware Requirements
 

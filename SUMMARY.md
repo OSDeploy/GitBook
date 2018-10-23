@@ -10,7 +10,6 @@
 * [Release Information](osbuilder/release-information.md)
 * [Installation and Requirements](osbuilder/installation.md)
 * [Quick Instructions](osbuilder/quick-instructions.md)
-* [Solutions](osbuilder/solutions.md)
 * [How To](osbuilder/how-to/README.md)
   * [Get-OSBuilder](osbuilder/how-to/get-osbuilder/README.md)
     * [SetPath - Change the OSBuilder Path](osbuilder/how-to/get-osbuilder/setpath.md)
@@ -78,6 +77,7 @@
   * [What Should I Update?](osbuilder/knowledge/what-should-i-update.md)
   * [Windows 10 Setup and the ei.cfg](osbuilder/knowledge/windows-10-setup-and-the-ei.cfg.md)
   * [Automating Windows Update Downloads](osbuilder/knowledge/automating-windows-update-downloads.md)
+  * [Solutions](osbuilder/knowledge/solutions.md)
 
 ## OSConfig
 
