@@ -18,6 +18,7 @@
   * [Get-OSBuilderUpdates](osbuilder/how-to/get-osbuilderupdates.md)
   * [Update-OSMedia](osbuilder/how-to/update-osmedia/README.md)
     * [Download Updates](osbuilder/how-to/update-osmedia/downloadupdates.md)
+    * [Execute](osbuilder/how-to/update-osmedia/execute.md)
   * [New-OSBuildTask](osbuilder/how-to/new-osbuildtask/README.md)
     * [Remove Appx Provisioned Package](osbuilder/how-to/new-osbuildtask/remove-appx-provisioned-package.md)
     * [Remove Windows Package](osbuilder/how-to/new-osbuildtask/remove-windows-package.md)
