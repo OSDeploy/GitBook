@@ -4,7 +4,7 @@ description: Updated 2018.10.23
 
 # WinPE
 
-Start by selecting New-PEBuildTask and select the WinPE tab.  Keep the Task Name simple, and remember WinPE will be automatically added as a Task Name prefix.
+Start by selecting `New-PEBuildTask` and select the `WinPE` tab.  Keep the Task Name simple, and remember WinPE will be automatically added as a Task Name prefix.
 
 You have the option to use WinPE.wim or WinRE.wim as the base image to create WinPE Media.  I always recommend selecting WinRE
 
@@ -14,7 +14,7 @@ You also have the option to include [AutoExtraFiles](../auto-extrafiles.md) and 
 
 ## Select OSMedia
 
-You will be prompted to select an OSMedia to use for the PEBuild Task.  By design, if you entered a Windows Version in the Task Name \(1803, 1809\) you will only be shown OSMedia that matches that Windows Version.
+You will be prompted to select an OSMedia to use for the Task.  By design, if you entered a Windows Version in the Task Name \(1803, 1809\) you will only be shown OSMedia that matches that Windows Version.
 
 ![](../../../.gitbook/assets/2018-10-15_23-53-59.png)
 
@@ -26,7 +26,7 @@ If you have added WinPE Content to OSBuilder \(DaRT, Drivers, Extra Files, ADK P
 
 ## Complete Task
 
-Once the Task is complete, you can use **New-PEBuild** to build the Recovery Media
+Once the Task is complete, you can use `New-PEBuild` to build the Recovery Media
 
 ![](../../../.gitbook/assets/2018-10-18_11-04-14.png)
 

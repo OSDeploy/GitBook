@@ -12,7 +12,7 @@ You can easily use OSBuilder to create an MDT Boot Image.  One major difference 
 
 ## New-PEBuildTask
 
-You need to start by creating a **New-PEBuildTask**.  WinRE.wim will be automatically used for this Task.  To create MDT Media, use either of the following PowerShell command:
+You need to start by creating a `New-PEBuildTask`.  WinRE.wim will be automatically used for this Task.  To create MDT Media, use either of the following PowerShell command:
 
 ```text
 New-PEBuildTask -DeploymentShare 'D:\Deploy' -SourceWim WinPE -TaskName "Win10 x64 1809" -AutoExtraFiles -ScratchSpace 256
