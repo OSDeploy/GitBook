@@ -1,4 +1,12 @@
+---
+description: Updated 18.10.24
+---
+
 # New-OSBuildTask
+
+An OSBuild is a customized OSMedia.
+
+![](../../../.gitbook/assets/2018-10-24_3-05-23.png)
 
 An OSBuild Task will take an existing OSMedia and apply customizations. You can leave the BuildName blank, unless you have two different configurations where they will be named the same.
 
