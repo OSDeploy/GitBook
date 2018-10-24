@@ -41,7 +41,7 @@
     * [WinPE PowerShell Scripts](osbuilder/how-to/new-osbuildtask/winpe-powershell-scripts.md)
     * [WinPE Extra Files](osbuilder/how-to/new-osbuildtask/winpe-extrafiles.md)
     * [WinPE ADK Packages](osbuilder/how-to/new-osbuildtask/winpe-adk-packages.md)
-  * [Invoke-OSBuildTask](osbuilder/how-to/invoke-osbuildtask.md)
+  * [New-OSBuild](osbuilder/how-to/new-osbuild.md)
   * [Show-OSInfo](osbuilder/how-to/show-osinfo.md)
   * [New-MediaISO](osbuilder/how-to/new-mediaiso.md)
   * [New-MediaUSB](osbuilder/how-to/new-mediausb.md)
