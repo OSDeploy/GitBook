@@ -15,7 +15,7 @@ New-PEBuildTask -SourceWim WinPE -TaskName "Win10 x64 1809" -AutoExtraFiles -Scr
 New-PEBuildTask -SourceWim WinRE -TaskName "Win10 x64 1809" -AutoExtraFiles -ScratchSpace 256
 ```
 
-If you have added MS DaRT to OSBuilder, you will be prompted to add it.  When complete, a Task JSON file will be created which can be used with `New-PEBuild`
+If you have added MS DaRT to OSBuilder, you will be prompted to add it.  When complete, a Task JSON file will be created which can be used with **`New-PEBuild`**
 
 The WinPE Prefix will be added automatically to the Task Name, so unless you want '**WinPE WinPE Win10 x64 1809**' as your Task Name, just leave it out.
 

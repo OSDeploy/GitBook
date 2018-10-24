@@ -4,7 +4,7 @@ description: Updated 2018.10.23
 
 # New-PEBuild
 
-`New-PEBuild` is used to execute the Task that was created using `New-PEBuildTask`.  I always recommend running `New-PEBuild` without the Execute parameter first, to make sure that everything looks good.
+**`New-PEBuild`** is used to execute the Task that was created using [**`New-PEBuildTask`**](new-pebuildtask/).  I always recommend running **`New-PEBuild`** without the Execute parameter first, to make sure that everything looks good.
 
 ![](../../.gitbook/assets/2018-10-23_21-59-19.png)
 
