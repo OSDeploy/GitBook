@@ -1,20 +1,24 @@
-# New-OSBuilderUSB
+---
+description: Updated 18.10.23
+---
 
-> OSBuilder 18.7.26+
+# New-MediaUSB
 
-You can easily create a USB of your OSMedia or OSBuild using **New-OSBuilderUSB**. Since the USB will be formatted in FAT32, it must be 32GB or smaller, but large enough to fit your OS.  Make sure you use an 8-32GB USB Drive!
+You can easily create a USB of your OSMedia, OSBuild OR PEBuild
 
-## Admin Rights
+## Requirements
 
-Yes you need it
+* WIM must be smaller than 4GB.  This is a FAT32 limitation
+* USB Drive must be 32GB or smaller.  This is a FAT32 limitation
+* Admin Rights are required
 
-![](../../.gitbook/assets/2018-07-25_23-52-10.png)
+![](../../.gitbook/assets/2018-10-23_23-53-27.png)
 
-## -USBLabel "Ent1803 x64"
+## -USBLabel ABCDEFGHIJKL
 
 The USB Drive Label cannot exceed 11 characters \(FAT32 limitation\). You have been warned.
 
-![](../../.gitbook/assets/2018-07-25_23-37-58.png)
+![](../../.gitbook/assets/2018-10-23_23-50-20.png)
 
 ## Select OSMedia or OSBuild
 

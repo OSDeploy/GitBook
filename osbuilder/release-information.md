@@ -215,14 +215,14 @@ After applying this OSBuilder Update, you should Update-OSMedia from the origina
 
 ## 18.7.26.1 \(July 26, 2018\)
 
-* Create a Bootable OS USB with [New-OSBuilderUSB](how-to/new-osbuilderusb.md)
+* Create a Bootable OS USB with [New-OSBuilderUSB](how-to/new-mediausb.md)
 * Migrated [osdeploy.com](https://www.osdeploy.com/) to updated [GitBook](https://www.gitbook.com/) framework
 * JSON files used for OSBuilder Module version checking has moved to [GitHub](https://github.com/OSDeploy/OSBuilderJSON)
   * Previous versions of OSBuilder cannot check for Updates
 * JSON files used for DownloadUpdates has moved to [GitHub](https://github.com/OSDeploy/OSBuilderJSON)
   * Previous versions of OSBuilder can no longer check for updated Servicing Stacks, Cumulative Updates, and Adobe Security Updates
 * **New Documentation**
-  * [How To: Create an OS USB](how-to/new-osbuilderusb.md)
+  * [How To: Create an OS USB](how-to/new-mediausb.md)
 
 ## 18.7.25.\* \(July 25, 2018\)
 

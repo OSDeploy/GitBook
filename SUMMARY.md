@@ -44,7 +44,7 @@
   * [Invoke-OSBuildTask](osbuilder/how-to/invoke-osbuildtask.md)
   * [Show-OSInfo](osbuilder/how-to/show-osinfo.md)
   * [New-MediaISO](osbuilder/how-to/new-mediaiso.md)
-  * [New-OSBuilderUSB](osbuilder/how-to/new-osbuilderusb.md)
+  * [New-MediaUSB](osbuilder/how-to/new-mediausb.md)
 * [PEBuild](osbuilder/pebuild/README.md)
   * [WinPE Types](osbuilder/pebuild/winpe-types/README.md)
     * [Recovery](osbuilder/pebuild/winpe-types/recovery.md)
