@@ -4,11 +4,11 @@ description: Updated 18.10.23
 
 # WinPE
 
-Updated 18.10.23Start by selecting `New-PEBuildTask` and select the `WinPE` tab.  Keep the Task Name simple, and remember WinPE will be automatically added as a Task Name prefix.
+Updated 18.10.23Start by selecting [**`New-PEBuildTask`**](./) and select the `WinPE` tab.  Keep the Task Name simple, and remember WinPE will be automatically added as a Task Name prefix.
 
 You have the option to use WinPE.wim or WinRE.wim as the base image to create WinPE Media.  I always recommend selecting WinRE
 
-You also have the option to include [AutoExtraFiles](../auto-extrafiles.md) and to set the Scratch Space.  The default Scratch Space for WinPE is 32MB, but if you do not select an option \(since this is not a Mandatory parameter\), this will automatically be set to 128MB.
+You also have the option to include [**`-AutoExtraFiles`**](../auto-extrafiles.md) and set the **`-ScratchSpace`**.  The default Scratch Space for WinPE is 32MB, but if you do not select an option \(since this is not a Mandatory parameter\), this will automatically be set to 128MB.
 
 ![](../../../.gitbook/assets/2018-10-18_10-59-52.png)
 

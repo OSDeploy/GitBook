@@ -10,7 +10,7 @@ After installing OSBuilder, the next step is to import an Operating System. In t
 
 ## Import-OSMedia
 
-Import-OSMedia can be run without any parameters.  Once executed it will will search all attached Drives for install.wims. A multi-boot OS will not work for now since Import-OSMedia is looking specifically for "sources\install.wim". Be patient and let the scan finish.
+Import-OSMedia can be run without any parameters.  Once executed it will will search all attached Drives for install.wims. A multi-boot OS will not work for now since [**`Import-OSMedia`**](./) is looking specifically for "sources\install.wim". Be patient and let the scan finish.
 
 Once the scanning is complete, a Grid will be displayed with all the available Operating Systems. Multi-select the ones you want to import and press OK. I have tested the import on 8 ISO's at the same time.
 
@@ -18,7 +18,7 @@ Once the scanning is complete, a Grid will be displayed with all the available O
 
 ## Import-OSMedia -UpdateOSMedia
 
-Optionally, you can add the **UpdateOSMedia** parameter to automatically patch the Imported Operating System using [Import-OSMedia](./).  This option will automatically download any required Updates.  You will need an Internet connection and keep in mind the Cumulative Updates are quite large, so don't do this with a Metered Connection.
+Optionally, you can add the **`-UpdateOSMedia`** parameter to automatically patch the Imported Operating System using [**`Update-OSMedia`**](../update-osmedia/).  This option will automatically download any required Updates.  You will need an Internet connection and keep in mind the Cumulative Updates are quite large, so don't do this with a Metered Connection.
 
 ## Import Phase
 

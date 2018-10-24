@@ -4,11 +4,11 @@ description: Updated 18.10.23
 
 # MDT
 
-Start by selecting `New-PEBuildTask` and select the `MDT` tab.  Keep the Task Name simple, and remember MDT will be automatically added as a Task Name prefix.
+Start by selecting [**`New-PEBuildTask`**](./) and select the **`MDT`** tab.  Keep the Task Name simple, and remember MDT will be automatically added as a Task Name prefix.
 
 You have the option to use WinPE.wim or WinRE.wim as the base image to create MDT Media.  I always recommend selecting WinRE as it already contains the default ADK Packages you need to run MDT.  You can always add MDAC or PowerShell if necessary.
 
-You also have the option to include [AutoExtraFiles](../auto-extrafiles.md) and set the Scratch Space.  The default Scratch Space for WinPE is 32MB, but if you do not select an option \(since this is not a Mandatory parameter\), this will automatically be set to 128MB.
+You also have the option to include [**`-AutoExtraFiles`**](../auto-extrafiles.md) and set the **`-ScratchSpace`**.  The default Scratch Space for WinPE is 32MB, but if you do not select an option \(since this is not a Mandatory parameter\), this will automatically be set to 128MB.
 
 Make sure you put your MDT DeploymentShare.  In the example below, I used USB media \(since I keep my OSBuilder disconnected from my Corporate Network\)
 
@@ -28,7 +28,7 @@ If you have added WinPE Content to OSBuilder \(DaRT, Drivers, Extra Files, ADK P
 
 ## Complete Task
 
-Once the Task is complete, you can use `New-PEBuild` to build the Recovery Media
+Once the Task is complete, you can use [**`New-PEBuild`**](../new-pebuild.md) to build the Recovery Media
 
 ![](../../../.gitbook/assets/2018-10-18_11-07-01.png)
 

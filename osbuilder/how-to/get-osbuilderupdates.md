@@ -4,7 +4,7 @@ description: Updated 18.10.23
 
 # Get-OSBuilderUpdates
 
-You may want to download the Microsoft Updates you need before Updating any Operating Systems.  **This is not required as you can let OSBuilder download what you need**, but if you want to get them downloaded first, use **Get-OSBuilderUpdates**
+You may want to download the Microsoft Updates you need before Updating any Operating Systems.  **This is not required as you can let** [**`Update-OSMedia`**](update-osmedia/) **download what you need**, but if you want to get them downloaded first, us this function
 
 ![](../../.gitbook/assets/2018-10-23_0-06-51.png)
 

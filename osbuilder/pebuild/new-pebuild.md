@@ -4,7 +4,7 @@ description: Updated 18.10.23
 
 # New-PEBuild
 
-**`New-PEBuild`** is used to execute the Task that was created using [**`New-PEBuildTask`**](new-pebuildtask/).  I always recommend running **`New-PEBuild`** without the Execute parameter first, to make sure that everything looks good.
+This is used to execute the Task that was created using [**`New-PEBuildTask`**](new-pebuildtask/).  I always recommend running **`New-PEBuild`** without the Execute parameter first, to make sure that everything looks good.
 
 ![](../../.gitbook/assets/2018-10-23_21-59-19.png)
 
@@ -30,7 +30,7 @@ If everything looks good, run **`New-PEBuild`** again with the Execute Parameter
 
 ## New-MediaISO
 
-You can convert this to an ISO using **`New-MediaISO`**
+You can convert this to an ISO using [**`New-MediaISO`**](../how-to/new-mediaiso.md).
 
 ![](../../.gitbook/assets/2018-10-18_10-56-59.png)
 
