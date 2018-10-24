@@ -24,13 +24,13 @@ At the bottom is the Task information where we can see in this case the PE Outpu
 
 ## New-PEBuild -Execute
 
-If everything looks good, run **New-PEBuild** again with the Execute Parameter.  Within a few minutes, you have a complete build of WinPE.
+If everything looks good, run **`New-PEBuild`** again with the Execute Parameter.  Within a few minutes, you have a complete build of WinPE.
 
 ![](../../.gitbook/assets/2018-10-18_10-55-04.png)
 
-## New-OSBuilderISO
+## New-MediaISO
 
-You can convert this to an ISO
+You can convert this to an ISO using **`New-MediaISO`**
 
 ![](../../.gitbook/assets/2018-10-18_10-56-59.png)
 

@@ -12,6 +12,6 @@ Full instructions on how to use OSBuilder is on the following pages. I recommend
 * [New-OSBuildTask](new-osbuildtask/)
 * [Invoke-OSBuildTask](invoke-osbuildtask.md)
 * [Show-OSInfo](show-osinfo.md)
-* [New-OSBuilderISO](new-osbuilderiso.md)
+* [New-OSBuilderISO](new-mediaiso.md)
 * [New-OSBuilderUSB](new-osbuilderusb.md)
 
