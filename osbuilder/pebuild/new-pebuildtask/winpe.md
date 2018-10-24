@@ -1,3 +1,7 @@
+---
+description: Updated 2018.10.23
+---
+
 # WinPE
 
 Start by selecting New-PEBuildTask and select the WinPE tab.  Keep the Task Name simple, and remember WinPE will be automatically added as a Task Name prefix.
@@ -22,7 +26,7 @@ If you have added WinPE Content to OSBuilder \(DaRT, Drivers, Extra Files, ADK P
 
 ## Complete Task
 
-Once the Task is complete, you can use Invoke-PEBuild to build the Recovery Media
+Once the Task is complete, you can use **New-PEBuild** to build the Recovery Media
 
 ![](../../../.gitbook/assets/2018-10-18_11-04-14.png)
 

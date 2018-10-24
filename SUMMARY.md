@@ -55,7 +55,7 @@
     * [Recovery](osbuilder/pebuild/new-pebuildtask/recovery.md)
     * [WinPE](osbuilder/pebuild/new-pebuildtask/winpe.md)
     * [MDT](osbuilder/pebuild/new-pebuildtask/mdt.md)
-  * [Invoke-PEBuild](osbuilder/pebuild/invoke-pebuildtask.md)
+  * [New-PEBuild](osbuilder/pebuild/new-pebuildtask-1.md)
   * [Auto ExtraFiles](osbuilder/pebuild/auto-extrafiles.md)
   * [Drivers](osbuilder/pebuild/drivers/README.md)
     * [RegAdd ActivePowerScheme](osbuilder/pebuild/drivers/regadd-activepowerscheme.md)

@@ -1,3 +1,7 @@
+---
+description: Updated 2018.10.23
+---
+
 # MDT
 
 You can easily use OSBuilder to create an MDT Boot Image.  One major difference in using OSBuilder is that '**Run the Windows Recovery Wizard**' is now present since OSBuilder uses the OS Boot Images.  WinPE.wim in the ADK does not contain any Recovery Environment components \(which explains why it is so small\)
@@ -8,7 +12,7 @@ You can easily use OSBuilder to create an MDT Boot Image.  One major difference 
 
 ## New-PEBuildTask
 
-You need to start by creating a PEBuild Task.  WinRE.wim will be automatically used for this Task.  To create MDT Media, use either of the following PowerShell command:
+You need to start by creating a **New-PEBuildTask**.  WinRE.wim will be automatically used for this Task.  To create MDT Media, use either of the following PowerShell command:
 
 ```text
 New-PEBuildTask -DeploymentShare 'D:\Deploy' -SourceWim WinPE -TaskName "Win10 x64 1809" -AutoExtraFiles -ScratchSpace 256
