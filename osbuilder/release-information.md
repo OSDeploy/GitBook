@@ -207,11 +207,11 @@ After applying this OSBuilder Update, you should Update-OSMedia from the origina
   * Added support for WinPE Extra Files
   * Added support for WinPE ADK Packages
 * **New Documentation**
-  * [How To: Add Drivers to WinPE](how-to/new-osbuildtask/winpe-drivers.md)
-  * [How To: Add DaRT to WinPE](how-to/new-osbuildtask/winpe-dart.md)
-  * [How To: OSBuild WinPE Scripts](how-to/new-osbuildtask/winpe-powershell-scripts.md)
-  * [How To: Add ADK Packages to WinPE](how-to/new-osbuildtask/winpe-adk-packages.md)
-  * [How To: Add Extra Files to WinPE](how-to/new-osbuildtask/winpe-extrafiles.md)
+  * [How To: Add Drivers to WinPE](osbuild/new-osbuildtask/winpe-drivers.md)
+  * [How To: Add DaRT to WinPE](osbuild/new-osbuildtask/winpe-dart.md)
+  * [How To: OSBuild WinPE Scripts](osbuild/new-osbuildtask/winpe-powershell-scripts.md)
+  * [How To: Add ADK Packages to WinPE](osbuild/new-osbuildtask/winpe-adk-packages.md)
+  * [How To: Add Extra Files to WinPE](osbuild/new-osbuildtask/winpe-extrafiles.md)
 
 ## 18.7.26.1 \(July 26, 2018\)
 
@@ -241,7 +241,7 @@ After applying this OSBuilder Update, you should Update-OSMedia from the origina
   * [How To: ExecutionMode - Execute]()
 * **Updated Documentation**
   * [How To: Create an OSMedia Task]()
-  * [How To: Create an OSBuild Task](how-to/new-osbuildtask/)
+  * [How To: Create an OSBuild Task](osbuild/new-osbuildtask/)
 
 ## 18.7.23.\* \(July 23, 2018\)
 
