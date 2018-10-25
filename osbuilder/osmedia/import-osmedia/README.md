@@ -1,24 +1,57 @@
 ---
-description: Updated 18.10.23
+description: Updated 18.10.25
 ---
 
 # Import-OSMedia
 
-After installing OSBuilder, the next step is to import an Operating System. In this example I have two mounted ISO's, Windows 10 1709 x64 and Windows 10 1803 x64.
+![](../../../.gitbook/assets/2018-10-25_2-16-45.png)
 
-![](../../../.gitbook/assets/2018-07-10_14-04-39.png)
+Importing an Operating System into OSBuilder is one of the first steps that should be taken.  In this example, I have mounted several ISO's that were downloaded from Microsoft MVLS
 
-## Import-OSMedia
+![](../../../.gitbook/assets/2018-10-25_2-03-00.png)
 
-Import-OSMedia can be run without any parameters.  Once executed it will will search all attached Drives for install.wims. A multi-boot OS will not work for now since [**`Import-OSMedia`**](./) is looking specifically for "sources\install.wim". Be patient and let the scan finish.
+**`Import-OSMedia`** can be run without any parameters.  Once executed it will will search all attached Drives for install.wim or Install.esd files.  This process should take about a minute, be patient and let the scan finish.
 
-Once the scanning is complete, a Grid will be displayed with all the available Operating Systems. Multi-select the ones you want to import and press OK. I have tested the import on 8 ISO's at the same time.
+Once the scanning is complete, a Grid will be displayed with all the available Operating Systems. Multi-select the ones you want to import and press OK.
 
-![](../../../.gitbook/assets/2018-09-14_0-00-12.png)
+![](../../../.gitbook/assets/2018-10-25_2-00-14.png)
 
-## Import-OSMedia -UpdateOSMedia
+## -UpdateOSMedia
 
 Optionally, you can add the **`-UpdateOSMedia`** parameter to automatically patch the Imported Operating System using [**`Update-OSMedia`**](../update-osmedia/).  This option will automatically download any required Updates.  You will need an Internet connection and keep in mind the Cumulative Updates are quite large, so don't do this with a Metered Connection.
+
+## -EditionId
+
+You can filter the Operating System Edition ID by using this parameter
+
+**Example:**  `Import-OSMedia -EditionId Enterprise`
+
+The following values can be used with this parameter
+
+* Education
+* EducationN
+* Enterprise
+* EnterpriseN
+* EnterpriseS
+* EnterpriseSN
+* Professional
+* ProfessionalEducation
+* ProfessionalEducationN
+* ProfessionalN ProfessionalWorkstation
+* ProfessionalWorkstationN
+* ServerDatacenter
+* ServerDatacenterACor
+* ServerRdsh
+* ServerStandard
+* ServerStandardACor
+
+## -ImageIndex
+
+## -ImageName
+
+## -SkipGridView
+
+
 
 ## Import Phase
 
