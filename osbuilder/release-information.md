@@ -1,5 +1,17 @@
 # Release Information
 
+## 18.10.26.0 \(October 26, 2018\)
+
+* Import-OSMedia
+  * Add EditionId parameter
+  * Add ImageIndex parameter
+  * Add ImageName parameter
+  * Add SkipGridView parameter
+* New-OSBuildTask
+  * Updated Warning messages
+* Get-OSBuilder
+  * Updated Warning messages
+
 ## 18.10.22.x \(October 22, 2018\)
 
 * **Get-OSBuilderUpdates**
