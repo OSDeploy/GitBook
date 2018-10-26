@@ -4,7 +4,7 @@ description: Updated 18.10.25
 
 # OSBuild
 
-An OSBuild is a customized Operating System \(OSMedia\)
+An OSBuild is a customized OSMedia \(Operating System\)
 
 ## New-OSBuildTask
 
