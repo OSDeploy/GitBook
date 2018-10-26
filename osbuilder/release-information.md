@@ -2,8 +2,6 @@
 
 ## 18.10.26.0 \(October 26, 2018\)
 
-{% embed url="https://twitter.com/PhilPritchett/status/1055170162368819200" caption="Phil Pritchett Special Edition" %}
-
 * **Import-OSMedia**
   * Add EditionId parameter
   * Add ImageIndex parameter
@@ -13,6 +11,8 @@
   * Updated Warning messages
 * **Get-OSBuilder**
   * Updated Warning messages
+
+{% embed url="https://twitter.com/PhilPritchett/status/1055170162368819200" caption="Phil Pritchett Special Edition" %}
 
 ## 18.10.22.x \(October 22, 2018\)
 
