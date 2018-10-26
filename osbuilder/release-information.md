@@ -2,14 +2,16 @@
 
 ## 18.10.26.0 \(October 26, 2018\)
 
-* Import-OSMedia
+{% embed url="https://twitter.com/PhilPritchett/status/1055170162368819200" caption="Phil Pritchett Special Edition" %}
+
+* **Import-OSMedia**
   * Add EditionId parameter
   * Add ImageIndex parameter
   * Add ImageName parameter
   * Add SkipGridView parameter
-* New-OSBuildTask
+* **New-OSBuildTask**
   * Updated Warning messages
-* Get-OSBuilder
+* **Get-OSBuilder**
   * Updated Warning messages
 
 ## 18.10.22.x \(October 22, 2018\)
