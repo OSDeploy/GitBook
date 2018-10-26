@@ -18,11 +18,15 @@ Once the scanning is complete, a Grid will be displayed with all the available O
 
 ## -UpdateOSMedia
 
-Optionally, you can add the **`-UpdateOSMedia`** parameter to automatically patch the Imported Operating System using [**`Update-OSMedia`**](../update-osmedia/).  This option will automatically download any required Updates.  You will need an Internet connection and keep in mind the Cumulative Updates are quite large, so don't do this with a Metered Connection.
+Optionally, you can add the **`-UpdateOSMedia`** parameter to automatically patch the Imported Operating System using [**`Update-OSMedia`**](../update-osmedia/).  
+
+**Example:**  `Import-OSMedia -UpdateOSMedia`
+
+This option will automatically download any required Updates.  You will need an Internet connection and keep in mind the Cumulative Updates are quite large, so don't do this with a Metered Connection.
 
 ## -EditionId
 
-You can filter the Operating System Edition ID by using this parameter
+You can filter the Operating System by Edition ID using this parameter
 
 **Example:**  `Import-OSMedia -EditionId Enterprise`
 
@@ -47,11 +51,48 @@ The following values can be used with this parameter
 
 ## -ImageIndex
 
+If you know the Image Index, then you can specify this to filter the Operating Systems
+
+**Example:**  `Import-OSMedia -ImageIndex 3`
+
 ## -ImageName
+
+You can filter the Operating System by Image Name using this parameter
+
+**Example:**  `Import-OSMedia -ImageName 'Windows 10 Enterprise'`
+
+The following values can be used with this parameter
+
+* Windows 10 Education
+* Windows 10 Education N
+* Windows 10 Enterprise
+* Windows 10 Enterprise 2016 LTSB
+* Windows 10 Enterprise for Virtual Desktops
+* Windows 10 Enterprise LTSC
+* Windows 10 Enterprise N
+* Windows 10 Enterprise N LTSC
+* Windows 10 Pro
+* Windows 10 Pro Education
+* Windows 10 Pro Education N
+* Windows 10 Pro for Workstations
+* Windows 10 Pro N
+* Windows 10 Pro N for Workstations
+* Windows Server 2016 Datacenter
+* Windows Server 2016 Datacenter \(Desktop Experience\)
+* Windows Server 2016 Standard
+* Windows Server 2016 Standard \(Desktop Experience\)
+* Windows Server 2019 Datacenter
+* Windows Server 2019 Datacenter \(Desktop Experience\)
+* Windows Server 2019 Standard
+* Windows Server 2019 Standard \(Desktop Experience\)
+* Windows Server Datacenter
+* Windows Server Standard
 
 ## -SkipGridView
 
+To fully automate the import of an Operating System, use this parameter to skip the PowerShell GridView selection.  It is recommended on Multi-Index Media that you specify an **`-EditionId`**, **`-ImageIndex`**,  or **`-ImageName`**
 
+**Example:**  `Import-OSMedia -EditionId Enterprise -SkipGridView`
 
 ## Import Phase
 
