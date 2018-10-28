@@ -10,6 +10,10 @@ Once you have created a Task using [**`New-OSBuildTask`**](new-osbuildtask/), yo
 
 This parameter will automatically download Microsoft Updates that are needed if you have not previously downloaded them
 
+```text
+New-OSBuild -DownloadUpdates
+```
+
 **Example:**  `New-OSBuild -DownloadUpdates`
 
 ## -Execute
