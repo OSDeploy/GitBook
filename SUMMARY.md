@@ -23,6 +23,7 @@
   * [Update-OSMedia](osbuilder/osmedia/update-osmedia/README.md)
     * [Download Updates](osbuilder/osmedia/update-osmedia/downloadupdates.md)
     * [Execute](osbuilder/osmedia/update-osmedia/execute.md)
+    * [Archive](osbuilder/osmedia/update-osmedia/archive.md)
 * [OSBuild](osbuilder/osbuild/README.md)
   * [New-OSBuildTask](osbuilder/osbuild/new-osbuildtask/README.md)
     * [Remove Appx Provisioned Package](osbuilder/osbuild/new-osbuildtask/remove-appx-provisioned-package.md)
