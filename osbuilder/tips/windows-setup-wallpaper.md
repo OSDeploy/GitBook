@@ -1,3 +1,7 @@
+---
+description: Updated 2018.10.31
+---
+
 # Windows Setup Wallpaper
 
 When booting to Windows Setup, it is impossible to tell if you are using a Customized OSBuild or not as there are no clues when presented with the Windows Setup wizard.
