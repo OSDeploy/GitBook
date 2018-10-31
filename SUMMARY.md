@@ -20,6 +20,7 @@
 * [Tips](osbuilder/tips/README.md)
   * [OSMedia Archive](osbuilder/tips/osmedia-archive.md)
   * [OSMedia Failed UBR Change](osbuilder/tips/osmedia-failed-ubr-change.md)
+  * [Windows Setup Wallpaper](osbuilder/tips/windows-setup-wallpaper.md)
 * [OSMedia](osbuilder/osmedia/README.md)
   * [Import-OSMedia](osbuilder/osmedia/import-osmedia/README.md)
     * [Batch Import](osbuilder/osmedia/import-osmedia/batch.md)
