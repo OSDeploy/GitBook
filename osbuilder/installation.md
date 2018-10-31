@@ -29,11 +29,11 @@ OSBuilder requires Admin Rights in PowerShell as you will be manipulating Window
 
 ## Supported Operating Systems <a id="supported-operating-systems"></a>
 
-OSBuilder runs perfectly in Windows 10 as your OSBuilder Computer. You can work with Images based on Windows 10 or Windows Server 2016.
+You can use the OSBuilder PowerShell Module on Windows 10.  Windows Server 2016, and Windows Server 2019 may be able to work, but this has not been tested.
 
-I have not tested using OSBuilder running on Windows Server 2016
+_**Using the OSBuilder PowerShell Module on Windows 7 or Windows Server 2012 will only cause pain, grief, and sorrow.**_
 
-There are no plans on including support for Windows 7, Windows 8.x, and Windows Server 2012
+You can use OSBuilder with Windows 10, Windows Server 2016, and Windows Server 2019 Media.
 
 ## Hardware Requirements
 
