@@ -3,6 +3,8 @@
 * [Home](README.md)
 * [Blog](blog/README.md)
   * [Windows 10 from ESD](blog/windows-10-from-esd.md)
+* [Development](development/README.md)
+  * [SnapPE](development/snappe.md)
 
 ## OSBuilder
 
