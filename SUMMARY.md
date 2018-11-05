@@ -9,9 +9,10 @@
   * [Friends](links/friends/README.md)
     * [Johan Arwidmark](https://deploymentresearch.com/)
     * [Mikael Nystrom](https://deploymentbunny.com/)
-    * [Adam Gross](https://www.asquaredozen.com/)
+    * [A Bakers Dozen](https://www.asquaredozen.com/)
     * [Mike Terrill](https://miketerrill.net/)
     * [Gary Blok](https://garytown.com/)
+    * [Deployment MX](http://blogs.itpro.es/octaviordz/)
     * [Syst & Deploy](http://www.systanddeploy.com/)
   * [Consulting](links/consulting/README.md)
     * [Invoke \(Houston\)](https://www.invokellc.com/)
@@ -27,6 +28,14 @@
   * [Windows 10 from ESD](blog/windows-10-from-esd.md)
 * [Development](development/README.md)
   * [PowerShell SnapPE](development/snappe.md)
+* [Events](events/README.md)
+  * [Experts Live](https://expertslive.org/)
+  * [Experts Live US](http://www.expertslive.us/)
+  * [Experts Live EU](https://www.expertslive.eu/)
+  * [Microsoft Build](https://www.microsoft.com/en-us/build)
+  * [Microsoft Ignite](https://www.microsoft.com/en-us/ignite)
+  * [MMS](https://mmsmoa.com/)
+  * [MMS Desert Edition](https://mmsmoa.com/desertedition)
 
 ## OSBuilder
 
