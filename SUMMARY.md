@@ -72,7 +72,7 @@
     * [RegAdd AeroLite Theme](osbuilder/pebuild/drivers/regadd-aerolite-theme.md)
     * [RegAdd PowerShell ExecutionPolicy](osbuilder/pebuild/drivers/regadd-powershell-executionpolicy.md)
   * [ExtraFiles](osbuilder/pebuild/extrafiles/README.md)
-    * [PowerShell SnapPE](osbuilder/pebuild/extrafiles/powershell-snappe.md)
+    * [PowerShell SnapPE](https://www.osdeploy.com/development/snappe)
     * [Wallpaper](osbuilder/pebuild/extrafiles/wallpaper.md)
   * [Scripts](osbuilder/pebuild/scripts/README.md)
     * [Set-TimeZone](osbuilder/pebuild/scripts/set-timezone.md)
