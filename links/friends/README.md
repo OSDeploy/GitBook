@@ -1,2 +1,2 @@
-# Friends
+# Blogs
 
