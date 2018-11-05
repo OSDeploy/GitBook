@@ -1,10 +1,14 @@
 ---
-description: Updated 2018.11.02
+description: Updated 2018.11.05
 ---
 
-# SnapPE
+# PowerShell SnapPE
 
-**This project is not yet released ...**
+## **Download**
+
+{% embed url="https://github.com/OSDeploy/PowerShell-SnapPE" %}
+
+## Documentation
 
 **SnapPE** is a PowerShell WPF EXE used to take screenshots within WinPE.  You will need to add PowerShell from the ADK for this to work.
 

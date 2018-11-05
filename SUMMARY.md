@@ -4,7 +4,7 @@
 * [Blog](blog/README.md)
   * [Windows 10 from ESD](blog/windows-10-from-esd.md)
 * [Development](development/README.md)
-  * [SnapPE](development/snappe.md)
+  * [PowerShell SnapPE](development/snappe.md)
 
 ## OSBuilder
 
@@ -28,7 +28,6 @@
     * [Batch Import](osbuilder/osmedia/import-osmedia/batch.md)
   * [Update-OSMedia](osbuilder/osmedia/update-osmedia/README.md)
     * [Download Updates](osbuilder/osmedia/update-osmedia/downloadupdates.md)
-    * [Untitled](osbuilder/osmedia/update-osmedia/untitled-1.md)
     * [Execute](osbuilder/osmedia/update-osmedia/execute.md)
 * [OSBuild](osbuilder/osbuild/README.md)
   * [New-OSBuildTask](osbuilder/osbuild/new-osbuildtask/README.md)
@@ -73,6 +72,7 @@
     * [RegAdd AeroLite Theme](osbuilder/pebuild/drivers/regadd-aerolite-theme.md)
     * [RegAdd PowerShell ExecutionPolicy](osbuilder/pebuild/drivers/regadd-powershell-executionpolicy.md)
   * [ExtraFiles](osbuilder/pebuild/extrafiles/README.md)
+    * [PowerShell SnapPE](osbuilder/pebuild/extrafiles/powershell-snappe.md)
     * [Wallpaper](osbuilder/pebuild/extrafiles/wallpaper.md)
   * [Scripts](osbuilder/pebuild/scripts/README.md)
     * [Set-TimeZone](osbuilder/pebuild/scripts/set-timezone.md)
