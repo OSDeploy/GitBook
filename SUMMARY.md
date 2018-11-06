@@ -10,6 +10,8 @@
   * [Forums](links/forums.md)
   * [Microsoft](links/microsoft.md)
   * [PowerShell](links/powershell.md)
+  * [PowerShell \[Microsoft\]](links/powershell-microsoft.md)
+  * [Reddit](links/reddit.md)
   * [Tools](links/tools.md)
   * [Tools \[Paid\]](links/tools-paid.md)
   * [User Groups](links/community.md)
