@@ -10,6 +10,8 @@
 
 {% embed url="https://www.imab.dk" caption="Martin Bengtsson" %}
 
+{% embed url="https://sms-hints-tricks.blogspot.com/" caption="Matthew Hudson" %}
+
 {% embed url="http://www.scconfigmgr.com/author/maurice-daly/" caption="Maurice Daly" %}
 
 {% embed url="https://deploymentbunny.com/" caption="Mikael Nystrom" %}
@@ -24,7 +26,15 @@
 
 {% embed url="https://osddeployment.dk/" caption="Per Larsen" %}
 
+{% embed url="https://www.petervanderwoude.nl/" caption="Peter van der Woude" %}
+
+{% embed url="https://withinrafael.com/" caption="Rafael Rivera" %}
+
 {% embed url="http://rzander.azurewebsites.net" caption="Roger Zander" %}
+
+{% embed url="http://thesccm.com/" caption="Sandy Tsang" %}
+
+{% embed url="https://shauncassells.wordpress.com/" caption="Shaun Cassells" %}
 
 {% embed url="https://stevethompsonmvp.wordpress.com" caption="Steve Thompson" %}
 
@@ -32,14 +42,5 @@
 
 {% embed url="https://xenappblog.com/blog/" caption="Trond Haavarstein" %}
 
-{% embed url="http://thesccm.com/" caption="Sandy Tsang" %}
-
-  
-
-
-
-
-
-
-
+{% embed url="https://www.troyhunt.com/" caption="Troy Hunt" %}
 
