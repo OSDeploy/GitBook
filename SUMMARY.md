@@ -27,6 +27,7 @@
   * [DFWSMUG](https://twitter.com/dfwsmug)
 * [Consulting](links/consulting/README.md)
   * [Invoke \(Houston\)](https://www.invokellc.com/)
+  * [SCCMF12TWICE](https://sccmf12twice.com/)
   * [SCConfigMgr](http://www.scconfigmgr.com/)
   * [TrueSec](https://www.truesec.com/)
 * [Events](links/events/README.md)
