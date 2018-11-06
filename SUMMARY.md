@@ -21,8 +21,6 @@
 * [Development](development/README.md)
   * [PowerShell SnapPE](development/snappe.md)
 
-## Links
-
 ## OSBuilder
 
 * [OSBuilder Overview](osbuilder/overview.md)
