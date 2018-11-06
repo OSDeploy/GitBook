@@ -1,24 +1,23 @@
 # Table of contents
 
 * [Home](README.md)
+* [Links](links/README.md)
+  * [Blogs \[MVP\]](links/blogs-mvp.md)
+  * [Blogs](links/blogs.md)
+  * [Consulting](links/consulting.md)
+  * [Events](links/events.md)
+  * [Microsoft](links/microsoft.md)
+  * [PowerShell](links/powershell.md)
+  * [Tools](links/tools.md)
+  * [Tools \(Free\)](links/tools-free.md)
+  * [User Groups](links/community.md)
+  * [Sponsors](links/sponsors.md)
 * [Blog](blog/README.md)
   * [Windows 10 from ESD](blog/windows-10-from-esd.md)
 * [Development](development/README.md)
   * [PowerShell SnapPE](development/snappe.md)
 
 ## Links
-
-* [Blogs](linkssss/friends/README.md)
-  * [Adam Gross](https://www.asquaredozen.com/)
-  * [Gary Blok](https://garytown.com/)
-* [Consulting](linkssss/consulting.md)
-* [Events](linkssss/events.md)
-* [Microsoft](linkssss/microsoft.md)
-* [PowerShell](linkssss/powershell.md)
-* [Tools](linkssss/tools.md)
-* [Tools \(Free\)](linkssss/tools-free.md)
-* [User Groups](linkssss/community.md)
-* [Sponsors](linkssss/sponsors.md)
 
 ## OSBuilder
 

@@ -1,4 +1,4 @@
-# Blogs
+# Blogs \[MVP\]
 
 {% embed url="http://www.systanddeploy.com/" caption="Damien Van Robaeys" %}
 
