@@ -12,6 +12,8 @@
 
 {% embed url="https://garytown.com/" caption="Gary Blok" %}
 
+{% embed url="https://sccm-zone.com/" caption="Ioan Popovici" %}
+
 {% embed url="https://setupconfigmgr.com/" caption="Justin Chalfant" %}
 
 {% embed url="http://www.manelrodero.com/blog/" caption="Manel Rodero" %}
