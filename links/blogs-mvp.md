@@ -8,6 +8,8 @@
 
 {% embed url="http://www.scconfigmgr.com/author/jordanb/" caption="Jordan Benzing" %}
 
+{% embed url="https://ccmexec.com/" caption="Jörgen Nilsson" %}
+
 {% embed url="https://www.imab.dk" caption="Martin Bengtsson" %}
 
 {% embed url="https://sms-hints-tricks.blogspot.com/" caption="Matthew Hudson" %}
