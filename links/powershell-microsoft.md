@@ -14,3 +14,5 @@
 
 {% embed url="https://windowsserver.uservoice.com/forums/301869-powershell" %}
 
+{% embed url="https://techcommunity.microsoft.com/t5/PowerShell/ct-p/WindowsPowerShell" %}
+

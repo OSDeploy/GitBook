@@ -20,9 +20,19 @@
 
 {% embed url="http://blogs.itpro.es/octaviordz" caption="Octavio Rdz de Santiago" %}
 
+{% embed url="https://sccmentor.com/" caption="Paul Winstanley" %}
+
+{% embed url="https://osddeployment.dk/" caption="Per Larsen" %}
+
 {% embed url="http://rzander.azurewebsites.net" caption="Roger Zander" %}
 
 {% embed url="https://stevethompsonmvp.wordpress.com" caption="Steve Thompson" %}
+
+{% embed url="https://www.thomasmaurer.ch/" caption="Thomas Maurer" %}
+
+{% embed url="https://xenappblog.com/blog/" caption="Trond Haavarstein" %}
+
+{% embed url="http://thesccm.com/" caption="Sandy Tsang" %}
 
   
 
