@@ -16,7 +16,7 @@
   * [Reddit](links/reddit.md)
   * [Tools](links/tools.md)
   * [Tools \[Paid\]](links/tools-paid.md)
-  * [Video Resources](links/video-resources.md)
+  * [Training](links/training.md)
   * [User Groups](links/community.md)
   * [Sponsors](links/sponsors.md)
 * [Blog](blog/README.md)

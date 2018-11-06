@@ -1,10 +1,18 @@
 # Events
 
+## Microsoft Events
+
+{% embed url="https://techcommunity.microsoft.com/" %}
+
+## Upcoming
+
 {% embed url="https://mmsmoa.com/desertedition" caption="December 2-4, 2018 \(Phoenix, Arizona\)" %}
 
 {% embed url="http://www.expertslive.us/" caption="March 26, 2019 \(Austin, Texas\)" %}
 
-{% embed url="https://mmsmoa.com/" caption="May 5-9, 2019" %}
+{% embed url="https://mmsmoa.com/" caption="May 5-9, 2019 \(Mall of the Americas\)" %}
+
+## Previous
 
 {% embed url="https://expertslive.org/" %}
 

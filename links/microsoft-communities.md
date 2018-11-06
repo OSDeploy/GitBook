@@ -1,8 +1,14 @@
 # Microsoft Communities
 
-{% embed url="https://techcommunity.microsoft.com/t5/Azure/ct-p/Azure" %}
+## Home
 
-{% embed url="https://techcommunity.microsoft.com/t5/Azure-Active-Directory/ct-p/AzureActiveDirectory" %}
+{% embed url="https://techcommunity.microsoft.com/" %}
+
+## Communities
+
+{% embed url="https://techcommunity.microsoft.com/t5/Azure/ct-p/Azure" caption="Azure" %}
+
+{% embed url="https://techcommunity.microsoft.com/t5/Azure-Active-Directory/ct-p/AzureActiveDirectory" caption="Azure Active Directory" %}
 
 {% embed url="https://techcommunity.microsoft.com/t5/Enterprise-Mobility-Security/ct-p/EMS" %}
 
@@ -17,6 +23,8 @@
 {% embed url="https://techcommunity.microsoft.com/t5/OneDrive-for-Business/ct-p/OneDriveforBusiness" %}
 
 {% embed url="https://techcommunity.microsoft.com/t5/PowerShell/ct-p/WindowsPowerShell" %}
+
+{% embed url="https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/bg-p/Skype\_for\_Business\_Blog" caption="Skype for Business" %}
 
 {% embed url="https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices" %}
 
