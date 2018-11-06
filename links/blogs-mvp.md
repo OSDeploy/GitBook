@@ -20,7 +20,9 @@
 
 {% embed url="http://blogs.itpro.es/octaviordz" caption="Octavio Rdz de Santiago" %}
 
+{% embed url="http://rzander.azurewebsites.net" caption="Roger Zander" %}
 
+{% embed url="https://stevethompsonmvp.wordpress.com" caption="Steve Thompson" %}
 
   
 
