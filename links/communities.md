@@ -1,4 +1,4 @@
-# Microsoft Communities
+# Communities
 
 ## Home
 

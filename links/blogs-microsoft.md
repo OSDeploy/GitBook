@@ -1,14 +1,18 @@
 # Blogs \[Microsoft\]
 
-## Tech Community
+## Directories
 
 {% embed url="https://techcommunity.microsoft.com/t5/custom/page/page-id/Blogs" %}
+
+{% embed url="https://blogs.technet.microsoft.com/" %}
 
 ## Groups
 
 {% embed url="https://techcommunity.microsoft.com/t5/Configuration-Manager-Blog/bg-p/ConfigurationManagerBlog" %}
 
 {% embed url="https://techcommunity.microsoft.com/t5/Enterprise-Mobility-Security/bg-p/enterprisemobilityandsecurity" %}
+
+{% embed url="https://blogs.technet.microsoft.com/grouppolicy/" %}
 
 {% embed url="https://techcommunity.microsoft.com/t5/IT-Resources-Training-Blog/bg-p/ITResourcesBlog" %}
 
