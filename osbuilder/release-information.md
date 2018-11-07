@@ -1,8 +1,12 @@
 # Release Information
 
-## 18.11.7.0 \(November 7, 2018\)
+## 18.11.7.0 \(November 7, 2018\) Unreleased
 
-* **\`\`**[**`Update-OSMedia`**](osmedia/update-osmedia/)**\`\`**
+* **New-MediaISO**
+  * Add Parameter FullName
+* **New-OSBuild**
+  * Add Parameter ByTaskName
+* **Update-OSMedia**
   * Add Auto ExtraFiles Browse DLLs
   * Add Auto ExtraFiles Wireless Support
 
