@@ -7,7 +7,7 @@
 * **New-OSBuild**
   * Add Parameter CreateISO
   * Add Parameter ByTaskName
-* New-PEBuild
+* **New-PEBuild**
   * Add Parameter CreateISO
 * **Update-OSMedia**
   * Add Parameter CreateISO
