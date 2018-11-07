@@ -1,14 +1,20 @@
 # Release Information
 
-## 18.11.7.0 \(November 7, 2018\) Unreleased
+## 18.11.x.x \(November x, 2018\) Unreleased
 
 * **New-MediaISO**
   * Add Parameter FullName
 * **New-OSBuild**
+  * Add Parameter CreateISO
   * Add Parameter ByTaskName
 * **Update-OSMedia**
+  * Add Parameter CreateISO
   * Add Auto ExtraFiles Browse DLLs
   * Add Auto ExtraFiles Wireless Support
+
+New Parameters allow the automation of [**`New-OSBuild`**](osbuild/new-osbuild.md) and creating [**`New-MediaISO`**](how-to/new-mediaiso.md)**\`\`**
+
+![](../.gitbook/assets/2018-11-07_0-54-20.png)
 
 ## 18.10.26.0 \(October 26, 2018\)
 
