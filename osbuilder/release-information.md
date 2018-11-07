@@ -3,16 +3,25 @@
 ## 18.11.x.x \(November x, 2018\) Unreleased
 
 * **New-MediaISO**
-  * Add Parameter FullName
+  * Add Parameter FullName \(Full Path to Media\)
 * **New-OSBuild**
   * Add Parameter CreateISO
   * Add Parameter ByTaskName
+* New-PEBuild
+  * Add Parameter CreateISO
 * **Update-OSMedia**
   * Add Parameter CreateISO
   * Add Auto ExtraFiles Browse DLLs
-  * Add Auto ExtraFiles Wireless Support
+    * ShellStyle.dll
+    * ExplorerFrame.dll
+    * StructuredQuery.dll
+    * EDPUtil.dll
+  * Add Auto ExtraFiles Wireless Support Dlls
+    * dmcmnutils.dll
+    * mdmregistration.dll
+    * [Build a WinPE with Wireless Support](http://www.scconfigmgr.com/2018/03/06/build-a-winpe-with-wireless-support/)
 
-New Parameters allow the automation of [**`New-OSBuild`**](osbuild/new-osbuild.md) and creating [**`New-MediaISO`**](how-to/new-mediaiso.md)**\`\`**
+ByTaskName Parameter allows the automation of [**`New-OSBuild`**](osbuild/new-osbuild.md) and the CreateISO Parameter automatically creates a [**`New-MediaISO`**](how-to/new-mediaiso.md)**\`\`**
 
 ![](../.gitbook/assets/2018-11-07_0-54-20.png)
 
