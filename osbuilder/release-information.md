@@ -1,5 +1,11 @@
 # Release Information
 
+## 18.11.7.0 \(November 7, 2018\)
+
+* **\`\`**[**`Update-OSMedia`**](osmedia/update-osmedia/)**\`\`**
+  * Add Auto ExtraFiles Browse DLLs
+  * Add Auto ExtraFiles Wireless Support
+
 ## 18.10.26.0 \(October 26, 2018\)
 
 * **Import-OSMedia**
