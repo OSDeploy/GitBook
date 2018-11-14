@@ -1,5 +1,20 @@
 # Release Information
 
+## 18.11.14.0 \(November 14, 2018\)
+
+* **Update-OSMedia**
+  * Add Parameter **`SkipWinpeCU`** to skip the Cumulative Update from applying to WinPE
+* **New-OSBuild**
+  * Add Parameter **`SkipWinpeCU`** to skip the Cumulative Update from applying to WinPE
+
+Windows 10 1809 2018-11 Cumulative Update when applied to WinPE does not allow Dism Image Cleanup to work, causing WinPE to grow large.  This will cause issues with WinRE when applied to the Recovery Partition during Imaging as it will be too big.  
+
+![](../.gitbook/assets/2018-11-14_2-51-14.png)
+
+Use **`Update-OSMedia -SkipWinpeCU`** or **`New-OSBuild -SkipWinpeCU`** to bypass updating WinPE with the 2018-11 Cumulative Update
+
+![](../.gitbook/assets/2018-11-14_10-41-41.png)
+
 ## 18.11.13.0 \(November 13, 2018\)
 
 * **New-MediaISO**
