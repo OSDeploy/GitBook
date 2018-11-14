@@ -1,6 +1,6 @@
 # Release Information
 
-## 18.11.x.x \(November x, 2018\) Unreleased
+## 18.11.13.0 \(November 13, 2018\)
 
 * **New-MediaISO**
   * Add Parameter FullName \(Full Path to Media\)
@@ -9,6 +9,7 @@
   * Add Parameter ByTaskName
 * **New-PEBuild**
   * Add Parameter CreateISO
+  * Automatically Creates LiteTouchPE\_&lt;Arch&gt;.wim
 * **Update-OSMedia**
   * Add Parameter CreateISO
   * Add Auto ExtraFiles Browse DLLs
@@ -21,7 +22,7 @@
     * mdmregistration.dll
     * [Build a WinPE with Wireless Support](http://www.scconfigmgr.com/2018/03/06/build-a-winpe-with-wireless-support/)
 
-ByTaskName Parameter allows the automation of [**`New-OSBuild`**](osbuild/new-osbuild.md) and the CreateISO Parameter automatically creates a [**`New-MediaISO`**](how-to/new-mediaiso.md)**\`\`**
+**`-ByTaskName`** parameter allows the automation of [**`New-OSBuild`**](osbuild/new-osbuild.md) and the **`-CreateISO`** parameter automatically creates a [**`New-MediaISO`**](how-to/new-mediaiso.md)**\`\`**
 
 ![](../.gitbook/assets/2018-11-07_0-54-20.png)
 
