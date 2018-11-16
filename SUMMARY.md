@@ -23,6 +23,7 @@
   * [Windows 10 from ESD](blog/windows-10-from-esd.md)
 * [Development](development/README.md)
   * [PowerShell SnapPE](development/snappe.md)
+* [Windows Outsider](windows-outsider.md)
 
 ## OSBuilder
 
@@ -88,6 +89,7 @@
   * [Drivers](osbuilder/pebuild/drivers/README.md)
     * [RegAdd ActivePowerScheme](osbuilder/pebuild/drivers/regadd-activepowerscheme.md)
     * [RegAdd AeroLite Theme](osbuilder/pebuild/drivers/regadd-aerolite-theme.md)
+    * [RegAdd Browse](osbuilder/pebuild/drivers/regadd-browse.md)
     * [RegAdd PowerShell ExecutionPolicy](osbuilder/pebuild/drivers/regadd-powershell-executionpolicy.md)
   * [ExtraFiles](osbuilder/pebuild/extrafiles/README.md)
     * [PowerShell SnapPE](https://www.osdeploy.com/development/snappe)
