@@ -1,0 +1,152 @@
+﻿2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=6332 DismApi.dll:                                            - DismInitializeInternal
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=6332 DismApi.dll: <----- Starting DismApi.dll session -----> - DismInitializeInternal
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=6332 DismApi.dll:                                            - DismInitializeInternal
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=6332 DismApi.dll: Version 10.0.17134.1 - DismInitializeInternal
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=6332 DismApi.dll: Parent process command line: "C:\windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe"  - DismInitializeInternal
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=6332 Enter DismInitializeInternal - DismInitializeInternal
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=6332 Input parameters: LogLevel: 2, LogFilePath: C:\DEV\Appx\17763.107.log, ScratchDirectory: (null) - DismInitializeInternal
+2018-11-16 11:43:39, Info                  DISM   Initialized Panther logging at C:\DEV\Appx\17763.107.log
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=6332 Initialized GlobalConfig - DismInitializeInternal
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=6332 Initialized SessionTable - DismInitializeInternal
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=6332 Lookup in table by path failed for: DummyPath-2BA51B78-C7F7-4910-B99D-BB7345357CDC - CTransactionalImageTable::LookupImagePath
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=6332 Waiting for m_pInternalThread to start - CCommandThread::Start
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=5488 Enter CCommandThread::CommandThreadProcedureStub - CCommandThread::CommandThreadProcedureStub
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=5488 Enter CCommandThread::ExecuteLoop - CCommandThread::ExecuteLoop
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=6332 CommandThread StartupEvent signaled - CCommandThread::WaitForStartup
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=6332 m_pInternalThread started - CCommandThread::Start
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=6332 Created g_internalDismSession - DismInitializeInternal
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=6332 Leave DismInitializeInternal - DismInitializeInternal
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=6332 Enter DismOpenSessionInternal - DismOpenSessionInternal
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=6332 Input parameters: ImagePath: C:\DEV\Appx\17763.107-Mount, WindowsDirectory: (null), SystemDrive: (null) - DismOpenSessionInternal
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=6332 Lookup in table by path failed for: 2324737731_917504_88072 - CTransactionalImageTable::LookupImagePath
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=6332 Waiting for m_pInternalThread to start - CCommandThread::Start
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=11064 Enter CCommandThread::CommandThreadProcedureStub - CCommandThread::CommandThreadProcedureStub
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=11064 Enter CCommandThread::ExecuteLoop - CCommandThread::ExecuteLoop
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=6332 CommandThread StartupEvent signaled - CCommandThread::WaitForStartup
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=6332 m_pInternalThread started - CCommandThread::Start
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=6332 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=11064 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2018-11-16 11:43:39, Info                  DISM   API: PID=2476 TID=11064 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2018-11-16 11:43:39, Info                  DISM   PID=2476 TID=11064 Scratch directory set to 'C:\Users\David\AppData\Local\Temp\'. - CDISMManager::put_ScratchDir
+2018-11-16 11:43:39, Info                  DISM   PID=2476 TID=11064 DismCore.dll version: 10.0.17134.1 - CDISMManager::FinalConstruct
+2018-11-16 11:43:39, Info                  DISM   Initialized Panther logging at C:\DEV\Appx\17763.107.log
+2018-11-16 11:43:39, Info                  DISM   PID=2476 TID=11064 Successfully loaded the ImageSession at "C:\windows\SYSTEM32\Dism" - CDISMManager::LoadLocalImageSession
+2018-11-16 11:43:39, Info                  DISM   Initialized Panther logging at C:\DEV\Appx\17763.107.log
+2018-11-16 11:43:39, Info                  DISM   DISM Provider Store: PID=2476 TID=11064 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2018-11-16 11:43:39, Info                  DISM   DISM Provider Store: PID=2476 TID=11064 Failed to get and initialize the PE Provider.  Continuing by assuming that it is not a WinPE image. - CDISMProviderStore::Final_OnConnect
+2018-11-16 11:43:39, Info                  DISM   DISM Provider Store: PID=2476 TID=11064 Finished initializing the Provider Map. - CDISMProviderStore::Final_OnConnect
+2018-11-16 11:43:39, Info                  DISM   Initialized Panther logging at C:\DEV\Appx\17763.107.log
+2018-11-16 11:43:39, Info                  DISM   DISM Manager: PID=2476 TID=11064 Successfully created the local image session and provider store. - CDISMManager::CreateLocalImageSession
+2018-11-16 11:43:39, Info                  DISM   DISM Provider Store: PID=2476 TID=11064 Getting the collection of providers from a local provider store type. - CDISMProviderStore::GetProviderCollection
+2018-11-16 11:43:39, Info                  DISM   DISM Provider Store: PID=2476 TID=11064 Connecting to the provider located at C:\windows\SYSTEM32\Dism\FolderProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2018-11-16 11:43:39, Warning               DISM   DISM Provider Store: PID=2476 TID=11064 Failed to load the provider: C:\windows\SYSTEM32\Dism\SiloedPackageProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2018-11-16 11:43:39, Info                  DISM   DISM Provider Store: PID=2476 TID=11064 Connecting to the provider located at C:\windows\SYSTEM32\Dism\FfuProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2018-11-16 11:43:39, Info                  DISM   DISM Provider Store: PID=2476 TID=11064 Connecting to the provider located at C:\windows\SYSTEM32\Dism\WimProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2018-11-16 11:43:39, Info                  DISM   DISM Provider Store: PID=2476 TID=11064 Connecting to the provider located at C:\windows\SYSTEM32\Dism\VHDProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2018-11-16 11:43:39, Info                  DISM   DISM Provider Store: PID=2476 TID=11064 Connecting to the provider located at C:\windows\SYSTEM32\Dism\ImagingProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2018-11-16 11:43:39, Info                  DISM   DISM Provider Store: PID=2476 TID=11064 Connecting to the provider located at C:\windows\SYSTEM32\Dism\CompatProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2018-11-16 11:43:39, Warning               DISM   DISM Provider Store: PID=2476 TID=11064 Failed to load the provider: C:\windows\SYSTEM32\Dism\MetaDeployProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2018-11-16 11:43:39, Info                  DISM   DISM FFU Provider: PID=2476 TID=11064 [C:\DEV\Appx\17763.107-Mount] is not recognized by the DISM FFU provider. - CFfuImage::Initialize
+[2476] ImageUnmarshallHandle: Reconstituting wim at C:\DEV\Appx\17763.107.wim.
+[2476] [0x80070005] GetVolumeRootFromPath:(540): Access is denied.
+[2476] [0x80070005] SetSysVolInfoPath:(3549): Access is denied.
+[2476] ImageUnmarshallHandle: Reconstituting wim at C:\DEV\Appx\17763.107.wim.
+2018-11-16 11:43:40, Info                  DISM   DISM Manager: PID=2476 TID=11064 physical location path: C:\DEV\Appx\17763.107-Mount - CDISMManager::CreateImageSession
+2018-11-16 11:43:40, Info                  DISM   DISM Manager: PID=2476 TID=11064 Event name for current DISM session is Global\__?_Volume{43f68813-c033-45d6-a43e-da42c810a52b}__2324737731_7798784_442390 - CDISMManager::CheckSessionAndLock
+2018-11-16 11:43:40, Info                  DISM   DISM Manager: PID=2476 TID=11064 Create session event 0xa2c for current DISM session and event name is Global\__?_Volume{43f68813-c033-45d6-a43e-da42c810a52b}__2324737731_7798784_442390  - CDISMManager::CheckSessionAndLock
+2018-11-16 11:43:40, Info                  DISM   DISM Manager: PID=2476 TID=11064 Copying DISM from "C:\DEV\Appx\17763.107-Mount\Windows\System32\Dism" - CDISMManager::CreateImageSessionFromLocation
+2018-11-16 11:43:40, Info                  DISM   DISM Manager: PID=2476 TID=11064 Successfully loaded the ImageSession at "C:\Users\David\AppData\Local\Temp\ED74CA72-4D81-406A-96F4-879633E2A1DB" - CDISMManager::LoadRemoteImageSession
+2018-11-16 11:43:40, Info                  DISM   DISM Image Session: PID=416 TID=10048 Instantiating the Provider Store. - CDISMImageSession::get_ProviderStore
+2018-11-16 11:43:40, Info                  DISM   DISM Provider Store: PID=416 TID=10048 Initializing a provider store for the IMAGE session type. - CDISMProviderStore::Final_OnConnect
+2018-11-16 11:43:40, Info                  DISM   DISM Provider Store: PID=416 TID=10048 Connecting to the provider located at C:\Users\David\AppData\Local\Temp\ED74CA72-4D81-406A-96F4-879633E2A1DB\OSProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2018-11-16 11:43:40, Info                  DISM   DISM OS Provider: PID=416 TID=10048 Defaulting SystemPath to C:\DEV\Appx\17763.107-Mount - CDISMOSServiceManager::Final_OnConnect
+2018-11-16 11:43:40, Info                  DISM   DISM OS Provider: PID=416 TID=10048 Defaulting Windows folder to C:\DEV\Appx\17763.107-Mount\Windows - CDISMOSServiceManager::Final_OnConnect
+2018-11-16 11:43:40, Info                  DISM   DISM Provider Store: PID=416 TID=10048 Attempting to initialize the logger from the Image Session. - CDISMProviderStore::Final_OnConnect
+2018-11-16 11:43:40, Info                  DISM   DISM Provider Store: PID=416 TID=10048 Connecting to the provider located at C:\Users\David\AppData\Local\Temp\ED74CA72-4D81-406A-96F4-879633E2A1DB\LogProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2018-11-16 11:43:40, Info                  DISM   Initialized Panther logging at C:\DEV\Appx\17763.107.log
+2018-11-16 11:43:40, Info                  DISM   DISM Provider Store: PID=416 TID=10048 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2018-11-16 11:43:40, Warning               DISM   DISM Provider Store: PID=416 TID=10048 Failed to load the provider: C:\Users\David\AppData\Local\Temp\ED74CA72-4D81-406A-96F4-879633E2A1DB\PEProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2018-11-16 11:43:40, Info                  DISM   DISM Provider Store: PID=416 TID=10048 Failed to get and initialize the PE Provider.  Continuing by assuming that it is not a WinPE image. - CDISMProviderStore::Final_OnConnect
+2018-11-16 11:43:40, Info                  DISM   DISM Provider Store: PID=416 TID=10048 Finished initializing the Provider Map. - CDISMProviderStore::Final_OnConnect
+2018-11-16 11:43:40, Info                  DISM   Initialized Panther logging at C:\DEV\Appx\17763.107.log
+2018-11-16 11:43:40, Info                  DISM   Initialized Panther logging at C:\DEV\Appx\17763.107.log
+2018-11-16 11:43:40, Info                  DISM   DISM Manager: PID=2476 TID=11064 Image session successfully loaded from the temporary location: C:\Users\David\AppData\Local\Temp\ED74CA72-4D81-406A-96F4-879633E2A1DB - CDISMManager::CreateImageSession
+2018-11-16 11:43:40, Info                  DISM   API: PID=2476 TID=11064 Target image information: OS Version=10.0.17763.107, Image architecture=amd64 - CDismCore::LogImageSessionDetails
+2018-11-16 11:43:40, Info                  DISM   API: PID=2476 TID=6332 Leave DismOpenSessionInternal - DismOpenSessionInternal
+2018-11-16 11:43:40, Info                  DISM   API: PID=2476 TID=6332 Session id is: 2 - DismOpenSessionInternal
+2018-11-16 11:43:40, Info                  DISM   API: PID=2476 TID=6332 Enter DismGetOsInfoInternal - DismGetOsInfoInternal
+2018-11-16 11:43:40, Info                  DISM   API: PID=2476 TID=6332 Input parameters: Session: 2 - DismGetOsInfoInternal
+2018-11-16 11:43:40, Info                  DISM   API: PID=2476 TID=6332 Initialized default cancel event - DismGetOsInfoInternal
+2018-11-16 11:43:40, Info                  DISM   API: PID=2476 TID=6332 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2018-11-16 11:43:40, Info                  DISM   API: PID=2476 TID=11064 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2018-11-16 11:43:40, Info                  DISM   API: PID=2476 TID=11064 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2018-11-16 11:43:41, Info                  DISM   API: PID=2476 TID=6332 Leave DismGetOsInfoInternal - DismGetOsInfoInternal
+2018-11-16 11:43:41, Info                  DISM   API: PID=2476 TID=6332 Enter DismDeleteInternal - DismDeleteInternal
+2018-11-16 11:43:41, Info                  DISM   API: PID=2476 TID=6332 Leave DismDeleteInternal - DismDeleteInternal
+2018-11-16 11:43:41, Info                  DISM   API: PID=2476 TID=6332 Enter DismRemoveProvisionedAppxPackageInternal - DismRemoveProvisionedAppxPackageInternal
+2018-11-16 11:43:41, Info                  DISM   API: PID=2476 TID=6332 Input parameters: Session: 2, PackageName: Microsoft.ZuneVideo_2019.18052.20211.0_neutral_~_8wekyb3d8bbwe, RemoveFromAllUsers: false - DismRemoveProvisionedAppxPackageInternal
+2018-11-16 11:43:41, Info                  DISM   API: PID=2476 TID=6332 Input parameters: Session: 2, PackageName: Microsoft.ZuneVideo_2019.18052.20211.0_neutral_~_8wekyb3d8bbwe, RemoveFromAllUsers: false - DismRemoveProvisionedAppxPackageInternal
+2018-11-16 11:43:41, Info                  DISM   API: PID=2476 TID=6332 Initialized default cancel event - DismRemoveProvisionedAppxPackageInternal
+2018-11-16 11:43:41, Info                  DISM   API: PID=2476 TID=6332 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2018-11-16 11:43:41, Info                  DISM   API: PID=2476 TID=11064 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2018-11-16 11:43:41, Info                  DISM   API: PID=2476 TID=11064 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2018-11-16 11:43:41, Info                  DISM   DISM Provider Store: PID=416 TID=10048 Connecting to the provider located at C:\Users\David\AppData\Local\Temp\ED74CA72-4D81-406A-96F4-879633E2A1DB\AppxProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2018-11-16 11:43:41, Info                  DISM   DISM Provider Store: PID=416 TID=10048 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2018-11-16 11:43:41, Info                  DISM   API: PID=2476 TID=11064 Calling RemoveAllUserAppx with package full name = Microsoft.ZuneVideo_2019.18052.20211.0_neutral_~_8wekyb3d8bbwe - CRemoveAppxCommandObject::InternalExecute
+2018-11-16 11:43:44, Error                 DISM   DISM Appx Provider: PID=416 TID=10048 Failed deleting path 'C:\DEV\Appx\17763.107-Mount\Program Files\WindowsApps\Microsoft.ZuneVideo_10.18052.20211.0_neutral_split.scale-125_8wekyb3d8bbwe' - CPackageAdapter::DestagePath(hr:0x80070091)
+2018-11-16 11:43:44, Error                 DISM   DISM Appx Provider: PID=416 TID=10048 Failed while trying to destage path 'C:\DEV\Appx\17763.107-Mount\Program Files\WindowsApps\Microsoft.ZuneVideo_10.18052.20211.0_neutral_split.scale-125_8wekyb3d8bbwe' - CPackageAdapter::DestagePackage(hr:0x80070091)
+2018-11-16 11:43:44, Error                 DISM   DISM Appx Provider: PID=416 TID=10048 Failed to destage package'Microsoft.ZuneVideo_10.18052.20211.0_neutral_split.scale-125_8wekyb3d8bbwe' - CPackageAdapter::RemovePackage(hr:0x80070091)
+2018-11-16 11:43:44, Error                 DISM   DISM Appx Provider: PID=416 TID=10048 Failed to remove package Microsoft.ZuneVideo_10.18052.20211.0_neutral_split.scale-125_8wekyb3d8bbwe while processing target type = 2 - CDismRequest::RemovePackages::<lambda_9b94996bf1effd4999a868f943d0c8d4>::operator ()(hr:0x80070091)
+2018-11-16 11:43:44, Error                 DISM   DISM Appx Provider: PID=416 TID=10048 Failed to remove related packages - CPackageAdapter::RemovePackage(hr:0x80070091)
+2018-11-16 11:43:44, Error                 DISM   DISM Appx Provider: PID=416 TID=10048 Encountered failure while removing package Microsoft.ZuneVideo_2019.18052.20211.0_neutral_~_8wekyb3d8bbwe - CAppxManager::RemoveAllUserAppx(hr:0x80070091)
+2018-11-16 11:43:44, Error                 DISM   API: PID=2476 TID=11064 Failed to remove package - CRemoveAppxCommandObject::InternalExecute(hr:0x80070091)
+2018-11-16 11:43:44, Error                 DISM   API: PID=2476 TID=11064 InternalExecute failed - CBaseCommandObject::Execute(hr:0x80070091)
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=6332 Leave DismRemoveProvisionedAppxPackageInternal - DismRemoveProvisionedAppxPackageInternal
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=6332 Enter DismGetLastErrorMessageInternal - DismGetLastErrorMessageInternal
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=6332 Exit DismGetLastErrorMessageInternal - DismGetLastErrorMessageInternal
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=6332 Enter DismDeleteInternal - DismDeleteInternal
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=6332 Leave DismDeleteInternal - DismDeleteInternal
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=6332 Enter DismCloseSessionInternal - DismCloseSessionInternal
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=6332 Input parameters: Session: 2 - DismCloseSessionInternal
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=6332 GetReferenceCount hr: 0x0 - CSessionTable::RemoveSession
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=6332 Refcount for DismSession= 2s 0 - CSessionTable::RemoveSession
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=6332 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=11064 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=11064 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=11064 ExecuteLoop: Cancel signaled - CCommandThread::ExecuteLoop
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=11064 Leave CCommandThread::ExecuteLoop - CCommandThread::ExecuteLoop
+2018-11-16 11:43:44, Info                  DISM   DISM Provider Store: PID=416 TID=10048 Found the OSServices.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2018-11-16 11:43:44, Info                  DISM   DISM Provider Store: PID=416 TID=10048 Found the OSServices.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2018-11-16 11:43:44, Info                  DISM   DISM Provider Store: PID=416 TID=10048 Found the PE Provider.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2018-11-16 11:43:44, Info                  DISM   DISM Provider Store: PID=416 TID=10048 Finalizing the servicing provider(AppxManager) - CDISMProviderStore::Internal_DisconnectProvider
+2018-11-16 11:43:44, Info                  DISM   DISM Provider Store: PID=416 TID=10048 Disconnecting Provider: AppxManager - CDISMProviderStore::Internal_DisconnectProvider
+2018-11-16 11:43:44, Info                  DISM   DISM Provider Store: PID=416 TID=10048 Releasing the local reference to OSServices. - CDISMProviderStore::Internal_DisconnectProvider
+2018-11-16 11:43:44, Info                  DISM   DISM Provider Store: PID=416 TID=10048 Disconnecting Provider: OSServices - CDISMProviderStore::Internal_DisconnectProvider
+2018-11-16 11:43:44, Info                  DISM   DISM OS Provider: PID=416 TID=10048 Successfully unloaded all registry hives. - CDISMOSServiceManager::Final_OnDisconnect
+2018-11-16 11:43:44, Info                  DISM   DISM Provider Store: PID=416 TID=10048 Releasing the local reference to DISMLogger.  Stop logging. - CDISMProviderStore::Internal_DisconnectProvider
+2018-11-16 11:43:44, Info                  DISM   DISM Manager: PID=2476 TID=11064 Closing session event handle 0xa2c - CDISMManager::CleanupImageSessionEntry
+2018-11-16 11:43:44, Info                  DISM   DISM Provider Store: PID=2476 TID=11064 Found the OSServices.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2018-11-16 11:43:44, Info                  DISM   DISM Provider Store: PID=2476 TID=11064 Disconnecting Provider: FolderManager - CDISMProviderStore::Internal_DisconnectProvider
+2018-11-16 11:43:44, Info                  DISM   DISM Provider Store: PID=2476 TID=11064 Disconnecting Provider: FfuManager - CDISMProviderStore::Internal_DisconnectProvider
+2018-11-16 11:43:44, Info                  DISM   DISM Provider Store: PID=2476 TID=11064 Disconnecting Provider: WimManager - CDISMProviderStore::Internal_DisconnectProvider
+2018-11-16 11:43:44, Info                  DISM   DISM Provider Store: PID=2476 TID=11064 Disconnecting Provider: VHDManager - CDISMProviderStore::Internal_DisconnectProvider
+2018-11-16 11:43:44, Info                  DISM   DISM Provider Store: PID=2476 TID=11064 Disconnecting Provider: GenericImagingManager - CDISMProviderStore::Internal_DisconnectProvider
+2018-11-16 11:43:44, Info                  DISM   DISM Provider Store: PID=2476 TID=11064 Disconnecting Provider: Compatibility Manager - CDISMProviderStore::Internal_DisconnectProvider
+2018-11-16 11:43:44, Info                  DISM   DISM Provider Store: PID=2476 TID=11064 Releasing the local reference to DISMLogger.  Stop logging. - CDISMProviderStore::Internal_DisconnectProvider
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=11064 Leave CCommandThread::CommandThreadProcedureStub - CCommandThread::CommandThreadProcedureStub
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=6332 Leave DismCloseSessionInternal - DismCloseSessionInternal
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=6332 Enter DismShutdownInternal - DismShutdownInternal
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=6332 GetReferenceCount hr: 0x0 - CSessionTable::RemoveSession
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=6332 Refcount for DismSession= 1s 0 - CSessionTable::RemoveSession
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=6332 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=5488 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=5488 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=5488 ExecuteLoop: Cancel signaled - CCommandThread::ExecuteLoop
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=5488 Leave CCommandThread::ExecuteLoop - CCommandThread::ExecuteLoop
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=5488 Leave CCommandThread::CommandThreadProcedureStub - CCommandThread::CommandThreadProcedureStub
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=6332 Deleted g_internalDismSession - DismShutdownInternal
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=6332 Shutdown SessionTable - DismShutdownInternal
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=6332 Leave DismShutdownInternal - DismShutdownInternal
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=6332 DismApi.dll:                                          - DismShutdownInternal
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=6332 DismApi.dll: <----- Ending DismApi.dll session -----> - DismShutdownInternal
+2018-11-16 11:43:44, Info                  DISM   API: PID=2476 TID=6332 DismApi.dll:                                          - DismShutdownInternal
