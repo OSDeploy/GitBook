@@ -1,5 +1,11 @@
 # Windows 10 1809 Appx Issues
 
+{% hint style="success" %}
+This issue does not occur when using [**`Mount-WindowsImage`**](https://docs.microsoft.com/en-us/powershell/module/dism/mount-windowsimage?view=win10-ps) without the **`-Optimize`** parameter.  Thanks [**Johan**](https://twitter.com/jarwidmark/status/1063594435252875265)!
+{% endhint %}
+
+{% embed url="https://aka.ms/AA38dwn" %}
+
 There seems to be an issue with Windows 10 1809 where Appx Provisioned Packages can't be removed from a Mounted Image.
 
 ## The Setup

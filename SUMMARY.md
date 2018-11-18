@@ -28,7 +28,11 @@
 ## OSBuilder
 
 * [OSBuilder Overview](osbuilder/overview.md)
-* [Release Information](osbuilder/release-information.md)
+* [Release Information](osbuilder/release-information/README.md)
+  * [2018-10](osbuilder/release-information/2018-10.md)
+  * [2018-09](osbuilder/release-information/2018-09.md)
+  * [2018-08](osbuilder/release-information/2018-08.md)
+  * [2018-07](osbuilder/release-information/2018-07.md)
 * [Installation and Requirements](osbuilder/installation.md)
 * [Quick Instructions](osbuilder/quick-instructions.md)
 * [How To](osbuilder/how-to/README.md)
