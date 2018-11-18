@@ -2,9 +2,9 @@
 
 ## 18.11.17.0 \(November 17, 2018\)
 
-Mount-WindowsImage will not longer use the **`-Optimize`** parameter as this causes issues with Windows 10 1809.
+**\`\`**[**`Mount-WindowsImage`**](https://docs.microsoft.com/en-us/powershell/module/dism/mount-windowsimage?view=win10-ps) used in OSBuilder will not longer use the **`-Optimize`** parameter as this causes issues with Offline Servicing Windows 10 1809
 
-{% embed url="https://aka.ms/AA38dwn" %}
+{% embed url="https://www.osdeploy.com/blog/windows-10-1809-appx-issues" %}
 
 ## 18.11.14.0 \(November 14, 2018\)
 
