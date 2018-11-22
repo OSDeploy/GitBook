@@ -47,9 +47,3 @@ I cannot recommend using the Optimize parameter when mounting a Windows Image, a
 
 {% embed url="https://docs.microsoft.com/en-us/powershell/module/dism/mount-windowsimage?view=win10-ps" %}
 
-
-
-
-
-
-
