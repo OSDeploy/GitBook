@@ -22,6 +22,7 @@
 * [Blog](blog/README.md)
   * [Windows 10 from ESD](blog/windows-10-from-esd.md)
   * [Windows 10 1809 Appx Issues](blog/windows-10-1809-appx-issues.md)
+  * [Mount-WindowsImage -Optimize](blog/mount-windowsimage-optimize.md)
 * [Development](development/README.md)
   * [PowerShell SnapPE](development/snappe.md)
 
