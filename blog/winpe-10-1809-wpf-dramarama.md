@@ -72,7 +72,7 @@ A proper WinPE that is extracted from the Boot.wim does not crash and shows it u
 
 ![](../.gitbook/assets/2018-11-23_12-08-49.png)
 
-And these files are not included in the WinPE from the ADK
+And these files are not included in the WinPE from the ADK, which explains Dll Not Found!
 
 ![](../.gitbook/assets/2018-11-23_12-08-55.png)
 
