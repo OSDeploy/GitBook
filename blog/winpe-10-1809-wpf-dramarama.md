@@ -90,3 +90,60 @@ These files are already in the Boot.wim's WinPE, so that explains why it works. 
 
 Enjoy!
 
+## Technical Notes
+
+#### BPC47\*.dll Files
+
+Files are located in the following locations on Windows 10 x64 1809
+
+```text
+C:\Windows\System32
+C:\Windows\WinSxS\amd64_microsoft-windows-bcp47languages_31bf3856ad364e35_10.0.17763.1_none_8b3037a62efd1f71
+```
+
+#### ADK WinPE.wim Packages
+
+```text
+Microsoft-Windows-WinPE-LanguagePack-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1
+Microsoft-Windows-WinPE-Package~31bf3856ad364e35~amd64~~10.0.17763.1  
+```
+
+#### Boot.wim WinPE Packages
+
+```text
+Microsoft-Windows-WinPE-LanguagePack-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1
+Microsoft-Windows-WinPE-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+WinPE-ATBroker-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1
+WinPE-ATBroker-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+WinPE-AudioCore-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1
+WinPE-AudioCore-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+WinPE-AudioDrivers-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1
+WinPE-AudioDrivers-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+WinPE-EnhancedStorage-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1
+WinPE-EnhancedStorage-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+WinPE-Narrator-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1
+WinPE-Narrator-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+WinPE-SRH-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1
+WinPE-SRH-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+WinPE-SRT-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1
+WinPE-SRT-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+WinPE-Scripting-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1
+WinPE-Scripting-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+WinPE-SecureStartup-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1
+WinPE-SecureStartup-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+WinPE-Speech-TTS-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1
+WinPE-Speech-TTS-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+WinPE-WDS-Tools-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1
+WinPE-WDS-Tools-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+WinPE-WMI-Package~31bf3856ad364e35~amd64~en-US~10.0.17763.1
+WinPE-WMI-Package~31bf3856ad364e35~amd64~~10.0.17763.1
+```
+
+
+
+
+
+
+
+
+
