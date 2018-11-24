@@ -68,11 +68,11 @@ Sig[6].Name=ThreadName
 Sig[6].Value=Pipeli..ution Thread
 ```
 
-A proper WinPE that is extracted from the Boot.wim does not crash and shows it using the DLL BPC47Langs.dll
+WinPE exported from the Boot.wim does not crash.  Process Monitor shows it using the DLL BCP47Langs.dll
 
 ![](../.gitbook/assets/2018-11-23_12-08-49.png)
 
-And these files are not included in the WinPE from the ADK, which explains Dll Not Found!
+But BCP47Langs.dll does not exist in the ADK WinPE.wim , which explains Dll Not Found crash.  This is evident in the Process Monitor results.
 
 ![](../.gitbook/assets/2018-11-23_12-08-55.png)
 
