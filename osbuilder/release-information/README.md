@@ -31,8 +31,6 @@ Use **`Update-OSMedia -SkipWinpeCU`** or **`New-OSBuild -SkipWinpeCU`** to bypas
 * **New-PEBuild**
   * Add Parameter CreateISO
   * Automatically Creates LiteTouchPE\_&lt;Arch&gt;.wim
-* **Update-OSMedia**
-  * Add Parameter CreateISO
   * Add Auto ExtraFiles Browse DLLs
     * ShellStyle.dll
     * ExplorerFrame.dll
@@ -42,6 +40,8 @@ Use **`Update-OSMedia -SkipWinpeCU`** or **`New-OSBuild -SkipWinpeCU`** to bypas
     * dmcmnutils.dll
     * mdmregistration.dll
     * [Build a WinPE with Wireless Support](http://www.scconfigmgr.com/2018/03/06/build-a-winpe-with-wireless-support/)
+* **Update-OSMedia**
+  * Add Parameter CreateISO
 
 **`-ByTaskName`** parameter allows the automation of [**`New-OSBuild`**](../osbuild/new-osbuild.md) and the **`-CreateISO`** parameter automatically creates a [**`New-MediaISO`**](../how-to/new-mediaiso.md)**\`\`**
 
