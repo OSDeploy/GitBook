@@ -1,6 +1,8 @@
-# WinPE 10 1809 WPF Dramarama
+---
+description: Here is the proper fix for getting WPF working in ADK's WinPE.wim
+---
 
-There is lots of Drama still going around with WPF not working in ADK's WinPE.wim, so I'll take a closer look.
+# WinPE 10 1809 WPF DLL Fix
 
 ## Workaround: Replace UIAutomationCore.dll
 
