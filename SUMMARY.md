@@ -165,3 +165,7 @@
 * [How To](osconfig/how-to/README.md)
   * [Theme Customization](osconfig/how-to/theme-customization.md)
 
+## WinPE
+
+* [Hybrid WinPE](winpe/hybrid-winpe.md)
+
