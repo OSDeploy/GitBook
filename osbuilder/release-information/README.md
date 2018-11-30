@@ -1,5 +1,11 @@
 # Release Information
 
+## 18.11.30.0 \(November 30, 2018\) Unreleased
+
+
+
+![](../../.gitbook/assets/2018-11-30_13-06-45.png)
+
 ## 18.11.17.0 \(November 17, 2018\)
 
 **\`\`**[**`Mount-WindowsImage`**](https://docs.microsoft.com/en-us/powershell/module/dism/mount-windowsimage?view=win10-ps) used in OSBuilder will not longer use the **`-Optimize`** parameter as this causes issues with Offline Servicing Windows 10 1809

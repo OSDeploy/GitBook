@@ -168,4 +168,5 @@
 ## WinPE
 
 * [Hybrid WinPE](winpe/hybrid-winpe.md)
+* [WinPE Boot Process](winpe/winpe-boot-process.md)
 
