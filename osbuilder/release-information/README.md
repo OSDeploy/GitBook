@@ -1,8 +1,23 @@
 # Release Information
 
-## 18.11.30.0 \(November 30, 2018\) Unreleased
+## 18.11.30.0 \(November 30, 2018\)
 
-
+* **Import-OSMedia**
+  * Scanning for OSMedia will display the Image Path and Index of the currently scanned WIM
+* **New-MediaISO**
+  * ISO Naming changed to accommodate 32 character limit for Label
+* **New-OSBuild**
+  * Modified sorting method for multiple Servicing Stacks to install in the proper order
+  * Resolved incorrect Write-Host output error with ADK Packages
+  * Resolved issues where ISO would not be created
+* **New-PEBuild**
+  * Naming change for root Output WIM when creating WinPE and WinRE
+  * Resolved issue where Auto ExtraFiles were added, even when not selected
+  * Modified output ISO
+* **Update-OSMedia**
+  * Removed SkipWinpeCU Parameter.  This was initially added as a result of the Mounting 'Optimize' issue and is no longer required
+  * Modified sorting method for multiple Servicing Stacks to install in the proper order
+  * Log Files are now displayed for easier troubleshooting
 
 ![](../../.gitbook/assets/2018-11-30_13-06-45.png)
 
