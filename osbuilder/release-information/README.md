@@ -17,9 +17,11 @@
 * **Update-OSMedia**
   * Removed SkipWinpeCU Parameter.  This was initially added as a result of the Mounting 'Optimize' issue and is no longer required
   * Modified sorting method for multiple Servicing Stacks to install in the proper order
-  * Log Files are now displayed for easier troubleshooting
+  * Log Files are now displayed for easier troubleshooting for some steps.  This will be slowly added to all OSBuilder functions
 
-![](../../.gitbook/assets/2018-11-30_13-06-45.png)
+![Multiple Servicing Stack Installs](../../.gitbook/assets/2018-11-30_13-06-45.png)
+
+![Log Files](../../.gitbook/assets/2018-11-30_13-49-16.png)
 
 ## 18.11.17.0 \(November 17, 2018\)
 
