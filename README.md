@@ -4,13 +4,31 @@ I started OSDeploy.com as a way for me to document several of the things that I 
 
 This poses some challenges in our processes.  We cannot deploy all computers using ConfigMgr, so we use a combination of CM, MDT, and Stand-Alone.  Additionally, Windows 10 Feature Updates throw another complication into things.
 
-I have found that solutions that are available and posted by other experts, do not work in all these situations, so this has caused me to develop custom solutions that work in all situations.  Every solution posted on OSDeploy is designed and implemented by me, and supported by my exceptional team.  I have asked [Doug McGee](https://twitter.com/DouglasM2c) and [Kevin Stevenson](https://twitter.com/KevinSt94670126) to start adding some of their content to OSDeploy.com in the near future . . . big things are coming!
-
 **David Segura**
-
-[https://twitter.com/SeguraOSD](https://twitter.com/SeguraOSD)
 
 [https://www.linkedin.com/in/davidsegura/](https://www.linkedin.com/in/davidsegura/)
 
 [https://www.facebook.com/segura](https://www.facebook.com/segura)
+
+## Speaking Events
+
+#### HASMUG \(Houston, Texas\) - October 17, 2018
+
+{% file src=".gitbook/assets/181017-hasmug.pptx" caption="HASMUG - October 17, 2018" %}
+
+#### CTSMUG \(Austin, Texas\) - October 5, 2018
+
+{% file src=".gitbook/assets/181005-ctsmug.pptx" caption="CTSMUG - October 5, 2018" %}
+
+#### DFWSMUG \(Irving, Texas\) - August 24, 2018
+
+{% file src=".gitbook/assets/180824-dfwsmug.pptx" caption="DFWSMUG - August 24, 2018" %}
+
+#### CTSMUG \(Austin, Texas\) - August 3, 2018
+
+{% file src=".gitbook/assets/180803-ctsmug.pptx" caption="CTSMUG - August 3, 2018" %}
+
+#### Experts Live US \(Houston Texas\) - February 8-9 2018
+
+
 

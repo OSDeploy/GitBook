@@ -1,5 +1,23 @@
 # Release Information
 
+## 18.12.x.x \(December 2018\) Unreleased
+
+* **OSBuilder Console Output**
+  * Log files displayed for easier **self**-troubleshooting
+  * Circus color scheme replaced for easier readability
+  * Robocopy output is logged only
+* **Import-OSMedia**
+  * **`EditionId`** now includes **`ServerRdsh`** \(Windows 10 Enterprise for Virtual Desktops\)
+  * Scanning Image Information now contains ImageName
+* **New-OSBuild**
+  * **`CustomCumulativeUpdate`** parameter removed.  This is replaced by **`New-OSBUpdate`**
+  * **`CustomServicingStack`** parameter removed.  This is replaced by **`New-OSBUpdate`**
+* **Update-OSMedia**
+  * **`CustomCumulativeUpdate`** parameter removed.  This is replaced by **`New-OSBUpdate`**
+  * **`CustomServicingStack`** parameter removed.  This is replaced by **`New-OSBUpdate`**
+
+![Updated Console Output](../../.gitbook/assets/2018-12-04_16-35-53.png)
+
 ## 18.11.30.0 \(November 30, 2018\)
 
 * **Import-OSMedia**
