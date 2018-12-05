@@ -1,11 +1,13 @@
 # Release Information
 
-## 18.12.x.x \(December 2018\) Unreleased
+## 18.12.5.x \(December 5, 2018\)
 
 * **OSBuilder Console Output**
   * Log files displayed for easier **self**-troubleshooting
   * Circus color scheme replaced for easier readability
   * Robocopy output is logged only
+* \*\*\*\*[**New-OSBUpdate**](../updates/new-osbupdate.md)\*\*\*\*
+  * New function to add new Updates to OSBuilder
 * **Import-OSMedia**
   * **`EditionId`** now includes **`ServerRdsh`** \(Windows 10 Enterprise for Virtual Desktops\)
   * Scanning Image Information now contains ImageName
@@ -17,6 +19,12 @@
   * **`CustomServicingStack`** parameter removed.  This is replaced by **`New-OSBUpdate`**
 
 ![Updated Console Output](../../.gitbook/assets/2018-12-04_16-35-53.png)
+
+{% page-ref page="../updates/update-catalogs.md" %}
+
+{% page-ref page="../updates/latest-lcu.md" %}
+
+{% page-ref page="../updates/new-osbupdate.md" %}
 
 ## 18.11.30.0 \(November 30, 2018\)
 

@@ -18,7 +18,7 @@ This file is copied to the Updates directory in Content
 
 And tells OSBuilder which Update Catalog XML files to download
 
-![](../../.gitbook/assets/2018-12-04_16-57-05.png)
+![](../../.gitbook/assets/2018-12-04_16-57-05%20%281%29.png)
 
 ## Catalog XML Files
 

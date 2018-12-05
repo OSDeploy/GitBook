@@ -22,7 +22,7 @@ According to [Windows 10 Update History](https://support.microsoft.com/en-us/hel
 
 The Latest Latest Cumulative Update that I need is posted in the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Search.aspx?q=2018-11%20Cumulative%201607%20x64)
 
-![](../../.gitbook/assets/2018-12-04_17-09-43b.png)
+![](../../.gitbook/assets/2018-12-04_17-09-43b%20%281%29.png)
 
 Clicking on the Download button will let me 'Copy link address' to my clipboard
 
