@@ -52,6 +52,7 @@
   * [Update Catalogs](osbuilder/updates/update-catalogs.md)
   * [Get-OSBuilderUpdates](osbuilder/updates/get-osbuilderupdates.md)
   * [Latest Latest Cumulative Update \(Latest LCU\)](osbuilder/updates/latest-lcu.md)
+  * [New-OSBUpdate](osbuilder/updates/new-osbupdate.md)
 * [OSMedia](osbuilder/osmedia/README.md)
   * [Import-OSMedia](osbuilder/osmedia/import-osmedia/README.md)
     * [Batch Import](osbuilder/osmedia/import-osmedia/batch.md)
