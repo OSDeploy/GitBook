@@ -12,25 +12,7 @@ According to Microsoft Docs, when you [**`Mount-WindowsImage`**](https://docs.mi
 
 I can test this in PowerShell using the following script to see how much longer it takes to Mount a Windows Image without using the Optimize parameter
 
-```text
-#Windows 10 x64 1809
-Write-Host "Windows 10 x64 1809" -ForegroundColor Cyan
-Measure-Command {
-    Mount-WindowsImage -Path "C:\DEV\Optimize\Mount" `
-    -ImagePath "C:\DEV\Optimize\1809.wim" `
-    -Index 1 | Out-Null
-}
-Dismount-WindowsImage -Path "C:\DEV\Optimize\Mount" -Discard | Out-Null
-
-#Windows 10 x64 1809 Optimize
-Write-Host "Windows 10 x64 1809 -Optimize" -ForegroundColor Cyan
-Measure-Command {
-    Mount-WindowsImage -Path "C:\DEV\Optimize\Mount" `
-    -ImagePath "C:\DEV\Optimize\1809.wim" `
-    -Index 1 -Optimize | Out-Null
-}
-Dismount-WindowsImage -Path "C:\DEV\Optimize\Mount" -Discard | Out-Null
-```
+{% embed url="https://gist.github.com/OSDeploy/56daf11ee1ffb95a43c51380346ba24d" %}
 
 ## The Results
 

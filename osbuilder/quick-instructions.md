@@ -10,9 +10,7 @@ If you don't feel like reading through all the documentation, here are the quick
 
 > ### Touch Time:  1 Minute
 
-```text
-Install-Module -Name OSBuilder -Scope CurrentUser
-```
+{% embed url="https://gist.github.com/OSDeploy/c0c67cf8be9c7f328e1021915953993d" %}
 
 {% hint style="info" %}
 **How To:**  [**Installation and Requirements**](installation.md)\*\*\*\*
