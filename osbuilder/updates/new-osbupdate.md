@@ -51,4 +51,7 @@ and[**`Update-OSMedia`**](../osmedia/update-osmedia/) will recognize the new Cum
 * Don't forget to remove the Custom XML files that are no longer needed
 * OSBuilder will only install the latest Adobe, Cumulative, and Setup Updates
 * There can be multiple Component and Servicing Updates, and they will be installed by OSBuilder in chronological order
+* Multiple Updates can be added easily to OSBuilder :\)
+
+![](../../.gitbook/assets/2018-12-04_23-25-43.png)
 
