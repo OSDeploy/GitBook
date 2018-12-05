@@ -38,7 +38,11 @@ Which will create a Custom Catalog XML with the Update information
 
 ![](../../.gitbook/assets/2018-12-04_22-59-43.png)
 
-Now [**`Update-OSMedia`**](../osmedia/update-osmedia/) will recognize the new Cumulative Update
+The new Update will be available as a Download using [**`Get-OSBuilderUpdates`**](get-osbuilderupdates.md)**\`\`**
+
+![](../../.gitbook/assets/2018-12-04_23-17-43.png)
+
+and[**`Update-OSMedia`**](../osmedia/update-osmedia/) will recognize the new Cumulative Update as a requirement
 
 ![](../../.gitbook/assets/2018-12-04_23-03-52.png)
 
