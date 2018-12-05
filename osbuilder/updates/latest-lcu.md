@@ -8,7 +8,7 @@ OSBuilder uses Microsoft Updates that are published in WSUS, but these may not b
 
 ## Latest Latest Cumulative Update
 
-This was originally a typo that Sudhagar made on Twitter, but there may be more to the story.
+This was originally a typo that [**Sudhagar**](https://twitter.com/sudhagart) ****made on Twitter, but there may be more to the story.
 
 {% embed url="https://twitter.com/sudhagart/status/1066124947523653632" %}
 
