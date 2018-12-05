@@ -6,10 +6,7 @@ description: Updated 18.10.23
 
 Let's say I want to import all my Windows 10 Operating Systems into OSBuilder from ISO's. This can be easily done with two lines of PowerShell. Replace C:\ISO with the path to your Windows 10 ISO's. It will take a minute or so for OSBuilder to check all the install.wim's
 
-```text
-Get-ChildItem -Path C:\ISO *.iso -Recurse | ForEach-Object {Mount-DiskImage -ImagePath $_.FullName}
-Import-OSMedia
-```
+{% embed url="https://gist.github.com/OSDeploy/cceea13c776f8e5127da2c49e4dc6cdb" %}
 
 ![](../../../.gitbook/assets/2018-07-13_22-26-03.png)
 
