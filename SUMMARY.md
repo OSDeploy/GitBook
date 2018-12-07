@@ -31,6 +31,7 @@
 ## OSBuilder
 
 * [OSBuilder Overview](osbuilder/overview.md)
+* [Support](osbuilder/support.md)
 * [Release Information](osbuilder/release-information/README.md)
   * [2018-10](osbuilder/release-information/2018-10.md)
   * [2018-09](osbuilder/release-information/2018-09.md)
