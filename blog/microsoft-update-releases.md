@@ -1,6 +1,12 @@
-# WSUS vs Microsoft Update Catalog
+# Microsoft Update Releases
 
 I frequently get pinged on when a new Cumulative Update gets published on Microsoft Update Catalog, and why it is not in OSBuilder.  I hope this will clear a few things up.
+
+## LLCU
+
+I posted previously on this last week, and maybe Microsoft reads my stuff and decided to clarify things ;\)
+
+{% embed url="https://www.osdeploy.com/osbuilder/updates/latest-lcu" %}
 
 ## Microsoft's Take
 

@@ -20,7 +20,7 @@
   * [User Groups](links/community.md)
   * [Sponsors](links/sponsors.md)
 * [Blog](blog/README.md)
-  * [WSUS vs Microsoft Update Catalog](blog/wsus-vs-microsoft-update-catalog.md)
+  * [Microsoft Update Releases](blog/microsoft-update-releases.md)
   * [Create WinPE.wim from Boot.wim or WinRE.wim](blog/create-winpe.wim-from-boot.wim-or-winre.wim.md)
   * [WinPE 10 1809 WPF DLL Fix](blog/winpe-10-1809-wpf-dramarama.md)
   * [Mount-WindowsImage -Optimize](blog/mount-windowsimage-optimize.md)
