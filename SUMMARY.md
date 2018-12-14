@@ -27,6 +27,7 @@
   * [Windows 10 1809 Appx Issues](blog/windows-10-1809-appx-issues.md)
   * [Windows 10 from ESD](blog/windows-10-from-esd.md)
 * [Development](development/README.md)
+  * [OSBuilder Windows 7](development/osbuilder-windows-7.md)
   * [PowerShell SnapPE](development/snappe.md)
 
 ## OSBuilder
