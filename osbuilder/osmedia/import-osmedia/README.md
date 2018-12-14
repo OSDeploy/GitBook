@@ -1,8 +1,42 @@
 ---
-description: Updated 18.10.25
+description: Screenshots show unreleased version
 ---
 
 # Import-OSMedia
+
+## Function Parameters
+
+{% tabs %}
+{% tab title="Basic" %}
+\[switch\] NewMediaISO
+
+\[switch\] ShowOSInfo
+
+\[switch\] UpdateOSMedia
+{% endtab %}
+
+{% tab title="Advanced" %}
+\[string\] EditionId
+
+\[int\] ImageIndex
+
+\[string\] ImageName
+
+\[switch\] NewMediaISO
+
+\[switch\] ShowOSInfo
+
+\[switch\] UpdateOSMedia
+{% endtab %}
+{% endtabs %}
+
+
+
+
+
+
+
+
 
 ![](../../../.gitbook/assets/2018-10-25_2-16-45.png)
 
