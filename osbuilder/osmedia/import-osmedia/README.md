@@ -4,41 +4,50 @@ description: Screenshots show unreleased version
 
 # Import-OSMedia
 
-## Function Parameters
+## Parameters
 
 {% tabs %}
 {% tab title="Basic" %}
-\[switch\] NewMediaISO
-
-\[switch\] ShowOSInfo
-
-\[switch\] UpdateOSMedia
+* \[switch\] NewMediaISO
+* \[switch\] ShowOSInfo
+* \[switch\] UpdateOSMedia
 {% endtab %}
 
 {% tab title="Advanced" %}
-\[string\] EditionId
-
-\[int\] ImageIndex
-
-\[string\] ImageName
-
-\[switch\] NewMediaISO
-
-\[switch\] ShowOSInfo
-
-\[switch\] UpdateOSMedia
+* \[string\] EditionId
+* \[int\] ImageIndex
+* \[string\] ImageName
+* \[switch\] NewMediaISO
+* \[switch\] ShowOSInfo
+* \[switch\] SkipGridView
+* \[switch\] UpdateOSMedia
 {% endtab %}
 {% endtabs %}
 
+```text
+-NewMediaISO [<SwitchParameter>]
+    Executes New-MediaISO -OSMediaPath $OSMediaPath to creates an ISO after Import
 
+-ShowOSInfo [<SwitchParameter>]
+    Executes Show-OSInfo -OSMediaPath $OSMediaPath to display the OS Information after Import
 
+-UpdateOSMedia [<SwitchParameter>]
+    Executes Update-OSMedia -OSMediaName $OSMediaName -DownloadUpdates -Execute after Import
 
+-EditionId <String>
+    Operating System Edition to import
 
+-ImageIndex <Int32>
+    Operating System Index to Import
 
+-ImageName <String>
+    Operating System Image Name to Import
 
+-SkipGridView [<SwitchParameter>]
+    Used to bypass the ISE GridView Operating System Selection
+```
 
-
-![](../../../.gitbook/assets/2018-10-25_2-16-45.png)
+## Usage
 
 Importing an Operating System into OSBuilder is one of the first steps that should be taken.  In this example, I have mounted several ISO's that were downloaded from Microsoft MVLS
 
