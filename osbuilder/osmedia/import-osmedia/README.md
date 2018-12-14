@@ -4,19 +4,19 @@
 
 {% tabs %}
 {% tab title="Basic" %}
-* \[switch\] NewMediaISO
-* \[switch\] ShowOSInfo
-* \[switch\] UpdateOSMedia
+* **\[switch\] NewMediaISO**
+* **\[switch\] ShowOSInfo**
+* **\[switch\] UpdateOSMedia**
 {% endtab %}
 
 {% tab title="Advanced" %}
-* \[string\] EditionId
-* \[int\] ImageIndex
-* \[string\] ImageName
-* \[switch\] NewMediaISO
-* \[switch\] ShowOSInfo
-* \[switch\] SkipGridView
-* \[switch\] UpdateOSMedia
+* **\[string\] EditionId**
+* **\[int\] ImageIndex**
+* **\[string\] ImageName**
+* **\[switch\] NewMediaISO**
+* **\[switch\] ShowOSInfo**
+* **\[switch\] SkipGridView**
+* **\[switch\] UpdateOSMedia**
 {% endtab %}
 {% endtabs %}
 
@@ -47,10 +47,10 @@
 
 Importing an Operating System into OSBuilder is one of the first steps that should be taken.  In this example.  Multiple Operating System Versions and Editions can be imported at the same time.  In this example I have mounted MVLS ISO's for the following:
 
-* Windows 7 SP1 x64
-* Windows 10 x64
-* Windows Server 2016
-* Windows Server 2019
+* **Windows 7 SP1 x64**
+* **Windows 10 x64**
+* **Windows Server 2016**
+* **Windows Server 2019**
 
 ![](../../../.gitbook/assets/2018-12-14_13-16-00.png)
 
