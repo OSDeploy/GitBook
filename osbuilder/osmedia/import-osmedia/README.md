@@ -47,25 +47,60 @@ description: Screenshots show unreleased version
     Used to bypass the ISE GridView Operating System Selection
 ```
 
-## Usage
+## Setup
 
-Importing an Operating System into OSBuilder is one of the first steps that should be taken.  In this example, I have mounted several ISO's that were downloaded from Microsoft MVLS
+Importing an Operating System into OSBuilder is one of the first steps that should be taken.  In this example.  Multiple Operating System Versions and Editions can be imported at the same time.  In this example I have mounted MVLS ISO's for the following:
 
-![](../../../.gitbook/assets/2018-10-25_2-03-00.png)
+* Windows 7 SP1 x64
+* Windows 10 x64
+* Windows Server 2016
+* Windows Server 2019
 
-**`Import-OSMedia`** can be run without any parameters.  Once executed it will will search all attached Drives for install.wim or Install.esd files.  This process should take about a minute, be patient and let the scan finish.
+![](../../../.gitbook/assets/2018-12-14_13-16-00.png)
 
-Once the scanning is complete, a Grid will be displayed with all the available Operating Systems. Multi-select the ones you want to import and press OK.
+## Import-OSMedia
 
-![](../../../.gitbook/assets/2018-10-25_2-00-14.png)
+**`Import-OSMedia`** can be run without any parameters in PowerShell ISE \(for GridView functionality\).  Once executed, it will will search all attached Drives for install.wim or Install.esd files.  This process should take about a minute, so be patient and let the scan finish.
+
+Once the scanning is complete, a GridView will display with all the available Operating Systems and Editions. Multi-select the ones you want to import and press OK.
+
+![](../../../.gitbook/assets/2018-12-14_13-20-26.png)
+
+#### Mount Phase
+
+After selection, the Install.wim or Install.esd will be mounted so OSBuilder can gater additional information.  Two important pieces of information will be displayed
+
+* **OSMediaName** - This is the Name of the Operating System as defined by OSBuilder.  This is used in the Directory Name of the OSMedia.  It contains the following information in an abbreviated format
+  * **&lt;Operating System&gt; &lt;Edition&gt; &lt;Architecture&gt; &lt;Version&gt; &lt;UBR&gt;**
+* **OSMediaPath** - This is the FullName or Path of the OSMedia
+
+It is important to understand this naming structure as these can be used as Parameters in other OSBuilder functions
+
+![Mount Phase](../../../.gitbook/assets/2018-12-14_14-13-40.png)
+
+#### Import Phase
+
+When the Mount Phase is complete, the Operating System can be copied into **OSBuilder\OSMedia** in a directory name matching the **OSMediaName**
+
+![](../../../.gitbook/assets/2018-12-14_14-13-40b.png)
+
+## -ShowOSInfo
+
+**Usage:  `Import-OSMedia -ShowOSInfo`**
+
+Displays the full OSMedia Information by executing the OSBuilder [**`Show-OSInfo`**](../../how-to/show-osinfo.md) function
+
+{% page-ref page="../../how-to/show-osinfo.md" %}
 
 ## -UpdateOSMedia
 
-Optionally, you can add the **`-UpdateOSMedia`** parameter to automatically patch the Imported Operating System using [**`Update-OSMedia`**](../update-osmedia/).  
+**Usage:  `Import-OSMedia -UpdateOSMedia`**
 
-**Example:**  `Import-OSMedia -UpdateOSMedia`
+Automatically applies patches to the imported Operating System using the OSBuilder [**`Update-OSMedia`**](../update-osmedia/) function
 
 This option will automatically download any required Updates.  You will need an Internet connection and keep in mind the Cumulative Updates are quite large, so don't do this with a Metered Connection.
+
+{% page-ref page="../update-osmedia/" %}
 
 ## -EditionId
 
