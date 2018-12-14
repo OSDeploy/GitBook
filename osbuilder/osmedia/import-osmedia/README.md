@@ -20,6 +20,36 @@
 {% endtab %}
 {% endtabs %}
 
+## Usage
+
+{% tabs %}
+{% tab title="Basic" %}
+* -**NewMediaISO**
+  * Executes New-MediaISO -OSMediaPath $OSMediaPath to creates an ISO after Import
+* -**ShowOSInfo**
+  * Executes Show-OSInfo -OSMediaPath $OSMediaPath to display the OS Information after Import
+* -**UpdateOSMedia**
+  * Executes Update-OSMedia -OSMediaName $OSMediaName -DownloadUpdates -Execute after Import
+{% endtab %}
+
+{% tab title="Advanced" %}
+* -**NewMediaISO**
+  * Executes New-MediaISO -OSMediaPath $OSMediaPath to creates an ISO after Import
+* -**ShowOSInfo**
+  * Executes Show-OSInfo -OSMediaPath $OSMediaPath to display the OS Information after Import
+* -**UpdateOSMedia**
+  * Executes Update-OSMedia -OSMediaName $OSMediaName -DownloadUpdates -Execute after Import
+* -**EditionId**
+  * Operating System Edition to import
+* -**ImageIndex**
+  * Operating System Index to Import
+* -**ImageName**
+  * Operating System Image Name to Import
+* -**SkipGridView**
+  * Used to bypass the ISE GridView Operating System Selection
+{% endtab %}
+{% endtabs %}
+
 ```text
 -NewMediaISO [<SwitchParameter>]
     Executes New-MediaISO -OSMediaPath $OSMediaPath to creates an ISO after Import
