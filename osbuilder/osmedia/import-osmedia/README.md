@@ -50,29 +50,6 @@
 {% endtab %}
 {% endtabs %}
 
-```text
--NewMediaISO [<SwitchParameter>]
-    Executes New-MediaISO -OSMediaPath $OSMediaPath to creates an ISO after Import
-
--ShowOSInfo [<SwitchParameter>]
-    Executes Show-OSInfo -OSMediaPath $OSMediaPath to display the OS Information after Import
-
--UpdateOSMedia [<SwitchParameter>]
-    Executes Update-OSMedia -OSMediaName $OSMediaName -DownloadUpdates -Execute after Import
-
--EditionId <String>
-    Operating System Edition to import
-
--ImageIndex <Int32>
-    Operating System Index to Import
-
--ImageName <String>
-    Operating System Image Name to Import
-
--SkipGridView [<SwitchParameter>]
-    Used to bypass the ISE GridView Operating System Selection
-```
-
 ## Preparation
 
 Importing an Operating System into OSBuilder is one of the first steps that should be taken.  In this example.  Multiple Operating System Versions and Editions can be imported at the same time.  In this example I have mounted MVLS ISO's for the following:
