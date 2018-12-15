@@ -65,13 +65,13 @@ Importing an Operating System into OSBuilder is one of the first steps that shou
 
 **`Import-OSMedia`** can be run without any parameters in PowerShell ISE \(for GridView functionality\).  Once executed, it will will search all attached Drives for install.wim or Install.esd files.  This process should take about a minute, so be patient and let the scan finish.
 
-Once the scanning is complete, a GridView will display with all the available Operating Systems and Editions. Multi-select the ones you want to import and press OK.
-
-![](../../../.gitbook/assets/2018-12-14_13-20-26.png)
+Once the scanning is complete, a GridView will display with all the available Windows Images. Multi-select the ones you want to import and press OK.
 
 #### Mount Phase
 
-After selection, the Install.wim or Install.esd will be mounted so **OSBuilder** can gather additional information.  Two important pieces of information will be displayed
+![](../../../.gitbook/assets/2018-12-15_1-47-42.png)
+
+After the Windows Image selection, the Install.wim or Install.esd will be mounted so **OSBuilder** can gather additional information.  Two important pieces of information will be displayed
 
 * **OSMediaName** - This is the **Name** of the Operating System as defined by **OSBuilder**.  This is used in the Directory Name of the **OSMedia**.  It contains the following information in an abbreviated format
   * **&lt;Operating System&gt; &lt;Edition&gt; &lt;Architecture&gt; &lt;Version&gt; &lt;UBR&gt;**
@@ -79,15 +79,11 @@ After selection, the Install.wim or Install.esd will be mounted so **OSBuilder**
 
 It is important to understand this naming structure as these can be used as Parameters in other **OSBuilder** functions
 
-![Mount Phase](../../../.gitbook/assets/2018-12-14_14-13-40.png)
-
 #### Import Phase
 
 When the Mount Phase is complete, the Operating System can be copied into **OSBuilder\OSMedia** in a directory name matching the **OSMediaName**
 
 The process of importing an Operating System will take about 1 minute of actual work, with about 6 - 8 minutes of processing
-
-![Import Phase](../../../.gitbook/assets/2018-12-14_14-13-40b.png)
 
 ## -NewMediaISO
 
@@ -96,6 +92,8 @@ The process of importing an Operating System will take about 1 minute of actual 
 {% endhint %}
 
 **Usage:  `Import-OSMedia -NewMediaISO`**
+
+![](../../../.gitbook/assets/2018-12-15_2-59-24.png)
 
 Creates an ISO of the imported **OSMedia** in the **&lt;OSMediaPath&gt;\ISO** directory using the **OSBuilder** [**`New-MediaISO`**](../../how-to/new-mediaiso.md) function.  The following command line is passed
 
