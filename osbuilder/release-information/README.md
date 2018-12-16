@@ -92,7 +92,7 @@ Use **`Update-OSMedia -SkipWinpeCU`** or **`New-OSBuild -SkipWinpeCU`** to bypas
 * **Update-OSMedia**
   * Add Parameter CreateISO
 
-**`-ByTaskName`** parameter allows the automation of [**`New-OSBuild`**](../osbuild/new-osbuild.md) and the **`-CreateISO`** parameter automatically creates a [**`New-MediaISO`**](../how-to/new-mediaiso.md)**\`\`**
+**`-ByTaskName`** parameter allows the automation of [**`New-OSBuild`**](../osbuild/new-osbuild.md) and the **`-CreateISO`** parameter automatically creates a [**`New-MediaISO`**](../docs/how-to/new-mediaiso.md)**\`\`**
 
 ![](../../.gitbook/assets/2018-11-07_0-54-20.png)
 

@@ -21,7 +21,7 @@ Install-Module -Name OSBuilder -Scope CurrentUser -Force
 
 OSBuilder needs to be executed in PowerShell ISE \(as Elevated Administrator\) due to GridView constraints.
 
-![Version 18.10.22.0](../.gitbook/assets/2018-10-22_22-58-12.png)
+![Version 18.10.22.0](../../.gitbook/assets/2018-10-22_22-58-12.png)
 
 ## Admin Rights
 
@@ -51,7 +51,7 @@ OSBuilder works best on a stand alone Workgroup computer without an AntiVirus pe
 
 If you used my previous attempt at this called OSMedia, you will need to get rid of it first.
 
-![](../.gitbook/assets/2018-07-10_11-49-36.png)
+![](../../.gitbook/assets/2018-07-10_11-49-36.png)
 
 
 

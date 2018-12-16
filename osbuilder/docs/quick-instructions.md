@@ -27,7 +27,7 @@ Import-OSMedia
 ```
 
 {% hint style="info" %}
-**How To:**  [**`Import-OSMedia`**](osmedia/import-osmedia/)**\`\`**
+**How To:**  [**`Import-OSMedia`**](../osmedia/import-osmedia/)**\`\`**
 {% endhint %}
 
 ## 3. Update an Imported Operating System
@@ -43,7 +43,7 @@ Update-OSMedia -DownloadUpdates -Execute
 {% hint style="info" %}
 **Select the OSMedia that was Imported in \#2**
 
-**How To:**  [**`Update-OSMedia`**](osmedia/update-osmedia/)**\`\`**
+**How To:**  [**`Update-OSMedia`**](../osmedia/update-osmedia/)**\`\`**
 {% endhint %}
 
 ## 4. Create a New OSBuild Task
@@ -57,7 +57,7 @@ New-OSBuildTask -TaskName "Win10 x64 Ent 1809" -EnableNetFX3
 {% hint style="info" %}
 **Select the OSMedia that was Updated in \#3**
 
-**How To:**  [**`New-OSBuildTask`**](osbuild/new-osbuildtask/)**\`\`**
+**How To:**  [**`New-OSBuildTask`**](../osbuild/new-osbuildtask/)**\`\`**
 {% endhint %}
 
 ## 5. Create a New OSBuild
@@ -73,7 +73,7 @@ New-OSBuild -DownloadUpdates -Execute
 {% hint style="info" %}
 **Select the OSBuild Task that was created in \#4**
 
-**How To:** [**`New-OSBuild`**](osbuild/new-osbuild.md)**\`\`**
+**How To:** [**`New-OSBuild`**](../osbuild/new-osbuild.md)**\`\`**
 {% endhint %}
 
 ## 6. Create a Media ISO
