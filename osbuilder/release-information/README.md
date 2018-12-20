@@ -1,5 +1,10 @@
 # Release Information
 
+## 18.12.19.0 / 18.12.20.0 \(December 19-20, 2018\)
+
+* Sessions.xml Export \(for real in the second release\)
+* BCP47\*.dll Export
+
 ## 18.12.5.x \(December 5, 2018\)
 
 * **OSBuilder Console Output**

@@ -4,7 +4,7 @@ I'll update this page with information about my progress in adding Windows 7 sup
 
 ## Win7 Ent x64 7601.17514 \(2.63GB\)
 
-Import-OSMedia handles the import of Windows 7 Enterprise x64 with SP1 quite well.
+An alternate Import-OSMedia handles the import of Windows 7 Enterprise x64 with SP1 quite well, but 172 Updates?????
 
 ![](../.gitbook/assets/2018-12-13_20-41-01.png)
 
@@ -24,13 +24,11 @@ After adding the updates I have an updated Build and the number of updates I nee
 
 ![](../.gitbook/assets/2018-12-13_21-05-51.png)
 
-## Internet Explorer 11 Prereqs
+## December 20, 2018 - Win7 Ent x64 7601.23403 + IE11
 
-These must be added
+More work on getting more Updates installed, and yes I got Internet Explorer 11 sorted out
 
-{% embed url="https://support.microsoft.com/en-us/help/2847882/prerequisite-updates-for-internet-explorer-11" %}
-
-
+![](../.gitbook/assets/2018-12-20_13-03-48.png)
 
 
 
