@@ -1,10 +1,10 @@
 # OSBuilder Windows 7
 
-I'll update this page with information about my progress in adding Windows 7 support to OSBuilder.  No guarantee I will finish.
+I have not decided if I will implement and support Windows 7 with OSBuilder, but here is the results.
 
 ## Win7 Ent x64 7601.17514 \(2.63GB\)
 
-An alternate Import-OSMedia handles the import of Windows 7 Enterprise x64 with SP1 quite well, but 172 Updates?????
+A few changes to **`Import-OSMedia`** allows me to import Windows 7 x64.  172 Important Updates are available with several additional Optional Updates
 
 ![](../.gitbook/assets/2018-12-13_20-41-01.png)
 
@@ -24,11 +24,25 @@ After adding the updates I have an updated Build and the number of updates I nee
 
 ![](../.gitbook/assets/2018-12-13_21-05-51.png)
 
-## December 20, 2018 - Win7 Ent x64 7601.23403 + IE11
+## Custom Updates
 
-More work on getting more Updates installed, and yes I got Internet Explorer 11 sorted out
+Here are the updates that are added to Windows 7 with **`Update-OSMedia`**
 
-![](../.gitbook/assets/2018-12-20_13-03-48.png)
+![](../.gitbook/assets/2018-12-21_0-35-36.png)
 
+## Win7 Ent x64 7601.24312 Final
 
+Once complete, 4 Updates remain in Windows Update
+
+![](../.gitbook/assets/2018-12-21_0-12-38.png)
+
+Service Pack 1 is a simple check to make sure it is installed, the other updates are EXE based and can't be updated with Offline Servicing.
+
+![](../.gitbook/assets/2018-12-21_0-12-48.png)
+
+![](../.gitbook/assets/2018-12-21_0-12-55.png)
+
+## Conclusion
+
+With some minor changes, OSBuilder can be used to Offline Service Windows 7, and yes, this was a pain in the \*\*\* to solve!
 
