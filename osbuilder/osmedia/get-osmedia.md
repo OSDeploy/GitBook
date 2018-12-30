@@ -18,7 +18,7 @@ This will determine if the Updates are the Latest available.  Cumulative Update 
 
 Even more detail can be viewed when using the -Verbose parameter.  This will display information about the Updates that are validated.  This process can take up to a minute for multiple OSMedia
 
-![](../../.gitbook/assets/2018-12-30_2-54-48v.png)
+![](../../.gitbook/assets/2018-12-30_3-43-15.png)
 
 ## Get-OSMedia -FullDetails \| Out-GridView
 
