@@ -50,7 +50,7 @@ You can also pipe OSMedia to some other OSBuilder functions like[**`Show-OSInfo`
 
 **`Get-OSMedia`** will be used in additional OSBuilder functions.  For example, [**`Update-OSMedia`**](update-osmedia/) used a simple selection based on Directories contained in OSMedia
 
-![](../../.gitbook/assets/2018-10-23_0-19-00.png)
+![](../../.gitbook/assets/2018-09-12_11-19-45.png)
 
 **`Get-OSMedia`** will allow more detailed information in the selection of OSMedia to Update
 
