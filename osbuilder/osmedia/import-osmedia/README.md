@@ -67,9 +67,9 @@ Importing an Operating System into OSBuilder is one of the first steps that shou
 
 Once the scanning is complete, a GridView will display with all the available Windows Images. Multi-select the ones you want to import and press OK.
 
-#### Mount Phase
-
 ![](../../../.gitbook/assets/2018-12-15_1-47-42.png)
+
+#### Mount Phase
 
 After the Windows Image selection, the Install.wim or Install.esd will be mounted so **OSBuilder** can gather additional information.  Two important pieces of information will be displayed
 
@@ -77,7 +77,7 @@ After the Windows Image selection, the Install.wim or Install.esd will be mounte
   * **&lt;Operating System&gt; &lt;Edition&gt; &lt;Architecture&gt; &lt;Version&gt; &lt;UBR&gt;**
 * **OSMediaPath** - This is the **FullName** or **Path** of the **OSMedia**
 
-It is important to understand this naming structure as these can be used as Parameters in other **OSBuilder** functions
+![](../../../.gitbook/assets/2018-12-30_2-39-10.png)
 
 #### Import Phase
 
