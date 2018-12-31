@@ -59,7 +59,7 @@ Importing an Operating System into OSBuilder is one of the first steps that shou
 * **Windows Server 2016**
 * **Windows Server 2019**
 
-![](../../../.gitbook/assets/2018-12-14_13-16-00.png)
+![](../../../../../.gitbook/assets/2018-12-14_13-16-00.png)
 
 ## Import-OSMedia
 
@@ -67,7 +67,7 @@ Importing an Operating System into OSBuilder is one of the first steps that shou
 
 Once the scanning is complete, a GridView will display with all the available Windows Images. Multi-select the ones you want to import and press OK.
 
-![](../../../.gitbook/assets/2018-12-15_1-47-42.png)
+![](../../../../../.gitbook/assets/2018-12-15_1-47-42.png)
 
 #### Mount Phase
 
@@ -77,7 +77,7 @@ After the Windows Image selection, the Install.wim or Install.esd will be mounte
   * **&lt;Operating System&gt; &lt;Edition&gt; &lt;Architecture&gt; &lt;Version&gt; &lt;UBR&gt;**
 * **OSMediaPath** - This is the **FullName** or **Path** of the **OSMedia**
 
-![](../../../.gitbook/assets/2018-12-30_2-39-10.png)
+![](../../../../../.gitbook/assets/2018-12-30_2-39-10.png)
 
 #### Import Phase
 
@@ -93,27 +93,27 @@ The process of importing an Operating System will take about 1 minute of actual 
 
 **Usage:  `Import-OSMedia -NewMediaISO`**
 
-![](../../../.gitbook/assets/2018-12-15_2-59-24.png)
+![](../../../../../.gitbook/assets/2018-12-15_2-59-24.png)
 
-Creates an ISO of the imported **OSMedia** in the **&lt;OSMediaPath&gt;\ISO** directory using the **OSBuilder** [**`New-MediaISO`**](../../docs/functions/osbuilder/new-mediaiso.md) function.  The following command line is passed
+Creates an ISO of the imported **OSMedia** in the **&lt;OSMediaPath&gt;\ISO** directory using the **OSBuilder** [**`New-MediaISO`**](../../osbuilder/new-mediaiso.md) function.  The following command line is passed
 
 ```text
 New-MediaISO -OSMediaPath "$OSMediaPath
 ```
 
-{% page-ref page="../../docs/functions/osbuilder/new-mediaiso.md" %}
+{% page-ref page="../../osbuilder/new-mediaiso.md" %}
 
 ## -ShowOSInfo
 
 **Usage:  `Import-OSMedia -ShowOSInfo`**
 
-Displays the full **OSMedia** Information by executing the **OSBuilder** [**`Show-OSInfo`**](../../docs/functions/osbuilder/show-osinfo.md) function.  The following command line is passed
+Displays the full **OSMedia** Information by executing the **OSBuilder** [**`Show-OSInfo`**](../../osbuilder/show-osinfo.md) function.  The following command line is passed
 
 ```text
 Show-OSInfo -OSMediaPath $OSMediaPath
 ```
 
-{% page-ref page="../../docs/functions/osbuilder/show-osinfo.md" %}
+{% page-ref page="../../osbuilder/show-osinfo.md" %}
 
 ## -UpdateOSMedia
 

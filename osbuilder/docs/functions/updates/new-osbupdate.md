@@ -8,7 +8,7 @@ OSBuilder uses the Latest Cumulative Update from WSUS, as I have detailed in the
 
 {% page-ref page="latest-lcu.md" %}
 
-but this may not be the Latest Latest Cumulative Update.  In this case I am trying to update Windows 10 1607 with a UBR of 14393.2608.  A quick check using [**`Update-OSMedia`**](../../../osmedia/update-osmedia/) without the **`Execute`** parameter identifies the Cumulative Update as KB4467691
+but this may not be the Latest Latest Cumulative Update.  In this case I am trying to update Windows 10 1607 with a UBR of 14393.2608.  A quick check using [**`Update-OSMedia`**](../osmedia/update-osmedia/) without the **`Execute`** parameter identifies the Cumulative Update as KB4467691
 
 ![](../../../../.gitbook/assets/2018-12-04_22-34-39.png)
 
@@ -42,7 +42,7 @@ The new Update will be available as a Download using [**`Get-OSBuilderUpdates`**
 
 ![](../../../../.gitbook/assets/2018-12-04_23-17-43.png)
 
-and[**`Update-OSMedia`**](../../../osmedia/update-osmedia/) will recognize the new Cumulative Update as a requirement
+and[**`Update-OSMedia`**](../osmedia/update-osmedia/) will recognize the new Cumulative Update as a requirement
 
 ![](../../../../.gitbook/assets/2018-12-04_23-03-52.png)
 

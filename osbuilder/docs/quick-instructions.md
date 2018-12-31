@@ -27,7 +27,7 @@ Import-OSMedia
 ```
 
 {% hint style="info" %}
-**How To:**  [**`Import-OSMedia`**](../osmedia/import-osmedia/)**\`\`**
+**How To:**  [**`Import-OSMedia`**](functions/osmedia/import-osmedia/)**\`\`**
 {% endhint %}
 
 ## 3. Update an Imported Operating System
@@ -43,7 +43,7 @@ Update-OSMedia -DownloadUpdates -Execute
 {% hint style="info" %}
 **Select the OSMedia that was Imported in \#2**
 
-**How To:**  [**`Update-OSMedia`**](../osmedia/update-osmedia/)**\`\`**
+**How To:**  [**`Update-OSMedia`**](functions/osmedia/update-osmedia/)**\`\`**
 {% endhint %}
 
 ## 4. Create a New OSBuild Task

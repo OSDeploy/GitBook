@@ -4,7 +4,7 @@ description: Updated 2018.10.30
 
 # OSMedia Failed UBR Change
 
-Occasionally performing an [**`Update-OSMedia`**](../../osmedia/update-osmedia/) will generate a **WARNING** message that the Update Build Revision did not change.
+Occasionally performing an [**`Update-OSMedia`**](../functions/osmedia/update-osmedia/) will generate a **WARNING** message that the Update Build Revision did not change.
 
 ![](../../../.gitbook/assets/2018-10-30_14-43-09.png)
 

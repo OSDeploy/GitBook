@@ -4,7 +4,7 @@ description: Updated 2018.10.30
 
 # OSMedia Archive
 
-When you perform a successful [**`Update-OSMedia`**](../../osmedia/update-osmedia/), the OSMedia directory will contain multiple directories with different UBRs \(the higher the number, the newer the Patch level\)
+When you perform a successful [**`Update-OSMedia`**](../functions/osmedia/update-osmedia/), the OSMedia directory will contain multiple directories with different UBRs \(the higher the number, the newer the Patch level\)
 
 ![](../../../.gitbook/assets/2018-10-30_14-32-15.png)
 

@@ -8,17 +8,17 @@ Let's say I want to import all my Windows 10 Operating Systems into OSBuilder fr
 
 {% embed url="https://gist.github.com/OSDeploy/cceea13c776f8e5127da2c49e4dc6cdb" %}
 
-![](../../../.gitbook/assets/2018-07-13_22-26-03.png)
+![](../../../../../.gitbook/assets/2018-07-13_22-26-03.png)
 
 ## Select Operating Systems
 
 OSBuilder will return a list of all Install.wim indexes.
 
-![](../../../.gitbook/assets/2018-07-13_22-31-01.png)
+![](../../../../../.gitbook/assets/2018-07-13_22-31-01.png)
 
 Easy enough to sort them by ImageName and select the ones I want before pressing OK.
 
-![](../../../.gitbook/assets/2018-07-13_22-32-06.png)
+![](../../../../../.gitbook/assets/2018-07-13_22-32-06.png)
 
 ## Results
 

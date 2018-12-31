@@ -6,7 +6,7 @@ description: Updated 18.10.27
 
 ![](../../../../../.gitbook/assets/2018-10-28_1-37-12.png)
 
-A New-OSBuildTask will take an existing [**`OSMedia`**](../../../../osmedia/) and apply customizations
+A New-OSBuildTask will take an existing [**`OSMedia`**](../../osmedia/) and apply customizations
 
 ## -TaskName
 
@@ -46,7 +46,7 @@ New-OSBuildTask -TaskName 'Win10 Ent x64 1809 Demo' -BuildName 'Slackers'
 
 #### Select a Source OSMedia
 
-Select a source [**`OSMedia`**](../../../../osmedia/) to use for the OSBuild Task.  It is not necessary to select the latest version as OSBuilder will automatically select the newest version when using [**`New-OSBuild`**](../new-osbuild.md)**\`\`**
+Select a source [**`OSMedia`**](../../osmedia/) to use for the OSBuild Task.  It is not necessary to select the latest version as OSBuilder will automatically select the newest version when using [**`New-OSBuild`**](../new-osbuild.md)**\`\`**
 
 ![](../../../../../.gitbook/assets/2018-10-26_2-18-30.png)
 
