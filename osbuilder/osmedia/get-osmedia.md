@@ -12,7 +12,7 @@ description: OSBuilder 19.1.1 or newer
 
 This will determine if the Updates are the Latest available.  Cumulative Update information is obtained by parsing an exported Sessions.xml file \(exported in OSBuilder 18.12.5 or newer\).
 
-![](../../.gitbook/assets/2018-12-30_2-54-48b.png)
+![](../../.gitbook/assets/2018-12-30_2-54-48b%20%281%29.png)
 
 ## Get-OSMedia -FullDetails -Verbose
 
@@ -32,7 +32,7 @@ Or just display the OSMedia with the Latest Cumulative Update
 
 **`(Get-OSMedia -FullDetails).Where({$_.Cumulative -eq 'Latest'})`**
 
-![](../../.gitbook/assets/2018-12-30_3-10-54.png)
+![](../../.gitbook/assets/2018-12-30_3-10-54%20%281%29.png)
 
 ## Show-OSInfo
 

@@ -63,11 +63,15 @@ Importing an Operating System into OSBuilder is one of the first steps that shou
 
 ## Import-OSMedia
 
-**`Import-OSMedia`** can be run without any parameters in PowerShell ISE \(for GridView functionality\).  Once executed, it will will search all attached Drives for install.wim or Install.esd files.  This process should take about a minute, so be patient and let the scan finish.
+**`Import-OSMedia`** can be run without any parameters in PowerShell ISE \(for GridView functionality\).  Once executed, it will will search all attached Drives for install.wim or Install.esd files.  This process should take about a minute, so be patient and let the scan finish.  During the scan, any Operating Systems that are found will be displayed
 
-Once the scanning is complete, a GridView will display with all the available Windows Images. Multi-select the ones you want to import and press OK.
+![](../../../../../.gitbook/assets/2018-12-31_0-21-37.png)
 
-![](../../../../../.gitbook/assets/2018-12-15_1-47-42.png)
+#### GridView
+
+Once the scanning is complete, a GridView will display with all the available Windows Images. Multi-select the ones you want to import and press OK
+
+![](../../../../../.gitbook/assets/2018-12-31_0-23-26.png)
 
 #### Mount Phase
 
@@ -77,13 +81,13 @@ After the Windows Image selection, the Install.wim or Install.esd will be mounte
   * **&lt;Operating System&gt; &lt;Edition&gt; &lt;Architecture&gt; &lt;Version&gt; &lt;UBR&gt;**
 * **OSMediaPath** - This is the **FullName** or **Path** of the **OSMedia**
 
-![](../../../../../.gitbook/assets/2018-12-30_2-39-10.png)
-
 #### Import Phase
 
 When the Mount Phase is complete, the Operating System can be copied into **OSBuilder\OSMedia** in a directory name matching the **OSMediaName**
 
 The process of importing an Operating System will take about 1 minute of actual work, with about 6 - 8 minutes of processing
+
+![](../../../../../.gitbook/assets/2018-12-31_0-32-17.png)
 
 ## -NewMediaISO
 
@@ -93,12 +97,10 @@ The process of importing an Operating System will take about 1 minute of actual 
 
 **Usage:  `Import-OSMedia -NewMediaISO`**
 
-![](../../../../../.gitbook/assets/2018-12-15_2-59-24.png)
-
 Creates an ISO of the imported **OSMedia** in the **&lt;OSMediaPath&gt;\ISO** directory using the **OSBuilder** [**`New-MediaISO`**](../../osbuilder/new-mediaiso.md) function.  The following command line is passed
 
 ```text
-New-MediaISO -OSMediaPath "$OSMediaPath
+New-MediaISO -FullName "$FullName"
 ```
 
 {% page-ref page="../../osbuilder/new-mediaiso.md" %}
@@ -110,7 +112,7 @@ New-MediaISO -OSMediaPath "$OSMediaPath
 Displays the full **OSMedia** Information by executing the **OSBuilder** [**`Show-OSInfo`**](../../osbuilder/show-osinfo.md) function.  The following command line is passed
 
 ```text
-Show-OSInfo -OSMediaPath $OSMediaPath
+Show-OSInfo -FullName "$FullName"
 ```
 
 {% page-ref page="../../osbuilder/show-osinfo.md" %}
@@ -122,7 +124,7 @@ Show-OSInfo -OSMediaPath $OSMediaPath
 Automatically applies patches to the imported Operating System using the **OSBuilder** [**`Update-OSMedia`**](../update-osmedia/) function.  The following command line is processed
 
 ```text
-Update-OSMedia -OSMediaName $OSMediaName -DownloadUpdates -Execute
+Update-OSMedia -Name $Name -DownloadUpdates -Execute
 ```
 
 This option will automatically download any required Updates.  You will need an Internet connection and keep in mind the Cumulative Updates are quite large, so don't do this with a Metered Connection.

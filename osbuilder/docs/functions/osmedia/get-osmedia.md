@@ -15,11 +15,11 @@ description: OSBuilder 19.1.1 or newer
 
 **`Get-OSMedia`** will return all [**`OSMedia`**](./) as a PowerShell Custom Object
 
-![](../../../../.gitbook/assets/2018-12-30_2-54-48.png)
+![](../../../../.gitbook/assets/2018-12-30_2-54-48%20%281%29.png)
 
 ## Get-OSMedia -FullDetails
 
-This will determine if the Updates are the Latest available.  Cumulative Update information is obtained by parsing an exported Sessions.xml file \(exported in OSBuilder 18.12.5 or newer\).
+This will determine if the Updates are the Latest available.  Cumulative Update information is obtained by parsing an exported Sessions.xml file \(exported in OSBuilder 18.12.5 or newer\)
 
 ![](../../../../.gitbook/assets/2018-12-30_2-54-48b.png)
 
@@ -66,7 +66,7 @@ Get-OSMedia -FullDetails | Where-Object {$_.Cumulative -eq 'Latest'} | Show-OSIn
 (Get-OSMedia -FullDetails).Where({$_.Cumulative -eq 'Latest'}) | Show-OSInfo
 ```
 
-![](../../../../.gitbook/assets/2018-12-30_3-13-54.png)
+![](../../../../.gitbook/assets/2018-12-30_3-13-54%20%281%29.png)
 
 ## Piping: Update-OSMedia
 
