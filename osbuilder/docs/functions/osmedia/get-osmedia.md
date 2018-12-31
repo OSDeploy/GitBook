@@ -4,6 +4,15 @@ description: OSBuilder 19.1.1 or newer
 
 # Get-OSMedia
 
+## Parameters
+
+* **`[switch] FullDetails`**
+  * Displays Update Information \(Servicing, Cumulative, Adobe\)
+* **`[switch] GridView`**
+  * Displays results in GridView
+
+## Usage
+
 **`Get-OSMedia`** will return all [**`OSMedia`**](./) as a PowerShell Custom Object
 
 ![](../../../../.gitbook/assets/2018-12-30_2-54-48.png)
@@ -20,13 +29,26 @@ Even more detail can be viewed when using the -Verbose parameter.  This will dis
 
 ![](../../../../.gitbook/assets/2018-12-30_3-43-15.png)
 
-## Get-OSMedia -FullDetails \| Out-GridView
+## Get-OSMedia -GridView
 
-You can pipe Out-GridView to display the results in this format
+You can display the results in GridView using this parameter.  This will allow you to select multiple OSMedia using PassThru
+
+![](../../../../.gitbook/assets/2018-12-31_0-05-28.png)
+
+![](../../../../.gitbook/assets/2018-12-31_0-05-47.png)
+
+## Piping: GridView
+
+As an alternative, you can use the following commands to perform a GridView
+
+```text
+Get-OSMedia | Out-GridView
+Get-OSMedia -FullDetails | Out-GridView -PassThru
+```
 
 ![](../../../../.gitbook/assets/2018-12-30_3-02-12.png)
 
-## Display only Latest CU
+## Piping: Display only Latest CU
 
 Or just display the OSMedia with the Latest Cumulative Update
 
@@ -34,21 +56,31 @@ Or just display the OSMedia with the Latest Cumulative Update
 
 ![](../../../../.gitbook/assets/2018-12-30_3-10-54.png)
 
-## Show-OSInfo
+## Piping: Show-OSInfo
 
 You can also pipe OSMedia to some other OSBuilder functions like[**`Show-OSInfo`**](../osbuilder/show-osinfo.md) using any of the following commands
 
-**`Get-OSMedia -FullDetails | Out-GridView -PassThru | Show-OSInfo`**
-
-**`Get-OSMedia -FullDetails | Where-Object {$_.Cumulative -eq 'Latest'} | Show-OSInfo`**
-
-**`(Get-OSMedia -FullDetails).Where({$_.Cumulative -eq 'Latest'}) | Show-OSInfo`**
+```text
+Get-OSMedia -FullDetails | Out-GridView -PassThru | Show-OSInfo
+Get-OSMedia -FullDetails | Where-Object {$_.Cumulative -eq 'Latest'} | Show-OSInfo
+(Get-OSMedia -FullDetails).Where({$_.Cumulative -eq 'Latest'}) | Show-OSInfo
+```
 
 ![](../../../../.gitbook/assets/2018-12-30_3-13-54.png)
 
-## Get-OSMedia in OSBuilder Functions
+## Piping: Update-OSMedia
 
-**`Get-OSMedia`** will be used in additional OSBuilder functions.  For example, [**`Update-OSMedia`**](update-osmedia/) used a simple selection based on Directories contained in OSMedia
+You can even use **`Get-OSMedia`** to download updates for all your existing [**`OSMedia`**](./)**\`\`**
+
+```text
+Get-OSMedia | Update-OSMedia -DownloadUpdates
+```
+
+![](../../../../.gitbook/assets/2018-12-31_0-13-45.png)
+
+## Internal Functions
+
+**`Get-OSMedia`** will be used internally in other OSBuilder functions.  For example, [**`Update-OSMedia`**](update-osmedia/) used to use a simple selection based on Directories contained in OSMedia
 
 ![](../../../../.gitbook/assets/2018-09-12_11-19-45.png)
 
