@@ -1,9 +1,3 @@
----
-description: >-
-  If the ADK WinPE.wim is not cutting it, you can easily create a WinPE.wim from
-  Windows 10 Boot.wim or WinRE.wim
----
-
 # Create WinPE.wim from Boot.wim or WinRE.wim
 
 Obviously you can also do the same process using [OSBuilder's PEBuild](../osbuilder/docs/functions/pebuild/), but its easy enough to create a WinPE.wim using this script.

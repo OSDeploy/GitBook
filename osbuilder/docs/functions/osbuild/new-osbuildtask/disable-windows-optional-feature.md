@@ -1,7 +1,3 @@
----
-description: Updated 18.10.29
----
-
 # Disable Windows Optional Feature
 
 When creating an OSBuild for Windows 10, your have the option to disable a Windows Optional Feature

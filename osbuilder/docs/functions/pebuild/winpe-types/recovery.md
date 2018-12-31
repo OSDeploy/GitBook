@@ -1,7 +1,3 @@
----
-description: Updated 18.10.23
----
-
 # Recovery
 
 Windows 10 allows you to create a simple Recovery Drive to USB without much effort.  This uses WinRE, but you can't easily add Drivers and other content using this method

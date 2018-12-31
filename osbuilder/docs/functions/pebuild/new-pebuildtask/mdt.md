@@ -1,7 +1,3 @@
----
-description: Updated 18.10.23
----
-
 # MDT
 
 Start by selecting [**`New-PEBuildTask`**](./) and select the **`MDT`** tab.  Keep the Task Name simple, and remember MDT will be automatically added as a Task Name prefix.

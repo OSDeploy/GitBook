@@ -1,7 +1,3 @@
----
-description: Updated 18.12.4
----
-
 # Update Catalogs
 
 Catalogs provide all the information that OSBuilder needs for applying Microsoft Updates to an Operating System.

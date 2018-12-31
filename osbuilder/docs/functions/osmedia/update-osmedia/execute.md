@@ -1,7 +1,3 @@
----
-description: Updated 18.10.23
----
-
 # Execute
 
 When you are ready to update the imported OSMedia, use the **Execute** parameter

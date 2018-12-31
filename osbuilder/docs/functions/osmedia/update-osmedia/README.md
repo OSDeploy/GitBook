@@ -1,7 +1,3 @@
----
-description: Updated 18.10.23
----
-
 # Update-OSMedia
 
 ![](../../../../../.gitbook/assets/2018-10-23_0-09-11.png)

@@ -1,7 +1,3 @@
----
-description: Updated 18.12.4
----
-
 # New-OSBUpdate
 
 OSBuilder uses the Latest Cumulative Update from WSUS, as I have detailed in the previous page

@@ -1,7 +1,3 @@
----
-description: Updated 2018.10.30
----
-
 # OSMedia Failed UBR Change
 
 Occasionally performing an [**`Update-OSMedia`**](../functions/osmedia/update-osmedia/) will generate a **WARNING** message that the Update Build Revision did not change.

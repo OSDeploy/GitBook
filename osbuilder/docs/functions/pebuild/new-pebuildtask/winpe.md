@@ -1,7 +1,3 @@
----
-description: Updated 18.10.23
----
-
 # WinPE
 
 Updated 18.10.23Start by selecting [**`New-PEBuildTask`**](./) and select the `WinPE` tab.  Keep the Task Name simple, and remember WinPE will be automatically added as a Task Name prefix.

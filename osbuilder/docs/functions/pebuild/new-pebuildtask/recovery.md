@@ -1,7 +1,3 @@
----
-description: Updated 18.10.23
----
-
 # Recovery
 
 Start by selecting `New-PEBuildTask` and select the `Recovery` tab.  Keep the Task Name simple, and remember Recovery will be automatically added as a Task Name prefix.

@@ -1,7 +1,3 @@
----
-description: Updated 18.10.29
----
-
 # IsoExtract Content
 
 **IsoExtract** is a directory that can be found at **C:\&lt;OSBuilder&gt;\Content\IsoExtract**

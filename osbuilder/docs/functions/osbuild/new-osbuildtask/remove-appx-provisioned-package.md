@@ -1,7 +1,3 @@
----
-description: Updated 18.10.29
----
-
 # Remove Appx Provisioned Package
 
 When creating an OSBuild for Windows 10, your have the option to remove Provisioned Appx Packages

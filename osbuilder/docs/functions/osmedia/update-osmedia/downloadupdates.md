@@ -1,7 +1,3 @@
----
-description: Updated 18.10.23
----
-
 # Download Updates
 
 Updates can change frequently.  If new Updates are available, running **Get-OSBuilder** \(connected to the internet\) is an easy way to check if you need to update the OSBuilder Catalogs

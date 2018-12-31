@@ -1,7 +1,3 @@
----
-description: Updated 18.10.27
----
-
 # OSBuild
 
 An OSBuild is a customized [**`OSMedia`**](../osmedia/) \(Operating System\).  While [**`Update-OSMedia`**](../osmedia/update-osmedia/) is simple, creating a custom OBuild can get very complex.

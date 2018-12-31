@@ -1,7 +1,3 @@
----
-description: Updated 18.12.4
----
-
 # Latest Latest Cumulative Update \(Latest LCU\)
 
 OSBuilder uses Microsoft Updates that are published in WSUS, but these may not be the latest versions available

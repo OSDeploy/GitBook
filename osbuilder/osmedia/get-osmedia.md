@@ -1,7 +1,3 @@
----
-description: OSBuilder 19.1.1 or newer
----
-
 # Get-OSMedia
 
 **`Get-OSMedia`** will return all [**`OSMedia`**](../docs/functions/osmedia/) as a PowerShell Custom Object

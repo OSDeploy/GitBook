@@ -1,7 +1,3 @@
----
-description: Updated 18.10.23
----
-
 # Windows PE
 
 WinPE Boot Images can be used within MDT or as a Configuration Manager Boot Image.  The benefit of creating this content in OSBuilder is that you can fully control the integrated Cumulative and Dynamic Updates, adding ADK Packages, and injecting Drivers that are needed.  You no longer have to add these Boot Image Drivers to MDT or CM as they are already done.

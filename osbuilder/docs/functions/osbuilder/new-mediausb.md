@@ -1,7 +1,3 @@
----
-description: Updated 19.1.1
----
-
 # New-MediaUSB
 
 You can easily create a USB of your OSMedia, OSBuild or PEBuild

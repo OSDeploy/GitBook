@@ -1,7 +1,3 @@
----
-description: Updated 18.10.23
----
-
 # Get-OSBuilder
 
 Start by opening PowerShell ISE Elevated \(Run as Administrator\). Select the OSBuilder Module and then **`Get-OSBuilder`**.  Run

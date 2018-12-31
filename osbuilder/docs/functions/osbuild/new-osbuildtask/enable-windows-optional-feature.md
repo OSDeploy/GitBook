@@ -1,7 +1,3 @@
----
-description: Updated 18.10.29
----
-
 # Enable Windows Optional Feature
 
 When creating an OSBuild for Windows 10, your have the option to enable a Windows Optional Feature

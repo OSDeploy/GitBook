@@ -1,7 +1,3 @@
----
-description: OSBuilder 19.1.1 or newer
----
-
 # Get-OSBuilds
 
 ## Parameters

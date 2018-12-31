@@ -1,7 +1,3 @@
----
-description: Updated 18.10.29
----
-
 # Remove Windows Package
 
 When creating an OSBuild for Windows 10, your have the option to remove an installed Windows Package  

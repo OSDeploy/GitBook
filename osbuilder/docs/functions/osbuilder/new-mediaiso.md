@@ -1,7 +1,3 @@
----
-description: Updated 19.1.1
----
-
 # New-MediaISO
 
 This function allows you to create a bootable ISO from any OSMedia, OSBuild, or PEBuild

@@ -1,7 +1,3 @@
----
-description: Updated 18.10.26
----
-
 # New-OSBuild
 
 Once you have created a Task using [**`New-OSBuildTask`**](new-osbuildtask/), you can create an OSBuild.

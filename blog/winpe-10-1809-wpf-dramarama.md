@@ -1,7 +1,3 @@
----
-description: Here is the proper fix for getting WPF working in ADK's WinPE.wim
----
-
 # WinPE 10 1809 WPF DLL Fix
 
 ## Workaround: Replace UIAutomationCore.dll

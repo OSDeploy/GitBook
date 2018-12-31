@@ -1,7 +1,3 @@
----
-description: Updated 2018.11.05
----
-
 # PowerShell SnapPE
 
 ## **Download**

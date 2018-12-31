@@ -1,7 +1,3 @@
----
-description: Mount-WindowsImage with the Optimize Parameter does not seem to work properly
----
-
 # Mount-WindowsImage -Optimize
 
 According to Microsoft Docs, when you [**`Mount-WindowsImage`**](https://docs.microsoft.com/en-us/powershell/module/dism/mount-windowsimage?view=win10-ps), you can add the **`Optimize`** parameter

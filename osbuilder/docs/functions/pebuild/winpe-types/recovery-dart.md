@@ -1,7 +1,3 @@
----
-description: Updated 18.10.23
----
-
 # Recovery DaRT
 
 Microsoft DaRT is also used to create Recovery Image with DaRT integration

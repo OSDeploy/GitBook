@@ -1,7 +1,3 @@
----
-description: Updated 18.10.25
----
-
 # OSMedia
 
 OSMedia is defined as an Operating System without any customizations.  Any ISO downloaded from Microsoft MVLS or MSDN would be considered OSMedia.  An Operating System that has Security Updates applied using Offline Servicing is also considered OSMedia, as this is considered a customization.

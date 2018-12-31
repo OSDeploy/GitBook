@@ -1,7 +1,3 @@
----
-description: Updated 19.1.1
----
-
 # Show-OSInfo
 
 This function is used to display information about any **`OSMedia`**, **`OSBuild`**, or **`PEBuild`**.  If you want to know how this works, read [Knowledge: OSBuilder OS Information](../../../knowledge/osbuilder-os-information.md)

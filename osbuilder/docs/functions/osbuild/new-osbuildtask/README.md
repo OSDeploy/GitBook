@@ -1,7 +1,3 @@
----
-description: Updated 18.10.27
----
-
 # New-OSBuildTask
 
 ![](../../../../../.gitbook/assets/2018-10-28_1-37-12.png)
