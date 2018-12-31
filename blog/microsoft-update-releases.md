@@ -40,7 +40,7 @@ This will detail the updates that appear in the Microsoft Update Catalog \(ALL R
 
 ## OSBuilder
 
-OSBuilder Update Catalogs are generated from WSUS, so these will include the "Patch Tuesday" \(B Release\) and any On Demand Releases \(Critical\).  C and D Releases can be added to OSBuilder using [**`New-OSBUpdate`**](../osbuilder/updates/new-osbupdate.md), but at least consider that these are Preview Releases and probably should only be used for Testing, and NOT for an Enterprise Deployment, but that's your call.
+OSBuilder Update Catalogs are generated from WSUS, so these will include the "Patch Tuesday" \(B Release\) and any On Demand Releases \(Critical\).  C and D Releases can be added to OSBuilder using [**`New-OSBUpdate`**](../osbuilder/docs/functions/updates/new-osbupdate.md), but at least consider that these are Preview Releases and probably should only be used for Testing, and NOT for an Enterprise Deployment, but that's your call.
 
 ## Further Reading
 

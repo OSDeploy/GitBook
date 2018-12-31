@@ -57,7 +57,7 @@ New-OSBuildTask -TaskName "Win10 x64 Ent 1809" -EnableNetFX3
 {% hint style="info" %}
 **Select the OSMedia that was Updated in \#3**
 
-**How To:**  [**`New-OSBuildTask`**](../osbuild/new-osbuildtask/)**\`\`**
+**How To:**  [**`New-OSBuildTask`**](functions/osbuild/new-osbuildtask/)**\`\`**
 {% endhint %}
 
 ## 5. Create a New OSBuild
@@ -73,7 +73,7 @@ New-OSBuild -DownloadUpdates -Execute
 {% hint style="info" %}
 **Select the OSBuild Task that was created in \#4**
 
-**How To:** [**`New-OSBuild`**](../osbuild/new-osbuild.md)**\`\`**
+**How To:** [**`New-OSBuild`**](functions/osbuild/new-osbuild.md)**\`\`**
 {% endhint %}
 
 ## 6. Create a Media ISO
@@ -89,7 +89,7 @@ New-MediaISO
 {% hint style="info" %}
 **Select the OSBuild that was created in \#5**
 
-**How To:**  [**`New-MediaISO`**](shared-functions/new-mediaiso.md)**\`\`**
+**How To:**  [**`New-MediaISO`**](functions/osbuilder/new-mediaiso.md)**\`\`**
 {% endhint %}
 
 

@@ -6,7 +6,7 @@ description: >-
 
 # Create WinPE.wim from Boot.wim or WinRE.wim
 
-Obviously you can also do the same process using [OSBuilder's PEBuild](../osbuilder/pebuild/), but its easy enough to create a WinPE.wim using this script.
+Obviously you can also do the same process using [OSBuilder's PEBuild](../osbuilder/docs/functions/pebuild/), but its easy enough to create a WinPE.wim using this script.
 
 ## New-WinPE.ps1
 

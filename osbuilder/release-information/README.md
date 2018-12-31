@@ -11,7 +11,7 @@
   * Log files displayed for easier **self**-troubleshooting
   * Circus color scheme replaced for easier readability
   * Robocopy output is logged only
-* \*\*\*\*[**New-OSBUpdate**](../updates/new-osbupdate.md)\*\*\*\*
+* \*\*\*\*[**New-OSBUpdate**](../docs/functions/updates/new-osbupdate.md)\*\*\*\*
   * New function to add new Updates to OSBuilder
 * **Import-OSMedia**
   * **`EditionId`** now includes **`ServerRdsh`** \(Windows 10 Enterprise for Virtual Desktops\)
@@ -25,11 +25,11 @@
 
 ![Updated Console Output](../../.gitbook/assets/2018-12-04_16-35-53.png)
 
-{% page-ref page="../updates/update-catalogs.md" %}
+{% page-ref page="../docs/functions/updates/update-catalogs.md" %}
 
-{% page-ref page="../updates/latest-lcu.md" %}
+{% page-ref page="../docs/functions/updates/latest-lcu.md" %}
 
-{% page-ref page="../updates/new-osbupdate.md" %}
+{% page-ref page="../docs/functions/updates/new-osbupdate.md" %}
 
 
 

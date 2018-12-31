@@ -18,7 +18,7 @@ SnapPE is included in OSBuilder Public so you can easily add it using OSBuilder 
 
 **SnapPE** is a PowerShell WPF EXE used to take screenshots within WinPE.  You will need to add PowerShell from the ADK for this to work.
 
-This can easily be added to WinPE in OSBuilder using [**WinPE Extra Files**](../osbuilder/osbuild/new-osbuildtask-winpe/winpe-extrafiles.md)\*\*\*\*
+This can easily be added to WinPE in OSBuilder using [**WinPE Extra Files**](../osbuilder/docs/functions/osbuild/new-osbuildtask-winpe/winpe-extrafiles.md)\*\*\*\*
 
 In this example I have included **SnapPE** in Windows Setup \(boot.wim Index 2\)
 

@@ -16,5 +16,5 @@ Or take the time to use one of your Company Wallpapers so you can make your OSBu
 
 ![](../../../.gitbook/assets/2018-10-31_12-08-11.png)
 
-Making this change is easy using [**`WinPE Extra Files`**](../../osbuild/new-osbuildtask-winpe/winpe-extrafiles.md), simply replace the **Windows\System32\Setup.bmp** with your own file.  The default size is 1024 x 768, but be aware that the Wallpaper will be centered and not stretched, so when booting to a high resolution screen like a Surface Pro, results may vary.
+Making this change is easy using [**`WinPE Extra Files`**](../functions/osbuild/new-osbuildtask-winpe/winpe-extrafiles.md), simply replace the **Windows\System32\Setup.bmp** with your own file.  The default size is 1024 x 768, but be aware that the Wallpaper will be centered and not stretched, so when booting to a high resolution screen like a Surface Pro, results may vary.
 
