@@ -12,17 +12,17 @@ When executing **`Get-OSBuilder`** without any parameters, it will display a few
 * Directory Structure
 * Update Information \(OSBuilder PowerShell Module is OK\)
 
-![](../../../../.gitbook/assets/2018-10-22_23-03-38.png)
+![](../../../.gitbook/assets/2018-10-22_23-03-38.png)
 
 ## Get-OSBuilder -CreatePaths
 
 This will create the OSBuilder directory structure
 
-![](../../../../.gitbook/assets/2018-10-22_23-05-59.png)
+![](../../../.gitbook/assets/2018-10-22_23-05-59.png)
 
 And the same structure in Windows Explorer
 
-![](../../../../.gitbook/assets/2018-10-22_23-07-13.png)
+![](../../../.gitbook/assets/2018-10-22_23-07-13.png)
 
 ## Get-OSBuilder -HideDetails
 
@@ -34,7 +34,7 @@ Latest Updates will be displayed.  This is typically reserved for updated docume
 
 If you don't receive any Warnings, then everything is good!
 
-![](../../../../.gitbook/assets/2018-10-22_23-10-39.png)
+![](../../../.gitbook/assets/2018-10-22_23-10-39.png)
 
 
 

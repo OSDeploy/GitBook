@@ -1,10 +1,10 @@
 ---
-description: Updated 18.10.23
+description: Updated 19.1.1
 ---
 
 # New-MediaUSB
 
-You can easily create a USB of your OSMedia, OSBuild OR PEBuild
+You can easily create a USB of your OSMedia, OSBuild or PEBuild
 
 ## Requirements
 
@@ -24,7 +24,7 @@ The USB Drive Label cannot exceed 11 characters \(FAT32 limitation\). You have b
 
 Select a single OSMedia or OSBuild to copy to the USB
 
-![](../../../.gitbook/assets/2018-07-25_23-47-35.png)
+![](../../../.gitbook/assets/2018-12-30_22-33-10.png)
 
 ## Select USB Drive to FORMAT
 

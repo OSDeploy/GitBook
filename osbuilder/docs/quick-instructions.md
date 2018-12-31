@@ -89,7 +89,7 @@ New-MediaISO
 {% hint style="info" %}
 **Select the OSBuild that was created in \#5**
 
-**How To:**  [**`New-MediaISO`**](how-to/new-mediaiso.md)**\`\`**
+**How To:**  [**`New-MediaISO`**](shared-functions/new-mediaiso.md)**\`\`**
 {% endhint %}
 
 

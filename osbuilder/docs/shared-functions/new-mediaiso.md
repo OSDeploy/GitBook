@@ -1,5 +1,5 @@
 ---
-description: Updated 18.10.23
+description: Updated 19.1.1
 ---
 
 # New-MediaISO
@@ -28,13 +28,13 @@ You can optionally copy the amd64 and x86 directories from ADK into OSBuilder\Co
 
 You can multi-select any OSMedia, OSBuild, or PEBuild you want to create an ISO for and press OK
 
-![](../../../.gitbook/assets/2018-10-23_22-51-41.png)
+![](../../../.gitbook/assets/2018-12-30_22-30-11.png)
 
 ## Create ISO
 
 The ISO's will automatically be generated
 
-![](../../../.gitbook/assets/2018-10-23_22-55-57.png)
+![](../../../.gitbook/assets/2018-12-30_22-30-36.png)
 
 And saved within an ISO directory of the Media. Enjoy!
 
