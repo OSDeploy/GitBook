@@ -32,7 +32,7 @@ Or just display the OSMedia with the Latest Cumulative Update
 
 ## Show-OSInfo
 
-You can also pipe OSMedia to some other OSBuilder functions like[**`Show-OSInfo`**](../docs/functions/osbuilder/show-osinfo.md) using any of the following commands
+You can also pipe OSMedia to some other OSBuilder functions like[**`Show-OSInfo`**](../docs/functions/osbuilder/show-osbinfo.md) using any of the following commands
 
 **`Get-OSMedia -FullDetails | Out-GridView -PassThru | Show-OSInfo`**
 

@@ -10,10 +10,10 @@
   * New function to return all PEBuilds as a PowerShell Custom Object
 * Import-OSMedia
   * **`NewMediaISO`** parameter added.
-    * Executes [**New-MediaISO**](../docs/functions/osbuilder/new-mediaiso.md)\*\*\*\*
+    * Executes [**New-MediaISO**](../docs/functions/osbuilder/new-osbiso.md)\*\*\*\*
   * **`ShowOSInfo`** parameter added
     * Information is not displayed by default
-    * Executes [**Show-OSInfo**](../docs/functions/osbuilder/show-osinfo.md)\*\*\*\*
+    * Executes [**Show-OSInfo**](../docs/functions/osbuilder/show-osbinfo.md)\*\*\*\*
 * New-MediaISO
   * **`FullName`** parameter is now a Pipeline Value By Property Name 
 * New-MediaUSB
