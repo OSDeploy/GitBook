@@ -1,5 +1,7 @@
 # Updates
 
+
+
 {% embed url="https://www.catalog.update.microsoft.com/Home.aspx" caption="Microsoft Update Catalog" %}
 
 {% embed url="https://support.microsoft.com/en-us/help/4464619" caption="Windows 10 and Windows Server 2016 Update History" %}

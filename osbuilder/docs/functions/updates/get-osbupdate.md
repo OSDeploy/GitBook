@@ -1,4 +1,4 @@
-# Get-OSBuilderUpdates
+# Get-OSBUpdate
 
 You may want to download the Microsoft Updates you need before Updating any Operating Systems.  **This is not required as you can let** [**`Update-OSMedia`**](../osmedia/update-osmedia/) **download what you need**, but if you want to get them downloaded first, us this function
 

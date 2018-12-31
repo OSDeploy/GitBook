@@ -1,4 +1,4 @@
-# Get-PEBuilds
+# Get-PEBuild
 
 ## Parameters
 

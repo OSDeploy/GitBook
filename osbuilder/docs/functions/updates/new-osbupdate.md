@@ -34,7 +34,7 @@ Which will create a Custom Catalog XML with the Update information
 
 ![](../../../../.gitbook/assets/2018-12-04_22-59-43.png)
 
-The new Update will be available as a Download using [**`Get-OSBuilderUpdates`**](get-osbuilderupdates.md)**\`\`**
+The new Update will be available as a Download using [**`Get-OSBuilderUpdates`**](get-osbupdate.md)**\`\`**
 
 ![](../../../../.gitbook/assets/2018-12-04_23-17-43.png)
 

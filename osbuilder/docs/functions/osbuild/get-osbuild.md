@@ -1,4 +1,4 @@
-# Get-OSBuilds
+# Get-OSBuild
 
 ## Parameters
 
