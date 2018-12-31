@@ -60,7 +60,6 @@
       * [Import-OSMedia](osbuilder/docs/functions/osmedia/import-osmedia/README.md)
         * [Batch Import](osbuilder/docs/functions/osmedia/import-osmedia/batch.md)
       * [Update-OSMedia](osbuilder/docs/functions/osmedia/update-osmedia/README.md)
-        * [Download Updates](osbuilder/docs/functions/osmedia/update-osmedia/downloadupdates.md)
         * [Execute](osbuilder/docs/functions/osmedia/update-osmedia/execute.md)
     * [OSBuild](osbuilder/docs/functions/osbuild/README.md)
       * [Get-OSBuilds](osbuilder/docs/functions/osbuild/get-osbuilds.md)
