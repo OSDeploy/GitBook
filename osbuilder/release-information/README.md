@@ -24,7 +24,7 @@ _**Because several functions were renamed or changed, it is important that you r
   * To make things easier to follow, I will be moving and organizing documentation under the Docs section.  Links may change over the next few weeks as documentation is updated
 * \*\*\*\*[**Functions**](../docs/functions/)\*\*\*\*
   * Quick details on all the functions and their new groupings
-* \*\*\*\*[**Verbose**](../docs/tips/verbose.md)\*\*\*\*
+* \*\*\*\*[**Verbose Logging**](../docs/tips/verbose-logging.md)\*\*\*\*
   * Log information is now only visible when using the Verbose parameter
 
 **Function Rename**
