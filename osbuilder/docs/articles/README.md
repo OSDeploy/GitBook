@@ -1,4 +1,4 @@
-# Knowledge
+# Articles
 
 * [Offline Servicing](offline-servicing.md)
 * [Servicing Stacks](servicing-stacks.md)

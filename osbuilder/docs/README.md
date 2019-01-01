@@ -8,7 +8,7 @@
 
 {% page-ref page="tips/" %}
 
-{% page-ref page="knowledge/" %}
+{% page-ref page="articles/" %}
 
 
 
