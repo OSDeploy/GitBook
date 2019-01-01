@@ -1,27 +1,10 @@
-# Installation and Requirements
-
-OSBuilder is published in the PowerShell Gallery at [https://www.powershellgallery.com/packages/OSBuilder/](https://www.powershellgallery.com/packages/OSBuilder/)  
-Make sure you check for updates as needed to support new features and to fix bugs!
-
-Installation of OSBuilder is through a PowerShell command line. Use the following to Uninstall previous versions and to install the latest version.
-
-**PowerShell Uninstall Previous Versions:**
-
-```text
-Uninstall-Module -Name OSBuilder -AllVersions -Force
-```
-
-**PowerShell Install Latest Version:**
-
-```text
-Install-Module -Name OSBuilder -Scope CurrentUser -Force
-```
+# Requirements
 
 ## OSBuilder in PowerShell ISE
 
 OSBuilder needs to be executed in PowerShell ISE \(as Elevated Administrator\) due to GridView constraints.
 
-![Version 18.10.22.0](../../.gitbook/assets/2018-10-22_22-58-12.png)
+![Version 18.10.22.0](../../../.gitbook/assets/2018-10-22_22-58-12.png)
 
 ## Admin Rights
 
@@ -51,7 +34,7 @@ OSBuilder works best on a stand alone Workgroup computer without an AntiVirus pe
 
 If you used my previous attempt at this called OSMedia, you will need to get rid of it first.
 
-![](../../.gitbook/assets/2018-07-10_11-49-36.png)
+![](../../../.gitbook/assets/2018-07-10_11-49-36.png)
 
 
 
