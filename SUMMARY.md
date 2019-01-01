@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Home](README.md)
+* [About](README.md)
 * [Links](links/README.md)
   * [Blogs \[MVP\]](links/blogs-mvp.md)
   * [Blogs \[Microsoft\]](links/blogs-microsoft.md)
@@ -84,7 +84,6 @@
       * [Update-OSMedia](osbuilder/docs/functions/osmedia/update-osmedia/README.md)
         * [Execute](osbuilder/docs/functions/osmedia/update-osmedia/execute.md)
     * [OSBuild](osbuilder/docs/functions/osbuild/README.md)
-      * [Get-OSBuild](osbuilder/docs/functions/osbuild/get-osbuild.md)
       * [New-OSBuildTask](osbuilder/docs/functions/osbuild/new-osbuildtask/README.md)
         * [Remove Appx Provisioned Package](osbuilder/docs/functions/osbuild/new-osbuildtask/remove-appx-provisioned-package.md)
         * [Remove Windows Package](osbuilder/docs/functions/osbuild/new-osbuildtask/remove-windows-package.md)
@@ -111,7 +110,6 @@
         * [WinPE ADK Packages](osbuilder/docs/functions/osbuild/new-osbuildtask-winpe/winpe-adk-packages.md)
       * [New-OSBuild](osbuilder/docs/functions/osbuild/new-osbuild.md)
     * [PEBuild](osbuilder/docs/functions/pebuild/README.md)
-      * [Get-PEBuild](osbuilder/docs/functions/pebuild/get-pebuild.md)
       * [New-PEBuildTask](osbuilder/docs/functions/pebuild/new-pebuildtask/README.md)
         * [Recovery](osbuilder/docs/functions/pebuild/new-pebuildtask/recovery.md)
         * [WinPE](osbuilder/docs/functions/pebuild/new-pebuildtask/winpe.md)

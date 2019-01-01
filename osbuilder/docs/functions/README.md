@@ -44,8 +44,6 @@ These functions are commonly shared between all the other OSBuilder Functions
 
 ## OSBuild Functions
 
-* **\`\`**[**`Get-OSBuild`**](osbuild/get-osbuild.md)**\`\`**
-  * Returns a PowerShell Custom Object containing detailed OSBuild information
 * **\`\`**[**`New-OSBuildTask`**](osbuild/new-osbuildtask/)**\`\`**
   * Creates a custom OSBuild configuration \(JSON\)
 * **\`\`**[**`New-OSBuild`**](osbuild/new-osbuild.md)**\`\`**
@@ -55,8 +53,6 @@ These functions are commonly shared between all the other OSBuilder Functions
 
 ## PEBuild Functions
 
-* **\`\`**[**`Get-PEBuild`**](pebuild/get-pebuild.md)**\`\`**
-  * Returns a PowerShell Custom Object containing detailed PEBuild information
 * **\`\`**[**`New-PEBuildTask`**](pebuild/new-pebuildtask/)**\`\`**
   * Creates a custom PEBuild configuration \(JSON\)
 * **\`\`**[**`New-PEBuild`**](pebuild/new-pebuild.md)**\`\`**

@@ -1,4 +1,4 @@
-# Home
+# About
 
 I started OSDeploy.com as a way for me to document several of the things that I do related to deploying Windows for a large Enterprise.  What is unique about my Enterprise environment is that while most of our  systems are office based on the network, many systems are not and generally in disconnected environments, such as offshore on an oil rig.
 
