@@ -2,22 +2,27 @@
 
 There are several OSBuilder functions, and they are grouped by commonality
 
-## OSBuilder Functions
-
-These functions are commonly shared between all the other OSBuilder Functions
+## Primary
 
 * **\`\`**[**`Get-OSBuilder`**](osbuilder/get-osbuilder/)**\`\`**
   * Primary function used to define common variables
-* **\`\`**[**`Show-OSBinfo`**](osbuilder/show-osbinfo.md)**\`\`**
-  * Returns detailed information about any OSBuilder Media
-* **\`\`**[**`New-OSBiso`**](osbuilder/new-osbiso.md)**\`\`**
-  * Creates a bootable ISO of any OSBuilder Media
-* **\`\`**[**`New-OSBusb`**](osbuilder/new-osbusb.md)**\`\`**
-  * Creates a bootable USB of any OSBuilder Media
 
 {% page-ref page="osbuilder/" %}
 
-## Updates Functions
+## Media Functions
+
+These functions are commonly shared between all the other OSBuilder Functions
+
+* **\`\`**[**`New-MediaISO`**](media/new-mediaiso.md)**\`\`**
+  * Creates a bootable ISO of any OSBuilder Media
+* **\`\`**[**`New-MediaUSB`**](media/new-mediausb.md)**\`\`**
+  * Creates a bootable USB of any OSBuilder Media
+* **\`\`**[**`Show-MediaInfo`**](media/show-mediainfo.md)**\`\`**
+  * Returns detailed information about any OSBuilder Media
+
+{% page-ref page="media/" %}
+
+## Update Functions
 
 * **\`\`**[**`Get-OSBUpdate`**](updates/get-osbupdate.md)**\`\`**
   * Downloads OSBuilder Update Catalogs and Microsoft Updates

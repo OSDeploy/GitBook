@@ -12,14 +12,14 @@
   * _**Rename of Get-OSBuilderUpates**_
 * \*\*\*\*[**Import-OSMedia**](../docs/functions/osmedia/import-osmedia/)\*\*\*\*
   * **`NewOSBIso`** parameter added.
-    * Executes [**New-OSBIso**](../docs/functions/osbuilder/new-osbiso.md)\*\*\*\*
+    * Executes [**New-OSBIso**](../docs/functions/media/new-mediaiso.md)\*\*\*\*
   * **`ShowOSBInfo`** parameter added
     * Information is not displayed by default
-    * Executes [**Show-OSBInfo**](../docs/functions/osbuilder/show-osbinfo.md)\*\*\*\*
-* \*\*\*\*[**New-OSBIso**](../docs/functions/osbuilder/new-osbiso.md)\*\*\*\*
+    * Executes [**Show-OSBInfo**](../docs/functions/media/show-mediainfo.md)\*\*\*\*
+* \*\*\*\*[**New-OSBIso**](../docs/functions/media/new-mediaiso.md)\*\*\*\*
   * _**Rename of New-MediaISO**_
   * **`FullName`** parameter is now a Pipeline Value By Property Name 
-* \*\*\*\*[**New-OSBUsb**](../docs/functions/osbuilder/new-osbusb.md)\*\*\*\*
+* \*\*\*\*[**New-OSBUsb**](../docs/functions/media/new-mediausb.md)\*\*\*\*
   * _**Rename of New-MediaUSB**_
   * **`FullName`** parameter is now a Pipeline Value By Property Name
 

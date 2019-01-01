@@ -26,7 +26,7 @@ If everything looks good, run **`New-PEBuild`** again with the Execute Parameter
 
 ## New-MediaISO
 
-You can convert this to an ISO using [**`New-MediaISO`**](../osbuilder/new-osbiso.md).
+You can convert this to an ISO using [**`New-MediaISO`**](../media/new-mediaiso.md).
 
 ![](../../../../.gitbook/assets/2018-10-18_10-56-59.png)
 
