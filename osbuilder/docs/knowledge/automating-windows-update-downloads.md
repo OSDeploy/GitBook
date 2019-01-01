@@ -19,7 +19,7 @@ $feed | Where-Object {$_.title -like "*1607*"} | Select-Object -Property pubDate
 
 And we get a nice output of the latest ones
 
-![Windows 10 Servicing Stack Updates](../../.gitbook/assets/2018-08-06_12-08-56.png)
+![Windows 10 Servicing Stack Updates](../../../.gitbook/assets/2018-08-06_12-08-56.png)
 
 ### Get-LatestAdobe
 
@@ -31,7 +31,7 @@ $feed = $rssFeed.rss.channel.item
 $feed | Where-Object {$_.title -like "*Security update for Adobe Flash Player*"} | Select-Object -Property pubDate, Title, Link -First 1
 ```
 
-![Windows 10 Adobe Security Updates](../../.gitbook/assets/2018-08-06_12-22-53.png)
+![Windows 10 Adobe Security Updates](../../../.gitbook/assets/2018-08-06_12-22-53.png)
 
 ### Get-LatestCU \(Cumulative Updates\)
 
@@ -46,17 +46,17 @@ $feed | Where-Object {$_.title -like "*OS Build*" -and $_.title -like "*15063*"}
 $feed | Where-Object {$_.title -like "*OS Build*" -and $_.title -like "*14393*"} | Select-Object -Property pubDate, Title, Link -First 1
 ```
 
-![Windows 10 Cumulative Updates](../../.gitbook/assets/2018-08-06_12-24-38.png)
+![Windows 10 Cumulative Updates](../../../.gitbook/assets/2018-08-06_12-24-38.png)
 
 ### Automating Downloads
 
 Great so we have everything we need, now time to automate the download, right?  Not so fast.  Take a closer look at what the latest CU for 1803 was . . . it should be 17134.191 right?
 
-![](../../.gitbook/assets/2018-08-06_12-24-38b.png)
+![](../../../.gitbook/assets/2018-08-06_12-24-38b.png)
 
 How can this be?  The pubDate shows that this was updated August 2 . . . Take a look at [https://support.microsoft.com/en-us/help/4345421](https://support.microsoft.com/en-us/help/4345421) and you will see, Microsoft likes to go back and edit their Update History
 
-![](../../.gitbook/assets/2018-08-06_12-30-06.png)
+![](../../../.gitbook/assets/2018-08-06_12-30-06.png)
 
 ### Microsoft Update Catalog
 
@@ -64,11 +64,11 @@ Ok, let's try Microsoft Update Catalog to see if we can somehow determine the la
 
 [https://www.catalog.update.microsoft.com/Search.aspx?q=2018-07+Cumulative+1803+Windows+10+x64](https://www.catalog.update.microsoft.com/Search.aspx?q=2018-07+Cumulative+1803+Windows+10+x64)
 
-![](../../.gitbook/assets/2018-08-06_12-32-31.png)
+![](../../../.gitbook/assets/2018-08-06_12-32-31.png)
 
 If you simply go by the Last Updated you will see these are not always accurate.  Go back to Windows Update History and check again [https://support.microsoft.com/en-us/help/4099479](https://support.microsoft.com/en-us/help/4099479)
 
-![](../../.gitbook/assets/2018-08-06_12-34-19.png)
+![](../../../.gitbook/assets/2018-08-06_12-34-19.png)
 
 Yes, the Microsoft Update Catalog had an OLDER KB listed as NEWER.
 
@@ -76,7 +76,7 @@ Yes, the Microsoft Update Catalog had an OLDER KB listed as NEWER.
 
 So I have pointed out issues with using RSS and Microsoft Update Catalog, so what about the Windows 10 Update History pages?  Yes, this is not always accurate as well.
 
-![](../../.gitbook/assets/2018-08-06_12-58-15.png)
+![](../../../.gitbook/assets/2018-08-06_12-58-15.png)
 
 ### What's the Point?
 

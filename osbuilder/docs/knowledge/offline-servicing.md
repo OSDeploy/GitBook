@@ -6,7 +6,7 @@ I wanted to take the time to explain all the steps involved with Offline Servici
 
 Offline Servicing is a method that has been used for years to Mount a Windows Image, Apply Patches, and Save the Image. The reason we do this is to save time in our OS Deployments, so we do not have to spend hours applying patches. When Microsoft releases a new ISO, it is fully patched up to the point that they sealed it. In the image below are the Windows 10 Builds with the updated date. Windows 10 1803 is the only version that has been updated this year.
 
-![](../../.gitbook/assets/2018-07-19_0-02-31.jpg)
+![](../../../.gitbook/assets/2018-07-19_0-02-31.jpg)
 
 ## Required Updates
 
@@ -24,7 +24,7 @@ If you don't know what a Servicing Stack is, please read a little about that her
 
 Be aware if you do not install the Servicing Stack Update before the Cumulative Update, the CU may not actually install at all since it does not meet its prerequisite. You will not receive a warning or an error when this happens, you will see the CU completed successfully \(because it is not applicable since the SSU was not in place\)
 
-![](../../.gitbook/assets/2018-06-26_23-55-29b%20%281%29.png)
+![](../../../.gitbook/assets/2018-06-26_23-55-29b%20%281%29.png)
 
 ## Boot WIMs
 
@@ -57,13 +57,13 @@ ImageSize        : 1,945,278,901 bytes
 
 When you boot your Windows 10 Media on a computer, it will boot to Sources\Boot.wim Index 2 to start Windows Setup. The image below shows the OS Media and the mounted Setup WIM. As you can see there is a Setup.exe, and they both match. These files are not the complete setup, they just take your parameters and pass them to the setup.exe in the Sources directory.
 
-![](../../.gitbook/assets/2018-07-19_0-31-12.jpg)
+![](../../../.gitbook/assets/2018-07-19_0-31-12.jpg)
 
 ## Sources
 
 In the Sources directory setup.exe also exists, and they match as well. On the left is the OS Media Sources, and on the right is the mounted Setup WIM. I wanted to highlight the DISM components as these are required for servicing an image.
 
-![](../../.gitbook/assets/2018-07-19_0-34-30.jpg)
+![](../../../.gitbook/assets/2018-07-19_0-34-30.jpg)
 
 ## Imaging Methods
 
@@ -93,17 +93,17 @@ Michael Niehaus in this article states that MDT will use the Operating System fo
 
 [https://blogs.technet.microsoft.com/mniehaus/2009/06/27/mdt-2010-new-feature-7-boot-image-creation-optimized/](https://blogs.technet.microsoft.com/mniehaus/2009/06/27/mdt-2010-new-feature-7-boot-image-creation-optimized/)
 
-![](../../.gitbook/assets/2018-07-19_9-32-56.png)
+![](../../../.gitbook/assets/2018-07-19_9-32-56.png)
 
 MDT will look for a matching version of Boot.wim in your imported Operating Systems. This is the version I have in ADK
 
-![](../../.gitbook/assets/2018-07-19_10-55-11.jpg)After importing the matching Operating System in MDT, I can see that it has decided to use this instead of the original WinPE.wim
+![](../../../.gitbook/assets/2018-07-19_10-55-11.jpg)After importing the matching Operating System in MDT, I can see that it has decided to use this instead of the original WinPE.wim
 
-![](../../.gitbook/assets/2018-07-19_10-58-01.jpg)
+![](../../../.gitbook/assets/2018-07-19_10-58-01.jpg)
 
 You can see the difference in sizes in this image BEFORE/AFTER
 
-![](../../.gitbook/assets/2018-07-19_10-59-53.jpg)
+![](../../../.gitbook/assets/2018-07-19_10-59-53.jpg)
 
 If you import an updated Operating System with an updated Boot.wim, it will not automatically detect this as valid because the version does not match. To force ADK and MDT to use your updated WinPE, copy your updated WinPE \(Boot.wim Index 1\) in these locations. For SCCM you should probably do the same with your updated WinPE
 
@@ -120,17 +120,17 @@ This step is important to shrink the internal size if your WIMs. If you do not, 
 
 If you need to enable NetFX3 \(you probably do\), understand that you must run DISM Image Cleanup first as you will not be able to perform a Cleanup after NetFX3 is enabled due to pending operations.
 
-![](../../.gitbook/assets/2018-06-28_15-28-02%20%281%29.png)
+![](../../../.gitbook/assets/2018-06-28_15-28-02%20%281%29.png)
 
 You can run Get-WindowsCapability on a Mounted Windows Image to validate
 
-![](../../.gitbook/assets/2018-06-28_15-31-10.png)
+![](../../../.gitbook/assets/2018-06-28_15-31-10.png)
 
 If you do not reapply the CU to the Install.wim after enabling NetFX3, your computer will show that the Cumulative Update is needed, and it will be applied in Windows. This defeats the whole point of updating the Install.wim.
 
 The image below shows what the mounted Install.wim looks like after reapplying the CU, so yes, this is required
 
-![](../../.gitbook/assets/2018-07-17_12-08-03.png)
+![](../../../.gitbook/assets/2018-07-17_12-08-03.png)
 
 ## Export the WIMs
 
@@ -152,19 +152,19 @@ Repeat this step with your mounted Install.wim. This will ensure that DEVINV is 
 
 This is what the Sources looks like after performing the Robocopy
 
-![](../../.gitbook/assets/2018-07-19_1-50-50.jpg)
+![](../../../.gitbook/assets/2018-07-19_1-50-50.jpg)
 
 If you do not perform this step, Operating System Upgrades will probably fail. Additionally, if you update the Install.wim and not the Sources directory on the OS Media, you will not be able to create an ISO to image from \(or a bootable USB\). This causes a mismatch as detailed in this link from Microsoft
 
 [https://support.microsoft.com/en-us/help/4041170/windows-installation-cannot-find-driver-boot-wim](https://support.microsoft.com/en-us/help/4041170/windows-installation-cannot-find-driver-boot-wim)
 
-![](../../.gitbook/assets/2018-07-16_11-14-04.png)
+![](../../../.gitbook/assets/2018-07-16_11-14-04.png)
 
 ## Windows 10 Upgrade Failures
 
 Windows 10 Upgrades may fail on issues with Application Compatibility. This may happen if the Operating System you are upgrading had received a new Cumulative Update. If the Sources directory in the Upgrade Media has an older version of these files, this will lead to the DEVINV issue I mentioned earlier. The method to ensure that these files are the correct version is to apply the Cumulative Update to the Install.wim and then to Robocopy copy the MATCHING files in the OS Media Sources. Use the image below as a reference for which switches to use.
 
-![](../../.gitbook/assets/2018-07-19_9-37-08.png)
+![](../../../.gitbook/assets/2018-07-19_9-37-08.png)
 
 ## Monthly Updating
 

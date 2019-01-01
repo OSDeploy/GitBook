@@ -18,7 +18,7 @@ If you were to look at the Windows 10 and Server 2016 Update History link
 
 You will see that the 2018-11 Patch Tuesday Cumulative Update \(posted in WSUS\) is not the **Latest** Latest Cumulative Update
 
-![2018-11 Patch Tuesday \(November 13, 2018\)](../../../../.gitbook/assets/2018-12-04_17-11-24%20%281%29.png)
+![2018-11 Patch Tuesday \(November 13, 2018\)](../../../.gitbook/assets/2018-12-04_17-11-24%20%281%29.png)
 
 ## Microsoft Update Catalog
 
@@ -28,7 +28,7 @@ A quick look in the Microsoft Update Catalog will show similar results
 
 The 2018-11 Patch Tuesday release \(November 9, 2018\) is noted as a Security Update, whereas newer releases are Classified as Updates.  What this means is that if your Client is managed by WSUS, the Latest Cumulative Update you will receive will be the Security Update, but **if your Client is not managed by WSUS, you should receive the Latest Latest Cumulative Update**.  In this case, the latest 2018-11 November Cumulative Update you receive will be the one posted in December.  ???????
 
-![2018-11 Patch Tuesday Security Update](../../../../.gitbook/assets/2018-12-04_17-09-43.png)
+![2018-11 Patch Tuesday Security Update](../../../.gitbook/assets/2018-12-04_17-09-43.png)
 
 ## Summary
 

@@ -8,11 +8,11 @@ These functions are commonly shared between all the other OSBuilder Functions
 
 * **\`\`**[**`Get-OSBuilder`**](osbuilder/get-osbuilder/)**\`\`**
   * Primary function used to define common variables
-* **\`\`**[**`Show-OSBInfo`**](osbuilder/show-osbinfo.md)**\`\`**
+* **\`\`**[**`Show-OSBinfo`**](osbuilder/show-osbinfo.md)**\`\`**
   * Returns detailed information about any OSBuilder Media
-* **\`\`**[**`New-OSBIso`**](osbuilder/new-osbiso.md)**\`\`**
+* **\`\`**[**`New-OSBiso`**](osbuilder/new-osbiso.md)**\`\`**
   * Creates a bootable ISO of any OSBuilder Media
-* **\`\`**[**`New-OSBUsb`**](osbuilder/new-osbusb.md)**\`\`**
+* **\`\`**[**`New-OSBusb`**](osbuilder/new-osbusb.md)**\`\`**
   * Creates a bootable USB of any OSBuilder Media
 
 {% page-ref page="osbuilder/" %}

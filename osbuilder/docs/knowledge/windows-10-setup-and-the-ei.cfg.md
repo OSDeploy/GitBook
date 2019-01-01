@@ -2,13 +2,13 @@
 
 Windows 10 1709 and 1803 Volume License media includes multiple Indexes in the WIM.  When booting one of these ISO's in a VM and starting Windows Setup, we can see the different options for installation.  This screen was not displayed prior to 1709 as those ISO's contain a single Index in the WIM.
 
-![](../../.gitbook/assets/2018-07-29_13-28-48.png)
+![](../../../.gitbook/assets/2018-07-29_13-28-48.png)
 
 ### ei.cfg
 
 Additionally, older Media had a file called ei.cfg in the SOURCES directory which contained the EditionID \(ei\).  Since Multi Index ISO's contain multiple versions of Windows, this file does not contain the EditionID.
 
-![](../../.gitbook/assets/2018-07-29_13-22-53.png)
+![](../../../.gitbook/assets/2018-07-29_13-22-53.png)
 
 {% hint style="info" %}
 Learn more about EI.cfg and PID.txt from Microsoft Hardware Dev Center
@@ -20,13 +20,13 @@ Learn more about EI.cfg and PID.txt from Microsoft Hardware Dev Center
 
 I can modify the ei.cfg by adding the EditionID and then create a new ISO.  During Windows Setup, I am not prompted to select an Edition, even though my install.wim has multiple Indexes.
 
-![](../../.gitbook/assets/2018-07-29_13-44-13.png)
+![](../../../.gitbook/assets/2018-07-29_13-44-13.png)
 
 ### Install.wim Single-Index and ei.cfg without EditionID
 
 The Install.wim only has the Enterprise Index, and the ei.cfg does not contain the EditionID.  In this case, no prompt to select an Edition.
 
-![](../../.gitbook/assets/2018-07-29_14-12-37.png)
+![](../../../.gitbook/assets/2018-07-29_14-12-37.png)
 
 ### Install.wim Multi-Index and ei.cfg without EditionID with AutoUnattend.xml Key
 
@@ -53,7 +53,7 @@ Because why not.  In this example I have added the KMS Client Setup Key to a sim
 
 Windows Setup knows which Key corresponds with the proper Edition
 
-![Windows Setup with Key in AutoUnattend.xml](../../.gitbook/assets/2018-07-29_14-49-33.png)
+![Windows Setup with Key in AutoUnattend.xml](../../../.gitbook/assets/2018-07-29_14-49-33.png)
 
 ### Upgrade Issues
 
@@ -67,7 +67,7 @@ According to Microsoft, the product key is not required, but apparently in the c
 [Microsoft: Create a task sequence to upgrade an operating system in System Center Configuration Manager](https://docs.microsoft.com/en-us/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
 {% endhint %}
 
-![](../../.gitbook/assets/2018-07-29_15-15-55.png)
+![](../../../.gitbook/assets/2018-07-29_15-15-55.png)
 
 ### OSDeploy Recommendation
 
@@ -75,7 +75,7 @@ To reduce the risk of any issues, always include the proper KMS Client Setup Key
 
 [See this link for more information](https://answers.microsoft.com/en-us/windows/forum/windows_7-windows_install-winsubother/windows-10-1709-compatability-check-failure/8c41147b-d51a-47ef-a5f3-2d0bad204f3f)
 
-![](../../.gitbook/assets/2018-07-29_15-23-36.png)
+![](../../../.gitbook/assets/2018-07-29_15-23-36.png)
 
 
 

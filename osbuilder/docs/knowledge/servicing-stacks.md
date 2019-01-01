@@ -22,11 +22,11 @@ Yes, but you probably didn't notice. You need to look at the Windows 10 Update H
 
 Look at the How to get this update section of any Cumulative Update and you will probably see a mention of the SSU
 
-![](../../.gitbook/assets/2018-06-27_9-39-14%20%281%29.png)In the case of Windows 10 1607 the June 12, 2018—KB4284880 \(OS Build 14393.2312\) release has some different verbiage
+![](../../../.gitbook/assets/2018-06-27_9-39-14%20%281%29.png)In the case of Windows 10 1607 the June 12, 2018—KB4284880 \(OS Build 14393.2312\) release has some different verbiage
 
 [https://support.microsoft.com/en-us/help/4284880](https://support.microsoft.com/en-us/help/4284880)
 
-![](../../.gitbook/assets/2018-06-27_9-41-39%20%281%29.png)
+![](../../../.gitbook/assets/2018-06-27_9-41-39%20%281%29.png)
 
 ## Where are the Current Downloads?
 
@@ -58,7 +58,7 @@ Edit-OSBuild -Action "Stay Mounted" -ManagePackages
 
 This allows me to make an unmodified copy of Windows 10 1607 \(2016-11\) from my OSMedia Library and to mount the Windows Image. The installed Windows Packages are displayed.
 
-![](../../.gitbook/assets/2018-06-26_23-43-41%20%281%29.png)
+![](../../../.gitbook/assets/2018-06-26_23-43-41%20%281%29.png)
 
 From the screenshot above, I can see the Windows Update Packages that are installed, nothing new
 
@@ -78,7 +78,7 @@ Add-WindowsPackage -Path $Path -PackagePath $PackagePath -LogPath $LogPath
 
 The first thing that seems out of place is that the update happened quick. If you are processing the updates in a script, and not babysitting the process, you will miss the fact that something doesn't seem right.
 
-![](../../.gitbook/assets/2018-06-26_23-51-48%20%281%29.png)
+![](../../../.gitbook/assets/2018-06-26_23-51-48%20%281%29.png)
 
 ## Checking the Log
 
@@ -98,15 +98,15 @@ FLOW: Entering stage: Planning
 Exec: Single phase execution, there's no package planned, skip the rest of execution
 ```
 
-![](../../.gitbook/assets/2018-06-26_23-55-29%20%281%29.png)
+![](../../../.gitbook/assets/2018-06-26_23-55-29%20%281%29.png)
 
-![](../../.gitbook/assets/2018-06-26_23-55-29b%20%282%29.png)
+![](../../../.gitbook/assets/2018-06-26_23-55-29b%20%282%29.png)
 
 ## DISM Applying 2018-06 Cumulative Update without a SSU
 
 So instead of using PowerShell Add-WindowsPackage, I will try to use DISM instead. From the image below, it seems that everything worked fine, although it took less than a minute to run, but I did get a 100%, and the operation completed successfully. When checking the Log, same result as PowerShell, the Cumulative Update did not install.
 
-![](../../.gitbook/assets/2018-06-27_0-04-40%20%281%29.png)
+![](../../../.gitbook/assets/2018-06-27_0-04-40%20%281%29.png)
 
 ## Apply the Servicing Stack First
 
@@ -120,13 +120,13 @@ Exec: Extracting package: Package_for_RollupFix~31bf3856ad364e35~amd64~~14393.23
 FLOW: Entering stage: Extracting
 ```
 
-![](../../.gitbook/assets/2018-06-27_0-09-43b%20%281%29.png)
+![](../../../.gitbook/assets/2018-06-27_0-09-43b%20%281%29.png)
 
 ## Checking the Parent Package Servicing Stack
 
 It is possible to determine the Parent Package Servicing Stack. Expanding the Cumulative Update MSU in 7zip will result in a directory of a few CAB files. The largest file can then be extracted again in 7zip. The update.mum will detail the Parent KB that is required for the update to be installed.
 
-![](../../.gitbook/assets/2018-06-27_0-15-05.png)
+![](../../../.gitbook/assets/2018-06-27_0-15-05.png)
 
 ## Chaining Cumulative Updates
 
@@ -142,5 +142,5 @@ Since my Windows 10 1607 build was from 2016-11, I could have applied every Cumu
 
 I am working on adding Servicing Stacks to OSMedia in a future release . . .
 
-![](../../.gitbook/assets/2018-06-26_15-58-25.png)
+![](../../../.gitbook/assets/2018-06-26_15-58-25.png)
 

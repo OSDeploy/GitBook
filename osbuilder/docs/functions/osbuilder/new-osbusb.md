@@ -1,4 +1,4 @@
-# New-OSBUsb
+# New-OSBusb
 
 You can easily create a USB of your OSMedia, OSBuild or PEBuild
 
