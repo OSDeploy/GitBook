@@ -9,7 +9,7 @@ If you don't feel like reading through all the documentation, here are the quick
 {% embed url="https://gist.github.com/OSDeploy/c0c67cf8be9c7f328e1021915953993d" %}
 
 {% hint style="info" %}
-**How To:**  [**Installation and Requirements**]()\*\*\*\*
+**How To:**  [**Installation**](installation.md)\*\*\*\*
 {% endhint %}
 
 ## 2. Import an Operating System

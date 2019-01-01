@@ -44,14 +44,6 @@ Get-OSMedia -FullDetails | Out-GridView -PassThru
 
 ![](../../../../.gitbook/assets/2018-12-30_3-02-12.png)
 
-## Piping: Display only Latest CU
-
-Or just display the OSMedia with the Latest Cumulative Update
-
-**`(Get-OSMedia -FullDetails).Where({$_.Cumulative -eq 'Latest'})`**
-
-![](../../../../.gitbook/assets/2018-12-30_3-10-54.png)
-
 ## Piping: Show-OSInfo
 
 You can also pipe OSMedia to some other OSBuilder functions like[**`Show-MediaInfo`**](../media/show-mediainfo.md) using any of the following commands
@@ -73,6 +65,14 @@ Get-OSMedia | Update-OSMedia -DownloadUpdates
 ```
 
 ![](../../../../.gitbook/assets/2018-12-31_0-13-45.png)
+
+## Where Method: Display only Latest CU
+
+You can use the Where Method to display the OSMedia with the Latest Cumulative Update
+
+**`(Get-OSMedia -FullDetails).Where({$_.Cumulative -eq 'Latest'})`**
+
+![](../../../../.gitbook/assets/2018-12-30_3-10-54.png)
 
 ## Internal Functions
 
