@@ -4,7 +4,7 @@ Updated 18.10.23Start by selecting [**`New-PEBuildTask`**](./) and select the `W
 
 You have the option to use WinPE.wim or WinRE.wim as the base image to create WinPE Media.  I always recommend selecting WinRE
 
-You also have the option to include [**`-AutoExtraFiles`**](../auto-extrafiles.md) and set the **`-ScratchSpace`**.  The default Scratch Space for WinPE is 32MB, but if you do not select an option \(since this is not a Mandatory parameter\), this will automatically be set to 128MB.
+You also have the option to include [**`-AutoExtraFiles`**](../../../usage/pebuild/auto-extrafiles.md) and set the **`-ScratchSpace`**.  The default Scratch Space for WinPE is 32MB, but if you do not select an option \(since this is not a Mandatory parameter\), this will automatically be set to 128MB.
 
 ![](../../../../../.gitbook/assets/2018-10-18_10-59-52.png)
 

@@ -4,7 +4,7 @@ Start by selecting `New-PEBuildTask` and select the `Recovery` tab.  Keep the Ta
 
 This task will use WinRE.wim to create Recovery Media.
 
-You also have the option to include [**`-AutoExtraFiles`**](../auto-extrafiles.md) and set the **`-ScratchSpace`**.  The default Scratch Space for WinPE is 32MB, but if you do not select an option \(since this is not a Mandatory parameter\), this will automatically be set to 128MB.
+You also have the option to include [**`-AutoExtraFiles`**](../../../usage/pebuild/auto-extrafiles.md) and set the **`-ScratchSpace`**.  The default Scratch Space for WinPE is 32MB, but if you do not select an option \(since this is not a Mandatory parameter\), this will automatically be set to 128MB.
 
 ![](../../../../../.gitbook/assets/2018-10-18_10-32-18.png)
 
