@@ -137,8 +137,6 @@
     * [Windows 10 Setup and the ei.cfg](osbuilder/docs/knowledge/windows-10-setup-and-the-ei.cfg.md)
     * [Automating Windows Update Downloads](osbuilder/docs/knowledge/automating-windows-update-downloads.md)
     * [Solutions](osbuilder/docs/knowledge/solutions.md)
-* [OSMedia](osbuilder/osmedia/README.md)
-  * [Get-OSMedia](osbuilder/osmedia/get-osmedia.md)
 
 ## OSConfig
 
