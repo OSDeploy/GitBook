@@ -2,12 +2,12 @@
 
 There are several OSBuilder functions, and they are grouped by commonality
 
-## Primary
+## Main
 
-* **\`\`**[**`Get-OSBuilder`**](osbuilder/get-osbuilder/)**\`\`**
+* **\`\`**[**`Get-OSBuilder`**](main/get-osbuilder/)**\`\`**
   * Primary function used to define common variables
 
-{% page-ref page="osbuilder/" %}
+{% page-ref page="main/" %}
 
 ## Media Functions
 
@@ -35,7 +35,7 @@ These functions are commonly shared between all the other OSBuilder Functions
 
 * **\`\`**[**`Get-OSMedia`**](osmedia/get-osmedia.md)**\`\`**
   * Returns a PowerShell Custom Object containing detailed OSMedia information
-* **\`\`**[**`Import-OSMedia`**](osmedia/import-osmedia/)**\`\`**
+* **\`\`**[**`Import-OSMedia`**](osmedia/import-osmedia.md)**\`\`**
   * Imports an ISO into OSMedia
 * **\`\`**[**`Update-OSMedia`**](osmedia/update-osmedia/)**\`\`**
   * Applies the latest Microsoft Updates to an OSMedia

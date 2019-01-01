@@ -53,7 +53,7 @@ But I would generally be against this method, and just use OSBuilder to generate
 
 ## Demo
 
-![](../../../../../.gitbook/assets/2018-10-16_2-45-14.png)
+![](../../../../../../.gitbook/assets/2018-10-16_2-45-14.png)
 
 
 

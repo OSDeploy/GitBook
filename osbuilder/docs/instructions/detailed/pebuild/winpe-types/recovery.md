@@ -2,7 +2,7 @@
 
 Windows 10 allows you to create a simple Recovery Drive to USB without much effort.  This uses WinRE, but you can't easily add Drivers and other content using this method
 
-![](../../../../../.gitbook/assets/2018-10-16_15-11-58.png)
+![](../../../../../../.gitbook/assets/2018-10-16_15-11-58.png)
 
 ## New-PEBuildTask
 
@@ -37,11 +37,11 @@ When complete, a Task JSON file will be created which can be used with `New-PEBu
 
 ## Demo
 
-![](../../../../../.gitbook/assets/2018-10-16_2-20-02.png)
+![](../../../../../../.gitbook/assets/2018-10-16_2-20-02.png)
 
-![](../../../../../.gitbook/assets/2018-10-16_2-20-30.png)
+![](../../../../../../.gitbook/assets/2018-10-16_2-20-30.png)
 
-![](../../../../../.gitbook/assets/2018-10-16_2-21-10.png)
+![](../../../../../../.gitbook/assets/2018-10-16_2-21-10.png)
 
 
 

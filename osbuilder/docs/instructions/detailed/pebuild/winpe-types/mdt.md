@@ -2,9 +2,9 @@
 
 You can easily use OSBuilder to create an MDT Boot Image.  One major difference in using OSBuilder is that '**Run the Windows Recovery Wizard**' is now present since OSBuilder uses the OS Boot Images.  WinPE.wim in the ADK does not contain any Recovery Environment components \(which explains why it is so small\)
 
-![MDT without DaRT Integration](../../../../../.gitbook/assets/2018-10-17_2-23-55%20%281%29.png)
+![MDT without DaRT Integration](../../../../../../.gitbook/assets/2018-10-17_2-23-55%20%281%29.png)
 
-![MDT with DaRT Integration](../../../../../.gitbook/assets/2018-10-17_2-24-05%20%281%29.png)
+![MDT with DaRT Integration](../../../../../../.gitbook/assets/2018-10-17_2-24-05%20%281%29.png)
 
 ## New-PEBuildTask
 

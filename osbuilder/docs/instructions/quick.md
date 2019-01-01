@@ -1,4 +1,4 @@
-# Quick Instructions
+# Quick
 
 If you don't feel like reading through all the documentation, here are the quick instructions in 6 steps. These steps can be completed in about 6 **minutes of Touch Time, and 39 - 167 minutes of Processing Time**
 
@@ -9,7 +9,7 @@ If you don't feel like reading through all the documentation, here are the quick
 {% embed url="https://gist.github.com/OSDeploy/c0c67cf8be9c7f328e1021915953993d" %}
 
 {% hint style="info" %}
-**How To:**  [**Installation and Requirements**](installation.md)\*\*\*\*
+**How To:**  [**Installation and Requirements**](../installation.md)\*\*\*\*
 {% endhint %}
 
 ## 2. Import an Operating System
@@ -23,7 +23,7 @@ Import-OSMedia
 ```
 
 {% hint style="info" %}
-**How To:**  [**`Import-OSMedia`**](functions/osmedia/import-osmedia/)**\`\`**
+**How To:**  [**`Import-OSMedia`**](../functions/osmedia/import-osmedia.md)**\`\`**
 {% endhint %}
 
 ## 3. Update an Imported Operating System
@@ -39,7 +39,7 @@ Update-OSMedia -DownloadUpdates -Execute
 {% hint style="info" %}
 **Select the OSMedia that was Imported in \#2**
 
-**How To:**  [**`Update-OSMedia`**](functions/osmedia/update-osmedia/)**\`\`**
+**How To:**  [**`Update-OSMedia`**](../functions/osmedia/update-osmedia/)**\`\`**
 {% endhint %}
 
 ## 4. Create a New OSBuild Task
@@ -53,7 +53,7 @@ New-OSBuildTask -TaskName "Win10 x64 Ent 1809" -EnableNetFX3
 {% hint style="info" %}
 **Select the OSMedia that was Updated in \#3**
 
-**How To:**  [**`New-OSBuildTask`**](functions/osbuild/new-osbuildtask/)**\`\`**
+**How To:**  [**`New-OSBuildTask`**](../functions/osbuild/new-osbuildtask/)**\`\`**
 {% endhint %}
 
 ## 5. Create a New OSBuild
@@ -69,7 +69,7 @@ New-OSBuild -DownloadUpdates -Execute
 {% hint style="info" %}
 **Select the OSBuild Task that was created in \#4**
 
-**How To:** [**`New-OSBuild`**](functions/osbuild/new-osbuild.md)**\`\`**
+**How To:** [**`New-OSBuild`**](../functions/osbuild/new-osbuild.md)**\`\`**
 {% endhint %}
 
 ## 6. Create a Media ISO
@@ -85,7 +85,7 @@ New-MediaISO
 {% hint style="info" %}
 **Select the OSBuild that was created in \#5**
 
-**How To:**  [**`New-MediaISO`**](functions/media/new-mediaiso.md)**\`\`**
+**How To:**  [**`New-MediaISO`**](../functions/media/new-mediaiso.md)**\`\`**
 {% endhint %}
 
 

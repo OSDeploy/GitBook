@@ -10,7 +10,7 @@
   * New function to return all PEBuilds as a PowerShell Custom Object
 * \*\*\*\*[**Get-OSBUpdate**](../docs/functions/updates/get-osbupdate.md)\*\*\*\*
   * _**Rename of Get-OSBuilderUpdates**_
-* \*\*\*\*[**Import-OSMedia**](../docs/functions/osmedia/import-osmedia/)\*\*\*\*
+* \*\*\*\*[**Import-OSMedia**](../docs/functions/osmedia/import-osmedia.md)\*\*\*\*
   * **\`\`**
 * \*\*\*\*[**New-MediaISO**](../docs/functions/media/new-mediaiso.md)\*\*\*\*
   * **`FullName`** parameter is now a Pipeline Value By Property Name 

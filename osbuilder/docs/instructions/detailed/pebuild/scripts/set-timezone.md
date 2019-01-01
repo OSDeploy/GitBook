@@ -20,5 +20,5 @@ Dism /Image:"$MountDirectory" /Set-TimeZone:"Central Standard Time" /LogPath:"$L
 
 ## Download
 
-{% file src="../../../../../.gitbook/assets/set-timezone-central-standard-time.ps1" caption="TimeZone Central Standard Time" %}
+{% file src="../../../../../../.gitbook/assets/set-timezone-central-standard-time.ps1" caption="TimeZone Central Standard Time" %}
 

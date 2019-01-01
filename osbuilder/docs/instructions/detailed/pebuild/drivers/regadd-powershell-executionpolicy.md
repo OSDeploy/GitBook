@@ -1,14 +1,14 @@
 # RegAdd PowerShell ExecutionPolicy
 
-{% file src="../../../../../.gitbook/assets/regadd-powershell-executionpolicy.inf" %}
+{% file src="../../../../../../.gitbook/assets/regadd-powershell-executionpolicy.inf" %}
 
 By default, WinPE has the PowerShell ExecutionPolicy set to **Restricted**
 
-![WinPE Default PowerShell ExecutionPolicy](../../../../../.gitbook/assets/2018-10-18_23-55-22.png)
+![WinPE Default PowerShell ExecutionPolicy](../../../../../../.gitbook/assets/2018-10-18_23-55-22.png)
 
 If you want to set this to **Bypass**, just add the RegAdd PowerShell ExecutionPolicy Driver to make this change automatically.  No need to run PowerCfg or mount the WinPE Registry
 
-![RegAdd PowerShell ExecutionPolicy Driver](../../../../../.gitbook/assets/2018-10-18_23-55-32.png)
+![RegAdd PowerShell ExecutionPolicy Driver](../../../../../../.gitbook/assets/2018-10-18_23-55-32.png)
 
 ## OSBuilder.Public Repository
 

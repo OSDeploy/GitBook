@@ -30,15 +30,15 @@ Or just display the OSMedia with the Latest Cumulative Update
 
 ![](../../.gitbook/assets/2018-12-30_3-10-54%20%281%29.png)
 
-## Show-OSInfo
+## Show-MediaInfo
 
-You can also pipe OSMedia to some other OSBuilder functions like[**`Show-OSInfo`**](../docs/functions/media/show-mediainfo.md) using any of the following commands
+You can also pipe OSMedia to some other OSBuilder functions like[**`Show-MediaInfo`**](../docs/functions/media/show-mediainfo.md) using any of the following commands
 
-**`Get-OSMedia -FullDetails | Out-GridView -PassThru | Show-OSInfo`**
+**`Get-OSMedia -FullDetails | Out-GridView -PassThru | Show-MediaInfo`**
 
-**`Get-OSMedia -FullDetails | Where-Object {$_.Cumulative -eq 'Latest'} | Show-OSInfo`**
+**`Get-OSMedia -FullDetails | Where-Object {$_.Cumulative -eq 'Latest'} | Show-MediaInfo`**
 
-**`(Get-OSMedia -FullDetails).Where({$_.Cumulative -eq 'Latest'}) | Show-OSInfo`**
+**`(Get-OSMedia -FullDetails).Where({$_.Cumulative -eq 'Latest'}) | Show-MediaInfo`**
 
 ![](../../.gitbook/assets/2018-12-30_3-13-54.png)
 

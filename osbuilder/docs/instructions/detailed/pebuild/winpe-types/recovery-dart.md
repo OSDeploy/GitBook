@@ -2,7 +2,7 @@
 
 Microsoft DaRT is also used to create Recovery Image with DaRT integration
 
-![](../../../../../.gitbook/assets/2018-10-16_15-17-07.png)
+![](../../../../../../.gitbook/assets/2018-10-16_15-17-07.png)
 
 ## New-PEBuildTask
 
@@ -39,19 +39,19 @@ The Recovery Prefix will be added automatically to the Task Name, so unless you 
 
 ## Demo
 
-![OSBuilder automatically removes this prompt](../../../../../.gitbook/assets/2018-10-16_2-19-49.png)
+![OSBuilder automatically removes this prompt](../../../../../../.gitbook/assets/2018-10-16_2-19-49.png)
 
-![](../../../../../.gitbook/assets/2018-10-16_2-20-02.png)
+![](../../../../../../.gitbook/assets/2018-10-16_2-20-02.png)
 
-![](../../../../../.gitbook/assets/2018-10-16_2-20-30.png)
+![](../../../../../../.gitbook/assets/2018-10-16_2-20-30.png)
 
-![](../../../../../.gitbook/assets/2018-10-16_2-20-39.png)
+![](../../../../../../.gitbook/assets/2018-10-16_2-20-39.png)
 
-![](../../../../../.gitbook/assets/2018-10-16_2-20-48.png)
+![](../../../../../../.gitbook/assets/2018-10-16_2-20-48.png)
 
-![](../../../../../.gitbook/assets/2018-10-16_2-20-56.png)
+![](../../../../../../.gitbook/assets/2018-10-16_2-20-56.png)
 
-![](../../../../../.gitbook/assets/2018-10-16_2-21-10.png)
+![](../../../../../../.gitbook/assets/2018-10-16_2-21-10.png)
 
 
 
