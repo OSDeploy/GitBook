@@ -117,6 +117,7 @@
         * [MDT](osbuilder/docs/functions/pebuild/new-pebuildtask/mdt.md)
       * [New-PEBuild](osbuilder/docs/functions/pebuild/new-pebuild.md)
   * [Tips](osbuilder/docs/tips/README.md)
+    * [Verbose](osbuilder/docs/tips/verbose.md)
     * [OSMedia Archive](osbuilder/docs/tips/osmedia-archive.md)
     * [OSMedia Failed UBR Change](osbuilder/docs/tips/osmedia-failed-ubr-change.md)
     * [Windows Setup Wallpaper](osbuilder/docs/tips/windows-setup-wallpaper.md)
