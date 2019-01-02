@@ -124,6 +124,7 @@
     * [Windows 7 x64 7601](osbuilder/docs/articles/windows-7/README.md)
       * [Win7 - Import OSMedia](osbuilder/docs/articles/windows-7/win7-import-osmedia.md)
       * [Win7 - Download Updates](osbuilder/docs/articles/windows-7/win7-download-updates.md)
+      * [Win7 - NVMe Hotfix](osbuilder/docs/articles/windows-7/win7-nvme-hotfix.md)
     * [Latest Latest Cumulative Update \(Latest LCU\)](osbuilder/docs/articles/latest-lcu.md)
     * [Update Catalogs](osbuilder/docs/articles/update-catalogs.md)
     * [Windows Setup with DaRT Remote Connection](osbuilder/docs/articles/windows-setup-with-dart-remote-connection.md)
