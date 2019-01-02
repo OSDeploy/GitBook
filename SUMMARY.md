@@ -125,6 +125,7 @@
       * [Import OSMedia](osbuilder/docs/articles/windows-7/import-osmedia.md)
       * [Download Updates](osbuilder/docs/articles/windows-7/download-updates.md)
       * [NVMe Hotfix](osbuilder/docs/articles/windows-7/nvme-hotfix.md)
+      * [Update OSMedia](osbuilder/docs/articles/windows-7/update-osmedia.md)
       * [ISO Testing](osbuilder/docs/articles/windows-7/iso-testing.md)
       * [Build and Capture](osbuilder/docs/articles/windows-7/build-and-capture.md)
     * [Latest Latest Cumulative Update \(Latest LCU\)](osbuilder/docs/articles/latest-lcu.md)
