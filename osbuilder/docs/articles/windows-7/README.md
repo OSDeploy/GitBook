@@ -1,2 +1,2 @@
-# Windows 7
+# Windows 7 x64 7601
 

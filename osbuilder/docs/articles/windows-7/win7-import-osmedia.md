@@ -1,4 +1,4 @@
-# Import Windows 7 x64 7601
+# Win7 - Import OSMedia
 
 ## Requirements
 
