@@ -1,6 +1,14 @@
 # Release Information
 
-## 19.1.1 \(January 1, 2019\) UNRELEASED
+## 19.1.1 \(January 3, 2019\)
+
+{% hint style="danger" %}
+**This Update has not been released yet.  ETA January 3, 2019**
+{% endhint %}
+
+{% hint style="warning" %}
+Because several functions were renamed or changed, it is important that you review the changes for each of them before using in custom Scripts
+{% endhint %}
 
 _**Because several functions were renamed or changed, it is important that you review the changes for each of them before using in custom Scripts**_
 

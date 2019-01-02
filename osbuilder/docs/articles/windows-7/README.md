@@ -1,5 +1,9 @@
 # Windows 7
 
+{% hint style="danger" %}
+**This requires OSBuilder 19 or newer.  At the time of this article, OSBuilder 19 has not been released yet.  ETA January 3, 2019**
+{% endhint %}
+
 You can update **Windows 7 x64 7601 \(SP1 Media\)** with OSBuilder.  Follow these instructions for updating this ancient legacy Operating System
 
 {% hint style="warning" %}
