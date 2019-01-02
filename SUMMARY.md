@@ -126,6 +126,7 @@
       * [Download Updates](osbuilder/docs/articles/windows-7/download-updates.md)
       * [NVMe Hotfix](osbuilder/docs/articles/windows-7/nvme-hotfix.md)
       * [ISO Testing](osbuilder/docs/articles/windows-7/iso-testing.md)
+      * [Build and Capture](osbuilder/docs/articles/windows-7/build-and-capture.md)
     * [Latest Latest Cumulative Update \(Latest LCU\)](osbuilder/docs/articles/latest-lcu.md)
     * [Update Catalogs](osbuilder/docs/articles/update-catalogs.md)
     * [Windows Setup with DaRT Remote Connection](osbuilder/docs/articles/windows-setup-with-dart-remote-connection.md)
