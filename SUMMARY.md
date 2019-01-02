@@ -121,7 +121,7 @@
     * [OSMedia Failed UBR Change](osbuilder/docs/tips/osmedia-failed-ubr-change.md)
     * [Windows Setup Wallpaper](osbuilder/docs/tips/windows-setup-wallpaper.md)
   * [Articles](osbuilder/docs/articles/README.md)
-    * [Windows 7 x64 7601](osbuilder/docs/articles/windows-7/README.md)
+    * [Windows 7](osbuilder/docs/articles/windows-7/README.md)
       * [Import OSMedia](osbuilder/docs/articles/windows-7/import-osmedia.md)
       * [Download Updates](osbuilder/docs/articles/windows-7/download-updates.md)
       * [NVMe Hotfix](osbuilder/docs/articles/windows-7/nvme-hotfix.md)
