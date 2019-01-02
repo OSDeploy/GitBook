@@ -4,10 +4,10 @@
 
 These functions are commonly shared between all the other OSBuilder Functions
 
-* **\`\`**[**`New-MediaISO`**](new-mediaiso.md)**\`\`**
+* **\`\`**[**`New-MediaISO`**](new-osbmediaiso.md)**\`\`**
   * Creates a bootable ISO of any OSBuilder Media
-* **\`\`**[**`New-MediaUSB`**](new-mediausb.md)**\`\`**
+* **\`\`**[**`New-MediaUSB`**](new-osbmediausb.md)**\`\`**
   * Creates a bootable USB of any OSBuilder Media
-* **\`\`**[**`Show-MediaInfo`**](show-mediainfo.md)**\`\`**
+* **\`\`**[**`Show-MediaInfo`**](show-osbmediainfo.md)**\`\`**
   * Returns detailed information about any OSBuilder Media
 

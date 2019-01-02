@@ -13,11 +13,11 @@ There are several OSBuilder functions, and they are grouped by commonality
 
 These functions are commonly shared between all the other OSBuilder Functions
 
-* **\`\`**[**`New-MediaISO`**](media/new-mediaiso.md)**\`\`**
+* **\`\`**[**`New-MediaISO`**](media/new-osbmediaiso.md)**\`\`**
   * Creates a bootable ISO of any OSBuilder Media
-* **\`\`**[**`New-MediaUSB`**](media/new-mediausb.md)**\`\`**
+* **\`\`**[**`New-MediaUSB`**](media/new-osbmediausb.md)**\`\`**
   * Creates a bootable USB of any OSBuilder Media
-* **\`\`**[**`Show-MediaInfo`**](media/show-mediainfo.md)**\`\`**
+* **\`\`**[**`Show-MediaInfo`**](media/show-osbmediainfo.md)**\`\`**
   * Returns detailed information about any OSBuilder Media
 
 {% page-ref page="media/" %}

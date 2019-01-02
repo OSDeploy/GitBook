@@ -1,4 +1,4 @@
-# Win7 - Import OSMedia
+# Import OSMedia
 
 ## Requirements
 

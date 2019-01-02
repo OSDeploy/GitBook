@@ -9,13 +9,13 @@ _**Because several functions were renamed or changed, it is important that you r
 * \*\*\*\*[**Get-OSBUpdate**](../docs/functions/updates/get-osbupdate.md)\*\*\*\*
   * _**Rename of Get-OSBuilderUpdates**_
 * \*\*\*\*[**Import-OSMedia**](../docs/functions/osmedia/import-osmedia.md)\*\*\*\*
-* \*\*\*\*[**New-OSBMediaISO**](../docs/functions/media/new-mediaiso.md)\*\*\*\*
+* \*\*\*\*[**New-OSBMediaISO**](../docs/functions/media/new-osbmediaiso.md)\*\*\*\*
   * _**Rename of New-MediaISO**_
   * **`FullName`** parameter is now a Pipeline Value By Property Name 
-* \*\*\*\*[**New-OSBMediaUSB**](../docs/functions/media/new-mediausb.md)\*\*\*\*
+* \*\*\*\*[**New-OSBMediaUSB**](../docs/functions/media/new-osbmediausb.md)\*\*\*\*
   * _**Rename of New-MediaUSB**_
   * **`FullName`** parameter is now a Pipeline Value By Property Name
-* \*\*\*\*[**Show-OSBMediaInfo**](../docs/functions/media/show-mediainfo.md)\*\*\*\*
+* \*\*\*\*[**Show-OSBMediaInfo**](../docs/functions/media/show-osbmediainfo.md)\*\*\*\*
   * _**Rename of Show-OSInfo**_
 
 **Documentation**

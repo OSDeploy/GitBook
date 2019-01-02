@@ -1,4 +1,4 @@
-# New-MediaISO
+# New-OSBMediaISO
 
 This function allows you to create a bootable ISO from any OSMedia, OSBuild, or PEBuild
 
