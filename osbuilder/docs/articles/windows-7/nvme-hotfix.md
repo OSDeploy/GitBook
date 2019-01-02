@@ -28,7 +28,7 @@ Simply run another [**`Update-OSMedia -DownloadUpdates`**](../../functions/osmed
 
 ## WinPE
 
-For Windows 7 only the Servicing and Cumulative Updates are typically applied.  For all other updates I change the Severity of the update to WinPE.  OSBuilder will automatically import these Microsoft Updates in WinPE for Windows 7 as long as this value is present.
+For Windows 7, only the Servicing and Cumulative Updates are applied to WinPE.  For the NVMe Hotfixes, I change the Severity of the update to WinPE.  OSBuilder will automatically import these Microsoft Updates in WinPE for Windows 7 as long as this value is present.
 
 ![](../../../../.gitbook/assets/2019-01-01_23-32-36.png)
 
