@@ -115,6 +115,7 @@
         * [WinPE](osbuilder/docs/functions/pebuild/new-pebuildtask/winpe.md)
         * [MDT](osbuilder/docs/functions/pebuild/new-pebuildtask/mdt.md)
       * [New-PEBuild](osbuilder/docs/functions/pebuild/new-pebuild.md)
+  * [Guides](osbuilder/docs/guides.md)
   * [Tips](osbuilder/docs/tips/README.md)
     * [Verbose Logging](osbuilder/docs/tips/verbose-logging.md)
     * [OSMedia Archive](osbuilder/docs/tips/osmedia-archive.md)
