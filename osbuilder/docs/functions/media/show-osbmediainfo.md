@@ -2,6 +2,30 @@
 
 This function is used to display information about any **`OSMedia`**, **`OSBuild`**, or **`PEBuild`**.  If you want to know how this works, read [Knowledge: OSBuilder OS Information](../../articles/osbuilder-os-information.md)
 
+```text
+<#
+.SYNOPSIS
+Shows Operating System information of any OSBuilder Media
+
+.DESCRIPTION
+Shows Operating System information of any OSBuilder Media (OSMedia, OSBuilds, PEBuilds)
+
+.LINK
+https://www.osdeploy.com/osbuilder/docs/functions/media/show-osbmediainfo
+
+.PARAMETER FullName
+Full Path of the OSBuilder Media
+#>
+
+function Show-OSBMediaInfo {
+    [CmdletBinding()]
+    PARAM (
+		[Parameter(ValueFromPipelineByPropertyName)]
+		[string[]]$FullName
+    )
+}
+```
+
 ## Show-OSBinfo
 
 When using **`Show-OSBinfo`** without any parameters, you will be prompted to select an OSMedia, OSBuild, or PEBuild.  Select one or more and press OK

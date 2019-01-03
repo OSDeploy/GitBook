@@ -1,52 +1,72 @@
 # Import-OSMedia
 
-## Parameters
+```text
+.SYNOPSIS
+Imports an Operating System into OSBuilder
+
+.DESCRIPTION
+Imports a supported Operating System into the OSBuilder OSMedia directory
+
+.LINK
+https://www.osdeploy.com/osbuilder/docs/functions/osmedia/import-osmedia
+
+.PARAMETER CreateISO
+New-OSBMediaISO -FullName $FullName
+Creates an ISO after Import
+
+.PARAMETER ShowMediaInfo
+Show-OSBMediaInfo -FullName $FullName
+Displays Media Information after Import
+
+.PARAMETER UpdateOSMedia
+Update-OSMedia -Name $Name -DownloadUpdates -Execute
+Automatically updates the Imported Operating System
+
+.PARAMETER EditionId
+Operating System Edition to import
+
+.PARAMETER ImageIndex
+Operating System Index to Import
+
+.PARAMETER ImageName
+Operating System Image Name to Import
+
+.PARAMETER SkipGridView
+Used to bypass the ISE GridView Operating System Selection
+
+.EXAMPLE
+Import-OSMedia -EditionId Enterprise
+
+.EXAMPLE
+Import-OSMedia -EditionId Enterprise -SkipGridView
+
+.EXAMPLE
+Import-OSMedia -EditionId Enterprise -SkipGridView -UpdateOSMedia
+```
+
+
 
 {% tabs %}
 {% tab title="Basic" %}
-* **\[switch\] NewMediaISO**
-* **\[switch\] ShowOSInfo**
-* **\[switch\] UpdateOSMedia**
+```text
+[switch]$CreateISO,
+[switch]$ShowMediaInfo,
+[switch]$UpdateOSMedia,
+```
 {% endtab %}
 
 {% tab title="Advanced" %}
-* **\[string\] EditionId**
-* **\[int\] ImageIndex**
-* **\[string\] ImageName**
-* **\[switch\] NewMediaISO**
-* **\[switch\] ShowOSInfo**
-* **\[switch\] SkipGridView**
-* **\[switch\] UpdateOSMedia**
-{% endtab %}
-{% endtabs %}
-
-## Usage
-
-{% tabs %}
-{% tab title="Basic" %}
-* -**NewMediaISO**
-  * Executes New-MediaISO -OSMediaPath $OSMediaPath to creates an ISO after Import
-* -**ShowOSInfo**
-  * Executes Show-OSInfo -OSMediaPath $OSMediaPath to display the OS Information after Import
-* -**UpdateOSMedia**
-  * Executes Update-OSMedia -OSMediaName $OSMediaName -DownloadUpdates -Execute after Import
-{% endtab %}
-
-{% tab title="Advanced" %}
-* -**NewMediaISO**
-  * Executes New-MediaISO -OSMediaPath $OSMediaPath to creates an ISO after Import
-* -**ShowOSInfo**
-  * Executes Show-OSInfo -OSMediaPath $OSMediaPath to display the OS Information after Import
-* -**UpdateOSMedia**
-  * Executes Update-OSMedia -OSMediaName $OSMediaName -DownloadUpdates -Execute after Import
-* -**EditionId**
-  * Operating System Edition to import
-* -**ImageIndex**
-  * Operating System Index to Import
-* -**ImageName**
-  * Operating System Image Name to Import
-* -**SkipGridView**
-  * Used to bypass the ISE GridView Operating System Selection
+```text
+[switch]$CreateISO,
+[switch]$ShowMediaInfo,
+[switch]$UpdateOSMedia,
+[ValidateSet('Education','EducationN','Enterprise','EnterpriseN','EnterpriseS','EnterpriseSN','Professional','ProfessionalEducation','ProfessionalEducationN','ProfessionalN','ProfessionalWorkstation','ProfessionalWorkstationN','ServerRdsh','ServerDatacenter','ServerDatacenterACor','ServerRdsh','ServerStandard','ServerStandardACor')]
+[string]$EditionId,
+[int]$ImageIndex,
+[ValidateSet('Windows 10 Education','Windows 10 Education N','Windows 10 Enterprise','Windows 10 Enterprise 2016 LTSB','Windows 10 Enterprise for Virtual Desktops','Windows 10 Enterprise LTSC','Windows 10 Enterprise N','Windows 10 Enterprise N LTSC','Windows 10 Pro','Windows 10 Pro Education','Windows 10 Pro Education N','Windows 10 Pro for Workstations','Windows 10 Pro N','Windows 10 Pro N for Workstations','Windows Server 2016 Datacenter','Windows Server 2016 Datacenter (Desktop Experience)','Windows Server 2016 Standard','Windows Server 2016 Standard (Desktop Experience)','Windows Server 2019 Datacenter','Windows Server 2019 Datacenter (Desktop Experience)','Windows Server 2019 Standard','Windows Server 2019 Standard (Desktop Experience)','Windows Server Datacenter','Windows Server Standard')]
+[string]$ImageName,
+[switch]$SkipGridView
+```
 {% endtab %}
 {% endtabs %}
 

@@ -2,7 +2,7 @@
 
 **OSBuilder** is published in the [PowerShell Gallery](https://www.powershellgallery.com/) at the following link
 
-{% embed url="https://www.powershellgallery.com/packages/OSBuilder" %}
+\*\*\*\*[**https://www.powershellgallery.com/packages/OSBuilder**](https://www.powershellgallery.com/packages/OSBuilder)\*\*\*\*
 
 Installation of **OSBuilder** is through a **PowerShell** command line. Use the following command lines to Uninstall previous versions and to install the latest version of OSBuilder
 
