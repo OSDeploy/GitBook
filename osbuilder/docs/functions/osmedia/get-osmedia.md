@@ -46,7 +46,7 @@ Get-OSMedia -FullDetails | Out-GridView -PassThru
 
 ## Piping: Show-OSInfo
 
-You can also pipe OSMedia to some other OSBuilder functions like[**`Show-MediaInfo`**](../media/show-osbmediainfo.md) using any of the following commands
+You can also pipe OSMedia to some other OSBuilder functions like[**`Show-MediaInfo`**](../osbmedia/show-osbmediainfo.md) using any of the following commands
 
 ```text
 Get-OSMedia -FullDetails | Out-GridView -PassThru | Show-MediaInfo

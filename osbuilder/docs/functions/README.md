@@ -9,27 +9,27 @@ There are several OSBuilder functions, and they are grouped by commonality
 
 {% page-ref page="main/" %}
 
-## Media Functions
+## OSBMedia Functions
 
 These functions are commonly shared between all the other OSBuilder Functions
 
-* **\`\`**[**`New-MediaISO`**](media/new-osbmediaiso.md)**\`\`**
+* **\`\`**[**`New-MediaISO`**](osbmedia/new-osbmediaiso.md)**\`\`**
   * Creates a bootable ISO of any OSBuilder Media
-* **\`\`**[**`New-MediaUSB`**](media/new-osbmediausb.md)**\`\`**
+* **\`\`**[**`New-MediaUSB`**](osbmedia/new-osbmediausb.md)**\`\`**
   * Creates a bootable USB of any OSBuilder Media
-* **\`\`**[**`Show-MediaInfo`**](media/show-osbmediainfo.md)**\`\`**
+* **\`\`**[**`Show-MediaInfo`**](osbmedia/show-osbmediainfo.md)**\`\`**
   * Returns detailed information about any OSBuilder Media
 
-{% page-ref page="media/" %}
+{% page-ref page="osbmedia/" %}
 
-## Update Functions
+## OSBUpdate Functions
 
-* **\`\`**[**`Get-OSBUpdate`**](updates/get-osbupdate.md)**\`\`**
+* **\`\`**[**`Get-OSBUpdate`**](osbupdate/get-osbupdate.md)**\`\`**
   * Downloads OSBuilder Update Catalogs and Microsoft Updates
-* **\`\`**[**`New-OSBUpdate`**](updates/new-osbupdate.md)**\`\`**
+* **\`\`**[**`New-OSBUpdate`**](osbupdate/new-osbupdate.md)**\`\`**
   * Creates a custom OSBuilder Update Catalog
 
-{% page-ref page="updates/" %}
+{% page-ref page="osbupdate/" %}
 
 ## OSMedia Functions
 

@@ -8,15 +8,15 @@
 
 * [**Get-OSMedia**](../docs/functions/osmedia/get-osmedia.md)\*\*\*\*
   * New function to return all OSMedia as a PowerShell Custom Object
-* \*\*\*\*[**Get-OSBUpdate**](../docs/functions/updates/get-osbupdate.md)\*\*\*\*
+* \*\*\*\*[**Get-OSBUpdate**](../docs/functions/osbupdate/get-osbupdate.md)\*\*\*\*
   * _**Rename of Get-OSBuilderUpdates**_
-* \*\*\*\*[**New-OSBMediaISO**](../docs/functions/media/new-osbmediaiso.md)\*\*\*\*
+* \*\*\*\*[**New-OSBMediaISO**](../docs/functions/osbmedia/new-osbmediaiso.md)\*\*\*\*
   * _**Rename of New-MediaISO**_
   * **`FullName`** parameter is now a Pipeline Value By Property Name 
-* \*\*\*\*[**New-OSBMediaUSB**](../docs/functions/media/new-osbmediausb.md)\*\*\*\*
+* \*\*\*\*[**New-OSBMediaUSB**](../docs/functions/osbmedia/new-osbmediausb.md)\*\*\*\*
   * _**Rename of New-MediaUSB**_
   * **`FullName`** parameter is now a Pipeline Value By Property Name
-* \*\*\*\*[**Show-OSBMediaInfo**](../docs/functions/media/show-osbmediainfo.md)\*\*\*\*
+* \*\*\*\*[**Show-OSBMediaInfo**](../docs/functions/osbmedia/show-osbmediainfo.md)\*\*\*\*
   * _**Rename of Show-OSInfo**_
 
 #### **Windows 7**

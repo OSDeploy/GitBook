@@ -1,6 +1,6 @@
-# Update
+# OSBUpdate
 
-## Update Functions
+## OSBUpdate Functions
 
 * **\`\`**[**`Get-OSBUpdate`**](get-osbupdate.md)**\`\`**
   * Downloads OSBuilder Update Catalogs and Microsoft Updates

@@ -1,6 +1,6 @@
-# Media
+# OSBMedia
 
-## Media Functions
+## OSBMedia Functions
 
 These functions are commonly shared between all the other OSBuilder Functions
 

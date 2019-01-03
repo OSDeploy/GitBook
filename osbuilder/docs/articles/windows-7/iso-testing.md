@@ -1,6 +1,6 @@
 # ISO Testing
 
-Create a new ISO with [**`New-OSBMediaISO`**](../../functions/media/new-osbmediaiso.md) and install Windows 7 on a clean Virtual Machine
+Create a new ISO with [**`New-OSBMediaISO`**](../../functions/osbmedia/new-osbmediaiso.md) and install Windows 7 on a clean Virtual Machine
 
 ![](../../../../.gitbook/assets/2019-01-01_23-37-27.png)
 

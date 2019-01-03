@@ -1,6 +1,14 @@
 # OSMedia
 
-OSMedia is defined as an Operating System without any customizations.  Any ISO downloaded from Microsoft MVLS or MSDN would be considered OSMedia.  An Operating System that has Security Updates applied using Offline Servicing is also considered OSMedia, as this is considered a customization.
+## Definition
+
+**OSMedia** is an abbreviation of **Operating System Media**.  **OSBuilder** defines OSMedia as an **Operating System Media without customizations**.
+
+An Operating System ISO downloaded from Microsoft MVLS or MSDN would be considered **OSMedia**.
+
+Microsoft releases monthly Security Updates, and sometimes releases updated OSMedia with these monthly Security Updates included.  OSBuilder "mirrors" this process to create updated OSMedia through Offline Servicing.  This is not considered a customization as there are no material changes to the Operating System itself.
+
+A customized OSMedia with material changes to the Operating System itself is referred to as an [**`OSBuild`**](../osbuild/)**\`\`**
 
 ## Import-OSMedia
 
