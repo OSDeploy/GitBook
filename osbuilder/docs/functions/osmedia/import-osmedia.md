@@ -97,8 +97,8 @@ Once the scanning is complete, a GridView will display with all the available Wi
 
 After the Windows Image selection, the Install.wim or Install.esd will be mounted so **OSBuilder** can gather additional information.  Two important pieces of information will be displayed
 
-* **OSMediaName** - This is the **Name** of the Operating System as defined by **OSBuilder**.  This is used in the Directory Name of the **OSMedia**.  It contains the following information in an abbreviated format
-  * **&lt;Operating System&gt; &lt;Edition&gt; &lt;Architecture&gt; &lt;Version&gt; &lt;UBR&gt;**
+* **OSMediaName** - This is the **Name** of the Operating System as defined by **OSBuilder**.  This is used in the Directory Name of the **OSMedia**.  It contains the following information ~~in an abbreviated format~~
+  * **&lt;ImageName&gt; &lt;Architecture&gt; &lt;Version&gt; &lt;UBR&gt;**
 * **OSMediaPath** - This is the **FullName** or **Path** of the **OSMedia**
 
 #### Import Phase
@@ -107,7 +107,7 @@ When the Mount Phase is complete, the Operating System can be copied into **OSBu
 
 The process of importing an Operating System will take about 1 minute of actual work, with about 6 - 8 minutes of processing
 
-![](../../../../.gitbook/assets/2018-12-31_0-32-17.png)
+![](../../../../.gitbook/assets/2019-01-07_0-49-02.png)
 
 ## -NewMediaISO
 
