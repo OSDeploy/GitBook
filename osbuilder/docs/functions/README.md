@@ -60,3 +60,14 @@ These functions are commonly shared between all the other OSBuilder Functions
 
 {% page-ref page="pebuild/" %}
 
+## Repair Functions
+
+* \*\*\*\*[**Repair-OSBuildTask**](repair/repair-osbuildtask.md)\*\*\*\*
+  * Repairs an existing OSBuild Task to the current version
+* **Repair-PEBuildTask**
+  * Repairs an existing PEBuild Task to the current version
+
+{% page-ref page="repair/" %}
+
+
+

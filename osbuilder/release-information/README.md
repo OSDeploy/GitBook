@@ -1,5 +1,21 @@
 # Release Information
 
+## 19.1.x \(Unreleased\)
+
+This update brings some major changes to OSMedia and Tasks
+
+* Import-OSMedia
+* Get-OSMedia
+* Repair functions have been added to update existing Tasks
+  * \*\*\*\*[**Repair-OSBuildTask**](../docs/functions/repair/repair-osbuildtask.md) - Repairs an existing OSBuild Task to the updated format.  You will need to select an existing OSMedia to complete the Repair
+  * **Repair-PEBuildTask** - Repairs an existing PEBuild Task to the updated format.  You will need to select an existing OSMedia to complete the Repair
+
+#### Tasks
+
+Tasks have been updated to contain more detailed information about the OSMedia that is used for the task.  This change requires an update to all existing OSBuild and PEBuild Tasks
+
+![](../../.gitbook/assets/2019-01-06_23-39-58.png)
+
 ## 19.1.2 \(January 2, 2019\)
 
 {% hint style="danger" %}
