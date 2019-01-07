@@ -26,7 +26,7 @@ Previous versions of OSBuilder would abbreviate the Directory Name of the Operat
 
 #### Tasks
 
-Tasks have been updated to contain more detailed information about the OSMedia that is used for the task.  This change requires an update to all existing OSBuild and PEBuild Tasks
+Tasks have been updated to contain more detailed information about the OSMedia that is used for the task.  This change requires an update to all existing OSBuild and PEBuild Tasks.  You can easily see the additional OSMedia information contained in the Task
 
 ![](../../.gitbook/assets/2019-01-06_23-39-58.png)
 
