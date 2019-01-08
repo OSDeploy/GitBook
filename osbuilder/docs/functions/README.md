@@ -60,14 +60,16 @@ These functions are commonly shared between all the other OSBuilder Functions
 
 {% page-ref page="pebuild/" %}
 
-## Repair Functions
+## Maintenance Functions
 
-* \*\*\*\*[**Repair-OSBuildTask**](repair/repair-osbuildtask.md)\*\*\*\*
-  * Repairs an existing OSBuild Task to the current version
+* **Rename-OSMedia**
+  * Renames existing OSMedia to **Current** Format
+* \*\*\*\*[**Repair-OSBuildTask**](maintenance/repair-osbuildtask.md)\*\*\*\*
+  * Repairs an existing OSBuild Task to the **Current** Version
 * **Repair-PEBuildTask**
-  * Repairs an existing PEBuild Task to the current version
+  * Repairs an existing PEBuild Task to the **Current** version
 
-{% page-ref page="repair/" %}
+{% page-ref page="maintenance/" %}
 
 
 

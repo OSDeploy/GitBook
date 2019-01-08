@@ -8,13 +8,13 @@ This update brings some major changes to OSMedia and Tasks
   * Updated to include OSMChain and OSMGuid
 * \*\*\*\*[**Get-OSMedia**](../docs/functions/osmedia/get-osmedia.md)\*\*\*\*
   * Updated to include OSMChain and OSMGuid
-* \*\*\*\*[**Repair Functions**](../docs/functions/repair/) have been added to update existing OSBuild and PEBuild Tasks
-  * \*\*\*\*[**Repair-OSBuildTask**](../docs/functions/repair/repair-osbuildtask.md) - Repairs an existing OSBuild Task to the updated format.  You will need to select an existing OSMedia to complete the Repair
+* \*\*\*\*[**Repair Functions**](../docs/functions/maintenance/) have been added to update existing OSBuild and PEBuild Tasks
+  * \*\*\*\*[**Repair-OSBuildTask**](../docs/functions/maintenance/repair-osbuildtask.md) - Repairs an existing OSBuild Task to the updated format.  You will need to select an existing OSMedia to complete the Repair
   * **Repair-PEBuildTask** - Repairs an existing PEBuild Task to the updated format.  You will need to select an existing OSMedia to complete the Repair
 
 #### OSMChain and OSMGuid
 
-These values are added to each Imported and Updated **OSMedia** to allow proper Image associations for Tasks.  This also allows directories to be renamed without impacting associations.  This change is what requires Tasks to be Repaired using [**Repair-OSBuildTask**](../docs/functions/repair/repair-osbuildtask.md) and **Repair-PEBuildTask**
+These values are added to each Imported and Updated **OSMedia** to allow proper Image associations for Tasks.  This also allows directories to be renamed without impacting associations.  This change is what requires Tasks to be Repaired using [**Repair-OSBuildTask**](../docs/functions/maintenance/repair-osbuildtask.md) and **Repair-PEBuildTask**
 
 ![](../../.gitbook/assets/2019-01-07_0-57-08.png)
 
