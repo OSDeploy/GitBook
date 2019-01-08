@@ -117,6 +117,7 @@
       * [New-PEBuild](osbuilder/docs/functions/pebuild/new-pebuild.md)
     * [Repair](osbuilder/docs/functions/repair/README.md)
       * [Repair-OSBuildTask](osbuilder/docs/functions/repair/repair-osbuildtask.md)
+      * [Repair-PEBuildTask](osbuilder/docs/functions/repair/repair-pebuildtask.md)
   * [Guides](osbuilder/docs/guides.md)
   * [Tips](osbuilder/docs/tips/README.md)
     * [Verbose Logging](osbuilder/docs/tips/verbose-logging.md)
