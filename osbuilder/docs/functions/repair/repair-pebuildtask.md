@@ -6,7 +6,7 @@ The purpose of **Repair-PEBuildTask** is to update an old PEBuild Task to the cu
 
 ## Example <a id="usage"></a>
 
-In this example I have some PEBuild Tasks which can be identified by the prefix in the Json File Name \(MDT, Recovery, and WinPE\)
+In this example I have some PEBuild Tasks which can be identified by the MDT, Recovery, or WinPE prefix in the Json File Name
 
 ![](../../../../.gitbook/assets/2019-01-07_23-17-40.png)
 
@@ -18,7 +18,7 @@ When using an old PEBuild Task with [**New-PEBuild**](../pebuild/new-pebuild.md)
 
 ![](../../../../.gitbook/assets/2019-01-07_23-22-18.png)
 
-In this case, in PowerShell ISE,  execute **Repair-PEBuildTask** without any Parameters.  You will be prompted to select an existing [**OSMedia**](../../instructions/detailed/osmedia/) for use with each of the PEBuild Tasks that need to be updated
+In PowerShell ISE,  execute **Repair-PEBuildTask** without any Parameters.  You will be prompted to select an existing [**OSMedia**](../../instructions/detailed/osmedia/) for use with each of the PEBuild Tasks that need to be updated
 
 ![](../../../../.gitbook/assets/2019-01-07_23-25-35.png)
 
