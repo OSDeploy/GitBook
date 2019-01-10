@@ -1,5 +1,11 @@
 # Release Information
 
+## 19.1.10 \(January 10, 2019\)
+
+I had to do a quick update to resolve a sort issue where the UBR was sorted as a number, and not as a version.  Sorry!
+
+![](../../.gitbook/assets/2019-01-10_2-34-48.png)
+
 ## 19.1.9 \(January 9, 2019\)
 
 {% hint style="danger" %}
