@@ -18,7 +18,7 @@
 9. Enjoy
 {% endhint %}
 
-This update brings some major changes to OSMedia and Tasks
+**This update brings some major changes to OSMedia and Tasks**
 
 * \*\*\*\*[**Get-OSMedia**](../docs/functions/osmedia/get-osmedia.md)\*\*\*\*
   * Updated to include OSMFamily and OSMGuid information
