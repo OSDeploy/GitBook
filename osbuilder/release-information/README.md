@@ -2,6 +2,20 @@
 
 ## 19.1.10 \(January 10, 2019\)
 
+{% hint style="danger" %}
+This is not an update and keep rolling update, follow these steps, in this order
+{% endhint %}
+
+1. **`Uninstall-Module -Name OSBuilder -AllVersions -Force`**
+2. **`Install-Module -Name OSBuilder -Scope CurrentUser -Force`**
+3. Close all PowerShell sessions
+4. Launch PowerShell ISE as Admin
+5. **`Get-OSMedia`** \(this may take a while on first run\)
+6. **`Rename-OSMedia`**
+7. **`Repair-OSBuildTask`**
+8. **`Repair-PEBuildTask`**
+9. Enjoy
+
 This update brings some major changes to OSMedia and Tasks
 
 * \*\*\*\*[**Get-OSMedia**](../docs/functions/osmedia/get-osmedia.md)\*\*\*\*
@@ -50,7 +64,7 @@ Previous versions of OSBuilder would abbreviate the OSMedia Directory Name of th
 
 #### Tasks
 
-Tasks have been updated to contain more detailed information about the OSMedia that is used for the task.  This change requires an update to all existing OSBuild and PEBuild Tasks.  You can easily see the additional OSMedia information contained in the Task
+Tasks have been updated to contain more detailed information about the OSMedia that is used for the task.  This change requires an update to all existing OSBuild and PEBuild Tasks.  You can easily see the additional OSMedia information contained in the Task with the update
 
 ![](../../.gitbook/assets/2019-01-06_23-39-58.png)
 
