@@ -1,11 +1,12 @@
 # Release Information
 
-## 19.1.10 \(January 10, 2019\)
+## 19.1.9 \(January 9, 2019\)
 
 {% hint style="danger" %}
-This is not an update and keep rolling update, follow these steps, in this order
+**This is not an "update the Module and keep rolling" release.  Follow these steps, in this order:**
 {% endhint %}
 
+{% hint style="warning" %}
 1. **`Uninstall-Module -Name OSBuilder -AllVersions -Force`**
 2. **`Install-Module -Name OSBuilder -Scope CurrentUser -Force`**
 3. Close all PowerShell sessions
@@ -15,6 +16,7 @@ This is not an update and keep rolling update, follow these steps, in this order
 7. **`Repair-OSBuildTask`**
 8. **`Repair-PEBuildTask`**
 9. Enjoy
+{% endhint %}
 
 This update brings some major changes to OSMedia and Tasks
 
