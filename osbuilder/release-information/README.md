@@ -1,5 +1,13 @@
 # Release Information
 
+## 19.1.11 \(January 11, 2019\)
+
+Create a patched OSMedia Windows 7 x86
+
+Make sure you read the Windows 7 Guide
+
+{% page-ref page="../docs/guides/windows-7-sp1/" %}
+
 ## 19.1.10 \(January 10, 2019\)
 
 I had to do a quick update to resolve a sort issue where the UBR was sorted as a number, and not as a version.  Sorry!
@@ -99,7 +107,7 @@ Tasks have been updated to contain more detailed information about the OSMedia t
 
 Yup, its supported.  Here is what you need to know
 
-{% page-ref page="../docs/articles/windows-7/" %}
+{% page-ref page="../docs/guides/windows-7-sp1/" %}
 
 **Documentation**
 
