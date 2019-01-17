@@ -1,4 +1,12 @@
+---
+description: Requires OSBuilder 19.1.17+
+---
+
 # Features On Demand
+
+{% hint style="info" %}
+You need OSBuilder 19.1.17+ for this to function properly
+{% endhint %}
 
 To enable Features on Demand, you will need to Download and extract an ISO from MVLS.  Before getting started, make sure you read and understand what are the available Features on Demand
 
