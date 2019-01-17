@@ -79,19 +79,19 @@ Importing an Operating System into OSBuilder is one of the first steps that shou
 * **Windows Server 2016**
 * **Windows Server 2019**
 
-![](../../../../.gitbook/assets/2018-12-14_13-16-00.png)
+![](../../../../../.gitbook/assets/2018-12-14_13-16-00.png)
 
 ## Import-OSMedia
 
 **`Import-OSMedia`** can be run without any parameters in PowerShell ISE \(for GridView functionality\).  Once executed, it will will search all attached Drives for install.wim or Install.esd files.  This process should take about a minute, so be patient and let the scan finish.  During the scan, any Operating Systems that are found will be displayed
 
-![](../../../../.gitbook/assets/2018-12-31_0-21-37.png)
+![](../../../../../.gitbook/assets/2018-12-31_0-21-37.png)
 
 #### GridView
 
 Once the scanning is complete, a GridView will display with all the available Windows Images. Multi-select the ones you want to import and press OK
 
-![](../../../../.gitbook/assets/2018-12-31_0-23-26.png)
+![](../../../../../.gitbook/assets/2018-12-31_0-23-26.png)
 
 #### Mount Phase
 
@@ -107,7 +107,7 @@ When the Mount Phase is complete, the Operating System can be copied into **OSBu
 
 The process of importing an Operating System will take about 1 minute of actual work, with about 6 - 8 minutes of processing
 
-![](../../../../.gitbook/assets/2019-01-07_0-49-02.png)
+![](../../../../../.gitbook/assets/2019-01-07_0-49-02.png)
 
 ## -NewMediaISO
 
@@ -117,31 +117,31 @@ The process of importing an Operating System will take about 1 minute of actual 
 
 **Usage:  `Import-OSMedia -NewMediaISO`**
 
-Creates an ISO of the imported **OSMedia** in the **&lt;OSMediaPath&gt;\ISO** directory using the **OSBuilder** [**`New-MediaISO`**](../osbmedia/new-osbmediaiso.md) function.  The following command line is passed
+Creates an ISO of the imported **OSMedia** in the **&lt;OSMediaPath&gt;\ISO** directory using the **OSBuilder** [**`New-MediaISO`**](../../osbmedia/new-osbmediaiso.md) function.  The following command line is passed
 
 ```text
 New-MediaISO -FullName "$FullName"
 ```
 
-{% page-ref page="../osbmedia/new-osbmediaiso.md" %}
+{% page-ref page="../../osbmedia/new-osbmediaiso.md" %}
 
 ## -ShowOSInfo
 
 **Usage:  `Import-OSMedia -ShowOSInfo`**
 
-Displays the full **OSMedia** Information by executing the **OSBuilder** [**`Show-OSInfo`**](../osbmedia/show-osbmediainfo.md) function.  The following command line is passed
+Displays the full **OSMedia** Information by executing the **OSBuilder** [**`Show-OSInfo`**](../../osbmedia/show-osbmediainfo.md) function.  The following command line is passed
 
 ```text
 Show-OSInfo -FullName "$FullName"
 ```
 
-{% page-ref page="../osbmedia/show-osbmediainfo.md" %}
+{% page-ref page="../../osbmedia/show-osbmediainfo.md" %}
 
 ## -UpdateOSMedia
 
 **Usage:  `Import-OSMedia -UpdateOSMedia`**
 
-Automatically applies patches to the imported Operating System using the **OSBuilder** [**`Update-OSMedia`**](update-osmedia/) function.  The following command line is processed
+Automatically applies patches to the imported Operating System using the **OSBuilder** [**`Update-OSMedia`**](../update-osmedia/) function.  The following command line is processed
 
 ```text
 Update-OSMedia -Name $Name -DownloadUpdates -Execute
@@ -149,7 +149,7 @@ Update-OSMedia -Name $Name -DownloadUpdates -Execute
 
 This option will automatically download any required Updates.  You will need an Internet connection and keep in mind the Cumulative Updates are quite large, so don't do this with a Metered Connection.
 
-{% page-ref page="update-osmedia/" %}
+{% page-ref page="../update-osmedia/" %}
 
 ## -EditionId
 

@@ -35,7 +35,7 @@ These functions are commonly shared between all the other OSBuilder Functions
 
 * **\`\`**[**`Get-OSMedia`**](osmedia/get-osmedia.md)**\`\`**
   * Returns a PowerShell Custom Object containing detailed OSMedia information
-* **\`\`**[**`Import-OSMedia`**](osmedia/import-osmedia.md)**\`\`**
+* **\`\`**[**`Import-OSMedia`**](osmedia/import-osmedia/)**\`\`**
   * Imports an ISO into OSMedia
 * **\`\`**[**`Update-OSMedia`**](osmedia/update-osmedia/)**\`\`**
   * Applies the latest Microsoft Updates to an OSMedia

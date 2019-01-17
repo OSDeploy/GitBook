@@ -23,7 +23,7 @@ Import-OSMedia
 ```
 
 {% hint style="info" %}
-**How To:**  [**`Import-OSMedia`**](../functions/osmedia/import-osmedia.md)**\`\`**
+**How To:**  [**`Import-OSMedia`**](../functions/osmedia/import-osmedia/)**\`\`**
 {% endhint %}
 
 ## 3. Update an Imported Operating System

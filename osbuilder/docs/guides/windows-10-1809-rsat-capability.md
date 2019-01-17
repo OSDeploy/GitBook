@@ -22,6 +22,8 @@ Starting with Windows 10 1809, Features on Demand are installed as a Capability 
 
 To install the RSAT Capabilities, use the following PowerShell script and save it to your [**OSBuilder PowerShell Scripts**](../functions/osbuild/new-osbuildtask-external-content/powershell-scripts.md) at  "C:\OSBuilder\Content\Scripts\Windows 10 x64 1809 RSAT.ps1"
 
+{% file src="../../../.gitbook/assets/windows-10-x64-1809-add-capabilityrsat.ps1" %}
+
 {% embed url="https://gist.github.com/OSDeploy/8636400485af255d71cb75b4370469e7" %}
 
 ## New-OSBuildTask

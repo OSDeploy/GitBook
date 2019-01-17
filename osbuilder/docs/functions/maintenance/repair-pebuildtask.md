@@ -18,7 +18,7 @@ When using an old PEBuild Task with [**New-PEBuild**](../pebuild/new-pebuild.md)
 
 ![](../../../../.gitbook/assets/2019-01-07_23-22-18.png)
 
-In PowerShell ISE,  execute **Repair-PEBuildTask** without any Parameters.  You will be prompted to select an existing [**OSMedia**](../../instructions/detailed/osmedia/) for use with each of the PEBuild Tasks that need to be updated
+In PowerShell ISE,  execute **Repair-PEBuildTask** without any Parameters.  You will be prompted to select an existing [**OSMedia**]() for use with each of the PEBuild Tasks that need to be updated
 
 ![](../../../../.gitbook/assets/2019-01-07_23-25-35.png)
 

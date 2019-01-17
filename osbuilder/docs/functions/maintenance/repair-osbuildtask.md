@@ -18,7 +18,7 @@ When using an old OSBuild Task with [**New-OSBuild**](../osbuild/new-osbuild.md)
 
 ![](../../../../.gitbook/assets/2019-01-08_1-14-59.png)
 
-In PowerShell ISE,  execute **Repair-OSBuildTask** without any parameters.  You will be prompted to select an existing [**OSMedia**](../../instructions/detailed/osmedia/) for use with each of the OSBuild Tasks that need to be updated
+In PowerShell ISE,  execute **Repair-OSBuildTask** without any parameters.  You will be prompted to select an existing [**OSMedia**]() for use with each of the OSBuild Tasks that need to be updated
 
 ![](../../../../.gitbook/assets/2019-01-08_1-37-27.png)
 
