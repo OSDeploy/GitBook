@@ -38,6 +38,8 @@ I executing a New-OSBuild, you will see the PowerShell Script in the Task Inform
 
 ![](../../../.gitbook/assets/2019-01-17_12-22-28.png)
 
+![](../../../.gitbook/assets/2019-01-17_13-10-51.png)
+
 ## Testing
 
 For a test, I can create an ISO using [**`New-OSBMediaISO`**](../functions/osbmedia/new-osbmediaiso.md) and give it an install in a Virtual Machine.  I made sure to disable any Network connections to ensure that everything was installed Offline.  Looks perfect!
