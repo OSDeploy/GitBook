@@ -2,7 +2,7 @@
 
 ## 19.1.17.x \(January 17, 2019\)
 
-Changes to Features on Demand and Local Experience Packs are included in this release.  This includes new Local Experience Packs  Documentation on the Language changes will be updated in the next day or so
+Changes to Features on Demand and Language Experience Packs are included in this release. Documentation on the Language Experience Packs will be added tonight
 
 {% page-ref page="../docs/functions/osbuild/new-osbuildtask-external-content/features-on-demand.md" %}
 

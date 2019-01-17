@@ -8,11 +8,11 @@ description: Requires OSBuilder 19.1.17+
 You need OSBuilder 19.1.17+ for this to function properly
 {% endhint %}
 
-To enable Features on Demand, you will need to Download and extract an ISO from MVLS.  Before getting started, make sure you read and understand what are the available Features on Demand
+To enable Features on Demand, you will first need to Download and extract an ISO from MVLS.  Before getting started, make sure you read and understand what new changes there are with Features on Demand for Windows 10 1809
 
 {% embed url="https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/features-on-demand-non-language-fod" %}
 
-In Microsoft Volume Licensing Service Center I need to search for '**Windows 10 Enterprise Features on Demand**'.  For Windows 10 1809 I see that there are two ISO's that were "**Updated Sept '18**".  These ISO's are the ones I need to download.
+In Microsoft Volume Licensing Service Center I search for '**Windows 10 Enterprise Features on Demand**'.  For Windows 10 1809 I see that there are two ISO's that were "**Updated Sept '18**".  These ISO's are the ones I need to download \(keep reading first\)
 
 ![](../../../../../.gitbook/assets/2019-01-16_23-01-22.png)
 
@@ -36,7 +36,7 @@ Leaving only FOD Disc 1, which I will give a friendly name, making sure to inclu
 
 ## New-OSBuildTask
 
-When creating a New-OSBuildTask, you will be prompted to select Features on Demand to include in your OSBuild
+When creating a New-OSBuildTask, I will be prompted to select Features on Demand to include in my OSBuild
 
 {% hint style="warning" %}
 See bottom for installing the Windows 10 1809 RSAT Capability
@@ -46,17 +46,17 @@ See bottom for installing the Windows 10 1809 RSAT Capability
 
 ## Language Features
 
-You will also receive a prompt to select Language Features on Demand. You can press Cancel if you do not want to select anything
+I will also receive a prompt to select Language Features on Demand. I don't want these enabled, so I'll press Cancel to skip
 
 ![](../../../../../.gitbook/assets/2019-01-17_11-42-59.png)
 
-If you never plan on using Language Features, simply delete the associated CAB files
+If you never plan on using the Language Features On Demand, simply delete the associated CAB files
 
 ![](../../../../../.gitbook/assets/2019-01-17_11-46-07.png)
 
 ## New-OSBuild
 
-When creating a New-OSBuild, the Task Features on Demand will be installed automatically
+When I create a New-OSBuild, the Features on Demand I selected in my Task will be installed automatically
 
 ![](../../../../../.gitbook/assets/2019-01-17_11-47-56.png)
 
@@ -68,7 +68,7 @@ Easy enough!
 
 ## Additional Resources
 
-For help installing the Windows 10 RSAT Feature on Demand, refer to the Guide
+For help installing the Windows 10 RSAT Capability from the Features on Demand ISO, refer to the following Guide
 
 {% page-ref page="../../../guides/windows-10-1809-rsat-capability.md" %}
 
