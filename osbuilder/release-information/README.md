@@ -1,5 +1,35 @@
 # Release Information
 
+## 19.1.16.x \(January 16, 2019\)
+
+This update brings .NET Framework Cumulative Updates for 1809
+
+* **New-OSBuild**
+  * Includes .NET Framework Cumulative Updates
+* **Show-OSBMediaInfo**
+  * Resolved an issue with displaying the Windows Image information.  Thanks [@SuneThomsenDK](https://twitter.com/SuneThomsenDK)
+* **Update-OSMedia**
+  * Includes .NET Framework Cumulative Updates
+
+#### WinSE
+
+Previous versions of OSBuilder used Setup.wim to refer to the Windows **Setup Environment** Boot.wim Partition 2.  This build changesthe name from Setup.wim to WinSE.wim to fall in line with WinPE and WinRE.  Setup.wim will be renamed automatically for all existing OSBuilder Media
+
+* WinPE - Windows Preinstallation Environment \(Boot.wim Index 1\)
+* WinRE - Windows Recovery Environment
+* WinSE - Windows Setup Environment \(Boot.wim Index 2\)
+
+![Renamed setup.wim to winse.wim](../../.gitbook/assets/2019-01-16_11-08-26.png)
+
+![.NET Framework Cumulative Updates](../../.gitbook/assets/2019-01-16_1-24-32.png)
+
+![OSBuild Process](../../.gitbook/assets/2019-01-16_2-20-22.png)
+
+## 19.1.14 \(January 14, 2019\)
+
+* Resolved issues with New-OSBMediaISO
+* Modified New-PEBuild to set the Background to winpe.jpg \(from winre.jpg\) as Windows 10 WinPE.wim has this value set in the registry.
+
 ## 19.1.11 \(January 11, 2019\)
 
 Create a patched OSMedia Windows 7 x86
