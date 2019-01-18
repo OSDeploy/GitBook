@@ -99,6 +99,7 @@
         * [Language Packs](osbuilder/docs/functions/osbuild/new-osbuildtask-external-content/language-packs.md)
         * [Language Interface Packs](osbuilder/docs/functions/osbuild/new-osbuildtask-external-content/language-interface-packs.md)
         * [Language Features On Demand](osbuilder/docs/functions/osbuild/new-osbuildtask-external-content/language-features-on-demand.md)
+        * [Local Experience Packs](osbuilder/docs/functions/osbuild/new-osbuildtask-external-content/local-experience-packs.md)
         * [PowerShell Scripts](osbuilder/docs/functions/osbuild/new-osbuildtask-external-content/powershell-scripts.md)
         * [Start Layout](osbuilder/docs/functions/osbuild/new-osbuildtask-external-content/start-layout.md)
         * [Unattend.xml](osbuilder/docs/functions/osbuild/new-osbuildtask-external-content/unattend.xml.md)

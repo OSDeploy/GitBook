@@ -1,5 +1,17 @@
 # Release Information
 
+## 19.1.18 \(January 18, 2019\)
+
+Updated to resolve issues with Language Packs not being installed
+
+* **Sample PowerShell Scripts**
+  * Updated to resolve issue with HKLM Registry Settings not being applied
+  * Added Windows 10 x64 1809 Add-CapabilityRSAT.ps1
+
+{% embed url="https://github.com/OSDeploy/OSBuilder.Public/tree/master/Content/Scripts" %}
+
+
+
 ## 19.1.17.x \(January 17, 2019\)
 
 Changes to Features on Demand and Language Experience Packs are included in this release. Documentation on the Language Experience Packs will be added tonight
