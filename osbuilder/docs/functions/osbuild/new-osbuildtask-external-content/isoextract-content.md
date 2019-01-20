@@ -4,8 +4,11 @@
 
 The purpose of this directory is to extract the contents of the following Microsoft ISOs
 
-* Windows 10 Enterprise Features on Demand
-* Windows 10 Enterprise Language Pack
+* **Windows 10 Language Packs**
+* **Windows 10 Features On Demand**
+* **Windows Server 2016 Language Packs**
+* **Windows Server 2019 Language Packs**
+* **Windows Server 2019 Features On Demand**
 
 ## Download ISO
 
@@ -25,9 +28,17 @@ Using a tool like 7zip, extract the ISOs
 
 ## Rename Directories
 
-Give the directories a Friendly name, and include the Windows Version and Architecture if applicable
+Give the extracted ISO in the following format:
 
-![](../../../../../.gitbook/assets/2018-10-29_2-15-55.png)
+* Windows 10 &lt;ReleaseId&gt; Language
+* Windows 10 &lt;ReleaseID&gt; &lt;Arch&gt; FOD
+* Windows Server 2016 &lt;ReleaseId&gt; Language
+* Windows Server 2019 &lt;ReleaseId&gt; Language
+* Windows Server 2019 &lt;Release Id&gt; FOD
+
+
+
+![](../../../../../.gitbook/assets/2019-01-20_17-07-38.png)
 
 ## Remove ISOs
 
