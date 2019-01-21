@@ -34,7 +34,7 @@ Create a Templates\Enabled directory in your OSBuilder Home.  This path will typ
 
 ## Create a Global Template
 
-A Global Template is one that will be applied to every OSBuild that is processed, so it is important to select items that are not OS specific, like Appx or Features.  **Make sure the word Global is in the TaskName**
+A Global Template is one that will be applied to every OSBuild that is processed, so it is important to select items that are not OS specific like PowerShell Scripts \(Appx and Features are OS specific, so don't pick those\).  **Make sure the word Global is in the TaskName**
 
 ![](../../../.gitbook/assets/2019-01-21_0-43-01.png)
 
@@ -68,7 +68,7 @@ So in this Task, those are the only things I set
 
 ![](../../../.gitbook/assets/2019-01-21_0-54-37.png)
 
-After moving this Task into the Enabled Templates.  Now every time I create an OSBuild with this Operating System, these Appx Provisioned Packages will be removed
+After moving this Task into the Enabled Templates it will be processed every time I create an OSBuild with this Operating System.  When I do, these Appx Provisioned Packages will be removed
 
 ![](../../../.gitbook/assets/2019-01-21_0-56-19.png)
 
