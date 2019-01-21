@@ -1,5 +1,22 @@
 # Release Information
 
+## 19.1.20 \(January 20, 2019\)
+
+* **New-OSBMediaISO**
+  * Resolved issue in All Media array.  Thanks [**Rytis** ](https://twitter.com/LRytis)from Lithuania!
+* **New-OSBMediaUSB**
+  * Resolved issue in All Media array
+* **New-OSBuild**
+  * Template Support in Development
+* **New-OSBuildTask**
+  * Updated IsoExtract logic
+* **New-OSBUpdate**
+  * Resolved International Date issue.  Thanks [**Sune**](https://twitter.com/SuneThomsenDK)!
+* **Show-OSBMediaInfo**
+  * Resolved issue in All Media array
+
+
+
 ## 19.1.18 \(January 18, 2019\)
 
 Updated to resolve issues with Language Packs not being installed
