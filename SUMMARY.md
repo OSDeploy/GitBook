@@ -129,6 +129,7 @@
       * [ISO Testing](osbuilder/docs/guides/windows-7-sp1/iso-testing.md)
       * [Build and Capture](osbuilder/docs/guides/windows-7-sp1/build-and-capture.md)
     * [Windows 10 1809 RSAT Capability](osbuilder/docs/guides/windows-10-1809-rsat-capability.md)
+    * [OSBuild Templates](osbuilder/docs/guides/osbuild-templates.md)
   * [Tips](osbuilder/docs/tips/README.md)
     * [Task Naming](osbuilder/docs/tips/task-naming.md)
     * [Verbose Logging](osbuilder/docs/tips/verbose-logging.md)

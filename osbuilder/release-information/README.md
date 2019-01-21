@@ -15,7 +15,11 @@
 * **Show-OSBMediaInfo**
   * Resolved issue in All Media array
 
+{% hint style="danger" %}
+**The link below is for Template pre-release testing only.  You have been warned!**
+{% endhint %}
 
+{% page-ref page="../docs/guides/osbuild-templates.md" %}
 
 ## 19.1.18 \(January 18, 2019\)
 
