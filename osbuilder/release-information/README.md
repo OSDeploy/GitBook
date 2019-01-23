@@ -1,5 +1,9 @@
 # Release Information
 
+## 19.1.22 \(January 22, 2019\)
+
+Details will be posted later today on this release
+
 ## 19.1.20 \(January 20, 2019\)
 
 * **New-OSBMediaISO**

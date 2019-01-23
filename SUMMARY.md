@@ -33,7 +33,7 @@
 
 ## OSBuilder
 
-* [OSBuilder Overview](osbuilder/overview.md)
+* [OSBuilder \(Offline Servicing\)](osbuilder/overview.md)
 * [Release Information](osbuilder/release-information/README.md)
   * [2018-12](osbuilder/release-information/2018-12.md)
   * [2018-11](osbuilder/release-information/2018-11.md)

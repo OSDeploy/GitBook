@@ -1,5 +1,9 @@
 # IsoExtract Content
 
+{% hint style="danger" %}
+**OSBuilder is scripted to use the extracted ISO's "As-Is".  While you may delete content you will never need \(like Retail CABs\), do not move any content inside the directory structure or you will not see the content properly in New-OSBuildTask**
+{% endhint %}
+
 **IsoExtract** is a directory that can be found at **C:\&lt;OSBuilder&gt;\Content\IsoExtract**
 
 The purpose of this directory is to extract the contents of the following Microsoft ISOs

@@ -12,11 +12,9 @@ To add the Windows 10 1809 RSAT Capability, you need to first download the Featu
 
 ## IsoExtract Content
 
-While the ISO is downloading, have a read at this link to see how to extract the ISO properly
+Save the ISO to your OSBuilder\Content\IsoExtract directory.  In summary, extract the ISO Content \(7-Zip\) and rename the directory to **Windows 10 1809 FOD x64** \(or Windows 10 1809 FOD x86\)
 
-{% page-ref page="../functions/osbuild/new-osbuildtask-external-content/features-on-demand.md" %}
-
-![](../../../.gitbook/assets/2019-01-18_3-00-15.png)
+![](../../../.gitbook/assets/2019-01-23_0-27-47.png)
 
 ## Features On Demand Capabilities
 
@@ -26,9 +24,15 @@ Starting with Windows 10 1809, some Features on Demand are installed as a Window
 
 ## PowerShell Script
 
-The RSAT Windows Capabilities must be installed using a separate PowerShell Script that is added to OSBuilder.  Use the following PowerShell script and save it to your [**OSBuilder PowerShell Scripts**](../functions/osbuild/new-osbuildtask-external-content/powershell-scripts.md) at  "C:\OSBuilder\Content\Scripts\Windows 10 x64 1809 RSAT.ps1"
+The RSAT Windows Capabilities must be installed using a separate PowerShell Script that is added to OSBuilder.  Use the following PowerShell script and save it to your [**OSBuilder PowerShell Scripts**](../functions/osbuild/new-osbuildtask-external-content/powershell-scripts.md) at  "C:\OSBuilder\Content\Scripts\Windows 10 x64 1809 Add-CapabilityRSAT.ps1"  I have included RSAT x86 as well as the other Features on Demand for x64 and x86, although I do not recommend installing those in  an Enterprise Image.
+
+{% file src="../../../.gitbook/assets/windows-10-x64-1809-add-capabilityfod \(1\).ps1" %}
 
 {% file src="../../../.gitbook/assets/windows-10-x64-1809-add-capabilityrsat.ps1" %}
+
+{% file src="../../../.gitbook/assets/windows-10-x86-1809-add-capabilityfod.ps1" %}
+
+{% file src="../../../.gitbook/assets/windows-10-x86-1809-add-capabilityrsat \(1\).ps1" %}
 
 {% embed url="https://gist.github.com/OSDeploy/8636400485af255d71cb75b4370469e7" %}
 
