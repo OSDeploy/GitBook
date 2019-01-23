@@ -1,8 +1,32 @@
 # Release Information
 
+## 19.1.23 \(January 23, 2019\)
+
+{% hint style="info" %}
+**OSBuild Templates work better with this release.  Feedback please!**
+{% endhint %}
+
+* **Import-OSMedia**
+  * MediaINFO parameter replaces ShowMediaInfo
+  * MediaISO parameter replaces CreateISO
+* **New-OSBuild**
+  * MediaINFO parameter replaces ShowMediaInfo
+  * MediaISO parameter replaces CreateISO
+  * WaitDismount parameter replaces PromptBeforeDismount
+  * WaitDismountWinPE parameter replaces PromptBeforeDismountWinPE
+  * SkipTemplates parameter added for OSBuild Template testing
+  * SkipTask parameter added for OSBuild Template testing
+  * Updated logic for Templates
+* **New-OSBuildTask**
+  * Updated logic for Server Features On Demand
+* **New-PEBuild**
+  * MediaISO parameter replaces CreateISO
+  * WaitDismount parameter replaces PromptBeforeDismount
+  * WaitMount parameter replaces PromptAfterMount
+
 ## 19.1.22 \(January 22, 2019\)
 
-Details will be posted later today on this release
+Updates to Template pre-release
 
 ## 19.1.20 \(January 20, 2019\)
 
