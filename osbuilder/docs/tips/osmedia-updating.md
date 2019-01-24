@@ -26,7 +26,13 @@ This is the command that will update the OSMedia.  In this case I sorted by the 
 
 ## Easy
 
-Yes, its that easy getting everything up to date.  Tomorrow I'll update my OSBuilds.  Enjoy!
+Yes, its that easy getting everything up to date.  If I want to save a step, I can always Download and Update at the same time using the following command
+
+```text
+Update-OSMedia -DownloadUpdates -Execute
+```
+
+Tomorrow I'll update my OSBuilds.  Enjoy!
 
 
 
