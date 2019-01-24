@@ -24,7 +24,7 @@ Starting with Windows 10 1809, some Features on Demand are installed as a Window
 
 ## PowerShell Script
 
-The RSAT Windows Capabilities must be installed using a separate PowerShell Script that is added to OSBuilder.  Use the following PowerShell script and save it to your [**OSBuilder PowerShell Scripts**](../functions/osbuild/new-osbuildtask-external-content/powershell-scripts.md) at  "C:\OSBuilder\Content\Scripts\Windows 10 x64 1809 Add-CapabilityRSAT.ps1"  I have included RSAT x86 as well as the other Features on Demand for x64 and x86, although I do not recommend installing those in  an Enterprise Image.
+The RSAT Windows Capabilities must be installed using a separate PowerShell Script that is added to OSBuilder.  Use the following PowerShell script and save it to your [**OSBuilder PowerShell Scripts**](../functions/osbuild/new-osbuildtask-external-content/powershell-scripts/) at  "C:\OSBuilder\Content\Scripts\Windows 10 x64 1809 Add-CapabilityRSAT.ps1"  I have included RSAT x86 as well as the other Features on Demand for x64 and x86, although I do not recommend installing those in  an Enterprise Image.
 
 {% file src="../../../.gitbook/assets/windows-10-x64-1809-add-capabilityfod \(1\).ps1" %}
 

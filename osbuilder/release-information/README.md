@@ -3,7 +3,7 @@
 ## 19.1.23 \(January 23, 2019\)
 
 {% hint style="info" %}
-**OSBuild Templates work better with this release.  Feedback please!**
+**OSBuild Templates work better with this release \(with Language support\).  Feedback please!**
 {% endhint %}
 
 * **Import-OSMedia**
