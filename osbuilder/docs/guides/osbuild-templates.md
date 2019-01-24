@@ -1,5 +1,13 @@
 # OSBuild Templates
 
+
+
+{% hint style="info" %}
+**My previous version used an Enabled subdirectory, this is no longer used and Templates should be moved to C:\OSBuilder\Templates**
+
+**Language Settings should be working now.  Let me know your results!**
+{% endhint %}
+
 So I had this idea for creating some type of Template for **OSBuilds** that will be used for every **OSBuild** that gets created.  I had planned on creating a new function called **New-OSBTemplate** to do just this.  You can read all about that here
 
 {% embed url="https://twitter.com/SeguraOSD/status/1086371990150283269" %}
@@ -28,7 +36,11 @@ This can easily be validated by using the task in New-OSBuild
 
 ## Create a Templates Directory
 
-Create a Templates\Enabled directory in your OSBuilder Home.  This path will typically be **C:\OSBuilder\Templates\Enabled**
+Create a Templates\Enabled directory in your OSBuilder Home.  This path will typically be **C:\OSBuilder\Templates**
+
+{% hint style="info" %}
+**My previous version used an Enabled subdirectory, this is no longer used and Templates should be moved to C:\OSBuilder\Templates**
+{% endhint %}
 
 ![](../../../.gitbook/assets/2019-01-21_0-33-16.png)
 
@@ -42,7 +54,11 @@ Here you can see my complete Task with non-OS Specific Settings
 
 ![](../../../.gitbook/assets/2019-01-21_0-44-40.png)
 
-Move this Task to **C:\OSBuilder\Templates\Enabled**
+Move this Task to **C:\OSBuilder\Templates**
+
+{% hint style="info" %}
+**My previous version used an Enabled subdirectory, this is no longer used and Templates should be moved to C:\OSBuilder\Templates**
+{% endhint %}
 
 ![](../../../.gitbook/assets/2019-01-21_0-46-02.png)
 
