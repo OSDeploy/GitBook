@@ -12,6 +12,7 @@ Much of today's update is in the OSBuilder framework with some new Parameters to
   * **New Compact Format**
 * **New-OSBuild**
   * **Registry** - Currently in Pilot.  Will be detailed further at [**SanAntonioSMUG**](https://twitter.com/SanAntonioSMUG)
+  * **SSU** is reapplied at the end of the OSBuild process to account for added files from Language Packages
   * **SkipTask** - New parameter to create a new OSBuild without selecting a Task.  This is useful for testing Templates
   * **SkipTemplates** - New parameter to not process Templates
   * **SkipUpdates** - New parameter to not apply any Microsoft Updates.  Useful for testing and Demos
