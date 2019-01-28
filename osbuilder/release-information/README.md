@@ -1,5 +1,50 @@
 # Release Information
 
+## 19.1.28 \(January 28, 2019\)
+
+Much of today's update is in the OSBuilder framework with some new Parameters to work with Templates and Testing
+
+* **Framework**
+  * Most Update-OSMedia and New-OSBuild steps have been converted to new Private Functions
+  * New-OSBuild is now under 1000 lines \(was over 2300\)
+  * Update-OSMedia and New-OSBuild are identical \(except for the PARAMS\)
+* **Get-OSBuilder**
+  * **New Compact Format**
+* **New-OSBuild**
+  * **Registry** - Currently in Pilot.  Will be detailed further at [**SanAntonioSMUG**](https://twitter.com/SanAntonioSMUG)
+  * **SkipTask** - New parameter to create a new OSBuild without selecting a Task.  This is useful for testing Templates
+  * **SkipTemplates** - New parameter to not process Templates
+  * **SkipUpdates** - New parameter to not apply any Microsoft Updates.  Useful for testing and Demos
+* **Update-OSMedia**
+  * SkipUpdates - New parameter to not apply any Microsoft Updates.  Useful for testing and Demos
+* **OSMFamily v2**
+  * This is the grouping of the Operating Systems to ensure proper selection.  The naming structure is changed automatically.  This will require an update to existing Tasks
+* **Task Languages**
+  * Operating System Languages are now added when creating an OSBuild Task and PEBuild Task
+* **Tasks**
+  * Tasks will be modified automatically to include updated OSMFamily and Languages
+
+![Compact Get-OSBuilder](../../.gitbook/assets/2019-01-28_1-52-28.png)
+
+![Registry Teaser](../../.gitbook/assets/2019-01-28_1-50-14.png)
+
+![Task Updating](../../.gitbook/assets/2019-01-27_23-12-33.png)
+
+{% hint style="info" %}
+**To update Templates to the new format, move the JSON files into OSBuilder\Tasks and run New-OSBuild.  Then move the JSON files back to OSBuilder\Templates**
+{% endhint %}
+
+![](../../.gitbook/assets/2019-01-28_2-37-13.png)
+
+## 19.1.24 \(January 24, 2019\)
+
+Today's update is for 1809 DotNet 
+
+* **New-OSBuild**
+  * Supports multiple DotNet Cumulative Updates
+* **Update-OSMedia**
+  * Supports multiple DotNet Cumulative Updates
+
 ## 19.1.23 \(January 23, 2019\)
 
 {% hint style="info" %}
