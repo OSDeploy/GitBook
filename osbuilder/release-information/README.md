@@ -1,6 +1,10 @@
 # Release Information
 
-## 19.1.28 \(January 28, 2019\)
+## 19.1.28.1 \(January 28, 2019\)
+
+{% hint style="info" %}
+**19.1.28.1 was released as the UBR was not getting updated properly with 19.1.28.0.  Thanks Sune!**
+{% endhint %}
 
 Much of today's update is in the OSBuilder framework with some new Parameters to work with Templates and Testing
 

@@ -122,6 +122,7 @@
         * [MDT](osbuilder/docs/functions/pebuild/new-pebuildtask/mdt.md)
       * [New-PEBuild](osbuilder/docs/functions/pebuild/new-pebuild.md)
   * [Guides](osbuilder/docs/guides/README.md)
+    * [Perfecting OSBuild with Templates](osbuilder/docs/guides/perfecting-osbuild-with-templates.md)
     * [Windows 7 SP1](osbuilder/docs/guides/windows-7-sp1/README.md)
       * [Import OSMedia](osbuilder/docs/guides/windows-7-sp1/import-osmedia.md)
       * [Download Updates](osbuilder/docs/guides/windows-7-sp1/download-updates.md)
