@@ -38,17 +38,17 @@ Move the Task JSON file into the OSBuilder Templates directory
 
 ## New-OSBuild -ByTaskName
 
-You can easily validate the Template by using New-OSBuild with the ByTaskName parameter.  When using New-OSBuild without the Execute parameter, it will only validate the OSBuild
+You can easily validate the Template by using **`New-OSBuild`** with the **`ByTaskName`** parameter.  When using **`New-OSBuild`** without the **`Execute`** parameter, it will only validate the OSBuild, which is ideal for testing
 
 ```text
 New-OSBuild -ByTaskName 'My Custom Windows 10 x64 1809'
 ```
 
-The command above will start the New-OSBuild process.  The first step is to display the Task information
+The command above will start the **`New-OSBuild`** process.  The first step is to display the Task information
 
 ![Task Information](../../../.gitbook/assets/2019-01-29_15-03-41.png)
 
-New-OSBuild will then select the latest UBR for this Task OSMedia automatically.  After the newest OSMedia is selected, Templates will be processed.  In the example below, the Appx Template that was create is applied
+**`New-OSBuild`** will then select the latest UBR for this Task OSMedia automatically.  After the newest OSMedia is selected, Templates will be processed.  In the example below, the Appx Template that was create is applied
 
 ![](../../../.gitbook/assets/2019-01-29_15-04-09.png)
 
@@ -68,11 +68,43 @@ The command above will allow me to ensure that all my OSBuilds have these two se
 
 ## Global Scripts Template
 
-
-
-
+I have a few PowerShell scripts that I like to apply on all of my OSBuilds, so I can create a **`New-OSBuildTask`** for only my Global PowerShell Scripts.  Once created, I can move the OSBuild Task JSON file into my OSBuild Templates
 
 ![](../../../.gitbook/assets/2019-01-29_15-10-48.png)
+
+## Global Testing
+
+Time to do another round of testing with the new Templates
+
+```text
+New-OSBuild -ByTaskName 'My Custom Windows 10 x64 1809'
+```
+
+In the screenshot below, the two Global Templates were applied as well as the Appx Template.  The OSBuild Task Information shows the combination of all three Templates
+
+**This is the proper way to Perfect an OSBuild**
+
+![](../../../.gitbook/assets/2019-01-29_15-12-14.png)
+
+## Damage Control
+
+Now let's make sure that we don't cause any Template bleed between Operating Systems.  I create a **`New-OSBuildTask`** for Windows 10 x64 1803 and remove everything for **`RemoveAppxProvisionedPackage`**
+
+![](../../../.gitbook/assets/2019-01-29_15-14-15.png)
+
+The Task JSON file clearly shows all the Appx Provisioned Packages being removed
+
+![](../../../.gitbook/assets/2019-01-29_15-15-16.png)
+
+I then move the Task JSON into Templates and test again with New-OSBuild.  This is the expected result, the Template is skipped because the OSMedia Family didn't match
+
+![](../../../.gitbook/assets/2019-01-29_15-16-05.png)
+
+
+
+
+
+
 
 
 
