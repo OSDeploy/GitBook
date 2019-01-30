@@ -122,6 +122,7 @@
       * [New-PEBuild](osbuilder/docs/functions/pebuild/new-pebuild.md)
   * [Guides](osbuilder/docs/guides/README.md)
     * [OSBuild Templates](osbuilder/docs/guides/osbuild-templates.md)
+    * [OSBuild Registry](osbuilder/docs/guides/osbuild-registry.md)
     * [Windows 7 SP1](osbuilder/docs/guides/windows-7-sp1/README.md)
       * [Import OSMedia](osbuilder/docs/guides/windows-7-sp1/import-osmedia.md)
       * [Download Updates](osbuilder/docs/guides/windows-7-sp1/download-updates.md)

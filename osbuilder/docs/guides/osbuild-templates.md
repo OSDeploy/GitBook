@@ -1,3 +1,7 @@
+---
+description: OSBuilder 19.1.31 San Antonio or newer
+---
+
 # OSBuild Templates
 
 Creating a custom OSBuild in a single Task can get quite complicated, with more options to configure than an Apple Watch.  This is where **OSBuilder 19.1.31 "San Antonio"** makes things easier.
