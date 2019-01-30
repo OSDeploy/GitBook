@@ -4,7 +4,7 @@ Creating a custom OSBuild in a single Task can get quite complicated, with more 
 
 ## Baby Steps
 
-When working with Templates, Baby Steps are important.  Instead of trying to create a perfect OSBuild Task which make take weeks to develop, spend time creating Templates that are perfected due to the smaller scope.
+When working with Templates, Baby Steps are important.  Instead of trying to create the perfect OSBuild Task, which make take weeks to fully develop, spend time creating specific Templates that are perfected due to the smaller scope.
 
 ## New-OSBuildTask with Custom Name
 
