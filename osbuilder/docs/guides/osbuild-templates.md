@@ -130,9 +130,9 @@ Well Templates are new, but for me I keep two Global Templates, one for the OS, 
 
 ![](../../../.gitbook/assets/2019-01-29_21-42-33.png)
 
-And here is what that looks like 
+And here is what that looks like
 
-![](../../../.gitbook/assets/2019-01-29_21-45-56.png)
+![Right Click and open in New Window](../../../.gitbook/assets/2019-01-29_21-45-56.png)
 
 
 
