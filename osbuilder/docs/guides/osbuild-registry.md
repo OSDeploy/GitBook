@@ -80,9 +80,11 @@ And some Registry Keys should not exist until Windows Setup is complete, like se
 
 ![](../../../.gitbook/assets/2019-01-30_0-30-51.png)
 
+In some tests I have had the Registry not unload properly, usually if I am doing a large amount of changes.  I'm still trying to narrow down what is causing it \(could be some System Protection\).  If a Registry Hive doesn't unload properly, then OSBuilder will halt the New-OSBuild process to allow you to manually open Regedit and unload the Hive.  This must be done in Regedit as the Reg Unload command does not work as it is locked
 
+![](../../../.gitbook/assets/2019-01-30_0-40-11.png)
 
-
+![](../../../.gitbook/assets/2019-01-30_0-40-57.png)
 
 
 
