@@ -70,6 +70,22 @@ But you can also download a PowerShell script to do the work
 
 {% embed url="https://gallery.technet.microsoft.com/scriptcenter/Registry-To-GroupPolicyPref-9feae9a3" %}
 
+## Samples
+
+Feel free to download some Registry XML samples on my GitHub
+
+{% embed url="https://github.com/OSDeploy/OSBuilder.Public/tree/master/Content/Registry/Library" %}
+
+![Computer Disable Logon Background Image.xml](../../../.gitbook/assets/2019-01-30_2-07-06.png)
+
+![User Desktop Icons.xml](../../../.gitbook/assets/2019-01-30_2-08-34.png)
+
+![Win10 User Content Delivery Manager.xml](../../../.gitbook/assets/2019-01-30_2-09-16.png)
+
+![User Windows Explorer.xml](../../../.gitbook/assets/2019-01-30_2-09-43.png)
+
+![User Control Panel View.xml](../../../.gitbook/assets/2019-01-30_2-11-14.png)
+
 ## Known Issues
 
 There are a few things to know.  Some Registry Keys are protected by Trusted Installer.  These keys cannot be overwritten.  I have not seen many keys like this, but they do exist
