@@ -40,7 +40,25 @@ The results should speak for themselves.  I have successfully customized the Def
 
 ![](../../../.gitbook/assets/2019-01-29_22-49-01.png)
 
+## Group Policy Preferences
 
+So why XML?  Because you are probably already using Registry XML in Group Policy Preferences.  Read more about GPP Registry in the following link
+
+{% embed url="https://blog.thesysadmins.co.uk/group-policy-preferences-1-deploying-registry-settings.html" %}
+
+If you take a look at a Group Policy Object on your Domain's Sysvol that has an enabled GPP Registry, then you should have a Registry.xml file for Machine Preferences and User Preferences
+
+![](../../../.gitbook/assets/2019-01-30_0-07-40.png)
+
+You can easily just copy the whole GPO into the proper Registry Filter
+
+![](../../../.gitbook/assets/2019-01-30_0-11-00.png)
+
+And watch it rain
+
+![](../../../.gitbook/assets/2019-01-30_0-19-45.png)
+
+## Converting REG to XML
 
 
 
