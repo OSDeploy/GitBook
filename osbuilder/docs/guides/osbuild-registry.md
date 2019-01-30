@@ -54,11 +54,31 @@ You can easily just copy the whole GPO into the proper Registry Filter
 
 ![](../../../.gitbook/assets/2019-01-30_0-11-00.png)
 
-And watch it rain
+And watch it rain.  **Keep in mind this will not import the entire Group Policy**, just settings in the Registry.xml files.  Ideally, you should create a separate unlocked GPO and configure all your OSBuild settings in there, and use that GPO for settings to your OSBuild
 
 ![](../../../.gitbook/assets/2019-01-30_0-19-45.png)
 
 ## Converting REG to XML
+
+There are a few ways to convert a regular REG file to an XML.  I find it easy enough to use an online converter
+
+{% embed url="https://www.runecasters.com.au/reg2gpp" %}
+
+{% embed url="https://public.gfsolone.com/tools/reg2gpo/" %}
+
+But you can also download a PowerShell script to do the work
+
+{% embed url="https://gallery.technet.microsoft.com/scriptcenter/Registry-To-GroupPolicyPref-9feae9a3" %}
+
+## Known Issues
+
+There are a few things to know.  Some Registry Keys are protected by Trusted Installer.  These keys cannot be overwritten.  I have not seen many keys like this, but they do exist
+
+![](../../../.gitbook/assets/2019-01-30_0-25-01.png)
+
+And some Registry Keys should not exist until Windows Setup is complete, like setting Default Associations.  This is easy enough to test by creating a Media ISO and installing on a Virtual Machine
+
+![](../../../.gitbook/assets/2019-01-30_0-30-51.png)
 
 
 
