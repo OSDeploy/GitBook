@@ -28,7 +28,6 @@
   * [Windows 10 1809 Appx Issues](blog/windows-10-1809-appx-issues.md)
   * [Windows 10 from ESD](blog/windows-10-from-esd.md)
 * [Development](development/README.md)
-  * [OSBuilder New-OSBTemplate](development/osbuilder-new-osbtemplate.md)
   * [PowerShell SnapPE](development/snappe.md)
 
 ## OSBuilder
@@ -122,7 +121,7 @@
         * [MDT](osbuilder/docs/functions/pebuild/new-pebuildtask/mdt.md)
       * [New-PEBuild](osbuilder/docs/functions/pebuild/new-pebuild.md)
   * [Guides](osbuilder/docs/guides/README.md)
-    * [Perfecting OSBuild with Templates](osbuilder/docs/guides/perfecting-osbuild-with-templates.md)
+    * [OSBuild Templates](osbuilder/docs/guides/osbuild-templates.md)
     * [Windows 7 SP1](osbuilder/docs/guides/windows-7-sp1/README.md)
       * [Import OSMedia](osbuilder/docs/guides/windows-7-sp1/import-osmedia.md)
       * [Download Updates](osbuilder/docs/guides/windows-7-sp1/download-updates.md)
@@ -131,7 +130,6 @@
       * [ISO Testing](osbuilder/docs/guides/windows-7-sp1/iso-testing.md)
       * [Build and Capture](osbuilder/docs/guides/windows-7-sp1/build-and-capture.md)
     * [Windows 10 1809 RSAT Capability](osbuilder/docs/guides/windows-10-1809-rsat-capability.md)
-    * [OSBuild Templates](osbuilder/docs/guides/osbuild-templates.md)
   * [Tips](osbuilder/docs/tips/README.md)
     * [Task Naming](osbuilder/docs/tips/task-naming.md)
     * [Verbose Logging](osbuilder/docs/tips/verbose-logging.md)
@@ -154,6 +152,9 @@
     * [Windows 10 Setup and the ei.cfg](osbuilder/docs/articles/windows-10-setup-and-the-ei.cfg.md)
     * [Automating Windows Update Downloads](osbuilder/docs/articles/automating-windows-update-downloads.md)
     * [Solutions](osbuilder/docs/articles/solutions.md)
+* [Recycle Bin](osbuilder/recycle-bin/README.md)
+  * [OSBuilder New-OSBTemplate](osbuilder/recycle-bin/osbuilder-new-osbtemplate.md)
+  * [OSBuild Templates](osbuilder/recycle-bin/osbuild-templates.md)
 
 ## OSConfig
 

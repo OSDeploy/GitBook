@@ -1,100 +1,134 @@
 # OSBuild Templates
 
+Creating a custom OSBuild in a single Task can get quite complicated, with more options to configure than an Apple Watch.  This is where **OSBuilder 19.1.31 "San Antonio"** makes things easier.
 
+## Baby Steps
 
-{% hint style="info" %}
-**My previous version used an Enabled subdirectory, this is no longer used and Templates should be moved to C:\OSBuilder\Templates**
+When working with Templates, Baby Steps are important.  Instead of trying to create a perfect OSBuild Task which make take weeks to develop, spend time creating Templates that are perfected due to the smaller scope.
 
-**Language Settings should be working now.  Let me know your results!**
-{% endhint %}
+## New-OSBuildTask with Custom Name
 
-So I had this idea for creating some type of Template for **OSBuilds** that will be used for every **OSBuild** that gets created.  I had planned on creating a new function called **New-OSBTemplate** to do just this.  You can read all about that here
-
-{% embed url="https://twitter.com/SeguraOSD/status/1086371990150283269" %}
-
-{% page-ref page="../../../development/osbuilder-new-osbtemplate.md" %}
-
-Scratch the idea of a new function
-
-Hidden in **OSBuilder** 19.1.20 is a **pre-release method** to do just this, but much easier than a separate function.  Let me get some warnings out of the way
-
-{% hint style="danger" %}
-**OSBuild Templates are for testing only!  Things will probably change when things are officially released**
-
-**Language Features are not processed for the time being**
-{% endhint %}
-
-## Create a Blank OSBuildTask
-
-Start by creating a New-OSBuild Task without any settings
-
-![](../../../.gitbook/assets/2019-01-21_0-26-42.png)
-
-This can easily be validated by using the task in New-OSBuild
-
-![](../../../.gitbook/assets/2019-01-21_0-29-58.png)
-
-## Create a Templates Directory
-
-Create a Templates\Enabled directory in your OSBuilder Home.  This path will typically be **C:\OSBuilder\Templates**
-
-{% hint style="info" %}
-**My previous version used an Enabled subdirectory, this is no longer used and Templates should be moved to C:\OSBuilder\Templates**
-{% endhint %}
-
-![](../../../.gitbook/assets/2019-01-21_0-33-16.png)
-
-## Create a Global Template
-
-A Global Template is one that will be applied to every OSBuild that is processed, so it is important to select items that are not OS specific like PowerShell Scripts \(Appx and Features are OS specific, so don't pick those\).  **Make sure the word Global is in the TaskName**
-
-![](../../../.gitbook/assets/2019-01-21_0-43-01.png)
-
-Here you can see my complete Task with non-OS Specific Settings
-
-![](../../../.gitbook/assets/2019-01-21_0-44-40.png)
-
-Move this Task to **C:\OSBuilder\Templates**
-
-{% hint style="info" %}
-**My previous version used an Enabled subdirectory, this is no longer used and Templates should be moved to C:\OSBuilder\Templates**
-{% endhint %}
-
-![](../../../.gitbook/assets/2019-01-21_0-46-02.png)
-
-## Test Global Settings
-
-To test the Global Settings, run **New-OSBuild** and select the **BLANK Task**
-
-![](../../../.gitbook/assets/2019-01-21_0-47-34.png)
-
-After a few seconds, the Global Template should be picked up, and the results will be displayed.  Congratulations, you have now created and applied your first Template
-
-![](../../../.gitbook/assets/2019-01-21_0-49-39.png)
-
-## OS Specific Template
-
-Creating an OS Specific Template is just as easy.  I want to make one for Windows 10 x64 1809 to remove some Appx Provisioned Packages
+Create a New-OSBuild Task without any customizations and give it a CustomName.  This will be used as a Control Task
 
 ```text
-New-OSBuildTask -TaskName "Windows 10 x64 1809 Appx" -RemoveAppxProvisionedPackage
+New-OSBuildTask -TaskName 'My Custom Windows 10 x64 1809' -CustomName 'My Custom Windows 10 x64 1809'
 ```
 
-So in this Task, those are the only things I set
+![](../../../.gitbook/assets/2019-01-29_15-01-14.png)
 
-![](../../../.gitbook/assets/2019-01-21_0-54-37.png)
+## Remove Appx Provisioned Package Template
 
-After moving this Task into the Enabled Templates it will be processed every time I create an OSBuild with this Operating System.  When I do, these Appx Provisioned Packages will be removed
+By now you should know what Appx Provisioned Packages you want to remove.  Use the following PowerShell command line to create an OSBuild Task to remove the ones you don't want.
 
-![](../../../.gitbook/assets/2019-01-21_0-56-19.png)
+```text
+New-OSBuildTask -TaskName 'Template Windows 10 x64 1809 Appx' -RemoveAppxProvisionedPackage
+```
 
-## OSMedia Family Link
+You will need to select an Operating System and then multi-select the Appx Provisioned Packages to remove and press OK
 
-Operating Systems are grouped by OSMedia Family, so when a Template is not Global, it uses this to determine if the Operating System is a match.  In the case of this Server OS, it does not match the Windows 10 x64 1809 Appx Template, and it is skipped
+![](../../../.gitbook/assets/2019-01-29_14-52-52.png)
 
-![](../../../.gitbook/assets/2019-01-21_0-59-21.png)
+When complete, the Task will be saved in the OSBuilder Tasks directory.  Here is what the selection above looks like in the Task JSON file.  In this format, it should be easy to edit manually if you need to make changes
 
-## Wrapping Up
+![](../../../.gitbook/assets/2019-01-29_14-56-26.png)
 
-Have fun playing with this new feature, and make sure to give some feedback because I keep hearing crickets!
+Move the Task JSON file into the OSBuilder Templates directory
+
+![](../../../.gitbook/assets/2019-01-29_14-57-21.png)
+
+## New-OSBuild -ByTaskName
+
+You can easily validate the Template by using **`New-OSBuild`** with the **`ByTaskName`** parameter.  When using **`New-OSBuild`** without the **`Execute`** parameter, it will only validate the OSBuild, which is ideal for testing
+
+```text
+New-OSBuild -ByTaskName 'My Custom Windows 10 x64 1809'
+```
+
+The command above will start the **`New-OSBuild`** process.  The first step is to display the Task information
+
+![Task Information](../../../.gitbook/assets/2019-01-29_15-03-41.png)
+
+**`New-OSBuild`** will then select the latest UBR for this Task OSMedia automatically.  After the newest OSMedia is selected, Templates will be processed.  In the example below, the Appx Template that was create is applied
+
+![](../../../.gitbook/assets/2019-01-29_15-04-09.png)
+
+## Global Defaults Template
+
+By design, all Templates will be applied to a matching **OSMedia Family**, meaning if you create a Template with Windows 10 x64 1809 the Template will only apply to that specific **&lt;OS&gt;&lt;Arch&gt;&lt;ReleaseId&gt;**
+
+To create a Template for **All** OSBuilds, use the word **Global** \(not case sensitive\) in the **`TaskName`**
+
+```text
+New-OSBuildTask -TaskNAme 'Template Global Defaults' -EnableNetFX3 -WinPEAutoExtraFiles
+```
+
+The command above will allow me to ensure that all my OSBuilds have these two settings enabled
+
+![](../../../.gitbook/assets/2019-01-29_15-08-13.png)
+
+## Global Scripts Template
+
+I have a few PowerShell scripts that I like to apply on all of my OSBuilds, so I can create a **`New-OSBuildTask`** for only my Global PowerShell Scripts.  Once created, I can move the OSBuild Task JSON file into my OSBuild Templates
+
+![](../../../.gitbook/assets/2019-01-29_15-10-48.png)
+
+## Global Testing
+
+Time to do another round of testing with the new Templates
+
+```text
+New-OSBuild -ByTaskName 'My Custom Windows 10 x64 1809'
+```
+
+In the screenshot below, the two Global Templates were applied as well as the Appx Template.  The OSBuild Task Information shows the combination of all three Templates
+
+**This is the proper way to Perfect an OSBuild**
+
+![](../../../.gitbook/assets/2019-01-29_15-12-14.png)
+
+## Damage Control \| Control Damage
+
+Now let's make sure that we don't cause any Template bleed between Operating Systems.  I create a **`New-OSBuildTask`** for Windows 10 x64 1803 and remove everything for **`RemoveAppxProvisionedPackage`**
+
+![](../../../.gitbook/assets/2019-01-29_15-14-15.png)
+
+The Task JSON file clearly shows all the Appx Provisioned Packages being removed
+
+![](../../../.gitbook/assets/2019-01-29_15-15-16.png)
+
+I then move the Task JSON into Templates and test again with New-OSBuild.  This is the expected result, the Template is skipped because the OSMedia Family didn't match
+
+![](../../../.gitbook/assets/2019-01-29_15-16-05.png)
+
+Keep in mind that things change between Windows 10 Builds, so it is best to keep any settings matched to the Operating System Build
+
+## SkipTemplates
+
+Templates are always applied when creating a **`New-OSBuild`**, but in the event you don't want to use Templates, simply use the **`SkipTemplates`** parameter.  In this case, Templates will not be processed
+
+![](../../../.gitbook/assets/2019-01-29_20-57-34.png)
+
+## SkipTask
+
+Skipping the Task is another helpful way to create a **`New-OSBuild`** without using any settings in an OSBuild Task.  Instead of being prompted for a Task, using the SkipTask parameter allows me to select an existing OSMedia.  In this example I have selected an old update of Windows 10 x64 1809, even though I have a newer one
+
+![](../../../.gitbook/assets/2019-01-29_21-03-21.png)
+
+Even though the old version was selected, **`New-OSBuild`** automatically selected the newer **OSMedia** automatically.  Templates are automatically applied \(unless I add the **`SkipTemplates`** parameter\)
+
+![](../../../.gitbook/assets/2019-01-29_21-04-30.png)
+
+## SkipUpdates
+
+Testing and perfecting Templates takes a fair amount of Trial and Error.  To minimize the time in creating an OSBuild for Testing only use the **`SkipUpdates`** parameter.  This prevents the SSU, LCU, and other updates from being applied, which speeds up the build, but again, **TESTING ONLY**
+
+![](../../../.gitbook/assets/2019-01-29_21-10-55.png)
+
+
+
+
+
+
+
+
 
