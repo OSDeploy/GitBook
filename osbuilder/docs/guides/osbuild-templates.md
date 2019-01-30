@@ -124,6 +124,22 @@ Testing and perfecting Templates takes a fair amount of Trial and Error.  To min
 
 ![](../../../.gitbook/assets/2019-01-29_21-10-55.png)
 
+## My Settings
+
+Well Templates are new, but for me I keep two Global Templates, one for the OS, and the second for WinPE.  I keep it similar for the OSMedia Family specific settings, and always keep Appx separate
+
+![](../../../.gitbook/assets/2019-01-29_21-42-33.png)
+
+And here is what that looks like 
+
+![](../../../.gitbook/assets/2019-01-29_21-45-56.png)
+
+
+
+
+
+
+
 
 
 
