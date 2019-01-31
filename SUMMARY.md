@@ -1,6 +1,6 @@
 # Table of contents
 
-* [About](README.md)
+* [OSDeploy Home](README.md)
 * [Links](links/README.md)
   * [Blogs \[MVP\]](links/blogs-mvp.md)
   * [Blogs \[Microsoft\]](links/blogs-microsoft.md)
@@ -32,7 +32,7 @@
 
 ## OSBuilder
 
-* [OSBuilder \(Offline Servicing\)](osbuilder/overview.md)
+* [OSBuilder Home](osbuilder/overview.md)
 * [Release Information](osbuilder/release-information/README.md)
   * [2018-12](osbuilder/release-information/2018-12.md)
   * [2018-11](osbuilder/release-information/2018-11.md)
@@ -159,7 +159,7 @@
 
 ## OSConfig
 
-* [OSConfig Overview](osconfig/overview.md)
+* [OSConfig Home](osconfig/overview.md)
 * [Downloads](osconfig/downloads/README.md)
   * [OSConfig](osconfig/downloads/osconfig.md)
   * [LGPO](osconfig/downloads/lgpo.md)
