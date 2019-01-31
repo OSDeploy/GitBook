@@ -2,11 +2,7 @@
 
 ## January 31, 2019 - Today is all about SASMUG!
 
-{% embed url="https://twitter.com/SanAntonioSMUG/with\_replies" %}
-
-
-
-
+{% embed url="https://twitter.com/SanAntonioSMUG" %}
 
 ## About David Segura \| OSDeploy
 
@@ -24,7 +20,7 @@ This poses some challenges in our processes.  We cannot deploy all computers usi
 
 #### SASMUG \(San Antonio, Texas\) - January 31, 2019
 
-
+{% file src=".gitbook/assets/190131-sasmug.pptx" caption="SASMUG - January 31, 2019" %}
 
 #### HASMUG \(Houston, Texas\) - October 17, 2018
 
