@@ -2,7 +2,11 @@
 
 ## January 31, 2019 - Today is all about SASMUG!
 
-{% embed url="https://twitter.com/SanAntonioSMUG" %}
+{% embed url="https://twitter.com/SanAntonioSMUG/with\_replies" %}
+
+
+
+
 
 ## About David Segura \| OSDeploy
 

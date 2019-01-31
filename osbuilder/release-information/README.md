@@ -2,7 +2,11 @@
 
 ## 19.1.31 \(January 31, 2019\) San Antonio SMUG
 
-Update coming later today with some new features
+Thanks to [**San Antonio SMUG**](https://twitter.com/SanAntonioSMUG) ****for hosting me today.  Here are the guides to using the new features
+
+{% page-ref page="../docs/guides/templates.md" %}
+
+{% page-ref page="../docs/guides/registry.md" %}
 
 ## 19.1.28.1 \(January 28, 2019\)
 
