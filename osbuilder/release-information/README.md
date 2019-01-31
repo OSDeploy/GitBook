@@ -1,5 +1,9 @@
 # Release Information
 
+## 19.1.31 \(January 31, 2019\) San Antonio SMUG
+
+Update coming later today with some new features
+
 ## 19.1.28.1 \(January 28, 2019\)
 
 {% hint style="info" %}
