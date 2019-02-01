@@ -4,6 +4,14 @@ description: OSBuilder 19.2.1 or newer
 
 # OSBuild Registry REG
 
+{% hint style="warning" %}
+**Only Registry Keys that use these Paths are supported**  
+HKEY\_CURRENT\_USER  
+HKEY\_LOCAL\_MACHINE\SOFTWARE  
+HKEY\_LOCAL\_MACHINE\SYSTEM  
+HKEY\_USERS\.DEFAULT
+{% endhint %}
+
 I originally added Registry XML first to OSBuilder, and here is how working with REG files works.  In this example I want to take my Current User Windows Explorer settings and have them applied to the Default User in my OSBuild
 
 ## Regedit

@@ -1,5 +1,13 @@
 # OSBuild Registry XML
 
+{% hint style="warning" %}
+**Only Registry Keys that use these Paths are supported**  
+HKEY\_CURRENT\_USER  
+HKEY\_LOCAL\_MACHINE\SOFTWARE  
+HKEY\_LOCAL\_MACHINE\SYSTEM  
+HKEY\_USERS\.DEFAULT
+{% endhint %}
+
 **You can use Registry XML files with OSBuilder**.  I'll get into how to create them a little further down, but here is an example of what a Registry XML file for adding Desktop Icons in a User's registry looks like.  As you can see in the XML file, the Registry will make changes in the Current User's Hive.
 
 {% embed url="https://gist.github.com/OSDeploy/fda477aab8b7dd76587de2ad5c9ec36a" %}
