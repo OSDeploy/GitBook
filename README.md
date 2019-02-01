@@ -24,9 +24,9 @@ Feel free to reach out to me if you have any questions.  I'm most active on Twit
 
 {% file src=".gitbook/assets/190131-sasmug.pptx" caption="SASMUG - January 31, 2019" %}
 
-#### HASMUG \(Houston, Texas\) - October 17, 2018
+#### HASMUG \(Houston, Texas\) - October 18, 2018
 
-{% file src=".gitbook/assets/181017-hasmug.pptx" caption="HASMUG - October 17, 2018" %}
+{% file src=".gitbook/assets/181018-hasmug.pptx" caption="HASMUG - October 18, 2019" %}
 
 #### CTSMUG \(Austin, Texas\) - October 5, 2018
 
