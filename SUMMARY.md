@@ -34,6 +34,7 @@
 
 * [OSBuilder Home](osbuilder/overview.md)
 * [Release Information](osbuilder/release-information/README.md)
+  * [2019-01](osbuilder/release-information/2019-01.md)
   * [2018-12](osbuilder/release-information/2018-12.md)
   * [2018-11](osbuilder/release-information/2018-11.md)
   * [2018-10](osbuilder/release-information/2018-10.md)
@@ -122,7 +123,9 @@
       * [New-PEBuild](osbuilder/docs/functions/pebuild/new-pebuild.md)
   * [Guides](osbuilder/docs/guides/README.md)
     * [OSBuild Templates](osbuilder/docs/guides/templates.md)
-    * [OSBuild Registry](osbuilder/docs/guides/registry.md)
+    * [OSBuild Registry](osbuilder/docs/guides/registry/README.md)
+      * [OSBuild Registry REG](osbuilder/docs/guides/registry/osbuild-registry-reg.md)
+      * [OSBuild Registry XML](osbuilder/docs/guides/registry/osbuild-registry-xml.md)
     * [Windows 7 SP1](osbuilder/docs/guides/windows-7-sp1/README.md)
       * [Import OSMedia](osbuilder/docs/guides/windows-7-sp1/import-osmedia.md)
       * [Download Updates](osbuilder/docs/guides/windows-7-sp1/download-updates.md)

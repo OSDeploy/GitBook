@@ -1,16 +1,18 @@
 # OSDeploy Home
 
-## January 31, 2019 - Today is all about SASMUG!
-
-{% embed url="https://twitter.com/SanAntonioSMUG" %}
-
 ## About David Segura \| OSDeploy
 
-I started OSDeploy.com as a way for me to document several of the things that I do related to deploying Windows for a large Enterprise.  What is unique about my Enterprise environment is that while most of our  systems are office based on the network, many systems are not and generally in disconnected environments, such as offshore on an oil rig.
+I started OSDeploy.com as a way for me to document several of the things that I do related to Customizing and Deploying Windows in a large Enterprise.
 
-This poses some challenges in our processes.  We cannot deploy all computers using ConfigMgr, so we use a combination of CM, MDT, and Stand-Alone.  Additionally, Windows 10 Feature Updates throw another complication into things.
+Most people visiting are interested in OSBuilder, so here is the link
+
+{% page-ref page="osbuilder/overview.md" %}
+
+Feel free to reach out to me if you have any questions.  I'm most active on Twitter!
 
 **David Segura**
+
+\*\*\*\*[https://twitter.com/SeguraOSD](https://twitter.com/SeguraOSD)
 
 [https://www.linkedin.com/in/davidsegura/](https://www.linkedin.com/in/davidsegura/)
 
