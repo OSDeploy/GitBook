@@ -1,5 +1,14 @@
 # Release Information
 
+## 19.2.5 \(February 5, 2019\)
+
+* Registry has moved to Templates.  This will be moved automatically
+* Drivers, ExtraFiles, and Scripts are added as Templates
+
+Learn how to use them as Templates with a game of **Frogger**
+
+{% page-ref page="../docs/guides/osbuild-arcade/frogger.md" %}
+
 ## 19.2.3 \(February 3, 2019\)
 
 * **Registry REG** - Resolved issue where REG files with a space in the path were not imported
