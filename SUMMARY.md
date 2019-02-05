@@ -122,6 +122,8 @@
         * [MDT](osbuilder/docs/functions/pebuild/new-pebuildtask/mdt.md)
       * [New-PEBuild](osbuilder/docs/functions/pebuild/new-pebuild.md)
   * [Guides](osbuilder/docs/guides/README.md)
+    * [OSBuild Arcade](osbuilder/docs/guides/osbuild-arcade/README.md)
+      * [Frogger](osbuilder/docs/guides/osbuild-arcade/frogger.md)
     * [OSBuild Templates](osbuilder/docs/guides/templates.md)
     * [OSBuild Registry](osbuilder/docs/guides/registry/README.md)
       * [OSBuild Registry REG](osbuilder/docs/guides/registry/osbuild-registry-reg.md)
