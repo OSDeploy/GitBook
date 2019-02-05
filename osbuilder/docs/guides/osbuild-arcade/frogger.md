@@ -102,17 +102,41 @@ Now time to do some setup
 
 ![](../../../../.gitbook/assets/2019-02-04_23-22-05.png)
 
+## Frogger Results
 
+* Desktop Icons were added by the Template Registry REG **User Desktop Icons.reg**
+* Wallpaper was added by Template ExtraFiles **Frogger Wallpaper**
 
+![](../../../../.gitbook/assets/2019-02-05_0-21-11.png)
 
+* **C:\Windows\Web\4K\Wallpaper\Windows** contains different size Wallpaper.  If the Screen Resolution matches one of these Wallpaper dimensions, it will be applied
 
+![](../../../../.gitbook/assets/2019-02-05_0-30-12.png)
 
+* Changing the Screen Resolution to a size that is not represented by the 4K wallpaper results in Windows using **C:\Windows\Web\Wallpaper\Windows\img0.jpg**, which is the Frogger Wallpaper
 
+![](../../../../.gitbook/assets/2019-02-05_0-22-52.png)
 
+![](../../../../.gitbook/assets/2019-02-05_0-23-06.png)
 
+![](../../../../.gitbook/assets/2019-02-05_0-31-46.png)
 
+* OEM Information was modified by the Template Registry **Computer OEMInformation.reg**
 
+![](../../../../.gitbook/assets/2019-02-05_0-24-55.png)
 
+* Control Panel displays small icons by Template Registry **User Control Panel View.reg**
+
+![](../../../../.gitbook/assets/2019-02-05_0-25-36.png)
+
+* Windows Explorer view was set using a few different Template Registry files
+  * **User Explorer Advanced.reg**
+  * **User Explorer Title Bar Full Path.reg**
+  * **Win10 User Remove OneDrive Setup.reg**
+
+## Game Over
+
+I hope that this example shows the new changes to OSBuilder and that it can be as easy as playing a game.  **Happy jumping and watch out for moving cars!**
 
 
 
