@@ -5,7 +5,7 @@
 * Registry has moved to Templates.  This will be moved automatically
 * Drivers, ExtraFiles, and Scripts are added as Templates
 
-Learn how to use them as Templates with a game of **Frogger**
+Learn how to use these as Templates with a game of **Frogger**
 
 {% page-ref page="../docs/guides/osbuild-arcade/frogger.md" %}
 
@@ -17,7 +17,7 @@ Learn how to use them as Templates with a game of **Frogger**
 
 A quick change to **OSBuild Registry** to allow you to add **REG** files is now complete
 
-{% page-ref page="../docs/guides/registry/osbuild-registry-reg.md" %}
+{% page-ref page="../docs/guides/registry/osbuild-registry-reg/" %}
 
 ![](../../.gitbook/assets/image%20%282%29.png)
 

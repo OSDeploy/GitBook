@@ -1,5 +1,10 @@
 # OSBuild Registry XML
 
+{% hint style="danger" %}
+**OSBuilder 19.2.5 has moved Registry to OSBuilder\Templates\Registry  
+This guide will be updated soon**
+{% endhint %}
+
 {% hint style="warning" %}
 **Only Registry Keys that use these Paths are supported**  
 HKEY\_CURRENT\_USER  
