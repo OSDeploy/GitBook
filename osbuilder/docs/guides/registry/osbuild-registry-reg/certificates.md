@@ -2,11 +2,15 @@
 
 ## Fan Request
 
-This Guide is the result of this Tweet from [@Marctwain\_C](https://twitter.com/Marctwain_C)
+This Guide is the result of this Tweet from [@Marctwain\_C](https://twitter.com/Marctwain_C) when he first asked me ...
 
 {% embed url="https://twitter.com/Marctwain\_C/status/1083589702362517504" %}
 
-While I don't have a need for this, I am not one to turn down a challenge, so
+And the additional bugging ...
+
+{% embed url="https://twitter.com/Marctwain\_C/status/1089866104787402752" %}
+
+While I don't have a need for this myself, I am not one to turn down an Offline Servicing challenge, so ...
 
 ![](../../../../../.gitbook/assets/image%20%288%29.png)
 
