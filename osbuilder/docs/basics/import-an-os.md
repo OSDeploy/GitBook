@@ -26,7 +26,7 @@ OSBuilder will scan the drives for an Operating System to import and display the
 **You can multi-select multiple Editions from multiple ISO's at the same time**
 {% endhint %}
 
-![](../../../.gitbook/assets/2019-02-10_0-41-26.png)
+![](../../../.gitbook/assets/2019-02-10_1-27-04.png)
 
 The Operating System then will be mounted
 
@@ -35,6 +35,8 @@ The Operating System then will be mounted
 Once mounted, a full inventory will be saved, and the Operating System will be copied into OSBuilder's OSMedia.  This will take between 5-10 minutes to complete per Operating System Edition
 
 ![](../../../.gitbook/assets/2019-02-10_0-49-20.png)
+
+![](../../../.gitbook/assets/2019-02-10_1-31-28.png)
 
 
 

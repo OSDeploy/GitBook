@@ -20,6 +20,7 @@
     * [Installation](osbuilder/docs/basics/installation.md)
     * [Get Started](osbuilder/docs/basics/get-started.md)
     * [Import an OS](osbuilder/docs/basics/import-an-os.md)
+    * [OS Information](osbuilder/docs/basics/os-information.md)
   * [Quick Start](osbuilder/docs/quick-start.md)
   * [Instructions](osbuilder/docs/instructions/README.md)
     * [Detailed](osbuilder/docs/instructions/detailed/README.md)
