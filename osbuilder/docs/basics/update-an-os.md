@@ -62,7 +62,11 @@ Select one or more OSMedia to Update and press OK
 This process will take between 30 minutes and 2 hours to complete on a good system.  Plan on taking a break while the process is running and make sure you do not have an AntiVirus On Access Scan running
 {% endhint %}
 
+## Complete Process
 
+The image below is the complete Update-OSMedia process.  Right click and open in a new tab for best results
+
+![](../../../.gitbook/assets/2019-02-10_12-32-26.png)
 
 
 

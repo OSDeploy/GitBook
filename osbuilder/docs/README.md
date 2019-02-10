@@ -2,7 +2,7 @@
 
 {% page-ref page="basics/support.md" %}
 
-{% page-ref page="instructions/" %}
+{% page-ref page="../recycle-bin/instructions/" %}
 
 {% page-ref page="functions/" %}
 

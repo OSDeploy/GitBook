@@ -4,7 +4,7 @@ Start by selecting [**`New-PEBuildTask`**](./) and select the **`MDT`** tab.  Ke
 
 You have the option to use WinPE.wim or WinRE.wim as the base image to create MDT Media.  I always recommend selecting WinRE as it already contains the default ADK Packages you need to run MDT.  You can always add MDAC or PowerShell if necessary.
 
-You also have the option to include [**`-AutoExtraFiles`**](../../../instructions/detailed/pebuild/auto-extrafiles.md) and set the **`-ScratchSpace`**.  The default Scratch Space for WinPE is 32MB, but if you do not select an option \(since this is not a Mandatory parameter\), this will automatically be set to 128MB.
+You also have the option to include [**`-AutoExtraFiles`**](../../../../recycle-bin/instructions/detailed/pebuild/auto-extrafiles.md) and set the **`-ScratchSpace`**.  The default Scratch Space for WinPE is 32MB, but if you do not select an option \(since this is not a Mandatory parameter\), this will automatically be set to 128MB.
 
 Make sure you put your MDT DeploymentShare.  In the example below, I used USB media \(since I keep my OSBuilder disconnected from my Corporate Network\)
 

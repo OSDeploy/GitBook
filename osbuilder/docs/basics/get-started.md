@@ -30,7 +30,7 @@ Import-Module -Name OSBuilder -Force
 
 If everything is OK, the **OSBuilder Module Version** will be displayed in Green
 
-![](../../../.gitbook/assets/2019-02-10_0-07-28.png)
+![](../../../.gitbook/assets/2019-02-10_0-02-56.png)
 
 ## Catalog Information
 
