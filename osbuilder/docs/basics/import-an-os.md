@@ -28,13 +28,13 @@ OSBuilder will scan the drives for an Operating System to import and display the
 
 ![](../../../.gitbook/assets/2019-02-10_0-41-26.png)
 
-The Operating System will be mounted to obtain a full inventory, and then dismounted.  This will take between 5-10 minutes to complete per Operating System Edition
+The Operating System then will be mounted
 
 ![](../../../.gitbook/assets/2019-02-10_0-47-01.png)
 
+Once mounted, a full inventory will be saved, and the Operating System will be copied into OSBuilder's OSMedia.  This will take between 5-10 minutes to complete per Operating System Edition
 
-
-
+![](../../../.gitbook/assets/2019-02-10_0-49-20.png)
 
 
 
