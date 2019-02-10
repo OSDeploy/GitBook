@@ -30,15 +30,37 @@ To download the required Microsoft Updates for an OSMedia, simply add the -Downl
 Update-OSMedia -DownloadUpdates
 ```
 
-This will automatically download the Microsoft Updates using BITS Transfer.
+This parameter will automatically update the Microsoft Update Catalogs and you will be prompted to select an OSMedia.  You can multi-select OSMedia to download the updates for multiple Operating Systems
+
+![](../../../.gitbook/assets/2019-02-10_2-54-29.png)
+
+Once selected, the OSMedia will validate the required Microsoft Updates and download any that are missing using Microsoft BITS Transfer
 
 {% hint style="warning" %}
 BITS requires an Interactive Login
 {% endhint %}
 
-When using thi
+![](../../../.gitbook/assets/2019-02-10_3-12-20.png)
 
-![](../../../.gitbook/assets/2019-02-10_2-54-29.png)
+## Update-OSMedia -Execute
+
+Once you have all your Microsoft Updates downloaded, you can now update the OS.  To verify you have the Microsoft Updates, simply run Update-OSMedia without any parameters, and select the OSMedia to update.  If you don't have any Warnings displayed, then you are good to go
+
+![](../../../.gitbook/assets/2019-02-10_3-14-25.png)
+
+Use the following PowerShell command to start the Update-OSMedia process
+
+```text
+Update-OSMedia -Execute
+```
+
+Select one or more OSMedia to Update and press OK
+
+![](../../../.gitbook/assets/2019-02-10_3-18-57.png)
+
+{% hint style="warning" %}
+This process will take between 30 minutes and 2 hours to complete on a good system.  Plan on taking a break while the process is running and make sure you do not have an AntiVirus On Access Scan running
+{% endhint %}
 
 
 
