@@ -17,7 +17,7 @@ Import-Module -Name OSBuilder -Force
 
 ![](../../.gitbook/assets/2019-02-09_22-17-02.png)
 
-## Update Version
+## Update Existing Version
 
 If you have an existing version of OSBuilder, you will need to Uninstall-Module first with the following **PowerShell** commands
 
