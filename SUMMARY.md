@@ -2,9 +2,9 @@
 
 * [OSDeploy Home](README.md)
 
-## Offline Servicing Builder
+## OSBuilder
 
-* [OSBuilder](osbuilder/overview.md)
+* [OSBuilder Home](osbuilder/overview.md)
 * [Release Information](osbuilder/release-information/README.md)
   * [2019-01](osbuilder/release-information/2019-01.md)
   * [2018-12](osbuilder/release-information/2018-12.md)
@@ -19,7 +19,7 @@
     * [Requirements](osbuilder/docs/basics/requirements.md)
     * [Installation](osbuilder/docs/basics/installation.md)
     * [Get Started](osbuilder/docs/basics/get-started.md)
-    * [Import an Operating System](osbuilder/docs/basics/import-an-operating-system.md)
+    * [Import an OS](osbuilder/docs/basics/import-an-os.md)
   * [Quick Start](osbuilder/docs/quick-start.md)
   * [Instructions](osbuilder/docs/instructions/README.md)
     * [Detailed](osbuilder/docs/instructions/detailed/README.md)
