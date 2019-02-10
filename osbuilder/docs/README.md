@@ -1,6 +1,6 @@
 # Docs
 
-{% page-ref page="support.md" %}
+{% page-ref page="../basics/support.md" %}
 
 {% page-ref page="instructions/" %}
 
