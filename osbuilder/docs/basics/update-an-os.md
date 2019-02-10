@@ -1,9 +1,9 @@
 # Update an OS
 
-OSBuilder makes it easy to update any Imported Operating System with the latest Microsoft Updates
+OSBuilder makes it easy to update any Imported Operating System with the latest Microsoft Updates.  Once you have completed this page, you can import the updated OS into MDT or ConfigMgr
 
 {% hint style="info" %}
-An OSMedia is an Imported or Updated OS without any customizations
+**OSMedia is an Imported or Updated OS without any customizations**
 {% endhint %}
 
 ## Update-OSMedia
