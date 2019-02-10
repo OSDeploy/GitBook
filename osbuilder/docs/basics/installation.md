@@ -15,7 +15,7 @@ Install-Module -Name OSBuilder -Force
 Import-Module -Name OSBuilder -Force
 ```
 
-![](../../.gitbook/assets/2019-02-09_22-17-02.png)
+![](../../../.gitbook/assets/2019-02-09_22-17-02.png)
 
 ## Update Existing Version
 
@@ -27,5 +27,5 @@ Install-Module -Name OSBuilder -Force
 Import-Module -Name OSBuilder -Force
 ```
 
-![](../../.gitbook/assets/2019-02-09_22-17-10.png)
+![](../../../.gitbook/assets/2019-02-09_22-17-10.png)
 

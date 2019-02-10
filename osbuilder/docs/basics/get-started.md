@@ -8,13 +8,13 @@
 
 This simple command will get you started.  When using Get-OSBuilder for the first time, it will automatically select C:\OSBuilder as the OSBuilder Home directory
 
-![](../../.gitbook/assets/2019-02-09_23-57-08%20%281%29.png)
+![](../../../.gitbook/assets/2019-02-09_23-57-08%20%281%29.png)
 
 ## Get-OSBuilder -SetPath C:\OSB
 
 If this path doesn't work for you, then you can set the path to something else
 
-![](../../.gitbook/assets/2019-02-10_0-01-03.png)
+![](../../../.gitbook/assets/2019-02-10_0-01-03.png)
 
 ## Module Information
 
@@ -26,11 +26,11 @@ Install-Module -Name OSBuilder -Force
 Import-Module -Name OSBuilder -Force
 ```
 
-![](../../.gitbook/assets/2019-02-10_0-03-56.png)
+![](../../../.gitbook/assets/2019-02-10_0-03-56.png)
 
 If everything is OK, the **OSBuilder Module Version** will be displayed in Green
 
-![](../../.gitbook/assets/2019-02-10_0-07-28.png)
+![](../../../.gitbook/assets/2019-02-10_0-07-28.png)
 
 ## Catalog Information
 
@@ -40,7 +40,7 @@ OSBuilder downloads Microsoft Update Catalogs to know which Patches are required
 
 If the OSBuilder Catalogs require an update, the PowerShell command will be displayed
 
-![](../../.gitbook/assets/2019-02-10_0-07-28%20%281%29.png)
+![](../../../.gitbook/assets/2019-02-10_0-07-28%20%281%29.png)
 
 You can copy the PowerShell command from the Console and execute it.  This will download the latest Catalogs.  Additionally this command will create the OSBuilder directories
 
@@ -48,17 +48,17 @@ You can copy the PowerShell command from the Console and execute it.  This will 
 Get-OSBUpdate -UpdateCatalogs
 ```
 
-![](../../.gitbook/assets/2019-02-10_0-14-17.png)
+![](../../../.gitbook/assets/2019-02-10_0-14-17.png)
 
 ## Everything's OK
 
 If the OSBuilder PowerShell Module and Update Catalogs are up to date, both Versions will be listed in Green and you will not see any Warnings
 
-![](../../.gitbook/assets/2019-02-10_0-14-47.png)
+![](../../../.gitbook/assets/2019-02-10_0-14-47.png)
 
 ## Get-OSBuilder Function
 
 For additional information and parameters, see the following link
 
-{% page-ref page="../docs/functions/main/get-osbuilder/" %}
+{% page-ref page="../functions/main/get-osbuilder/" %}
 
