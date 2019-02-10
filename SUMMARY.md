@@ -1,38 +1,10 @@
 # Table of contents
 
 * [OSDeploy Home](README.md)
-* [Links](links/README.md)
-  * [Blogs \[MVP\]](links/blogs-mvp.md)
-  * [Blogs \[Microsoft\]](links/blogs-microsoft.md)
-  * [Blogs](links/blogs.md)
-  * [Communities](links/communities.md)
-  * [Consulting](links/consulting.md)
-  * [Events](links/events.md)
-  * [Forums](links/forums.md)
-  * [Microsoft](links/microsoft.md)
-  * [MSIX](links/msix.md)
-  * [PowerShell](links/powershell.md)
-  * [PowerShell \[Microsoft\]](links/powershell-microsoft.md)
-  * [Reddit](links/reddit.md)
-  * [Tools](links/tools.md)
-  * [Tools \[Paid\]](links/tools-paid.md)
-  * [Training](links/training.md)
-  * [User Groups](links/community.md)
-  * [Sponsors](links/sponsors.md)
-* [Blog](blog/README.md)
-  * [Windows Setup: FAT32 USB with +4GB Install.wim](blog/windows-setup-fat32-usb-with-+4gb-install.wim.md)
-  * [Microsoft Update Releases](blog/microsoft-update-releases.md)
-  * [Create WinPE.wim from Boot.wim or WinRE.wim](blog/create-winpe.wim-from-boot.wim-or-winre.wim.md)
-  * [WinPE 10 1809 WPF DLL Fix](blog/winpe-10-1809-wpf-dramarama.md)
-  * [Mount-WindowsImage -Optimize](blog/mount-windowsimage-optimize.md)
-  * [Windows 10 1809 Appx Issues](blog/windows-10-1809-appx-issues.md)
-  * [Windows 10 from ESD](blog/windows-10-from-esd.md)
-* [Development](development/README.md)
-  * [PowerShell SnapPE](development/snappe.md)
 
-## OSBuilder
+## Offline Servicing Builder
 
-* [OSBuilder Home](osbuilder/overview.md)
+* [OSBuilder](osbuilder/overview.md)
 * [Release Information](osbuilder/release-information/README.md)
   * [2019-01](osbuilder/release-information/2019-01.md)
   * [2018-12](osbuilder/release-information/2018-12.md)
@@ -41,11 +13,14 @@
   * [2018-09](osbuilder/release-information/2018-09.md)
   * [2018-08](osbuilder/release-information/2018-08.md)
   * [2018-07](osbuilder/release-information/2018-07.md)
+* [Basics](osbuilder/basics/README.md)
+  * [Requirements](osbuilder/basics/requirements.md)
+  * [Installation](osbuilder/basics/installation.md)
+  * [Untitled](osbuilder/basics/untitled.md)
 * [Docs](osbuilder/docs/README.md)
   * [Support](osbuilder/docs/support.md)
   * [Instructions](osbuilder/docs/instructions/README.md)
     * [Installation](osbuilder/docs/instructions/installation.md)
-    * [Requirements](osbuilder/docs/instructions/requirements.md)
     * [Quick Start](osbuilder/docs/instructions/quick-start.md)
     * [Detailed](osbuilder/docs/instructions/detailed/README.md)
       * [Update](osbuilder/docs/instructions/detailed/update.md)
@@ -162,6 +137,42 @@
 * [Recycle Bin](osbuilder/recycle-bin/README.md)
   * [OSBuilder New-OSBTemplate](osbuilder/recycle-bin/osbuilder-new-osbtemplate.md)
   * [OSBuild Templates](osbuilder/recycle-bin/osbuild-templates.md)
+
+## Blog
+
+* [Windows 10 from ESD](blog/windows-10-from-esd.md)
+* [Windows 10 1809 Appx Issues](blog/windows-10-1809-appx-issues.md)
+* [Mount-WindowsImage -Optimize](blog/mount-windowsimage-optimize.md)
+* [WinPE 10 1809 WPF DLL Fix](blog/winpe-10-1809-wpf-dramarama.md)
+* [Windows Setup: FAT32 USB with +4GB Install.wim](blog/windows-setup-fat32-usb-with-+4gb-install.wim.md)
+* [Microsoft Update Releases](blog/microsoft-update-releases.md)
+* [Create WinPE.wim from Boot.wim or WinRE.wim](blog/create-winpe.wim-from-boot.wim-or-winre.wim.md)
+* [Docs](blog/docs.md)
+
+## Development
+
+* [PowerShell SnapPE](development/snappe.md)
+
+## Links
+
+* [Links](links/links/README.md)
+  * [Blogs \[MVP\]](links/links/blogs-mvp.md)
+  * [Blogs \[Microsoft\]](links/links/blogs-microsoft.md)
+  * [Blogs](links/links/blogs.md)
+  * [Communities](links/links/communities.md)
+  * [Consulting](links/links/consulting.md)
+  * [Events](links/links/events.md)
+  * [Forums](links/links/forums.md)
+  * [Microsoft](links/links/microsoft.md)
+  * [MSIX](links/links/msix.md)
+  * [PowerShell](links/links/powershell.md)
+  * [PowerShell \[Microsoft\]](links/links/powershell-microsoft.md)
+  * [Reddit](links/links/reddit.md)
+  * [Tools](links/links/tools.md)
+  * [Tools \[Paid\]](links/links/tools-paid.md)
+  * [Training](links/links/training.md)
+  * [User Groups](links/links/community.md)
+  * [Sponsors](links/links/sponsors.md)
 
 ## OSConfig
 
