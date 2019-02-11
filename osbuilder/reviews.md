@@ -2,6 +2,12 @@
 
 **Here are some reviews of OSBuilder that may provide a new perspective.  Waiting on a new review from** [**Terence Beggs**](https://twitter.com/terencebeggs) **of** [**SCConfigMgr**](http://www.scconfigmgr.com/) **coming soon!**
 
+## February 11, 2019
+
+Thanks again [**MVP Octavio Rdz**](https://twitter.com/DeploymentMX) **from** [**DeploymentMX**](http://blogs.itpro.es/octaviordz/)**!**
+
+{% embed url="http://blogs.itpro.es/octaviordz/2019/02/11/trabajando-windows-10-1809-con-osbuilder/" %}
+
 ## January 26, 2019
 
 **Excellent review from** [**Manel Rodero**](https://twitter.com/manelrodero) **on his** [**blog**](http://www.manelrodero.com/blog/)**!**
