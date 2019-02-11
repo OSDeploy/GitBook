@@ -23,9 +23,6 @@ WinRE DISM Cleanup Image
 Update WinSE with Cumulative Update
 WinSE DISM Cleanup Image
 Update Media Setup with WinSE
-Export WinPE Inventory
-Export WinRE Inventory
-Export WinSE Inventory
 Dismount and Save WinPE
 Dismount and Save WinRE
 Dismount and Save WinSE
@@ -42,14 +39,11 @@ OS DISM Cleanup Image
 Update OS with DotNet Cumulative Update
 Update OS with Adobe Security Update
 OS DISM Cleanup Image
-Export Auto ExtraFiles for WinPE
-Export Sessions.xml
-Export OS Inventory
 Dismount and Save OS
 Export Install.wim
 ```
 
-**All these above steps are done automatically with the following PowerShell command**
+**All these above steps are done with OSBuilder using the following PowerShell command**
 
 ```text
 Update-OSMedia -DownloadUpdates -Execute
