@@ -22,6 +22,7 @@
   * [2018-08](osbuilder/release-information/2018-08.md)
   * [2018-07](osbuilder/release-information/2018-07.md)
 * [Reviews](osbuilder/reviews.md)
+* [Fan Requests](osbuilder/fan-requests.md)
 * [Docs](osbuilder/docs/README.md)
   * [Quick Start](osbuilder/docs/quick-start.md)
   * [The Basics](osbuilder/docs/basics/README.md)

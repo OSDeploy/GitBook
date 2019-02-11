@@ -24,7 +24,7 @@ OSBuilder will allow you to fully Update and Customize Windows 10, Server 2016, 
 | :--- | :--- | :--- |
 | **Windows 7** | **YES** | **NO** |
 | **Windows 10** | **YES** | **YES** |
-| **Windows Server 2012** | **YES** | **NO** |
+| **Windows Server 2012 R2** | **YES** | **NO** |
 | **Windows Server 2016** | **YES** | **YES** |
 | **Windows Server 2019** | **YES** | **YES** |
 
