@@ -28,6 +28,7 @@
     * [Requirements](osbuilder/docs/basics/requirements.md)
     * [Installation](osbuilder/docs/basics/installation.md)
     * [Get Started](osbuilder/docs/basics/get-started.md)
+    * [Update OSBuilder](osbuilder/docs/basics/update-osbuilder.md)
     * [Import an OS](osbuilder/docs/basics/import-an-os.md)
     * [OS Information](osbuilder/docs/basics/os-information.md)
     * [Update an OS](osbuilder/docs/basics/update-an-os.md)

@@ -20,6 +20,12 @@ This is all about **`Get-OSBuilder`**
 
 {% page-ref page="get-started.md" %}
 
+## Update OSBuilder
+
+The easy way
+
+{% page-ref page="update-osbuilder.md" %}
+
 ## Import an OS
 
 **`Import-OSMedia`** is all your need to know
