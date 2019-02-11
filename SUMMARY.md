@@ -31,6 +31,7 @@
     * [Import an OS](osbuilder/docs/basics/import-an-os.md)
     * [OS Information](osbuilder/docs/basics/os-information.md)
     * [Update an OS](osbuilder/docs/basics/update-an-os.md)
+    * [Update an OS Process](osbuilder/docs/basics/update-os-process.md)
     * [Support](osbuilder/docs/basics/support.md)
   * [Functions](osbuilder/docs/functions/README.md)
     * [Main](osbuilder/docs/functions/main/README.md)
