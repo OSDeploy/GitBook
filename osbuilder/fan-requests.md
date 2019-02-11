@@ -1,5 +1,9 @@
 # Fan Requests
 
+## WinPE Wireless Support \(in progress\)
+
+{% embed url="https://twitter.com/manelrodero/status/1095064234407460865" %}
+
 ## Windows 8.1 \(under consideration\)
 
 {% embed url="https://twitter.com/xenadmin/status/1092891531059572737" %}
