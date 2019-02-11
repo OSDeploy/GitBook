@@ -1,6 +1,14 @@
 # Table of contents
 
 * [OSDeploy Home](README.md)
+* [Blog](blog/README.md)
+  * [Create WinPE.wim from Boot.wim or WinRE.wim](blog/create-winpe.wim-from-boot.wim-or-winre.wim.md)
+  * [Microsoft Update Releases](blog/microsoft-update-releases.md)
+  * [Windows Setup: FAT32 USB with +4GB Install.wim](blog/windows-setup-fat32-usb-with-+4gb-install.wim.md)
+  * [WinPE 10 1809 WPF DLL Fix](blog/winpe-10-1809-wpf-dramarama.md)
+  * [Mount-WindowsImage -Optimize](blog/mount-windowsimage-optimize.md)
+  * [Windows 10 1809 Appx Issues](blog/windows-10-1809-appx-issues.md)
+  * [Windows 10 from ESD](blog/windows-10-from-esd.md)
 
 ## OSBuilder
 
@@ -15,7 +23,7 @@
   * [2018-07](osbuilder/release-information/2018-07.md)
 * [Docs](osbuilder/docs/README.md)
   * [Quick Start](osbuilder/docs/quick-start.md)
-  * [Basics](osbuilder/docs/basics/README.md)
+  * [The Basics](osbuilder/docs/basics/README.md)
     * [Requirements](osbuilder/docs/basics/requirements.md)
     * [Installation](osbuilder/docs/basics/installation.md)
     * [Get Started](osbuilder/docs/basics/get-started.md)
@@ -139,17 +147,6 @@
           * [Set-TimeZone](osbuilder/recycle-bin/instructions/detailed/pebuild/scripts/set-timezone.md)
   * [OSBuilder New-OSBTemplate](osbuilder/recycle-bin/osbuilder-new-osbtemplate.md)
   * [OSBuild Templates](osbuilder/recycle-bin/osbuild-templates.md)
-
-## Blog
-
-* [Windows 10 from ESD](blog/windows-10-from-esd.md)
-* [Windows 10 1809 Appx Issues](blog/windows-10-1809-appx-issues.md)
-* [Mount-WindowsImage -Optimize](blog/mount-windowsimage-optimize.md)
-* [WinPE 10 1809 WPF DLL Fix](blog/winpe-10-1809-wpf-dramarama.md)
-* [Windows Setup: FAT32 USB with +4GB Install.wim](blog/windows-setup-fat32-usb-with-+4gb-install.wim.md)
-* [Microsoft Update Releases](blog/microsoft-update-releases.md)
-* [Create WinPE.wim from Boot.wim or WinRE.wim](blog/create-winpe.wim-from-boot.wim-or-winre.wim.md)
-* [Docs](blog/docs.md)
 
 ## Development
 
