@@ -1,6 +1,6 @@
 # Quick Start
 
-If you don't feel like reading through all the documentation, here are the quick instructions in 6 steps. These steps can be completed in about 6 **minutes of Touch Time, and 39 - 167 minutes of Processing Time**
+**If you don't feel like reading through all the documentation, these three steps will get your Operating System updated with the latest Microsoft Updates**
 
 ## 1. Install OSBuilder \(Clean Install\)
 
