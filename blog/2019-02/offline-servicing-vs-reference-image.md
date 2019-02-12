@@ -52,6 +52,8 @@ The downside for a **Reference Image "Captured"** is when Applications change, t
 
 Both are equally adept in handling Customizations, you just need to know how
 
+One thing personally is the sheer amount of customizations in OSBuilder that can be done, including updating WinRE with DaRT and adding Drivers.  I have **YET** to see a Build and Capture shared that handles this \(it is possible, but I don't think anyone has realistically put the effort into this\)
+
 ## Duplicate Work
 
 I tweeted a slide and was rather surprised at the amount of likes it received, so I'll bring this up again
