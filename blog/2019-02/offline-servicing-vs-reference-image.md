@@ -18,7 +18,7 @@ Here is Microsoft's take on this
 
 When we use the term "Offline Servicing", we typically mean an Image that comes factory fresh from Microsoft that we mount, and apply the latest Microsoft Updates to.  This includes adding Language Resources, or injecting files, even mounting the Registry to make cosmetic changes.
 
-
+Since the Image is mounted, you cannot install Applications that rely on an EXE or MSI, although you can inject Packages like MSU, CAB, or Appx
 
 {% embed url="https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism" %}
 
@@ -29,6 +29,24 @@ When we use the term "Offline Servicing", we typically mean an Image that comes 
 * **OSBuilder is a method of Offline Servicing "Uncaptured"**
 
 To be clear, the remainder of this document will consider a **Reference Image "Captured" vs Offline Servicing "Uncaptured"**
+
+## Windows 10 Upgrade
+
+This is the biggest hurdle.  You cannot use a **Reference Image "Captured"** when performing an Upgrade.  This means that you cannot go from 1803 to 1809 with a **Reference Image "Captured"**.
+
+**Offline Serviced "Uncaptured"** works just fine in this case
+
+## Maintain Multiple Images
+
+Due to the fact you cannot perform a Windows 10 Upgrade with a **Reference Image "Captured"**, you must also maintain a separate **Offline Serviced "Uncaptured"** for your upgrades
+
+Why maintain two images if you can just use one?
+
+## Applications
+
+A **Reference Image "Captured"** can contain applications like Offline or Runtimes, while an **Offline Serviced "Uncaptured"** image cannot
+
+
 
 
 
