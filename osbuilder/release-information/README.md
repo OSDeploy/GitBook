@@ -1,5 +1,13 @@
 # Release Information
 
+## Update OSBuilder
+
+```text
+Uninstall-Module -Name OSBuilder -AllVersions -Force
+Install-Module -Name OSBuilder -Force
+Import-Module -Name OSBuilder -Force
+```
+
 ## 19.2.12 \(February 12, 2019\) "Patch Tuesday"
 
 {% hint style="danger" %}
