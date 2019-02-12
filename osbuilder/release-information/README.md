@@ -1,5 +1,30 @@
 # Release Information
 
+## 19.2.12 \(February 12, 2019\) Pending Release
+
+* **Get-OSBuilder**
+  * Automatically downloads Microsoft Update Catalogs
+* **Update-OSMedia**
+  * Method for injecting updated OneDriveClient.exe
+  * Not fully automated due to Production vs Enterprise versions
+* **New-OSBuild**
+  * Method for injecting updated OneDriveClient.exe
+  * Not fully automated due to Production vs Enterprise versions
+* **New-OSBUpdate**
+  * Downloads now use Net.Webclient instead of BITS Transfer
+  * Download Progress is not displayed \(this was a function of BITS\)
+  * Interactive Login no longer required
+* **Update Catalogs**
+  * Updated online source path
+  * https://raw.githubusercontent.com/OSDeploy/OSBuilder.Public/master/Content/Updates/OSBuilder.json
+  * Catalogs have Date information in the file name
+
+### OneDriveSetup.exe Update
+
+Place an updated OneDriveSetup.exe at C:\OSBuilder\Content\OneDrive\OneDriveSetup.exe to have it automatically injected during **`Update-OSMedia`** or **`New-OSBuild`**.  This is a manual copy due to different Rings \(Enterprise vs Production\)
+
+![](../../.gitbook/assets/2019-02-12_3-12-41.png)
+
 ## 19.2.10 \(February 10, 2019\)
 
 * **Get-OSBuilder**
