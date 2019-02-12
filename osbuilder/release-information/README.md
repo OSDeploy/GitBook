@@ -1,6 +1,10 @@
 # Release Information
 
-## 19.2.12 \(February 12, 2019\) Pending Release
+## 19.2.12 \(February 12, 2019\) "Patch Tuesday"
+
+{% hint style="danger" %}
+**You need this version to get the latest Microsoft Updates**
+{% endhint %}
 
 * **Get-OSBuilder**
   * Automatically downloads Microsoft Update Catalogs
@@ -25,6 +29,14 @@
 Place an updated OneDriveSetup.exe at **&lt;OSBuilderHome&gt;\Content\OneDrive\OneDriveSetup.exe** to have it automatically injected during **`Update-OSMedia`** or **`New-OSBuild`**.  This is a manual copy due to different Rings \(Enterprise vs Production\)
 
 ![](../../.gitbook/assets/2019-02-12_3-12-41.png)
+
+### Automatic Update Catalog Download
+
+If you are online and run OSBuilder, the Update Catalogs will be validated for a newer version.  If there is an update available, old Update Catalogs will be removed and new ones will be downloaded as needed.  Catalogs have a Date or Version information in the file name as needed and are relocated to the Updates root
+
+![](../../.gitbook/assets/2019-02-12_10-35-23.png)
+
+![](../../.gitbook/assets/2019-02-12_10-37-55.png)
 
 ## 19.2.10 \(February 10, 2019\)
 

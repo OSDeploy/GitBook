@@ -8,6 +8,12 @@
 
 {% embed url="https://twitter.com/xenadmin/status/1092891531059572737" %}
 
+## No BITS Transfer
+
+**This has been resolved in OSBuilder 19.2.12**
+
+{% embed url="https://twitter.com/ThiloLangbein/status/1090153475898523650" %}
+
 ## Root Certificates \(Supported in 19.2.1 "REG"\)
 
 {% page-ref page="docs/guides/registry/osbuild-registry-reg/certificates.md" %}
