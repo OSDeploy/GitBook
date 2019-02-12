@@ -2,6 +2,8 @@
 
 * [OSDeploy Home](README.md)
 * [Blog](blog/README.md)
+  * [2019-02](blog/2019-02/README.md)
+    * [Offline Servicing vs Reference Image](blog/2019-02/offline-servicing-vs-reference-image.md)
   * [Create WinPE.wim from Boot.wim or WinRE.wim](blog/create-winpe.wim-from-boot.wim-or-winre.wim.md)
   * [Microsoft Update Releases](blog/microsoft-update-releases.md)
   * [Windows Setup: FAT32 USB with +4GB Install.wim](blog/windows-setup-fat32-usb-with-+4gb-install.wim.md)
