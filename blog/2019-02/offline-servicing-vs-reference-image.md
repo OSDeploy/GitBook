@@ -34,25 +34,37 @@ To be clear, the remainder of this document will consider a **Reference Image "C
 
 This is the biggest hurdle.  You cannot use a **Reference Image "Captured"** when performing an Upgrade.  This means that you cannot go from 1803 to 1809 with a **Reference Image "Captured"**.
 
-**Offline Serviced "Uncaptured"** works just fine in this case
+**Offline Serviced "Uncaptured"** is the only type of deployment that will work
 
 ## Maintain Multiple Images
 
 Due to the fact you cannot perform a Windows 10 Upgrade with a **Reference Image "Captured"**, you must also maintain a separate **Offline Serviced "Uncaptured"** for your upgrades
 
-Why maintain two images if you can just use one?
+**Why maintain two images if you can just use one?**
 
 ## Applications
 
-A **Reference Image "Captured"** can contain applications like Offline or Runtimes, while an **Offline Serviced "Uncaptured"** image cannot
+A **Reference Image "Captured"** can contain applications like Offline or Runtimes, while an **Offline Serviced "Uncaptured"** image cannot.  These will have to be added in a Task Sequence.
 
+The downside for a **Reference Image "Captured"** is when Applications change, time to change the **Reference Image "Captured"**, although if fully automated, then this may not be an issue
 
+## Customizations
 
+Both are equally adept in handling Customizations, you just need to know how
 
+## Duplicate Work
 
+I tweeted a slide and was rather surprised at the amount of likes it received, so I'll bring this up again
 
+{% embed url="https://twitter.com/SeguraOSD/status/1093624866677362688" %}
 
+Since you MUST have an **Offline Serviced "Uncaptured"** Image for Upgrades, it makes perfect sense to move as much as you can into the **Offline Serviced "Uncaptured"** Image.  Then recycle this image to be used in a **Reference Image "Captured".**
 
+**Remember, you have two images.  Why repeat the same exact steps for both images, when you can just do it once in Offline Servicing?**
 
+## My 2 Cents
 
+I'm busy.  The fewer images I have to maintain, the better.  It's not about being lazy, it is using my time more efficiently.  I already have to maintain an **Offline Serviced "Uncaptured"** image for Windows 10 Upgrades
+
+**If you deploy and maintain Windows 10, an Offline Serviced "Uncaptured" image is a REQUIREMENT, while a Reference Image is completely OPTIONAL**
 
