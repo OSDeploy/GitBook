@@ -12,6 +12,8 @@ Import-Module -Name OSBuilder -Force
 
 {% hint style="danger" %}
 **You need this version to get the latest Microsoft Updates**
+
+**This version is NOT Windows 7 friendly, this will be resolved in the next release**
 {% endhint %}
 
 * **Get-OSBuilder**
