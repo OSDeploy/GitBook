@@ -14,6 +14,7 @@
   * Downloads now use Net.Webclient instead of BITS Transfer
   * Download Progress is not displayed \(this was a function of BITS\)
   * Interactive Login no longer required
+  * Parameter IseGridView changed to GridView
 * **Update Catalogs**
   * Updated online source path
   * https://raw.githubusercontent.com/OSDeploy/OSBuilder.Public/master/Content/Updates/OSBuilder.json
@@ -21,7 +22,7 @@
 
 ### OneDriveSetup.exe Update
 
-Place an updated OneDriveSetup.exe at C:\OSBuilder\Content\OneDrive\OneDriveSetup.exe to have it automatically injected during **`Update-OSMedia`** or **`New-OSBuild`**.  This is a manual copy due to different Rings \(Enterprise vs Production\)
+Place an updated OneDriveSetup.exe at **&lt;OSBuilderHome&gt;\Content\OneDrive\OneDriveSetup.exe** to have it automatically injected during **`Update-OSMedia`** or **`New-OSBuild`**.  This is a manual copy due to different Rings \(Enterprise vs Production\)
 
 ![](../../.gitbook/assets/2019-02-12_3-12-41.png)
 
