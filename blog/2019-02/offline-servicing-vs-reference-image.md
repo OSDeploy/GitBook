@@ -70,3 +70,5 @@ I'm busy.  The fewer images I have to maintain, the better.  It's not about bein
 
 **If you deploy and maintain Windows 10, an Offline Serviced "Uncaptured" image is a REQUIREMENT, while a Reference Image is completely OPTIONAL**
 
+That being said, Reference Images do have a place, **if necessary**.  I still use a Reference Image to deploy Windows 7 ...
+
