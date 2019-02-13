@@ -1,6 +1,6 @@
 # Offline Servicing vs Reference Image
 
-I got asked a question on Twitter, and rather than limiting my reply to 280 characters, I'll share as much as I can
+I got asked a question on Twitter, and rather than limiting my reply to 280 characters, I'll share as much as I can on this page
 
 {% embed url="https://twitter.com/beanska/status/1095333466114162693" %}
 
@@ -48,11 +48,21 @@ A **Reference Image "Captured"** can contain applications like Offline or Runtim
 
 The downside for a **Reference Image "Captured"** is when Applications change, time to change the **Reference Image "Captured"**, although if fully automated, then this may not be an issue
 
+If you absolutely MUST have an application installed in the image, and not deployed, then you must use a **Reference Image "Captured"**
+
+## **App Slavery**
+
+One problem that comes from using a **Reference Image "Captured"** is that you are now in "App Slavery".  What this means is that changes in your applications may cause you to perform additional work.  For example, if you have WinZip in your Image, and your company decides to move to 7-Zip.  Now you have to either make a new **Reference Image "Captured"**, or you have to spent time to perform an Uninstall of WinZip, and a new Install of 7-Zip.
+
+**Offline Serviced "Uncaptured"** does not experience this problem since all Applications are installed at the time of deployment
+
 ## Customizations
 
 Both are equally adept in handling Customizations, you just need to know how
 
 One thing personally is the sheer amount of customizations in OSBuilder that can be done, including updating WinRE with DaRT and adding Drivers.  I have **YET** to see a Build and Capture shared that handles this \(it is possible, but I don't think anyone has realistically put the effort into this\)
+
+Consider this, if you have ALL your customizations sequenced in a **Reference Image "Captured"** Task Sequence, then this same configuration could be easily applied during the deployment of a **Offline Serviced "Uncaptured"** image
 
 ## Duplicate Work
 
@@ -60,13 +70,11 @@ I tweeted a slide and was rather surprised at the amount of likes it received, s
 
 {% embed url="https://twitter.com/SeguraOSD/status/1093624866677362688" %}
 
-Since you MUST have an **Offline Serviced "Uncaptured"** Image for Upgrades, it makes perfect sense to move as much as you can into the **Offline Serviced "Uncaptured"** Image.  Then recycle this image to be used in a **Reference Image "Captured".**
-
-**Remember, you have two images.  Why repeat the same exact steps for both images, when you can just do it once in Offline Servicing?**
+Since you MUST have an **Offline Serviced "Uncaptured"** Image for Upgrades, it makes perfect sense to move as much as you can into the **Offline Serviced "Uncaptured"** Image.  Then recycle this image to be used in a **Reference Image "Captured"**.  This saves time in your **Reference Image "Captured"** Task Sequence as some steps can already be completed
 
 ## My 2 Cents
 
-I'm busy.  The fewer images I have to maintain, the better.  It's not about being lazy, it is using my time more efficiently.  I already have to maintain an **Offline Serviced "Uncaptured"** image for Windows 10 Upgrades
+I'm busy.  The fewer images I have to maintain, the better.  It's not about being lazy, it is about using my time more efficiently.  I already have to maintain an **Offline Serviced "Uncaptured"** image for Windows 10 Upgrades
 
 **If you deploy and maintain Windows 10, an Offline Serviced "Uncaptured" image is a REQUIREMENT, while a Reference Image is completely OPTIONAL**
 
