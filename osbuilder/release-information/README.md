@@ -1,12 +1,31 @@
 # Release Information
 
-## Update OSBuilder
+## Update OSBuilder PowerShell Module
 
 ```text
 Uninstall-Module -Name OSBuilder -AllVersions -Force
 Install-Module -Name OSBuilder -Force
 Import-Module -Name OSBuilder -Force
 ```
+
+## The Next OSBuilder Release
+
+* **Get-OSBuilder**
+  * Added Update parameter to update OSBuilder Module
+* **Import-OSMedia**
+  * Resolved issue importing Windows 8.1
+* **New-OSBuild**
+  * Resolved issue updating Windows 7
+* **New-OSBuildTask**
+  * Resolved issue with multiple versions after updating OSBuilder Module
+* **New-PEBuildTask**
+  * Resolved issue with multiple versions after updating OSBuilder Module
+* **Repair-OSBuildTask**
+  * Resolved issue with multiple versions after updating OSBuilder Module
+* **Repair-PEBuildTask**
+  * Resolved issue with multiple versions after updating OSBuilder Module
+* **Update-OSMedia**
+  * Resolved issue updating Windows 7
 
 ## 19.2.12 \(February 12, 2019\) "Patch Tuesday"
 
