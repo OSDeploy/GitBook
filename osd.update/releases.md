@@ -1,6 +1,10 @@
 # Releases
 
-## 19.2.15 \(February 15, 2019\) Initial Release
+{% hint style="danger" %}
+**This is the Initial Release ... so make sure you fully test the results before using in a production environment**
+{% endhint %}
+
+## 19.2.15 \(February 15, 2019\) Initial Release for Testing Only
 
 ```text
 Install-Module -Name OSD.Update
