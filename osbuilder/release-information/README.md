@@ -8,7 +8,7 @@ Install-Module -Name OSBuilder -Force
 Import-Module -Name OSBuilder -Force
 ```
 
-## The Next OSBuilder Release
+## 19.2.15 \(February 15, 2019\)
 
 * **Get-OSBuilder**
   * Added Update parameter to update OSBuilder Module
