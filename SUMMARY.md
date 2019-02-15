@@ -18,7 +18,7 @@
 * [Releases](osd.update/releases.md)
 * [Docs](osd.update/docs/README.md)
   * [Functions](osd.update/docs/functions/README.md)
-    * [Update-OSDOffice2016](osd.update/docs/functions/update-osdoffice2016.md)
+    * [Update-MSOffice2016](osd.update/docs/functions/update-msoffice2016.md)
 
 ## OSBuilder
 
