@@ -32,9 +32,49 @@ Let's get some parameters out of the way first
 
 ![](../../../.gitbook/assets/2019-02-19_1-20-53.png)
 
+## Office Updates Path
 
+Make sure this directory is cleared of any existing MSP files
 
+![](../../../.gitbook/assets/2019-02-19_1-26-53.png)
 
+## Update-OSDoffice Execution
+
+Once you have everything ready, you can execute in PowerShell
+
+```text
+Update-OSDoffice -OfficeVersion "Office 2016 64-Bit" -Selection Default -DownloadPath "C:\Software\Office Updates" -OfficeUpdatesPath "C:\Software\Office 2016 64-Bit\updates"
+```
+
+Available updates will be displayed.  Simply select the updates to include \(select all\) and press OK
+
+![](../../../.gitbook/assets/2019-02-19_1-29-26.png)
+
+{% hint style="info" %}
+**The following download, extract, and info stuff is really just for nerds and has been added to look cool**
+{% endhint %}
+
+![](../../../.gitbook/assets/2019-02-19_1-31-29.png)
+
+![](../../../.gitbook/assets/2019-02-19_1-31-50.png)
+
+## Results
+
+The Office Updates directory will be populated with all the current Office MSP files.  You are now ready to deploy an updated Office 2016 package
+
+![](../../../.gitbook/assets/2019-02-19_1-34-14.png)
+
+## DownloadPath
+
+Feel free to share this directory with all your Microsoft Office versions.  It's kinda cool
+
+![](../../../.gitbook/assets/2019-02-19_1-38-53.png)
+
+## -Selection Languages
+
+To be honest, I have no clue about all of this.  My apologies, but they are in here if you want to check it out
+
+![](../../../.gitbook/assets/2019-02-19_1-36-41.png)
 
 
 
