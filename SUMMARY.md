@@ -12,6 +12,15 @@
   * [Windows 10 1809 Appx Issues](blog/windows-10-1809-appx-issues.md)
   * [Windows 10 from ESD](blog/windows-10-from-esd.md)
 
+## OSDSoftware
+
+* [OSDSoftware Home](osdsoftware/home.md)
+* [Releases](osdsoftware/releases.md)
+* [Docs](osdsoftware/docs/README.md)
+  * [Functions](osdsoftware/docs/functions/README.md)
+    * [Get-OSDSoftware](osdsoftware/docs/functions/get-osdsoftware.md)
+    * [Update-OSDSoftware](osdsoftware/docs/functions/update-osdsoftware.md)
+
 ## OSD.Update
 
 * [OSD.Update Home](osd.update/home.md)
