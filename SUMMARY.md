@@ -19,15 +19,18 @@
 * [Docs](osdsoftware/docs/README.md)
   * [Functions](osdsoftware/docs/functions/README.md)
     * [Get-OSDSoftware](osdsoftware/docs/functions/get-osdsoftware.md)
-    * [Update-OSDSoftware](osdsoftware/docs/functions/update-osdsoftware.md)
+    * [Update-ModuleOSDSoftware](osdsoftware/docs/functions/update-moduleosdsoftware.md)
 
-## OSD.Update
+## OSDUpdate
 
-* [OSD.Update Home](osd.update/home.md)
-* [Releases](osd.update/releases.md)
-* [Docs](osd.update/docs/README.md)
-  * [Functions](osd.update/docs/functions/README.md)
-    * [Update-MSOffice2016](osd.update/docs/functions/update-msoffice2016.md)
+* [OSDUpdate Home](osdupdate/home.md)
+* [Releases](osdupdate/releases.md)
+* [Docs](osdupdate/docs/README.md)
+  * [Functions](osdupdate/docs/functions/README.md)
+    * [Update-OSDdefender](osdupdate/docs/functions/update-osddefender.md)
+    * [Update-OSDmcafee](osdupdate/docs/functions/update-osdmcafee.md)
+    * [Update-OSDoffice](osdupdate/docs/functions/update-osdoffice.md)
+    * [Update-OSDwindows](osdupdate/docs/functions/update-osdwindows.md)
 
 ## OSBuilder
 
@@ -248,4 +251,12 @@
 
 * [Hybrid WinPE](winpe/hybrid-winpe.md)
 * [WinPE Boot Process](winpe/winpe-boot-process.md)
+
+## OSD.Update
+
+* [OSD.Update Home](osd.update/home.md)
+* [Releases](osd.update/releases.md)
+* [Docs](osd.update/docs/README.md)
+  * [Functions](osd.update/docs/functions/README.md)
+    * [Update-MSOffice2016](osd.update/docs/functions/update-msoffice2016.md)
 

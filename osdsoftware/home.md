@@ -1,17 +1,25 @@
 # OSDSoftware Home
 
-## PowerShell Module
+## **OSDSoftware** PowerShell Module
 
-**OSDSoftware** is a PowerShell Module that is used to download some common software used in OS Deployments.  The following software in included.  More will be added as needed in the future
+**OSDSoftware** is a PowerShell Module that is used to download some common software used in OS Deployments.  It is published in the PowerShell Gallery at [**https://www.powershellgallery.com/packages/OSDSoftware**](https://www.powershellgallery.com/packages/OSDSoftware)\*\*\*\*
 
-* Google Chrome Enterprise x64
-* Microsoft ADK 1803
-* Microsoft ADK 1809
-* Microsoft ADK 1809 WinPE Addon
-* Microsoft MDT 8456 x86
-* Microsoft MDT 8456 x64
-* Microsoft VS code User x64
-* Microsoft VS code System x64
+The following software in included.  More will be added as needed in the future
+
+* **Google Chrome Enterprise x64** \(latest version\)
+* **Microsoft ADK 1803**
+* **Microsoft ADK 1809**
+* **Microsoft ADK 1809 WinPE Addon**
+* **Microsoft MDT 8456 x86**
+* **Microsoft MDT 8456 x64**
+* **Microsoft VS code User x64** \(latest version\)
+* **Microsoft VS code System x64** \(latest version\)
+
+{% hint style="info" %}
+**OSDSoftware will always download the latest versions of Google Chrome and Microsoft VS code**
+
+**Adobe Acrobat Reader and Notepad++ will be added in a later release**
+{% endhint %}
 
 ## Installation
 
