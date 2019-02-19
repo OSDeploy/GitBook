@@ -27,6 +27,7 @@
 * [Releases](osdupdate/releases.md)
 * [Docs](osdupdate/docs/README.md)
   * [Functions](osdupdate/docs/functions/README.md)
+    * [Update-ModuleOSDUpdate](osdupdate/docs/functions/update-moduleosdupdate.md)
     * [Update-OSDdefender](osdupdate/docs/functions/update-osddefender.md)
     * [Update-OSDmcafee](osdupdate/docs/functions/update-osdmcafee.md)
     * [Update-OSDoffice](osdupdate/docs/functions/update-osdoffice.md)

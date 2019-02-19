@@ -20,9 +20,7 @@ Update-ModuleOSDSoftware
 
 ## Usage
 
-**Update-OSDSoftware** will remove previous Module versions and install the latest OSDSoftware Module.  There are no parameters
+**Update-ModuleOSDSoftware** will remove previous Module versions and install the latest OSDSoftware Module.  There are no parameters
 
-![](../../../.gitbook/assets/2019-02-18_22-18-53.png)
-
-
+![](../../../.gitbook/assets/2019-02-19_0-41-54.png)
 
