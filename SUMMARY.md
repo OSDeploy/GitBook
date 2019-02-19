@@ -32,6 +32,8 @@
     * [Update-OSDmcafee](osdupdate/docs/functions/update-osdmcafee.md)
     * [Update-OSDoffice](osdupdate/docs/functions/update-osdoffice.md)
     * [Update-OSDwindows](osdupdate/docs/functions/update-osdwindows.md)
+  * [Guides](osdupdate/docs/guides/README.md)
+    * [Microsoft Office 2016 Updates](osdupdate/docs/guides/microsoft-office-2016-updates.md)
 
 ## OSBuilder
 
