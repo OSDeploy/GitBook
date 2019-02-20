@@ -1,5 +1,9 @@
 # OSDUpdate Home
 
+{% hint style="danger" %}
+**If you used the previous OSD.Update PowerShell Module, it was removed because it downloaded superseded updates, and I didn't like the period in the name**
+{% endhint %}
+
 ## **OSDUpdate** PowerShell Module
 
 **OSDSoftware** is a PowerShell Module that is used to download some common updates used in OS Deployments.  It is published in the PowerShell Gallery at [**https://www.powershellgallery.com/packages/OSDUpdate**](https://www.powershellgallery.com/packages/OSDUpdate)\*\*\*\*
