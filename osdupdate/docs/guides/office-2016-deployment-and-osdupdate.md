@@ -42,7 +42,7 @@ msiexec /p "$($Update.FullName)" /qr REBOOT=ReallySuppress MSIRESTARTMANAGERCONT
 
 And here's the results
 
-{% hint style="info" %}
+{% hint style="success" %}
 **14 minutes and 28 seconds \(includes 58 Updates\)**
 {% endhint %}
 
