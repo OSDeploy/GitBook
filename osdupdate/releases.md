@@ -1,5 +1,35 @@
 # Releases
 
+## 19.2.21 \(February 21, 2019\)
+
+{% hint style="danger" %}
+**Documentation will be in the next day or so, lots of changes in this release**
+{% endhint %}
+
+* **Get-OSDUpdate** - New function to return all current Microsoft Updates
+  * **GridView** - Displays the results in GridView with PassThru for easy selection
+  * **Office Parameter Set**
+    * CatalogOffice - Office Version and Architecture
+    * OfficeProfile - Office Update Selection Profile
+  * **Windows Parameter Set**
+    * CatalogWindows - Windows Version and Architecture
+    * WindowsBuild - Filters results based on Windows Build
+    * WindowsProfile - Windows Update Selection Profile
+* **Get-OSDUpdateDownloads** - Replaces Update-OSDoffice and Update-OSDwindows
+  * **RepositoryRootPath** - Path to store the downloads.  Recommended is C:\OSDUpdate or similar.  Child directories will be created automatically
+  * **GridView** - Displays the results in GridView with PassThru for easy selection
+  * **Office Parameter Set**
+    * CatalogOffice - Office Version and Architecture
+    * OfficeProfile - Office Update Selection Profile
+    * OfficeSetupUpdatesPath - Full Path to &lt;Office Setup Package&gt;\Updates for MSP files.  This is optional
+  * **Windows Parameter Set**
+    * CatalogWindows - Windows Version and Architecture
+    * WindowsBuild - Filters results based on Windows Build
+    * WindowsProfile - Windows Update Selection Profile
+* **New-OSDUpdateRepository** - New function to create the initial OSDUpdate Repository.  This is not required and will be created automatically as needed
+
+![OSDUpdate Repository with Content](../.gitbook/assets/2019-02-21_15-52-19.png)
+
 ## 19.2.19 \(February 19, 2019\) Initial Release
 
 * **Update-ModuleOSDUpdate**

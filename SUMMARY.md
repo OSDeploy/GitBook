@@ -33,7 +33,7 @@
     * [Update-OSDoffice](osdupdate/docs/functions/update-osdoffice.md)
     * [Update-OSDwindows](osdupdate/docs/functions/update-osdwindows.md)
   * [Guides](osdupdate/docs/guides/README.md)
-    * [Office Deployment and OSDUpdate](osdupdate/docs/guides/office-2016-deployment-and-osdupdate.md)
+    * [Office Deployment and OSDUpdate](osdupdate/docs/guides/office-deployment-and-osdupdate.md)
     * [Microsoft Office 2016 Updates](osdupdate/docs/guides/microsoft-office-2016-updates.md)
 
 ## OSBuilder
