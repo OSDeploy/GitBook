@@ -12,15 +12,6 @@
   * [Windows 10 1809 Appx Issues](blog/windows-10-1809-appx-issues.md)
   * [Windows 10 from ESD](blog/windows-10-from-esd.md)
 
-## OSDSoftware
-
-* [OSDSoftware Home](osdsoftware/home.md)
-* [Releases](osdsoftware/releases.md)
-* [Docs](osdsoftware/docs/README.md)
-  * [Functions](osdsoftware/docs/functions/README.md)
-    * [Get-OSDSoftware](osdsoftware/docs/functions/get-osdsoftware.md)
-    * [Update-ModuleOSDSoftware](osdsoftware/docs/functions/update-moduleosdsoftware.md)
-
 ## OSDUpdate
 
 * [OSDUpdate Home](osdupdate/home.md)
@@ -33,8 +24,18 @@
     * [Update-OSDdefender](osdupdate/docs/functions/update-osddefender.md)
     * [Update-OSDmcafee](osdupdate/docs/functions/update-osdmcafee.md)
   * [Guides](osdupdate/docs/guides/README.md)
-    * [Office Deployment and OSDUpdate](osdupdate/docs/guides/office-deployment-and-osdupdate.md)
     * [Microsoft Office 2016 Updates](osdupdate/docs/guides/microsoft-office-2016-updates.md)
+    * [Office Deployment and OSDUpdate](osdupdate/docs/guides/office-deployment-and-osdupdate.md)
+    * [Microsoft Office MSP Install Script](osdupdate/docs/guides/microsoft-office-msp-install-script.md)
+
+## OSDSoftware
+
+* [OSDSoftware Home](osdsoftware/home.md)
+* [Releases](osdsoftware/releases.md)
+* [Docs](osdsoftware/docs/README.md)
+  * [Functions](osdsoftware/docs/functions/README.md)
+    * [Get-OSDSoftware](osdsoftware/docs/functions/get-osdsoftware.md)
+    * [Update-ModuleOSDSoftware](osdsoftware/docs/functions/update-moduleosdsoftware.md)
 
 ## OSBuilder
 
