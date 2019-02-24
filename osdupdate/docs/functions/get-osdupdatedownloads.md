@@ -26,7 +26,7 @@ Use the same RepositoryRootPath, and all downloads are will be separated by Cata
 
 Specifying an OfficeSetupUpdatesPath will copy the proper MSP files to your Office installation package
 
-![](../../../.gitbook/assets/2019-02-24_0-00-00.png)
+![](../../../.gitbook/assets/2019-02-24_0-00-00%20%281%29.png)
 
 
 
