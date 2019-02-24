@@ -1,5 +1,9 @@
 # Releases
 
+## 19.2.22 \(February 22, 2019\)
+
+Updated Catalogs and included a BETA PowerShell Script for installing Office MSP files
+
 ## 19.2.21 \(February 21, 2019\)
 
 {% hint style="danger" %}
