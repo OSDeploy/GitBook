@@ -10,25 +10,25 @@ So I have this idea of creating OSBuild Templates.  This would be used with New-
 
 This Template would remove specific Provisioned Appx Packages every time a specific OSMedia Family \(Windows 10 x64 1809\) is selected
 
-![](../../.gitbook/assets/image%20%2837%29.png)
+![](../../.gitbook/assets/image%20%2838%29.png)
 
 ### Enable NetFX3
 
 This will ensure that all my OSBuilds have NetFX3 enabled, no matter which OS I build
 
-![](../../.gitbook/assets/image%20%2839%29.png)
+![](../../.gitbook/assets/image%20%2840%29.png)
 
 ### PowerShell Script
 
 I want to ensure that every Client \(Windows 10\) processes this Template to remove OneDrive
 
-![](../../.gitbook/assets/image%20%2836%29.png)
+![](../../.gitbook/assets/image%20%2837%29.png)
 
 ### Component
 
 Templates can be made from any component
 
-![](../../.gitbook/assets/image%20%2841%29.png)
+![](../../.gitbook/assets/image%20%2842%29.png)
 
 ### State
 

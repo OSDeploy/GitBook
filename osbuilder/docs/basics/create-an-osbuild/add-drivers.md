@@ -1,6 +1,6 @@
 # Add Drivers
 
-You can easily add Drivers to an OSBuild.  In this example, I'm going to add two must have drivers
+**You can easily add Drivers to an OSBuild.  In this example, I'm going to add three must have drivers**
 
 ## Intel Wireless
 
@@ -36,11 +36,11 @@ Same deal as before, get the latest
 
 Get the Zips that you need
 
-![](../../../../.gitbook/assets/image%20%2829%29.png)
+![](../../../../.gitbook/assets/image%20%2830%29.png)
 
 Expand the Zips and give it a friendly name, you know the drill
 
-![](../../../../.gitbook/assets/image%20%2830%29.png)
+![](../../../../.gitbook/assets/image%20%2831%29.png)
 
 ## Intel Ethernet
 
@@ -60,7 +60,7 @@ Download the Drivers you need.  These should be in EXE format \(self extracting\
 
 Checking the Intel Wireless Driver Directory, everything is perfect.  THIS is the format that we need the drivers in.  There is no work to do here
 
-![](../../../../.gitbook/assets/image%20%2828%29.png)
+![](../../../../.gitbook/assets/image%20%2829%29.png)
 
 ## Intel Bluetooth Driver Structure
 
@@ -78,7 +78,7 @@ Save these two directories back in your Intel Bluetooth Driver directory in OSBu
 
 Like so
 
-![](../../../../.gitbook/assets/image%20%2834%29.png)
+![](../../../../.gitbook/assets/image%20%2835%29.png)
 
 {% hint style="warning" %}
 If you need Windows 10 x86 Intel Bluetooth Drivers, you will need to repeat this process on a system with Windows 10 x86
@@ -108,11 +108,11 @@ You may come across a directory without a readme.txt.  Just use some common sens
 
 You may even come across a readme.txt that has two Operating Systems that you support, so copy them
 
-![](../../../../.gitbook/assets/image%20%2838%29.png)
+![](../../../../.gitbook/assets/image%20%2839%29.png)
 
 Eventually you will run into some WinPE Drivers.  Move them where they need to be \(unzip as needed\)
 
-![](../../../../.gitbook/assets/image%20%2831%29.png)
+![](../../../../.gitbook/assets/image%20%2832%29.png)
 
 Here is what your Intel Ethernet Drivers look like if you need everything
 
@@ -140,13 +140,17 @@ Now you can execute your Task and the Drivers will be applied automatically, or 
 
 ![](../../../../.gitbook/assets/image%20%287%29.png)
 
+**During the WinPE processing, the Drivers will be added to Windows Setup \(WinSE\), Windows PE \(WinPE\), and in Windows Recovery Environment \(WinRE\) automatically.  So no more not being able to connect to the network when you need to do a Repair**
 
+![](../../../../.gitbook/assets/image%20%2843%29.png)
 
+**During the OS processing, the Drivers that were selected will be automatically added as well**
 
+![](../../../../.gitbook/assets/image%20%2828%29.png)
 
+## Summary
 
-
-
+You can add more drivers as needed, and I hope this helps explain how Drivers work in OSBuilder.  Enjoy
 
 
 
