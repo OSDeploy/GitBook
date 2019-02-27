@@ -8,6 +8,32 @@ Install-Module -Name OSBuilder -Force
 Import-Module -Name OSBuilder -Force
 ```
 
+## Pre-Release Versions
+
+{% hint style="info" %}
+**Pre-Release versions contain minor changes and are not Tweeted or reflected as an Update Available when using Get-OSBuilder**
+{% endhint %}
+
+* **19.2.25.0**
+  * **New-OSBuild** - Resolved an issue where ADK Packages were not installed.  Thanks [Sune](https://twitter.com/SuneThomsenDK)!
+* **19.2.25.1**
+  * **New-OSBuildTask** - Resolved an issue where Language Files were incorrectly added to the Task.  Thanks [Andrew](https://twitter.com/AndyUpperton)!
+* **19.2.26.0**
+  * **New-OSBuild**
+    * Warning message displayed when trying to remove 'Permanent' Capabilities
+    * Warning message displayed when attempting to remove 'Permanent' Packages
+  * **New-OSBuildTask**
+    * Added Admin Requirement as Get-WindowsImage requires elevation
+    * Removed from GridView Windows Capabilities that were displayed when 'Not Present'
+  * **New-PEBuildTask**
+    * Added Admin Requirement as Get-WindowsImage requires elevation
+
+{% hint style="info" %}
+**Notification of a Pre-Release version when executing Get-OSBuilder**
+{% endhint %}
+
+![](../../.gitbook/assets/image%20%2818%29.png)
+
 ## 19.2.15 \(February 15, 2019\)
 
 * **Get-OSBuilder**
@@ -102,7 +128,7 @@ A quick change to **OSBuild Registry** to allow you to add **REG** files is now 
 
 {% page-ref page="../docs/guides/registry/osbuild-registry-reg/" %}
 
-![](../../.gitbook/assets/image%20%282%29.png)
+![](../../.gitbook/assets/image%20%288%29.png)
 
 {% page-ref page="../docs/guides/registry/" %}
 
