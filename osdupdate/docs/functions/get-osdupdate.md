@@ -24,14 +24,20 @@ Microsoft Office Update Type
 .PARAMETER CatalogWindows
 The Microsoft Windows Update Catalog selected for Updates
 
-.PARAMETER WindowsBuild
-The Windows OS Build
+.PARAMETER UpdateArch
+Architecture of the Update
 
-.PARAMETER WindowsProfile
-Microsoft Office Update Type
+.PARAMETER UpdateBuild
+Windows Build for the Update
+
+.PARAMETER UpdateGroup
+Windows Update Type
 
 .PARAMETER GridView
 Displays the results in GridView with -PassThru
+
+.PARAMETER Silent
+Hides the Warnings
 #>
 ```
 

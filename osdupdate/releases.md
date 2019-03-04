@@ -1,5 +1,28 @@
 # Releases
 
+## 19.3.4 \(March 4, 2019\)
+
+{% hint style="info" %}
+All Catalogs have been updated to March 4, 2019
+{% endhint %}
+
+* **Windows Catalogs**
+  * Windows 7
+  * Windows 8.1
+  * Windows 8.1 Dynamic Update
+  * Windows 10
+  * Windows 10 Dynamic Update
+  * Windows 10 Feature On Demand
+  * Windows 10 Language Packs
+  * Windows 10 Language Interface Packs
+  * Windows Server 2012 R2
+  * Windows Server 2016
+  * Windows Server 2019
+* Windows Parameter changes
+  * UpdateArch - Filter the results based on OS Architecture
+  * UpdateBuild - Rename of WindowsBuild
+  * UpdateGroup - Rename of WindowsProfile
+
 ## 19.2.22 \(February 22, 2019\)
 
 Updated Catalogs and included a BETA PowerShell Script for installing Office MSP files

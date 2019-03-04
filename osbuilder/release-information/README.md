@@ -14,6 +14,8 @@ Import-Module -Name OSBuilder -Force
 **Pre-Release versions contain minor changes and are not Tweeted or reflected as an Update Available when using Get-OSBuilder**
 {% endhint %}
 
+* **19.2.27.0**
+  * Testing update downloads in new function
 * **19.2.25.0**
   * **New-OSBuild** - Resolved an issue where ADK Packages were not installed.  Thanks [Sune](https://twitter.com/SuneThomsenDK)!
 * **19.2.25.1**
