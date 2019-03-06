@@ -6,7 +6,12 @@
 **All Catalogs have been updated to March 6, 2019**
 {% endhint %}
 
+* **Get-OSDUpdateDownloads**
+  * RemoveSuperseded parameter added
 
+**Make sure you read the new Guide linked below**
+
+{% page-ref page="docs/guides/microsoft-office-monthly-updates.md" %}
 
 ## 19.3.4 \(March 4, 2019\)
 
