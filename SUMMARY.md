@@ -24,6 +24,7 @@
     * [Update-OSDdefender](osdupdate/docs/functions/update-osddefender.md)
     * [Update-OSDmcafee](osdupdate/docs/functions/update-osdmcafee.md)
   * [Guides](osdupdate/docs/guides/README.md)
+    * [Microsoft Office Monthly Updates](osdupdate/docs/guides/microsoft-office-monthly-updates.md)
     * [Microsoft Office 2016 Updates](osdupdate/docs/guides/microsoft-office-2016-updates.md)
     * [Office Deployment and OSDUpdate](osdupdate/docs/guides/office-deployment-and-osdupdate.md)
     * [Microsoft Office MSP Install Script](osdupdate/docs/guides/microsoft-office-msp-install-script.md)
