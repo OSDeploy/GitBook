@@ -1,5 +1,9 @@
 # Get-OSDBuilder
 
+## Usage
+
+{% page-ref page="../basics/get-started.md" %}
+
 ## Comments
 
 ```text
@@ -50,8 +54,4 @@ PARAM (
     [switch]$Update
 )
 ```
-
-## Usage
-
-{% page-ref page="../../basics/get-started.md" %}
 

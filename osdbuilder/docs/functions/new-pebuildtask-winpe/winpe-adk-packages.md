@@ -17,23 +17,23 @@ C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Pre
 
 And add them to OSDBuilder in your corresponding directory in **OSDBuilder\Content\WinPE\ADK\\***
 
-![](../../../../../.gitbook/assets/2018-08-02_1-53-53.png)
+![](../../../../.gitbook/assets/2018-08-02_1-53-53.png)
 
 ## New-OSBuildTask
 
 Once the files are in place, when you create a new OSBuild Task, you will be promped for each WinPE \(Setup, WinPE, WinRE\) to select the Packages to inject
 
-![](../../../../../.gitbook/assets/2018-08-02_1-52-20.png)
+![](../../../../.gitbook/assets/2018-08-02_1-52-20.png)
 
 ## Invoke-OSDBuilder
 
 During execution of your Task, the selected ADK Packages will be installed. You can select different ADK Packages for each WinPE WIM.
 
-![](../../../../../.gitbook/assets/2018-08-02_2-02-27.png)
+![](../../../../.gitbook/assets/2018-08-02_2-02-27.png)
 
 ## PowerShell in Windows Setup
 
 Because why not?
 
-![](../../../../../.gitbook/assets/2018-08-02_2-10-32.png)
+![](../../../../.gitbook/assets/2018-08-02_2-10-32.png)
 

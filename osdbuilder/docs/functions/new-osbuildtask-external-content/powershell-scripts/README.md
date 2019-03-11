@@ -6,17 +6,17 @@ There are thousands of customizations that can be added to a Windows Image, and 
 
 You can easily add a Script to OSDBuilder by placing the PowerShell Script in the OSDBuilder\Content\Scripts directory
 
-![](../../../../../../.gitbook/assets/2018-12-13_0-56-41.png)
+![](../../../../../.gitbook/assets/2018-12-13_0-56-41.png)
 
 ## New-OSBuildTask
 
-Once a PowerShell Script has been added, you can create a [`New-OSBuildTask`](../../new-osbuildtask/) and select the Scripts you want to include
+Once a PowerShell Script has been added, you can create a [`New-OSBuildTask`](../../osbuild/new-osbuildtask/) and select the Scripts you want to include
 
-![](../../../../../../.gitbook/assets/2018-12-13_0-51-44.png)
+![](../../../../../.gitbook/assets/2018-12-13_0-51-44.png)
 
 ## Edit an Existing New-OSBuildTask
 
-If you know how to edit a JSON file, you can easily add a Script to an existing [`New-OSBuildTask`](../../new-osbuildtask/)**\`\`**
+If you know how to edit a JSON file, you can easily add a Script to an existing [`New-OSBuildTask`](../../osbuild/new-osbuildtask/)**\`\`**
 
 {% embed url="https://gist.github.com/OSDeploy/900a786b629394442955864bee774eba" caption="" %}
 
@@ -36,15 +36,15 @@ This script will add This PC, Network, and Control Panel to the Desktop for all 
 
 When executing the [`New-OSBuild`](https://github.com/OSDeploy/GitBook/tree/b3a0aecd45dca9212c45ad9d136ea80419add73b/osdbuilder/docs/functions/osbuild/new-osbuild.md) with the Scripts in the Task, you should see the scripts executed in the PowerShell Console
 
-![](../../../../../../.gitbook/assets/2018-12-13_1-17-34.png)
+![](../../../../../.gitbook/assets/2018-12-13_1-17-34.png)
 
 ## Results
 
 The screenshots below should speak for themselves
 
-![](../../../../../../.gitbook/assets/2018-12-13_1-29-15.png)
+![](../../../../../.gitbook/assets/2018-12-13_1-29-15.png)
 
-![](../../../../../../.gitbook/assets/2018-12-13_1-29-29.png)
+![](../../../../../.gitbook/assets/2018-12-13_1-29-29.png)
 
 ## OSDBuilder.Public Git
 

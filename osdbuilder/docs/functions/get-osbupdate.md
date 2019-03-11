@@ -1,5 +1,7 @@
 # Get-OSDBuilderDownloads
 
+## Usage
+
 ## Comments
 
 ```text
@@ -70,7 +72,7 @@ PARAM (
 
 ## Usage
 
-You may want to download the Microsoft Updates you need before Updating any Operating Systems. **This is not required as you can let** [`Update-OSMedia`](osmedia/update-osmedia/) **download what you need**, but if you want to get them downloaded first, us this function
+You may want to download the Microsoft Updates you need before Updating any Operating Systems. **This is not required as you can let** [`Update-OSMedia`](osmedia/update-osmedia.md) **download what you need**, but if you want to get them downloaded first, us this function
 
 ![](../../../.gitbook/assets/2018-10-23_0-06-51.png)
 

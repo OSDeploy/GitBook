@@ -1,5 +1,9 @@
 # New-OSDBuilderISO
 
+## Usage
+
+{% page-ref page="../basics/create-external-media/create-an-iso.md" %}
+
 ## Comments
 
 ```text
@@ -27,8 +31,4 @@ PARAM (
     [string[]]$FullName
 )
 ```
-
-## Usage
-
-{% page-ref page="../basics/create-external-media/create-an-iso.md" %}
 

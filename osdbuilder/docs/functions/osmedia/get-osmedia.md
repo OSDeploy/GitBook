@@ -76,7 +76,7 @@ You can use the Where Method to display the OSMedia with the Latest Cumulative U
 
 ## Internal Functions
 
-`Get-OSMedia` will be used internally in other OSDBuilder functions. For example, [`Update-OSMedia`](update-osmedia/) used to use a simple selection based on Directories contained in OSMedia
+`Get-OSMedia` will be used internally in other OSDBuilder functions. For example, [`Update-OSMedia`](update-osmedia.md) used to use a simple selection based on Directories contained in OSMedia
 
 ![](../../../../.gitbook/assets/2018-09-12_11-19-45.png)
 

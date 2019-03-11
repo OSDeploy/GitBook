@@ -12,9 +12,9 @@ A customized OSMedia with material changes to the Operating System itself is ref
 
 ## Import-OSMedia
 
-Before OSDBuilder can work with an Operating System, it needs to be imported. [`Import-OSMedia`](import-osmedia/) is used to import the Operating System into OSDBuilder.
+Before OSDBuilder can work with an Operating System, it needs to be imported. [`Import-OSMedia`](import-osmedia.md) is used to import the Operating System into OSDBuilder.
 
-**\`\`**[`Import-OSMedia`](import-osmedia/) will perform the following actions
+[`Import-OSMedia`](import-osmedia.md) will perform the following actions
 
 * Mount the Install.wim to determine the UBR
 * Copy the Operating System to C:\OSDBuilder\OSMedia\&lt;OS Name&gt; &lt;Arch&gt; &lt;Version&gt; &lt;UBR&gt;
@@ -24,7 +24,7 @@ Before OSDBuilder can work with an Operating System, it needs to be imported. [`
 
 This function is used to apply Microsoft Security Updates to an imported Operating System
 
-**\`\`**[`Update-OSMedia`](update-osmedia/) will perform the following actions
+**\`\`**[`Update-OSMedia`](update-osmedia.md) will perform the following actions
 
 * **Media**
   * Expand Setup Update

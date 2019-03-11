@@ -12,7 +12,7 @@ In "C:\Program Files\Microsoft DaRT\v10" locate the Toolsx\*.cab files and copy 
 C:\OSDBuilder\Content\WinPE\DaRT\DaRT 10
 ```
 
-![](../../../../../.gitbook/assets/2018-07-10_19-46-28.png)
+![](../../../../.gitbook/assets/2018-07-10_19-46-28.png)
 
 ## Copy DaRT Config DAT File
 
@@ -22,23 +22,23 @@ In "C:\Program Files\Microsoft Deployment Toolkit\Templates" copy the DartConfig
 C:\OSDBuilder\Content\WinPE\DaRT\DaRT 10
 ```
 
-![](../../../../../.gitbook/assets/2018-07-10_19-50-02.png)
+![](../../../../.gitbook/assets/2018-07-10_19-50-02.png)
 
 ## Proper File Structure
 
 Here is what your files should look like. It doesn't matter whether the configuration file is named DaRTConfig.dat or DaRTConfig8.dat, OSDBuilder handles both, just make sure you copied the DaRTConfig8.dat for Windows 10.
 
-![](../../../../../.gitbook/assets/2018-07-10_19-36-46.png)
+![](../../../../.gitbook/assets/2018-07-10_19-36-46.png)
 
 ## OSDBuilder Integration
 
 Running Get-OSDBuilder will show the added DaRT CAB files
 
-![](../../../../../.gitbook/assets/2018-07-10_19-57-57.png)
+![](../../../../.gitbook/assets/2018-07-10_19-57-57.png)
 
 When creating a New Task, you should receive a prompt to select the WinPE DaRT Package.
 
-![](../../../../../.gitbook/assets/2018-07-10_19-59-25.png)
+![](../../../../.gitbook/assets/2018-07-10_19-59-25.png)
 
 ## Validating DaRT in WinRE
 
@@ -50,7 +50,7 @@ reagentc /boottore
 
 Reboot the computer, and Windows RE should come up
 
-![](../../../../../.gitbook/assets/2018-07-10_20-03-12.png)
+![](../../../../.gitbook/assets/2018-07-10_20-03-12.png)
 
-![](../../../../../.gitbook/assets/2018-07-10_20-03-22.png)
+![](../../../../.gitbook/assets/2018-07-10_20-03-22.png)
 

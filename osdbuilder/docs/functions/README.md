@@ -22,18 +22,16 @@ These functions are commonly shared between all the other OSDBuilder Functions
 
 * **\`\`**[`Get-OSBUpdate`](get-osbupdate.md)**\`\`**
   * Downloads OSDBuilder Update Catalogs and Microsoft Updates
-* **\`\`**[`New-OSBUpdate`](osbupdate/new-osbupdate.md)**\`\`**
+* **\`\`**[`New-OSBUpdate`]()**\`\`**
   * Creates a custom OSDBuilder Update Catalog
-
-{% page-ref page="osbupdate/" %}
 
 ## OSMedia Functions
 
 * **\`\`**[`Get-OSMedia`](osmedia/get-osmedia.md)**\`\`**
   * Returns a PowerShell Custom Object containing detailed OSMedia information
-* **\`\`**[`Import-OSMedia`](osmedia/import-osmedia/)**\`\`**
+* **\`\`**[`Import-OSMedia`](osmedia/import-osmedia.md)**\`\`**
   * Imports an ISO into OSMedia
-* **\`\`**[`Update-OSMedia`](osmedia/update-osmedia/)**\`\`**
+* **\`\`**[`Update-OSMedia`](osmedia/update-osmedia.md)**\`\`**
   * Applies the latest Microsoft Updates to an OSMedia
 
 {% page-ref page="osmedia/" %}

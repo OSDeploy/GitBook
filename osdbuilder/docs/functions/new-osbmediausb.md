@@ -1,5 +1,9 @@
 # New-OSDBuilderUSB
 
+## Usage
+
+{% page-ref page="../basics/create-external-media/create-a-usb.md" %}
+
 ## Comments
 
 ```text
@@ -30,8 +34,4 @@ Label for the USB Drive
 [ValidateLength(1,11)]
 [string]$USBLabel
 ```
-
-## Usage
-
-{% page-ref page="../basics/create-external-media/create-a-usb.md" %}
 
