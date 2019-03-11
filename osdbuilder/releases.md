@@ -1,7 +1,5 @@
 # Releases
 
-
-
 ## Update OSDBuilder PowerShell Module
 
 ```text
@@ -9,6 +7,10 @@ Uninstall-Module -Name OSDBuilder -AllVersions -Force
 Install-Module -Name OSDBuilder -Force
 Import-Module -Name OSDBuilder -Force
 ```
+
+## 19.3.10 \(March 10, 2019\) Beta
+
+Final testing for March Patch Tuesday release
 
 ## 19.3.9 \(March 9, 2019\) Beta
 

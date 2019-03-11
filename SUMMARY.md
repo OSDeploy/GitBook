@@ -14,8 +14,26 @@
 
 ## OSDBuilder
 
-* [OSDBuilder Home](osdbuilder/osdbuilder-home.md)
+* [OSDBuilder Home](osdbuilder/home.md)
 * [Releases](osdbuilder/releases.md)
+* [Docs](osdbuilder/docs/README.md)
+  * [Quick Start](osdbuilder/docs/quick-start.md)
+  * [The Basics](osdbuilder/docs/the-basics.md)
+  * [Functions](osdbuilder/docs/functions/README.md)
+    * [Get-OSDBuilder](osdbuilder/docs/functions/get-osdbuilder.md)
+    * [Get-OSDBuilderDownloads](osdbuilder/docs/functions/get-osdbuilderdownloads.md)
+    * [Get-OSBuilds](osdbuilder/docs/functions/get-osbuilds.md)
+    * [Get-OSMedia](osdbuilder/docs/functions/get-osmedia.md)
+    * [Get-PEBuilds](osdbuilder/docs/functions/get-pebuilds.md)
+    * [Import-OSMedia](osdbuilder/docs/functions/import-osmedia.md)
+    * [New-OSBuild](osdbuilder/docs/functions/new-osbuild.md)
+    * [New-OSBuildTask](osdbuilder/docs/functions/new-osbuildtask.md)
+    * [New-OSDBuilderISO](osdbuilder/docs/functions/new-osdbuilderiso.md)
+    * [New-OSDBuilderUSB](osdbuilder/docs/functions/new-osdbuilderusb.md)
+    * [New-PEBuild](osdbuilder/docs/functions/new-pebuild.md)
+    * [New-PEBuildTask](osdbuilder/docs/functions/new-pebuildtask.md)
+    * [Show-OSDBuilderInfo](osdbuilder/docs/functions/show-osdbuilderinfo.md)
+    * [Update-OSMedia](osdbuilder/docs/functions/update-osmedia.md)
 
 ## OSBuilder
 
