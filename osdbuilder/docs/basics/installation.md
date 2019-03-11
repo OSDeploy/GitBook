@@ -16,7 +16,7 @@ Install-Module OSDBuilder -Force
 Import-Module OSDBuilder -Force
 ```
 
-![](../../../.gitbook/assets/image%20%289%29.png)
+![](../../../.gitbook/assets/image%20%2810%29.png)
 
 ## Clean Install
 
@@ -27,7 +27,7 @@ Install-Module -Name OSDBuilder -Force
 Import-Module -Name OSDBuilder -Force
 ```
 
-![](../../../.gitbook/assets/image%20%2830%29.png)
+![](../../../.gitbook/assets/image%20%2832%29.png)
 
 ## Update Existing Version
 
@@ -37,5 +37,5 @@ If you have an existing version of OSBuilder, you will need to Uninstall-Module 
 OSDBuilder -Update
 ```
 
-![](../../../.gitbook/assets/image%20%2852%29.png)
+![](../../../.gitbook/assets/image%20%2855%29.png)
 
