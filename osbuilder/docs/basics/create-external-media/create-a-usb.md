@@ -2,7 +2,7 @@
 
 ## New-OSBMediaISO
 
-To create an USB, you need to use **`New-OSBMediaUSB`**
+To create an USB, you need to use `New-OSBMediaUSB`
 
 {% page-ref page="../../functions/osbmedia/new-osbmediausb.md" %}
 

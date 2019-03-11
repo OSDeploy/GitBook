@@ -2,7 +2,7 @@
 
 ## Admin Rights
 
-**OSBuilder** requires Admin Rights in PowerShell as you will be mounting Windows Images for Offline Servicing.  This is a requirement of DISM
+**OSBuilder** requires Admin Rights in PowerShell as you will be mounting Windows Images for Offline Servicing. This is a requirement of DISM
 
 ## Operating System Requirements \(Your Computer\)
 
@@ -18,7 +18,7 @@ Using the **OSBuilder** PowerShell Module on Windows 7 or Windows Server 2012 wi
 
 ## Operating Systems for Offline Servicing
 
-OSBuilder will allow you to fully Update and Customize Windows 10, Server 2016, or Server 2019.  Windows 7 and Server 2012 can be Updated but not Customized
+OSBuilder will allow you to fully Update and Customize Windows 10, Server 2016, or Server 2019. Windows 7 and Server 2012 can be Updated but not Customized
 
 | **Operating System** | **Update** | **Customize** |
 | :--- | :--- | :--- |
@@ -35,6 +35,6 @@ Offline Servicing of an Operating System can take a considerable amount of time,
 Since OSBuilder will mount Windows Images, I strongly recommend that you do not have any running Anti-Virus scanning files ON ACCESS. McAfee will prevent the dismounting of images properly.
 
 {% hint style="info" %}
-**OSBuilder works best on a stand alone Workstation Class computer.  An AntiVirus performing On Access Scanning will interfere with mounted Windows Images.  Alternatively, you can use a Virtual Machine as an alternate solution**
+**OSBuilder works best on a stand alone Workstation Class computer. An AntiVirus performing On Access Scanning will interfere with mounted Windows Images. Alternatively, you can use a Virtual Machine as an alternate solution**
 {% endhint %}
 

@@ -1,18 +1,39 @@
 # Releases
 
-## Update OSDBuilder PowerShell Module
+## Install OSDBuilder PowerShell Module
+
+{% hint style="warning" %}
+**You have some different options here.  Choose wisely**
+{% endhint %}
+
+### Install OSDBuilder \(Clean Install\)
 
 ```text
-Uninstall-Module -Name OSDBuilder -AllVersions -Force
 Install-Module -Name OSDBuilder -Force
 Import-Module -Name OSDBuilder -Force
 ```
 
-## 19.3.10 \(March 10, 2019\) Beta
+### Update OSDBuilder to Latest Version
+
+```text
+OSDBuilder -Update
+```
+
+### Upgrade from OSBuilder
+
+```text
+#Remove OSBuilder First
+Uninstall-Module -Name OSBuilder -AllVersions -Force
+#Install OSDBuilder
+Install-Module -Name OSDBuilder -Force
+Import-Module -Name OSDBuilder -Force
+```
+
+## OSDBuilder 19.3.10 \(March 10, 2019\) Beta
 
 Final testing for March Patch Tuesday release
 
-## 19.3.9 \(March 9, 2019\) Beta
+## OSDBuilder 19.3.9 \(March 9, 2019\) Beta
 
 {% hint style="info" %}
 **Some Functions and Parameters have been renamed for consistency**
@@ -33,3 +54,4 @@ Final testing for March Patch Tuesday release
 * New-PEBuildTask
 * **Show-OSDBuilderInfo**
 * Update-OSMedia
+

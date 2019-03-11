@@ -4,7 +4,7 @@
 
 To create an ISO, you need to use **`New-OSBMediaISO`**
 
-{% page-ref page="../../functions/osbmedia/new-osbmediaiso.md" %}
+{% page-ref page="../../../../osbuilder/docs/functions/osbmedia/new-osbmediaiso.md" %}
 
 ## Windows ADK Required
 

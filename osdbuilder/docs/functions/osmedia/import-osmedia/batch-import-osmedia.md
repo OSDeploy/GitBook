@@ -2,7 +2,7 @@
 
 Let's say I want to import all my Windows 10 Operating Systems into OSDBuilder from ISO's. This can be easily done with two lines of PowerShell. Replace C:\ISO with the path to your Windows 10 ISO's. It will take a minute or so for OSDBuilder to check all the install.wim's
 
-{% embed url="https://gist.github.com/OSDeploy/cceea13c776f8e5127da2c49e4dc6cdb" %}
+{% embed url="https://gist.github.com/OSDeploy/cceea13c776f8e5127da2c49e4dc6cdb" caption="" %}
 
 ![](../../../../../.gitbook/assets/2018-07-13_22-26-03.png)
 

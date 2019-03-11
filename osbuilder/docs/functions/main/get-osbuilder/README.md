@@ -53,7 +53,7 @@ PARAM (
 
 ## Usage
 
-{% page-ref page="../../../basics/get-started.md" %}
+{% page-ref page="../../../../../osdbuilder/docs/basics/get-started.md" %}
 
 
 

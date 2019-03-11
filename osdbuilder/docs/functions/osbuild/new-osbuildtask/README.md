@@ -2,11 +2,11 @@
 
 ![](../../../../../.gitbook/assets/2018-10-28_1-37-12.png)
 
-A New-OSBuildTask will take an existing [**`OSMedia`**](../../osmedia/) and apply customizations
+A New-OSBuildTask will take an existing [`OSMedia`](../../osmedia/) and apply customizations
 
 ## -TaskName
 
-The name of the Task you are creating.  This name will be used for naming the Task JSON file.  This parameter is required
+The name of the Task you are creating. This name will be used for naming the Task JSON file. This parameter is required
 
 ```text
 New-OSBuildTask -TaskName 'Win10 Ent x64 1809'
@@ -18,7 +18,7 @@ OSBuilds are automatically named in the following format:
 
 `<Operating System> <Edition> <Arch> <UBR>`
 
-  If you require something more friendly, use the BuildName parameter
+If you require something more friendly, use the BuildName parameter
 
 ```text
 New-OSBuildTask -TaskName 'Win10 Ent x64 1809' -BuildName 'Engineering Build'
@@ -40,29 +40,27 @@ Now create a basic New-OSBuildTask with the following command line
 New-OSBuildTask -TaskName 'Win10 Ent x64 1809 Demo' -BuildName 'Slackers'
 ```
 
-#### Select a Source OSMedia
+### Select a Source OSMedia
 
-Select a source [**`OSMedia`**](../../osmedia/) to use for the OSBuild Task.  It is not necessary to select the latest version as OSDBuilder will automatically select the newest version when using [**`New-OSBuild`**](../new-osbuild.md)**\`\`**
+Select a source [`OSMedia`](../../osmedia/) to use for the OSBuild Task. It is not necessary to select the latest version as OSDBuilder will automatically select the newest version when using [`New-OSBuild`](https://github.com/OSDeploy/GitBook/tree/b3a0aecd45dca9212c45ad9d136ea80419add73b/osdbuilder/docs/functions/osbuild/new-osbuild.md)**\`\`**
 
 ![](../../../../../.gitbook/assets/2018-10-26_2-18-30.png)
 
-#### Complete
+### Complete
 
 When the script is complete, the customizations will be displayed in the PowerShell console
 
 ![](../../../../../.gitbook/assets/2018-10-28_0-00-04.png)
 
-#### Task File
+### Task File
 
-A Task will be created at "C:\OSDBuilderDemo\Tasks\**OSBuild Win10 Ent x64 1809.json**"
+A Task will be created at "C:\OSDBuilderDemo\Tasks\*_OSBuild Win10 Ent x64 1809.json\*_"
 
 ![](../../../../../.gitbook/assets/2018-10-28_0-01-26.png)
 
-#### Task Contents
+### Task Contents
 
-The image below is what a typical OSBuild Task looks like.  In this JSON file are all the values needed for creating a [**`New-OSBuild`**](../new-osbuild.md)**\`\`**
+The image below is what a typical OSBuild Task looks like. In this JSON file are all the values needed for creating a [`New-OSBuild`](https://github.com/OSDeploy/GitBook/tree/b3a0aecd45dca9212c45ad9d136ea80419add73b/osdbuilder/docs/functions/osbuild/new-osbuild.md)**\`\`**
 
 ![](../../../../../.gitbook/assets/2018-10-28_0-06-41.png)
-
-
 

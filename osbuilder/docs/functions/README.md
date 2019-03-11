@@ -49,7 +49,7 @@ These functions are commonly shared between all the other OSBuilder Functions
 * **\`\`**[**`New-OSBuild`**](osbuild/new-osbuild.md)**\`\`**
   * Executes a custom OSBuild configuration created with New-OSBuildTask
 
-{% page-ref page="osbuild/" %}
+{% page-ref page="../../../osdbuilder/docs/functions/osbuild/" %}
 
 ## PEBuild Functions
 

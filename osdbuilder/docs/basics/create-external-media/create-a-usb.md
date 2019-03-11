@@ -4,7 +4,7 @@
 
 To create an USB, you need to use **`New-OSBMediaUSB`**
 
-{% page-ref page="../../functions/osbmedia/new-osbmediausb.md" %}
+{% page-ref page="../../../../osbuilder/docs/functions/osbmedia/new-osbmediausb.md" %}
 
 ## Requirements
 

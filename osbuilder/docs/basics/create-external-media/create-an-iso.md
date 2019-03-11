@@ -2,7 +2,7 @@
 
 ## New-OSBMediaISO
 
-To create an ISO, you need to use **`New-OSBMediaISO`**
+To create an ISO, you need to use `New-OSBMediaISO`
 
 {% page-ref page="../../functions/osbmedia/new-osbmediaiso.md" %}
 
@@ -14,11 +14,11 @@ You need to have ADK installed first or you will get a Warning message
 
 You can download the Windows ADK from the following link
 
-{% embed url="https://docs.microsoft.com/en-us/windows-hardware/get-started/adk-install" %}
+{% embed url="https://docs.microsoft.com/en-us/windows-hardware/get-started/adk-install" caption="" %}
 
 ## OSBuilder Tools
 
-You can optionally copy the amd64 and x86 directories from ADK into OSBuilder\Content\Tools instead of  having ADK installed
+You can optionally copy the amd64 and x86 directories from ADK into OSBuilder\Content\Tools instead of having ADK installed
 
 ![C:\Program Files \(x86\)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools](../../../../.gitbook/assets/2018-10-23_22-44-52.png)
 
@@ -39,6 +39,4 @@ The ISO's will automatically be generated
 And saved within an ISO directory of the Media. Enjoy!
 
 ![](../../../../.gitbook/assets/2018-10-23_22-58-52.png)
-
-
 

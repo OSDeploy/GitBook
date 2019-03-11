@@ -28,5 +28,5 @@ function Show-OSBMediaInfo {
 
 ## Usage
 
-{% page-ref page="../../basics/os-information.md" %}
+{% page-ref page="../../../../osdbuilder/docs/basics/os-information.md" %}
 

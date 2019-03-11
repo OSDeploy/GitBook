@@ -1,6 +1,6 @@
 # Update an OS \(Process\)
 
-**So what exactly is the process to updating an OS with Offline Servicing?  There's actually quite a few steps involved ...**
+**So what exactly is the process to updating an OS with Offline Servicing? There's actually quite a few steps involved ...**
 
 ```text
 Download Dynamic Setup Update

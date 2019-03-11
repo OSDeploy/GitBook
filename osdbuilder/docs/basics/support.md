@@ -1,12 +1,12 @@
 # Support
 
-**OSBuilder** is free to use without any guarantee of support.  If you run into issues, I ask that you keep this in mind:
+**OSDBuilder** is free to use without any guarantee of support.  If you run into issues, I ask that you keep this in mind:
 
 I work for a large Enterprise, and have worked there for over 15 years.  **I am not a Consultant**
 
-The primary reason that OSBuilder was developed, was to bring automation into my Office Servicing process.  I have tried to keep things as open as possible, and have spent hours in the development of OSBuilder.  In addition, I have spent additional hours in Documentation online, and sharing my knowledge through Twitter and speaking at User Groups.  **Everyone using OSBuilder should have a good knowledge of Windows Imaging and a working knowledge of PowerShell.**  If you do run into issues, feel free to reach out to me but you will need to do a fair amount of troubleshooting as a way to "give back".
+The primary reason that OSDBuilder was developed, was to bring automation into my Office Servicing process.  I have tried to keep things as open as possible, and have spent hours in the development of OSDBuilder.  In addition, I have spent additional hours in Documentation online, and sharing my knowledge through Twitter and speaking at User Groups.  **Everyone using OSDBuilder should have a good knowledge of Windows Imaging and a working knowledge of PowerShell.**  If you do run into issues, feel free to reach out to me but you will need to do a fair amount of troubleshooting as a way to "give back".
 
-**Keep in mind . . . OSBuilder is free**
+**Keep in mind . . . OSDBuilder is free**
 
 ## Best Practices
 

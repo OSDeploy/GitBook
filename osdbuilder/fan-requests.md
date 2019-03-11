@@ -16,7 +16,7 @@
 
 ## Root Certificates \(Supported in 19.2.1 "REG"\)
 
-{% page-ref page="docs/guides/registry/osbuild-registry-reg/certificates.md" %}
+{% page-ref page="../osbuilder/docs/guides/registry/osbuild-registry-reg/certificates.md" %}
 
 {% embed url="https://twitter.com/Marctwain\_C/status/1083589702362517504" %}
 
@@ -32,7 +32,7 @@
 
 ## Update OneDriveSetup.exe \(Scripts\)
 
-{% page-ref page="docs/functions/osbuild/new-osbuildtask-external-content/powershell-scripts/update-onedrivesetup.md" %}
+{% page-ref page="../osbuilder/docs/functions/osbuild/new-osbuildtask-external-content/powershell-scripts/update-onedrivesetup.md" %}
 
 {% embed url="https://twitter.com/hoyty/status/1088148904862932993" %}
 

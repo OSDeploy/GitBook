@@ -1,14 +1,16 @@
 # Quick Start
 
-**If you don't feel like reading through all the documentation, these three steps will get your Operating System updated with the latest Microsoft Updates**
+{% hint style="info" %}
+**The Quick Start only details how to create an Updated OS.  For Customizations, you need to read further in the documentation**
+{% endhint %}
 
-## 1. Install OSBuilder \(Clean Install\)
+## 1. Install OSDBuilder \(Clean Install\)
 
 > ### Touch Time: 1 Minute
 
 ```text
-Install-Module -Name OSBuilder -Force
-Import-Module -Name OSBuilder -Force
+Install-Module -Name OSDBuilder -Force
+Import-Module -Name OSDBuilder -Force
 ```
 
 {% page-ref page="basics/installation.md" %}
@@ -36,6 +38,4 @@ Update-OSMedia -DownloadUpdates -Execute
 ```
 
 {% page-ref page="basics/update-an-os.md" %}
-
-
 

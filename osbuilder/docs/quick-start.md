@@ -37,5 +37,3 @@ Update-OSMedia -DownloadUpdates -Execute
 
 {% page-ref page="basics/update-an-os.md" %}
 
-
-

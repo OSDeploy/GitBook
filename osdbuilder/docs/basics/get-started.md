@@ -2,7 +2,7 @@
 
 ## Get-OSBuilder Function
 
-{% page-ref page="../functions/main/get-osbuilder/" %}
+{% page-ref page="../../../osbuilder/docs/functions/main/get-osbuilder/" %}
 
 ## Get-OSBuilder
 

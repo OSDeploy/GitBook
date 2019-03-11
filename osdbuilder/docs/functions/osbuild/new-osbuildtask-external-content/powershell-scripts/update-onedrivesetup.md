@@ -2,7 +2,7 @@
 
 So today I get a fan request to update OneDriveSetup.exe using OSDBuilder
 
-{% embed url="https://twitter.com/hoyty/status/1088148904862932993" %}
+{% embed url="https://twitter.com/hoyty/status/1088148904862932993" caption="" %}
 
 ## The Script
 
@@ -14,7 +14,7 @@ This is a quick and dirty script to download an update OneDriveSetup.exe and cop
 
 ![](../../../../../../.gitbook/assets/2019-01-23_23-34-42.png)
 
-I'll make sure to enable the Testing line at the bottom of the script.  This one:
+I'll make sure to enable the Testing line at the bottom of the script. This one:
 
 ![](../../../../../../.gitbook/assets/2019-01-23_23-45-21.png)
 
@@ -30,17 +30,17 @@ The PowerShell Script will wait for me to press Enter
 
 ![](../../../../../../.gitbook/assets/2019-01-23_23-31-22.png)
 
-Which gives me time to check the Mount Directory.  Looks good
+Which gives me time to check the Mount Directory. Looks good
 
 ![](../../../../../../.gitbook/assets/2019-01-23_23-33-29.png)
 
 ## The Test
 
-I'll setup a Virtual Machine with no Internet Access to make sure I get proper results and now its time to play some Xbox.  BRB
+I'll setup a Virtual Machine with no Internet Access to make sure I get proper results and now its time to play some Xbox. BRB
 
 ![](../../../../../../.gitbook/assets/2019-01-23_23-48-25.png)
 
-Ok, back.  Let's see how we did ...
+Ok, back. Let's see how we did ...
 
 ![](../../../../../../.gitbook/assets/2019-01-23_23-51-08.png)
 
@@ -48,9 +48,7 @@ Ok, back.  Let's see how we did ...
 
 ## Conclusion
 
-If there is something that OSDBuilder doesn't do, just add a PowerShell script!  For a copy of this script and any of my other "Bonus" scripts, hit up this link
+If there is something that OSDBuilder doesn't do, just add a PowerShell script! For a copy of this script and any of my other "Bonus" scripts, hit up this link
 
-{% embed url="https://github.com/OSDeploy/OSDBuilder.Public/tree/master/Content/Scripts" %}
-
-
+{% embed url="https://github.com/OSDeploy/OSDBuilder.Public/tree/master/Content/Scripts" caption="" %}
 

@@ -44,8 +44,6 @@ Import-OSMedia -EditionId Enterprise -SkipGridView
 Import-OSMedia -EditionId Enterprise -SkipGridView -UpdateOSMedia
 ```
 
-
-
 {% tabs %}
 {% tab title="Basic" %}
 ```text
@@ -72,7 +70,7 @@ Import-OSMedia -EditionId Enterprise -SkipGridView -UpdateOSMedia
 
 ## Preparation
 
-Importing an Operating System into OSDBuilder is one of the first steps that should be taken.  In this example.  Multiple Operating System Versions and Editions can be imported at the same time.  In this example I have mounted MVLS ISO's for the following:
+Importing an Operating System into OSDBuilder is one of the first steps that should be taken. In this example. Multiple Operating System Versions and Editions can be imported at the same time. In this example I have mounted MVLS ISO's for the following:
 
 * **Windows 7 SP1 x64**
 * **Windows 10 x64**
@@ -83,25 +81,25 @@ Importing an Operating System into OSDBuilder is one of the first steps that sho
 
 ## Import-OSMedia
 
-**`Import-OSMedia`** can be run without any parameters in PowerShell ISE \(for GridView functionality\).  Once executed, it will will search all attached Drives for install.wim or Install.esd files.  This process should take about a minute, so be patient and let the scan finish.  During the scan, any Operating Systems that are found will be displayed
+`Import-OSMedia` can be run without any parameters in PowerShell ISE \(for GridView functionality\). Once executed, it will will search all attached Drives for install.wim or Install.esd files. This process should take about a minute, so be patient and let the scan finish. During the scan, any Operating Systems that are found will be displayed
 
 ![](../../../../../.gitbook/assets/2018-12-31_0-21-37.png)
 
-#### GridView
+### GridView
 
 Once the scanning is complete, a GridView will display with all the available Windows Images. Multi-select the ones you want to import and press OK
 
 ![](../../../../../.gitbook/assets/2018-12-31_0-23-26.png)
 
-#### Mount Phase
+### Mount Phase
 
-After the Windows Image selection, the Install.wim or Install.esd will be mounted so **OSDBuilder** can gather additional information.  Two important pieces of information will be displayed
+After the Windows Image selection, the Install.wim or Install.esd will be mounted so **OSDBuilder** can gather additional information. Two important pieces of information will be displayed
 
 * **OSMediaName** - This is the **Name** of the Operating System as defined by **OSDBuilder**.  This is used in the Directory Name of the **OSMedia**.  It contains the following information ~~in an abbreviated format~~
   * **&lt;ImageName&gt; &lt;Architecture&gt; &lt;Version&gt; &lt;UBR&gt;**
 * **OSMediaPath** - This is the **FullName** or **Path** of the **OSMedia**
 
-#### Import Phase
+### Import Phase
 
 When the Mount Phase is complete, the Operating System can be copied into **OSDBuilder\OSMedia** in a directory name matching the **OSMediaName**
 
@@ -115,9 +113,9 @@ The process of importing an Operating System will take about 1 minute of actual 
 **Microsoft ADK** needs to be installed before using this parameter as **OSCDIMG** is required
 {% endhint %}
 
-**Usage:  `Import-OSMedia -NewMediaISO`**
+**Usage:** `Import-OSMedia -NewMediaISO`
 
-Creates an ISO of the imported **OSMedia** in the **&lt;OSMediaPath&gt;\ISO** directory using the **OSDBuilder** [**`New-MediaISO`**](../../osbmedia/new-osbmediaiso.md) function.  The following command line is passed
+Creates an ISO of the imported **OSMedia** in the **&lt;OSMediaPath&gt;\ISO** directory using the **OSDBuilder** [`New-MediaISO`](../../osbmedia/new-osbmediaiso.md) function. The following command line is passed
 
 ```text
 New-MediaISO -FullName "$FullName"
@@ -127,9 +125,9 @@ New-MediaISO -FullName "$FullName"
 
 ## -ShowOSInfo
 
-**Usage:  `Import-OSMedia -ShowOSInfo`**
+**Usage:** `Import-OSMedia -ShowOSInfo`
 
-Displays the full **OSMedia** Information by executing the **OSDBuilder** [**`Show-OSInfo`**](../../osbmedia/show-osbmediainfo.md) function.  The following command line is passed
+Displays the full **OSMedia** Information by executing the **OSDBuilder** [`Show-OSInfo`](../../osbmedia/show-osbmediainfo.md) function. The following command line is passed
 
 ```text
 Show-OSInfo -FullName "$FullName"
@@ -139,23 +137,23 @@ Show-OSInfo -FullName "$FullName"
 
 ## -UpdateOSMedia
 
-**Usage:  `Import-OSMedia -UpdateOSMedia`**
+**Usage:** `Import-OSMedia -UpdateOSMedia`
 
-Automatically applies patches to the imported Operating System using the **OSDBuilder** [**`Update-OSMedia`**](../update-osmedia/) function.  The following command line is processed
+Automatically applies patches to the imported Operating System using the **OSDBuilder** [`Update-OSMedia`](../update-osmedia/) function. The following command line is processed
 
 ```text
 Update-OSMedia -Name $Name -DownloadUpdates -Execute
 ```
 
-This option will automatically download any required Updates.  You will need an Internet connection and keep in mind the Cumulative Updates are quite large, so don't do this with a Metered Connection.
+This option will automatically download any required Updates. You will need an Internet connection and keep in mind the Cumulative Updates are quite large, so don't do this with a Metered Connection.
 
 {% page-ref page="../update-osmedia/" %}
 
 ## -EditionId
 
-**Usage:  `Import-OSMedia -EditionId Enterprise`**
+**Usage:** `Import-OSMedia -EditionId Enterprise`
 
-You can filter the Operating System by Edition ID using this parameter.  The following values can be used with this parameter
+You can filter the Operating System by Edition ID using this parameter. The following values can be used with this parameter
 
 * **Education**
 * **EducationN**
@@ -176,15 +174,15 @@ You can filter the Operating System by Edition ID using this parameter.  The fol
 
 ## -ImageIndex
 
-**Usage:  `Import-OSMedia -ImageIndex 3`**
+**Usage:** `Import-OSMedia -ImageIndex 3`
 
 If you know the Image Index, then you can specify this to filter the Operating Systems
 
 ## -ImageName
 
-**Usage:  `Import-OSMedia -ImageName 'Windows 10 Enterprise'`**
+**Usage:** `Import-OSMedia -ImageName 'Windows 10 Enterprise'`
 
-You can filter the Operating System by Image Name using this parameter.  The following values can be used with this parameter
+You can filter the Operating System by Image Name using this parameter. The following values can be used with this parameter
 
 * **Windows 10 Education**
 * **Windows 10 Education N**
@@ -213,7 +211,7 @@ You can filter the Operating System by Image Name using this parameter.  The fol
 
 ## -SkipGridView
 
-**Usage:  `Import-OSMedia -EditionId Enterprise -SkipGridView`**
+**Usage:** `Import-OSMedia -EditionId Enterprise -SkipGridView`
 
-To fully automate the import of an Operating System, use this parameter to skip the PowerShell GridView selection.  It is recommended on Multi-Index Media that you specify an **`-EditionId`**, **`-ImageIndex`**,  or **`-ImageName`**
+To fully automate the import of an Operating System, use this parameter to skip the PowerShell GridView selection. It is recommended on Multi-Index Media that you specify an `-EditionId`, `-ImageIndex`, or `-ImageName`
 

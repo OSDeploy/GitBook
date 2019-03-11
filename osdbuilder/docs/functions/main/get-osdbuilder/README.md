@@ -55,5 +55,3 @@ PARAM (
 
 {% page-ref page="../../../basics/get-started.md" %}
 
-
-

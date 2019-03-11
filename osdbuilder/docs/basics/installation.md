@@ -2,30 +2,40 @@
 
 ## PowerShell Gallery
 
-**OSBuilder** is published in the [**PowerShell Gallery**](https://www.powershellgallery.com/)\*\*\*\*
+**OSDBuilder** is published in the [**PowerShell Gallery**](https://www.powershellgallery.com/)\*\*\*\*
 
-\*\*\*\*[**https://www.powershellgallery.com/packages/OSBuilder**](https://www.powershellgallery.com/packages/OSBuilder)\*\*\*\*
+\*\*\*\*[**https://www.powershellgallery.com/packages/OSDBuilder**](https://www.powershellgallery.com/packages/OSBuilder)\*\*\*\*
+
+## Upgrade from OSBuilder
+
+OSDBuilder is a completely separate PowerShell Module and it uses most of the same functions as OSBuilder.  These two Modules cannot coexist, and OSBuilder should be removed first
+
+```text
+Uninstall-Module OSBuilder -AllVersions -Force
+Install-Module OSDBuilder -Force
+Import-Module OSDBuilder -Force
+```
+
+![](../../../.gitbook/assets/image%20%289%29.png)
 
 ## Clean Install
 
-If you don't have an existing version of OSBuilder installed, you can simply Install and Import OSBuilder with the following **PowerShell** commands
+If you don't have an existing version of OSDBuilder installed, you can simply Install and Import OSBuilder with the following **PowerShell** commands
 
 ```text
-Install-Module -Name OSBuilder -Force
-Import-Module -Name OSBuilder -Force
+Install-Module -Name OSDBuilder -Force
+Import-Module -Name OSDBuilder -Force
 ```
 
-![](../../../.gitbook/assets/2019-02-09_22-17-02.png)
+![](../../../.gitbook/assets/image%20%2830%29.png)
 
 ## Update Existing Version
 
 If you have an existing version of OSBuilder, you will need to Uninstall-Module first with the following **PowerShell** commands
 
 ```text
-Uninstall-Module -Name OSBuilder -AllVersions -Force
-Install-Module -Name OSBuilder -Force
-Import-Module -Name OSBuilder -Force
+OSDBuilder -Update
 ```
 
-![](../../../.gitbook/assets/2019-02-09_22-17-10.png)
+![](../../../.gitbook/assets/image%20%2852%29.png)
 
