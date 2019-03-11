@@ -16,6 +16,14 @@
 
 * [Releases](osdbuilder/releases/README.md)
   * [2019-03](osdbuilder/releases/2019-03.md)
+  * [2019-01](osdbuilder/releases/2019-02.md)
+  * [2019-01](osdbuilder/releases/2019-01.md)
+  * [2018-12](osdbuilder/releases/2018-12.md)
+  * [2018-11](osdbuilder/releases/2018-11.md)
+  * [2018-10](osdbuilder/releases/2018-10.md)
+  * [2018-09](osdbuilder/releases/2018-09.md)
+  * [2018-08](osdbuilder/releases/2018-08.md)
+  * [2018-07](osdbuilder/releases/2018-07.md)
 
 ## OSBuilder
 
