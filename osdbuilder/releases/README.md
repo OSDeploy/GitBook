@@ -4,7 +4,40 @@
 
 {% page-ref page="../docs/basics/installation.md" %}
 
-## 19.3.12 \(March 12, 2019\) Official Release
+## 19.3.12 \(March 12, 2019\)
+
+### Function Changes
+
+* **Get-OSDBuilder**
+  * Replaces Get-OSBuilder
+  * Default new directory C:\OSDBuilder
+* **Get-OSDBuilderDownloads**
+  * Replaces Get-OSBUpdate
+* **New-OSDBuilderISO**
+  * Replaces New-OSBMediaISO
+* **New-OSDBuilderUSB**
+  * Replaces New-OSBMediaUSB
+* **Show-OSDBuilderInfo**
+  * Replaces Show-OSBMediaInfo
+* **Import-OSMedia**
+  * Rename Parameter MediaINFO to OSDInfo
+  * Remove Parameter MediaISO
+* **Update-OSMedia**
+  * Added Parameter SkipComponentCleanup
+  * Rename Parameter DownloadUpdates to Download
+  * Rename Parameter MediaISO to OSDISO
+  * Rename Parameter MediaINFO to OSDInfo
+* **New-OSBuild**
+  * Added Parameter SkipComponentCleanup
+  * Rename Parameter DownloadUpdates to Download
+  * Rename Parameter MediaISO to OSDISO
+  * Rename Parameter MediaINFO to OSDInfo
+* **Removed Function New-OSBUpdate**
+* **Removed Function Repair-OSBuildTask**
+* **Removed Function Repair-PEBuildTask**
+* **Removed Function Rename-OSMedia**
+
+### Module Name Change
 
 Ok, so changing the Module name from OSBuilder to OSDBuilder was not an easy one, but to be fair, the name change is more consistent with what I do \(OSD Stuff\) and easier to distinguish what it is used for.  I have tried to make the changes with minimal impact to you  Here are the things to know
 
@@ -33,4 +66,13 @@ Ok, so changing the Module name from OSBuilder to OSDBuilder was not an easy one
   * You can execute OSBuilder or OSDBuilder.  Changes have been aliased
 
 ![](../../.gitbook/assets/image%20%282%29.png)
+
+### Concerns
+
+* **Q: But now my C:\OSBuilder doesn't fit anymore.  What do I do?**
+  * A: Rename C:\OSBuilder to C:\OSDBuilder
+* **Q: How do I add a custom SSU or LCU?**
+  * A: You can't for now
+* **Q: Can I update the Catalogs myself with WSUS?**
+  * A: `Install-Module OSDCatalog`
 
