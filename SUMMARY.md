@@ -14,7 +14,7 @@
 
 ## OSDBuilder
 
-* [OSDBuilder Home](osdbuilder/readme.md.md)
+* [OSDBuilder Home](osdbuilder/README.md)
 * [Releases](osdbuilder/releases.md)
 * [Docs](osdbuilder/docs/README.md)
   * [Quick Start](osdbuilder/docs/quick-start.md)
