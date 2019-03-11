@@ -1,6 +1,6 @@
 # Get Started
 
-## Get-OSBuilder Function
+## Get-OSDBuilder Function
 
 {% page-ref page="../../../osbuilder/docs/functions/main/get-osbuilder/" %}
 

@@ -115,25 +115,25 @@ The process of importing an Operating System will take about 1 minute of actual 
 
 **Usage:** `Import-OSMedia -NewMediaISO`
 
-Creates an ISO of the imported **OSMedia** in the **&lt;OSMediaPath&gt;\ISO** directory using the **OSDBuilder** [`New-MediaISO`](../../osbmedia/new-osbmediaiso.md) function. The following command line is passed
+Creates an ISO of the imported **OSMedia** in the **&lt;OSMediaPath&gt;\ISO** directory using the **OSDBuilder** [`New-MediaISO`](../../new-osbmediaiso.md) function. The following command line is passed
 
 ```text
 New-MediaISO -FullName "$FullName"
 ```
 
-{% page-ref page="../../osbmedia/new-osbmediaiso.md" %}
+{% page-ref page="../../new-osbmediaiso.md" %}
 
 ## -ShowOSInfo
 
 **Usage:** `Import-OSMedia -ShowOSInfo`
 
-Displays the full **OSMedia** Information by executing the **OSDBuilder** [`Show-OSInfo`](../../osbmedia/show-osbmediainfo.md) function. The following command line is passed
+Displays the full **OSMedia** Information by executing the **OSDBuilder** [`Show-OSInfo`](../../show-osbmediainfo.md) function. The following command line is passed
 
 ```text
 Show-OSInfo -FullName "$FullName"
 ```
 
-{% page-ref page="../../osbmedia/show-osbmediainfo.md" %}
+{% page-ref page="../../show-osbmediainfo.md" %}
 
 ## -UpdateOSMedia
 

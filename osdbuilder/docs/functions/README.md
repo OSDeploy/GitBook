@@ -7,24 +7,20 @@ There are several OSDBuilder functions, and they are grouped by commonality
 * **\`\`**[`Get-OSDBuilder`](https://github.com/OSDeploy/GitBook/tree/b3a0aecd45dca9212c45ad9d136ea80419add73b/osdbuilder/docs/functions/main/get-OSDBuilder/README.md)**\`\`**
   * Primary function used to define common variables
 
-{% page-ref page="main/" %}
-
 ## OSBMedia Functions
 
 These functions are commonly shared between all the other OSDBuilder Functions
 
-* **\`\`**[`New-MediaISO`](osbmedia/new-osbmediaiso.md)**\`\`**
+* **\`\`**[`New-MediaISO`](new-osbmediaiso.md)**\`\`**
   * Creates a bootable ISO of any OSDBuilder Media
-* **\`\`**[`New-MediaUSB`](osbmedia/new-osbmediausb.md)**\`\`**
+* **\`\`**[`New-MediaUSB`](new-osbmediausb.md)**\`\`**
   * Creates a bootable USB of any OSDBuilder Media
-* **\`\`**[`Show-MediaInfo`](osbmedia/show-osbmediainfo.md)**\`\`**
+* **\`\`**[`Show-MediaInfo`](show-osbmediainfo.md)**\`\`**
   * Returns detailed information about any OSDBuilder Media
-
-{% page-ref page="osbmedia/" %}
 
 ## OSBUpdate Functions
 
-* **\`\`**[`Get-OSBUpdate`](osbupdate/get-osbupdate.md)**\`\`**
+* **\`\`**[`Get-OSBUpdate`](get-osbupdate.md)**\`\`**
   * Downloads OSDBuilder Update Catalogs and Microsoft Updates
 * **\`\`**[`New-OSBUpdate`](osbupdate/new-osbupdate.md)**\`\`**
   * Creates a custom OSDBuilder Update Catalog

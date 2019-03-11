@@ -1,6 +1,6 @@
-# New-OSBMediaUSB
+# New-OSDBuilderUSB
 
-## Function
+## Comments
 
 ```text
 <#
@@ -11,7 +11,7 @@ Creates a bootable USB of any OSDBuilder Media
 Creates a bootable USB of any OSDBuilder Media (OSMedia, OSBuilds, PEBuilds)
 
 .LINK
-https://www.osdeploy.com/OSDBuilder/docs/functions/media/new-osbmediausb
+https://www.osdeploy.com/osdbuilder/docs/functions/new-osdbuilderusb
 
 .PARAMETER FullName
 Full Path of the OSDBuilder Media
@@ -20,6 +20,8 @@ Full Path of the OSDBuilder Media
 Label for the USB Drive
 #>
 ```
+
+## Parameters
 
 ```text
 [Parameter(ValueFromPipelineByPropertyName)]
@@ -31,5 +33,5 @@ Label for the USB Drive
 
 ## Usage
 
-{% page-ref page="../../basics/create-external-media/create-a-usb.md" %}
+{% page-ref page="../basics/create-external-media/create-a-usb.md" %}
 

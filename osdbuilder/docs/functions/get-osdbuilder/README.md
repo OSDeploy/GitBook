@@ -1,17 +1,17 @@
 # Get-OSDBuilder
 
-## Comment Based Help
+## Comments
 
 ```text
 <#
 .SYNOPSIS
-Offline Servicing for Windows 10, Windows Server 2016 and Windows Server 2019
+Offline Servicing for Windows 7, Windows 10, Windows Server 2012 R2, Windows Server 2016 and Windows Server 2019
 
 .DESCRIPTION
-OSDBuilder is used to Update and Configure Windows 10, Windows Server 2016, and Windows Server 2019 using Offline Servicing
+Offline Servicing for Windows 7, Windows 10, Windows Server 2012 R2, Windows Server 2016 and Windows Server 2019
 
 .LINK
-https://www.osdeploy.com/OSDBuilder/docs/functions/main/get-OSDBuilder
+https://www.osdeploy.com/osdbuilder/docs/functions/get-osdbuilder
 
 .PARAMETER CreatePaths
 Creates empty directories used by OSDBuilder
@@ -53,5 +53,5 @@ PARAM (
 
 ## Usage
 
-{% page-ref page="../../../basics/get-started.md" %}
+{% page-ref page="../../basics/get-started.md" %}
 
