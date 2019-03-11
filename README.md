@@ -2,7 +2,7 @@
 
 ## About David Segura \| OSDeploy
 
-I started OSDeploy.com as a way for me to document several of the things that I do related to Customizing and Deploying Windows in a large Enterprise.
+I started OSDeploy.com as a way for me to document several of the things that I do related to Customizing and Deploying Windows in a large Enterprise
 
 Most people visiting are interested in OSBuilder, so here is the link
 
