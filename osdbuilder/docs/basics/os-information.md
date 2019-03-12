@@ -1,20 +1,20 @@
 # OS Information
 
-Every time an Operating System is mounted, information is exported and saved in the info directory.  To recover space, you may clear out any historical information that contains a date in the file name, but all other files are required by OSBuilder and should not be deleted.  You can easily view the TXT files for information
+Every time an Operating System is mounted, information is exported and saved in the info directory.  To recover space, you may clear out any historical information that contains a date in the file name, but all other files are required by **OSDBuilder** and should not be deleted.  You can easily view the TXT files for information
 
-![](../../../.gitbook/assets/2019-02-10_2-36-20.png)
+![](../../../.gitbook/assets/image%20%2870%29.png)
 
-## Show-OSBMediaINFO
+## Show-OSDBuilderInfo
 
-To have PowerShell display the information about any OSBuilder Media \(OSMedia, OSBuild, or PEBuild\), the following command can be used
+To have PowerShell display the information about any **OSDBuilder Media** \(OSMedia, OSBuild, or PEBuild\), the following command can be used
 
 ```text
-Show-OSBMediaINFO
+Show-OSDBuilderInfo
 ```
 
-You will be prompted to select an OSBuilder Media and press OK
+You will be prompted to select an **OSDBuilder Media** and press OK
 
-![](../../../.gitbook/assets/2019-02-10_1-33-22.png)
+![](../../../.gitbook/assets/image%20%281%29.png)
 
 This function will read the exported Operating System information and display the following
 
@@ -30,7 +30,5 @@ This function will read the exported Operating System information and display th
 * **Windows Update Packages**
 * **Windows Image Information**
 
-![](../../../.gitbook/assets/2019-02-10_1-37-41.png)
-
-
+![](../../../.gitbook/assets/image%20%2824%29.png)
 

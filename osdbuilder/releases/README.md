@@ -48,7 +48,7 @@ Ok, so changing the Module name from OSBuilder to OSDBuilder was not an easy one
   * Since the **OSDUpdate** Catalogs are part of the Module, it's easy to go back to a previous Update Revision if necessary.  Just download an older **OSDBuilder** Module
   * You can stay on a Patch Revision until you are ready to update by staying on an older Module version
 
-![](../../.gitbook/assets/image%20%2826%29.png)
+![](../../.gitbook/assets/image%20%2831%29.png)
 
 * **Updates are downloaded to Content\OSDUpdate**
   * This should not impact you as **OSDBuilder** is being released on Patch Tuesday, when you have to get new updates anyway
@@ -60,12 +60,12 @@ Ok, so changing the Module name from OSBuilder to OSDBuilder was not an easy one
 * **Optional Downloads are thing**
   * These are available to download and install in OSDBuilder
 
-![](../../.gitbook/assets/image%20%2860%29.png)
+![](../../.gitbook/assets/image%20%2866%29.png)
 
 * **Alias Everything**
   * You can execute OSBuilder or OSDBuilder.  Changes have been aliased
 
-![](../../.gitbook/assets/image%20%282%29.png)
+![](../../.gitbook/assets/image%20%283%29.png)
 
 ### Concerns
 

@@ -29,6 +29,7 @@
     * [Update OSDBuilder](osdbuilder/docs/basics/update-osdbuilder.md)
     * [Import an OS](osdbuilder/docs/basics/import-an-os.md)
     * [OS Information](osdbuilder/docs/basics/os-information.md)
+    * [Download Updates](osdbuilder/docs/basics/download-updates.md)
     * [Update an OS](osdbuilder/docs/basics/update-an-os.md)
     * [Update an OS \(Process\)](osdbuilder/docs/basics/update-an-os-process.md)
     * [Create External Media](osdbuilder/docs/basics/create-external-media/README.md)
