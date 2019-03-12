@@ -2,7 +2,7 @@
 
 Every time an Operating System is mounted, information is exported and saved in the info directory.  To recover space, you may clear out any historical information that contains a date in the file name, but all other files are required by **OSDBuilder** and should not be deleted.  You can easily view the TXT files for information
 
-![](../../../../.gitbook/assets/image%20%2874%29.png)
+![](../../../../.gitbook/assets/image%20%2877%29.png)
 
 ## Show-OSDBuilderInfo
 
