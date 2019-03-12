@@ -1,4 +1,4 @@
-# Download Updates
+# Manual Download
 
 {% hint style="danger" %}
 I **STRONGLY** recommend that you **ALWAYS** use the **GridView** parameter so you can select the Downloads that you need.  Downloads that do not have an **UpdateGroup** specified are **Optional**
@@ -16,19 +16,19 @@ Get-OSDBuilderDownloads -Download -GridView -UpdateArch x64 -UpdateBuild 1803 -U
 
 Then simply select the **Updates** that you want to download and press OK
 
-![](../../../.gitbook/assets/image%20%2828%29.png)
+![](../../../../.gitbook/assets/image%20%2829%29.png)
 
 The selected updates will be downloaded using **BITS Transfer**.  If you need to download non-interactively use the **`WebClient`** parameter
 
-![](../../../.gitbook/assets/image%20%2823%29.png)
+![](../../../../.gitbook/assets/image%20%2823%29.png)
 
 Downloads will be saved in **OSDBuilder\Content\OSDUpdate**
 
-![](../../../.gitbook/assets/image%20%2861%29.png)
+![](../../../../.gitbook/assets/image%20%2864%29.png)
 
 ## Remove Superseded
 
 When new Updates are released, you can use the **`Superseded`** parameter to remove old Updates
 
-![](../../../.gitbook/assets/image%20%286%29.png)
+![](../../../../.gitbook/assets/image%20%286%29.png)
 
