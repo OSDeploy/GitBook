@@ -32,13 +32,13 @@ Import-OSMedia
 
 The Operating System Index that was selected will be mounted
 
-![](../../../.gitbook/assets/image%20%2848%29.png)
+![](../../../.gitbook/assets/image%20%2849%29.png)
 
 ### Mounted Inventory
 
 Once mounted, a full inventory will be saved, and the Operating System will be copied into **OSDBuilder\OSMedia**.  This will take between 5-10 minutes to complete per Operating System Index that was selected
 
-![](../../../.gitbook/assets/image%20%2829%29.png)
+![](../../../.gitbook/assets/image%20%2830%29.png)
 
-![](../../../.gitbook/assets/image%20%2845%29.png)
+![](../../../.gitbook/assets/image%20%2846%29.png)
 
