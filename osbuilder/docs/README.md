@@ -1,6 +1,6 @@
 # Docs
 
-{% page-ref page="../../osdbuilder/docs/basics/support.md" %}
+{% page-ref page="../../osdbuilder/home/support.md" %}
 
 {% page-ref page="../recycle-bin/instructions/" %}
 

@@ -6,7 +6,7 @@
 
 ## Windows Media
 
-You will need to Import an Operating System to use with OSBuilder.  This must be done with the original DVD or a mounted ISO.  You can use any of the following Media
+You will need to Import an Operating System to use with **OSDBuilder**.  This must be done with the original DVD or a mounted ISO.  You can use any of the following Media
 
 * \*\*\*\*[**Microsoft Volume Licensing Service Center**](https://www.microsoft.com/Licensing/servicecenter/default.aspx) **\(MVLS\) ISO**
 * \*\*\*\*[**Microsoft Developer Network**](https://msdn.microsoft.com) **\(MSDN\) ISO**
@@ -14,29 +14,31 @@ You will need to Import an Operating System to use with OSBuilder.  This must be
 
 ## Import-OSMedia
 
-Once you have the DVD or ISO mounted, you can import the Operating System.  In PowerShell, simply enter the following command
+Once you have the DVD or ISO mounted, you can import the Operating System.  In PowerShell, simply use the following command
 
 ```text
 Import-OSMedia
 ```
 
-OSBuilder will scan the drives for an Operating System to import and display the results in GridView.  Simply select the Operating System you want to import and press OK
+**OSDBuilder** will scan the drives for an Operating System to import and display the results in **GridView**.  Simply select the Operating System you want to import and press **OK**
 
 {% hint style="info" %}
-**You can multi-select multiple Editions from multiple ISO's at the same time**
+**You can select multiple Editions from multiple ISO's at the same time**
 {% endhint %}
 
-![](../../../.gitbook/assets/2019-02-10_1-27-04.png)
+![](../../../.gitbook/assets/image%20%2811%29.png)
 
-The Operating System then will be mounted
+### Import OSMedia Mount
 
-![](../../../.gitbook/assets/2019-02-10_0-47-01.png)
+The Operating System Index that was selected will be mounted
 
-Once mounted, a full inventory will be saved, and the Operating System will be copied into OSBuilder's OSMedia.  This will take between 5-10 minutes to complete per Operating System Edition
+![](../../../.gitbook/assets/image%20%2839%29.png)
 
-![](../../../.gitbook/assets/2019-02-10_0-49-20.png)
+### Mounted Inventory
 
-![](../../../.gitbook/assets/2019-02-10_1-31-28.png)
+Once mounted, a full inventory will be saved, and the Operating System will be copied into **OSDBuilder\OSMedia**.  This will take between 5-10 minutes to complete per Operating System Index that was selected
 
+![](../../../.gitbook/assets/image%20%2822%29.png)
 
+![](../../../.gitbook/assets/image%20%2836%29.png)
 

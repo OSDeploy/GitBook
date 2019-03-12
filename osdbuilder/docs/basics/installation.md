@@ -2,13 +2,24 @@
 
 ## PowerShell Gallery
 
-**OSDBuilder** is published in the [**PowerShell Gallery**](https://www.powershellgallery.com/)\*\*\*\*
+**OSDBuilder** is a PowerShell Module that is published in the [**PowerShell Gallery**](https://www.powershellgallery.com/)\*\*\*\*
 
 \*\*\*\*[**https://www.powershellgallery.com/packages/OSDBuilder**](https://www.powershellgallery.com/packages/OSBuilder)\*\*\*\*
 
+## Clean Install
+
+If you don't have an existing version of **OSDBuilder** installed, you can simply Install and Import OSBuilder with the following **PowerShell** commands
+
+```text
+Install-Module -Name OSDBuilder -Force
+Import-Module -Name OSDBuilder -Force
+```
+
+![](../../../.gitbook/assets/image%20%2835%29.png)
+
 ## Upgrade from OSBuilder
 
-OSDBuilder is a completely separate PowerShell Module and it uses most of the same functions as OSBuilder.  These two Modules cannot coexist, and OSBuilder should be removed first
+**OSDBuilder** is a completely separate PowerShell Module from **OSBuilder**, and it shares the same function names.  These two Modules cannot coexist, and **OSBuilder** should be removed before installing **OSDBuilder**
 
 ```text
 Uninstall-Module OSBuilder -AllVersions -Force
@@ -18,24 +29,13 @@ Import-Module OSDBuilder -Force
 
 ![](../../../.gitbook/assets/image%20%2810%29.png)
 
-## Clean Install
+## Update to Latest Version
 
-If you don't have an existing version of OSDBuilder installed, you can simply Install and Import OSBuilder with the following **PowerShell** commands
-
-```text
-Install-Module -Name OSDBuilder -Force
-Import-Module -Name OSDBuilder -Force
-```
-
-![](../../../.gitbook/assets/image%20%2832%29.png)
-
-## Update Existing Version
-
-If you have an existing version of OSBuilder, you will need to Uninstall-Module first with the following **PowerShell** commands
+If you have an existing version of **OSBuilder**, you can easily do this with the following PowerShell Command
 
 ```text
 OSDBuilder -Update
 ```
 
-![](../../../.gitbook/assets/image%20%2857%29.png)
+![](../../../.gitbook/assets/image%20%2863%29.png)
 
