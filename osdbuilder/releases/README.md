@@ -4,7 +4,7 @@
 
 {% page-ref page="../docs/basics/installation.md" %}
 
-## 19.3.12 \(March 12, 2019\)
+## 19.3.12 \(March 12, 2019\) Patch Tuesday
 
 ### Function Changes
 

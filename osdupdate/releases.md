@@ -6,7 +6,50 @@
 **All Catalogs have been updated to March 12, 2019**
 {% endhint %}
 
-{% embed url="https://gist.github.com/OSDeploy/d3794de59265738ff38f8b7d9c4af710" %}
+```text
+Catalog                   KBNumber Title
+-------                   -------- -----
+Office 2010 32-Bit        4462226  Security Update for Microsoft Office 2010 (KB4462226) 32-Bit Edition
+Office 2010 64-Bit        4462226  Security Update for Microsoft Office 2010 (KB4462226) 64-Bit Edition
+Windows 7                 4474419  2019-03 Security Update for Windows 7 for x64-based Systems (KB4474419)
+Windows 7                 4474419  2019-03 Security Update for Windows 7 for x86-based Systems (KB4474419)
+Windows 7                 4489873  2019-03 Cumulative Security Update for Internet Explorer 11 for Windows 7 for x64-based systems (KB4489873)
+Windows 7                 4489873  2019-03 Cumulative Security Update for Internet Explorer 11 for Windows 7 for x86-based systems (KB4489873)
+Windows 7                 4489878  2019-03 Security Monthly Quality Rollup for Windows 7 for x64-based Systems (KB4489878)
+Windows 7                 4490628  2019-03 Servicing Stack Update for Windows 7 for x64-based Systems (KB4490628)
+Windows 7                 4490628  2019-03 Servicing Stack Update for Windows 7 for x86-based Systems (KB4490628)
+Windows 10                4489868  2019-03 Cumulative Update for Windows 10 Version 1803 for x64-based Systems (KB4489868)
+Windows 10                4489868  2019-03 Cumulative Update for Windows 10 Version 1803 for x86-based Systems (KB4489868)
+Windows 10                4489871  2019-03 Cumulative Update for Windows 10 Version 1703 for x64-based Systems (KB4489871)
+Windows 10                4489871  2019-03 Cumulative Update for Windows 10 Version 1703 for x86-based Systems (KB4489871)
+Windows 10                4489882  2019-03 Cumulative Update for Windows 10 Version 1607 for x64-based Systems (KB4489882)
+Windows 10                4489882  2019-03 Cumulative Update for Windows 10 Version 1607 for x86-based Systems (KB4489882)
+Windows 10                4489886  2019-03 Cumulative Update for Windows 10 Version 1709 for x64-based Systems (KB4489886)
+Windows 10                4489886  2019-03 Cumulative Update for Windows 10 Version 1709 for x86-based Systems (KB4489886)
+Windows 10                4489899  2019-03 Cumulative Update for Windows 10 Version 1809 for x64-based Systems (KB4489899)
+Windows 10                4489899  2019-03 Cumulative Update for Windows 10 Version 1809 for x86-based Systems (KB4489899)
+Windows 10                4489907  2019-03 Security Update for Adobe Flash Player for Windows 10 Version 1607 for x64-based Systems (KB4489907)
+Windows 10                4489907  2019-03 Security Update for Adobe Flash Player for Windows 10 Version 1607 for x86-based Systems (KB4489907)
+Windows 10                4489907  2019-03 Security Update for Adobe Flash Player for Windows 10 Version 1703 for x64-based Systems (KB4489907)
+Windows 10                4489907  2019-03 Security Update for Adobe Flash Player for Windows 10 Version 1703 for x86-based Systems (KB4489907)
+Windows 10                4489907  2019-03 Security Update for Adobe Flash Player for Windows 10 Version 1709 for x64-based Systems (KB4489907)
+Windows 10                4489907  2019-03 Security Update for Adobe Flash Player for Windows 10 Version 1709 for x86-based Systems (KB4489907)
+Windows 10                4489907  2019-03 Security Update for Adobe Flash Player for Windows 10 Version 1803 for x64-based Systems (KB4489907)
+Windows 10                4489907  2019-03 Security Update for Adobe Flash Player for Windows 10 Version 1803 for x86-based Systems (KB4489907)
+Windows 10                4489907  2019-03 Security Update for Adobe Flash Player for Windows 10 Version 1809 for x64-based Systems (KB4489907)
+Windows 10                4489907  2019-03 Security Update for Adobe Flash Player for Windows 10 Version 1809 for x86-based Systems (KB4489907)
+Windows 10 Dynamic Update 4489723  2019-03 Dynamic Update for Windows 10 Version 1803 for x64-based Systems (KB4489723)
+Windows 10 Dynamic Update 4489723  2019-03 Dynamic Update for Windows 10 Version 1803 for x86-based Systems (KB4489723)
+Windows Server 2012 R2    4489873  2019-03 Cumulative Security Update for Internet Explorer 11 for Windows Server 2012 R2 for x64-based systems (KB4489873)
+Windows Server 2012 R2    4489881  2019-03 Security Monthly Quality Rollup for Windows Server 2012 R2 for x64-based Systems (KB4489881)
+Windows Server 2012 R2    4489907  2019-03 Security Update for Adobe Flash Player for Windows Server 2012 R2 for x64-based Systems (KB4489907)
+Windows Server 2016       4489868  2019-03 Cumulative Update for Windows Server 2016 (1803) for x64-based Systems (KB4489868)
+Windows Server 2016       4489882  2019-03 Cumulative Update for Windows Server 2016 for x64-based Systems (KB4489882)
+Windows Server 2016       4489886  2019-03 Cumulative Update for Windows Server 2016 (1709) for x64-based Systems (KB4489886)
+Windows Server 2016       4489907  2019-03 Security Update for Adobe Flash Player for Windows Server 2016 for x64-based Systems (KB4489907)
+Windows Server 2019       4489899  2019-03 Cumulative Update for Windows Server 2019 for x64-based Systems (KB4489899)
+Windows Server 2019       4489907  2019-03 Security Update for Adobe Flash Player for Windows Server 2019 for x64-based Systems (KB4489907)
+```
 
 ## 19.3.6 \(March 6, 2019\)
 
