@@ -38,7 +38,7 @@ These functions are commonly shared between all the other OSDBuilder Functions
 
 ## OSBuild Functions
 
-* **\`\`**[`New-OSBuildTask`](osbuild/new-osbuildtask/)**\`\`**
+* **\`\`**[`New-OSBuildTask`](osbuild/new-osbuildtask.md)**\`\`**
   * Creates a custom OSBuild configuration \(JSON\)
 * **\`\`**[`New-OSBuild`](https://github.com/OSDeploy/GitBook/tree/b3a0aecd45dca9212c45ad9d136ea80419add73b/osdbuilder/docs/functions/osbuild/new-osbuild.md)**\`\`**
   * Executes a custom OSBuild configuration created with New-OSBuildTask

@@ -1,14 +1,10 @@
 # Get Started
 
-## Get-OSDBuilder Function
-
-{% page-ref page="../../../osbuilder/docs/functions/main/get-osbuilder/" %}
-
-## Get-OSBuilder
-
 {% hint style="info" %}
 **Open PowerShell with Admin Rights**
 {% endhint %}
+
+## Get-OSDBuilder
 
 This simple command will get you started.  When using Get-OSBuilder for the first time, it will automatically select C:\OSBuilder as the OSBuilder Home directory
 

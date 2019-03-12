@@ -60,7 +60,7 @@ Ok, so changing the Module name from OSBuilder to OSDBuilder was not an easy one
 * **Optional Downloads are thing**
   * These are available to download and install in OSDBuilder
 
-![](../../.gitbook/assets/image%20%2852%29.png)
+![](../../.gitbook/assets/image%20%2854%29.png)
 
 * **Alias Everything**
   * You can execute OSBuilder or OSDBuilder.  Changes have been aliased

@@ -58,7 +58,7 @@ Now you can execute your Task and the Drivers will be applied automatically, or 
 
 **During the WinPE processing, the Drivers will be added to Windows Setup \(WinSE\), Windows PE \(WinPE\), and in Windows Recovery Environment \(WinRE\) automatically.  So no more not being able to connect to the network when you need to do a Repair**
 
-![](../../../../../.gitbook/assets/image%20%2857%29.png)
+![](../../../../../.gitbook/assets/image%20%2860%29.png)
 
 **During the OS processing, the Drivers that were selected will be automatically added as well**
 

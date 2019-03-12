@@ -10,9 +10,9 @@ Since the configuration is also saved in a Task, it is possible to select multip
 
 Most people are visual, so to help you understand how OSDBuilder will work, here is the OSDBuilder Lifecycle. So let's talk about how this works. The BLACK background one is the newer version, and the WHITE background one is kept for historical purposes \(OSMedia Tasks don't exist anymore\)
 
-![Current Process](../.gitbook/assets/181017-hasmug.png)
+![Current Process](../../.gitbook/assets/181017-hasmug.png)
 
-![Previous Design](../.gitbook/assets/2018-07-21_23-10-22.png)
+![Previous Design](../../.gitbook/assets/2018-07-21_23-10-22.png)
 
 ## Import-OSMedia
 

@@ -37,5 +37,5 @@ If you have an existing version of OSBuilder, you will need to Uninstall-Module 
 OSDBuilder -Update
 ```
 
-![](../../../.gitbook/assets/image%20%2855%29.png)
+![](../../../.gitbook/assets/image%20%2857%29.png)
 

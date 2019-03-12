@@ -1,12 +1,30 @@
 # Update OSDBuilder
 
-**The last page had quite a bit of information, so here is how to update the OSDBuilder Module and the Update Catalogs the easy way**
+## Check OSDBuilder for Updates
 
-## **OSDBuilder PowerShell Module**
+You can use**`Get-OSDBuilder`** to check if there is an update to the **OSDBuilder** PowerShell Module.  Keep in mind that updating the **OSDBuilder** PowerShell Module will also update the **OSDUpdate Catalogs**
 
-![](../../../.gitbook/assets/2019-02-11_9-28-01.png)
+If there is an updated version available, you will see a notification on the bottom.  This will also remind you of the PowerShell Command to update **OSDBuilder**
 
-## OSDBuilder Update Catalogs
+![](../../../.gitbook/assets/image%20%2853%29.png)
 
-![](../../../.gitbook/assets/2019-02-11_9-40-52.png)
+## OSDBuilder -Update
+
+Executing **`OSDBuilder -Update`** is the same as running the following commands
+
+```text
+Uninstall-Module -Name OSDBuilder -AllVersions -Force
+Install-Module -Name OSDBuilder -Force
+Import-Module -Name OSDBuilder -Force
+```
+
+![](../../../.gitbook/assets/image%20%2858%29.png)
+
+## OSDBuilder is OK
+
+If everything is OK and no updates are needed, the **OSDBuilder Module version** will be displayed in Green
+
+![](../../../.gitbook/assets/image%20%2849%29.png)
+
+
 

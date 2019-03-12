@@ -40,7 +40,7 @@ You may come across a directory without a readme.txt. Just use some common sense
 
 You may even come across a readme.txt that has two Operating Systems that you support, so copy them
 
-![](../../../../../.gitbook/assets/image%20%2851%29.png)
+![](../../../../../.gitbook/assets/image%20%2852%29.png)
 
 Eventually you will run into some WinPE Drivers. Move them where they need to be \(unzip as needed\)
 
