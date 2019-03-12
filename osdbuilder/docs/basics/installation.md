@@ -6,6 +6,10 @@
 
 \*\*\*\*[**https://www.powershellgallery.com/packages/OSDBuilder**](https://www.powershellgallery.com/packages/OSBuilder)\*\*\*\*
 
+{% hint style="danger" %}
+**After installing OSDBuilder, you should close all open PowerShell sessions to ensure that the Module is fully loaded**
+{% endhint %}
+
 ## Clean Install
 
 If you don't have an existing version of **OSDBuilder** installed, you can simply Install and Import OSBuilder with the following **PowerShell** commands
