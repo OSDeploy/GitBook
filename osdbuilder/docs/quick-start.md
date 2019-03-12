@@ -37,5 +37,5 @@ Import-OSMedia
 Update-OSMedia -DownloadUpdates -Execute
 ```
 
-{% page-ref page="basics/update-an-os.md" %}
+{% page-ref page="basics/update-an-os/update-osmedia.md" %}
 

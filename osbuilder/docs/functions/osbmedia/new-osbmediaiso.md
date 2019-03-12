@@ -25,5 +25,5 @@ Full Path of the OSBuilder Media
 
 ## Usage
 
-{% page-ref page="../../../../osdbuilder/docs/basics/create-external-media/create-an-iso.md" %}
+{% page-ref page="../../../../osdbuilder/docs/basics/media-functions/create-an-iso.md" %}
 

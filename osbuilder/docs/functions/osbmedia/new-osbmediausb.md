@@ -31,5 +31,5 @@ Label for the USB Drive
 
 ## Usage
 
-{% page-ref page="../../../../osdbuilder/docs/basics/create-external-media/create-a-usb.md" %}
+{% page-ref page="../../../../osdbuilder/docs/basics/media-functions/create-a-usb.md" %}
 

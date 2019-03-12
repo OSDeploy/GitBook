@@ -2,7 +2,7 @@
 
 ## Usage
 
-{% page-ref page="../basics/os-information.md" %}
+{% page-ref page="../basics/media-functions/os-information.md" %}
 
 ## Comments
 

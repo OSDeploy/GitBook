@@ -2,7 +2,7 @@
 
 ## Usage
 
-{% page-ref page="../basics/create-external-media/create-an-iso.md" %}
+{% page-ref page="../basics/media-functions/create-an-iso.md" %}
 
 ## Comments
 

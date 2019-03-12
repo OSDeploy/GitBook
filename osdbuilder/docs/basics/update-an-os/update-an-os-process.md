@@ -43,9 +43,9 @@ Dismount and Save OS
 Export Install.wim (to compress)
 ```
 
-**All these above steps are done with OSBuilder using the following PowerShell command**
+**All these above steps are done with OSDBuilder using the following PowerShell command**
 
 ```text
-Update-OSMedia -DownloadUpdates -Execute
+Update-OSMedia -Download -Execute
 ```
 

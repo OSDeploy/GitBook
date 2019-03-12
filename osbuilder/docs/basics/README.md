@@ -36,11 +36,11 @@ The easy way
 
 Looking for what Appx Provisioned Package is in your OS?  Use **`Show-OSBMediaINFO`**
 
-{% page-ref page="../../../osdbuilder/docs/basics/os-information.md" %}
+{% page-ref page="../../../osdbuilder/docs/basics/media-functions/os-information.md" %}
 
 ## Update an OS
 
 The easiest method to update an offline Windows Image is to use **`Update-OSMedia`**
 
-{% page-ref page="../../../osdbuilder/docs/basics/update-an-os.md" %}
+{% page-ref page="../../../osdbuilder/docs/basics/update-an-os/update-osmedia.md" %}
 

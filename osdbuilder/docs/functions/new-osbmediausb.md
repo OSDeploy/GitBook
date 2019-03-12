@@ -2,7 +2,7 @@
 
 ## Usage
 
-{% page-ref page="../basics/create-external-media/create-a-usb.md" %}
+{% page-ref page="../basics/media-functions/create-a-usb.md" %}
 
 ## Comments
 
