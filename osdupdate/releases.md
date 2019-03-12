@@ -1,5 +1,13 @@
 # Releases
 
+## 19.3.12 \(March 12, 2019\) Patch Tuesday
+
+{% hint style="info" %}
+**All Catalogs have been updated to March 12, 2019**
+{% endhint %}
+
+{% embed url="https://gist.github.com/OSDeploy/d3794de59265738ff38f8b7d9c4af710" %}
+
 ## 19.3.6 \(March 6, 2019\)
 
 {% hint style="info" %}
