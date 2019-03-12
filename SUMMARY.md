@@ -57,6 +57,118 @@
       * [New-PEBuild](osdbuilder/docs/functions/pebuild/new-pebuild.md)
       * [Get-PEBuilds](osdbuilder/docs/functions/pebuild/get-pebuilds.md)
 
+## OSDUpdate
+
+* [OSDUpdate Home](osdupdate/home.md)
+* [Releases](osdupdate/releases.md)
+* [Docs](osdupdate/docs/README.md)
+  * [Functions](osdupdate/docs/functions/README.md)
+    * [Get-OSDUpdate](osdupdate/docs/functions/get-osdupdate.md)
+    * [Get-OSDUpdateDownloads](osdupdate/docs/functions/get-osdupdatedownloads.md)
+    * [Update-ModuleOSDUpdate](osdupdate/docs/functions/update-moduleosdupdate.md)
+    * [Update-OSDdefender](osdupdate/docs/functions/update-osddefender.md)
+    * [Update-OSDmcafee](osdupdate/docs/functions/update-osdmcafee.md)
+  * [Guides](osdupdate/docs/guides/README.md)
+    * [Microsoft Office Monthly Updates](osdupdate/docs/guides/microsoft-office-monthly-updates.md)
+    * [Microsoft Office 2016 Updates](osdupdate/docs/guides/microsoft-office-2016-updates.md)
+    * [Office Deployment and OSDUpdate](osdupdate/docs/guides/office-deployment-and-osdupdate.md)
+    * [Microsoft Office MSP Install Script](osdupdate/docs/guides/microsoft-office-msp-install-script.md)
+
+## OSDSoftware
+
+* [OSDSoftware Home](osdsoftware/home.md)
+* [Releases](osdsoftware/releases.md)
+* [Docs](osdsoftware/docs/README.md)
+  * [Functions](osdsoftware/docs/functions/README.md)
+    * [Get-OSDSoftware](osdsoftware/docs/functions/get-osdsoftware.md)
+    * [Update-ModuleOSDSoftware](osdsoftware/docs/functions/update-moduleosdsoftware.md)
+
+## Development
+
+* [PowerShell SnapPE](development/snappe.md)
+
+## Links
+
+* [Links](links/links/README.md)
+  * [Blogs \[MVP\]](links/links/blogs-mvp.md)
+  * [Blogs \[Microsoft\]](links/links/blogs-microsoft.md)
+  * [Blogs](links/links/blogs.md)
+  * [Communities](links/links/communities.md)
+  * [Consulting](links/links/consulting.md)
+  * [Events](links/links/events.md)
+  * [Forums](links/links/forums.md)
+  * [Microsoft](links/links/microsoft.md)
+  * [MSIX](links/links/msix.md)
+  * [PowerShell](links/links/powershell.md)
+  * [PowerShell \[Microsoft\]](links/links/powershell-microsoft.md)
+  * [Reddit](links/links/reddit.md)
+  * [Tools](links/links/tools.md)
+  * [Tools \[Paid\]](links/links/tools-paid.md)
+  * [Training](links/links/training.md)
+  * [User Groups](links/links/community.md)
+  * [Sponsors](links/links/sponsors.md)
+
+## OSConfig
+
+* [OSConfig Home](osconfig/overview.md)
+* [Downloads](osconfig/downloads/README.md)
+  * [OSConfig](osconfig/downloads/osconfig.md)
+  * [LGPO](osconfig/downloads/lgpo.md)
+  * [OSDeploy PowerShell Module](osconfig/downloads/osdeploy-powershell-module.md)
+* [Docs](osconfig/docs/README.md)
+  * [Deployment](osconfig/docs/deployment/README.md)
+    * [ConfigMgr New PC TS Package](osconfig/docs/deployment/configmgr-new-pc-ts-package.md)
+    * [ConfigMgr New PC TS Unattend.xml](osconfig/docs/deployment/configmgr-new-pc-ts-unattend.xml.md)
+    * [ConfigMgr New PC TS Provisioning Package](osconfig/docs/deployment/configmgr-new-pc-ts-provisioning-package.md)
+    * [MDT New PC TS](osconfig/docs/deployment/mdt-task-sequence.md)
+  * [Customize](osconfig/docs/customization/README.md)
+    * [Alpha](osconfig/docs/customization/alpha.md)
+    * [Apps](osconfig/docs/customization/apps.md)
+    * [Background](osconfig/docs/customization/background.md)
+    * [LocalPolicy](osconfig/docs/customization/localpolicy/README.md)
+      * [ImportGPO](osconfig/docs/customization/localpolicy/importgpo.md)
+      * [ImportTXT](osconfig/docs/customization/localpolicy/importtxt.md)
+      * [LGPO](osconfig/docs/customization/localpolicy/lgpo.md)
+      * [Import-GPO.ps1](osconfig/docs/customization/localpolicy/import-gpo.ps1.md)
+    * [RegistryXML](osconfig/docs/customization/registryxml.md)
+    * [Scripts](osconfig/docs/customization/scripts.md)
+    * [Start](osconfig/docs/customization/start.md)
+    * [Theme](osconfig/docs/customization/theme.md)
+    * [Zeta](osconfig/docs/customization/zeta.md)
+  * [Group Policies](osconfig/docs/group-policies/README.md)
+    * [Best Practices](osconfig/docs/group-policies/best-practices/README.md)
+      * [Edit Local Policy with Reg Keys](osconfig/docs/group-policies/best-practices/edit-local-policy-with-reg-keys.md)
+    * [Active Directory GPO](osconfig/docs/group-policies/active-directory-gpo.md)
+    * [Build a Domain Controller](osconfig/docs/group-policies/build-a-domain-controller.md)
+    * [Update ADMX Templates](osconfig/docs/group-policies/update-admx-templates.md)
+    * [Local vs Domain Policies](osconfig/docs/group-policies/local-vs-domain-policies.md)
+    * [Import OSDeploy GPOs](osconfig/docs/group-policies/import-osdeploy-gpos.md)
+    * [Edit OSDeploy Branding GPO](osconfig/docs/group-policies/edit-osdeploy-branding-gpo.md)
+  * [Provisioning Packages](osconfig/docs/provisioning-packages/README.md)
+    * [PowerShell Script to PPKG](osconfig/docs/provisioning-packages/powershell-script-to-ppkg.md)
+    * [OSConfig to PPKG](osconfig/docs/provisioning-packages/osconfig-to-ppkg.md)
+  * [Registry](osconfig/docs/registry/README.md)
+    * [Group Policy Preferences](osconfig/docs/registry/group-policy-preferences.md)
+    * [GPP Registry.xml](osconfig/docs/registry/gpp-registry.xml.md)
+    * [RegistryXML Files](osconfig/docs/registry/registryxml-files.md)
+    * [Convert REG to RegistryXML](osconfig/docs/registry/convert-reg-to-registryxml.md)
+    * [Apply RegistryXML Files](osconfig/docs/registry/apply-registryxml-files.md)
+  * [How To](osconfig/docs/how-to/README.md)
+    * [Theme Customization](osconfig/docs/how-to/theme-customization.md)
+
+## WinPE
+
+* [Hybrid WinPE](winpe/hybrid-winpe.md)
+* [WinPE Boot Process](winpe/winpe-boot-process.md)
+
+## OSD.Update
+
+* [OSD.Update Home](osd.update/home.md)
+* [Releases](osd.update/releases.md)
+* [Docs](osd.update/docs/README.md)
+  * [Functions](osd.update/docs/functions/README.md)
+    * [Update-MSOffice2016](osd.update/docs/functions/update-msoffice2016.md)
+
 ## OSBuilder
 
 * [OSBuilder Home](osbuilder/overview.md)
@@ -205,116 +317,4 @@
           * [Set-TimeZone](osbuilder/recycle-bin/instructions/detailed/pebuild/scripts/set-timezone.md)
   * [OSBuilder New-OSBTemplate](osbuilder/recycle-bin/osbuilder-new-osbtemplate.md)
   * [OSBuild Templates](osbuilder/recycle-bin/osbuild-templates.md)
-
-## OSDUpdate
-
-* [OSDUpdate Home](osdupdate/home.md)
-* [Releases](osdupdate/releases.md)
-* [Docs](osdupdate/docs/README.md)
-  * [Functions](osdupdate/docs/functions/README.md)
-    * [Get-OSDUpdate](osdupdate/docs/functions/get-osdupdate.md)
-    * [Get-OSDUpdateDownloads](osdupdate/docs/functions/get-osdupdatedownloads.md)
-    * [Update-ModuleOSDUpdate](osdupdate/docs/functions/update-moduleosdupdate.md)
-    * [Update-OSDdefender](osdupdate/docs/functions/update-osddefender.md)
-    * [Update-OSDmcafee](osdupdate/docs/functions/update-osdmcafee.md)
-  * [Guides](osdupdate/docs/guides/README.md)
-    * [Microsoft Office Monthly Updates](osdupdate/docs/guides/microsoft-office-monthly-updates.md)
-    * [Microsoft Office 2016 Updates](osdupdate/docs/guides/microsoft-office-2016-updates.md)
-    * [Office Deployment and OSDUpdate](osdupdate/docs/guides/office-deployment-and-osdupdate.md)
-    * [Microsoft Office MSP Install Script](osdupdate/docs/guides/microsoft-office-msp-install-script.md)
-
-## OSDSoftware
-
-* [OSDSoftware Home](osdsoftware/home.md)
-* [Releases](osdsoftware/releases.md)
-* [Docs](osdsoftware/docs/README.md)
-  * [Functions](osdsoftware/docs/functions/README.md)
-    * [Get-OSDSoftware](osdsoftware/docs/functions/get-osdsoftware.md)
-    * [Update-ModuleOSDSoftware](osdsoftware/docs/functions/update-moduleosdsoftware.md)
-
-## Development
-
-* [PowerShell SnapPE](development/snappe.md)
-
-## Links
-
-* [Links](links/links/README.md)
-  * [Blogs \[MVP\]](links/links/blogs-mvp.md)
-  * [Blogs \[Microsoft\]](links/links/blogs-microsoft.md)
-  * [Blogs](links/links/blogs.md)
-  * [Communities](links/links/communities.md)
-  * [Consulting](links/links/consulting.md)
-  * [Events](links/links/events.md)
-  * [Forums](links/links/forums.md)
-  * [Microsoft](links/links/microsoft.md)
-  * [MSIX](links/links/msix.md)
-  * [PowerShell](links/links/powershell.md)
-  * [PowerShell \[Microsoft\]](links/links/powershell-microsoft.md)
-  * [Reddit](links/links/reddit.md)
-  * [Tools](links/links/tools.md)
-  * [Tools \[Paid\]](links/links/tools-paid.md)
-  * [Training](links/links/training.md)
-  * [User Groups](links/links/community.md)
-  * [Sponsors](links/links/sponsors.md)
-
-## OSConfig
-
-* [OSConfig Home](osconfig/overview.md)
-* [Downloads](osconfig/downloads/README.md)
-  * [OSConfig](osconfig/downloads/osconfig.md)
-  * [LGPO](osconfig/downloads/lgpo.md)
-  * [OSDeploy PowerShell Module](osconfig/downloads/osdeploy-powershell-module.md)
-* [Docs](osconfig/docs/README.md)
-  * [Deployment](osconfig/docs/deployment/README.md)
-    * [ConfigMgr New PC TS Package](osconfig/docs/deployment/configmgr-new-pc-ts-package.md)
-    * [ConfigMgr New PC TS Unattend.xml](osconfig/docs/deployment/configmgr-new-pc-ts-unattend.xml.md)
-    * [ConfigMgr New PC TS Provisioning Package](osconfig/docs/deployment/configmgr-new-pc-ts-provisioning-package.md)
-    * [MDT New PC TS](osconfig/docs/deployment/mdt-task-sequence.md)
-  * [Customize](osconfig/docs/customization/README.md)
-    * [Alpha](osconfig/docs/customization/alpha.md)
-    * [Apps](osconfig/docs/customization/apps.md)
-    * [Background](osconfig/docs/customization/background.md)
-    * [LocalPolicy](osconfig/docs/customization/localpolicy/README.md)
-      * [ImportGPO](osconfig/docs/customization/localpolicy/importgpo.md)
-      * [ImportTXT](osconfig/docs/customization/localpolicy/importtxt.md)
-      * [LGPO](osconfig/docs/customization/localpolicy/lgpo.md)
-      * [Import-GPO.ps1](osconfig/docs/customization/localpolicy/import-gpo.ps1.md)
-    * [RegistryXML](osconfig/docs/customization/registryxml.md)
-    * [Scripts](osconfig/docs/customization/scripts.md)
-    * [Start](osconfig/docs/customization/start.md)
-    * [Theme](osconfig/docs/customization/theme.md)
-    * [Zeta](osconfig/docs/customization/zeta.md)
-  * [Group Policies](osconfig/docs/group-policies/README.md)
-    * [Best Practices](osconfig/docs/group-policies/best-practices/README.md)
-      * [Edit Local Policy with Reg Keys](osconfig/docs/group-policies/best-practices/edit-local-policy-with-reg-keys.md)
-    * [Active Directory GPO](osconfig/docs/group-policies/active-directory-gpo.md)
-    * [Build a Domain Controller](osconfig/docs/group-policies/build-a-domain-controller.md)
-    * [Update ADMX Templates](osconfig/docs/group-policies/update-admx-templates.md)
-    * [Local vs Domain Policies](osconfig/docs/group-policies/local-vs-domain-policies.md)
-    * [Import OSDeploy GPOs](osconfig/docs/group-policies/import-osdeploy-gpos.md)
-    * [Edit OSDeploy Branding GPO](osconfig/docs/group-policies/edit-osdeploy-branding-gpo.md)
-  * [Provisioning Packages](osconfig/docs/provisioning-packages/README.md)
-    * [PowerShell Script to PPKG](osconfig/docs/provisioning-packages/powershell-script-to-ppkg.md)
-    * [OSConfig to PPKG](osconfig/docs/provisioning-packages/osconfig-to-ppkg.md)
-  * [Registry](osconfig/docs/registry/README.md)
-    * [Group Policy Preferences](osconfig/docs/registry/group-policy-preferences.md)
-    * [GPP Registry.xml](osconfig/docs/registry/gpp-registry.xml.md)
-    * [RegistryXML Files](osconfig/docs/registry/registryxml-files.md)
-    * [Convert REG to RegistryXML](osconfig/docs/registry/convert-reg-to-registryxml.md)
-    * [Apply RegistryXML Files](osconfig/docs/registry/apply-registryxml-files.md)
-  * [How To](osconfig/docs/how-to/README.md)
-    * [Theme Customization](osconfig/docs/how-to/theme-customization.md)
-
-## WinPE
-
-* [Hybrid WinPE](winpe/hybrid-winpe.md)
-* [WinPE Boot Process](winpe/winpe-boot-process.md)
-
-## OSD.Update
-
-* [OSD.Update Home](osd.update/home.md)
-* [Releases](osd.update/releases.md)
-* [Docs](osd.update/docs/README.md)
-  * [Functions](osd.update/docs/functions/README.md)
-    * [Update-MSOffice2016](osd.update/docs/functions/update-msoffice2016.md)
 
