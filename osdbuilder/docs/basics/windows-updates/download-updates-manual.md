@@ -26,7 +26,7 @@ The selected updates will be downloaded using **BITS Transfer**.  If you need to
 
 Downloads will be saved in **OSDBuilder\Content\OSDUpdate**
 
-![](../../../../.gitbook/assets/image%20%2868%29.png)
+![](../../../../.gitbook/assets/image%20%2869%29.png)
 
 ## Remove Superseded
 

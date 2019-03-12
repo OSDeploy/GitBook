@@ -54,14 +54,20 @@ Ok, so changing the Module name from OSBuilder to OSDBuilder was not an easy one
   * This should not impact you as **OSDBuilder** is being released on Patch Tuesday, when you have to get new updates anyway
   * Content\Updates will not be deleted automatically and is now an Orphan
 * **Language Packages are no longer downloaded by OSDBuilder**
-  * Microsoft has stopped publishing links to Language Packages in WSUS, as a result, I could only include versions up to 1803.  Since ALL Windows versions could not be supported with my downloads, the option was removed
-  * You will need to download and use Language Pack ISO's from Microsoft MVLS going forward
-  * Existing downloads in Content\Updates will continue to work in New-OSBuildTask and New-OSBuild
+  * Microsoft has stopped publishing links to Language Packages in WSUS, as a result, I could only include versions up to 1803.  Since ALL Windows versions could not be supported with my downloads, the option was removed rather than supporting multiple methods for obtaining Language Packages
+  * Additionally, the size of the Language Package Catalogs \(**8.62MB**\) is not ideal for including in a frequently updated PowerShell Module.  For comparison, all Windows 10 updates for all versions is **840KB**
+  * Additionally, since **OSDBuilder** uses different logic for addressing Updates than **OSBuilder**, I was short on time getting this solutioned for **OSDBuilder**'s release.  Because there are Solutions and Workarounds for getting Language Packages added, my time was better spent on other things.  If time permits and there is a substantial need to be able to download Language Packages in OSDBuilder, I will consider adding them back
+  * Existing downloads in Content\Updates will continue to work in **New-OSBuildTask** and **New-OSBuild**
+  * As a solution, use the Language Pack ISO's from Microsoft MVLS going forward
   * As a workaround, download all your Language Packages in **OSBuilder** before upgrading to **OSDBuilder**
+  * As a workaround, use my [**OSDUpdate PowerShell Module**](../../osdupdate/home.md) to download the Language Packages and add them to an **OSBuild** as a Package
+
+![](../../.gitbook/assets/image%20%2852%29.png)
+
 * **Optional Downloads are thing**
   * These are available to download and install in OSDBuilder
 
-![](../../.gitbook/assets/image%20%2873%29.png)
+![](../../.gitbook/assets/image%20%2874%29.png)
 
 * **Alias Everything**
   * You can execute OSBuilder or OSDBuilder.  Changes have been aliased
