@@ -1,63 +1,42 @@
 # Functions
 
-There are several OSDBuilder functions, and they are grouped by commonality
+There are several **OSDBuilder** functions, and they are grouped by commonality
 
-## Main
+## OSDBuilder Home
 
-* **\`\`**[`Get-OSDBuilder`](https://github.com/OSDeploy/GitBook/tree/b3a0aecd45dca9212c45ad9d136ea80419add73b/osdbuilder/docs/functions/main/get-OSDBuilder/README.md)**\`\`**
-  * Primary function used to define common variables
+{% page-ref page="get-osdbuilder.md" %}
 
-## OSBMedia Functions
+## Media Functions
 
-These functions are commonly shared between all the other OSDBuilder Functions
+{% page-ref page="new-osbmediaiso.md" %}
 
-* **\`\`**[`New-MediaISO`](new-osbmediaiso.md)**\`\`**
-  * Creates a bootable ISO of any OSDBuilder Media
-* **\`\`**[`New-MediaUSB`](new-osbmediausb.md)**\`\`**
-  * Creates a bootable USB of any OSDBuilder Media
-* **\`\`**[`Show-MediaInfo`](show-osbmediainfo.md)**\`\`**
-  * Returns detailed information about any OSDBuilder Media
+{% page-ref page="new-osbmediausb.md" %}
 
-## OSBUpdate Functions
+{% page-ref page="show-osbmediainfo.md" %}
 
-* **\`\`**[`Get-OSBUpdate`](get-osbupdate.md)**\`\`**
-  * Downloads OSDBuilder Update Catalogs and Microsoft Updates
-* **\`\`**[`New-OSBUpdate`]()**\`\`**
-  * Creates a custom OSDBuilder Update Catalog
+## Windows Update Functions
+
+{% page-ref page="get-osbupdate.md" %}
 
 ## OSMedia Functions
 
-* **\`\`**[`Get-OSMedia`](osmedia/get-osmedia.md)**\`\`**
-  * Returns a PowerShell Custom Object containing detailed OSMedia information
-* **\`\`**[`Import-OSMedia`](osmedia/import-osmedia.md)**\`\`**
-  * Imports an ISO into OSMedia
-* **\`\`**[`Update-OSMedia`](osmedia/update-osmedia.md)**\`\`**
-  * Applies the latest Microsoft Updates to an OSMedia
+{% page-ref page="osmedia/import-osmedia.md" %}
 
-{% page-ref page="osmedia/" %}
+{% page-ref page="osmedia/update-osmedia.md" %}
+
+{% page-ref page="osmedia/get-osmedia.md" %}
 
 ## OSBuild Functions
 
-* **\`\`**[`New-OSBuildTask`](osbuild/new-osbuildtask.md)**\`\`**
-  * Creates a custom OSBuild configuration \(JSON\)
-* **\`\`**[`New-OSBuild`](https://github.com/OSDeploy/GitBook/tree/b3a0aecd45dca9212c45ad9d136ea80419add73b/osdbuilder/docs/functions/osbuild/new-osbuild.md)**\`\`**
-  * Executes a custom OSBuild configuration created with New-OSBuildTask
+{% page-ref page="osbuild/new-osbuildtask.md" %}
 
-{% page-ref page="osbuild/" %}
+{% page-ref page="osbuild/new-osbuild.md" %}
+
+{% page-ref page="osbuild/get-osbuilds.md" %}
 
 ## PEBuild Functions
 
-* **\`\`**[`New-PEBuildTask`](https://github.com/OSDeploy/GitBook/tree/b3a0aecd45dca9212c45ad9d136ea80419add73b/osdbuilder/docs/functions/pebuild/new-pebuildtask/README.md)**\`\`**
-  * Creates a custom PEBuild configuration \(JSON\)
-* **\`\`**[`New-PEBuild`](https://github.com/OSDeploy/GitBook/tree/b3a0aecd45dca9212c45ad9d136ea80419add73b/osdbuilder/docs/functions/pebuild/new-pebuild.md)**\`\`**
-  * Executes a custom PEBuild configuration created with New-PEBuildTask
+{% page-ref page="pebuild/new-pebuildtask.md" %}
 
-## Maintenance Functions
-
-* **Rename-OSMedia**
-  * Renames existing OSMedia to **Current** Format
-* \*\*\*\*[**Repair-OSBuildTask**](https://github.com/OSDeploy/GitBook/tree/b3a0aecd45dca9212c45ad9d136ea80419add73b/osdbuilder/docs/functions/maintenance/repair-osbuildtask.md)\*\*\*\*
-  * Repairs an existing OSBuild Task to the **Current** Version
-* **Repair-PEBuildTask**
-  * Repairs an existing PEBuild Task to the **Current** version
+{% page-ref page="pebuild/new-pebuild.md" %}
 
