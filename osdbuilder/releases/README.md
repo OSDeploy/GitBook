@@ -54,9 +54,10 @@ Ok, so changing the Module name from OSBuilder to OSDBuilder was not an easy one
   * This should not impact you as **OSDBuilder** is being released on Patch Tuesday, when you have to get new updates anyway
   * Content\Updates will not be deleted automatically and is now an Orphan
 * **Language Packages are no longer downloaded by OSDBuilder**
-  * This was Microsoft's decision to stop doing this going forward starting with 1809
-  * Existing downloads in Content\Updates will continue to work
+  * Microsoft has stopped publishing links to Language Packages in WSUS, as a result, I could only include versions up to 1803.  Since ALL Windows versions could not be supported with my downloads, the option was removed
   * You will need to download and use Language Pack ISO's from Microsoft MVLS going forward
+  * Existing downloads in Content\Updates will continue to work in New-OSBuildTask and New-OSBuild
+  * As a workaround, download all your Language Packages in **OSBuilder** before upgrading to **OSDBuilder**
 * **Optional Downloads are thing**
   * These are available to download and install in OSDBuilder
 
