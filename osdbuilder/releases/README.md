@@ -76,8 +76,8 @@ Ok, so changing the Module name from OSBuilder to OSDBuilder was not an easy one
 
 ### Concerns
 
-* **Q: But now my C:\OSBuilder doesn't fit anymore.  What do I do?**
-  * A: Rename C:\OSBuilder to C:\OSDBuilder
+* **Q: But now my C:\OSBuilder directory doesn't have the same name as OSDBuilder.  What do I do?**
+  * A: Relax and rename C:\OSBuilder to C:\OSDBuilder
 * **Q: How do I add a custom SSU or LCU?**
   * A: You can't for now
 * **Q: Can I update the Catalogs myself with WSUS?**
