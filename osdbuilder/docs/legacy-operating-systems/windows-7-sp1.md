@@ -1,12 +1,16 @@
 # Windows 7 SP1
 
-**OSDBuilder \(19.3.12\)** supports updating **Windows 7 SP1 \(version 6.1.7601.17514 or newer\)**.  Creating an **OSBuild** \(Customized\) is not supported.  There are no long term plans to keep support for Windows 7 past March 2019.
+**OSDBuilder \(19.3.12\)** supports updating **Windows 7 SP1 \(version 6.1.7601.17514 or newer\)**.  Creating an **OSBuild** \(Customized\) is not supported
+
+{% hint style="danger" %}
+**There are no long term plans to continue to support Windows 7 SP1 in OSDBuilder**
+{% endhint %}
 
 ## Download Windows 7 SP1
 
 **OSDBuilder** has only been tested with importing and updating Windows 7 Enterprise with SP1 \(February 15, 2011\).  If you do not use this version, expect inconsistent results.  The ISO can be downloaded from [**MVLS \(Microsoft Volume Licensing Service Center\)**](https://www.microsoft.com/Licensing/servicecenter/Home.aspx)\*\*\*\*
 
-![](../../../.gitbook/assets/image%20%2866%29.png)
+![](../../../.gitbook/assets/image%20%2875%29.png)
 
 ## Import-OSMedia
 
@@ -22,7 +26,7 @@ Use the following command to select and download the updates.  Be aware of Optio
 Get-OSDBuilderDownloads -GridView -UpdateArch x64 -UpdateOS "Windows 7" -Download
 ```
 
-![](../../../.gitbook/assets/image%20%2832%29.png)
+![](../../../.gitbook/assets/image%20%2836%29.png)
 
 **The following is a list of Updates in OSDBuilder 19.3.12**
 
@@ -101,17 +105,19 @@ Update for Windows 7 for x64-based Systems (KB2952664)
 
 Let **`Update-OSMedia -Execute`** do its work
 
-![](../../../.gitbook/assets/image%20%2818%29.png)
+![](../../../.gitbook/assets/image%20%2820%29.png)
 
 ## Results
 
-The only updates remaining can be added Online with minimal effort.  Windows 7 Service Pack 1 is just a validation check \(9.1MB\).
+The only updates remaining can be added Online with minimal effort.  Windows 7 Service Pack 1 is just a validation check \(9.1MB\).  Internet Explorer is installed and up to date
 
-![](../../../.gitbook/assets/image%20%2817%29.png)
+![](../../../.gitbook/assets/image%20%2838%29.png)
 
-![](../../../.gitbook/assets/image%20%2859%29.png)
+![](../../../.gitbook/assets/image%20%2819%29.png)
 
-![](../../../.gitbook/assets/image%20%2840%29.png)
+![](../../../.gitbook/assets/image%20%2867%29.png)
+
+![](../../../.gitbook/assets/image%20%2845%29.png)
 
 
 

@@ -34,7 +34,7 @@ Import-Module -Name OSBuilder -Force
 **Notification of a Pre-Release version when executing Get-OSBuilder**
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%2862%29.png)
+![](../../.gitbook/assets/image%20%2870%29.png)
 
 ## 19.2.15 \(February 15, 2019\)
 
@@ -130,7 +130,7 @@ A quick change to **OSBuild Registry** to allow you to add **REG** files is now 
 
 {% page-ref page="../docs/guides/registry/osbuild-registry-reg/" %}
 
-![](../../.gitbook/assets/image%20%2826%29.png)
+![](../../.gitbook/assets/image%20%2830%29.png)
 
 {% page-ref page="../docs/guides/registry/" %}
 

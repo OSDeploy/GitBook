@@ -26,19 +26,19 @@ Import-OSMedia
 **You can select multiple Editions from multiple ISO's at the same time**
 {% endhint %}
 
-![](../../../.gitbook/assets/image%20%2813%29.png)
+![](../../../.gitbook/assets/image%20%2815%29.png)
 
 ### Import OSMedia Mount
 
 The Operating System Index that was selected will be mounted
 
-![](../../../.gitbook/assets/image%20%2854%29.png)
+![](../../../.gitbook/assets/image%20%2862%29.png)
 
 ### Mounted Inventory
 
 Once mounted, a full inventory will be saved, and the Operating System will be copied into **OSDBuilder\OSMedia**.  This will take between 5-10 minutes to complete per Operating System Index that was selected
 
-![](../../../.gitbook/assets/image%20%2833%29.png)
+![](../../../.gitbook/assets/image%20%2837%29.png)
 
-![](../../../.gitbook/assets/image%20%2851%29.png)
+![](../../../.gitbook/assets/image%20%2859%29.png)
 
