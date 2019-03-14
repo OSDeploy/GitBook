@@ -7,6 +7,7 @@
 ## 19.3.14 \(March 14, 2019\)
 
 * **Get-OSBuilds** - resolved issue with Cumulative Updates showing Repair.  [**Thanks Andrew!**](https://twitter.com/AndrewJimenez_/status/1105848482470875146)\*\*\*\*
+* **Import-OSMedia** - resolved issue with Legacy OS's not being imported properly
 * **New-OSBuild** - resolved issue with LCU being applied one too many times.  [**Thanks Steve!**](https://twitter.com/NeighborGeek/status/1105583794042613760)\*\*\*\*
 * Resolved error message during check for Module OSBuilder.  **Thanks Mike and Reinhard!**
 
