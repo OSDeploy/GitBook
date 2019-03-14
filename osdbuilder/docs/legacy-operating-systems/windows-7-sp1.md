@@ -1,12 +1,14 @@
 # Windows 7 SP1
 
+{% hint style="info" %}
+**KB4490628 SHA-2 Code Signing Support is included in the latest updates**
+{% endhint %}
+
 **OSDBuilder \(19.3.12\)** supports updating **Windows 7 SP1 \(version 6.1.7601.17514 or newer\)**.  Creating an **OSBuild** \(Customized\) is not supported
 
 {% hint style="danger" %}
 **There are no long term plans to continue to support Windows 7 SP1 in OSDBuilder**
 {% endhint %}
-
-## Download Windows 7 SP1
 
 **OSDBuilder** has only been tested with importing and updating Windows 7 Enterprise with SP1 \(February 15, 2011\).  If you do not use this version, expect inconsistent results.  The ISO can be downloaded from [**MVLS \(Microsoft Volume Licensing Service Center\)**](https://www.microsoft.com/Licensing/servicecenter/Home.aspx)\*\*\*\*
 
