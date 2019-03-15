@@ -16,7 +16,7 @@ There are several **OSDBuilder** functions, and they are grouped by commonality
 
 ## Windows Update Functions
 
-{% page-ref page="get-osbupdate.md" %}
+{% page-ref page="get-downosdbuilder.md" %}
 
 ## OSMedia Functions
 

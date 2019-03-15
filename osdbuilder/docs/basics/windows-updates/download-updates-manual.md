@@ -1,11 +1,15 @@
 # Manual Download
 
+{% hint style="warning" %}
+**This function has been renamed to Get-DownOSDBuilder.  This guide will be updated in the next few days**
+{% endhint %}
+
 {% hint style="danger" %}
 I **STRONGLY** recommend that you **ALWAYS** use the **GridView** parameter so you can select the Downloads that you need.  Downloads that do not have an **UpdateGroup** specified are **Optional**
 
 Make sure that you understand that **MicroCode Updates** are listed, but it is **NOT** recommended that you apply this to your image, but this is your call and **you have been warned**
 
-**Optional Updates are not available when executing Update-OSMedia.  You will need to use New-OBuild**
+**Optional Updates are not installed when executing Update-OSMedia.  They are only installed when executing a New-OSBuild if they are downloaded**
 {% endhint %}
 
 ## Get-OSDBuilderDownloads -GridView
@@ -18,15 +22,15 @@ Get-OSDBuilderDownloads -Download -GridView -UpdateArch x64 -UpdateBuild 1803 -U
 
 Then simply select the **Updates** that you want to download and press OK
 
-![](../../../../.gitbook/assets/image%20%2840%29.png)
+![](../../../../.gitbook/assets/image%20%2843%29.png)
 
 The selected updates will be downloaded using **BITS Transfer**.  If you need to download non-interactively use the **`WebClient`** parameter
 
-![](../../../../.gitbook/assets/image%20%2831%29.png)
+![](../../../../.gitbook/assets/image%20%2834%29.png)
 
 Downloads will be saved in **OSDBuilder\Content\OSDUpdate**
 
-![](../../../../.gitbook/assets/image%20%2886%29.png)
+![](../../../../.gitbook/assets/image%20%2891%29.png)
 
 ## Remove Superseded
 

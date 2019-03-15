@@ -23,10 +23,10 @@
 * [Docs](osdbuilder/docs/README.md)
   * [Functions](osdbuilder/docs/functions/README.md)
     * [Get-OSDBuilder](osdbuilder/docs/functions/get-osdbuilder.md)
+    * [Get-DownOSDBuilder](osdbuilder/docs/functions/get-downosdbuilder.md)
     * [New-OSDBuilderISO](osdbuilder/docs/functions/new-osbmediaiso.md)
     * [New-OSDBuilderUSB](osdbuilder/docs/functions/new-osbmediausb.md)
     * [Show-OSDBuilderInfo](osdbuilder/docs/functions/show-osbmediainfo.md)
-    * [Get-OSDBuilderDownloads](osdbuilder/docs/functions/get-osbupdate.md)
     * [OSMedia](osdbuilder/docs/functions/osmedia/README.md)
       * [Import-OSMedia](osdbuilder/docs/functions/osmedia/import-osmedia.md)
       * [Update-OSMedia](osdbuilder/docs/functions/osmedia/update-osmedia.md)
@@ -63,6 +63,8 @@
   * [Legacy Operating Systems](osdbuilder/docs/legacy-operating-systems/README.md)
     * [Windows 7 SP1](osdbuilder/docs/legacy-operating-systems/windows-7-sp1.md)
     * [Windows Server 2012 R2](osdbuilder/docs/legacy-operating-systems/windows-server-2012-r2.md)
+  * [Content](osdbuilder/docs/content/README.md)
+    * [OneDrive](osdbuilder/docs/content/onedrive.md)
 
 ## OSDUpdate
 

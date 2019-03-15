@@ -4,6 +4,20 @@
 
 {% page-ref page="../docs/basics/installation.md" %}
 
+## 19.3.15 \(March 15, 2019\)
+
+* **Get-OSDBuilderDownloads**
+  * Function has been renamed to **`Get-DownOSDBuilder`** to mirror changes to related PS Modules
+  * **ContentDownload** parameter has been added to support updating **OneDriveSetup.exe**
+
+{% page-ref page="../docs/functions/get-downosdbuilder.md" %}
+
+### Content\OneDrive
+
+Explained in the following link
+
+{% page-ref page="../docs/content/onedrive.md" %}
+
 ## 19.3.14 \(March 14, 2019\)
 
 * **Get-OSBuilds** - resolved issue with Cumulative Updates showing Repair.  [**Thanks Andrew!**](https://twitter.com/AndrewJimenez_/status/1105848482470875146)\*\*\*\*
@@ -55,7 +69,7 @@ Ok, so changing the Module name from OSBuilder to OSDBuilder was not an easy one
   * Since the **OSDUpdate** Catalogs are part of the Module, it's easy to go back to a previous Update Revision if necessary.  Just download an older **OSDBuilder** Module
   * You can stay on a Patch Revision until you are ready to update by staying on an older Module version
 
-![](../../.gitbook/assets/image%20%2844%29.png)
+![](../../.gitbook/assets/image%20%2848%29.png)
 
 * **Updates are downloaded to Content\OSDUpdate**
   * This should not impact you as **OSDBuilder** is being released on Patch Tuesday, when you have to get new updates anyway
@@ -69,12 +83,12 @@ Ok, so changing the Module name from OSBuilder to OSDBuilder was not an easy one
   * As a workaround, download all your Language Packages in **OSBuilder** before upgrading to **OSDBuilder**
   * As a workaround, use my [**OSDUpdate PowerShell Module**](../../osdupdate/home.md) to download the Language Packages and add them to an **OSBuild** as a Package
 
-![](../../.gitbook/assets/image%20%2866%29.png)
+![](../../.gitbook/assets/image%20%2871%29.png)
 
 * **Optional Downloads are thing**
   * These are available to download and install in OSDBuilder
 
-![](../../.gitbook/assets/image%20%2893%29.png)
+![](../../.gitbook/assets/image%20%2899%29.png)
 
 * **Alias Everything**
   * You can execute OSBuilder or OSDBuilder.  Changes have been aliased
