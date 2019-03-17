@@ -1,8 +1,12 @@
 # OneDrive
 
 {% hint style="info" %}
-**The OneDrive directory serves a single purpose. This directory exists so you can place an updated OneDriveSetup.exe to update the EXE that is in Windows 10**
+**The OneDrive directory's only function is to allow you to add an updated OneDriveSetup.exe.  This will be used to replace the existing version during Windows 10 Offline Servicing**
 {% endhint %}
+
+## Related
+
+{% page-ref page="../functions/get-downosdbuilder.md" %}
 
 ## Update-OSMedia and New-OSBuild
 
@@ -22,13 +26,13 @@ Use this function to download either the Production or Enterprise versions to **
 **You should repeat this process as needed to ensure you are on the latest version**
 {% endhint %}
 
-![](../../../.gitbook/assets/image%20%2863%29.png)
+![](../../../.gitbook/assets/image%20%2865%29.png)
 
 ## Update-OSMedia and New-OSBuild
 
 Now when you execute **`Update-OSMedia`** or **`New-OSBuild`**,  **OneDriveSetup.exe** will be up to date!
 
-![](../../../.gitbook/assets/image%20%2847%29.png)
+![](../../../.gitbook/assets/image%20%2848%29.png)
 
 
 

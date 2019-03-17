@@ -14,11 +14,11 @@ Start by heading to this link
 
 From there you will want to select the latest version.  Hit the Download link
 
-![](../../../../../.gitbook/assets/image%20%2855%29.png)
+![](../../../../../.gitbook/assets/image%20%2857%29.png)
 
 Now download the Zip files you need 
 
-![](../../../../../.gitbook/assets/image%20%2850%29.png)
+![](../../../../../.gitbook/assets/image%20%2851%29.png)
 
 Save the files in your &lt;OSBuilderHome&gt;\Content\Drivers
 
@@ -32,23 +32,23 @@ Expand the Zip and give the directories a friendly name
 
 Checking the Intel Wireless Driver Directory, everything is perfect.  THIS is the format that we need the drivers in.  There is no work to do here
 
-![](../../../../../.gitbook/assets/image%20%2878%29.png)
+![](../../../../../.gitbook/assets/image%20%2880%29.png)
 
 ## WinPE Drivers
 
 Copy these Drivers to your WinPE Drivers
 
-![](../../../../../.gitbook/assets/image%20%2868%29.png)
+![](../../../../../.gitbook/assets/image%20%2870%29.png)
 
 ## New-OSBuildTask
 
 Now create a New-OSBuildTask.  You will be prompted to select directories the Directories that you added.  Select the ones that apply to your OS and press OK
 
-![](../../../../../.gitbook/assets/image%20%2873%29.png)
+![](../../../../../.gitbook/assets/image%20%2875%29.png)
 
 Since you copied the Driver directories into WinPE\Drivers, you will be prompted to select Drivers to apply to WinPE.  Select the proper ones \([and yes, you can add Wireless support](https://www.scconfigmgr.com/2018/03/06/build-a-winpe-with-wireless-support/)\)
 
-![](../../../../../.gitbook/assets/image%20%2857%29.png)
+![](../../../../../.gitbook/assets/image%20%2859%29.png)
 
 ## New-OSBuild
 
@@ -58,11 +58,11 @@ Now you can execute your Task and the Drivers will be applied automatically, or 
 
 **During the WinPE processing, the Drivers will be added to Windows Setup \(WinSE\), Windows PE \(WinPE\), and in Windows Recovery Environment \(WinRE\) automatically.  So no more not being able to connect to the network when you need to do a Repair**
 
-![](../../../../../.gitbook/assets/image%20%28106%29.png)
+![](../../../../../.gitbook/assets/image%20%28114%29.png)
 
 **During the OS processing, the Drivers that were selected will be automatically added as well**
 
-![](../../../../../.gitbook/assets/image%20%2876%29.png)
+![](../../../../../.gitbook/assets/image%20%2878%29.png)
 
 ## Summary
 

@@ -10,7 +10,7 @@ In the image below, OSDUpdate is version 19.3.6.0.  This corresponds with 2019 M
 
 Understanding this, OSDUpdate 19.3.6.x will contain the latest updates up to March 6, 2019.  Easy?
 
-![](../../../.gitbook/assets/image%20%2865%29.png)
+![](../../../.gitbook/assets/image%20%2867%29.png)
 
 You can easily update OSDUpdate by using the included function
 
@@ -28,13 +28,13 @@ Get-OSDUpdate -CatalogOffice "Office 2016 64-Bit" -OfficeProfile All -GridView
 
 In the image below, its easy to see the latest updates \(CreationDate\).  Additionally, in the background, two updates from the previous month are superseded but still present in the Catalog
 
-![](../../../.gitbook/assets/image%20%2869%29.png)
+![](../../../.gitbook/assets/image%20%2871%29.png)
 
 ## OSDUpdate Repository Root
 
 As a reminder, the OSDUpdate Repository Root will contain all the different Update Catalog Downloads.  The individual Office directories will be created automatically.  In this case, my OSDUpdate Repository Root is C:\OSDeploy\OSDUpdate
 
-![](../../../.gitbook/assets/image%20%2866%29.png)
+![](../../../.gitbook/assets/image%20%2868%29.png)
 
 ## Downloading Updates
 
