@@ -12,7 +12,7 @@ And the additional bugging ...
 
 While I don't have a need for this myself, I am not one to turn down an Offline Servicing challenge, so ...
 
-![](../../../../../.gitbook/assets/image%20%2894%29.png)
+![](../../../../../.gitbook/assets/image%20%2897%29.png)
 
 ## Traditional Certificate Installation
 

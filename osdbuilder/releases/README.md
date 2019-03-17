@@ -4,6 +4,20 @@
 
 {% page-ref page="../docs/basics/installation.md" %}
 
+## 19.3.17 \(March 17, 2019\)
+
+* **New-OSDBuilderVHD**
+  * New function to create VHD Files.  Useful for AutoPilot Testing
+  * **Requested by** [**Bruce Sa @BruceSaaaa**](https://twitter.com/BruceSaaaa) **and** [**Alan Yousif @Green17Mr**](https://twitter.com/Green17Mr)\*\*\*\*
+  * **Thanks to** [**Mikael Nystrom @mikael\_nystrom**](https://twitter.com/mikael_nystrom) **for** [**much of the code**](https://deploymentbunny.com/2013/12/19/powershell-is-king-convert-wim-to-vhdvhdx-with-support-for-gen-1-and-gen-2-biosuefi-and-then-some/)\*\*\*\*
+* **New-OSDBuild**
+  * Updated to display the AutoApply Templates that will be applied without using the **`Execute`** parameter
+  * **Requeststed by** [**Manel Rodero @manelrodero**](https://twitter.com/manelrodero)\*\*\*\*
+
+{% page-ref page="../docs/functions/new-osdbuildervhd.md" %}
+
+{% page-ref page="../docs/basics/virtual-hd/create-a-vhd.md" %}
+
 ## 19.3.15 \(March 15, 2019\)
 
 * **Get-OSDBuilderDownloads**
@@ -69,7 +83,7 @@ Ok, so changing the Module name from OSBuilder to OSDBuilder was not an easy one
   * Since the **OSDUpdate** Catalogs are part of the Module, it's easy to go back to a previous Update Revision if necessary.  Just download an older **OSDBuilder** Module
   * You can stay on a Patch Revision until you are ready to update by staying on an older Module version
 
-![](../../.gitbook/assets/image%20%2849%29.png)
+![](../../.gitbook/assets/image%20%2850%29.png)
 
 * **Updates are downloaded to Content\OSDUpdate**
   * This should not impact you as **OSDBuilder** is being released on Patch Tuesday, when you have to get new updates anyway
@@ -83,12 +97,12 @@ Ok, so changing the Module name from OSBuilder to OSDBuilder was not an easy one
   * As a workaround, download all your Language Packages in **OSBuilder** before upgrading to **OSDBuilder**
   * As a workaround, use my [**OSDUpdate PowerShell Module**](../../osdupdate/home.md) to download the Language Packages and add them to an **OSBuild** as a Package
 
-![](../../.gitbook/assets/image%20%2873%29.png)
+![](../../.gitbook/assets/image%20%2875%29.png)
 
 * **Optional Downloads are thing**
   * These are available to download and install in OSDBuilder
 
-![](../../.gitbook/assets/image%20%28106%29.png)
+![](../../.gitbook/assets/image%20%28109%29.png)
 
 * **Alias Everything**
   * You can execute OSBuilder or OSDBuilder.  Changes have been aliased
