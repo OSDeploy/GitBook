@@ -22,7 +22,7 @@ Unattend is a Root File \*.xml Structure Content Directory.  This means that **O
 
 Create a **`New-OSBuildTask`** and select the Unattend XML file when prompted
 
-![](../../../../../.gitbook/assets/image%20%2874%29.png)
+![](../../../../../.gitbook/assets/image%20%2875%29.png)
 
 ### New-OSBuild
 
@@ -38,19 +38,19 @@ New-OSBuild -SkipComponentCleanup -SkipUpdates -SkipTemplates -Execute
 
 I can use this function to verify that my Features were Enabled
 
-![](../../../../../.gitbook/assets/image%20%28141%29.png)
+![](../../../../../.gitbook/assets/image%20%28142%29.png)
 
 ### New-OSBuilderVHD
 
 Create a VHD for testing of the image using **`New-OSDBuilderVHD`**
 
-![](../../../../../.gitbook/assets/image%20%28104%29.png)
+![](../../../../../.gitbook/assets/image%20%28105%29.png)
 
 ### Testing
 
 Ok, this didn't work as expected, so I'll have to do some more research
 
-![](../../../../../.gitbook/assets/image%20%28144%29.png)
+![](../../../../../.gitbook/assets/image%20%28145%29.png)
 
 
 

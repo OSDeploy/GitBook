@@ -19,7 +19,7 @@ Install-Module -Name OSDBuilder -Force
 Import-Module -Name OSDBuilder -Force
 ```
 
-![](../../../.gitbook/assets/image%20%2880%29.png)
+![](../../../.gitbook/assets/image%20%2881%29.png)
 
 ## Upgrade from OSBuilder
 
@@ -41,5 +41,5 @@ If you have an existing version of **OSBuilder**, you can easily do this with th
 OSDBuilder -Update
 ```
 
-![](../../../.gitbook/assets/image%20%28139%29.png)
+![](../../../.gitbook/assets/image%20%28140%29.png)
 

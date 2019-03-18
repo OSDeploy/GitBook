@@ -1,5 +1,29 @@
 # Releases
 
+## 19.3.18 \(March 18, 2019\) Office 365 and Office 2019 Edition
+
+Thanks for [**Kyle Baker** ](https://twitter.com/kbaker)for being the most impatient person that had to test this out ASAP
+
+* **Get-DownDefender**
+  * Rename of Update-OSDdefender
+* **Get-DownMcAfee**
+  * Rename of Update-OSDmcafee
+* **Get-DownOSDUpdate**
+  * Rename of Get-OSDUpdateDownloads
+  * Added OfficeDownload ParameterSet
+    * LanguageId default = 'en-us'
+    * OfficeArch default = '64'
+    * Office Product default = 'Office 365 ProPlus'
+    * ProofingTools default = 'en-us'
+    * UpdateChannel default = 'SAC'
+  * XmlOnly parameter will create an XML for downloading, but will not download the Office Product
+
+{% hint style="info" %}
+**Full documentation expected in the next day or so**
+{% endhint %}
+
+![](../.gitbook/assets/image%20%2841%29.png)
+
 ## 19.3.12 \(March 12, 2019\) Patch Tuesday
 
 {% hint style="info" %}
