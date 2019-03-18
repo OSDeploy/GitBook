@@ -5,18 +5,18 @@
 Thanks for [**Kyle Baker** ](https://twitter.com/kbaker)for being the most impatient person that had to test this out ASAP
 
 * **Get-DownDefender**
-  * Rename of Update-OSDdefender
+  * Rename of **`Update-OSDdefender`**
 * **Get-DownMcAfee**
-  * Rename of Update-OSDmcafee
+  * Rename of **`Update-OSDmcafee`**
 * **Get-DownOSDUpdate**
-  * Rename of Get-OSDUpdateDownloads
-  * Added OfficeDownload ParameterSet
-    * LanguageId default = 'en-us'
-    * OfficeArch default = '64'
-    * Office Product default = 'Office 365 ProPlus'
-    * ProofingTools default = 'en-us'
-    * UpdateChannel default = 'SAC'
-  * XmlOnly parameter will create an XML for downloading, but will not download the Office Product
+  * Rename of **`Get-OSDUpdateDownloads`**
+  * Added **OfficeDownload** ParameterSet
+    * **LanguageId** default = 'en-us'
+    * **OfficeArch** default = '64'
+    * **OfficeProduct** default = 'Office 365 ProPlus'
+    * **ProofingTools** default = 'en-us'
+    * **UpdateChannel** default = 'SAC'
+  * **XmlOnly** parameter will create an XML for downloading, but will not download the Office Product
 
 {% hint style="info" %}
 **Full documentation expected in the next day or so**
