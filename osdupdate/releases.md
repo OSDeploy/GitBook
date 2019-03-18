@@ -1,6 +1,6 @@
 # Releases
 
-## 19.3.18 \(March 18, 2019\) Office 365 and Office 2019 Edition
+## 19.3.18 \(March 18, 2019\) Get-Down Office Edition
 
 Thanks for [**Kyle Baker** ](https://twitter.com/kbaker)for being the most impatient person that had to test this out ASAP
 
@@ -10,19 +10,21 @@ Thanks for [**Kyle Baker** ](https://twitter.com/kbaker)for being the most impat
   * Rename of **`Update-OSDmcafee`**
 * **Get-DownOSDUpdate**
   * Rename of **`Get-OSDUpdateDownloads`**
-  * Added **OfficeDownload** ParameterSet
-    * **LanguageId** default = 'en-us'
-    * **OfficeArch** default = '64'
-    * **OfficeProduct** default = 'Office 365 ProPlus'
-    * **ProofingTools** default = 'en-us'
-    * **UpdateChannel** default = 'SAC'
+* **Get-DownOffice**
+  * **LanguageId** default = 'en-us'
+  * **OfficeArch** default = '64'
+  * **OfficeProduct** default = 'Office 365 ProPlus'
+  * **ProofingTools** default = 'en-us'
+  * **UpdateChannel** default = 'SAC'
   * **XmlOnly** parameter will create an XML for downloading, but will not download the Office Product
 
 {% hint style="info" %}
-**Full documentation expected in the next day or so**
+**Full documentation expected in the next day or so.  The screenshot below explains why Get-Down is being used \(makes things easier\)**
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2841%29.png)
+![](../.gitbook/assets/image%20%28104%29.png)
+
+![](../.gitbook/assets/image%20%2854%29.png)
 
 ## 19.3.12 \(March 12, 2019\) Patch Tuesday
 

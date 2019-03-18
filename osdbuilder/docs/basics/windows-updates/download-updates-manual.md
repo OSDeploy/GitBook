@@ -22,7 +22,7 @@ Get-OSDBuilderDownloads -Download -GridView -UpdateArch x64 -UpdateBuild 1803 -U
 
 Then simply select the **Updates** that you want to download and press OK
 
-![](../../../../.gitbook/assets/image%20%2857%29.png)
+![](../../../../.gitbook/assets/image%20%2858%29.png)
 
 The selected updates will be downloaded using **BITS Transfer**.  If you need to download non-interactively use the **`WebClient`** parameter
 
@@ -30,7 +30,7 @@ The selected updates will be downloaded using **BITS Transfer**.  If you need to
 
 Downloads will be saved in **OSDBuilder\Content\OSDUpdate**
 
-![](../../../../.gitbook/assets/image%20%28124%29.png)
+![](../../../../.gitbook/assets/image%20%28126%29.png)
 
 ## Remove Superseded
 

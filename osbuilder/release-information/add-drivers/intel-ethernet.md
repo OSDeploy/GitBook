@@ -24,11 +24,11 @@ This is the tricky one, so please keep up. Give the extracted drivers a friendly
 
 Delete these selected files, they are not needed
 
-![](../../../.gitbook/assets/image%20%2869%29.png)
+![](../../../.gitbook/assets/image%20%2870%29.png)
 
 Drilling down into each remaining directory, you will find a readme.txt which tells you what OS is supported
 
-![](../../../.gitbook/assets/image%20%2873%29.png)
+![](../../../.gitbook/assets/image%20%2874%29.png)
 
 Go through each of the directories and each of the readme.txt. Delete the directories you don't care about, and move the ones you do care about into the appropriate Operating System
 
@@ -40,11 +40,11 @@ You may come across a directory without a readme.txt. Just use some common sense
 
 You may even come across a readme.txt that has two Operating Systems that you support, so copy them
 
-![](../../../.gitbook/assets/image%20%28132%29.png)
+![](../../../.gitbook/assets/image%20%28134%29.png)
 
 Eventually you will run into some WinPE Drivers. Move them where they need to be \(unzip as needed\)
 
-![](../../../.gitbook/assets/image%20%28116%29.png)
+![](../../../.gitbook/assets/image%20%28118%29.png)
 
 Here is what your Intel Ethernet Drivers look like if you need all Operating Systems
 
