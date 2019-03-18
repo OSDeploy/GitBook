@@ -8,45 +8,45 @@
 
 Make sure you get the latest
 
-![](../../../.gitbook/assets/image%20%284%29.png)
+![](../../../.gitbook/assets/image%20%286%29.png)
 
 ## Driver Download
 
 Download the Drivers you need. These should be in EXE format \(self extracting\), but 7-Zip can expand them. No need to rename these directories, we have some work to do
 
-![](../../../.gitbook/assets/image%20%285%29.png)
+![](../../../.gitbook/assets/image%20%287%29.png)
 
 ## Driver Structure
 
 This is the tricky one, so please keep up. Give the extracted drivers a friendly name. Now create empty directories for as many Operating Systems that you support in OSBuilder
 
-![](../../../.gitbook/assets/image%20%2841%29.png)
+![](../../../.gitbook/assets/image%20%2848%29.png)
 
 Delete these selected files, they are not needed
 
-![](../../../.gitbook/assets/image%20%2858%29.png)
+![](../../../.gitbook/assets/image%20%2867%29.png)
 
 Drilling down into each remaining directory, you will find a readme.txt which tells you what OS is supported
 
-![](../../../.gitbook/assets/image%20%2861%29.png)
+![](../../../.gitbook/assets/image%20%2871%29.png)
 
 Go through each of the directories and each of the readme.txt. Delete the directories you don't care about, and move the ones you do care about into the appropriate Operating System
 
-![](../../../.gitbook/assets/image%20%2835%29.png)
+![](../../../.gitbook/assets/image%20%2842%29.png)
 
 You may come across a directory without a readme.txt. Just use some common sense \(NDIS62 . . . Windows 6.2 . . . Windows 7?\)
 
-![](../../../.gitbook/assets/image%20%289%29.png)
+![](../../../.gitbook/assets/image%20%2813%29.png)
 
 You may even come across a readme.txt that has two Operating Systems that you support, so copy them
 
-![](../../../.gitbook/assets/image%20%28110%29.png)
+![](../../../.gitbook/assets/image%20%28127%29.png)
 
 Eventually you will run into some WinPE Drivers. Move them where they need to be \(unzip as needed\)
 
-![](../../../.gitbook/assets/image%20%2896%29.png)
+![](../../../.gitbook/assets/image%20%28111%29.png)
 
 Here is what your Intel Ethernet Drivers look like if you need all Operating Systems
 
-![](../../../.gitbook/assets/image%20%2830%29.png)
+![](../../../.gitbook/assets/image%20%2835%29.png)
 

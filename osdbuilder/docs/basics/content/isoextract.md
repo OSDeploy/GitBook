@@ -1,5 +1,9 @@
 # IsoExtract
 
+{% hint style="warning" %}
+**This guide was written for OSBuilder, but the same principals apply to OSDBuilder**
+{% endhint %}
+
 ## Strict Directory and File Format
 
 The format of the Drivers Content is Root Directory based.  This means that directories in the root of Content\Drivers can selected in a **`New-OSBuildTask`**

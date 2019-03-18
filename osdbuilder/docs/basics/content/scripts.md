@@ -1,5 +1,9 @@
 # Scripts
 
+{% hint style="warning" %}
+**This guide was written for OSBuilder, but the same principals apply to OSDBuilder**
+{% endhint %}
+
 There are thousands of customizations that can be added to a Windows Image, and it would be impossible for OSBuilder to contain Parameters for all of these.  This is why New-OSBuild has the ability to execute PowerShell Scripts.
 
 ## Add a Script
