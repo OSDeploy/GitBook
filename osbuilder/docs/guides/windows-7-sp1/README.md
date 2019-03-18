@@ -16,7 +16,7 @@ You can update **Windows 7 SP1 \(version 7601\)** with OSBuilder.  Follow these 
 
 {% page-ref page="iso-testing.md" %}
 
-{% page-ref page="build-and-capture.md" %}
+{% page-ref page="../../../../osdbuilder/docs/legacy-operating-systems/windows-7-sp1/build-and-capture.md" %}
 
 
 

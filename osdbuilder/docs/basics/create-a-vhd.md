@@ -45,19 +45,19 @@ The VHD will be configured as a single MBR Partition
 
 If the **`FullName`** \(Full Path\) parameter is not specified, you will be prompted to select an **OSMedia** or **OSBuild**
 
-![](../../../.gitbook/assets/image%20%2847%29.png)
+![](../../../.gitbook/assets/image%20%2849%29.png)
 
 The Partitions will be created and the Install.wim will be applied to the OS
 
-![](../../../.gitbook/assets/image%20%28106%29.png)
+![](../../../.gitbook/assets/image%20%28109%29.png)
 
 The entire process should take a few minutes to complete
 
-![](../../../.gitbook/assets/image%20%2852%29.png)
+![](../../../.gitbook/assets/image%20%2854%29.png)
 
 And the VHD or VHDX will be saved in a VHD subdirectory of your selected OSMedia or OSBuild
 
-![](../../../.gitbook/assets/image%20%2898%29.png)
+![](../../../.gitbook/assets/image%20%28101%29.png)
 
 ## Testing
 
@@ -65,7 +65,7 @@ You should be able to use the VHD in Hyper-V with minimal effort
 
 ![](../../../.gitbook/assets/image%20%288%29.png)
 
-![](../../../.gitbook/assets/image%20%2885%29.png)
+![](../../../.gitbook/assets/image%20%2888%29.png)
 
 ## Thanks
 

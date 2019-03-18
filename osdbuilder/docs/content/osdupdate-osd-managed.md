@@ -1,2 +1,0 @@
-# OSDUpdate \(OSD Managed\)
-

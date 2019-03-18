@@ -1,0 +1,18 @@
+# Drivers
+
+## Root Directory Structure
+
+Driver Content is in a Root Directory Structure format.  This means that directories in the root of **Content\Drivers** can selected in a **`New-OSBuildTask`**
+
+## Root Directory
+
+Driver Content must be organized in directories.  The name should either be an Operating System \(with sub-directories, or in individual Driver directories
+
+![](../../../../../.gitbook/assets/image%20%2882%29.png)
+
+## Child Directories
+
+Child directories should contain uncompressed/extracted Drivers
+
+![](../../../../../.gitbook/assets/image%20%2815%29.png)
+

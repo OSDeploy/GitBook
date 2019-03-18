@@ -10,7 +10,7 @@
 
 The links below will detail how to Update **Windows 7 SP1** and **Windows Server 2012 R2**
 
-{% page-ref page="windows-7-sp1.md" %}
+{% page-ref page="windows-7-sp1/" %}
 
 {% page-ref page="windows-server-2012-r2.md" %}
 
