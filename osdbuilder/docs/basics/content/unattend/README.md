@@ -46,7 +46,11 @@ Create a VHD for testing of the image using **`New-OSDBuilderVHD`**
 
 ![](../../../../../.gitbook/assets/image%20%28104%29.png)
 
-### Hyper-V
+### Testing
+
+Ok, this didn't work as expected, so I'll have to do some more research
+
+![](../../../../../.gitbook/assets/image%20%28144%29.png)
 
 
 
