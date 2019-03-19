@@ -6,7 +6,7 @@ You can use**`Get-OSDBuilder`** to check if there is an update to the **OSDBuild
 
 If there is an updated version available, you will see a notification on the bottom.  This will also remind you of the PowerShell Command to update **OSDBuilder**
 
-![](../../../.gitbook/assets/image%20%28138%29.png)
+![](../../../.gitbook/assets/image%20%28144%29.png)
 
 ## OSDBuilder -Update
 
@@ -18,13 +18,13 @@ Install-Module -Name OSDBuilder -Force
 Import-Module -Name OSDBuilder -Force
 ```
 
-![](../../../.gitbook/assets/image%20%28145%29.png)
+![](../../../.gitbook/assets/image%20%28151%29.png)
 
 ## OSDBuilder is OK
 
 If everything is OK and no updates are needed, the **OSDBuilder Module version** will be displayed in Green
 
-![](../../../.gitbook/assets/image%20%28125%29.png)
+![](../../../.gitbook/assets/image%20%28131%29.png)
 
 
 
