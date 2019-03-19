@@ -29,7 +29,7 @@ OSDBuilder will allow you to fully Update and Customize Windows 10, Server 2016,
 | **Windows Server 2019** | **YES** | **YES** |
 
 {% hint style="warning" %}
-**Operating Systems that are not listed above will not be visible to Import-OSMedia**
+**You will not be able to import an Operating Systems that is not supported with Import-OSMedia**
 {% endhint %}
 
 ## Hardware Requirements
