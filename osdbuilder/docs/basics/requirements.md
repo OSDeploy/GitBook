@@ -18,7 +18,7 @@ Using the **OSDBuilder** PowerShell Module on Windows 7 or Windows Server 2012 w
 
 ## Operating Systems for Offline Servicing
 
-OSDBuilder will allow you to fully Update and Customize Windows 10, Server 2016, or Server 2019.  Windows 7 and Server 2012 can be Updated but not Customized
+OSDBuilder will allow you to fully Update and Customize Windows 10, Server 2016, or Server 2019.  Windows 7 and Server 2012 R2 can be Updated but not Customized
 
 | **Operating System** | **Update** | **Customize** |
 | :--- | :--- | :--- |
@@ -27,6 +27,10 @@ OSDBuilder will allow you to fully Update and Customize Windows 10, Server 2016,
 | **Windows Server 2012 R2** | **YES** | **NO** |
 | **Windows Server 2016** | **YES** | **YES** |
 | **Windows Server 2019** | **YES** | **YES** |
+
+{% hint style="warning" %}
+**Operating Systems that are not listed above will not be visible to Import-OSMedia**
+{% endhint %}
 
 ## Hardware Requirements
 
