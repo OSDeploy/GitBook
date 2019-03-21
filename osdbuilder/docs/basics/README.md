@@ -42,11 +42,31 @@ The different ways to get Microsoft Updates into **OSDBuilder**
 
 Update an imported Operating System using **`Update-OSMedia`**
 
-## OS Information
+{% page-ref page="update-osmedia/" %}
 
-Looking for what Appx Provisioned Package is in your OS? Use **`Show-OSDMediaINFO`**
+## Media Functions \(Info, ISO, USB, VHD\)
 
-{% page-ref page="media-functions/os-information.md" %}
+Looking for what Appx Provisioned Package is in your OS?  Create an ISO, USB, or VHD
 
+{% page-ref page="media-functions/" %}
 
+## Create an OSBuild Task
+
+This is the first step in customizing the OS
+
+{% page-ref page="new-osbuildtask/" %}
+
+## Create an OSBuild \(Customized OS\)
+
+Build your OS using Tasks and Templates
+
+{% page-ref page="new-osbuild/" %}
+
+## OSDBuilder Content
+
+Curious about what goes in the Content directories?  This will help
+
+{% page-ref page="content/" %}
+
+## Content Tasks, Languages, and WinPE will be coming soon
 
