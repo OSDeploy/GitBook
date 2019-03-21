@@ -4,7 +4,11 @@
 
 {% page-ref page="../docs/basics/installation.md" %}
 
-## 19.3.x \(March x, 2019\) Unreleased
+## 19.3.21 \(March 21, 2019\)
+
+{% hint style="info" %}
+**This release focuses on improving the OSBuild Task experience and some minor bug fixes thrown in**
+{% endhint %}
 
 * **New-OSBuildTask**
   * **DisableFeature** parameter is a rename of **DisableWindowsOptionalFeature**
