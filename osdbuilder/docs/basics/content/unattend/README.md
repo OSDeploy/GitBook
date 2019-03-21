@@ -1,10 +1,8 @@
 # Unattend
 
-{% hint style="warning" %}
-**An Unattend XML that is injected into a Windows Image during OSDBuilder will only process the Offline Servicing phase**
+## Purpose
 
-**This is NOT what you want to use if you want to add an Unattend.xml Answer File for Specialize or Generalize**
-{% endhint %}
+The purpose of the **Unattend Content** is to allow you to **immediately apply the Offline Servicing Phase** to an **OSBuild**, and to inject the select Unattend XML file to **C:\Windows\Panther\Unattend.xml** to process the **Generalize, Specialize, and OOBE Phases**
 
 ## Related Links
 
@@ -22,7 +20,7 @@ Unattend is a Root File \*.xml Structure Content Directory.  This means that **O
 
 Create a **`New-OSBuildTask`** and select the Unattend XML file when prompted
 
-![](../../../../../.gitbook/assets/image%20%2879%29.png)
+![](../../../../../.gitbook/assets/image%20%2886%29.png)
 
 ### New-OSBuild
 
@@ -32,7 +30,7 @@ I can now create a **`New-OSBuild`** and add some Skip parameters to speed up my
 New-OSBuild -SkipComponentCleanup -SkipUpdates -SkipTemplates -Execute
 ```
 
-![](../../../../../.gitbook/assets/image%20%2836%29.png)
+![](../../../../../.gitbook/assets/image%20%2838%29.png)
 
 
 

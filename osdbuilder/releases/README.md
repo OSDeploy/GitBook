@@ -4,7 +4,7 @@
 
 {% page-ref page="../docs/basics/installation.md" %}
 
-## 19.3.19 \(March 19, 2019\) Unreleased
+## 19.3.x \(March x, 2019\) Unreleased
 
 * **New-OSBuildTask**
   * **DisableFeature** parameter is a rename of **DisableWindowsOptionalFeature**
@@ -32,7 +32,7 @@
 
 {% page-ref page="../docs/functions/new-osdbuildervhd.md" %}
 
-{% page-ref page="../docs/basics/create-a-vhd.md" %}
+{% page-ref page="../docs/basics/media-functions/create-a-vhd.md" %}
 
 ## 19.3.15 \(March 15, 2019\)
 
@@ -99,7 +99,7 @@ Ok, so changing the Module name from OSBuilder to OSDBuilder was not an easy one
   * Since the **OSDUpdate** Catalogs are part of the Module, it's easy to go back to a previous Update Revision if necessary.  Just download an older **OSDBuilder** Module
   * You can stay on a Patch Revision until you are ready to update by staying on an older Module version
 
-![](../../.gitbook/assets/image%20%2866%29.png)
+![](../../.gitbook/assets/image%20%2870%29.png)
 
 * **Updates are downloaded to Content\OSDUpdate**
   * This should not impact you as **OSDBuilder** is being released on Patch Tuesday, when you have to get new updates anyway
@@ -113,12 +113,12 @@ Ok, so changing the Module name from OSBuilder to OSDBuilder was not an easy one
   * As a workaround, download all your Language Packages in **OSBuilder** before upgrading to **OSDBuilder**
   * As a workaround, use my [**OSDUpdate PowerShell Module**](../../osdupdate/home.md) to download the Language Packages and add them to an **OSBuild** as a Package
 
-![](../../.gitbook/assets/image%20%2899%29.png)
+![](../../.gitbook/assets/image%20%28108%29.png)
 
 * **Optional Downloads are thing**
   * These are available to download and install in OSDBuilder
 
-![](../../.gitbook/assets/image%20%28145%29.png)
+![](../../.gitbook/assets/image%20%28161%29.png)
 
 * **Alias Everything**
   * You can execute OSBuilder or OSDBuilder.  Changes have been aliased

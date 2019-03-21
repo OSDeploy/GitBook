@@ -2,8 +2,6 @@
 
 ## Usage
 
-{% page-ref page="../../basics/update-an-os/" %}
-
 {% page-ref page="../../basics/windows-updates/automatic-download.md" %}
 
 ## Comments

@@ -2,7 +2,7 @@
 
 ## Usage
 
-{% page-ref page="../../basics/import-an-os.md" %}
+{% page-ref page="../../basics/import-osmedia.md" %}
 
 ## Comments
 

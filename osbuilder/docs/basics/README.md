@@ -30,7 +30,7 @@ The easy way
 
 **`Import-OSMedia`** is all your need to know
 
-{% page-ref page="../../../osdbuilder/docs/basics/import-an-os.md" %}
+{% page-ref page="../../../osdbuilder/docs/basics/import-osmedia.md" %}
 
 ## OS Information
 
@@ -42,5 +42,5 @@ Looking for what Appx Provisioned Package is in your OS?  Use **`Show-OSBMediaIN
 
 The easiest method to update an offline Windows Image is to use **`Update-OSMedia`**
 
-{% page-ref page="../../../osdbuilder/docs/basics/update-an-os/update-osmedia.md" %}
+{% page-ref page="../../../osdbuilder/docs/basics/update-osmedia/" %}
 

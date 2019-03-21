@@ -25,7 +25,7 @@ Import-Module -Name OSDBuilder -Force
 Import-OSMedia
 ```
 
-{% page-ref page="basics/import-an-os.md" %}
+{% page-ref page="basics/import-osmedia.md" %}
 
 ## 3. Update an Imported Operating System
 
@@ -37,5 +37,5 @@ Import-OSMedia
 Update-OSMedia -DownloadUpdates -Execute
 ```
 
-{% page-ref page="basics/update-an-os/update-osmedia.md" %}
+{% page-ref page="basics/update-osmedia/" %}
 

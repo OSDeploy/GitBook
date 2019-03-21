@@ -2,7 +2,7 @@
 
 ## Usage
 
-{% page-ref page="../basics/create-a-vhd.md" %}
+{% page-ref page="../basics/media-functions/create-a-vhd.md" %}
 
 ## Help
 
