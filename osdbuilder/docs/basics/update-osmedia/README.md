@@ -1,11 +1,12 @@
-# Update an Operating System
+# Update-OSMedia
 
-{% hint style="info" %}
-**OSMedia is an Operating System without any customizations  
-An OSMedia should be identical to an ISO downloaded from Microsoft**
-{% endhint %}
+## Prerequisites
 
-**OSDBuilder** makes it easy to update any Imported Operating System with the latest Microsoft Updates
+{% page-ref page="../../functions/osmedia/import-osmedia.md" %}
+
+## Functions
+
+{% page-ref page="../../functions/osmedia/update-osmedia.md" %}
 
 ## Update-OSMedia
 

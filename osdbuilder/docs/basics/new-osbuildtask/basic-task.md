@@ -2,6 +2,16 @@
 
 Tasks are created with **`New-OSBuildTask`**.  You must specify a **`TaskName`** \(unique\).  You can optionally specify a **`CustomName`**.  The **`CustomName`** will be given to the output Directory in **OSBuilds**
 
+## Prerequisites
+
+{% page-ref page="../../functions/osmedia/import-osmedia.md" %}
+
+{% page-ref page="../update-osmedia/" %}
+
+## Functions
+
+{% page-ref page="../../functions/osbuild/new-osbuildtask.md" %}
+
 ## **New-OSBuildTask**
 
 Start with the following PowerShell command

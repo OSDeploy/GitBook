@@ -1,4 +1,4 @@
-# Import an Operating System
+# Import-OSMedia
 
 {% hint style="info" %}
 **Open PowerShell with Admin Rights**

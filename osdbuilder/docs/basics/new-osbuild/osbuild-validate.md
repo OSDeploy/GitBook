@@ -1,5 +1,17 @@
 # OSBuild Validate
 
+## Prerequisites
+
+{% page-ref page="../../functions/osmedia/import-osmedia.md" %}
+
+{% page-ref page="../update-osmedia/" %}
+
+{% page-ref page="../new-osbuildtask/" %}
+
+## Functions
+
+{% page-ref page="../../functions/osbuild/new-osbuild.md" %}
+
 ## New-OSBuild
 
 You should first validate your **OSBuild** by using **New-OSBuild** without any parameters
