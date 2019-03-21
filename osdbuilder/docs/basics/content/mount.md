@@ -8,11 +8,11 @@
 
 Over time the Mount directory may contain remnants of previously mounted Windows Images.  These will need to be cleaned out from time to time
 
-![](../../../../.gitbook/assets/image%20%2888%29.png)
+![](../../../../.gitbook/assets/image%20%2897%29.png)
 
 Before getting started, you should make sure you don't have any Mounted Windows Images
 
-![](../../../../.gitbook/assets/image%20%28144%29.png)
+![](../../../../.gitbook/assets/image%20%28157%29.png)
 
 Then simply Select All and delete.  If you receive an error, Skip the deletion of the directory
 
@@ -20,9 +20,9 @@ Then simply Select All and delete.  If you receive an error, Skip the deletion o
 **If you are absolutely certain a directory is no longer being used, you may Continue the deletion**
 {% endhint %}
 
-![](../../../../.gitbook/assets/image%20%28134%29.png)
+![](../../../../.gitbook/assets/image%20%28146%29.png)
 
 This looks much better!
 
-![](../../../../.gitbook/assets/image%20%28177%29.png)
+![](../../../../.gitbook/assets/image%20%28190%29.png)
 

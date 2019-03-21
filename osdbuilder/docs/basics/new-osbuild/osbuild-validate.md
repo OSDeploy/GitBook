@@ -1,28 +1,24 @@
-# Create an OSBuild
-
-Its time to create a **Configured OSBuild** using the **Tasks** that were in the previous section.  You create an **OSBuild** with the **`New-OSBuild`** function
-
-## Related
-
-{% page-ref page="../functions/osbuild/new-osbuild.md" %}
+# OSBuild Validate
 
 ## New-OSBuild
 
+You should first validate your **OSBuild** by using **New-OSBuild** without any parameters
+
 The first step is to select an **OSBuild Task** and press OK.  Its important to note that this OSBuild Task was created with a **UBR of 17763.107**
 
-![](../../../.gitbook/assets/image%20%28140%29.png)
+![](../../../../.gitbook/assets/image%20%28153%29.png)
 
 ### OSBuild Task Information
 
 The OSMedia that was used to create the **OSBuild Task** will be displayed, as well as the **OSBuild Configuration**
 
-![](../../../.gitbook/assets/image%20%2847%29.png)
+![](../../../../.gitbook/assets/image%20%2853%29.png)
 
 ### Updated Source OSMedia
 
 The problem is that I seem to have an updated **OSMedia** that should be used
 
-![](../../../.gitbook/assets/image%20%28139%29.png)
+![](../../../../.gitbook/assets/image%20%28152%29.png)
 
 This is not an issue as **OSDBuilder** will automatically select the latest release
 
@@ -30,7 +26,7 @@ This is not an issue as **OSDBuilder** will automatically select the latest rele
 **Use the DontUseNewestMedia parameter if you do not want to use the latest OSMedia**
 {% endhint %}
 
-![](../../../.gitbook/assets/image%20%2886%29.png)
+![](../../../../.gitbook/assets/image%20%2895%29.png)
 
 ### Task Templates
 
@@ -40,21 +36,11 @@ This is not an issue as **OSDBuilder** will automatically select the latest rele
 **To skip using Templates, use the SkipTemplates parameter**
 {% endhint %}
 
-![](../../../.gitbook/assets/image.png)
+![](../../../../.gitbook/assets/image.png)
 
+### Content Templates and Updates
 
+The remainder of the information relates to **Content Templates** and **Updates**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+![](../../../../.gitbook/assets/image%20%28101%29.png)
 

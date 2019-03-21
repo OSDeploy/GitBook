@@ -1,4 +1,4 @@
-# Configure an OSBuild
+# Configure an OSBuild Task
 
 {% hint style="info" %}
 **An OSBuild is a customized Operating System**

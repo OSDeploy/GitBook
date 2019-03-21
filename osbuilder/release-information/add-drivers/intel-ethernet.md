@@ -20,33 +20,33 @@ Download the Drivers you need. These should be in EXE format \(self extracting\)
 
 This is the tricky one, so please keep up. Give the extracted drivers a friendly name. Now create empty directories for as many Operating Systems that you support in OSBuilder
 
-![](../../../.gitbook/assets/image%20%2857%29.png)
+![](../../../.gitbook/assets/image%20%2864%29.png)
 
 Delete these selected files, they are not needed
 
-![](../../../.gitbook/assets/image%20%2883%29.png)
+![](../../../.gitbook/assets/image%20%2892%29.png)
 
 Drilling down into each remaining directory, you will find a readme.txt which tells you what OS is supported
 
-![](../../../.gitbook/assets/image%20%2889%29.png)
+![](../../../.gitbook/assets/image%20%2898%29.png)
 
 Go through each of the directories and each of the readme.txt. Delete the directories you don't care about, and move the ones you do care about into the appropriate Operating System
 
-![](../../../.gitbook/assets/image%20%2850%29.png)
+![](../../../.gitbook/assets/image%20%2857%29.png)
 
 You may come across a directory without a readme.txt. Just use some common sense \(NDIS62 . . . Windows 6.2 . . . Windows 7?\)
 
-![](../../../.gitbook/assets/image%20%2815%29.png)
+![](../../../.gitbook/assets/image%20%2817%29.png)
 
 You may even come across a readme.txt that has two Operating Systems that you support, so copy them
 
-![](../../../.gitbook/assets/image%20%28163%29.png)
+![](../../../.gitbook/assets/image%20%28176%29.png)
 
 Eventually you will run into some WinPE Drivers. Move them where they need to be \(unzip as needed\)
 
-![](../../../.gitbook/assets/image%20%28145%29.png)
+![](../../../.gitbook/assets/image%20%28158%29.png)
 
 Here is what your Intel Ethernet Drivers look like if you need all Operating Systems
 
-![](../../../.gitbook/assets/image%20%2839%29.png)
+![](../../../.gitbook/assets/image%20%2842%29.png)
 
