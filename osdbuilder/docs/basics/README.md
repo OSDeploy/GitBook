@@ -30,7 +30,7 @@ OSDBuilder has frequent updates, learn how with **`OSDBuilder -Update`**
 
 **`Import-OSMedia`** is all your need to know
 
-{% page-ref page="import-osmedia.md" %}
+{% page-ref page="import-osmedia/" %}
 
 ## Download Microsoft Updates
 

@@ -20,7 +20,7 @@ Unattend is a Root File \*.xml Structure Content Directory.  This means that **O
 
 Create a **`New-OSBuildTask`** and select the Unattend XML file when prompted
 
-![](../../../../../.gitbook/assets/image%20%28102%29.png)
+![](../../../../../.gitbook/assets/image%20%28104%29.png)
 
 ### New-OSBuild
 

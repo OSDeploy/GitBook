@@ -30,7 +30,7 @@ The easy way
 
 **`Import-OSMedia`** is all your need to know
 
-{% page-ref page="../../../osdbuilder/docs/basics/import-osmedia.md" %}
+{% page-ref page="../../../osdbuilder/docs/basics/import-osmedia/" %}
 
 ## OS Information
 

@@ -10,19 +10,19 @@ The start of the **OSBuild Execute** will be exactly what you should have seen d
 
 ![](../../../../.gitbook/assets/image%20%2847%29.png)
 
-![](../../../../.gitbook/assets/image%20%28147%29.png)
+![](../../../../.gitbook/assets/image%20%28152%29.png)
 
 ### WinPE Phase
 
 **WinPE** will be updated if necessary and the **WinPE Auto Extra Files** will be added
 
-![](../../../../.gitbook/assets/image%20%2849%29.png)
+![](../../../../.gitbook/assets/image%20%2850%29.png)
 
 ### Update Phase
 
 The Updates will be applied if necessary
 
-![](../../../../.gitbook/assets/image%20%2855%29.png)
+![](../../../../.gitbook/assets/image%20%2856%29.png)
 
 ### Customize and Close
 
