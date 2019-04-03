@@ -4,6 +4,26 @@
 
 {% page-ref page="../docs/basics/installation.md" %}
 
+## 19.4.2 \(April 2, 2019\)
+
+{% hint style="info" %}
+**This release contains updates to OSDBuilder WSUS Catalogs.  No other changes are included in this release**
+{% endhint %}
+
+## 19.3.26 \(March 26, 2019\)
+
+* **Get-OSMedia**
+  * **OSArch** - Parameter to filter the results by OS Architecture \(x64  or x86\)
+  * **OSInstallationType** - Parameter to filter the results by OS Installation Type \(Client or Server\)
+  * **OSMajorVersion** - Parameter to filter the results by OS Major Version \(6 or 10\)
+  * **OSReleaseid** - Parameter to filter the results by OS Release id \(1903, 1809...\)
+  * **Revision \(OK or Superseded\)** - If a Revision is OK, it is the most current revision of this OSMedia Family
+  * **Updates \(OK or Update\)** - If Updates is OK, the OSMedia is up to date
+* **Update-OSMedia**
+  * Only displays OSMedia that need an update in GridView
+
+![](../../.gitbook/assets/image%20%28193%29.png)
+
 ## 19.3.21 \(March 21, 2019\)
 
 {% hint style="info" %}

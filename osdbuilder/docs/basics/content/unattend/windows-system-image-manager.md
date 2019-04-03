@@ -14,7 +14,7 @@ In this example, I will be Servicing Windows 10 Enterprise x64 1809.  The Instal
 
 The Catalog will be saved in the Sources directory with the Install.wim.  This file can be used for future builds with Windows System Image Manager so it doesn't have to mount the Install.wim
 
-![](../../../../../.gitbook/assets/image%20%28194%29.png)
+![](../../../../../.gitbook/assets/image%20%28195%29.png)
 
 When complete, Packages will contain detailed information about the Windows Image
 

@@ -8,11 +8,11 @@ There are several **OSDBuilder** functions, and they are grouped by commonality
 
 ## Media Functions
 
-{% page-ref page="new-osbmediaiso.md" %}
+{% page-ref page="new-osdbuilderiso.md" %}
 
-{% page-ref page="new-osbmediausb.md" %}
+{% page-ref page="new-osdbuilderusb.md" %}
 
-{% page-ref page="show-osbmediainfo.md" %}
+{% page-ref page="show-osdbuilderinfo.md" %}
 
 ## Windows Update Functions
 

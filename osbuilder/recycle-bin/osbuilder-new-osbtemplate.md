@@ -28,7 +28,7 @@ I want to ensure that every Client \(Windows 10\) processes this Template to rem
 
 Templates can be made from any component
 
-![](../../.gitbook/assets/image%20%28193%29.png)
+![](../../.gitbook/assets/image%20%28194%29.png)
 
 ### State
 

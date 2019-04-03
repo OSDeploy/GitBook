@@ -1,5 +1,11 @@
 # Releases
 
+## 19.4.2 \(April 2, 2019\)
+
+{% hint style="info" %}
+**This release contains updated WSUS Catalogs.  New Updates for Office 2010, 2013, 2016, Windows 10 1809, and Windows Server 2019 are included**
+{% endhint %}
+
 ## 19.3.18 \(March 18, 2019\) Get-Down Office Edition
 
 Thanks for [**Kyle Baker** ](https://twitter.com/kbaker)for being the most impatient person that had to test this out ASAP
