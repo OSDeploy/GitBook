@@ -4,9 +4,24 @@
 
 {% page-ref page="../docs/basics/installation.md" %}
 
-## 19.4.x \(Unreleased\)
+## 19.4.11 \(April 11, 2019\) Unreleased HASMUG Edition
 
+* **New-OSBuildTask**
+  * Optionally create a Template
+  * Edit an existing OSBuild Task
 
+## 19.4.3 \(April 3, 2019\)
+
+* OSBuild Merged Last Run Task is saved in the OSMedia directory
+* Dismount-WindowsImage \(WinPE and OS\) will be delayed 10 seconds to allow for open file closures
+* **Get-DownOSDBuilder**
+  * MediaESD parameter adds the ability to download Windows 10 1809 Feature Update ESD files
+* **Import-OSMedia**
+  * OSDBuilder\Media is now scanned for expanded Feature Updates
+* **New-OSBuild**
+  * Removed ErrorAction Stop when an OSBuild could not be renamed
+* **Update-OSMedia**
+  * Removed ErrorAction Stop when an OSMedia could not be renamed
 
 {% page-ref page="../docs/basics/import-osmedia/feature-update-vl-media.md" %}
 
