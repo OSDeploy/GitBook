@@ -2,5 +2,5 @@
 
 **OSDUpdate** is used by **OSDBuilder** for downloading Windows Updates.  It is considered Managed as you should not add or remove any content from this directory
 
-![](../../../../.gitbook/assets/image%20%28187%29.png)
+![](../../../../.gitbook/assets/image%20%28191%29.png)
 
