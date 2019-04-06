@@ -54,9 +54,26 @@ But this does not include the Language resources for Boot and Logging, so I find
 
 ![](../../.gitbook/assets/image%20%2842%29.png)
 
+OSDBuilder won't do this automatically for you, but here is the script that I used to combine
 
+```text
+$MediaDirectory = "D:\OSDBuilder\Langs\Media"
+$PrimaryOS = "$MediaDirectory\17763.379.190312-1352.rs5_release_svc_refresh_CLIENTBUSINESS_VOL_x64FRE_en-us"
 
+Get-ChildItem "$MediaDirectory" | `
+Where-Object {$_.PSIsContainer -eq $true} | `
+Select -Property Name, FullName | `
+foreach {
+    robocopy "$($_.FullName)" "$MediaDirectory\MergedOS" *.* /e /ndl /xc /xn /xo /xf *.wim /np
+}
 
+#Copy PRIMARY OS
+robocopy "$PrimaryOS" "$MediaDirectory\MergedOS" *.* /e /ndl /np
+```
+
+When complete, you will have a Merged OS with all the Language resources that are needed in the Media
+
+![](../../.gitbook/assets/image%20%28211%29.png)
 
 
 

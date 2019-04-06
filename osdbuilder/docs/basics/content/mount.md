@@ -24,5 +24,5 @@ Then simply Select All and delete.  If you receive an error, Skip the deletion o
 
 This looks much better!
 
-![](../../../../.gitbook/assets/image%20%28213%29.png)
+![](../../../../.gitbook/assets/image%20%28214%29.png)
 
