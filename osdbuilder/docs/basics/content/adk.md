@@ -34,7 +34,7 @@ Install the Windows ADK your appropriate defaults for your environment
 
 Copy all directories that were installed with your Windows ADK.  This is typically found in **C:\Program Files \(x86\)\Windows Kits\10\Assessment and Deployment Kit**
 
-![](../../../../.gitbook/assets/image%20%2871%29.png)
+![](../../../../.gitbook/assets/image%20%2873%29.png)
 
 Paste the copied Windows ADK in an appropriate directory
 
@@ -42,7 +42,7 @@ Paste the copied Windows ADK in an appropriate directory
 
 There is an existing empty directory called Windows Preinstallation Environment
 
-![](../../../../.gitbook/assets/image%20%28135%29.png)
+![](../../../../.gitbook/assets/image%20%28137%29.png)
 
 The purpose of this directory is so you have a reference of the directory structure
 
@@ -52,5 +52,5 @@ The purpose of this directory is so you have a reference of the directory struct
 
 After adding the Windows ADK in OSDBuilder, you will be able to add PowerShell to WinPE, WinRE, or WinSE by adding these to an OSBuild or PEBuild Task when using the **ContentWinPEADK** parameter
 
-![](../../../../.gitbook/assets/image%20%2829%29.png)
+![](../../../../.gitbook/assets/image%20%2830%29.png)
 

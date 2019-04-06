@@ -8,7 +8,7 @@ Driver Content is in a Root Directory Structure format.  This means that directo
 
 Driver Content must be organized in directories.  The name should either be an Operating System \(with sub-directories, or in individual Driver directories\)
 
-![](../../../../../.gitbook/assets/image%20%28144%29.png)
+![](../../../../../.gitbook/assets/image%20%28146%29.png)
 
 ## Child Directories
 

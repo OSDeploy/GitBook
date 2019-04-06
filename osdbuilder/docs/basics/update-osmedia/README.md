@@ -22,7 +22,7 @@ A **GridView** list of all existing **OSMedia** will be displayed.  Operating Sy
 
 The required Microsoft Updates will be displayed.  Updates that have not been downloaded yet will show as Missing
 
-![](../../../../.gitbook/assets/image%20%28154%29.png)
+![](../../../../.gitbook/assets/image%20%28156%29.png)
 
 ## Update-OSMedia -Execute \(Missing Update\)
 
@@ -34,13 +34,13 @@ Update-OSMedia -Execute
 
 If you do not have all the Updates downloaded, Execution will be disabled
 
-![](../../../../.gitbook/assets/image%20%2872%29.png)
+![](../../../../.gitbook/assets/image%20%2874%29.png)
 
 ## Update-OSMedia -Download -Execute
 
 You can add the **`Download`** parameter.  This will automatically download any Missing updates and Execute the Update
 
-![](../../../../.gitbook/assets/image%20%2884%29.png)
+![](../../../../.gitbook/assets/image%20%2886%29.png)
 
 {% hint style="warning" %}
 **This process will take between 30 minutes and 2 hours to complete on a good system.  Plan on taking a break while the process is running and make sure you do not have an AntiVirus On Access Scan running**
@@ -50,7 +50,7 @@ You can add the **`Download`** parameter.  This will automatically download any 
 
 The image below is the complete Update-OSMedia process.  Right click and open in a new tab for best results
 
-![](../../../../.gitbook/assets/image%20%2830%29.png)
+![](../../../../.gitbook/assets/image%20%2831%29.png)
 
 
 
