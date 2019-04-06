@@ -6,7 +6,7 @@ There are several parameters you can use to configure an OSBuild.  The goal of t
 
 Again, we are going to use **`New-OSBuildTask`**, but this time, selecting all Basic Parameters.  Leave off the **`CustomName`**
 
-![](../../../../.gitbook/assets/image%20%28193%29.png)
+![](../../../../.gitbook/assets/image%20%28199%29.png)
 
 This gives quite a lengthy PowerShell command line
 
@@ -22,43 +22,43 @@ This parameter will enable **DotNet Framework 3.5** in your **OSBuild**.  This i
 
 This will automatically copy several Windows executables from your **Install.wim** into **WinPE**.  These files were already copied from your **Install.wim** when you executed **`Import-OSMedia`**
 
-![](../../../../.gitbook/assets/image%20%2882%29.png)
+![](../../../../.gitbook/assets/image%20%2886%29.png)
 
 ### RemoveAppx
 
 This parameter will allow you to select **Appx Provisioned Packages** that you want removed from your **OSBuild**
 
-![](../../../../.gitbook/assets/image%20%28111%29.png)
+![](../../../../.gitbook/assets/image%20%28116%29.png)
 
 ### RemovePackage
 
 You can select multiple **Windows Packages** to remove in the **OSBuild**.  For this, I typically just press Cancel
 
-![](../../../../.gitbook/assets/image%20%28136%29.png)
+![](../../../../.gitbook/assets/image%20%28142%29.png)
 
 ### RemoveCapability
 
 You can remove a **Windows Capability** from your **OSBuild**.  Again, I typically cancel in this step
 
-![](../../../../.gitbook/assets/image%20%28102%29.png)
+![](../../../../.gitbook/assets/image%20%28107%29.png)
 
 ### DisableFeature
 
 **Windows Optional Features** can be disabled.  This again is something I typically leave alone and press cancel
 
-![](../../../../.gitbook/assets/image%20%28153%29.png)
+![](../../../../.gitbook/assets/image%20%28159%29.png)
 
 ### EnableFeature
 
 You can use this parameter to Enable Windows Optional Features.  In this case, I am going to enable Hyper-V
 
-![](../../../../.gitbook/assets/image%20%28176%29.png)
+![](../../../../.gitbook/assets/image%20%28182%29.png)
 
 ## Task JSON
 
 I now have a new Task JSON which has all the settings I selected
 
-![](../../../../.gitbook/assets/image%20%28106%29.png)
+![](../../../../.gitbook/assets/image%20%28111%29.png)
 
 
 

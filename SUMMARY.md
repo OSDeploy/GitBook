@@ -49,6 +49,8 @@
       * [OSBuild Download](osdbuilder/docs/basics/new-osbuild/osbuild-download.md)
       * [OSBuild Execute](osdbuilder/docs/basics/new-osbuild/osbuild-execute.md)
     * [Content Directory](osdbuilder/docs/basics/content/README.md)
+      * [ADK](osdbuilder/docs/basics/content/adk.md)
+      * [DaRT](osdbuilder/docs/basics/content/dart.md)
       * [Drivers](osdbuilder/docs/basics/content/drivers/README.md)
         * [Intel Wireless](osdbuilder/docs/basics/content/drivers/add-drivers.md)
         * [Intel Bluetooth](osdbuilder/docs/basics/content/drivers/intel-bluetooth.md)

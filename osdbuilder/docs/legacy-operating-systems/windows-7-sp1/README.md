@@ -12,7 +12,7 @@
 
 **OSDBuilder** has only been tested with importing and updating Windows 7 Enterprise with SP1 \(February 15, 2011\).  If you do not use this version, expect inconsistent results.  The ISO can be downloaded from [**MVLS \(Microsoft Volume Licensing Service Center\)**](https://www.microsoft.com/Licensing/servicecenter/Home.aspx)\*\*\*\*
 
-![](../../../../.gitbook/assets/image%20%28149%29.png)
+![](../../../../.gitbook/assets/image%20%28155%29.png)
 
 ## Import-OSMedia
 
@@ -28,7 +28,7 @@ Use the following command to select and download the updates.  Be aware of Optio
 Get-OSDBuilderDownloads -GridView -UpdateArch x64 -UpdateOS "Windows 7" -Download
 ```
 
-![](../../../../.gitbook/assets/image%20%2868%29.png)
+![](../../../../.gitbook/assets/image%20%2872%29.png)
 
 **The following is a list of Updates in OSDBuilder 19.3.12**
 
@@ -107,19 +107,19 @@ Update for Windows 7 for x64-based Systems (KB2952664)
 
 Let **`Update-OSMedia -Execute`** do its work
 
-![](../../../../.gitbook/assets/image%20%2834%29.png)
+![](../../../../.gitbook/assets/image%20%2837%29.png)
 
 ## Results
 
 The only updates remaining can be added Online with minimal effort.  Windows 7 Service Pack 1 is just a validation check \(9.1MB\).  Internet Explorer is installed and up to date
 
-![](../../../../.gitbook/assets/image%20%2874%29.png)
+![](../../../../.gitbook/assets/image%20%2878%29.png)
 
-![](../../../../.gitbook/assets/image%20%2831%29.png)
+![](../../../../.gitbook/assets/image%20%2834%29.png)
 
-![](../../../../.gitbook/assets/image%20%28130%29.png)
+![](../../../../.gitbook/assets/image%20%28136%29.png)
 
-![](../../../../.gitbook/assets/image%20%2886%29.png)
+![](../../../../.gitbook/assets/image%20%2890%29.png)
 
 
 
