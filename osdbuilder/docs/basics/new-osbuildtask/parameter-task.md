@@ -6,7 +6,7 @@ There are several parameters you can use to configure an OSBuild.  The goal of t
 
 Again, we are going to use **`New-OSBuildTask`**, but this time, selecting all Basic Parameters.  Leave off the **`CustomName`**
 
-![](../../../../.gitbook/assets/image%20%28230%29.png)
+![](../../../../.gitbook/assets/image%20%28231%29.png)
 
 This gives quite a lengthy PowerShell command line
 
@@ -28,13 +28,13 @@ This will automatically copy several Windows executables from your **Install.wim
 
 This parameter will allow you to select **Appx Provisioned Packages** that you want removed from your **OSBuild**
 
-![](../../../../.gitbook/assets/image%20%28131%29.png)
+![](../../../../.gitbook/assets/image%20%28132%29.png)
 
 ### RemovePackage
 
 You can select multiple **Windows Packages** to remove in the **OSBuild**.  For this, I typically just press Cancel
 
-![](../../../../.gitbook/assets/image%20%28162%29.png)
+![](../../../../.gitbook/assets/image%20%28163%29.png)
 
 ### RemoveCapability
 
@@ -46,13 +46,13 @@ You can remove a **Windows Capability** from your **OSBuild**.  Again, I typical
 
 **Windows Optional Features** can be disabled.  This again is something I typically leave alone and press cancel
 
-![](../../../../.gitbook/assets/image%20%28187%29.png)
+![](../../../../.gitbook/assets/image%20%28188%29.png)
 
 ### EnableFeature
 
 You can use this parameter to Enable Windows Optional Features.  In this case, I am going to enable Hyper-V
 
-![](../../../../.gitbook/assets/image%20%28211%29.png)
+![](../../../../.gitbook/assets/image%20%28212%29.png)
 
 ## Task JSON
 

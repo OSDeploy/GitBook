@@ -22,7 +22,7 @@ A **GridView** list of all existing **OSMedia** will be displayed.  Operating Sy
 
 The required Microsoft Updates will be displayed.  Updates that have not been downloaded yet will show as Missing
 
-![](../../../../.gitbook/assets/image%20%28174%29.png)
+![](../../../../.gitbook/assets/image%20%28175%29.png)
 
 ## Update-OSMedia -Execute \(Missing Update\)
 

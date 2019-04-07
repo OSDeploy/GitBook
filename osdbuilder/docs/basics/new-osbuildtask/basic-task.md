@@ -22,7 +22,7 @@ New-OSBuildTask -TaskName "Reference Image Windows 10 x64 1809" -CustomName "Ref
 
 You will be prompted to elect an **OSMedia** to use for creating the **OSBuild**
 
-![](../../../../.gitbook/assets/image%20%28158%29.png)
+![](../../../../.gitbook/assets/image%20%28159%29.png)
 
 After selecting an **OSMedia**, the selected **OSMedia** details will be displayed
 
@@ -34,7 +34,7 @@ If no configuration **Parameters** have been used, and you don't have existing *
 
 And finally the Task will be completed with absolutely nothing of real importance
 
-![](../../../../.gitbook/assets/image%20%28220%29.png)
+![](../../../../.gitbook/assets/image%20%28221%29.png)
 
 ## Task JSON
 

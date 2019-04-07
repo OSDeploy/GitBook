@@ -40,11 +40,11 @@ You may come across a directory without a readme.txt. Just use some common sense
 
 You may even come across a readme.txt that has two Operating Systems that you support, so copy them
 
-![](../../../.gitbook/assets/image%20%28219%29.png)
+![](../../../.gitbook/assets/image%20%28220%29.png)
 
 Eventually you will run into some WinPE Drivers. Move them where they need to be \(unzip as needed\)
 
-![](../../../.gitbook/assets/image%20%28197%29.png)
+![](../../../.gitbook/assets/image%20%28198%29.png)
 
 Here is what your Intel Ethernet Drivers look like if you need all Operating Systems
 

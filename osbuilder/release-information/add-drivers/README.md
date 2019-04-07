@@ -32,23 +32,23 @@ Expand the Zip and give the directories a friendly name
 
 Checking the Intel Wireless Driver Directory, everything is perfect. THIS is the format that we need the drivers in. There is no work to do here
 
-![](../../../.gitbook/assets/image%20%28173%29.png)
+![](../../../.gitbook/assets/image%20%28174%29.png)
 
 ## WinPE Drivers
 
 Copy these Drivers to your WinPE Drivers
 
-![](../../../.gitbook/assets/image%20%28149%29.png)
+![](../../../.gitbook/assets/image%20%28150%29.png)
 
 ## New-OSBuildTask
 
 Now create a New-OSBuildTask. You will be prompted to select directories the Directories that you added. Select the ones that apply to your OS and press OK
 
-![](../../../.gitbook/assets/image%20%28156%29.png)
+![](../../../.gitbook/assets/image%20%28157%29.png)
 
 Since you copied the Driver directories into WinPE\Drivers, you will be prompted to select Drivers to apply to WinPE. Select the proper ones \([and yes, you can add Wireless support](https://www.scconfigmgr.com/2018/03/06/build-a-winpe-with-wireless-support/)\)
 
-![](../../../.gitbook/assets/image%20%28127%29.png)
+![](../../../.gitbook/assets/image%20%28128%29.png)
 
 ## New-OSBuild
 
@@ -58,11 +58,11 @@ Now you can execute your Task and the Drivers will be applied automatically, or 
 
 **During the WinPE processing, the Drivers will be added to Windows Setup \(WinSE\), Windows PE \(WinPE\), and in Windows Recovery Environment \(WinRE\) automatically. So no more not being able to connect to the network when you need to do a Repair**
 
-![](../../../.gitbook/assets/image%20%28241%29.png)
+![](../../../.gitbook/assets/image%20%28242%29.png)
 
 **During the OS processing, the Drivers that were selected will be automatically added as well**
 
-![](../../../.gitbook/assets/image%20%28167%29.png)
+![](../../../.gitbook/assets/image%20%28168%29.png)
 
 ## Summary
 

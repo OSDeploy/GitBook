@@ -12,11 +12,11 @@ Same deal as before, get the latest
 
 Get the Zips that you need
 
-![](../../../.gitbook/assets/image%20%28188%29.png)
+![](../../../.gitbook/assets/image%20%28189%29.png)
 
 Expand the Zips and give it a friendly name, you know the drill
 
-![](../../../.gitbook/assets/image%20%28194%29.png)
+![](../../../.gitbook/assets/image%20%28195%29.png)
 
 ## Driver Structure
 
@@ -30,11 +30,11 @@ And complete the installation
 
 Save these two directories back in your Intel Bluetooth Driver directory in OSBuilder
 
-![](../../../.gitbook/assets/image%20%28128%29.png)
+![](../../../.gitbook/assets/image%20%28129%29.png)
 
 Like so
 
-![](../../../.gitbook/assets/image%20%28204%29.png)
+![](../../../.gitbook/assets/image%20%28205%29.png)
 
 {% hint style="warning" %}
 If you need Windows 10 x86 Intel Bluetooth Drivers, you will need to repeat this process on a system with Windows 10 x86
