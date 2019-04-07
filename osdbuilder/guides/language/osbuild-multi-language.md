@@ -1,4 +1,4 @@
-# Multi-Language OSBuild
+# OSBuild Multi-Language
 
 ## Purpose
 
@@ -30,17 +30,17 @@ I will need the original OS Media for each of the Operating Systems that I want 
 Get-DownOSDBuilder -MediaESD Download
 ```
 
-![](../../.gitbook/assets/image%20%28165%29.png)
+![](../../../.gitbook/assets/image%20%28165%29.png)
 
 Keep in mind that this may take a considerable amount of time as the files must be downloaded and extracted
 
-![](../../.gitbook/assets/image%20%2828%29.png)
+![](../../../.gitbook/assets/image%20%2828%29.png)
 
 ## Import-OSMedia
 
 Use Import-OSMedia to import the Primary OS into OSDBuilder
 
-![](../../.gitbook/assets/image%20%2854%29.png)
+![](../../../.gitbook/assets/image%20%2854%29.png)
 
 ## Update-OSMedia
 
@@ -48,7 +48,7 @@ Use Import-OSMedia to import the Primary OS into OSDBuilder
 
 The Primary OS will need to be updated.  Use Update-OSMedia to do this
 
-![](../../.gitbook/assets/image%20%28230%29.png)
+![](../../../.gitbook/assets/image%20%28230%29.png)
 
 ## ISO Extract FOD and Language
 
@@ -57,11 +57,11 @@ Download and extract the following ISOs from MVLS or MSDN as shown in the image 
 * **Windows 10 1809 Features on Demand x64**
 * **Windows 10 1809 Language**
 
-![](../../.gitbook/assets/image%20%28131%29.png)
+![](../../../.gitbook/assets/image%20%28131%29.png)
 
 In the Windows 10 1809 Language content, delete the directories and files for the Languages that will not be in your Media.  Do not delete your Primary OSMedia Language files
 
-![](../../.gitbook/assets/image%20%28185%29.png)
+![](../../../.gitbook/assets/image%20%28185%29.png)
 
 ## Windows ADK
 
@@ -69,7 +69,7 @@ In the Windows 10 1809 Language content, delete the directories and files for th
 
 Add the Windows ADK to the proper Content directory
 
-![](../../.gitbook/assets/image%20%2834%29.png)
+![](../../../.gitbook/assets/image%20%2834%29.png)
 
 If you have the Languages ISO in your ISOExtract directory, delete ALL the Language sub-directories from the following location
 
@@ -77,7 +77,7 @@ If you have the Languages ISO in your ISOExtract directory, delete ALL the Langu
 <OSDBuilder Home>\Content\ADK\Windows 10 1809\Windows Preinstallation Environment\amd64\WinPE_OCs
 ```
 
-![](../../.gitbook/assets/image%20%2824%29.png)
+![](../../../.gitbook/assets/image%20%2824%29.png)
 
 ## New-OSBuildTask -ContentLanguagePackages
 
@@ -89,29 +89,29 @@ New-OSBuildTask -Kind Task -TaskName "Windows 10 1809 x64 Multi" -ContentLanguag
 
 Select the Language Packs to add and press OK.  There is no need to select the Primary OSMedia Language
 
-![](../../.gitbook/assets/image%20%28143%29.png)
+![](../../../.gitbook/assets/image%20%28143%29.png)
 
 Select the Language Features on Demand to add when prompted.  To make things easier, select a single Language and press OK.  There is no need to add the Primary OSMedia Language
 
-![](../../.gitbook/assets/image%20%28148%29.png)
+![](../../../.gitbook/assets/image%20%28148%29.png)
 
 Select any Local Experience Packs to add and press OK.  Press Cancel if you do not need to add any
 
-![](../../.gitbook/assets/image%20%28139%29.png)
+![](../../../.gitbook/assets/image%20%28139%29.png)
 
 Repeat the same Command Line to keep adding the additional Language Features on Demand.  The previously selected ones will remain.  Press Cancel if you are prompted to select Language Packs or Local Experience Packs and don't have anything to add.
 
-![](../../.gitbook/assets/image%20%28200%29.png)
+![](../../../.gitbook/assets/image%20%28200%29.png)
 
 When complete the Task JSON should look similar to the image below
 
-![](../../.gitbook/assets/image%20%28121%29.png)
+![](../../../.gitbook/assets/image%20%28121%29.png)
 
 ## WinPE Installed Packages
 
 To properly add the Language Resources that you need, you have to know what Features are in the different Windows PE's.  OSDBuilder captures this information in a TXT, JSON, and XML format
 
-![](../../.gitbook/assets/image%20%28135%29.png)
+![](../../../.gitbook/assets/image%20%28135%29.png)
 
 You can easily pull a list using PowerShell
 
@@ -198,21 +198,21 @@ You will probably have to run this command a few times to build out your Task pr
 * **For WinPE-Speech-TTS, you will need the Parent Language Package \(if one exists\)**
 * **Repeat the command line as many times as you need to edit the same Task**
 
-![](../../.gitbook/assets/image%20%2851%29.png)
+![](../../../.gitbook/assets/image%20%2851%29.png)
 
 ## New-OSBuild
 
 When you have your Task sorted out you can create your build.  Here is what the WinPE Language integration should looks like
 
-![](../../.gitbook/assets/image%20%28164%29.png)
+![](../../../.gitbook/assets/image%20%28164%29.png)
 
 Language Packs and Language Features will be installed.  The Lang.ini will be updated
 
-![](../../.gitbook/assets/image%20%28166%29.png)
+![](../../../.gitbook/assets/image%20%28166%29.png)
 
 When complete, the new OSBuild will be created.  If you did not select a Custom Name, the Languages will be added to the default name.  Additionally an OSBuild.json file will be included which will contain the Task + Templates that were used to create the OSMedia
 
-![](../../.gitbook/assets/image%20%28110%29.png)
+![](../../../.gitbook/assets/image%20%28110%29.png)
 
 ## Media Language Merge
 
@@ -220,17 +220,17 @@ The final step is to combine the OSBuild with the Language specific OSMedia.  Th
 
 Microsoft details that you need to copy the contents of the Sources directory
 
-![](../../.gitbook/assets/image%20%28176%29.png)
+![](../../../.gitbook/assets/image%20%28176%29.png)
 
 {% embed url="https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/add-multilingual-support-to-windows-setup\#step-3-add-localized-windows-setup-resources-to-the-windows-distribution" %}
 
 But this does not include the Language resources for Boot and Logging
 
-![](../../.gitbook/assets/image%20%2844%29.png)
+![](../../../.gitbook/assets/image%20%2844%29.png)
 
 Windows ADK does contain some files, but not everything, so don't use this
 
-![](../../.gitbook/assets/image%20%28169%29.png)
+![](../../../.gitbook/assets/image%20%28169%29.png)
 
 If you used **`Get-DownOSDBuilder,`** then you should have downloaded Windows in the other languages that you need.  If you did this, you can write a script to perform this task
 
@@ -248,13 +248,13 @@ foreach {
 
 When complete, you will have a Merged OS with all the Language resources that are needed in the Media
 
-![](../../.gitbook/assets/image%20%2883%29.png)
+![](../../../.gitbook/assets/image%20%2883%29.png)
 
 ## Results
 
 Considering this Windows 10 contains 4 additional Languages, the size increase is not that large
 
-![](../../.gitbook/assets/image%20%28126%29.png)
+![](../../../.gitbook/assets/image%20%28126%29.png)
 
 
 

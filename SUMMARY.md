@@ -89,7 +89,8 @@
       * [New-PEBuild](osdbuilder/docs/functions/pebuild/new-pebuild.md)
       * [Get-PEBuilds](osdbuilder/docs/functions/pebuild/get-pebuilds.md)
 * [Guides](osdbuilder/guides/README.md)
-  * [Multi-Language OSBuild](osdbuilder/guides/windows-multi-language-media.md)
+  * [Language](osdbuilder/guides/language/README.md)
+    * [OSBuild Multi-Language](osdbuilder/guides/language/osbuild-multi-language.md)
 
 ## OSDUpdate
 
