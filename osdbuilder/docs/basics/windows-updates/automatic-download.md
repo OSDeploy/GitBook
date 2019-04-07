@@ -8,19 +8,19 @@
 
 When you run **`Update-OSMedia`** without any parameters, and select an existing OSMedia, the required Updates will be displayed.  In the example below, these updates have not been downloaded
 
-![](../../../../.gitbook/assets/image%20%2868%29.png)
+![](../../../../.gitbook/assets/image%20%2870%29.png)
 
 ## Update-OSMedia -Download
 
 When you add the **`Download`** parameter, the required updates will be downloaded 
 
-![](../../../../.gitbook/assets/image%20%28170%29.png)
+![](../../../../.gitbook/assets/image%20%28172%29.png)
 
 ## Update-OSMedia \(Ready\)
 
 When you have all your Updates downloaded, you are ready to Update the OS
 
-![](../../../../.gitbook/assets/image%20%28143%29.png)
+![](../../../../.gitbook/assets/image%20%28145%29.png)
 
 
 

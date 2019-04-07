@@ -1,44 +1,70 @@
-# Multi-Language Media
+# Multi-Language OSMedia
 
 ## Purpose
 
-There are probably a handful of people that can properly create Windows Multi-Language Media, its not as simple as injecting Language Packs.  The purpose of this guide is to fully detail how this is done properly
+There are probably a handful of people that can properly create Windows Multi-Language Media, its not as simple as injecting Language Packs.  The purpose of this guide is to fully detail how this is done properly with Windows 10 1809 x64
 
-## New OSDBuilder Instance
+## Select Primary Language
 
-OSDBuilder allows you to create multiple instances, and working with multiple languages is a good enough reason to do so.  Start by executing OSDBuilder without any parameters.  In this example, my current instance is DEMO
+In this example, I am going to combine the 5 Languages in Windows.  I should refer to 
 
-![](../../.gitbook/assets/image%20%28165%29.png)
+{% embed url="https://support.microsoft.com/en-us/help/14236/language-packs" %}
 
-I can create a new instance \(or change my current instance\) by using the **SetPath** parameter. 
+| **Language** | **LP** | **Base Language Required** |
+| :--- | :--- | :--- |
+| English \(US\) | en-US | Any Language |
+| English \(International\) | en-GB | Any Language |
+| French | fr-FR | Any Language |
+| German | de-DE | Any Language |
+| Spanish | es-ES | Any Language |
 
-![](../../.gitbook/assets/image%20%2832%29.png)
-
- The directories will be created automatically when needed, so don't worry if they don't exist.  If you want to force the creation, simply use the following command
-
-```text
-Get-OSDBuilder -CreatePaths
-```
-
-![](../../.gitbook/assets/image%20%28164%29.png)
+I'm in luck that there are no requirements on the Base Language.  This means that any language can be used as the Base Language.  I'll take the easy road and use English \(US\)
 
 ## Download Windows Media
 
-If you already have your ISO's, you can skip this step, otherwise you can use the following command to download VL Media
+I will need the original OS Media for each of the Operating Systems that I want to include.  If you already have your ISO's, you can skip this step, otherwise you can use the following command to download Volume Licensing Media for Windows 10 1809 x64
 
 ```text
 Get-DownOSDBuilder -MediaESD Download
 ```
 
-![](../../.gitbook/assets/image%20%28148%29.png)
+![](../../.gitbook/assets/image%20%28150%29.png)
 
 Keep in mind that this may take a considerable amount of time as the files must be downloaded and extracted
 
 ![](../../.gitbook/assets/image%20%2827%29.png)
 
-## Primary Language
+## Import-OSMedia
 
-You will want to define a primary Language for your Media, typically this will be the Language that is used most often.  For a United States based company, this will probably be en-US.  An International company will probably choose en-GB.  For the remainder of this Guide, I will be selecting en-GB as the Primary Language
+Use Import-OSMedia to import the Primary OS into OSDBuilder
+
+![](../../.gitbook/assets/image%20%2851%29.png)
+
+## Update-OSMedia
+
+The Primary OS will need to be updated.  Use Update-OSMedia to do this
+
+![](../../.gitbook/assets/image%20%28211%29.png)
+
+## Windows ADK
+
+Add the Windows ADK to the proper Content directory
+
+![](../../.gitbook/assets/image%20%2833%29.png)
+
+## ISO Extract
+
+Download the 
+
+
+
+
+
+
+
+
+
+
 
 ## Media Merge
 
@@ -46,13 +72,13 @@ Merging the Media is important as it adds Language Resources for Windows Setup. 
 
 Microsoft details that you need to copy the contents of the Sources directory
 
-![](../../.gitbook/assets/image%20%28157%29.png)
+![](../../.gitbook/assets/image%20%28159%29.png)
 
 {% embed url="https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/add-multilingual-support-to-windows-setup\#step-3-add-localized-windows-setup-resources-to-the-windows-distribution" %}
 
 But this does not include the Language resources for Boot and Logging, so I find it important to copy everything except the WIMS
 
-![](../../.gitbook/assets/image%20%2842%29.png)
+![](../../.gitbook/assets/image%20%2843%29.png)
 
 OSDBuilder won't do this automatically for you, but here is the script that I used to combine
 
@@ -73,7 +99,7 @@ robocopy "$PrimaryOS" "$MediaDirectory\MergedOS" *.* /e /ndl /np
 
 When complete, you will have a Merged OS with all the Language resources that are needed in the Media
 
-![](../../.gitbook/assets/image%20%28211%29.png)
+![](../../.gitbook/assets/image%20%28214%29.png)
 
 
 

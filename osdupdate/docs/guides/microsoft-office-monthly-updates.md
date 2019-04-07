@@ -10,7 +10,7 @@ In the image below, OSDUpdate is version 19.3.6.0.  This corresponds with 2019 M
 
 Understanding this, OSDUpdate 19.3.6.x will contain the latest updates up to March 6, 2019.  Easy?
 
-![](../../../.gitbook/assets/image%20%28130%29.png)
+![](../../../.gitbook/assets/image%20%28132%29.png)
 
 You can easily update OSDUpdate by using the included function
 
@@ -28,13 +28,13 @@ Get-OSDUpdate -CatalogOffice "Office 2016 64-Bit" -OfficeProfile All -GridView
 
 In the image below, its easy to see the latest updates \(CreationDate\).  Additionally, in the background, two updates from the previous month are superseded but still present in the Catalog
 
-![](../../../.gitbook/assets/image%20%28136%29.png)
+![](../../../.gitbook/assets/image%20%28138%29.png)
 
 ## OSDUpdate Repository Root
 
 As a reminder, the OSDUpdate Repository Root will contain all the different Update Catalog Downloads.  The individual Office directories will be created automatically.  In this case, my OSDUpdate Repository Root is C:\OSDeploy\OSDUpdate
 
-![](../../../.gitbook/assets/image%20%28131%29.png)
+![](../../../.gitbook/assets/image%20%28133%29.png)
 
 ## Downloading Updates
 
@@ -52,13 +52,13 @@ In the console window, there may be some Warnings in Orange.  This lets me know 
 
 Select the Updates you want to download and press OK, and the Updates will be downloaded into the OSDUpdate Repository
 
-![](../../../.gitbook/assets/image%20%2852%29.png)
+![](../../../.gitbook/assets/image%20%2854%29.png)
 
 ## Removing Superseded Updates
 
 Adding the **`RemoveSuperseded`** parameter will remove the Superseded Updates for that specific Microsoft Office Update Catalog.  You will need to repeat this process for any additional Microsoft Office versions you have downloads for
 
-![](../../../.gitbook/assets/image%20%2836%29.png)
+![](../../../.gitbook/assets/image%20%2837%29.png)
 
 ## Automating Downloads
 
