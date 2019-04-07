@@ -12,7 +12,7 @@
 
 **OSDBuilder** has only been tested with importing and updating Windows 7 Enterprise with SP1 \(February 15, 2011\).  If you do not use this version, expect inconsistent results.  The ISO can be downloaded from [**MVLS \(Microsoft Volume Licensing Service Center\)**](https://www.microsoft.com/Licensing/servicecenter/Home.aspx)\*\*\*\*
 
-![](../../../../.gitbook/assets/image%20%28175%29.png)
+![](../../../../.gitbook/assets/image%20%28180%29.png)
 
 ## Import-OSMedia
 
@@ -113,13 +113,13 @@ Let **`Update-OSMedia -Execute`** do its work
 
 The only updates remaining can be added Online with minimal effort.  Windows 7 Service Pack 1 is just a validation check \(9.1MB\).  Internet Explorer is installed and up to date
 
-![](../../../../.gitbook/assets/image%20%2887%29.png)
+![](../../../../.gitbook/assets/image%20%2888%29.png)
 
 ![](../../../../.gitbook/assets/image%20%2839%29.png)
 
-![](../../../../.gitbook/assets/image%20%28153%29.png)
+![](../../../../.gitbook/assets/image%20%28155%29.png)
 
-![](../../../../.gitbook/assets/image%20%2899%29.png)
+![](../../../../.gitbook/assets/image%20%28100%29.png)
 
 
 

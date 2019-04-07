@@ -14,13 +14,13 @@ When you run **`Update-OSMedia`** without any parameters, and select an existing
 
 When you add the **`Download`** parameter, the required updates will be downloaded 
 
-![](../../../../.gitbook/assets/image%20%28184%29.png)
+![](../../../../.gitbook/assets/image%20%28189%29.png)
 
 ## Update-OSMedia \(Ready\)
 
 When you have all your Updates downloaded, you are ready to Update the OS
 
-![](../../../../.gitbook/assets/image%20%28155%29.png)
+![](../../../../.gitbook/assets/image%20%28157%29.png)
 
 
 
