@@ -22,7 +22,7 @@ Get-DownOSDBuilder -MediaESD GridView
 
 You will see that there are two different types per language available \(Business and Consumer\).  Also note that OSDBuilder only contains Feature Updates for Windows 10 1809
 
-![](../../../../.gitbook/assets/image%20%28200%29.png)
+![](../../../../.gitbook/assets/image%20%28205%29.png)
 
 ## Downloading and Converting Feature Updates
 
@@ -34,27 +34,27 @@ Get-DownOSDBuilder -MediaESD Download
 
 Select one or more ESD files to download and press OK.  Keep in mind this will take quite a bit of time to download
 
-![](../../../../.gitbook/assets/image%20%28220%29.png)
+![](../../../../.gitbook/assets/image%20%28225%29.png)
 
 The ESD file will be downloaded to **OSDBuilder\Media** using BITS Transfer.  The nice thing about BITS Transfer is that you do get to see progress of the download
 
-![](../../../../.gitbook/assets/image%20%2883%29.png)
+![](../../../../.gitbook/assets/image%20%2885%29.png)
 
 An ESD file contains several Indexes, just like a WIM.  The next process is to rebuild the ESD file into a proper Windows Media format.  This involves expanding the Windows Setup Media \(Index 1\), the Boot.wim \(Index 2-3\), and the Windows Images \(remaining indexes\).  This process will take some time as it must be converted from Recovery compression, to High compression \(about 10 minutes\)
 
-![](../../../../.gitbook/assets/image%20%2862%29.png)
+![](../../../../.gitbook/assets/image%20%2863%29.png)
 
 When complete, the ESD and Feature Update Media directory will be ready to Import
 
-![](../../../../.gitbook/assets/image%20%28128%29.png)
+![](../../../../.gitbook/assets/image%20%28131%29.png)
 
-![](../../../../.gitbook/assets/image%20%28162%29.png)
+![](../../../../.gitbook/assets/image%20%28165%29.png)
 
 ## Import-OSMedia
 
 Import-OSMedia can now be used to import the Feature Update into OSDBuilder where it can be Updated and Customized just like any other OS
 
-![](../../../../.gitbook/assets/image%20%28138%29.png)
+![](../../../../.gitbook/assets/image%20%28141%29.png)
 
 ## Media Directory
 
