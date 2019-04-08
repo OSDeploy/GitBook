@@ -52,7 +52,7 @@ After adding DaRT to OSDBuilder, you will be able to add DaRT to WinPE, WinRE, o
 
 When creating a New Task, you should receive a prompt to select the WinPE DaRT Package when using the **ContentWinPEDaRT** parameter
 
-![](../../../../.gitbook/assets/image%20%28111%29.png)
+![](../../../../.gitbook/assets/image%20%28112%29.png)
 
 ## Validating DaRT in WinRE
 

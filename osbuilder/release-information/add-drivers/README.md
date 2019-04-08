@@ -14,11 +14,11 @@ Start by heading to this link
 
 From there you will want to select the latest version. Hit the Download link
 
-![](../../../.gitbook/assets/image%20%28118%29.png)
+![](../../../.gitbook/assets/image%20%28119%29.png)
 
 Now download the Zip files you need
 
-![](../../../.gitbook/assets/image%20%28103%29.png)
+![](../../../.gitbook/assets/image%20%28104%29.png)
 
 Save the files in your &lt;OSBuilderHome&gt;\Content\Drivers
 
@@ -32,37 +32,37 @@ Expand the Zip and give the directories a friendly name
 
 Checking the Intel Wireless Driver Directory, everything is perfect. THIS is the format that we need the drivers in. There is no work to do here
 
-![](../../../.gitbook/assets/image%20%28174%29.png)
+![](../../../.gitbook/assets/image%20%28175%29.png)
 
 ## WinPE Drivers
 
 Copy these Drivers to your WinPE Drivers
 
-![](../../../.gitbook/assets/image%20%28150%29.png)
+![](../../../.gitbook/assets/image%20%28151%29.png)
 
 ## New-OSBuildTask
 
 Now create a New-OSBuildTask. You will be prompted to select directories the Directories that you added. Select the ones that apply to your OS and press OK
 
-![](../../../.gitbook/assets/image%20%28157%29.png)
+![](../../../.gitbook/assets/image%20%28158%29.png)
 
 Since you copied the Driver directories into WinPE\Drivers, you will be prompted to select Drivers to apply to WinPE. Select the proper ones \([and yes, you can add Wireless support](https://www.scconfigmgr.com/2018/03/06/build-a-winpe-with-wireless-support/)\)
 
-![](../../../.gitbook/assets/image%20%28128%29.png)
+![](../../../.gitbook/assets/image%20%28129%29.png)
 
 ## New-OSBuild
 
 Now you can execute your Task and the Drivers will be applied automatically, or you can add these as a [Template](../../docs/guides/templates.md) and these will be applied depending on where you save your Template
 
-![](../../../.gitbook/assets/image%20%2845%29.png)
+![](../../../.gitbook/assets/image%20%2846%29.png)
 
 **During the WinPE processing, the Drivers will be added to Windows Setup \(WinSE\), Windows PE \(WinPE\), and in Windows Recovery Environment \(WinRE\) automatically. So no more not being able to connect to the network when you need to do a Repair**
 
-![](../../../.gitbook/assets/image%20%28242%29.png)
+![](../../../.gitbook/assets/image%20%28244%29.png)
 
 **During the OS processing, the Drivers that were selected will be automatically added as well**
 
-![](../../../.gitbook/assets/image%20%28168%29.png)
+![](../../../.gitbook/assets/image%20%28169%29.png)
 
 ## Summary
 
