@@ -8,7 +8,7 @@ Packages is a Recursive File Structure Content Directory.  This means that **OSD
 
 In the example below, I have added the Windows Server 2016 RSAT Package which can be added to my Windows 10 OSBuilds
 
-![](../../../../.gitbook/assets/image%20%2871%29.png)
+![](../../../../.gitbook/assets/image%20%2876%29.png)
 
 
 

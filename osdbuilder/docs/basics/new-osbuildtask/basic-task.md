@@ -22,25 +22,25 @@ New-OSBuildTask -TaskName "Reference Image Windows 10 x64 1809" -CustomName "Ref
 
 You will be prompted to elect an **OSMedia** to use for creating the **OSBuild**
 
-![](../../../../.gitbook/assets/image%20%28182%29.png)
+![](../../../../.gitbook/assets/image%20%28195%29.png)
 
 After selecting an **OSMedia**, the selected **OSMedia** details will be displayed
 
-![](../../../../.gitbook/assets/image%20%2841%29.png)
+![](../../../../.gitbook/assets/image%20%2844%29.png)
 
 If no configuration **Parameters** have been used, and you don't have existing **Content**, you will see some reminders and warnings
 
-![](../../../../.gitbook/assets/image%20%28123%29.png)
+![](../../../../.gitbook/assets/image%20%28130%29.png)
 
 And finally the Task will be completed with absolutely nothing of real importance
 
-![](../../../../.gitbook/assets/image%20%28254%29.png)
+![](../../../../.gitbook/assets/image%20%28269%29.png)
 
 ## Task JSON
 
 The **Task** configuration will be saved as a **JSON** in **&lt;OSDBuilder Home&gt;\Tasks**
 
-![](../../../../.gitbook/assets/image%20%2869%29.png)
+![](../../../../.gitbook/assets/image%20%2874%29.png)
 
 
 
