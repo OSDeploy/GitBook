@@ -20,9 +20,19 @@ This guide is split up into multiple parts, as it is quite detailed and lengthy.
 
 {% page-ref page="multi-lang-requirements.md" %}
 
+{% page-ref page="osmedia.md" %}
+
 {% page-ref page="multi-lang-osbuild-task.md" %}
 
+{% page-ref page="osdbuild-task-winpe.md" %}
+
 {% page-ref page="osbuild.md" %}
+
+{% page-ref page="osbuild-test.md" %}
+
+{% page-ref page="osbuild-multilang.md" %}
+
+{% page-ref page="osbuild-multilang-test.md" %}
 
 ## Language Resources
 
