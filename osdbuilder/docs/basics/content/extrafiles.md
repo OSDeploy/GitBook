@@ -10,7 +10,7 @@ ExtraFiles Content must be organized in directories.  The name should contain in
 
 Directories are selected in a **`New-OSBuildTask`** and added to the Operating System
 
-![](../../../../.gitbook/assets/image%20%28115%29.png)
+![](../../../../.gitbook/assets/image%20%28121%29.png)
 
 ## Child Directories
 

@@ -78,6 +78,7 @@
       * [OSBuild Task](osdbuilder/docs/guides/windows-multilang/multi-lang-osbuild-task.md)
       * [OSDBuild Task WinPE](osdbuilder/docs/guides/windows-multilang/osdbuild-task-winpe.md)
       * [OSBuild](osdbuilder/docs/guides/windows-multilang/osbuild.md)
+      * [OSBuild Test](osdbuilder/docs/guides/windows-multilang/osbuild-test.md)
   * [Functions](osdbuilder/docs/functions/README.md)
     * [Get-OSDBuilder](osdbuilder/docs/functions/get-osdbuilder.md)
     * [Get-DownOSDBuilder](osdbuilder/docs/functions/get-downosdbuilder.md)
