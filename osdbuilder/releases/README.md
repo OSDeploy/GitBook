@@ -33,6 +33,12 @@
 
 {% page-ref page="../docs/basics/content/dart.md" %}
 
+## 19.4.9 \(April 9, 2019\)
+
+{% hint style="success" %}
+**Patch Tuesday Updates! \(no other changes\)**
+{% endhint %}
+
 ## 19.4.3 \(April 3, 2019\)
 
 * OSBuild Merged Last Run Task is saved in the OSMedia directory

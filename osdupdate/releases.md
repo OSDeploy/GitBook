@@ -1,5 +1,11 @@
 # Releases
 
+## 19.4.9 \(April 9, 2019\)
+
+{% hint style="success" %}
+**Patch Tuesday Updates! \(no other changes\)**
+{% endhint %}
+
 ## 19.4.2 \(April 2, 2019\)
 
 {% hint style="info" %}
@@ -28,9 +34,9 @@ Thanks for [**Kyle Baker** ](https://twitter.com/kbaker)for being the most impat
 **Full documentation expected in the next day or so.  The screenshot below explains why Get-Down is being used \(makes things easier\)**
 {% endhint %}
 
-![](../.gitbook/assets/image%20%28176%29.png)
+![](../.gitbook/assets/image%20%28186%29.png)
 
-![](../.gitbook/assets/image%20%2888%29.png)
+![](../.gitbook/assets/image%20%2895%29.png)
 
 ## 19.3.12 \(March 12, 2019\) Patch Tuesday
 

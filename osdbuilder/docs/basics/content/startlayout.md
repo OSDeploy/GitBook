@@ -8,7 +8,7 @@ StartLayout is a Root File \*.xml Structure Content Directory.  This means that 
 
 In the example below, a Start Layout file is placed in Content\StartLayout
 
-![](../../../../.gitbook/assets/image%20%28187%29.png)
+![](../../../../.gitbook/assets/image%20%28198%29.png)
 
 
 

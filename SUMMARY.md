@@ -2,6 +2,8 @@
 
 * [OSDeploy Home](README.md)
 * [Blog](blog/README.md)
+  * [2019-04](blog/2019-04/README.md)
+    * [Windows 10 Upgrade MultiLang \(Uno\)](blog/2019-04/windows-10-upgrade-multi-lang-uno.md)
   * [2019-02](blog/2019-02/README.md)
     * [Offline Servicing vs Reference Image](blog/2019-02/offline-servicing-vs-reference-image.md)
   * [Create WinPE.wim from Boot.wim or WinRE.wim](blog/create-winpe.wim-from-boot.wim-or-winre.wim.md)
@@ -69,6 +71,13 @@
     * [Windows 7 SP1](osdbuilder/docs/legacy-operating-systems/windows-7-sp1/README.md)
       * [Build and Capture](osdbuilder/docs/legacy-operating-systems/windows-7-sp1/build-and-capture.md)
     * [Windows Server 2012 R2](osdbuilder/docs/legacy-operating-systems/windows-server-2012-r2.md)
+  * [Guides](osdbuilder/docs/guides/README.md)
+    * [Windows MultiLang](osdbuilder/docs/guides/windows-multilang/README.md)
+      * [Requirements](osdbuilder/docs/guides/windows-multilang/multi-lang-requirements.md)
+      * [OSMedia](osdbuilder/docs/guides/windows-multilang/osmedia.md)
+      * [OSBuild Task](osdbuilder/docs/guides/windows-multilang/multi-lang-osbuild-task.md)
+      * [OSDBuild Task WinPE](osdbuilder/docs/guides/windows-multilang/osdbuild-task-winpe.md)
+      * [OSBuild](osdbuilder/docs/guides/windows-multilang/osbuild.md)
   * [Functions](osdbuilder/docs/functions/README.md)
     * [Get-OSDBuilder](osdbuilder/docs/functions/get-osdbuilder.md)
     * [Get-DownOSDBuilder](osdbuilder/docs/functions/get-downosdbuilder.md)
@@ -88,9 +97,6 @@
       * [New-PEBuildTask](osdbuilder/docs/functions/pebuild/new-pebuildtask.md)
       * [New-PEBuild](osdbuilder/docs/functions/pebuild/new-pebuild.md)
       * [Get-PEBuilds](osdbuilder/docs/functions/pebuild/get-pebuilds.md)
-* [Guides](osdbuilder/guides/README.md)
-  * [Language](osdbuilder/guides/language/README.md)
-    * [OSBuild Multi-Language](osdbuilder/guides/language/osbuild-multi-language.md)
 
 ## OSDUpdate
 

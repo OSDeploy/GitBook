@@ -45,27 +45,27 @@ The VHD will be configured as a single MBR Partition
 
 If the **`FullName`** \(Full Path\) parameter is not specified, you will be prompted to select an **OSMedia** or **OSBuild**
 
-![](../../../../.gitbook/assets/image%20%2896%29.png)
+![](../../../../.gitbook/assets/image%20%28103%29.png)
 
 The Partitions will be created and the Install.wim will be applied to the OS
 
-![](../../../../.gitbook/assets/image%20%28224%29.png)
+![](../../../../.gitbook/assets/image%20%28239%29.png)
 
 The entire process should take a few minutes to complete
 
-![](../../../../.gitbook/assets/image%20%28102%29.png)
+![](../../../../.gitbook/assets/image%20%28110%29.png)
 
 And the VHD or VHDX will be saved in a VHD subdirectory of your selected OSMedia or OSBuild
 
-![](../../../../.gitbook/assets/image%20%28212%29.png)
+![](../../../../.gitbook/assets/image%20%28224%29.png)
 
 ## Testing
 
 You should be able to use the VHD in Hyper-V with minimal effort
 
-![](../../../../.gitbook/assets/image%20%2814%29.png)
+![](../../../../.gitbook/assets/image%20%2817%29.png)
 
-![](../../../../.gitbook/assets/image%20%28183%29.png)
+![](../../../../.gitbook/assets/image%20%28194%29.png)
 
 ## Thanks
 
