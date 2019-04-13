@@ -4,19 +4,21 @@
 
 {% page-ref page="../docs/basics/installation.md" %}
 
-## UNRELEASED 19.4.11 \(April 11, 2019\) HASMUG Edition
+## 19.4.12 \(April 12, 2019\) 0daydorpher Edition
 
-{% hint style="danger" %}
-**This version will be released on April 11, 2019 @ HASMUG**
-{% endhint %}
+**Update-OSMedia** and **New-OSBuild** were not renaming the temporary "buildxxxx" directories upon completion.  Thanks [@0daydorpher](https://twitter.com/0daydorpher)
+
+## 19.4.11 \(April 11, 2019\) HASMUG Edition
 
 {% embed url="http://www.hasmug.com/event/hasmug-2019-april-11th/" %}
 
+* **Windows 10 1903 Updates**
 * **Get-OSDBuilder**
   * Content Directories are no longer presented in standard list
 * **New-OSBuildTask**
   * Optionally create a Template
   * Edit an existing OSBuild Task
+  * Parameters are used to select Task Items
 * **Content Directory Changes**
   * Content\ADK replaces Content\WinPE\ADK
   * Content\DaRT replaces Content\WinPE\DaRT
@@ -28,6 +30,8 @@
   * Content\IsoExtract\Windows 10 1809 Language
   * Content\IsoExtract\Windows Server 2019 1809 FOD x64
   * Content\IsoExtract\Windows Server 2019 1809 Language
+
+{% page-ref page="../docs/guides/windows-multilang/" %}
 
 {% page-ref page="../docs/basics/content/adk.md" %}
 

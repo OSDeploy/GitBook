@@ -10,7 +10,7 @@ ExtraFiles Content must be organized in directories.  The name should contain in
 
 Directories are selected in a **`New-OSBuildTask`** and added to the Operating System
 
-![](../../../../.gitbook/assets/image%20%28128%29.png)
+![](../../../../.gitbook/assets/image%20%28134%29.png)
 
 ## Child Directories
 
@@ -19,5 +19,5 @@ Each individual directory that will be added to an Operating System must contain
 In the example below I have a file at **C:\OSDBuilder\Content\ExtraFiles\Windows 10 Wallpaper\Windows\Web\Wallpaper\Windows\img0.jpg**  
 This file will be copied to **C:\Windows\Web\Wallpaper\Windows\img0.jpg** in the mounted Windows Image
 
-![](../../../../.gitbook/assets/image%20%284%29.png)
+![](../../../../.gitbook/assets/image%20%286%29.png)
 

@@ -1,7 +1,7 @@
 # Quick Start
 
 {% hint style="info" %}
-**The Quick Start only details how to create an Updated OS.  For Customizations, you need to read further in the documentation**
+**The Quick Start only details how to create an Updated OS.  To create a custom Build, you need to read through the Basics**
 {% endhint %}
 
 ## 1. Install OSDBuilder \(Clean Install\)
@@ -34,7 +34,7 @@ Import-OSMedia
 > ### Processing Time:  20-120 Minutes
 
 ```text
-Update-OSMedia -DownloadUpdates -Execute
+Update-OSMedia -Download -Execute
 ```
 
 {% page-ref page="basics/update-osmedia/" %}

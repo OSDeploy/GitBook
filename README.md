@@ -20,6 +20,10 @@ Feel free to reach out to me if you have any questions.  I'm most active on Twit
 
 ## Speaking Events
 
+### HASMUG \(Houston, Texas\) - April 11, 2019
+
+{% file src=".gitbook/assets/19.11.4-hasmug.pptx" caption="Updating Windows and Office in 6 Minutes of Touch Time" %}
+
 #### SASMUG \(San Antonio, Texas\) - January 31, 2019
 
 {% file src=".gitbook/assets/190131-sasmug.pptx" caption="SASMUG - January 31, 2019" %}

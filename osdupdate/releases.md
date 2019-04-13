@@ -34,9 +34,9 @@ Thanks for [**Kyle Baker** ](https://twitter.com/kbaker)for being the most impat
 **Full documentation expected in the next day or so.  The screenshot below explains why Get-Down is being used \(makes things easier\)**
 {% endhint %}
 
-![](../.gitbook/assets/image%20%28209%29.png)
+![](../.gitbook/assets/image%20%28221%29.png)
 
-![](../.gitbook/assets/image%20%28106%29.png)
+![](../.gitbook/assets/image%20%28111%29.png)
 
 ## 19.3.12 \(March 12, 2019\) Patch Tuesday
 

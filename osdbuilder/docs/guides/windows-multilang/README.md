@@ -24,7 +24,7 @@ This guide is split up into multiple parts, as it is quite detailed and lengthy.
 
 {% page-ref page="multi-lang-osbuild-task.md" %}
 
-{% page-ref page="osdbuild-task-winpe.md" %}
+{% page-ref page="osbuild-task-winpe.md" %}
 
 {% page-ref page="osbuild.md" %}
 

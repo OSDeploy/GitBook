@@ -1,46 +1,76 @@
 # Basic Task
 
-Tasks are created with **`New-OSBuildTask`**.  You must specify a **`TaskName`** \(unique\).  You can optionally specify a **`CustomName`**.  The **`CustomName`** will be given to the output Directory in **OSBuilds**
-
-## Prerequisites
+### Prerequisites
 
 {% page-ref page="../../functions/osmedia/import-osmedia.md" %}
 
 {% page-ref page="../update-osmedia/" %}
 
-## Functions
+### Functions
 
 {% page-ref page="../../functions/osbuild/new-osbuildtask.md" %}
 
 ## **New-OSBuildTask**
 
-Start with the following PowerShell command
+Tasks and Templates are created with the **`New-OSBuildTask`** function.  This can get quite complicated, so let's have a look at it in the PowerShell ISE Command Window.  I have populated the settings that you should start with
+
+![](../../../../.gitbook/assets/image%20%2836%29.png)
+
+### TaskName \(Mandatory\)
+
+You must specify a **`TaskName`** as this is a Mandatory parameter.  This will be used to name the Task JSON filename
+
+{% hint style="info" %}
+**To edit a Task, you must use the same TaskName and SaveAs parameters**
+{% endhint %}
+
+## CustomName
+
+You can optionally specify a **`CustomName`**.  The **`CustomName`** will be given to the output Directory in **OSBuilds** when **`New-OSBuild`** completes
+
+## **Run Command**
+
+When you are ready, run the PowerShell command
 
 ```text
-New-OSBuildTask -TaskName "Reference Image Windows 10 x64 1809" -CustomName "Reference Image Windows 10 x64 1809"
+New-OSBuildTask -TaskName "Win10 x64 1809 DEV" -CustomName "Win10 x64 1809 DEV"
 ```
 
-You will be prompted to elect an **OSMedia** to use for creating the **OSBuild**
+You will be prompted to elect an **OSMedia** to use for creating the **OSBuild**.  Only the LATEST **OSMedia** will be shown.  After selecting an **OSMedia**, the selected **OSMedia** details will be displayed
 
-![](../../../../.gitbook/assets/image%20%28195%29.png)
+![](../../../../.gitbook/assets/image%20%282%29.png)
 
-After selecting an **OSMedia**, the selected **OSMedia** details will be displayed
+Since no real configuration **Parameters** were used, there won't be much of anything else displayed
 
-![](../../../../.gitbook/assets/image%20%2844%29.png)
-
-If no configuration **Parameters** have been used, and you don't have existing **Content**, you will see some reminders and warnings
-
-![](../../../../.gitbook/assets/image%20%28130%29.png)
+![](../../../../.gitbook/assets/image%20%28148%29.png)
 
 And finally the Task will be completed with absolutely nothing of real importance
 
-![](../../../../.gitbook/assets/image%20%28269%29.png)
+![](../../../../.gitbook/assets/image%20%28254%29.png)
 
 ## Task JSON
 
-The **Task** configuration will be saved as a **JSON** in **&lt;OSDBuilder Home&gt;\Tasks**
+The **Task** configuration will be saved as a **JSON** in **&lt;OSDBuilder Home&gt;\Tasks**.  My **OSDBuilder Home** is **D:\OSDBuilder\Demo**
 
-![](../../../../.gitbook/assets/image%20%2874%29.png)
+![](../../../../.gitbook/assets/image%20%28161%29.png)
+
+## Edit a Task
+
+{% hint style="info" %}
+**To edit a Task, you must use the same TaskName and SaveAs parameters**
+{% endhint %}
+
+When you edit a Task, you are adding to it.  You must use the same **TaskName** \(and **SaveAs**\) that was previously used
+
+Use the following Command without specifying the **`CustomName`** parameter
+
+```text
+New-OSBuildTask -TaskName "Win10 x64 1809 DEV"
+```
+
+In this case, a Warning will be presented letting you know that the Task will be edited.  Additionally, the **`CustomName`**  value existed previously, and is retained
+
+![](../../../../.gitbook/assets/image%20%28218%29.png)
 
 
 

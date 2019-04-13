@@ -24,19 +24,19 @@ The remainder of this document will detail the Workaround, and it has a simple p
 
 In this case, I am starting with Windows 10 1803 fr-FR and no Language Packs installed
 
-![](../../.gitbook/assets/image%20%28293%29.png)
+![](../../.gitbook/assets/image%20%28313%29.png)
 
 I've installed Notepad++ as a control to make sure that this is an Upgrade and not a Refresh
 
-![](../../.gitbook/assets/image%20%28215%29.png)
+![](../../.gitbook/assets/image%20%28227%29.png)
 
 I'll start Windows 10 Setup en-US.  I have disabled the Network on this VM to ensure I don't get any random interference
 
-![](../../.gitbook/assets/image%20%2861%29.png)
+![](../../.gitbook/assets/image%20%2865%29.png)
 
 Failure.  Unfortunately this won't work because the Default System UI Language \(fr-FR\) does not match the Operating System I am trying to install \(en-US\)
 
-![](../../.gitbook/assets/image%20%286%29.png)
+![](../../.gitbook/assets/image%20%288%29.png)
 
 ## Windows 10 en-GB
 
@@ -46,17 +46,17 @@ Let's switch gears to an English installation ... same problem, we can't upgrade
 HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Nls\Language
 ```
 
-![](../../.gitbook/assets/image%20%28119%29.png)
+![](../../.gitbook/assets/image%20%28124%29.png)
 
 And now I'll be able to upgrade Windows en-GB to Windows en-US
 
-![](../../.gitbook/assets/image%20%283%29.png)
+![](../../.gitbook/assets/image%20%285%29.png)
 
-![](../../.gitbook/assets/image%20%2882%29.png)
+![](../../.gitbook/assets/image%20%2887%29.png)
 
 Upgrading ...
 
-![](../../.gitbook/assets/image%20%28138%29.png)
+![](../../.gitbook/assets/image%20%28145%29.png)
 
 ## Conclusion
 

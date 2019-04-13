@@ -10,5 +10,5 @@
 
 **OSDBuilder** gets its Windows Update logic by using [**OSDUpdate Catalogs**](../../../../osdupdate/home.md).  These Catalogs are contained within the **OSDBuilder** PowerShell Module.  When new Windows Updates released, new Catalogs will be generated and an updated **OSDBuilder** PowerShell Module will be released
 
-![](../../../../.gitbook/assets/image%20%2854%29.png)
+![](../../../../.gitbook/assets/image%20%2858%29.png)
 
