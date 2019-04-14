@@ -1,6 +1,8 @@
-# Merging Tasks
+# Manual Editing
 
-Sometimes you find that you left a setting out of an **OSBuild Task**.  While its not possible to edit an **OSBuild Task** in **OSDBuilder**, you can certainly do this on your own in any text editor, but I prefer to use Task Templates
+You can manually edit a Task if you can understand JSON
 
 ![](../../../../.gitbook/assets/image%20%2849%29.png)
+
+
 

@@ -8,7 +8,7 @@ So how do you solve the problem of upgrading Windows 10 in an organization with 
 
 The answer is so stupid simple, and takes about 10 minutes of time
 
-![](../../../../.gitbook/assets/image%20%28122%29.png)
+![](../../../../.gitbook/assets/image%20%28124%29.png)
 
 ## New-OSBuildMultiLang
 
@@ -26,11 +26,11 @@ When prompted, select an OSBuild.  Only OSBuilds with Language Packs installed w
 
 If you read the warning, you will understand how this works.  A copy of the OSBuild will be made with the CustomName and MultiLang appended at the end.  The install.wim will be exported to Temp, and then mounted, so this is non-destructive to your original OSBuild
 
-![](../../../../.gitbook/assets/image%20%28234%29.png)
+![](../../../../.gitbook/assets/image%20%28241%29.png)
 
 Then each Language Pack will be set to the defaults, and a new Index will be added to the Install.wim
 
-![](../../../../.gitbook/assets/image%20%28194%29.png)
+![](../../../../.gitbook/assets/image%20%28199%29.png)
 
 The Base Language by default is already Index 1, in my case, en-US
 
@@ -38,7 +38,7 @@ The Base Language by default is already Index 1, in my case, en-US
 
 And finally everything will complete.  The entire process takes about 2 minutes per Language \(not including the Base Language as this is already done\).  In my example with 5 total Languages, it completed in a little over 7 minutes.
 
-![](../../../../.gitbook/assets/image%20%28162%29.png)
+![](../../../../.gitbook/assets/image%20%28166%29.png)
 
 ## Image Details
 
@@ -48,7 +48,7 @@ The size difference is about 100MB
 
 Get-WindowsImage shows the 5 indexes
 
-![](../../../../.gitbook/assets/image%20%28188%29.png)
+![](../../../../.gitbook/assets/image%20%28193%29.png)
 
 ## MDT and SCCM ConfigMgr
 

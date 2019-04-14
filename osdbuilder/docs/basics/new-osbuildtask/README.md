@@ -16,5 +16,17 @@ To create an **OSBuild**, which is a customized Windows OS, you must first creat
 
 {% page-ref page="../../functions/osbuild/new-osbuildtask.md" %}
 
+## Usage
 
+{% page-ref page="task-basics.md" %}
+
+{% page-ref page="basic-parameters.md" %}
+
+{% page-ref page="merging-tasks.md" %}
+
+{% page-ref page="templates.md" %}
+
+{% page-ref page="content-parameters.md" %}
+
+{% page-ref page="language-parameters.md" %}
 

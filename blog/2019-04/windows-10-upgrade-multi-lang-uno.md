@@ -24,11 +24,11 @@ The remainder of this document will detail the Workaround, and it has a simple p
 
 In this case, I am starting with Windows 10 1803 fr-FR and no Language Packs installed
 
-![](../../.gitbook/assets/image%20%28313%29.png)
+![](../../.gitbook/assets/image%20%28320%29.png)
 
 I've installed Notepad++ as a control to make sure that this is an Upgrade and not a Refresh
 
-![](../../.gitbook/assets/image%20%28227%29.png)
+![](../../.gitbook/assets/image%20%28234%29.png)
 
 I'll start Windows 10 Setup en-US.  I have disabled the Network on this VM to ensure I don't get any random interference
 
@@ -46,7 +46,7 @@ Let's switch gears to an English installation ... same problem, we can't upgrade
 HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Nls\Language
 ```
 
-![](../../.gitbook/assets/image%20%28124%29.png)
+![](../../.gitbook/assets/image%20%28126%29.png)
 
 And now I'll be able to upgrade Windows en-GB to Windows en-US
 
@@ -56,7 +56,7 @@ And now I'll be able to upgrade Windows en-GB to Windows en-US
 
 Upgrading ...
 
-![](../../.gitbook/assets/image%20%28145%29.png)
+![](../../.gitbook/assets/image%20%28148%29.png)
 
 ## Conclusion
 
