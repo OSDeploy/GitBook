@@ -4,6 +4,12 @@
 
 {% page-ref page="../docs/basics/installation.md" %}
 
+## 19.4.14 \(April 14, 2019\)
+
+* **New-OSBuildTask** - Use SaveAs parameter to create a Template \(replaces the Kind Child Mandatory parameter that made zero sense\)
+
+{% page-ref page="../docs/basics/new-osbuildtask/" %}
+
 ## 19.4.12 \(April 12, 2019\) 0daydorpher Edition
 
 **Update-OSMedia** and **New-OSBuild** were not renaming the temporary "buildxxxx" directories upon completion.  Thanks [@0daydorpher](https://twitter.com/0daydorpher)
