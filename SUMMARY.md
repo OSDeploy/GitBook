@@ -104,8 +104,6 @@
       * [New-PEBuild](osdbuilder/docs/functions/pebuild/new-pebuild.md)
       * [Get-PEBuilds](osdbuilder/docs/functions/pebuild/get-pebuilds.md)
 
-## OSDUpdate
-
 * [OSDUpdate Home](osdupdate/home.md)
 * [Releases](osdupdate/releases.md)
 * [Docs](osdupdate/docs/README.md)
