@@ -26,7 +26,7 @@ When prompted, select an OSBuild.  Only OSBuilds with Language Packs installed w
 
 If you read the warning, you will understand how this works.  A copy of the OSBuild will be made with the CustomName and MultiLang appended at the end.  The install.wim will be exported to Temp, and then mounted, so this is non-destructive to your original OSBuild
 
-![](../../../../.gitbook/assets/image%20%28266%29.png)
+![](../../../../.gitbook/assets/image%20%28268%29.png)
 
 Then each Language Pack will be set to the defaults, and a new Index will be added to the Install.wim
 

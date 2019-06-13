@@ -54,13 +54,13 @@ You can select multiple **Windows Packages** to remove in the **OSBuild**.  For 
 
 **Windows Optional Features** can be disabled.  This again is something I typically leave alone and press cancel
 
-![](../../../../.gitbook/assets/image%20%28275%29.png)
+![](../../../../.gitbook/assets/image%20%28277%29.png)
 
 ### EnableFeature
 
 You can use this parameter to Enable Windows Optional Features.  In this case, I am going to enable Hyper-V
 
-![](../../../../.gitbook/assets/image%20%28307%29.png)
+![](../../../../.gitbook/assets/image%20%28309%29.png)
 
 ## Console Output
 
@@ -109,11 +109,11 @@ New-OSBuildTask -TaskName "Win10 x64 1809 DEV" -RemoveAppx
 
 When prompted to select Appx Provisioned Packages, you will see the previously removed items.  Additionally, they will not appear in the GridView selection
 
-![](../../../../.gitbook/assets/image%20%28344%29.png)
+![](../../../../.gitbook/assets/image%20%28346%29.png)
 
 It is obviously which are the new selections in the Console output
 
-![](../../../../.gitbook/assets/image%20%28271%29.png)
+![](../../../../.gitbook/assets/image%20%28273%29.png)
 
 I'll run the command one additional time to show the difference in the Console output and the GridView selection
 

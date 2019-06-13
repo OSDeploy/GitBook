@@ -14,17 +14,17 @@ In this example, I will be Servicing Windows 10 Enterprise x64 1809.  The Instal
 
 The Catalog will be saved in the Sources directory with the Install.wim.  This file can be used for future builds with Windows System Image Manager so it doesn't have to mount the Install.wim
 
-![](../../../../../.gitbook/assets/image%20%28353%29.png)
+![](../../../../../.gitbook/assets/image%20%28355%29.png)
 
 When complete, Packages will contain detailed information about the Windows Image
 
-![](../../../../../.gitbook/assets/image%20%28292%29.png)
+![](../../../../../.gitbook/assets/image%20%28294%29.png)
 
 ## Answer File
 
 Creaate a new Answer File
 
-![](../../../../../.gitbook/assets/image%20%28287%29.png)
+![](../../../../../.gitbook/assets/image%20%28289%29.png)
 
 ## Add Features
 
@@ -46,7 +46,7 @@ When complete, press the Save button on the toolbar to create the Unattend XML. 
 
 Keep an eye out for any Validation Errors.  This will cause the Unattend XML to fail
 
-![](../../../../../.gitbook/assets/image%20%28278%29.png)
+![](../../../../../.gitbook/assets/image%20%28280%29.png)
 
 The Unattend XML is now ready to be added to a **`New-OSBuildTask`**
 

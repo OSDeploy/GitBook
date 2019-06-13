@@ -25,7 +25,7 @@ What happens next is this ...
 * **Supported PNPIDs are exported from the INFs and indexed in an XML**
 * **Driver directory is converted to a CAB**
 
-![](.gitbook/assets/image%20%28301%29.png)
+![](.gitbook/assets/image%20%28303%29.png)
 
 ## Why use Cabs?
 
@@ -41,7 +41,7 @@ In table below compares the latest Intel DCH Drivers in the three different form
 | **Zip** | **312MB** |
 | **Expanded** | **978MB** |
 
-![](.gitbook/assets/image%20%28329%29.png)
+![](.gitbook/assets/image%20%28331%29.png)
 
 ## Deployment Process
 

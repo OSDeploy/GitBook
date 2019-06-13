@@ -16,7 +16,7 @@ And let it cook for a bit
 
 When its finished downloading, you will have a Catalog and Script in the directory
 
-![](../../../.gitbook/assets/image%20%28331%29.png)
+![](../../../.gitbook/assets/image%20%28333%29.png)
 
 {% hint style="danger" %}
 **Don't be smart and try to mix different content in a Package.  Yes it will probably work \(because I knew you'd try it out\), but I don't want to troubleshoot or invest time on this approach if something flakes out**

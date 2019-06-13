@@ -8,7 +8,7 @@ description: OSDUpdate 19.6.14+
 
 You probably have existing updates in the Media Updates directory, delete those \(not your custom MSP\) 
 
-![](../../../.gitbook/assets/image%20%28248%29.png)
+![](../../../.gitbook/assets/image%20%28250%29.png)
 
 ## New Application: OSDUpdate Package
 
@@ -32,7 +32,7 @@ PowerShell.exe -ExecutionPolicy Bypass -File ".\OSDUpdate-Office.ps1"
 
 Create a new Application Bundle with Microsoft Office 2016 and OSDUpdate
 
-![](../../../.gitbook/assets/image%20%28320%29.png)
+![](../../../.gitbook/assets/image%20%28322%29.png)
 
 **Now adjust your Task Sequence accordingly!**
 

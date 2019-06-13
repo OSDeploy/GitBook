@@ -8,7 +8,7 @@
 
 This simple command will get you started.  When using **Get-OSDBuilder** for the first time, it will automatically select **C:\OSDBuilder** as the **OSDBuilder Home.**  Directories will be automatically created when they are needed
 
-![](../../../.gitbook/assets/image%20%28293%29.png)
+![](../../../.gitbook/assets/image%20%28295%29.png)
 
 ## Get-OSDBuilder -SetPath C:\OSD
 

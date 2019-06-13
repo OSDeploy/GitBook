@@ -14,7 +14,7 @@ When you run **`Update-OSMedia`** without any parameters, and select an existing
 
 When you add the **`Download`** parameter, the required updates will be downloaded 
 
-![](../../../../.gitbook/assets/image%20%28277%29.png)
+![](../../../../.gitbook/assets/image%20%28279%29.png)
 
 ## Update-OSMedia \(Ready\)
 

@@ -22,7 +22,7 @@ Get-DownOSDBuilder -MediaESD GridView
 
 You will see that there are two different types per language available \(Business and Consumer\).  Also note that OSDBuilder only contains Feature Updates for Windows 10 1809
 
-![](../../../../.gitbook/assets/image%20%28290%29.png)
+![](../../../../.gitbook/assets/image%20%28292%29.png)
 
 ## Downloading and Converting Feature Updates
 
@@ -34,7 +34,7 @@ Get-DownOSDBuilder -MediaESD Download
 
 Select one or more ESD files to download and press OK.  Keep in mind this will take quite a bit of time to download
 
-![](../../../../.gitbook/assets/image%20%28316%29.png)
+![](../../../../.gitbook/assets/image%20%28318%29.png)
 
 The ESD file will be downloaded to **OSDBuilder\Media** using BITS Transfer.  The nice thing about BITS Transfer is that you do get to see progress of the download
 

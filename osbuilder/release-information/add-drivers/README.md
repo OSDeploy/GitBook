@@ -32,7 +32,7 @@ Expand the Zip and give the directories a friendly name
 
 Checking the Intel Wireless Driver Directory, everything is perfect. THIS is the format that we need the drivers in. There is no work to do here
 
-![](../../../.gitbook/assets/image%20%28255%29.png)
+![](../../../.gitbook/assets/image%20%28257%29.png)
 
 ## WinPE Drivers
 
@@ -58,11 +58,11 @@ Now you can execute your Task and the Drivers will be applied automatically, or 
 
 **During the WinPE processing, the Drivers will be added to Windows Setup \(WinSE\), Windows PE \(WinPE\), and in Windows Recovery Environment \(WinRE\) automatically. So no more not being able to connect to the network when you need to do a Repair**
 
-![](../../../.gitbook/assets/image%20%28354%29.png)
+![](../../../.gitbook/assets/image%20%28356%29.png)
 
 **During the OS processing, the Drivers that were selected will be automatically added as well**
 
-![](../../../.gitbook/assets/image%20%28245%29.png)
+![](../../../.gitbook/assets/image%20%28247%29.png)
 
 ## Summary
 

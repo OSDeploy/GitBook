@@ -10,11 +10,11 @@ This boots just like the last OSBuild, select a WinSE Language
 
 And then a Windows installation
 
-![](../../../../.gitbook/assets/image%20%28323%29.png)
+![](../../../../.gitbook/assets/image%20%28325%29.png)
 
 No comment
 
-![](../../../../.gitbook/assets/image%20%28297%29.png)
+![](../../../../.gitbook/assets/image%20%28299%29.png)
 
 Here is where things change.  I selected English \(United States\) but since this Language is in all Indexes, I am presented with a selection.  The Index without the Language is the one I should select because that is the one with en-US as the System UI
 
@@ -32,7 +32,7 @@ Again, select the Image without the Language as this will be the French System U
 
 Windows Upgrade from the ISO is similar, I can select any Image Index as they all contain fr-FR
 
-![](../../../../.gitbook/assets/image%20%28343%29.png)
+![](../../../../.gitbook/assets/image%20%28345%29.png)
 
 But selecting Windows 10 Enterprise fr-FR is the only one that will let me perform an Upgrade
 

@@ -46,7 +46,7 @@ Since no real configuration **Parameters** were used, there won't be much of any
 
 And finally the Task will be completed with absolutely nothing of real importance
 
-![](../../../../.gitbook/assets/image%20%28286%29.png)
+![](../../../../.gitbook/assets/image%20%28288%29.png)
 
 ## Task JSON
 
@@ -70,7 +70,7 @@ New-OSBuildTask -TaskName "Win10 x64 1809 DEV"
 
 In this case, a Warning will be presented letting you know that the Task will be edited.  Additionally, the **`CustomName`**  value existed previously, and is retained
 
-![](../../../../.gitbook/assets/image%20%28247%29.png)
+![](../../../../.gitbook/assets/image%20%28249%29.png)
 
 
 

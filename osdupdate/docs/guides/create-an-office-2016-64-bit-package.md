@@ -16,7 +16,7 @@ This will download everything I need for a default Update of Office 2016 64-Bit
 
 Including a lovely installation script :\)
 
-![](../../../.gitbook/assets/image%20%28252%29.png)
+![](../../../.gitbook/assets/image%20%28254%29.png)
 
 
 

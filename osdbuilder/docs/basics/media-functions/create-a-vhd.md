@@ -49,7 +49,7 @@ If the **`FullName`** \(Full Path\) parameter is not specified, you will be prom
 
 The Partitions will be created and the Install.wim will be applied to the OS
 
-![](../../../../.gitbook/assets/image%20%28315%29.png)
+![](../../../../.gitbook/assets/image%20%28317%29.png)
 
 The entire process should take a few minutes to complete
 
@@ -57,7 +57,7 @@ The entire process should take a few minutes to complete
 
 And the VHD or VHDX will be saved in a VHD subdirectory of your selected OSMedia or OSBuild
 
-![](../../../../.gitbook/assets/image%20%28298%29.png)
+![](../../../../.gitbook/assets/image%20%28300%29.png)
 
 ## Testing
 
@@ -65,7 +65,7 @@ You should be able to use the VHD in Hyper-V with minimal effort
 
 ![](../../../../.gitbook/assets/image%20%2824%29.png)
 
-![](../../../../.gitbook/assets/image%20%28263%29.png)
+![](../../../../.gitbook/assets/image%20%28265%29.png)
 
 ## Thanks
 
