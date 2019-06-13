@@ -12,15 +12,15 @@ Here is your link for Intel Bluetooth Drivers
 
 Same deal as before, get the latest
 
-![](../../../../../.gitbook/assets/image%20%2874%29.png)
+![](../../../../../.gitbook/assets/image%20%2875%29.png)
 
 Get the Zips that you need
 
-![](../../../../../.gitbook/assets/image%20%28266%29.png)
+![](../../../../../.gitbook/assets/image%20%28276%29.png)
 
 Expand the Zips and give it a friendly name, you know the drill
 
-![](../../../../../.gitbook/assets/image%20%28275%29.png)
+![](../../../../../.gitbook/assets/image%20%28285%29.png)
 
 ## 
 
@@ -28,19 +28,19 @@ Expand the Zips and give it a friendly name, you know the drill
 
 These Drivers are NOT going to work.  These are EXE\MSI based, so we need to get these expanded.  Execute the MSI file
 
-![](../../../../../.gitbook/assets/image%20%28134%29.png)
+![](../../../../../.gitbook/assets/image%20%28140%29.png)
 
 And complete the installation
 
-![](../../../../../.gitbook/assets/image%20%28100%29.png)
+![](../../../../../.gitbook/assets/image%20%28103%29.png)
 
 Save these two directories back in your Intel Bluetooth Driver directory in OSBuilder
 
-![](../../../../../.gitbook/assets/image%20%28184%29.png)
+![](../../../../../.gitbook/assets/image%20%28191%29.png)
 
 Like so
 
-![](../../../../../.gitbook/assets/image%20%28286%29.png)
+![](../../../../../.gitbook/assets/image%20%28296%29.png)
 
 {% hint style="warning" %}
 If you need Windows 10 x86 Intel Bluetooth Drivers, you will need to repeat this process on a system with Windows 10 x86

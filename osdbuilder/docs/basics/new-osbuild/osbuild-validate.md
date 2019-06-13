@@ -18,19 +18,19 @@ You should first validate your **OSBuild** by using **New-OSBuild** without any 
 
 The first step is to select an **OSBuild Task** and press OK.  Its important to note that this OSBuild Task was created with a **UBR of 17763.107**
 
-![](../../../../.gitbook/assets/image%20%28270%29.png)
+![](../../../../.gitbook/assets/image%20%28280%29.png)
 
 ### OSBuild Task Information
 
 The OSMedia that was used to create the **OSBuild Task** will be displayed, as well as the **OSBuild Configuration**
 
-![](../../../../.gitbook/assets/image%20%2899%29.png)
+![](../../../../.gitbook/assets/image%20%28102%29.png)
 
 ### Updated Source OSMedia
 
 The problem is that I seem to have an updated **OSMedia** that should be used
 
-![](../../../../.gitbook/assets/image%20%28269%29.png)
+![](../../../../.gitbook/assets/image%20%28279%29.png)
 
 This is not an issue as **OSDBuilder** will automatically select the latest release
 
@@ -38,7 +38,7 @@ This is not an issue as **OSDBuilder** will automatically select the latest rele
 **Use the DontUseNewestMedia parameter if you do not want to use the latest OSMedia**
 {% endhint %}
 
-![](../../../../.gitbook/assets/image%20%28161%29.png)
+![](../../../../.gitbook/assets/image%20%28168%29.png)
 
 ### Task Templates
 
@@ -54,5 +54,5 @@ This is not an issue as **OSDBuilder** will automatically select the latest rele
 
 The remainder of the information relates to **Content Templates** and **Updates**
 
-![](../../../../.gitbook/assets/image%20%28171%29.png)
+![](../../../../.gitbook/assets/image%20%28178%29.png)
 
