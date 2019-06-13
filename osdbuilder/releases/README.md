@@ -4,6 +4,120 @@
 
 {% page-ref page="../docs/basics/installation.md" %}
 
+## 19.6.11 \(June 11, 2019\) Patch Tuesday
+
+Hello friends, here's a quick list of the changes
+
+#### Shortcuts
+
+Open PowerShell and type in OSDBuilder for some quick shortcuts to get the latest OneDrive and download your updates
+
+{% hint style="info" %}
+**You can just type OSDBuilder instead of the full 'Get-OSDBuilder'.  'Get-' is not necessary.  You knew that, right?**
+{% endhint %}
+
+![](../../.gitbook/assets/image%20%2821%29.png)
+
+#### Detailed Execution Time
+
+Functions will start showing more detailed execution times so its easier to track down the proper log.  This is a work in progress and is not 100% complete, especially in PEBuilds
+
+![YYYY-MM-DD-hhmmss](../../.gitbook/assets/image%20%2812%29.png)
+
+#### New Updates
+
+Here are the new updates, no time to test.
+
+```text
+2019-06 Cumulative Update for Windows 10 Version 1607 for x64-based Systems (KB4503267)
+2019-06 Cumulative Update for Windows 10 Version 1607 for x86-based Systems (KB4503267)
+2019-06 Cumulative Update for Windows 10 Version 1703 for x64-based Systems (KB4503279)
+2019-06 Cumulative Update for Windows 10 Version 1703 for x86-based Systems (KB4503279)
+2019-06 Cumulative Update for Windows 10 Version 1709 for x64-based Systems (KB4503284)
+2019-06 Cumulative Update for Windows 10 Version 1709 for x86-based Systems (KB4503284)
+2019-06 Cumulative Update for Windows 10 Version 1803 for x64-based Systems (KB4503286)
+2019-06 Cumulative Update for Windows 10 Version 1803 for x86-based Systems (KB4503286)
+2019-06 Cumulative Update for Windows 10 Version 1809 for x64-based Systems (KB4503327)
+2019-06 Cumulative Update for Windows 10 Version 1809 for x86-based Systems (KB4503327)
+2019-06 Cumulative Update for Windows 10 Version 1903 for x64-based Systems (KB4503293)
+2019-06 Cumulative Update for Windows 10 Version 1903 for x86-based Systems (KB4503293)
+2019-06 Cumulative Update for Windows Server 2016 (1803) for x64-based Systems (KB4503286)
+2019-06 Cumulative Update for Windows Server 2016 for x64-based Systems (KB4503267)
+2019-06 Cumulative Update for Windows Server 2019 for x64-based Systems (KB4503327)
+2019-06 Dynamic Update for Windows 10 Version 1803 for x64-based Systems (KB4503539)
+2019-06 Dynamic Update for Windows 10 Version 1803 for x86-based Systems (KB4503539)
+2019-06 Security Update for Adobe Flash Player for Windows 10 Version 1607 for x64-based Systems (KB4503308)
+2019-06 Security Update for Adobe Flash Player for Windows 10 Version 1607 for x86-based Systems (KB4503308)
+2019-06 Security Update for Adobe Flash Player for Windows 10 Version 1703 for x64-based Systems (KB4503308)
+2019-06 Security Update for Adobe Flash Player for Windows 10 Version 1703 for x86-based Systems (KB4503308)
+2019-06 Security Update for Adobe Flash Player for Windows 10 Version 1709 for x64-based Systems (KB4503308)
+2019-06 Security Update for Adobe Flash Player for Windows 10 Version 1709 for x86-based Systems (KB4503308)
+2019-06 Security Update for Adobe Flash Player for Windows 10 Version 1803 for x64-based Systems (KB4503308)
+2019-06 Security Update for Adobe Flash Player for Windows 10 Version 1803 for x86-based Systems (KB4503308)
+2019-06 Security Update for Adobe Flash Player for Windows 10 Version 1809 for x64-based Systems (KB4503308)
+2019-06 Security Update for Adobe Flash Player for Windows 10 Version 1809 for x86-based Systems (KB4503308)
+2019-06 Security Update for Adobe Flash Player for Windows 10 Version 1903 for x64-based Systems (KB4503308)
+2019-06 Security Update for Adobe Flash Player for Windows 10 Version 1903 for x86-based Systems (KB4503308)
+2019-06 Security Update for Adobe Flash Player for Windows Server 2016 for x64-based Systems (KB4503308)
+2019-06 Security Update for Adobe Flash Player for Windows Server 2019 for x64-based Systems (KB4503308)
+2019-06 Servicing Stack Update for Windows 10 Version 1607 for x64-based Systems (KB4503537)
+2019-06 Servicing Stack Update for Windows 10 Version 1607 for x86-based Systems (KB4503537)
+2019-06 Servicing Stack Update for Windows 10 Version 1809 for x64-based Systems (KB4504369)
+2019-06 Servicing Stack Update for Windows 10 Version 1809 for x86-based Systems (KB4504369)
+2019-06 Servicing Stack Update for Windows Server 2016 for x64-based Systems (KB4503537)
+2019-06 Servicing Stack Update for Windows Server 2019 for x64-based Systems (KB4504369)
+```
+
+#### Functions
+
+Lots of changes to the internal Private Functions, now using proper PowerShell Verb-Noun naming format.  Work in progress.  Make sure you close all open PowerShell Sessions after updating the Module
+
+![Lots of Work!!!!](../../.gitbook/assets/image%20%28162%29.png)
+
+## 19.6.3 \(June 3, 2019\)
+
+**New Windows 10 1903 SSU and LCU's have been released, and the issue with the LCU not being able to be applied to WinPE seems to have been resolved**
+
+**I have started to add a Time Stamp and Duration to the Console output, which aligns with the Log Time Stamp.  This is being added in pieces, so it may take a few updates before this is complete.**
+
+**Some internal Scripts and Functions have changed, so I highly recommend closing all PowerShell sessions after updating to the current Module version**
+
+![](../../.gitbook/assets/image%20%2850%29.png)
+
+## 19.5.22 \(May 22, 2019\)
+
+**Installing the LCU in WinPE is causing DISM related issues in Windows 10 1903.  This is currently disabled until a resolution can be found**
+
+![](../../.gitbook/assets/image%20%2880%29.png)
+
+## 19.5.21 \(May 21, 2019\)
+
+**Added Windows 10 1903 to ESD Downloads**
+
+## 19.5.20 \(May 20, 2019\)
+
+Windows 10 1903 has a new Cumulative Update.  The remaining updates from May 16 appear to be MicroCode related \(OSBuilds only\)
+
+![](../../.gitbook/assets/image%20%28223%29.png)
+
+## 19.5.14 \(May 14, 2019\) Patch Tuesday
+
+**Patch Tuesday is here folks and ALL Windows 10 OS's have new Servicing Stacks!**
+
+![](../../.gitbook/assets/image%20%2820%29.png)
+
+## 19.5.7 \(May 7, 2019\)
+
+**Cumulative Updates for 1809 and 1903.  New Servicing Stack Updates for Windows 10 1903.  No script changes in this release to keep everyone at MMSMOA happy!**
+
+![](../../.gitbook/assets/image%20%2888%29.png)
+
+## 19.4.26 \(April 26, 2019\)
+
+**New Dynamic Updates for some old versions of Windows 10**
+
+![](../../.gitbook/assets/image%20%28114%29.png)
+
 ## 19.4.14 \(April 14, 2019\)
 
 * **New-OSBuildTask** - Use SaveAs parameter to create a Template \(replaces the Kind Child Mandatory parameter that made zero sense\)

@@ -8,7 +8,7 @@
 
 To properly add the Language Resources that you need, you have to know what Features are in the different Windows PE's.  OSDBuilder captures this information in a TXT, JSON, and XML format
 
-![](../../../../.gitbook/assets/image%20%28179%29.png)
+![](../../../../.gitbook/assets/image%20%28193%29.png)
 
 You can easily pull a list using PowerShell
 
@@ -95,7 +95,7 @@ You will probably have to run this command a few times to build out your Task pr
 * **For WinPE-Speech-TTS, you will need the Parent Language Package \(if one exists\)**
 * **Repeat the command line as many times as you need to edit the same Task**
 
-![](../../../../.gitbook/assets/image%20%2870%29.png)
+![](../../../../.gitbook/assets/image%20%2877%29.png)
 
 ### Task JSON
 
