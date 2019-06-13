@@ -4,6 +4,20 @@
 
 {% page-ref page="../docs/basics/installation.md" %}
 
+## 19.6.13 \(June 13, 2019\) Legacy Update
+
+**This release only contains Updates for Windows 7 and Windows Server 2012 R2**
+
+```text
+2019-06 Cumulative Security Update for Internet Explorer 11 for Windows 7 for x64-based systems (KB4503259)
+2019-06 Cumulative Security Update for Internet Explorer 11 for Windows 7 for x86-based systems (KB4503259)
+2019-06 Cumulative Security Update for Internet Explorer 11 for Windows Server 2012 R2 for x64-based systems (KB4503259)
+2019-06 Security Monthly Quality Rollup for Windows 7 for x64-based Systems (KB4503292)
+2019-06 Security Monthly Quality Rollup for Windows 7 for x86-based Systems (KB4503292)
+2019-06 Security Monthly Quality Rollup for Windows Server 2012 R2 for x64-based Systems (KB4503276)
+2019-06 Security Update for Adobe Flash Player for Windows Server 2012 R2 for x64-based Systems (KB4503308)
+```
+
 ## 19.6.11 \(June 11, 2019\) Patch Tuesday
 
 Hello friends, here's a quick list of the changes
