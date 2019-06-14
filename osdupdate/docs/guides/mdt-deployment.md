@@ -6,17 +6,17 @@ You should have completed the previous page first
 
 Then make sure that you have the Office 2016 Bundle and the OSDUpdate Windows Package available.  You will want to make these hidden in your Production environment
 
-![](../../../.gitbook/assets/image%20%2890%29.png)
+![](../../../.gitbook/assets/image%20%2891%29.png)
 
 Office 2016 is installed first
 
-![](../../../.gitbook/assets/image%20%28208%29.png)
+![](../../../.gitbook/assets/image%20%28210%29.png)
 
 ## OSDUpdate Package Office 2016 64-Bit
 
 This package will install after Office 2016
 
-![](../../../.gitbook/assets/image%20%28256%29.png)
+![](../../../.gitbook/assets/image%20%28258%29.png)
 
 ## OSDUpdate Package Windows 10 x64 1903
 
@@ -26,13 +26,13 @@ Followed by the Windows OSDUpdate Package
 I'll need to work on some logic to apply the Servicing Stack first, but this should be easy enough to solve in the next few days
 {% endhint %}
 
-![](../../../.gitbook/assets/image%20%28253%29.png)
+![](../../../.gitbook/assets/image%20%28255%29.png)
 
 ## Wrap-Up
 
 After the updates are applied, you should restart the computer to finalize the update
 
-![](../../../.gitbook/assets/image%20%28328%29.png)
+![](../../../.gitbook/assets/image%20%28330%29.png)
 
 And that's it!  OSDUpdate can be easily integrated with MDT for keeping deployments up to date when you can't update the Reference Image
 

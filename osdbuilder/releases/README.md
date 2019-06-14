@@ -86,7 +86,7 @@ Here are the new updates, no time to test.
 
 Lots of changes to the internal Private Functions, now using proper PowerShell Verb-Noun naming format.  Work in progress.  Make sure you close all open PowerShell Sessions after updating the Module
 
-![Lots of Work!!!!](../../.gitbook/assets/image%20%28175%29.png)
+![Lots of Work!!!!](../../.gitbook/assets/image%20%28176%29.png)
 
 ## 19.6.3 \(June 3, 2019\)
 
@@ -96,13 +96,13 @@ Lots of changes to the internal Private Functions, now using proper PowerShell V
 
 **Some internal Scripts and Functions have changed, so I highly recommend closing all PowerShell sessions after updating to the current Module version**
 
-![](../../.gitbook/assets/image%20%2852%29.png)
+![](../../.gitbook/assets/image%20%2853%29.png)
 
 ## 19.5.22 \(May 22, 2019\)
 
 **Installing the LCU in WinPE is causing DISM related issues in Windows 10 1903.  This is currently disabled until a resolution can be found**
 
-![](../../.gitbook/assets/image%20%2884%29.png)
+![](../../.gitbook/assets/image%20%2885%29.png)
 
 ## 19.5.21 \(May 21, 2019\)
 
@@ -112,7 +112,7 @@ Lots of changes to the internal Private Functions, now using proper PowerShell V
 
 Windows 10 1903 has a new Cumulative Update.  The remaining updates from May 16 appear to be MicroCode related \(OSBuilds only\)
 
-![](../../.gitbook/assets/image%20%28242%29.png)
+![](../../.gitbook/assets/image%20%28244%29.png)
 
 ## 19.5.14 \(May 14, 2019\) Patch Tuesday
 
@@ -124,13 +124,13 @@ Windows 10 1903 has a new Cumulative Update.  The remaining updates from May 16 
 
 **Cumulative Updates for 1809 and 1903.  New Servicing Stack Updates for Windows 10 1903.  No script changes in this release to keep everyone at MMSMOA happy!**
 
-![](../../.gitbook/assets/image%20%2895%29.png)
+![](../../.gitbook/assets/image%20%2896%29.png)
 
 ## 19.4.26 \(April 26, 2019\)
 
 **New Dynamic Updates for some old versions of Windows 10**
 
-![](../../.gitbook/assets/image%20%28123%29.png)
+![](../../.gitbook/assets/image%20%28124%29.png)
 
 ## 19.4.14 \(April 14, 2019\)
 
