@@ -10,7 +10,7 @@ The start of the **OSBuild Execute** will be exactly what you should have seen d
 
 ![](../../../../.gitbook/assets/image%20%2897%29.png)
 
-![](../../../../.gitbook/assets/image%20%28291%29.png)
+![](../../../../.gitbook/assets/image%20%28294%29.png)
 
 ### WinPE Phase
 

@@ -8,7 +8,7 @@
 
 To properly add the Language Resources that you need, you have to know what Features are in the different Windows PE's.  OSDBuilder captures this information in a TXT, JSON, and XML format
 
-![](../../../../.gitbook/assets/image%20%28209%29.png)
+![](../../../../.gitbook/assets/image%20%28210%29.png)
 
 You can easily pull a list using PowerShell
 

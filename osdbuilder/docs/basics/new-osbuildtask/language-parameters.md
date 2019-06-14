@@ -8,7 +8,7 @@
 
 Language Parameters are used to add Language Packages and to change settings related to Language.  Refer to the Windows MultiLang documentation and the Additional Resources for detailed information on these parameters
 
-![](../../../../.gitbook/assets/image%20%28201%29.png)
+![](../../../../.gitbook/assets/image%20%28202%29.png)
 
 ## Additional Resources
 

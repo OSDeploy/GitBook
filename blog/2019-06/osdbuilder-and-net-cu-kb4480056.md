@@ -22,7 +22,7 @@ In this test, I'm going to be working with Windows 10 x64 1809, so rather than I
 OSMedia -Verbose
 ```
 
-![](../../.gitbook/assets/image%20%28289%29.png)
+![](../../.gitbook/assets/image%20%28292%29.png)
 
 ## New-OSBuildTask
 
@@ -32,7 +32,7 @@ I'll create a New-OSBuild Task with the only purpose to enable NetFX 3.5
 New-OSBuildTask -TaskName "NetFX Update Test" -EnableNetFX3
 ```
 
-![](../../.gitbook/assets/image%20%28245%29.png)
+![](../../.gitbook/assets/image%20%28246%29.png)
 
 ## New-OSBuild
 
@@ -42,7 +42,7 @@ I'll cheat again and copy the updates I need from another OSDBuilder project, an
 New-OSBuild
 ```
 
-![](../../.gitbook/assets/image%20%28197%29.png)
+![](../../.gitbook/assets/image%20%28198%29.png)
 
 ## New-OSBuild -Execute -WaitDismount
 
@@ -63,7 +63,7 @@ Its important to understand what is happening here with NetFX 3.5
 
 This is the proper way to do things folks!
 
-![](../../.gitbook/assets/image%20%28216%29.png)
+![](../../.gitbook/assets/image%20%28217%29.png)
 
 ## New-OSDBuilderISO
 
@@ -79,11 +79,11 @@ New-OSDBuilderISO
 
 Thank GOD for Virtual Machines.  Time to do some testing on the new image to see what updates are needed
 
-![](../../.gitbook/assets/image%20%28238%29.png)
+![](../../.gitbook/assets/image%20%28239%29.png)
 
 And the results?  Not good, I still needed KB4480056
 
-![](../../.gitbook/assets/image%20%28123%29.png)
+![](../../.gitbook/assets/image%20%28124%29.png)
 
 ## Further Testing
 
@@ -99,7 +99,7 @@ Checking WSUS certainly shows that this update is Superseded
 
 But the newer .NET Framework Cumulative Updates are not updating the .NET Framework files
 
-![](../../.gitbook/assets/image%20%28217%29.png)
+![](../../.gitbook/assets/image%20%28218%29.png)
 
 So I add the previous Cumulative Update and proceed with updating my OSMedia
 
@@ -111,7 +111,7 @@ Checking the Mounted Install.wim shows the updated files working as expected
 
 Validated it installed and is working properly
 
-![](../../.gitbook/assets/image%20%28183%29.png)
+![](../../.gitbook/assets/image%20%28184%29.png)
 
 ## Conclusion
 

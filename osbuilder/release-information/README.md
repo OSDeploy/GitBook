@@ -34,7 +34,7 @@ Import-Module -Name OSBuilder -Force
 **Notification of a Pre-Release version when executing Get-OSBuilder**
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%28260%29.png)
+![](../../.gitbook/assets/image%20%28261%29.png)
 
 ## 19.2.15 \(February 15, 2019\)
 

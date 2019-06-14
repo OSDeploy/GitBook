@@ -32,7 +32,7 @@ If you already have your ISO's, you can skip this step, otherwise you can use th
 Get-DownOSDBuilder -MediaESD Download
 ```
 
-![](../../../../.gitbook/assets/image%20%28256%29.png)
+![](../../../../.gitbook/assets/image%20%28257%29.png)
 
 Keep in mind that this may take a considerable amount of time as the files must be downloaded and extracted
 
@@ -59,11 +59,11 @@ Extract the following ISOs from as shown in the image below
 * **Windows 10 1809 Features on Demand x64**
 * **Windows 10 1809 Language**
 
-![](../../../../.gitbook/assets/image%20%28203%29.png)
+![](../../../../.gitbook/assets/image%20%28204%29.png)
 
 In the Windows 10 1809 Language content, delete the directories and files for the Languages that will not be in your Media.  Do not delete your Primary OSMedia Language files
 
-![](../../../../.gitbook/assets/image%20%28288%29.png)
+![](../../../../.gitbook/assets/image%20%28291%29.png)
 
 ## Windows ADK
 
@@ -85,7 +85,7 @@ If you have the Languages ISO in your ISOExtract directory, delete ALL the ADK L
 
 **Why delete them?  Ask Microsoft ...**
 
-![](../../../../.gitbook/assets/image%20%28130%29.png)
+![](../../../../.gitbook/assets/image%20%28131%29.png)
 
 [https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/add-language-packs-to-windows\#get-language-resources-language-pack-iso-and-feature-on-demand-iso](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/add-language-packs-to-windows#get-language-resources-language-pack-iso-and-feature-on-demand-iso)
 

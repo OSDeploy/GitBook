@@ -4,6 +4,21 @@
 
 {% page-ref page="../docs/basics/installation.md" %}
 
+## 19.6.14 \(June 14, 2019\)
+
+Resolved issue with **`OSDBuilder -Update`** so use the script below to take care of it
+
+{% embed url="https://gist.github.com/OSDeploy/86f3a1ac2ef879c7124534a9a288b73f" %}
+
+#### New Updates
+
+```text
+2019-01 Cumulative Update for .NET Framework 3.5 and 4.7.2 for Windows 10 Version 1809 (KB4480056)
+2019-01 Cumulative Update for .NET Framework 3.5 and 4.7.2 for Windows 10 Version 1809 for x64 (KB4480056)
+```
+
+{% page-ref page="../../blog/2019-06/osdbuilder-and-net-cu-kb4480056.md" %}
+
 ## 19.6.13 \(June 13, 2019\) Legacy Update
 
 **This release only contains Updates for Windows 7 and Windows Server 2012 R2**
@@ -86,7 +101,7 @@ Here are the new updates, no time to test.
 
 Lots of changes to the internal Private Functions, now using proper PowerShell Verb-Noun naming format.  Work in progress.  Make sure you close all open PowerShell Sessions after updating the Module
 
-![Lots of Work!!!!](../../.gitbook/assets/image%20%28176%29.png)
+![Lots of Work!!!!](../../.gitbook/assets/image%20%28177%29.png)
 
 ## 19.6.3 \(June 3, 2019\)
 
@@ -112,7 +127,7 @@ Lots of changes to the internal Private Functions, now using proper PowerShell V
 
 Windows 10 1903 has a new Cumulative Update.  The remaining updates from May 16 appear to be MicroCode related \(OSBuilds only\)
 
-![](../../.gitbook/assets/image%20%28244%29.png)
+![](../../.gitbook/assets/image%20%28245%29.png)
 
 ## 19.5.14 \(May 14, 2019\) Patch Tuesday
 
@@ -130,7 +145,7 @@ Windows 10 1903 has a new Cumulative Update.  The remaining updates from May 16 
 
 **New Dynamic Updates for some old versions of Windows 10**
 
-![](../../.gitbook/assets/image%20%28124%29.png)
+![](../../.gitbook/assets/image%20%28125%29.png)
 
 ## 19.4.14 \(April 14, 2019\)
 

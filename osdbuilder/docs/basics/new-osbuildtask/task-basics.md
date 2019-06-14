@@ -42,17 +42,17 @@ You will be prompted to elect an **OSMedia** to use for creating the **OSBuild**
 
 Since no real configuration **Parameters** were used, there won't be much of anything else displayed
 
-![](../../../../.gitbook/assets/image%20%28178%29.png)
+![](../../../../.gitbook/assets/image%20%28179%29.png)
 
 And finally the Task will be completed with absolutely nothing of real importance
 
-![](../../../../.gitbook/assets/image%20%28303%29.png)
+![](../../../../.gitbook/assets/image%20%28306%29.png)
 
 ## Task JSON
 
 The **Task** configuration will be saved as a **JSON** in **&lt;OSDBuilder Home&gt;\Tasks**.  My **OSDBuilder Home** is **D:\OSDBuilder\Demo**
 
-![](../../../../.gitbook/assets/image%20%28193%29.png)
+![](../../../../.gitbook/assets/image%20%28194%29.png)
 
 ## Edit a Task
 
@@ -70,7 +70,7 @@ New-OSBuildTask -TaskName "Win10 x64 1809 DEV"
 
 In this case, a Warning will be presented letting you know that the Task will be edited.  Additionally, the **`CustomName`**  value existed previously, and is retained
 
-![](../../../../.gitbook/assets/image%20%28263%29.png)
+![](../../../../.gitbook/assets/image%20%28264%29.png)
 
 
 

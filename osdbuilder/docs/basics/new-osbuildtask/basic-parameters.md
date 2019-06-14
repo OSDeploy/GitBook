@@ -6,7 +6,7 @@ There are several parameters you can use to configure an OSBuild.  The goal of t
 
 Again, we are going to use **`New-OSBuildTask`**, but this time, selecting some Parameters.  Leave off the **`CustomName`** and **`SaveAs`**
 
-![](../../../../.gitbook/assets/image%20%28246%29.png)
+![](../../../../.gitbook/assets/image%20%28247%29.png)
 
 This gives quite a lengthy PowerShell command line
 
@@ -24,7 +24,7 @@ This parameter will enable **DotNet Framework 3.5** in your **OSBuild**.  This i
 
 This will automatically copy several Windows executables from your **Install.wim** into **WinPE**.  These files were already copied from your **Install.wim** when you executed **`Import-OSMedia`**
 
-![](../../../../.gitbook/assets/image%20%28149%29.png)
+![](../../../../.gitbook/assets/image%20%28150%29.png)
 
 Since the same TaskName is being used, we will be editing the Task.  A warning will be displayed that the content will be updated.  The values for **DotNet 3.5** and **WinPEAutoExtraFiles** are set to True
 
@@ -36,31 +36,31 @@ Since the same TaskName is being used, we will be editing the Task.  A warning w
 
 This parameter will allow you to select **Appx Provisioned Packages** that you want removed from your **OSBuild**
 
-![](../../../../.gitbook/assets/image%20%28205%29.png)
+![](../../../../.gitbook/assets/image%20%28206%29.png)
 
 ### RemoveCapability
 
 You can remove a **Windows Capability** from your **OSBuild**.  Again, I typically cancel in this step
 
-![](../../../../.gitbook/assets/image%20%28185%29.png)
+![](../../../../.gitbook/assets/image%20%28186%29.png)
 
 ### RemovePackage
 
 You can select multiple **Windows Packages** to remove in the **OSBuild**.  For this, I typically just press Cancel
 
-![](../../../../.gitbook/assets/image%20%28253%29.png)
+![](../../../../.gitbook/assets/image%20%28254%29.png)
 
 ### DisableFeature
 
 **Windows Optional Features** can be disabled.  This again is something I typically leave alone and press cancel
 
-![](../../../../.gitbook/assets/image%20%28292%29.png)
+![](../../../../.gitbook/assets/image%20%28295%29.png)
 
 ### EnableFeature
 
 You can use this parameter to Enable Windows Optional Features.  In this case, I am going to enable Hyper-V
 
-![](../../../../.gitbook/assets/image%20%28324%29.png)
+![](../../../../.gitbook/assets/image%20%28327%29.png)
 
 ## Console Output
 
@@ -109,13 +109,13 @@ New-OSBuildTask -TaskName "Win10 x64 1809 DEV" -RemoveAppx
 
 When prompted to select Appx Provisioned Packages, you will see the previously removed items.  Additionally, they will not appear in the GridView selection
 
-![](../../../../.gitbook/assets/image%20%28363%29.png)
+![](../../../../.gitbook/assets/image%20%28366%29.png)
 
 It is obviously which are the new selections in the Console output
 
-![](../../../../.gitbook/assets/image%20%28287%29.png)
+![](../../../../.gitbook/assets/image%20%28290%29.png)
 
 I'll run the command one additional time to show the difference in the Console output and the GridView selection
 
-![](../../../../.gitbook/assets/image%20%28159%29.png)
+![](../../../../.gitbook/assets/image%20%28160%29.png)
 
