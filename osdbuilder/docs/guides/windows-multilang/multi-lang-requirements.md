@@ -32,7 +32,7 @@ If you already have your ISO's, you can skip this step, otherwise you can use th
 Get-DownOSDBuilder -MediaESD Download
 ```
 
-![](../../../../.gitbook/assets/image%20%28242%29.png)
+![](../../../../.gitbook/assets/image%20%28243%29.png)
 
 Keep in mind that this may take a considerable amount of time as the files must be downloaded and extracted
 
@@ -63,7 +63,7 @@ Extract the following ISOs from as shown in the image below
 
 In the Windows 10 1809 Language content, delete the directories and files for the Languages that will not be in your Media.  Do not delete your Primary OSMedia Language files
 
-![](../../../../.gitbook/assets/image%20%28274%29.png)
+![](../../../../.gitbook/assets/image%20%28275%29.png)
 
 ## Windows ADK
 

@@ -32,7 +32,7 @@ Import-OSMedia
 
 The Operating System Index that was selected will be mounted
 
-![](../../../../.gitbook/assets/image%20%28217%29.png)
+![](../../../../.gitbook/assets/image%20%28218%29.png)
 
 ### Mounted Inventory
 
@@ -40,5 +40,5 @@ Once mounted, a full inventory will be saved, and the Operating System will be c
 
 ![](../../../../.gitbook/assets/image%20%28126%29.png)
 
-![](../../../../.gitbook/assets/image%20%28210%29.png)
+![](../../../../.gitbook/assets/image%20%28211%29.png)
 

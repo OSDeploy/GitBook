@@ -10,11 +10,11 @@ Considering this Windows 10 contains 4 additional Languages, the size increase i
 
 When booting to the ISO, you will be prompted to select a Language.  This is because the Language Resources have been properly added to WinSE.  This Language selection is for WinSE only and will not affect your Windows once the system reboots to the OS.  There are two English selections in this list for en-US and en-GB
 
-![](../../../../.gitbook/assets/image%20%28286%29.png)
+![](../../../../.gitbook/assets/image%20%28287%29.png)
 
 Here you can see that you have the ability to select different Languages for Windows Setup.  This is due to the Lang.ini being added to WinSE.  When making a selection on this screen, this will set the default System UI Language, and the OOBE Language.  In this test I have selected en-GB \(English International\)
 
-![](../../../../.gitbook/assets/image%20%28283%29.png)
+![](../../../../.gitbook/assets/image%20%28284%29.png)
 
 ## OOBE \(Out of Box Experience\)
 
@@ -32,11 +32,11 @@ My Keyboard was automatically selected to United Kingdom
 
 So I'll change this to US
 
-![](../../../../.gitbook/assets/image%20%28230%29.png)
+![](../../../../.gitbook/assets/image%20%28231%29.png)
 
 Now I wait ...
 
-![](../../../../.gitbook/assets/image%20%28204%29.png)
+![](../../../../.gitbook/assets/image%20%28205%29.png)
 
 ## Windows Desktop
 
@@ -50,7 +50,7 @@ Windows Display Language is set to English \(United Kingdom\)
 
 DISM confirms that the System UI is en-GB
 
-![](../../../../.gitbook/assets/image%20%28245%29.png)
+![](../../../../.gitbook/assets/image%20%28246%29.png)
 
 ## Windows 10 Upgrade en-GB to en-US
 
@@ -60,7 +60,7 @@ In this example, I have a Windows 10 x64 1803 with en-GB as the System UI Langua
 
 I did get a warning that my Language will change if I proceeded with the Upgrade
 
-![](../../../../.gitbook/assets/image%20%28262%29.png)
+![](../../../../.gitbook/assets/image%20%28263%29.png)
 
 But it seems that en-GB to en-US \(with an en-GB Language Pack\) will work
 
@@ -70,5 +70,5 @@ But it seems that en-GB to en-US \(with an en-GB Language Pack\) will work
 
 It seems in this case, going from a French installation to English won't work though, and this is why a single Windows Upgrade with Language Packs will not work for Localized installations
 
-![](../../../../.gitbook/assets/image%20%28347%29.png)
+![](../../../../.gitbook/assets/image%20%28349%29.png)
 

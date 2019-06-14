@@ -10,7 +10,7 @@
 
 When you have your Task sorted out you can create your OSBuild.  Here is what the WinPE Language integration looks like
 
-![](../../../../.gitbook/assets/image%20%28240%29.png)
+![](../../../../.gitbook/assets/image%20%28241%29.png)
 
 The OS integration will include the Language Packs and Language Features will be installed, and Language Sources will be added.  A new Lang.ini will be generated \(in Sources\).  The Lang.ini is also copied to WinSE \(Windows Setup\)
 

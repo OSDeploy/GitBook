@@ -6,7 +6,7 @@
 
 Open Windows System Image Manager to Select a Windows Image
 
-![](../../../../../.gitbook/assets/image%20%28203%29.png)
+![](../../../../../.gitbook/assets/image%20%28204%29.png)
 
 In this example, I will be Servicing Windows 10 Enterprise x64 1809.  The Install.wim will be mounted and a Catalog will be created
 
@@ -14,17 +14,17 @@ In this example, I will be Servicing Windows 10 Enterprise x64 1809.  The Instal
 
 The Catalog will be saved in the Sources directory with the Install.wim.  This file can be used for future builds with Windows System Image Manager so it doesn't have to mount the Install.wim
 
-![](../../../../../.gitbook/assets/image%20%28355%29.png)
+![](../../../../../.gitbook/assets/image%20%28357%29.png)
 
 When complete, Packages will contain detailed information about the Windows Image
 
-![](../../../../../.gitbook/assets/image%20%28294%29.png)
+![](../../../../../.gitbook/assets/image%20%28295%29.png)
 
 ## Answer File
 
 Creaate a new Answer File
 
-![](../../../../../.gitbook/assets/image%20%28289%29.png)
+![](../../../../../.gitbook/assets/image%20%28290%29.png)
 
 ## Add Features
 
@@ -40,13 +40,13 @@ At this point you can Enable or Disable Features.  Make sure you **Enable Parent
 
 When complete, press the Save button on the toolbar to create the Unattend XML.  Save this file in the OSDBuilder\Content\Unattend directory
 
-![](../../../../../.gitbook/assets/image%20%28209%29.png)
+![](../../../../../.gitbook/assets/image%20%28210%29.png)
 
 ## Resolve Validation Errors
 
 Keep an eye out for any Validation Errors.  This will cause the Unattend XML to fail
 
-![](../../../../../.gitbook/assets/image%20%28280%29.png)
+![](../../../../../.gitbook/assets/image%20%28281%29.png)
 
 The Unattend XML is now ready to be added to a **`New-OSBuildTask`**
 

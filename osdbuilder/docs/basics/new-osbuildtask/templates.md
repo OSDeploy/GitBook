@@ -32,5 +32,5 @@ New-OSBuildTask -TaskName "Global Enable NetFX" -EnableNetFX3 -SaveAs Template
 
 Templates that are applied will be displayed when executing **`New-OSBuild`**
 
-![](../../../../.gitbook/assets/image%20%28236%29.png)
+![](../../../../.gitbook/assets/image%20%28237%29.png)
 

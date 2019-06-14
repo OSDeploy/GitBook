@@ -18,7 +18,7 @@ You should first validate your **OSBuild** by using **New-OSBuild** without any 
 
 The first step is to select an **OSBuild Task** and press OK.  Its important to note that this OSBuild Task was created with a **UBR of 17763.107**
 
-![](../../../../.gitbook/assets/image%20%28282%29.png)
+![](../../../../.gitbook/assets/image%20%28283%29.png)
 
 ### OSBuild Task Information
 
@@ -30,7 +30,7 @@ The OSMedia that was used to create the **OSBuild Task** will be displayed, as w
 
 The problem is that I seem to have an updated **OSMedia** that should be used
 
-![](../../../../.gitbook/assets/image%20%28281%29.png)
+![](../../../../.gitbook/assets/image%20%28282%29.png)
 
 This is not an issue as **OSDBuilder** will automatically select the latest release
 

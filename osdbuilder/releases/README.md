@@ -112,7 +112,7 @@ Lots of changes to the internal Private Functions, now using proper PowerShell V
 
 Windows 10 1903 has a new Cumulative Update.  The remaining updates from May 16 appear to be MicroCode related \(OSBuilds only\)
 
-![](../../.gitbook/assets/image%20%28231%29.png)
+![](../../.gitbook/assets/image%20%28232%29.png)
 
 ## 19.5.14 \(May 14, 2019\) Patch Tuesday
 

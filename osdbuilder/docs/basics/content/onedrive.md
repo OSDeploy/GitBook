@@ -26,7 +26,7 @@ Use this function to download either the Production or Enterprise versions to **
 **You should repeat this process as needed to ensure you are on the latest version**
 {% endhint %}
 
-![](../../../../.gitbook/assets/image%20%28207%29.png)
+![](../../../../.gitbook/assets/image%20%28208%29.png)
 
 ## Update-OSMedia and New-OSBuild
 

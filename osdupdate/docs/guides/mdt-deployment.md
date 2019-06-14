@@ -1,28 +1,40 @@
 # MDT Deployment
 
-Here is the moment of truth.  In testing the integration of Office and Windows Updates, I should have my Office 2016 Bundle and the OSDUpdate Windows Package.  You will want to make these hidden in your Production environment
+You should have completed the previous page first
+
+{% page-ref page="osdupdate-mdt-integration.md" %}
+
+Then make sure that you have the Office 2016 Bundle and the OSDUpdate Windows Package available.  You will want to make these hidden in your Production environment
 
 ![](../../../.gitbook/assets/image%20%2886%29.png)
 
+Office 2016 is installed first
+
+![](../../../.gitbook/assets/image%20%28201%29.png)
+
 ## OSDUpdate Package Office 2016 64-Bit
 
-![](../../../.gitbook/assets/image%20%28244%29.png)
+This package will install after Office 2016
+
+![](../../../.gitbook/assets/image%20%28245%29.png)
 
 ## OSDUpdate Package Windows 10 x64 1903
 
-
+Followed by the Windows OSDUpdate Package
 
 {% hint style="info" %}
-I'll need to work on some logic to apply the Servicing Stack first, but this should be easy enough
+I'll need to work on some logic to apply the Servicing Stack first, but this should be easy enough to solve in the next few days
 {% endhint %}
 
-![](../../../.gitbook/assets/image%20%28241%29.png)
+![](../../../.gitbook/assets/image%20%28242%29.png)
 
+## Wrap-Up
 
+After the updates are applied, you should restart the computer to finalize the update
 
-## Conclusions
+![](../../../.gitbook/assets/image%20%28316%29.png)
 
-OSDUpdate can be easily integratred with MDT for keeping deployments up to dayte
+And that's it!  OSDUpdate can be easily integrated with MDT for keeping deployments up to date when you can't update the Reference Image
 
 
 

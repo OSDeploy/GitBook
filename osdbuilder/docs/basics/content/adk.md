@@ -42,7 +42,7 @@ Paste the copied Windows ADK in an appropriate directory
 
 There is an existing empty directory called Windows Preinstallation Environment
 
-![](../../../../.gitbook/assets/image%20%28223%29.png)
+![](../../../../.gitbook/assets/image%20%28224%29.png)
 
 The purpose of this directory is so you have a reference of the directory structure
 
