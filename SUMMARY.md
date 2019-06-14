@@ -2,6 +2,8 @@
 
 * [OSDeploy Home](README.md)
 * [Blog](blog/README.md)
+  * [2019-06](blog/2019-06/README.md)
+    * [OSDBuilder .Net Updates](blog/2019-06/osdbuilder-.net-updates.md)
   * [2019-04](blog/2019-04/README.md)
     * [Windows 10 Upgrade MultiLang \(Uno\)](blog/2019-04/windows-10-upgrade-multi-lang-uno.md)
   * [2019-02](blog/2019-02/README.md)

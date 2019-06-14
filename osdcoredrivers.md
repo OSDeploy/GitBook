@@ -14,7 +14,7 @@ In this example, I can select Intel Display Drivers.  The links are pulled from 
 
 Currently **OSDCoreDrivers** is targeted at Intel Display.  Intel Wireless and Intel Ethernet will be added before release
 
-![](.gitbook/assets/image%20%2857%29.png)
+![](.gitbook/assets/image%20%2859%29.png)
 
 ## The Process
 
@@ -25,7 +25,7 @@ What happens next is this ...
 * **Supported PNPIDs are exported from the INFs and indexed in an XML**
 * **Driver directory is converted to a CAB**
 
-![](.gitbook/assets/image%20%28304%29.png)
+![](.gitbook/assets/image%20%28316%29.png)
 
 ## Why use Cabs?
 
@@ -41,7 +41,7 @@ In table below compares the latest Intel DCH Drivers in the three different form
 | **Zip** | **312MB** |
 | **Expanded** | **978MB** |
 
-![](.gitbook/assets/image%20%28333%29.png)
+![](.gitbook/assets/image%20%28346%29.png)
 
 ## Deployment Process
 
@@ -62,15 +62,15 @@ I'm still working on this aspect, but the design will follow these steps
 
 I'll keep this simple so you can keep up.  Let's say you use the **Driver Automation Tool**.  In this example, I download the 10 most common Driver Packages for my environment.  In total, I have ~20GB \(~2GB each\)
 
-![](.gitbook/assets/image%20%28163%29.png)
+![](.gitbook/assets/image%20%28169%29.png)
 
 Using **OSDCoreDrivers** for Intel Display results in about 500MB of compressed drivers.  **Believe it or not, these are the only three Drivers that are needed to support Windows 10 x64**
 
-![](.gitbook/assets/image%20%28129%29.png)
+![](.gitbook/assets/image%20%28135%29.png)
 
 When looking at what was in the Dell Driver Packages, I can remove the Intel Display Drivers and recover 8.27GB of space.  In this case, 42% of my Drivers were Intel Display related.  In the image below its easy to see that there were several duplicated Drivers between different Models, and some x86 Drivers that are completely unnecessary
 
-![](.gitbook/assets/image%20%28197%29.png)
+![](.gitbook/assets/image%20%28204%29.png)
 
 ## Goal
 

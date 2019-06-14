@@ -8,21 +8,21 @@ The start of the **OSBuild Execute** will be exactly what you should have seen d
 
 ![](../../../../.gitbook/assets/image%20%2823%29.png)
 
-![](../../../../.gitbook/assets/image%20%2892%29.png)
+![](../../../../.gitbook/assets/image%20%2896%29.png)
 
-![](../../../../.gitbook/assets/image%20%28277%29.png)
+![](../../../../.gitbook/assets/image%20%28289%29.png)
 
 ### WinPE Phase
 
 **WinPE** will be updated if necessary and the **WinPE Auto Extra Files** will be added
 
-![](../../../../.gitbook/assets/image%20%2895%29.png)
+![](../../../../.gitbook/assets/image%20%2899%29.png)
 
 ### Update Phase
 
 The Updates will be applied if necessary
 
-![](../../../../.gitbook/assets/image%20%28104%29.png)
+![](../../../../.gitbook/assets/image%20%28109%29.png)
 
 ### Customize and Close
 
@@ -34,7 +34,7 @@ Finally, the customizations from the OSBuild Task will be applied and the image 
 
 The **OSBuild** that was created can be found in the **OSBuilds** directory, and it will be named the **CustomName** that was specified by the **OSBuild Task** with the **UBR** added to the end
 
-![](../../../../.gitbook/assets/image%20%2885%29.png)
+![](../../../../.gitbook/assets/image%20%2889%29.png)
 
 
 

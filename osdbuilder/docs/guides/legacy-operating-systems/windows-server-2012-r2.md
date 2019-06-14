@@ -10,7 +10,7 @@
 
 **OSDBuilder** has only been tested with importing and updating Windows Server 2012 R2 \(December 16, 2014\). If you do not use this version, expect inconsistent results. The ISO can be downloaded from [**MVLS \(Microsoft Volume Licensing Service Center\)**](https://www.microsoft.com/Licensing/servicecenter/Home.aspx)**​**
 
-![](../../../../.gitbook/assets/image%20%28193%29.png)
+![](../../../../.gitbook/assets/image%20%28200%29.png)
 
 ## Import-OSMedia <a id="import-osmedia"></a>
 
@@ -26,7 +26,7 @@ Use the following command to select and download the updates. Dynamic Updates ar
 Get-OSDBuilderDownloads -Download -GridView -UpdateOS "Windows Server 2012 R2"
 ```
 
-![](../../../../.gitbook/assets/image%20%28253%29.png)
+![](../../../../.gitbook/assets/image%20%28264%29.png)
 
 **The following is a list of Updates in OSDBuilder 19.3.12**
 
@@ -230,17 +230,17 @@ Update for Windows Server 2012 R2 (KB4468323)
 
 Let **`Update-OSMedia -Execute`** do its work
 
-![](../../../../.gitbook/assets/image%20%2838%29.png)
+![](../../../../.gitbook/assets/image%20%2839%29.png)
 
 ## Results <a id="results"></a>
 
 The only updates remaining can be added Online with minimal effort.  Internet Explorer 11 is installed and up to date
 
-![](../../../../.gitbook/assets/image%20%28202%29.png)
+![](../../../../.gitbook/assets/image%20%28209%29.png)
+
+![](../../../../.gitbook/assets/image%20%28110%29.png)
 
 ![](../../../../.gitbook/assets/image%20%28105%29.png)
-
-![](../../../../.gitbook/assets/image%20%28100%29.png)
 
 ![](../../../../.gitbook/assets/image%20%2831%29.png)
 

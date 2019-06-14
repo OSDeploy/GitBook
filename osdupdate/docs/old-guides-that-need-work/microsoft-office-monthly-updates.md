@@ -10,7 +10,7 @@ In the image below, OSDUpdate is version 19.3.6.0.  This corresponds with 2019 M
 
 Understanding this, OSDUpdate 19.3.6.x will contain the latest updates up to March 6, 2019.  Easy?
 
-![](../../../.gitbook/assets/image%20%28214%29.png)
+![](../../../.gitbook/assets/image%20%28223%29.png)
 
 You can easily update OSDUpdate by using the included function
 
@@ -28,13 +28,13 @@ Get-OSDUpdate -CatalogOffice "Office 2016 64-Bit" -OfficeProfile All -GridView
 
 In the image below, its easy to see the latest updates \(CreationDate\).  Additionally, in the background, two updates from the previous month are superseded but still present in the Catalog
 
-![](../../../.gitbook/assets/image%20%28223%29.png)
+![](../../../.gitbook/assets/image%20%28232%29.png)
 
 ## OSDUpdate Repository Root
 
 As a reminder, the OSDUpdate Repository Root will contain all the different Update Catalog Downloads.  The individual Office directories will be created automatically.  In this case, my OSDUpdate Repository Root is C:\OSDeploy\OSDUpdate
 
-![](../../../.gitbook/assets/image%20%28215%29.png)
+![](../../../.gitbook/assets/image%20%28224%29.png)
 
 ## Downloading Updates
 
@@ -48,17 +48,17 @@ Again, I am using the **`GridView`** parameter so I can see the Updates.  If I l
 
 In the console window, there may be some Warnings in Orange.  This lets me know that I have some Superseded updates already downloaded \(don't worry about the ones in grey, they are Superseded, but still in the Catalog, but they will be hidden from the results, so they will not be downloaded
 
-![](../../../.gitbook/assets/image%20%2835%29.png)
+![](../../../.gitbook/assets/image%20%2836%29.png)
 
 Select the Updates you want to download and press OK, and the Updates will be downloaded into the OSDUpdate Repository
 
-![](../../../.gitbook/assets/image%20%2889%29.png)
+![](../../../.gitbook/assets/image%20%2893%29.png)
 
 ## Removing Superseded Updates
 
 Adding the **`RemoveSuperseded`** parameter will remove the Superseded Updates for that specific Microsoft Office Update Catalog.  You will need to repeat this process for any additional Microsoft Office versions you have downloads for
 
-![](../../../.gitbook/assets/image%20%2856%29.png)
+![](../../../.gitbook/assets/image%20%2858%29.png)
 
 ## Automating Downloads
 
@@ -68,5 +68,5 @@ Simply leave off the **`GridView`** parameter and go about your day
 
 Additionally, you can add the **`RemoveSuperseded`** parameter to do your cleanup and download in the same step
 
-![](../../../.gitbook/assets/image%20%2834%29.png)
+![](../../../.gitbook/assets/image%20%2835%29.png)
 

@@ -32,11 +32,11 @@ If you already have your ISO's, you can skip this step, otherwise you can use th
 Get-DownOSDBuilder -MediaESD Download
 ```
 
-![](../../../../.gitbook/assets/image%20%28243%29.png)
+![](../../../../.gitbook/assets/image%20%28254%29.png)
 
 Keep in mind that this may take a considerable amount of time as the files must be downloaded and extracted
 
-![](../../../../.gitbook/assets/image%20%2843%29.png)
+![](../../../../.gitbook/assets/image%20%2845%29.png)
 
 ## Download the Windows 10 1809 Language AND Features on Demand x64 ISO
 
@@ -59,11 +59,11 @@ Extract the following ISOs from as shown in the image below
 * **Windows 10 1809 Features on Demand x64**
 * **Windows 10 1809 Language**
 
-![](../../../../.gitbook/assets/image%20%28194%29.png)
+![](../../../../.gitbook/assets/image%20%28201%29.png)
 
 In the Windows 10 1809 Language content, delete the directories and files for the Languages that will not be in your Media.  Do not delete your Primary OSMedia Language files
 
-![](../../../../.gitbook/assets/image%20%28275%29.png)
+![](../../../../.gitbook/assets/image%20%28286%29.png)
 
 ## Windows ADK
 
@@ -73,7 +73,7 @@ Download and install the Windows ADK and the WinPE Addon
 
 Add the Windows ADK to the proper Content directory
 
-![](../../../../.gitbook/assets/image%20%2852%29.png)
+![](../../../../.gitbook/assets/image%20%2854%29.png)
 
 If you have the Languages ISO in your ISOExtract directory, delete ALL the ADK Language sub-directories from the following location
 
@@ -81,11 +81,11 @@ If you have the Languages ISO in your ISOExtract directory, delete ALL the ADK L
 <OSDBuilder Home>\Content\ADK\Windows 10 1809\Windows Preinstallation Environment\amd64\WinPE_OCs
 ```
 
-![](../../../../.gitbook/assets/image%20%2836%29.png)
+![](../../../../.gitbook/assets/image%20%2837%29.png)
 
 **Why delete them?  Ask Microsoft ...**
 
-![](../../../../.gitbook/assets/image%20%28123%29.png)
+![](../../../../.gitbook/assets/image%20%28129%29.png)
 
 [https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/add-language-packs-to-windows\#get-language-resources-language-pack-iso-and-feature-on-demand-iso](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/add-language-packs-to-windows#get-language-resources-language-pack-iso-and-feature-on-demand-iso)
 
