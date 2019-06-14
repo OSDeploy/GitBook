@@ -52,5 +52,11 @@ You should add this to your Task Sequence as a Mandatory Application, and make s
 
 ![](../../../.gitbook/assets/image%20%28131%29.png)
 
+## Using PowerShell
+
+You can absolutely use PowerShell to do most of the work in creating the new Applications.  Use the script below as an example on how its done
+
+{% embed url="https://gist.github.com/OSDeploy/e51ad0a0198c1ca2df0a98d044f418c3" %}
+
 
 
